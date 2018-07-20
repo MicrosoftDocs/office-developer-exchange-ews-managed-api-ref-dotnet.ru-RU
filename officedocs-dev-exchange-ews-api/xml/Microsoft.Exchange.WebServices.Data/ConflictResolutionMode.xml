@@ -1,0 +1,85 @@
+<Type Name="ConflictResolutionMode" FullName="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="86fe83e0bc760e3e56d388ee3e7ad361f5e5e10e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626557" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ConflictResolutionMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConflictResolutionMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConflictResolutionMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConflictResolutionMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Определяет порядок обработки разрешение конфликтов при выполнении операций обновления.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AlwaysOverwrite">
+      <MemberSignature Language="C#" Value="AlwaysOverwrite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode AlwaysOverwrite = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode.AlwaysOverwrite" />
+      <MemberSignature Language="VB.NET" Value="AlwaysOverwrite" />
+      <MemberSignature Language="C++ CLI" Value="AlwaysOverwrite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictResolutionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Изменения свойств локального перезаписать изменения на сервере.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoResolve">
+      <MemberSignature Language="C#" Value="AutoResolve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode AutoResolve = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode.AutoResolve" />
+      <MemberSignature Language="VB.NET" Value="AutoResolve" />
+      <MemberSignature Language="C++ CLI" Value="AutoResolve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictResolutionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Локальное свойство изменения применяются к серверу пока копии на сервере в течение последних локальной копии.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NeverOverwrite">
+      <MemberSignature Language="C#" Value="NeverOverwrite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode NeverOverwrite = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode.NeverOverwrite" />
+      <MemberSignature Language="VB.NET" Value="NeverOverwrite" />
+      <MemberSignature Language="C++ CLI" Value="NeverOverwrite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictResolutionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Локальное свойство изменения будут удалены.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,247 @@
+<Type Name="SearchMailboxesParameters" FullName="Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="439519d59da37509c7901c8cd790b4e03f20778c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626565" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchMailboxesParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchMailboxesParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchMailboxesParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchMailboxesParameters sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит параметры, необходимые для поиска почтовых ящиков обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchMailboxesParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchMailboxesParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает язык, используемый в <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" /> свойство. <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.Language" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageDirection">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchPageDirection PageDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SearchPageDirection PageDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageDirection As SearchPageDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchPageDirection PageDirection { Microsoft::Exchange::WebServices::Data::SearchPageDirection get(); void set(Microsoft::Exchange::WebServices::Data::SearchPageDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPageDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, которое определяет, следует ли выполнять поиск вперед или назад.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageDirection" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Направление страницы поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageItemReference">
+      <MemberSignature Language="C#" Value="public string PageItemReference { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PageItemReference" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageItemReference" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageItemReference As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PageItemReference { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает ссылку, используемая для реализации разбиение на страницы.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageItemReference" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Ссылка на элемент страницы.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public int PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, определяющее число элементов, отображаемых на странице предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageSize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Размер страницы.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PerformDeduplication">
+      <MemberSignature Language="C#" Value="public bool PerformDeduplication { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PerformDeduplication" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PerformDeduplication" />
+      <MemberSignature Language="VB.NET" Value="Public Property PerformDeduplication As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PerformDeduplication { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает необходимость удаления дубликатов из результатов поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PerformDeduplication" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>
+          <b>значение true,</b> чтобы deduplicate результатов поиска; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviewItemResponseShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape PreviewItemResponseShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape PreviewItemResponseShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PreviewItemResponseShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreviewItemResponseShape As PreviewItemResponseShape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PreviewItemResponseShape ^ PreviewItemResponseShape { Microsoft::Exchange::WebServices::Data::PreviewItemResponseShape ^ get(); void set(Microsoft::Exchange::WebServices::Data::PreviewItemResponseShape ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значения, используемые для предварительного просмотра элементов, возвращаемых в запросе поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PreviewItemResponseShape" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Фигура ответа предварительной версии элемента.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResultType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchResultType ResultType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SearchResultType ResultType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.ResultType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResultType As SearchResultType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchResultType ResultType { Microsoft::Exchange::WebServices::Data::SearchResultType get(); void set(Microsoft::Exchange::WebServices::Data::SearchResultType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchResultType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает, является ли поиск статистику или Предварительный просмотр поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.ResultType" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Тип результата.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchQueries">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MailboxQuery[] SearchQueries { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MailboxQuery[] SearchQueries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchQueries As MailboxQuery()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ SearchQueries { cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxQuery[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает поисковых запросов.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Запросы поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortBy">
+      <MemberSignature Language="C#" Value="public string SortBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortBy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortBy { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает строку, используемый для сортировки.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortBy" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Строка, используемый для сортировки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortOrder">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SortDirection SortOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SortDirection SortOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortOrder As SortDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SortDirection SortOrder { Microsoft::Exchange::WebServices::Data::SortDirection get(); void set(Microsoft::Exchange::WebServices::Data::SortDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SortDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает направление сортировки.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortOrder" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Направление сортировки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

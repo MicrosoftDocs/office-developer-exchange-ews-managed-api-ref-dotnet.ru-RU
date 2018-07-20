@@ -1,0 +1,109 @@
+<Type Name="FindConversationResults" FullName="Microsoft.Exchange.WebServices.Data.FindConversationResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9fcdbd02816ebfcc8a32b13a9a1f32bdcb99c391" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627322" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FindConversationResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindConversationResults extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindConversationResults" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FindConversationResults sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит результаты при попытке выполнить поиск бесед в папке.             <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Conversations">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conversation&gt; Conversations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.Conversation&gt; Conversations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversations As Collection(Of Conversation)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conversation ^&gt; ^ Conversations { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conversation ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conversation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает бесед, найти, операции поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Бесед, найти, операции поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightTerms">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt; HighlightTerms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.HighlightTerm&gt; HighlightTerms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighlightTerms As Collection(Of HighlightTerm)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::HighlightTerm ^&gt; ^ HighlightTerms { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::HighlightTerm ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает выделенный термины, возвращенные операцией поиска.  <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Выделенный условия, возвращенные операцией поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedOffset">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; IndexedOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; IndexedOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IndexedOffset As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; IndexedOffset { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает индексированный смещение первого беседы, возвращенные операцией поиска.       <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Индексированные смещение первого беседы, возвращенные операцией поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TotalCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TotalCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCount As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; TotalCount { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает количество бесед, возвращенные операцией поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Общее количество бесед в представлении.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,177 @@
+<Type Name="SeekToConditionItemView" FullName="Microsoft.Exchange.WebServices.Data.SeekToConditionItemView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="73a2185cf0fbf717f4260616c40a8225164d3174" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626546" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SeekToConditionItemView : Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SeekToConditionItemView extends Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SeekToConditionItemView&#xA;Inherits ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SeekToConditionItemView sealed : Microsoft::Exchange::WebServices::Data::ViewBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ViewBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет параметры представления в операцию поиска папок.             <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SeekToConditionItemView (Microsoft.Exchange.WebServices.Data.SearchFilter condition, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter condition, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (condition As SearchFilter, pageSize As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SeekToConditionItemView(Microsoft::Exchange::WebServices::Data::SearchFilter ^ condition, int pageSize);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="condition" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="condition">Условия для использования при выполнении поиска.</param>
+        <param name="pageSize">Максимальное число элементов, которые должен возвращать операции поиска.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> класс с фильтром поиска и размер страницы.             <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SeekToConditionItemView (Microsoft.Exchange.WebServices.Data.SearchFilter condition, int pageSize, Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter condition, int32 pageSize, valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SeekToConditionItemView(Microsoft::Exchange::WebServices::Data::SearchFilter ^ condition, int pageSize, Microsoft::Exchange::WebServices::Data::OffsetBasePoint offsetBasePoint);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="condition" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
+      </Parameters>
+      <Docs>
+        <param name="condition">Условия для использования при выполнении поиска.</param>
+        <param name="pageSize">Максимальное число элементов, которые должен возвращать операции поиска.</param>
+        <param name="offsetBasePoint">Позиция в представление элементов, из которого необходимо оценить с учетом смещения.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> класса с поисковый фильтр, размер страницы и отправной точки для смещения.             <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Condition">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter Condition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter Condition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" />
+      <MemberSignature Language="VB.NET" Value="Public Property Condition As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ Condition { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(); void set(Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает фильтр поиска для поиска. <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Условие поиска.</value>
+        <remarks>
+          <para>Классы фильтра поиска включают SearchFilter.IsEqualTo, SearchFilter.ContainsSubstring и SearchFilter.SearchFilterCollection. Если SearchFilter является пустая ссылка (Nothing в Visual Basic), не фильтры поиска не применяются.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OffsetBasePoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OffsetBasePoint OffsetBasePoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint OffsetBasePoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property OffsetBasePoint As OffsetBasePoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OffsetBasePoint OffsetBasePoint { Microsoft::Exchange::WebServices::Data::OffsetBasePoint get(); void set(Microsoft::Exchange::WebServices::Data::OffsetBasePoint value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OffsetBasePoint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает позицию в отчет с которого для измерения смещением. Базовый точка находится в начале или конце представлением элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Базовый точка смещение.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OrderBy As OrderByCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OrderByCollection ^ OrderBy { Microsoft::Exchange::WebServices::Data::OrderByCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает свойства, от которых должны быть упорядочены возвращаемых элементов. <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Свойства, от которых должны быть упорядочены возвращаемых элементов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public int PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает максимальное количество элементов или папок, которые должен возвращать операции поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Максимальное число элементов или папок, которые должен возвращать операции поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As ItemTraversal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemTraversal Traversal { Microsoft::Exchange::WebServices::Data::ItemTraversal get(); void set(Microsoft::Exchange::WebServices::Data::ItemTraversal value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemTraversal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает режим обхода поиска. Значение по умолчанию: <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Режим обхода поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

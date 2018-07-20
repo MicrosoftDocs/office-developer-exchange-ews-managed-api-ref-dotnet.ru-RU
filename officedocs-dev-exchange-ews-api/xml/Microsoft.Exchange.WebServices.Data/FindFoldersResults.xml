@@ -1,0 +1,163 @@
+<Type Name="FindFoldersResults" FullName="Microsoft.Exchange.WebServices.Data.FindFoldersResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8eef1348a3391ac6d073429325e3cb6a498068a9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626552" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FindFoldersResults : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Folder&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindFoldersResults extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.Folder&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindFoldersResults" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindFoldersResults&#xA;Implements IEnumerable(Of Folder)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FindFoldersResults sealed : System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::Folder ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Folder&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Представляет результаты операции поиска папок.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Folders">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Folder&gt; Folders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.Folder&gt; Folders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindFoldersResults.Folders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Folders As Collection(Of Folder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Folder ^&gt; ^ Folders { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Folder ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Folder&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает коллекцию, содержащую папок, которые были найдены операцией поиска.</summary>
+        <value>Объект коллекции, который содержит папки, которые были найдены операцией поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.Folder&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.Exchange.WebServices.Data.Folder&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FindFoldersResults.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of Folder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::Folder ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.Folder&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Возвращает перечислитель для итерации по коллекции.</summary>
+        <returns>Перечислитель, который можно использовать для итерации по коллекции.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoreAvailable">
+      <MemberSignature Language="C#" Value="public bool MoreAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MoreAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindFoldersResults.MoreAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoreAvailable As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MoreAvailable { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает значение, указывающее, доступны ли папки, которые соответствуют условиям поиска в папке, в которой выполняется поиск.</summary>
+        <value>
+          <b>значение true,</b> Если доступны дополнительные папки; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextPageOffset">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; NextPageOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; NextPageOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindFoldersResults.NextPageOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NextPageOffset As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; NextPageOffset { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает смещение, который должен использоваться с объектом FolderView для получения следующей страницы папки в ходе операции FindFolders.</summary>
+        <value>
+          <b>Допускает значение NULL</b> значение, смещение к следующей странице папки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FindFoldersResults.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.             <see cref="M:Microsoft.Exchange.WebServices.Data.FindFoldersResults.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public int TotalCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindFoldersResults.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает общее число папок, которые соответствуют условиям поиска, доступных в папке, в которой выполняется поиск.</summary>
+        <value>Общее число папок, которые соответствуют условиям поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,106 @@
+<Type Name="NonIndexableItemStatistic" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="81057df9d88397a5ccea28f6f355ff7ac8788501" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627115" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class NonIndexableItemStatistic" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItemStatistic extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItemStatistic" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItemStatistic sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит статистические сведения об элементе в почтовом ящике, где индекса не удалось.             <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NonIndexableItemStatistic ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NonIndexableItemStatistic();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.#ctor" /> Конструктора, которые применяются для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает сообщение об ошибке, связанные с неудачной попытки для индексирования элемента.       <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.ErrorMessage" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Сообщение об ошибке.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemCount">
+      <MemberSignature Language="C#" Value="public long ItemCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 ItemCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.ItemCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemCount As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long ItemCount { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает число элементов в почтовом ящике, где индекса не удалось.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.ItemCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Число элементов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает почтовый ящик на какие индексирования сбоя. <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.Mailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Почтовый ящик.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

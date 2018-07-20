@@ -1,0 +1,46 @@
+<Type Name="TokenRequiresValidationException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9d60af193be9850ab91d3efbbd1539fb3c54e12f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627192" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TokenRequiresValidationException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TokenRequiresValidationException extends Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" />
+  <TypeSignature Language="VB.NET" Value="Public Class TokenRequiresValidationException&#xA;Inherits TokenValidationException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TokenRequiresValidationException : Microsoft::Exchange::WebServices::Auth::Validation::TokenValidationException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит исключение, которое выдается, когда поля <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> экземпляра осуществляется перед <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> вызывается метод. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TokenRequiresValidationException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TokenRequiresValidationException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

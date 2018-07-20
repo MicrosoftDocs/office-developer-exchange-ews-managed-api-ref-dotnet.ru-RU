@@ -1,0 +1,169 @@
+<Type Name="ContactEntity" FullName="Microsoft.Exchange.WebServices.Data.ContactEntity">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8a956e92635ccb6f58424dc385beba2ba1c3959b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626777" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ContactEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ContactEntity extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactEntity" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ContactEntity&#xA;Inherits ExtractedEntity" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactEntity sealed : Microsoft::Exchange::WebServices::Data::ExtractedEntity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ExtractedEntity</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Определяет объект контакта сущности.             <see cref="T:Microsoft.Exchange.WebServices.Data.ContactEntity" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Addresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Addresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Addresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Addresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Addresses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Addresses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает адреса контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Addresses" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Адреса контакта сущности.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessName">
+      <MemberSignature Language="C#" Value="public string BusinessName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BusinessName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.BusinessName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BusinessName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BusinessName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает название предприятия контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.BusinessName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Business имя, связанное с контактных объектов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactString">
+      <MemberSignature Language="C#" Value="public string ContactString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContactString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.ContactString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContactString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает отображаемое имя объекта контакта.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.ContactString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Отображаемое имя контакта сущности.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList EmailAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddresses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ EmailAddresses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает адреса электронной почты контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.EmailAddresses" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Адреса электронной почты, связанные с контактных объектов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonName">
+      <MemberSignature Language="C#" Value="public string PersonName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PersonName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PersonName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PersonName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PersonName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает имя человека, для контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PersonName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Имя пользователя, связанное с контактных объектов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection PhoneNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneNumbers As ContactPhoneEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ContactPhoneEntityCollection ^ PhoneNumbers { Microsoft::Exchange::WebServices::Data::ContactPhoneEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает номера телефона для контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PhoneNumbers" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Номера телефонов, связанные с контактных объектов.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Urls">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Urls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Urls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Urls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Urls As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Urls { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает URL-адреса контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Urls" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>URL-адреса контакта сущности.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

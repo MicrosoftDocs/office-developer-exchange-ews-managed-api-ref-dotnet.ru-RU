@@ -1,0 +1,130 @@
+<Type Name="MailboxHoldStatus" FullName="Microsoft.Exchange.WebServices.Data.MailboxHoldStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8ba70e561fd3492d654b8554ce4803b36fcacbd1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627039" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class MailboxHoldStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxHoldStatus extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxHoldStatus" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxHoldStatus sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит сведения о целевой почтовый ящик действие удержание электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxHoldStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxHoldStatus();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxHoldStatus (string mailbox, Microsoft.Exchange.WebServices.Data.HoldStatus status, string additionalInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, valuetype Microsoft.Exchange.WebServices.Data.HoldStatus status, string additionalInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.#ctor(System.String,Microsoft.Exchange.WebServices.Data.HoldStatus,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, status As HoldStatus, additionalInfo As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxHoldStatus(System::String ^ mailbox, Microsoft::Exchange::WebServices::Data::HoldStatus status, System::String ^ additionalInfo);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="status" Type="Microsoft.Exchange.WebServices.Data.HoldStatus" />
+        <Parameter Name="additionalInfo" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">Почтовый ящик, входят в целевую eDiscovery нажмите и удерживайте действие.</param>
+        <param name="status">Состояние удержания.</param>
+        <param name="additionalInfo">Дополнительные сведения.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus" /> класс и наборы значений в целевом почтовом ящике, состояние eDiscovery хранение действие и Дополнительные сведения о свойствах целевого почтового ящика. <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.#ctor(System.String,Microsoft.Exchange.WebServices.Data.HoldStatus,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalInfo">
+      <MemberSignature Language="C#" Value="public string AdditionalInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AdditionalInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.AdditionalInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalInfo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdditionalInfo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает дополнительные сведения о свойствах целевого почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.AdditionalInfo" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Дополнительные сведения.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает целевой почтовый ящик действия удержание электронных данных.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.Mailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Почтовый ящик.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.HoldStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.HoldStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As HoldStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::HoldStatus Status { Microsoft::Exchange::WebServices::Data::HoldStatus get(); void set(Microsoft::Exchange::WebServices::Data::HoldStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает состояние удержания обнаружения электронных данных в целевой почтовый ящик.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.Status" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Состояние удержания.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

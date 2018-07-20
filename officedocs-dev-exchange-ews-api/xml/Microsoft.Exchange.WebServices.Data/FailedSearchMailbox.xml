@@ -1,0 +1,161 @@
+<Type Name="FailedSearchMailbox" FullName="Microsoft.Exchange.WebServices.Data.FailedSearchMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a38c6e0e7eac30a7500be036575da360072b528c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627028" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FailedSearchMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FailedSearchMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FailedSearchMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FailedSearchMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит описание поиска в почтовом ящике сбоя.             <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FailedSearchMailbox (string mailbox, int errorCode, string errorMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, int32 errorCode, string errorMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, errorCode As Integer, errorMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FailedSearchMailbox(System::String ^ mailbox, int errorCode, System::String ^ errorMessage);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="errorCode" Type="System.Int32" />
+        <Parameter Name="errorMessage" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">Поиск почтового ящика.</param>
+        <param name="errorCode">Код ошибки.</param>
+        <param name="errorMessage">Сообщение об ошибке.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> класс, на который указывает ссылка почтового ящика. <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FailedSearchMailbox (string mailbox, int errorCode, string errorMessage, bool isArchive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, int32 errorCode, string errorMessage, bool isArchive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, errorCode As Integer, errorMessage As String, isArchive As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FailedSearchMailbox(System::String ^ mailbox, int errorCode, System::String ^ errorMessage, bool isArchive);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="errorCode" Type="System.Int32" />
+        <Parameter Name="errorMessage" Type="System.String" />
+        <Parameter Name="isArchive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">Идентификатор почтового ящика.</param>
+        <param name="errorCode">Код ошибки.</param>
+        <param name="errorMessage">Сообщение об ошибке.</param>
+        <param name="isArchive">
+          <b>значение true,</b> если архив почтовых ящиков; в противном случае — <b>false</b>.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> класс, на который указывает ссылка почтового ящика, указание, является ли целевой почтовый ящик архивного почтового ящика. <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public int ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ErrorCode { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает код ошибки, связанные с поиском сбоя.             <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Код ошибки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает сообщение об ошибке, связанные с поиском сбоя.             <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Сообщение об ошибке.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, является ли целевой почтовый ящик архивного почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>
+          <b>значение true,</b> Если в целевом почтовом ящике архивного почтового ящика; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает идентификатор целевого почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор почтового ящика.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

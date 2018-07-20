@@ -1,0 +1,163 @@
+<Type Name="AlternateId" FullName="Microsoft.Exchange.WebServices.Data.AlternateId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d8eb84c9da9e6afc49e95c01b57b6723f64f9861" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627210" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AlternateId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternateId extends Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternateId" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternateId&#xA;Inherits AlternateIdBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateId : Microsoft::Exchange::WebServices::Data::AlternateIdBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.AlternateIdBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет идентификатор, выраженная в определенный формат.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId (Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, id As String, mailbox As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ id, System::String ^ mailbox);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="mailbox" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="format">Формат идентификатора идентификатор для преобразования.</param>
+        <param name="id">Идентификатор для преобразования.</param>
+        <param name="mailbox">SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класс, используя заданный формат, идентификатор и почтовых ящиков SMTP-адрес.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId (Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox, bool isArchive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox, bool isArchive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, id As String, mailbox As String, isArchive As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ id, System::String ^ mailbox, bool isArchive);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="isArchive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="format">Формат идентификатора идентификатор для преобразования.</param>
+        <param name="id">Идентификатор для преобразования.</param>
+        <param name="mailbox">SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</param>
+        <param name="isArchive">Флаг, указывающий, является ли идентификатор из архивных элемента.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса, используя заданный формат, идентификатор, адрес почтового ящика SMTP и архивировать флаг идентификатор.</summary>
+        <remarks>
+          <para>Эта перегрузка используется для клиентов, предназначенных для версий Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, представляет ли идентификатор идентификатора элемента или папки архива.</summary>
+        <value>
+          <b>значение true,</b> Если идентификатор представляет элемент архива или папки; в противном случае — <b>false</b>.</value>
+        <remarks>
+          <para>Это свойство используется для клиентов, предназначенных для версий Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</summary>
+        <value>SMTP-адрес.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueId">
+      <MemberSignature Language="C#" Value="public string UniqueId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.UniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UniqueId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает идентификатор для преобразования.</summary>
+        <value>Папки или идентификатор элемента.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

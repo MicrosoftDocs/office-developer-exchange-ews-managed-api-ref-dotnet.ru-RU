@@ -1,0 +1,777 @@
+<Type Name="RulePredicates" FullName="Microsoft.Exchange.WebServices.Data.RulePredicates">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="36486a84f08191f9825b249cd872da7776b1953d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626606" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RulePredicates : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicates extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicates&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RulePredicates sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет набор условий и исключений, доступных для правила.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает категории, которые входящее сообщение помечается в порядке для условие или исключение для применения.</summary>
+        <value>Категории, которые связаны с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsBodyStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsBodyStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsBodyStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsBodyStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsBodyStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает строк, которые отображаются в теле входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Строки текста, связанные с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsHeaderStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsHeaderStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsHeaderStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsHeaderStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsHeaderStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает строк, которые отображаются в заголовках входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Заголовки строк, связанные с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsRecipientStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsRecipientStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsRecipientStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsRecipientStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsRecipientStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает строк, которые отображаются в окне Свойства ToRecipients или CcRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Строки получателей, которые связаны с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSenderStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSenderStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSenderStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSenderStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSenderStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает строки, отображается в свойстве From входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Строки отправителя, связанных с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSubjectOrBodyStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectOrBodyStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSubjectOrBodyStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSubjectOrBodyStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает строк, которые отображаются в тексте или теме входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Строки темы или текста, связанных с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSubjectStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSubjectStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSubjectStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает строк, которые отображаются в теме входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Строки темы, связанные с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlaggedForAction">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt; FlaggedForAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt; FlaggedForAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlaggedForAction As Nullable(Of FlaggedForAction)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; FlaggedForAction { Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает флаг, для которого действию задано значение, которое отображается на входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Значение свойства FlaggedForAction.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />можно отключить, назначить этому свойству значение null.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection FromAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection FromAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FromAddresses As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ FromAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает адреса электронной почты отправителей входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Коллекция адреса электронной почты.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromConnectedAccounts">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList FromConnectedAccounts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList FromConnectedAccounts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FromConnectedAccounts As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ FromConnectedAccounts { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает имена учетных записей, с которых входящих сообщений должен были сводный в порядке для условие или исключение для применения сообщения электронной почты.</summary>
+        <value>Имена учетных записей электронной почты, связанные с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, является ли входящих сообщений должен быть вложений для условие или исключение для применения.</summary>
+        <value>значение true, если входящих сообщений должен быть вложений в форме условия или исключения для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt; Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.Importance&gt; Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Nullable(Of Importance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; Importance { Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает важности, записывается во входящих сообщениях в порядке для условие или исключение для применения.</summary>
+        <value>Значение свойства важности.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />можно отключить, назначить этому свойству значение null.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsApprovalRequest">
+      <MemberSignature Language="C#" Value="public bool IsApprovalRequest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsApprovalRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsApprovalRequest As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsApprovalRequest { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли входящих сообщений в порядке для условие или исключение для применения запросов на утверждение.</summary>
+        <value>значение true, если входящих сообщений должен быть запросов на утверждение в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAutomaticForward">
+      <MemberSignature Language="C#" Value="public bool IsAutomaticForward { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAutomaticForward" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsAutomaticForward" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAutomaticForward As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAutomaticForward { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли автоматическая переадресация в порядке для условие или исключение для применения при входящих сообщений.</summary>
+        <value>значение true, если входящих сообщений должен быть автоматическая переадресация в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAutomaticReply">
+      <MemberSignature Language="C#" Value="public bool IsAutomaticReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAutomaticReply" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsAutomaticReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAutomaticReply As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAutomaticReply { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли автоматические ответы, чтобы условие или исключение можно применить при входящих сообщений.</summary>
+        <value>значение true, если входящих сообщений должен быть автоматических ответов в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEncrypted">
+      <MemberSignature Language="C#" Value="public bool IsEncrypted { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEncrypted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsEncrypted" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEncrypted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEncrypted { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, является ли входящих сообщений должен быть зашифрован в порядке для условие или исключение для применения S/MIME.</summary>
+        <value>значение true, если входящих сообщений должен быть S/MIME зашифрован условия или исключения для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeetingRequest">
+      <MemberSignature Language="C#" Value="public bool IsMeetingRequest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeetingRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeetingRequest As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeetingRequest { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, является ли входящих сообщений должны быть приглашений на собрания в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если входящие сообщения должны быть приглашений на собрания в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeetingResponse">
+      <MemberSignature Language="C#" Value="public bool IsMeetingResponse { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeetingResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsMeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeetingResponse As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeetingResponse { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должно ли собрания ответы в порядке для условие или исключение для применения входящих сообщений.</summary>
+        <value>значение true, если входящих сообщений должен пустые ответы в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNonDeliveryReport">
+      <MemberSignature Language="C#" Value="public bool IsNonDeliveryReport { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNonDeliveryReport" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsNonDeliveryReport" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsNonDeliveryReport As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNonDeliveryReport { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли отчеты о недоставке (NDR) при входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если входящие сообщения должны быть отчеты о недоставке (NDR) в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPermissionControlled">
+      <MemberSignature Language="C#" Value="public bool IsPermissionControlled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPermissionControlled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsPermissionControlled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPermissionControlled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPermissionControlled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, входящих сообщений должен ли разрешение управляются (защищенные RMS) в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если входящих сообщений должно быть разрешение управляются (защищенные RMS) в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceipt">
+      <MemberSignature Language="C#" Value="public bool IsReadReceipt { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceipt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsReadReceipt" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceipt As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceipt { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, является ли входящих сообщений должны прочитать поступлений в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если входящие сообщения должны быть прочтении в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSigned">
+      <MemberSignature Language="C#" Value="public bool IsSigned { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSigned" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsSigned" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsSigned As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSigned { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли входящих сообщений в порядке для условие или исключение для применения подписью S/MIME.</summary>
+        <value>значение true, если входящих сообщений должен быть S/MIME подпись для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVoicemail">
+      <MemberSignature Language="C#" Value="public bool IsVoicemail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVoicemail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsVoicemail" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVoicemail As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVoicemail { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли входящих сообщений голосовой почты в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если входящих сообщений должен быть сообщения голосовой почты в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClasses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ItemClasses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ItemClasses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemClasses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ItemClasses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает классов элементов, которые необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если классы элемента необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageClassifications">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList MessageClassifications { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList MessageClassifications" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageClassifications As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ MessageClassifications { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает классификации сообщений, которые необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Классификации сообщений, связанных с сообщением.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSentToMe">
+      <MemberSignature Language="C#" Value="public bool NotSentToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NotSentToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.NotSentToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotSentToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NotSentToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, является ли владелец почтового ящика не должна быть в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если владелец почтового ящика не должна быть получателя кому входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.Sensitivity&gt; Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.Sensitivity&gt; Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Nullable(Of Sensitivity)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; Sensitivity { Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Sensitivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает уровень конфиденциальности сообщения, который должен быть отметка для входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Со значением свойства.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />можно отключить, назначить этому свойству значение null.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentCcMe">
+      <MemberSignature Language="C#" Value="public bool SentCcMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentCcMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentCcMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentCcMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentCcMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве CcRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если владелец почтового ящика должен быть копия входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentOnlyToMe">
+      <MemberSignature Language="C#" Value="public bool SentOnlyToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentOnlyToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentOnlyToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentOnlyToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentOnlyToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, является ли владелец почтового ящика должен быть только один в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если владелец почтового ящика должен быть единственным получателю входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection SentToAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection SentToAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SentToAddresses As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ SentToAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает адреса электронной почты, отправленных входящих сообщений необходимо чтобы предоставить условие или исключение для применения.</summary>
+        <value>Коллекция адреса электронной почты.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />можно отключить, установив это свойство в пустой список.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToMe">
+      <MemberSignature Language="C#" Value="public bool SentToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если владелец почтового ящика должен быть получателя кому входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToOrCcMe">
+      <MemberSignature Language="C#" Value="public bool SentToOrCcMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentToOrCcMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentToOrCcMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentToOrCcMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве ToRecipients или CcRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>значение true, если владелец почтового ящика необходимо быть получателя Кому или копия получателя входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithinDateRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicateDateRange WithinDateRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicateDateRange WithinDateRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WithinDateRange As RulePredicateDateRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicateDateRange ^ WithinDateRange { Microsoft::Exchange::WebServices::Data::RulePredicateDateRange ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateDateRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает диапазон дат, в течение которого входящих сообщений должны были получены в порядке для условие или исключение для применения.</summary>
+        <value>Даты начала и окончания.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />можно отключить, установив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> свойств значение null.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithinSizeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange WithinSizeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange WithinSizeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WithinSizeRange As RulePredicateSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicateSizeRange ^ WithinSizeRange { Microsoft::Exchange::WebServices::Data::RulePredicateSizeRange ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает минимальный и максимальный размеры, которые должны иметь входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <value>Минимальный размер и максимальный размер.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />можно отключить, установив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> свойств значение null.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

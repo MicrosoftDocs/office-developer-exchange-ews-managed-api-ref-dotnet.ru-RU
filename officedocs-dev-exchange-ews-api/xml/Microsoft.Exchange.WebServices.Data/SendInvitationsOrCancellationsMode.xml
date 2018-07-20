@@ -1,0 +1,123 @@
+<Type Name="SendInvitationsOrCancellationsMode" FullName="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e8dc661359af3015b2e1b7731c0616cef24fe6b2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627299" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendInvitationsOrCancellationsMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SendInvitationsOrCancellationsMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Определяет константы, которые определяют, приглашения на собрания или отмены обработки при обновлении собрания.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SendOnlyToAll">
+      <MemberSignature Language="C#" Value="SendOnlyToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendOnlyToAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendOnlyToAll" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToAll" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Отправка приглашения на собрания и отмены всех участников; не сохранять копию приглашение или отмены собрания в папке "Отправленные" организатора.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendOnlyToChanged">
+      <MemberSignature Language="C#" Value="SendOnlyToChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendOnlyToChanged = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendOnlyToChanged" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToChanged" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Отправка приглашений на собрания и отмены только участникам, которые были добавлены или изменены; не сохранять копию приглашение или отмены собрания в папке "Отправленные" организатора.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToAllAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToAllAndSaveCopy = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToAllAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToAllAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Отправка приглашения на собрания и отмены всех участников и сохранить копию приглашение или отмены собрания в папке "Отправленные" организатора.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToChangedAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToChangedAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToChangedAndSaveCopy = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToChangedAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToChangedAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToChangedAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Отправка приглашений на собрания и отмены только участникам, которые были добавлены или изменены и сохранить копию приглашение на собрание и отмене в папке "Отправленные" Организатор.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToNone">
+      <MemberSignature Language="C#" Value="SendToNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToNone" />
+      <MemberSignature Language="VB.NET" Value="SendToNone" />
+      <MemberSignature Language="C++ CLI" Value="SendToNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Не отправлять приглашения на собрания и отмены.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

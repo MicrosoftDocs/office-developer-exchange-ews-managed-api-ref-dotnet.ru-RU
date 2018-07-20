@@ -1,0 +1,80 @@
+<Type Name="SearchFilter+RelationalFilter" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+RelationalFilter">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8688e548c5946b7d5ac8c5151c974d8993be2c65" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626983" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class SearchFilter.RelationalFilter : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit SearchFilter/RelationalFilter extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SearchFilter.RelationalFilter&#xA;Inherits SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::RelationalFilter abstract : Microsoft::Exchange::WebServices::Data::SearchFilter::PropertyBasedFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+PropertyBasedFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Представляет базовый класс для реляционных фильтров (например, выражение IsEqualTo, IsGreaterThan или IsLessThanOrEqualTo).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OtherPropertyDefinition">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase OtherPropertyDefinition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase OtherPropertyDefinition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.OtherPropertyDefinition" />
+      <MemberSignature Language="VB.NET" Value="Public Property OtherPropertyDefinition As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ OtherPropertyDefinition { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает определение свойства свойства для сравнения.</summary>
+        <value>Объект PropertyDefinitionBase к определению свойства для сравнения.</value>
+        <remarks>
+          <para>Свойство определения доступны как статические члены из классов схемы (например, <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.Subject" />, <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Start" />, или <see cref="F:Microsoft.Exchange.WebServices.Data.ContactSchema.GivenName" />.) OtherPropertyDefinition и <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.Value" /> свойства являются взаимоисключающими; один параметр сбрасывает другое пустая ссылка (Nothing в Visual Basic).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение свойства для сравнения.</summary>
+        <value>Объект с значение для сравнения.</value>
+        <remarks>
+          <para>Значение и <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.OtherPropertyDefinition" /> свойства являются взаимоисключающими; один параметр сбрасывает другое пустая ссылка (Nothing в Visual Basic).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

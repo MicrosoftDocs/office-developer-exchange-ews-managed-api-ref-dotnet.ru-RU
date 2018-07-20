@@ -1,0 +1,223 @@
+<Type Name="SearchableMailbox" FullName="Microsoft.Exchange.WebServices.Data.SearchableMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8162c32391574af0a59694adda4e65fc47453286" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627412" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchableMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchableMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchableMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchableMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет объект доступен для поиска почтовых ящиков.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchableMailbox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchableMailbox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.  <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchableMailbox (Guid guid, string smtpAddress, bool isExternalMailbox, string externalEmailAddress, string displayName, bool isMembershipGroup, string referenceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid guid, string smtpAddress, bool isExternalMailbox, string externalEmailAddress, string displayName, bool isMembershipGroup, string referenceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchableMailbox(Guid guid, System::String ^ smtpAddress, bool isExternalMailbox, System::String ^ externalEmailAddress, System::String ^ displayName, bool isMembershipGroup, System::String ^ referenceId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="guid" Type="System.Guid" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+        <Parameter Name="isExternalMailbox" Type="System.Boolean" />
+        <Parameter Name="externalEmailAddress" Type="System.String" />
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="isMembershipGroup" Type="System.Boolean" />
+        <Parameter Name="referenceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="guid">Идентификатор почтового ящика.</param>
+        <param name="smtpAddress">Адрес Simple Mail Transfer Protocol (SMTP) почтового ящика.</param>
+        <param name="isExternalMailbox">
+          <b>значение true,</b> Если почтовый ящик относится внешнего почтового ящика; в противном случае — <b>false</b>.</param>
+        <param name="externalEmailAddress">Внешний адрес электронной почты для почтового ящика.</param>
+        <param name="displayName">Имя почтового ящика.</param>
+        <param name="isMembershipGroup">
+          <b>значение true,</b> Если данный является списком рассылки; в противном случае — <b>false</b>.</param>
+        <param name="referenceId">Справочник по идентификатор почтового ящика.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает отображаемое имя почтового ящика для поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Отображаемое имя.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEmailAddress">
+      <MemberSignature Language="C#" Value="public string ExternalEmailAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExternalEmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalEmailAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalEmailAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает внешний адрес электронной почты для почтового ящика.
+<see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Внешний адрес электронной почты.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Guid">
+      <MemberSignature Language="C#" Value="public Guid Guid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Guid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" />
+      <MemberSignature Language="VB.NET" Value="Public Property Guid As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid Guid { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает идентификатор почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор GUID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExternalMailbox">
+      <MemberSignature Language="C#" Value="public bool IsExternalMailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExternalMailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExternalMailbox As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExternalMailbox { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, является ли внешнего почтового ящика.
+<see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>
+          <b>значение true,</b> Если внешнего почтового ящика; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMembershipGroup">
+      <MemberSignature Language="C#" Value="public bool IsMembershipGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMembershipGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMembershipGroup As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMembershipGroup { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает, является ли связанный SMTP-адрес почтового ящика или списку рассылки.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>
+          <b>значение true,</b> Если связанные SMTP-адрес является списком рассылки; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferenceId">
+      <MemberSignature Language="C#" Value="public string ReferenceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReferenceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReferenceId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ReferenceId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает идентификатор ссылку почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор ссылки.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает адрес Simple Mail Transfer Protocol (SMTP) почтового ящика для поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>SMTP-адрес.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

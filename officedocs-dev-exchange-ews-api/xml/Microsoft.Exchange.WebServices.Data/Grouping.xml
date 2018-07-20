@@ -1,0 +1,151 @@
+<Type Name="Grouping" FullName="Microsoft.Exchange.WebServices.Data.Grouping">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dfbc3ea8ced3614a4d204217efa8d458654d13c6" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626569" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Grouping" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Grouping extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Grouping" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Grouping" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Grouping sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет объединение параметров в операции поиска элемента.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Grouping ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Grouping.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Grouping();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр класса группировки.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Grouping (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase groupOn, Microsoft.Exchange.WebServices.Data.SortDirection sortDirection, Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase aggregateOn, Microsoft.Exchange.WebServices.Data.AggregateType aggregateType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase groupOn, valuetype Microsoft.Exchange.WebServices.Data.SortDirection sortDirection, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase aggregateOn, valuetype Microsoft.Exchange.WebServices.Data.AggregateType aggregateType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Grouping.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.SortDirection,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.AggregateType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Grouping(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ groupOn, Microsoft::Exchange::WebServices::Data::SortDirection sortDirection, Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ aggregateOn, Microsoft::Exchange::WebServices::Data::AggregateType aggregateType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="groupOn" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="sortDirection" Type="Microsoft.Exchange.WebServices.Data.SortDirection" />
+        <Parameter Name="aggregateOn" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="aggregateType" Type="Microsoft.Exchange.WebServices.Data.AggregateType" />
+      </Parameters>
+      <Docs>
+        <param name="groupOn">Свойства группы после.</param>
+        <param name="sortDirection">Направление сортировки.</param>
+        <param name="aggregateOn">Свойство к сбору статистических данных по.</param>
+        <param name="aggregateType">Тип выполняется статистическая обработка для вычисления.</param>
+        <summary>Инициализирует новый экземпляр класса группировки, который связан с указанным <paramref name="groupOn" /> параметр.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AggregateOn">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase AggregateOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase AggregateOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Grouping.AggregateOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property AggregateOn As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ AggregateOn { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает для свойства значение статистической обработки после.</summary>
+        <value>Свойство к сбору статистических данных по.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AggregateType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AggregateType AggregateType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.AggregateType AggregateType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Grouping.AggregateType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AggregateType As AggregateType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AggregateType AggregateType { Microsoft::Exchange::WebServices::Data::AggregateType get(); void set(Microsoft::Exchange::WebServices::Data::AggregateType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AggregateType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает типы выполняется статистическая обработка для вычисления.</summary>
+        <value>Одно из значений перечисления AggregateType, чтобы указать, будет ли значения пример свойства используется для упорядочения элементов в группе.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupOn">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase GroupOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase GroupOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Grouping.GroupOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupOn As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ GroupOn { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает свойства группы после.</summary>
+        <value>Объект класса PropertyDefinitionBase с помощью свойства группы после.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortDirection">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SortDirection SortDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SortDirection SortDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Grouping.SortDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortDirection As SortDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SortDirection SortDirection { Microsoft::Exchange::WebServices::Data::SortDirection get(); void set(Microsoft::Exchange::WebServices::Data::SortDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SortDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает направление сортировки.</summary>
+        <value>Одно из значений перечисления направления сортировки, которые определяют порядок сортировки для данных, который возвращается службой поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,109 @@
+<Type Name="UpdateInboxRulesException" FullName="Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="10f27db7ce1ad5e198fd434ae41381f7a5264223" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627249" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class UpdateInboxRulesException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit UpdateInboxRulesException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UpdateInboxRulesException&#xA;Inherits ServiceRemoteException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateInboxRulesException sealed : Microsoft::Exchange::WebServices::Data::ServiceRemoteException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceRemoteException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет исключение, порождаемое, если возникает ошибка в результате вызова операции UpdateInboxRules.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceError ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ServiceError ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As ServiceError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceError ErrorCode { Microsoft::Exchange::WebServices::Data::ServiceError get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает код ошибки службы, который связан с операцией правила.</summary>
+        <value>Значение перечисления ServiceError, который содержит код ошибки для службы.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает сообщение об ошибке службы, который связан с операцией правила.</summary>
+        <value>Сообщение об ошибке, которое отображается при сбое проверки операции правила.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Errors">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleOperationErrorCollection Errors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RuleOperationErrorCollection Errors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException.Errors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Errors As RuleOperationErrorCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleOperationErrorCollection ^ Errors { Microsoft::Exchange::WebServices::Data::RuleOperationErrorCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleOperationErrorCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает коллекцию ошибок, которые описываются причины правило проверки не удалось выполнить операцию.</summary>
+        <value>Коллекция объектов ошибок на операции правило, не прошедших проверку.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceResponse">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceResponse ServiceResponse { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ServiceResponse ServiceResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException.ServiceResponse" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceResponse As ServiceResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceResponse ^ ServiceResponse { Microsoft::Exchange::WebServices::Data::ServiceResponse ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceResponse</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает ServiceResponse исключения.</summary>
+        <value>Стандартный ответ на операцию правила.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

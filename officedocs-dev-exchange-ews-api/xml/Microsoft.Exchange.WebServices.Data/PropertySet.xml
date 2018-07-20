@@ -1,0 +1,651 @@
+<Type Name="PropertySet" FullName="Microsoft.Exchange.WebServices.Data.PropertySet">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a66eac0127ccc25e96b2f298bdaf6b5b1bac5dc7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626965" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PropertySet : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PropertySet extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertySet" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PropertySet&#xA;Implements IEnumerable(Of PropertyDefinitionBase)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PropertySet sealed : System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Представляет набор свойств, элемента или папки.</summary>
+    <remarks>
+      <para>Наборы свойств используются для указания того, какие свойства элемента или папки, которые должны быть загружены при привязке к существующего элемента или папки или при загрузке элемента или свойств папки.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр класса PropertySet, используя идентификатор.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">Базовый свойство будет создана свойство.</param>
+        <summary>Инициализирует новый экземпляр класса PropertySet, на основе указанного свойства базового набора.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ParamArray additionalProperties As PropertyDefinitionBase())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">Дополнительные свойства необходимо включить в набор свойств. Определения свойств доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.).</param>
+        <summary>Инициализирует новый экземпляр класса PropertySet, на основе идентификатора и определенные дополнительные свойства.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (additionalProperties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">Дополнительные свойства необходимо включить в набор свойств. Определения свойств доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.).</param>
+        <summary>Инициализирует новый экземпляр класса PropertySet, на основе идентификатора и указанной коллекции дополнительные свойства.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">Базовый свойство будет создана свойство.</param>
+        <param name="additionalProperties">Дополнительные свойства необходимо включить в набор свойств.</param>
+        <summary>Инициализирует новый экземпляр класса PropertySet с указанным набором базового и дополнительные свойства.</summary>
+        <remarks>
+          <para>Свойство определения доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.)</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">Базовый свойство будет создана свойство.</param>
+        <param name="additionalProperties">Дополнительные свойства необходимо включить в набор свойств. Свойство определения доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject AppointmentSchema.Start, ContactSchema.GivenName и т. д.)</param>
+        <summary>Инициализирует новый экземпляр класса PropertySet с указанным набором базового и набор дополнительных свойств.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Add(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (property As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">Чтобы добавить свойство.</param>
+        <summary>Добавляет указанное свойство набором свойств.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddBlankTargetToLinks">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; AddBlankTargetToLinks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AddBlankTargetToLinks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" />
+      <MemberSignature Language="VB.NET" Value="Public Property AddBlankTargetToLinks As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; AddBlankTargetToLinks { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, добавьте атрибут пустой целевой ссылки привязки.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>
+          <b>значение true</b> для добавления пустой целевой атрибут для привязки ссылок; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (properties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="properties">Свойства, которые нужно добавить.</param>
+        <summary>Добавляет указанного свойства в набор свойств.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasePropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.BasePropertySet BasePropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet BasePropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.BasePropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property BasePropertySet As BasePropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::BasePropertySet BasePropertySet { Microsoft::Exchange::WebServices::Data::BasePropertySet get(); void set(Microsoft::Exchange::WebServices::Data::BasePropertySet value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BasePropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает набор базовых свойств на основе набора свойств.</summary>
+        <value>Набор базового свойства на основе набора свойств.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockExternalImages">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; BlockExternalImages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; BlockExternalImages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlockExternalImages As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; BlockExternalImages { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, следует ли преобразовать URL-адресов, которые указывают на файлы изображений, встроенных изображений.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>
+          <b>значение true,</b> Если URL-адресов, которые указывают на файлы изображений должны быть преобразованы в встроенных изображений; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Удаляет все явно добавлена свойства из набора свойств.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Contains(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (property As PropertyDefinitionBase) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">Свойство.</param>
+        <summary>Определяет, является ли указанное свойство явно добавлена с этим свойством, задание с помощью методов Add или AddRange.</summary>
+        <returns>
+          <b>значение true,</b> Если значение этого свойства, содержащий указанное свойство; в противном случае — <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertHtmlCodePageToUTF8">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ConvertHtmlCodePageToUTF8 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ConvertHtmlCodePageToUTF8" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.ConvertHtmlCodePageToUTF8" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConvertHtmlCodePageToUTF8 As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; ConvertHtmlCodePageToUTF8 { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, следует ли сервер преобразование кода HTML-страницу для кодировки UTF8.</summary>
+        <value>
+          <b>значение true,</b> Если сервер следует преобразовать код HTML-страницу UTF9; в противном случае — <b>false</b>. Это свойство может быть пустая ссылка (Nothing в Visual Basic).</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает число свойств, явно добавлена в этот набор.</summary>
+        <value>Число свойств явно добавлена в указанным набором свойств.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterHtmlContent">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; FilterHtmlContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; FilterHtmlContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.FilterHtmlContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilterHtmlContent As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; FilterHtmlContent { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение, указывающее, следует ли потенциально небезопасных HTML-фильтра содержимого из текстов сообщений.</summary>
+        <value>
+          <b>значение true,</b> чтобы отфильтровать потенциально небезопасных HTML-контента; в противном случае — <b>false</b>. Это свойство может быть пустая ссылка (Nothing в Visual Basic).</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstClassProperties">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertySet FirstClassProperties;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertySet FirstClassProperties" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FirstClassProperties As PropertySet " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertySet ^ FirstClassProperties;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Набор предварительно заданных свойств, который включает в себя первого класса свойства элемента или папки.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.</summary>
+        <returns>Объект IEnumerator, который можно использовать для итерации по коллекции.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdOnly">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertySet IdOnly;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertySet IdOnly" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PropertySet.IdOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IdOnly As PropertySet " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertySet ^ IdOnly;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Набор предварительно заданных свойств, содержащий только свойства ID.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlineImageUrlTemplate">
+      <MemberSignature Language="C#" Value="public string InlineImageUrlTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InlineImageUrlTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property InlineImageUrlTemplate As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InlineImageUrlTemplate { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает URL-адрес шаблона, используемого для встроенных изображений.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>URL-адрес шаблона для встроенных изображений.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ default[int] { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">Индекс запрошенного свойства в набор свойств.</param>
+        <summary>Получает элемент по указанному индексу.            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Элемент по указанному индексу.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumBodySize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaximumBodySize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaximumBodySize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumBodySize As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; MaximumBodySize { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает максимальный размер текста нужно вернуть.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Максимальный размер текста нужно вернуть.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.PropertySet op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.op_Implicit(Microsoft.Exchange.WebServices.Data.BasePropertySet)~Microsoft.Exchange.WebServices.Data.PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::PropertySet ^(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">Значение BasePropertySet для преобразования.</param>
+        <summary>Реализует неявное преобразование между PropertySet и BasePropertySet.</summary>
+        <returns>Экземпляр PropertySet, основанный на указанным базового набором свойств.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Remove(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (property As PropertyDefinitionBase) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">Свойство для удаления.</param>
+        <summary>Удаляет указанное свойство из набора.</summary>
+        <returns>
+          <b>значение true,</b> Если свойство успешно удалено; в противном случае — <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает тип текст, который следует загрузить на элементы.</summary>
+        <value>Одно из значений перечисления типа текста сообщения. Это свойство может быть пустая ссылка (Nothing в Visual Basic).</value>
+        <remarks>
+          <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> свойство является пустая ссылка (Nothing в Visual Basic), основной текст элемента возвращается в виде HTML-код, если он доступен; в противном случае тексте запроса возвращаются в виде обычного текста.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedNormalizedBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedNormalizedBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedNormalizedBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedNormalizedBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedNormalizedBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedNormalizedBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает тип текст, который должен быть загружен для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойств элементов.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Если значение null, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойство будет иметь совпадает с типом <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> свойство.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedUniqueBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedUniqueBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedUniqueBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedUniqueBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedUniqueBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedUniqueBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает тип текст, который должен быть загружен для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> свойств элементов.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Если значение null, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> свойство будет иметь совпадает с типом <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> свойство.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.            <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

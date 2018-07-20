@@ -1,0 +1,303 @@
+<Type Name="Rule" FullName="Microsoft.Exchange.WebServices.Data.Rule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5815ef1faf18a92d498cfbab1936f6f0202e261d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626976" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Rule : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Rule extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Rule" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Rule&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Rule sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет отдельного правила папки «Входящие» в почтовом ящике.</summary>
+    <remarks>
+      <para>Правила папки «Входящие» — это набор <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />и связанные с <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> , которое клиенты могли автоматически организации, классификации и обрабатывают сообщения как сообщения будут доставляться в папку. Например <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> можно создать для поддержки требования, что любые входящую почту, содержащий определенные строки в теме автоматически перемещены в предопределенном папку. <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> оценки запускается, когда сообщения электронной почты будут доставляться в почтовый ящик пользователя или когда сообщения сначала сохраняются в папку. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> В <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> , применяются к свойства входящего сообщения. Если <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> значение <b>true</b>, правило <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> выполняются на сервере.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>В следующем примере создается новое правило и сохраняет его на сервер обмена сообщениями. Правило содержит <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> свойство. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> Являются: </para>
+      <list type="bullet">
+        <item>
+          <description>сообщения электронной почты отправляется в папку JunkEmail.</description>
+        </item>
+        <item>
+          <description>Назначение категории «Интерпретация».</description>
+        </item>
+        <item>
+          <description>Назначение категории «Только для внутреннего использования».</description>
+        </item>
+      </list>
+      <para>
+        <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> Являются:</para>
+      <list type="bullet">
+        <item>
+          <description>Сообщения электронной почты содержит слово «Interesting» в теме сообщения.</description>
+        </item>
+      </list>
+      <code>// Create an inbox rule.
+// If "Interesting" is in the e-mail's subject, move it into the Junk folder
+// and assign two categories to the message.
+Rule newRule = new Rule();
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.IsEnabled = true;
+
+newRule.Priority = 1;
+newRule.Actions.AssignCategories.Add("Immediate");
+newRule.Actions.AssignCategories.Add("Internal use only.");
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Rule ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Rule.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Rule();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр класса правил.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleActions Actions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RuleActions Actions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As RuleActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleActions ^ Actions { Microsoft::Exchange::WebServices::Data::RuleActions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает действия, которые необходимо выполнить на сообщение, если будут выполнены условия.</summary>
+        <value>Действия, предпринимаемые при условия будут выполнены.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> Свойство представляет набор <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> объектов, представляющих действия, выполняемые на <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объекта при <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> рассматривать как <b>значение true</b>. A <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> объект имеет свойства, которые соответствуют каждой действие часто используемые правила в <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Можно создать <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> , которая позволяет любой из <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> в <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> объекта.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conditions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicates Conditions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicates Conditions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conditions As RulePredicates" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicates ^ Conditions { Microsoft::Exchange::WebServices::Data::RulePredicates ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicates</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает условия, если выполнен, будет активировать правило действий для этого правила.</summary>
+        <value>RulePredicates с условиями правила.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> Представляют собой свойство <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объект, относящиеся к каждому часто использовать условие правила в <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. При поступлении сообщения электронной почты, компьютера Exchange Server оценивает сообщение и определяет, если он выполнил <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> из <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Если это так, компьютера Exchange Server затем будет обрабатывать сообщения согласно <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. Можно создать правило, которое позволяет любой из <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> в <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объекта.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение типа string, содержащая отображаемое имя правила.</summary>
+        <value>Отображаемое имя для правила.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Неуникальных отображаемое имя — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Свойство — это имя правила, как оно отображается для пользователя. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Не может быть задано значение null.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exceptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicates Exceptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicates Exceptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exceptions As RulePredicates" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicates ^ Exceptions { Microsoft::Exchange::WebServices::Data::RulePredicates ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicates</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает исключение, представляющий все доступные правила условия исключений для правила папки «Входящие».</summary>
+        <value>RulePredicates с исключения для правила.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> Представляют собой свойство <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объекта, о том, условия, при которых <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> не следует применять.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает идентификатор правила.</summary>
+        <value>Идентификатор правила.</value>
+        <remarks>
+          <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Id" /> свойство до <see cref="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" /> или <see cref="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" /> вызовет исключение.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabled">
+      <MemberSignature Language="C#" Value="public bool IsEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает включение правила.</summary>
+        <value>
+          <b>значение true,</b> Если правило включено; в противном случае — <b>false</b>. Значение по умолчанию: <b>true</b></value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" /> Свойство указывает, будет ли <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> включен. Если правило не включен он будет игнорироваться, когда входящее сообщение <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> будут выполнены и нет <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> будет выполнено.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInError">
+      <MemberSignature Language="C#" Value="public bool IsInError { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsInError As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInError { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает значение, указывающее, является ли правило в случае ошибки.</summary>
+        <value>
+          <b>значение true,</b> Если правило в случае ошибки; в противном случае — <b>false</b>.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" /> Свойство указывает состояние правила. A <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> , который содержит ошибки не удается обработать до исправления ошибки.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotSupported">
+      <MemberSignature Language="C#" Value="public bool IsNotSupported { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNotSupported" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNotSupported As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNotSupported { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает значение, указывающее, ли правило не могут быть изменены с управляемым кодом API-интерфейсы.</summary>
+        <value>
+          <b>значение true,</b> Если правило не могут быть изменены с управляемым кодом API; в противном случае — <b>false</b>.</value>
+        <remarks>
+          <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> свойство имеет <b>значение true</b>, <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> нельзя изменить. Вы можете проверить значение <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> перед выполнением <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метод.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public int Priority { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Priority { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает приоритет правила, значение, указывающее порядок, в котором должна запускаться правило.</summary>
+        <value>Значение, указывающее порядок выполнения, в котором должна запускаться правило.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />классы, которые имеют высокое значение приоритета выполняются до более низкий приоритет <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> классы. Значение по умолчанию <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> значение для каких-либо <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> равно 0. При <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> создается с тем же <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> как существующий <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />, существующих <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> увеличивается. Правило <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> должно быть положительное значение.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,49 @@
+<Type Name="SearchMailboxesResponse" FullName="Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4feb2175b10c03d8508d6cb20e90091b07d967f8" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626917" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchMailboxesResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchMailboxesResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchMailboxesResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит результат поиска, возвращенные операцией SearchMailboxes.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SearchResult">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchMailboxesResult SearchResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchMailboxesResult SearchResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse.SearchResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchResult As SearchMailboxesResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchMailboxesResult ^ SearchResult { Microsoft::Exchange::WebServices::Data::SearchMailboxesResult ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchMailboxesResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает результат поиска почтовых ящиков.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse.SearchResult" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>В результате поиска почтовых ящиков.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

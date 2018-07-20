@@ -1,0 +1,222 @@
+<Type Name="DayOfTheWeek" FullName="Microsoft.Exchange.WebServices.Data.DayOfTheWeek">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b8f9038ce6575dc8da4088849e6e25d7f6a5220" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626781" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DayOfTheWeek" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DayOfTheWeek extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DayOfTheWeek" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DayOfTheWeek" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Задает день недели.</summary>
+    <remarks>
+      <para>
+        <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> Значение перечисления совпадает с <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a><see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" /> через <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />). Эти значения могут быть безопасно приведен между двумя перечисления. Особые дни недели (<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />, <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />, и <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />), используемых для повторения ежемесячно и ежегодно и нельзя привести к <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Day">
+      <MemberSignature Language="C#" Value="Day" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Day = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />
+      <MemberSignature Language="VB.NET" Value="Day" />
+      <MemberSignature Language="C++ CLI" Value="Day" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Любой день недели.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Friday">
+      <MemberSignature Language="C#" Value="Friday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Friday = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Friday" />
+      <MemberSignature Language="VB.NET" Value="Friday" />
+      <MemberSignature Language="C++ CLI" Value="Friday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Пятница.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Monday">
+      <MemberSignature Language="C#" Value="Monday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Monday = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Monday" />
+      <MemberSignature Language="VB.NET" Value="Monday" />
+      <MemberSignature Language="C++ CLI" Value="Monday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Понедельник.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Saturday">
+      <MemberSignature Language="C#" Value="Saturday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Saturday = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />
+      <MemberSignature Language="VB.NET" Value="Saturday" />
+      <MemberSignature Language="C++ CLI" Value="Saturday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Суббота.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Sunday">
+      <MemberSignature Language="C#" Value="Sunday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Sunday = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" />
+      <MemberSignature Language="VB.NET" Value="Sunday" />
+      <MemberSignature Language="C++ CLI" Value="Sunday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Воскресенье.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Thursday">
+      <MemberSignature Language="C#" Value="Thursday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Thursday = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Thursday" />
+      <MemberSignature Language="VB.NET" Value="Thursday" />
+      <MemberSignature Language="C++ CLI" Value="Thursday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Четверг.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tuesday">
+      <MemberSignature Language="C#" Value="Tuesday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Tuesday = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Tuesday" />
+      <MemberSignature Language="VB.NET" Value="Tuesday" />
+      <MemberSignature Language="C++ CLI" Value="Tuesday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Вторник.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Wednesday">
+      <MemberSignature Language="C#" Value="Wednesday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Wednesday = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Wednesday" />
+      <MemberSignature Language="VB.NET" Value="Wednesday" />
+      <MemberSignature Language="C++ CLI" Value="Wednesday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Среда.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Weekday">
+      <MemberSignature Language="C#" Value="Weekday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Weekday = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />
+      <MemberSignature Language="VB.NET" Value="Weekday" />
+      <MemberSignature Language="C++ CLI" Value="Weekday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Любой день недели обычной коммерческой деятельности (понедельника по пятницу).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WeekendDay">
+      <MemberSignature Language="C#" Value="WeekendDay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek WeekendDay = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />
+      <MemberSignature Language="VB.NET" Value="WeekendDay" />
+      <MemberSignature Language="C++ CLI" Value="WeekendDay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Любой выходной день (суббота или воскресенье).</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

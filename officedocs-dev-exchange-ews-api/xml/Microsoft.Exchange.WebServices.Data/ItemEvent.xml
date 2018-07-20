@@ -1,0 +1,73 @@
+<Type Name="ItemEvent" FullName="Microsoft.Exchange.WebServices.Data.ItemEvent">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="74ad1225bd9846e8db852c2c1af7ddded77a8d6c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626691" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ItemEvent : Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemEvent extends Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemEvent" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemEvent&#xA;Inherits NotificationEvent" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemEvent sealed : Microsoft::Exchange::WebServices::Data::NotificationEvent" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.NotificationEvent</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет событие, которое применяется к элементу.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemEvent.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает идентификатор элемента, к которому применяется это событие.</summary>
+        <value>Объект ItemId, который определяет элемент, к которому применяется это событие.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId OldItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId OldItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemEvent.OldItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ OldItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает идентификатор исходного элемента, который был перемещен или скопирован.</summary>
+        <value>Объект ItemId, определяющий исходного элемента, к которому применяется это событие.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ItemEvent.OldItemId" /> Свойство применяется только тогда, когда <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" /> свойство равно <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Copied" />. Для всех остальных событий данное свойство является пустая ссылка (Nothing в Visual Basic).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

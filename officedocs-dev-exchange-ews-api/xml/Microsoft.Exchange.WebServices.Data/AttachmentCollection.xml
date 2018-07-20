@@ -1,0 +1,235 @@
+<Type Name="AttachmentCollection" FullName="Microsoft.Exchange.WebServices.Data.AttachmentCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="99b4cb0d83e11922d5457d02b89f84ea23ee48c3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626582" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AttachmentCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttachmentCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttachmentCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttachmentCollection&#xA;Inherits ComplexPropertyCollection(Of Attachment)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttachmentCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::Attachment ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attachment&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.Attachment</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Определяет коллекцию вложений элемента.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddFileAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddFileAttachment(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFileAttachment (fileName As String) As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ AddFileAttachment(System::String ^ fileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">Путь к файлу для добавления в коллекцию.</param>
+        <summary>Добавляет вложение файла в коллекцию.</summary>
+        <returns>Вложенный файл.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFileAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment (string name, byte[] content);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment(string name, unsigned int8[] content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddFileAttachment(System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFileAttachment (name As String, content As Byte()) As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ AddFileAttachment(System::String ^ name, cli::array &lt;System::Byte&gt; ^ content);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="content" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="name">Отображаемое имя файла вложения.</param>
+        <param name="content">Массив байтов, который представляет содержимое файла вложения.</param>
+        <summary>Добавляет вложение файла в коллекцию, содержащую файл.</summary>
+        <returns>Вложенный файл.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFileAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment (string name, System.IO.Stream contentStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment(string name, class System.IO.Stream contentStream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddFileAttachment(System.String,System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFileAttachment (name As String, contentStream As Stream) As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ AddFileAttachment(System::String ^ name, System::IO::Stream ^ contentStream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="contentStream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="name">Отображаемое имя файла вложения.</param>
+        <param name="contentStream">Поток данных, содержащую файл, который присоединяется к коллекции.</param>
+        <summary>Добавляет подключение файла к коллекции с помощью поток данных, содержащую файл.</summary>
+        <returns>Вложенный файл.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFileAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment (string name, string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment(string name, string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddFileAttachment(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFileAttachment (name As String, fileName As String) As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ AddFileAttachment(System::String ^ name, System::String ^ fileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">Отображаемое имя файла вложения.</param>
+        <param name="fileName">Имя файла вложения файла.</param>
+        <summary>Добавляет вложение файла в коллекцию.</summary>
+        <returns>Вложенный файл.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddItemAttachment&lt;TItem&gt;">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemAttachment&lt;TItem&gt; AddItemAttachment&lt;TItem&gt; () where TItem : Microsoft.Exchange.WebServices.Data.Item;" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ItemAttachment`1&lt;!!TItem&gt; AddItemAttachment&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt;() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddItemAttachment``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddItemAttachment(Of TItem As Item) () As ItemAttachment(Of TItem)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TItem&gt;&#xA; where TItem : Microsoft::Exchange::WebServices::Data::Item Microsoft::Exchange::WebServices::Data::ItemAttachment&lt;TItem&gt; ^ AddItemAttachment();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemAttachment&lt;TItem&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItem">
+          <Constraints>
+            <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="TItem">Тип элемента присоединяется к коллекции.</typeparam>
+        <summary>Добавление вложения элемента в коллекции.</summary>
+        <returns>Вложение элемента.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Удаляет все вложения из коллекции.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.Attachment attachment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.Attachment attachment) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.Remove(Microsoft.Exchange.WebServices.Data.Attachment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::Attachment ^ attachment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachment" Type="Microsoft.Exchange.WebServices.Data.Attachment" />
+      </Parameters>
+      <Docs>
+        <param name="attachment">Вложения для удаления из коллекции.</param>
+        <summary>Удаляет указанное вложение из коллекции.</summary>
+        <returns>
+          <b>значение true,</b> Если указанное вложение успешно удалена из коллекции. в противном случае — <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">Индекс вложения для удаления из коллекции.</param>
+        <summary>Удаляет вложения по указанному индексу (расположение) в коллекции.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

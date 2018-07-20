@@ -1,0 +1,266 @@
+<Type Name="ServiceObject" FullName="Microsoft.Exchange.WebServices.Data.ServiceObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3d02a59c610ad9d60b7c5fca770338d559e67b8a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627064" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceObject extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceObject abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет абстрактный базовый класс для всех элементов, папки, беседы и типов элементов ответа post.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetLoadedPropertyDefinitions">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetLoadedPropertyDefinitions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetLoadedPropertyDefinitions() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.GetLoadedPropertyDefinitions" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLoadedPropertyDefinitions () As Collection(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ GetLoadedPropertyDefinitions();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Содержит коллекцию определений загруженных свойство.</summary>
+        <returns>Коллекция определения свойств.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDirty">
+      <MemberSignature Language="C#" Value="public bool IsDirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.IsDirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает значение, указывающее, является ли объект был изменен.</summary>
+        <value>
+          <b>значение true,</b> Если объект был изменен; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNew">
+      <MemberSignature Language="C#" Value="public virtual bool IsNew { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNew" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.IsNew" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsNew As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsNew { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Показывает, существует ли этот объект в базе данных Exchange или если это локальный объект, который не был сохранен в базе данных Exchange.</summary>
+        <value>
+          <b>значение true,</b> Если объект является новым и не были сохранены в базу данных Exchange; в противном случае — <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Item(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(propertyDefinition As PropertyDefinitionBase) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^] { System::Object ^ get(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">Определение свойства для получения.</param>
+        <summary>Получает значение указанного свойства в этом экземпляре.</summary>
+        <value>Свойство.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Exchange.WebServices.Data.ServiceVersionException">Свойство требует более поздней версии Exchange.</exception>
+        <exception cref="T:Microsoft.Exchange.WebServices.Data.PropertyException">Свойство не назначен и не загружается. - или -свойство не может быть обновлении или удалении.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.Load" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Загружает первого класса свойства.</summary>
+        <remarks>
+          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
+          <para />
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.Load(Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="propertySet">Свойство для загрузки.</param>
+        <summary>Загружает указанный набор свойств.</summary>
+        <remarks>
+          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
+          <para />
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Schema">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceObjectSchema Schema { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ServiceObjectSchema Schema" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Schema" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Schema As ServiceObjectSchema" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceObjectSchema ^ Schema { Microsoft::Exchange::WebServices::Data::ServiceObjectSchema ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceObjectSchema</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает схему, связанный с этим типом объекта.</summary>
+        <value>Схема объекта службы.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Service">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeService Service { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeService Service" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Service" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Service As ExchangeService" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeService ^ Service { Microsoft::Exchange::WebServices::Data::ExchangeService ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает службы Exchange для этого объекта.</summary>
+        <value>Объект службы Exchange.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetProperty">
+      <MemberSignature Language="C#" Value="public bool TryGetProperty (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, out object propertyValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetProperty(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, [out] object&amp; propertyValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.TryGetProperty(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetProperty (propertyDefinition As PropertyDefinitionBase, ByRef propertyValue As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetProperty(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, [Runtime::InteropServices::Out] System::Object ^ % propertyValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="propertyValue" Type="System.Object&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">Определение свойства.</param>
+        <param name="propertyValue">Значение свойства.</param>
+        <summary>Пытается получить значение указанного свойства.</summary>
+        <returns>
+          <b>значение true,</b> Если свойство было извлечено; в противном случае — <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetProperty&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public bool TryGetProperty&lt;T&gt; (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, out T propertyValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetProperty&lt;T&gt;(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, [out] !!T&amp; propertyValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.TryGetProperty``1(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,``0@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetProperty(Of T) (propertyDefinition As PropertyDefinitionBase, ByRef propertyValue As T) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; bool TryGetProperty(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, [Runtime::InteropServices::Out] T % propertyValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="propertyValue" Type="T&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">Тип ожидаемое значение свойства.</typeparam>
+        <param name="propertyDefinition">Определение свойства.</param>
+        <param name="propertyValue">Значение свойства.</param>
+        <summary>Пытается получить значение указанного свойства.</summary>
+        <returns>
+          <b>значение true,</b> Если свойство было извлечено; в противном случае — <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,49 @@
+<Type Name="InvalidTokenAudienceException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenAudienceException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6ce19583b3ee3d070f4cebcbf99b105058f1c16b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627344" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class InvalidTokenAudienceException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InvalidTokenAudienceException extends Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenAudienceException" />
+  <TypeSignature Language="VB.NET" Value="Public Class InvalidTokenAudienceException&#xA;Inherits TokenValidationException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InvalidTokenAudienceException : Microsoft::Exchange::WebServices::Auth::Validation::TokenValidationException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит исключение при передаче URL-адрес <see cref="Overload:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate" /> метод <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> объекта не соответствует параметру аудитории, указанных в маркера удостоверения клиента. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenAudienceException" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InvalidTokenAudienceException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenAudienceException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; InvalidTokenAudienceException(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">Сообщение с описанием исключения.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenAudienceException" /> класс с заданным сообщением об ошибке. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenAudienceException.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

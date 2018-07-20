@@ -1,0 +1,89 @@
+<Type Name="ConversationResponse" FullName="Microsoft.Exchange.WebServices.Data.ConversationResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b6931dda087ef33c1e7989ad482f255c01dde40e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627098" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ConversationResponse : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationResponse extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationResponse&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationResponse sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Ответ беседы, состоящий из идентификатора беседы, состояние синхронизации и массив узлов беседы. <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает идентификатор беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор беседы.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationNodeCollection ConversationNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationNodeCollection ConversationNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationNodes As ConversationNodeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationNodeCollection ^ ConversationNodes { Microsoft::Exchange::WebServices::Data::ConversationNodeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationNodeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает коллекцию <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" /> объектов.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Узлы беседы.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncState">
+      <MemberSignature Language="C#" Value="public string SyncState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SyncState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SyncState As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SyncState { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает состояние синхронизации.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Состояние синхронизации.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

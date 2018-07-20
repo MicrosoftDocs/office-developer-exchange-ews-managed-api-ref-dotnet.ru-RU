@@ -1,0 +1,109 @@
+<Type Name="GetClientAccessTokenResponse" FullName="Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b570204e2798f2a040adba4c5fc930ed2265d38" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626801" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetClientAccessTokenResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetClientAccessTokenResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetClientAccessTokenResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetClientAccessTokenResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Содержит сведения о маркера доступа клиента.             <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает клиенту маркера доступа к идентификатору.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenType As ClientAccessTokenType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientAccessTokenType TokenType { Microsoft::Exchange::WebServices::Data::ClientAccessTokenType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает тип маркера, который включает в себя удостоверения и расширение обратного вызова сведения о.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Тип маркера.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenValue">
+      <MemberSignature Language="C#" Value="public string TokenValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TokenValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TokenValue { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает маркер значение закодированного клиентского доступа.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение маркера.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TTL">
+      <MemberSignature Language="C#" Value="public int TTL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TTL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TTL As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TTL { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает число минут до истечения срока действия маркера доступа клиентов.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение TTL в минутах.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

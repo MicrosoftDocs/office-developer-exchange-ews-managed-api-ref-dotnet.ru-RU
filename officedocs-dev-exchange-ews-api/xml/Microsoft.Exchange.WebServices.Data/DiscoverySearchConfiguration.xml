@@ -1,0 +1,166 @@
+<Type Name="DiscoverySearchConfiguration" FullName="Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bb8b91c9b8af648bf097eec9ca68d2cacce437d4" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626508" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DiscoverySearchConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DiscoverySearchConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DiscoverySearchConfiguration" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DiscoverySearchConfiguration sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Определяет запрос объект почтового ящика.             <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiscoverySearchConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DiscoverySearchConfiguration();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InPlaceHoldIdentity">
+      <MemberSignature Language="C#" Value="public string InPlaceHoldIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InPlaceHoldIdentity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.InPlaceHoldIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property InPlaceHoldIdentity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InPlaceHoldIdentity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Хранение на месте удостоверений</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает язык, используемый в запросах в <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> свойство.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedByOrganization">
+      <MemberSignature Language="C#" Value="public string ManagedByOrganization { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ManagedByOrganization" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.ManagedByOrganization" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedByOrganization As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ManagedByOrganization { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Управляет организации</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchableMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchableMailboxes As SearchableMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ SearchableMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchableMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает список доступен для поиска почтовых ящиков.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Для поиска почтовых ящиков.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchId">
+      <MemberSignature Language="C#" Value="public string SearchId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает идентификатор поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>С идентификатором поиска.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchQuery">
+      <MemberSignature Language="C#" Value="public string SearchQuery { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchQuery" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchQuery As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchQuery { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает поисковый запрос.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Поисковые запросы.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,69 @@
+<Type Name="ServerBusyException" FullName="Microsoft.Exchange.WebServices.Data.ServerBusyException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0701fded77a3cc968432fb03c52ca0eade48d8b2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627253" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ServerBusyException : Microsoft.Exchange.WebServices.Data.ServiceResponseException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServerBusyException extends Microsoft.Exchange.WebServices.Data.ServiceResponseException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServerBusyException" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServerBusyException&#xA;Inherits ServiceResponseException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServerBusyException : Microsoft::Exchange::WebServices::Data::ServiceResponseException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponseException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Представляет сервер занят исключение, найденные в ответ службы.     <see cref="T:Microsoft.Exchange.WebServices.Data.ServerBusyException" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServerBusyException (Microsoft.Exchange.WebServices.Data.ServiceResponse response);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ServiceResponse response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServerBusyException.#ctor(Microsoft.Exchange.WebServices.Data.ServiceResponse)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (response As ServiceResponse)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServerBusyException(Microsoft::Exchange::WebServices::Data::ServiceResponse ^ response);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="response" Type="Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+      </Parameters>
+      <Docs>
+        <param name="response">Объект ответа, содержащую сведения об исключении.</param>
+        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ServerBusyException" /> класса.            <see cref="M:Microsoft.Exchange.WebServices.Data.ServerBusyException.#ctor(Microsoft.Exchange.WebServices.Data.ServiceResponse)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackOffMilliseconds">
+      <MemberSignature Language="C#" Value="public int BackOffMilliseconds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BackOffMilliseconds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServerBusyException.BackOffMilliseconds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackOffMilliseconds As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BackOffMilliseconds { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает предложенных миллисекундах время ожидания перед попыткой запрос. Если значение равно нулю, нет нет предложенного времени отсрочки.          <see cref="P:Microsoft.Exchange.WebServices.Data.ServerBusyException.BackOffMilliseconds" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Количество время ожидания в миллисекундах.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
