@@ -1,0 +1,120 @@
+<Type Name="DeleteMode" FullName="Microsoft.Exchange.WebServices.Data.DeleteMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e957ca807d52993db7a17f7f2146841e4469df62" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627097" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DeleteMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeleteMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DeleteMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DeleteMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b67fe-101">Представляет режимы удаления.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b67fe-101">Represents deletion modes.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="b67fe-102">
+        <para>Параметры MoveToDeletedItems и HardDelete являются транзакций, это означает, что время завершения вызова веб-службы, базы данных переместить элемент папки «Удаленные» или окончательно удалить элемент из базы данных Exchange.</para> Параметр 
+      <para>SoftDelete работает по-разному для различных целевых версий Exchange Server. SoftDelete для Exchange Server 2007 немного задает для элемента, которое указывает, к базе данных Exchange, элемент перемещается в корзину папки в неопределенное время в будущем. SoftDelete для версий Exchange, начиная с Exchange 2010, включая Exchange Online сразу же Перемещение элемента в корзину. SoftDelete недоступно для удаления папки. Выполняет обход SoftDelete элементов и папок не возвращает результатов.</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b67fe-102">
+          <para>The MoveToDeletedItems and HardDelete options are transactional, which means that by the time a web service call completes, the database has moved the item to the Deleted Items folder or permanently removed the item from the Exchange database. </para>
+          <para>The SoftDelete option works differently for different target versions of Exchange Server. SoftDelete for Exchange 2007 sets a bit on the item that indicates to the Exchange database that the item will be moved to the dumpster folder at an indeterminate time in the future. SoftDelete for versions of Exchange starting with Exchange 2010, including Exchange Online, immediately moves the item to the dumpster. SoftDelete is not an option for folder deletion. SoftDelete traversal searches for items and folders will not return any results.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HardDelete">
+      <MemberSignature Language="C#" Value="HardDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode HardDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.HardDelete" />
+      <MemberSignature Language="VB.NET" Value="HardDelete" />
+      <MemberSignature Language="C++ CLI" Value="HardDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b67fe-103">Элемент или папку будут окончательно удалены.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b67fe-103">The item or folder will be permanently deleted.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode MoveToDeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b67fe-104">Элемент или папку перемещается в почтовом ящике папки "Удаленные".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b67fe-104">The item or folder will be moved to the mailbox's Deleted Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDelete">
+      <MemberSignature Language="C#" Value="SoftDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode SoftDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.SoftDelete" />
+      <MemberSignature Language="VB.NET" Value="SoftDelete" />
+      <MemberSignature Language="C++ CLI" Value="SoftDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b67fe-105">Элемент или папку перемещается в корзину.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b67fe-105">The item or folder will be moved to the dumpster.</span>
+          </span>
+          <span data-ttu-id="b67fe-106">Элементам и папкам в корзину могут быть восстановлены.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b67fe-106">Items and folders in the dumpster can be recovered.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

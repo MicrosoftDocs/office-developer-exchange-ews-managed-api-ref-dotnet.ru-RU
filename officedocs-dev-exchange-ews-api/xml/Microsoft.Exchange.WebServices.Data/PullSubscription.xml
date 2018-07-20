@@ -1,0 +1,308 @@
+<Type Name="PullSubscription" FullName="Microsoft.Exchange.WebServices.Data.PullSubscription">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="df11061c86bdafe4a1ba146330f5528e92ad9429" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626574" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PullSubscription : Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PullSubscription extends Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PullSubscription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PullSubscription&#xA;Inherits SubscriptionBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PullSubscription sealed : Microsoft::Exchange::WebServices::Data::SubscriptionBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SubscriptionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="db113-101">Представляет подписку по запросу.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="db113-101">Represents a pull subscription.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginGetEvents">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetEvents (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginGetEvents(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.BeginGetEvents(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginGetEvents (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginGetEvents(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">
+          <span data-ttu-id="db113-102">Делегат AsyncCallback.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-102">The AsyncCallback delegate.</span>
+          </span>
+        </param>
+        <param name="state">
+          <span data-ttu-id="db113-103">Объект, который содержит сведения о состоянии для этого запроса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-103">An object that contains state information for this request.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="db113-104">Начинает асинхронный запрос для получения latests событий, связанных с подпиской по запросу. Этот метод был введен в Microsoft Exchange Web Services (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-104">Begins an asynchronous request to retrieve the latests events associated with a pull subscription.This method was introduced in the Microsoft Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="db113-105">GetEventsResults, содержащий список событий, связанных с подпиской.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-105">A GetEventsResults containing a list of events associated with the subscription.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUnsubscribe">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginUnsubscribe (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginUnsubscribe(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.BeginUnsubscribe(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginUnsubscribe (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginUnsubscribe(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">
+          <span data-ttu-id="db113-106">Делегат AsyncCallback.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-106">The AsyncCallback delegate.</span>
+          </span>
+        </param>
+        <param name="state">
+          <span data-ttu-id="db113-107">Объект, который содержит сведения о состоянии для этого запроса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-107">An object that contains state information for this request.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="db113-108">Начинает асинхронный запрос для отмены подписки. Этот метод был введен в Microsoft Exchange Web Services (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-108">Begins an asynchronous request to unsubscribe from a subscription.This method was introduced in the Microsoft Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="db113-109">IAsyncResult, который ссылается на асинхронный запрос.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-109">An IAsyncResult that references the asynchronous request.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGetEvents">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GetEventsResults EndGetEvents (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GetEventsResults EndGetEvents(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.EndGetEvents(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGetEvents (asyncResult As IAsyncResult) As GetEventsResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GetEventsResults ^ EndGetEvents(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GetEventsResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">
+          <span data-ttu-id="db113-110">IAsyncResult, который ссылается на асинхронный запрос.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-110">An IAsyncResult that references the asynchronous request.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="db113-111">Завершает асинхронный запрос для получения последних событий, связанных с подпиской по запросу. Этот метод был введен в Microsoft Exchange Web Services (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-111">Ends an asynchronous request to retrieve the latest events associated with a pull subscription.This method was introduced in the Microsoft Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="db113-112">GetEventsResults, содержащий список событий, связанных с подпиской.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-112">A GetEventsResults containing a list of events associated with the subscription.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndUnsubscribe">
+      <MemberSignature Language="C#" Value="public void EndUnsubscribe (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndUnsubscribe(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.EndUnsubscribe(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndUnsubscribe (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndUnsubscribe(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">
+          <span data-ttu-id="db113-113">IAsyncResult, который ссылается на асинхронный запрос.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-113">An IAsyncResult that references the asynchronous request.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="db113-114">Завершает асинхронный запрос для отмены подписки. Этот метод был введен в Microsoft Exchange Web Services (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-114">Ends an asynchronous request to unsubscribe from a subscription.This method was introduced in the Microsoft Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEvents">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GetEventsResults GetEvents ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GetEventsResults GetEvents() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEvents () As GetEventsResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GetEventsResults ^ GetEvents();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GetEventsResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="db113-115">Получает коллекцию события, произошедшие на подписанном папок с момента точку времени, определяемый <see cref="P:Microsoft.Exchange.WebServices.Data.SubscriptionBase.Watermark" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-115">Obtains a collection of events that occurred on the subscribed folders since the point in time that is defined by the <see cref="P:Microsoft.Exchange.WebServices.Data.SubscriptionBase.Watermark" /> property.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="db113-116">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> Метод возвращает коллекцию события, произошедшие с момента последнего водяного знака.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-116">The <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> method returns a collection of events that occurred since the last watermark.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="db113-117">
+            <para>При <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> завершается успешно, <see cref="P:Microsoft.Exchange.WebServices.Data.SubscriptionBase.Watermark" /> обновляется.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-117">
+              <para>When <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> succeeds, <see cref="P:Microsoft.Exchange.WebServices.Data.SubscriptionBase.Watermark" /> is updated.            </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoreEventsAvailable">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; MoreEventsAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; MoreEventsAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PullSubscription.MoreEventsAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoreEventsAvailable As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; MoreEventsAvailable { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="db113-118">Получает значение, указывающее, доступны ли несколько событий на сервере.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-118">Gets a value that indicates whether more events are available on the server.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="db113-119">Значение true, если доступны дополнительные события; в противном случае — false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-119">True if more events are available; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="db113-120">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.PullSubscription.MoreEventsAvailable" /> Свойство не определено до <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> вызывается метод.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-120">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.PullSubscription.MoreEventsAvailable" /> property is undefined until the <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> method is called.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unsubscribe">
+      <MemberSignature Language="C#" Value="public void Unsubscribe ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Unsubscribe() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.Unsubscribe" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Unsubscribe ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Unsubscribe();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="db113-121">Отменяет подписку из подписки по запросу.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="db113-121">Unsubscribes from the pull subscription.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

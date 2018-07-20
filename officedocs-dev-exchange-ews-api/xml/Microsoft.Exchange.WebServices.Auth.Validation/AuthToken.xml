@@ -1,0 +1,127 @@
+<Type Name="AuthToken" FullName="Microsoft.Exchange.WebServices.Auth.Validation.AuthToken">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dc8af01bd1214d1e6ebf6ccf1c970e88abd1a5de" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627338" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class AuthToken" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AuthToken extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AuthToken" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AuthToken abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="b7da0-101">Определяет базовый класс для проверки подлинности маркеров. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b7da0-101">Defines the base class for authentication tokens.The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="b7da0-102">
+        <para>Этот класс можно использовать в веб-службы для <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">проверки подлинности почтового приложения с помощью маркеров удостоверения Exchange</a></para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b7da0-102">
+          <para>This class can be used in a web service to <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">authenticate a mail app by using Exchange identity tokens</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AuthToken ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; AuthToken();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="b7da0-103">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7da0-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> class.</span>
+          </span>
+          <span data-ttu-id="b7da0-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7da0-104">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parse">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Auth.Validation.AuthToken Parse (string token);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Auth.Validation.AuthToken Parse(string token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (token As String) As AuthToken" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Auth::Validation::AuthToken ^ Parse(System::String ^ token);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Auth.Validation.AuthToken</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="token">
+          <span data-ttu-id="b7da0-105">Маркер string, форматированный.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7da0-105">The string-formatted token.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b7da0-106">Анализирует маркера идентификации string, форматированный в отдельных утверждения, в маркер.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7da0-106">Parses a string-formatted identification token into the individual claims present in the token.</span>
+          </span>
+          <span data-ttu-id="b7da0-107">
+            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7da0-107">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b7da0-108">Маркер проанализированного авторизации.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7da0-108">The parsed authorization token.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="b7da0-109">
+            <para>Строка, передаваемая <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> метод должен иметь формат, если это требуется потомка класса <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> класса. Например <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> метод <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> класса требуется зашифрованный маркер base-64, как определено в <a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">Проект Интернет JSON-маркер (JWT)</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7da0-109">
+              <para>The string passed to the <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> method should be formatted as required by the descendent class of the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> class. For example, the <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> method on the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> class requires a base-64 encoded token as defined in the <a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">JSON Web Token (JWT) Internet Draft</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

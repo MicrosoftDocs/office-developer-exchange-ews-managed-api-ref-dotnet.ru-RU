@@ -1,0 +1,793 @@
+<Type Name="ExchangeServiceBase" FullName="Microsoft.Exchange.WebServices.Data.ExchangeServiceBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="63d0d68023245176fa907a3b57644b570a105ebe" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626892" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ExchangeServiceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExchangeServiceBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExchangeServiceBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExchangeServiceBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="ea320-101">Представляет абстрактный привязку к службе Exchange.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ea320-101">Represents an abstract binding to an Exchange service.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcceptGzipEncoding">
+      <MemberSignature Language="C#" Value="public bool AcceptGzipEncoding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AcceptGzipEncoding" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property AcceptGzipEncoding As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AcceptGzipEncoding { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-102">Получает или задает значение, указывающее, должны быть приняты кодирования сжатия GZip.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-102">Gets or sets a value that indicates whether GZip compression encoding should be accepted.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-103">
+            <b>значение true,</b> Если кодирования сжатия GZip должны приниматься; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-103">
+              <b>true</b> if GZip compression encoding should be accepted; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ea320-104">
+            <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" /> значение свойства указывает на сервер ли клиент может обрабатывать кодирования сжатия GZip. Сервер будет отправлять сжатия GZip контент только в том случае, если он был настроен для этого.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-104">
+              <para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" /> property value indicates to the server whether the client can handle GZip compression encoding. The server will only send GZip-compressed content if it has been configured to do so.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientRequestId">
+      <MemberSignature Language="C#" Value="public string ClientRequestId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ClientRequestId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClientRequestId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ClientRequestId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-105">Получает или задает код запроса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-105">Gets or sets the request ID.</span>
+          </span>
+          <span data-ttu-id="ea320-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-107">Код запроса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-107">The request ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionGroupName">
+      <MemberSignature Language="C#" Value="public string ConnectionGroupName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectionGroupName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConnectionGroupName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConnectionGroupName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-108">Получает или задает имя группы подключения для запроса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-108">Gets or sets the name of the connection group for the request.</span>
+          </span>
+          <span data-ttu-id="ea320-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-110">Имя группы подключений.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-110">The name of the connection group.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CookieContainer">
+      <MemberSignature Language="C#" Value="public System.Net.CookieContainer CookieContainer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.CookieContainer CookieContainer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.CookieContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Property CookieContainer As CookieContainer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::CookieContainer ^ CookieContainer { System::Net::CookieContainer ^ get(); void set(System::Net::CookieContainer ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.CookieContainer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-111">Получает или задает контейнер файл cookie.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-111">Gets or sets the cookie container.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-112">A <see cref="T:System.Net.CookieContainer" /> объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-112">A <see cref="T:System.Net.CookieContainer" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeCredentials Credentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeCredentials Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />
+      <MemberSignature Language="VB.NET" Value="Public Property Credentials As ExchangeCredentials" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ Credentials { Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ get(); void set(Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeCredentials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-113">Получает или задает учетные данные, используемые для проверки подлинности с помощью веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-113">Gets or sets the credentials that are used to authenticate with Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-114">Учетные данные, используемые для проверки подлинности для веб-служб Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-114">The credentials that are used to authenticate with EWS.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ea320-115">
+            <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> автоматически устанавливает свойство <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> значение <b>false</b>.</para>
+            <para>
+              <b>Осторожность</b>: не следует изменять <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство после <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект привязан к веб-службе. Изменение учетных данных приводят к сбою последующих операций веб-службы. Чтобы изменить <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство на <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объектов, необходимо создать новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта с использованием учетных данных, которые будут. Нельзя использовать учетные данные пользователя, вошедшего в систему, если почтовый ящик пользователя размещается в Exchange Online или Exchange Online в составе Office 365. Учетные данные пользователя должен быть в пользовательской формы имя участника (UPN) для Exchange Online.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-115">
+              <para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property automatically sets the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> property to <b>false</b>.</para>
+              <para>
+                <b>Caution</b>: Be careful not to change the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property after the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object has been bound to the Web service. Changing the credentials will cause subsequent Web service operations to fail. To change the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property on the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object, you must create a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object with the credentials that you want.You cannot use the default credentials of the logged on user if the user’s mailbox is hosted in Exchange Online or Exchange Online as part of Office 365. The user’s credentials must be in user principal name (UPN) form for Exchange Online.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HttpHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; HttpHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; HttpHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HttpHeaders As IDictionary(Of String, String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ HttpHeaders { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-116">Получает список заголовки HTTP, связанные с запросами для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-116">Gets a list of HTTP headers associated with requests to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-117">Список HTTP-заголовков, связанные с запросами, организованы в виде пар "ключ значение".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-117">The list of HTTP headers associated with requests, organized as key/value pairs.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HttpResponseHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; HttpResponseHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; HttpResponseHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HttpResponseHeaders As IDictionary(Of String, String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ HttpResponseHeaders { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-118">Получает коллекцию заголовки HTTP от последнего ответа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-118">Gets a collection of HTTP headers from the last response.</span>
+          </span>
+          <span data-ttu-id="ea320-119">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-120">Коллекция заголовки HTTP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-120">A collection of HTTP headers.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeepAlive">
+      <MemberSignature Language="C#" Value="public bool KeepAlive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool KeepAlive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeepAlive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KeepAlive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-121">Получает или задает ли запрос должен содержать активности заголовка.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-121">Gets or sets whether a request should contain a Keep-alive header.</span>
+          </span>
+          <span data-ttu-id="ea320-122">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-123">
+            <b>значение true,</b> Если запрос должен содержать активности заголовок; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-123">
+              <b>true</b> if the request should contain a Keep-alive header; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnResponseHeadersCaptured">
+      <MemberSignature Language="C#" Value="public event Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler OnResponseHeadersCaptured;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler OnResponseHeadersCaptured" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event OnResponseHeadersCaptured As ResponseHeadersCapturedHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Exchange::WebServices::Data::ResponseHeadersCapturedHandler ^ OnResponseHeadersCaptured;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-124">Вызовы <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" /> обработчик.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-124">Calls the <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" /> handler.</span>
+          </span>
+          <span data-ttu-id="ea320-125">
+            <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" /> Событий можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-125">The <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" /> event is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSerializeCustomSoapHeaders">
+      <MemberSignature Language="C#" Value="public event Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate OnSerializeCustomSoapHeaders;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate OnSerializeCustomSoapHeaders" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnSerializeCustomSoapHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event OnSerializeCustomSoapHeaders As CustomXmlSerializationDelegate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Exchange::WebServices::Data::CustomXmlSerializationDelegate ^ OnSerializeCustomSoapHeaders;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-126">Представляет событие, вызываемое Включение приложений для создания пользовательских заголовков SOAP в запросах, отправленных в Microsoft Exchange Server.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-126">Represents the event that is called to enable applications to emit custom SOAP headers in requests that are sent to Microsoft Exchange Server.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreAuthenticate">
+      <MemberSignature Language="C#" Value="public bool PreAuthenticate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PreAuthenticate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.PreAuthenticate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreAuthenticate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PreAuthenticate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-127">Получает или задает значение, указывающее, следует ли выполнять предварительную проверку подлинности HTTP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-127">Gets or sets a value that indicates whether HTTP pre-authentication should be performed.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-128">
+            <b>значение true,</b> если следует выполнять предварительную проверку подлинности HTTP; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-128">
+              <b>true</b> if HTTP pre-authentication should be performed; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedServerVersion">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeVersion RequestedServerVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion RequestedServerVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.RequestedServerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestedServerVersion As ExchangeVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeVersion RequestedServerVersion { Microsoft::Exchange::WebServices::Data::ExchangeVersion get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-129">Получает версию запрошенный сервер.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-129">Gets the requested server version.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-130">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Перечисление объектов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-130">An  <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> enumeration object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnClientRequestId">
+      <MemberSignature Language="C#" Value="public bool ReturnClientRequestId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnClientRequestId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReturnClientRequestId As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnClientRequestId { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-131">Получает или задает флаг, указывающий, что клиент требуется ответы для включения код запроса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-131">Gets or sets a flag indicating that a client requires responses to include the request ID.</span>
+          </span>
+          <span data-ttu-id="ea320-132">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-132">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-133">
+            <b>значение true,</b> Если клиент требует ответов для включения код запроса; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-133">
+              <b>true</b> if the client requires responses to include the request ID; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendClientLatencies">
+      <MemberSignature Language="C#" Value="public bool SendClientLatencies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SendClientLatencies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendClientLatencies As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SendClientLatencies { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-134">Получает или задает сведения о задержке клиента необходимо отправленный клиентом.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-134">Gets or sets whether client latency information must be sent by the client.</span>
+          </span>
+          <span data-ttu-id="ea320-135">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-135">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-136">
+            <b>значение true,</b> Если сведения о клиенте задержка не требуется; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-136">
+              <b>true</b> if client latency information is required; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeServerInfo ServerInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeServerInfo ServerInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServerInfo As ExchangeServerInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeServerInfo ^ ServerInfo { Microsoft::Exchange::WebServices::Data::ExchangeServerInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeServerInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-137">Получает сведения, связанные с сервером, на обработку запроса на последнюю.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-137">Gets information that is associated with the server that processed the most recent request.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-138">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" /> Объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-138">An <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" /> object.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ea320-139">
+            <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" /> свойства — это пустая ссылка (Nothing в Visual Basic), если запросы не были обработаны.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-139">
+              <para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" /> property is a null reference (Nothing in Visual Basic) if no requests have been processed.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timeout">
+      <MemberSignature Language="C#" Value="public int Timeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Timeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property Timeout As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Timeout { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-140">Получает или задает время ожидания, используемый при запросе отправляющим HTTP и при получении ответов HTTP, в миллисекундах.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-140">Gets or sets the timeout that is used when sending HTTP requests and when receiving HTTP responses, in milliseconds.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-141">Время для HTTP-запросов и ответов на них, в миллисекундах.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-141">The time for HTTP requests and responses, in milliseconds.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ea320-142">
+            <para>Значение по умолчанию <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" /> свойство является 100000.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-142">
+              <para>The default value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" /> property is 100000.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceEnabled">
+      <MemberSignature Language="C#" Value="public bool TraceEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TraceEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TraceEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-143">Получает или задает значение, указывающее, включена ли трассировка.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-143">Gets or sets a value that indicates whether tracing is enabled.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-144">
+            <b>значение true,</b> Если трассировка включена; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-144">
+              <b>true</b> if tracing is enabled; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceFlags">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TraceFlags TraceFlags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.TraceFlags TraceFlags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceFlags" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceFlags As TraceFlags" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TraceFlags TraceFlags { Microsoft::Exchange::WebServices::Data::TraceFlags get(); void set(Microsoft::Exchange::WebServices::Data::TraceFlags value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-145">Получает или задает флаги трассировки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-145">Gets or sets the trace flags.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-146">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" /> значения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-146">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" /> values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceListener">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ITraceListener TraceListener { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ITraceListener TraceListener" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceListener" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceListener As ITraceListener" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ITraceListener ^ TraceListener { Microsoft::Exchange::WebServices::Data::ITraceListener ^ get(); void set(Microsoft::Exchange::WebServices::Data::ITraceListener ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ITraceListener</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-147">Получает или задает прослушиватель трассировки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-147">Gets or sets the trace listener.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-148">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" /> Объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-148">An <see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseDefaultCredentials">
+      <MemberSignature Language="C#" Value="public bool UseDefaultCredentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseDefaultCredentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseDefaultCredentials As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseDefaultCredentials { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-149">Получает или задает значение, указывающее, следует ли использовать учетные данные пользователя, который выполнил вход в систему в Windows для проверки подлинности с помощью веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-149">Gets or sets a value that indicates whether the credentials of the user who is currently logged on to Windows should be used to authenticate with Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-150">
+            <b>значение true,</b> Если необходимо использовать учетные данные текущего пользователя; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-150">
+              <b>true</b> if the credentials of the currently logged-on user should be used; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ea320-151">
+            <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> значение <b>true</b> автоматически устанавливает <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство пустая ссылка (Nothing в Visual Basic).</para> Если почтовый ящик пользователя нельзя использовать учетные данные пользователя, выполнившего вход 
+          <para>размещаются в Exchange Online или Exchange Online в составе Office 365. Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство, чтобы задать учетные данные пользователя. Учетные данные пользователя должен быть в пользовательской формы имя участника (UPN) для Exchange Online.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-151">
+              <para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> property to <b>true</b> automatically sets the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property to a null reference (Nothing in Visual Basic).</para>
+              <para>You cannot use the default credentials of the logged on user if the user’s mailbox is hosted in Exchange Online or Exchange Online as part of Office 365. Instead, use the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property to set the user’s credentials. The user’s credentials must be in user principal name (UPN) form for Exchange Online.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserAgent">
+      <MemberSignature Language="C#" Value="public string UserAgent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserAgent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UserAgent" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserAgent As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UserAgent { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-152">Получает или задает агент пользователя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-152">Gets or sets the user agent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-153">A <see cref="T:System.String" /> объект, который представляет агент пользователя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-153">A  <see cref="T:System.String" /> object that represents the user agent.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebProxy">
+      <MemberSignature Language="C#" Value="public System.Net.IWebProxy WebProxy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IWebProxy WebProxy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.WebProxy" />
+      <MemberSignature Language="VB.NET" Value="Public Property WebProxy As IWebProxy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::IWebProxy ^ WebProxy { System::Net::IWebProxy ^ get(); void set(System::Net::IWebProxy ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.IWebProxy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ea320-154">Получает или задает прокси-сервера веб-сервере, который обрабатывает запросы.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-154">Gets or sets the Web proxy server that handles requests.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ea320-155">Веб-прокси-сервер, который обрабатывает запросы, отправленные на сервере Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ea320-155">The Web proxy server that handles requests that are sent to the Exchange server.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

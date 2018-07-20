@@ -1,0 +1,237 @@
+<Type Name="PostItemSchema" FullName="Microsoft.Exchange.WebServices.Data.PostItemSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="eb7f45d0aa102671ea7210e80c90962eab08486b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627388" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PostItemSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PostItemSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PostItemSchema" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PostItemSchema&#xA;Inherits ItemSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PostItemSchema sealed : Microsoft::Exchange::WebServices::Data::ItemSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="47a7b-101">Представляет схему для элементов post.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="47a7b-101">Represents the schema for post items.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="47a7b-102">
+        <para>Класс PostItemSchema используется для идентификации свойств элемента post для операций поиска, фильтрации и загрузки свойства элементов post.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="47a7b-102">
+          <para>The PostItemSchema class is used to identify the post item properties for searches, filtering, and loading properties for post items.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationIndex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationIndex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PostItemSchema.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConversationIndex As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConversationIndex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47a7b-103">Определяет свойство ConversationIndex.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47a7b-103">Defines the ConversationIndex property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationTopic;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationTopic" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PostItemSchema.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConversationTopic As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConversationTopic;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47a7b-104">Определяет свойство ConversationTopic.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47a7b-104">Defines the ConversationTopic property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition From;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition From" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PostItemSchema.From" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly From As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ From;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47a7b-105">Определяет свойства From.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47a7b-105">Defines the From property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition InternetMessageId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition InternetMessageId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PostItemSchema.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InternetMessageId As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ InternetMessageId;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47a7b-106">Определяет свойство InternetMessageId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47a7b-106">Defines the InternetMessageId property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRead;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRead" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PostItemSchema.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRead As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsRead;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47a7b-107">Определяет свойство IsRead.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47a7b-107">Defines the IsRead property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostedTime">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PostedTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PostedTime" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PostItemSchema.PostedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PostedTime As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PostedTime;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47a7b-108">Определяет свойство PostedTime.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47a7b-108">Defines the PostedTime property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="References">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition References;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition References" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PostItemSchema.References" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly References As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ References;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47a7b-109">Определяет свойство ссылки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47a7b-109">Defines the References property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Sender;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Sender" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PostItemSchema.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Sender As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Sender;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47a7b-110">Определяет свойство отправителя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47a7b-110">Defines the Sender property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

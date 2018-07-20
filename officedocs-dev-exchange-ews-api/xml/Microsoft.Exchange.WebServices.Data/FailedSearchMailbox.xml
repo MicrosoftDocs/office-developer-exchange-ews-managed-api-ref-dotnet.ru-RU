@@ -1,0 +1,288 @@
+<Type Name="FailedSearchMailbox" FullName="Microsoft.Exchange.WebServices.Data.FailedSearchMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a38c6e0e7eac30a7500be036575da360072b528c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627028" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FailedSearchMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FailedSearchMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FailedSearchMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FailedSearchMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="5dc15-101">Содержит описание поиска в почтовом ящике сбоя.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5dc15-101">Contains information describing a failed mailbox search.</span>
+      </span>
+      <span data-ttu-id="5dc15-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5dc15-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FailedSearchMailbox (string mailbox, int errorCode, string errorMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, int32 errorCode, string errorMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, errorCode As Integer, errorMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FailedSearchMailbox(System::String ^ mailbox, int errorCode, System::String ^ errorMessage);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="errorCode" Type="System.Int32" />
+        <Parameter Name="errorMessage" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">
+          <span data-ttu-id="5dc15-103">Поиск почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-103">The mailbox searched.</span>
+          </span>
+        </param>
+        <param name="errorCode">
+          <span data-ttu-id="5dc15-104">Код ошибки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-104">The error code.</span>
+          </span>
+        </param>
+        <param name="errorMessage">
+          <span data-ttu-id="5dc15-105">Сообщение об ошибке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-105">The error message.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="5dc15-106">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> класс, на который указывает ссылка почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> class on the referenced mailbox.</span>
+          </span>
+          <span data-ttu-id="5dc15-107">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-107">The <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FailedSearchMailbox (string mailbox, int errorCode, string errorMessage, bool isArchive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, int32 errorCode, string errorMessage, bool isArchive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, errorCode As Integer, errorMessage As String, isArchive As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FailedSearchMailbox(System::String ^ mailbox, int errorCode, System::String ^ errorMessage, bool isArchive);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="errorCode" Type="System.Int32" />
+        <Parameter Name="errorMessage" Type="System.String" />
+        <Parameter Name="isArchive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">
+          <span data-ttu-id="5dc15-108">Идентификатор почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-108">The mailbox ID.</span>
+          </span>
+        </param>
+        <param name="errorCode">
+          <span data-ttu-id="5dc15-109">Код ошибки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-109">The error code.</span>
+          </span>
+        </param>
+        <param name="errorMessage">
+          <span data-ttu-id="5dc15-110">Сообщение об ошибке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-110">The error message.</span>
+          </span>
+        </param>
+        <param name="isArchive">
+          <span data-ttu-id="5dc15-111">
+            <b>значение true,</b> если архив почтовых ящиков; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-111">
+              <b>true</b> if it is mailbox archive; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="5dc15-112">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> класс, на который указывает ссылка почтового ящика, указание, является ли целевой почтовый ящик архивного почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> class on the referenced mailbox specifying whether the target mailbox is an archive mailbox.</span>
+          </span>
+          <span data-ttu-id="5dc15-113">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public int ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ErrorCode { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5dc15-114">Получает или задает код ошибки, связанные с поиском сбоя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-114">Gets or sets the error code associated with the failed search.</span>
+          </span>
+          <span data-ttu-id="5dc15-115">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5dc15-116">Код ошибки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-116">The error code.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5dc15-117">Получает или задает сообщение об ошибке, связанные с поиском сбоя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-117">Gets or sets the error message associated with the failed search.</span>
+          </span>
+          <span data-ttu-id="5dc15-118">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5dc15-119">Сообщение об ошибке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-119">The error message.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5dc15-120">Получает или задает значение, указывающее, является ли целевой почтовый ящик архивного почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-120">Gets or sets whether the target mailbox is an archive mailbox.</span>
+          </span>
+          <span data-ttu-id="5dc15-121">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5dc15-122">
+            <b>значение true,</b> Если в целевом почтовом ящике архивного почтового ящика; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-122">
+              <b>true</b> if the target mailbox is an archive mailbox; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5dc15-123">Получает или задает идентификатор целевого почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-123">Gets or sets the target mailbox ID.</span>
+          </span>
+          <span data-ttu-id="5dc15-124">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5dc15-125">Идентификатор почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5dc15-125">The mailbox ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

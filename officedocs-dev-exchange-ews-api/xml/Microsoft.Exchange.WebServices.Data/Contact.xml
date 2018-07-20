@@ -1,0 +1,1695 @@
+<Type Name="Contact" FullName="Microsoft.Exchange.WebServices.Data.Contact">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a62fe19ef88507a054692710d224b9a99d55f9f2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627153" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Contact : Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Contact extends Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Contact" />
+  <TypeSignature Language="VB.NET" Value="Public Class Contact&#xA;Inherits Item" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Contact : Microsoft::Exchange::WebServices::Data::Item" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="eca6f-101">Представляет контакт.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="eca6f-101">Represents a contact.</span>
+      </span>
+      <span data-ttu-id="eca6f-102">Свойства, доступные на контакты определены в класс ContactSchema.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="eca6f-102">The properties that are available on contacts are defined by the ContactSchema class.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Contact (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Contact.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Contact(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="eca6f-103">Объект ExchangeServiceBase, к которому будет привязан контакт.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-103">The ExchangeServiceBase object to which the contact will be bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="eca6f-104">Инициализирует несохраненные локальный экземпляр класса контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-104">Initializes an unsaved local instance of the Contact class.</span>
+          </span>
+          <span data-ttu-id="eca6f-105">Чтобы связать существующий контакт, используйте метод привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-105">To bind to an existing contact, use the Bind method instead.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Alias">
+      <MemberSignature Language="C#" Value="public string Alias { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Alias" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Alias" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Alias As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Alias { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-106">Получает псевдоним контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-106">Gets the contact's alias.</span>
+          </span>
+          <span data-ttu-id="eca6f-107">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-107">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-108">Псевдоним контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-108">The contact's alias.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantName">
+      <MemberSignature Language="C#" Value="public string AssistantName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AssistantName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.AssistantName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssistantName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AssistantName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-109">Получает или задает имя помощника контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-109">Gets or sets the name of the contact's assistant.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-110">Имя помощника контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-110">The name of the contact's assistant.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Contact Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Contact Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Contact.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Contact" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Contact ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Contact</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="eca6f-111">Служба должна использовать для привязки к контакту.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-111">The service to use to bind to the contact.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="eca6f-112">Идентификатор контакта для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-112">The ID of the contact to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="eca6f-113">Выполняет привязку существующего контакта и загружает его свойства первого класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-113">Binds to an existing contact and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="eca6f-114">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-114">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="eca6f-115">Контакта, который соответствует указанным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-115">The contact that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Contact Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Contact Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Contact.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Contact ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Contact</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="eca6f-116">Служба должна использовать для привязки к контакту.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-116">The service to use to bind to the contact.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="eca6f-117">Идентификатор контакта для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-117">The ID of the contact to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="eca6f-118">Набор свойств для загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-118">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="eca6f-119">Выполняет привязку существующего контакта и загружает указанный набор свойств.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-119">Binds to an existing contact and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="eca6f-120">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-120">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="eca6f-121">Контакта, который соответствует указанным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-121">The contact that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Birthday">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Birthday { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Birthday" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Birthday" />
+      <MemberSignature Language="VB.NET" Value="Public Property Birthday As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; Birthday { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-122">Получает или задает день рождения контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-122">Gets or sets the birthday of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-123">День рождения контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-123">The birthday of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessHomePage">
+      <MemberSignature Language="C#" Value="public string BusinessHomePage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BusinessHomePage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.BusinessHomePage" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusinessHomePage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BusinessHomePage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-124">Получает или задает домашней странице бизнес контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-124">Gets or sets the business home page of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-125">Домашняя страница контакта (рабочая).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-125">The business home page of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Children { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Children" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Children" />
+      <MemberSignature Language="VB.NET" Value="Public Property Children As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Children { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-126">Получает или задает список дочерних элементов для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-126">Gets or sets a list of children for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-127">Список дочерних элементов для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-127">The list of children for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Companies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Companies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Companies As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Companies { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-128">Получает или задает список компаний, для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-128">Gets or sets a list of companies for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-129">Список компаний для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-129">The list of companies for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="public string CompanyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompanyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompanyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CompanyName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-130">Получает или задает имя компании контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-130">Gets or sets the company name of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-131">Имя компании контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-131">The company name of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteName">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CompleteName CompleteName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.CompleteName CompleteName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.CompleteName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CompleteName As CompleteName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::CompleteName ^ CompleteName { Microsoft::Exchange::WebServices::Data::CompleteName ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CompleteName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-132">Получает или задает полное имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-132">Gets or sets the complete name of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-133">Полное имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-133">The complete name of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSource">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.ContactSource&gt; ContactSource { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.ContactSource&gt; ContactSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.ContactSource" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactSource As Nullable(Of ContactSource)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::ContactSource&gt; ContactSource { Nullable&lt;Microsoft::Exchange::WebServices::Data::ContactSource&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ContactSource&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-134">Получает источник контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-134">Gets the source of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-135">Источник контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-135">The source of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Department">
+      <MemberSignature Language="C#" Value="public string Department { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Department" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Department" />
+      <MemberSignature Language="VB.NET" Value="Public Property Department As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Department { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-136">Получает или задает отдел контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-136">Gets or sets the department of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-137">Отдел контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-137">The department of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryId">
+      <MemberSignature Language="C#" Value="public string DirectoryId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DirectoryId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.DirectoryId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DirectoryId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DirectoryId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-138">Получает идентификатор каталогов контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-138">Gets the contact's directory identifier.</span>
+          </span>
+          <span data-ttu-id="eca6f-139">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-139">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-140">Идентификатор каталогов контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-140">The contact's directory identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryPhoto">
+      <MemberSignature Language="C#" Value="public byte[] DirectoryPhoto { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] DirectoryPhoto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.DirectoryPhoto" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DirectoryPhoto As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ DirectoryPhoto { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-141">Получает фотографии контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-141">Gets the contact's photo.</span>
+          </span>
+          <span data-ttu-id="eca6f-142">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-142">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-143">Фотографии контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-143">The contact's photo.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectReports">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection DirectReports { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection DirectReports" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.DirectReports" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DirectReports As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ DirectReports { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-144">Получает контакта прямые отчеты.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-144">Gets the contact's direct reports.</span>
+          </span>
+          <span data-ttu-id="eca6f-145">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-145">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-146">Коллекция адреса электронной почты, которые представляют подчиненные контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-146">A collection of email addresses that represent the contact's direct reports.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-147">Получает или задает отображаемое имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-147">Gets or sets the display name of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-148">Отображаемое имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-148">The display name of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressDictionary EmailAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressDictionary EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddresses As EmailAddressDictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressDictionary ^ EmailAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressDictionary ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressDictionary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-149">Получает индексированным списком адресов электронной почты для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-149">Gets an indexed list of e-mail addresses for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-150">Индексированным списком адресов электронной почты для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-150">An indexed list of e-mail addresses for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+        <example>
+          <span data-ttu-id="eca6f-151">
+            <para>Следующем примере показано, как установить первый адрес электронной почты контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
+            <code>contact.EmailAddresses[EmailAddressKey.EmailAddress1] = "test@contoso.com";</code>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-151">
+              <para>The following example shows how to set the first e-mail address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
+              <code>contact.EmailAddresses[EmailAddressKey.EmailAddress1] = "test@contoso.com";</code>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAs">
+      <MemberSignature Language="C#" Value="public string FileAs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileAs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.FileAs" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAs As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileAs { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-152">Получает или задает имя, под которым оформлена этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-152">Gets or sets the name under which this contact is filed.</span>
+          </span>
+          <span data-ttu-id="eca6f-153">Это свойство можно задать вручную или автоматически рассчитывается на основе значения свойства FileAsMapping.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-153">This property can be manually set or can be automatically calculated based on the value of the FileAsMapping property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-154">Имя, под которым оформлена контакт.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-154">The name under which the contact is filed.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAsMapping">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAsMapping FileAsMapping { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping FileAsMapping" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.FileAsMapping" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAsMapping As FileAsMapping" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FileAsMapping FileAsMapping { Microsoft::Exchange::WebServices::Data::FileAsMapping get(); void set(Microsoft::Exchange::WebServices::Data::FileAsMapping value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-155">Получает или задает значение, указывающее, как FileAs свойство рассчитываться автоматически.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-155">Gets or sets a value that indicates how the FileAs property should be automatically calculated.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-156">Одно из значений перечисления FileAsMapping, определяет как свойство FileAs рассчитываться автоматически.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-156">One of the FileAsMapping enumeration values that specifies how the FileAs property should be automatically calculated.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Generation">
+      <MemberSignature Language="C#" Value="public string Generation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Generation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Generation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Generation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Generation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-157">Получает или задает создания контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-157">Gets or sets the generation of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-158">Создание контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-158">The generation of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContactPictureAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment GetContactPictureAttachment ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment GetContactPictureAttachment() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Contact.GetContactPictureAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetContactPictureAttachment () As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ GetContactPictureAttachment();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-159">Возвращает вложенный файл, который содержит изображение контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-159">Returns the file attachment that contains the contact's picture.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="eca6f-160">Вложение файла, который содержит изображение контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-160">The file attachment that contains the contact's picture.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenName">
+      <MemberSignature Language="C#" Value="public string GivenName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GivenName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.GivenName" />
+      <MemberSignature Language="VB.NET" Value="Public Property GivenName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GivenName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-161">Получает или задает имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-161">Gets or sets the given name of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-162">Имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-162">The given name of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasPicture">
+      <MemberSignature Language="C#" Value="public bool HasPicture { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasPicture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.HasPicture" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasPicture As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasPicture { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-163">Получает значение, указывающее, имеет ли контакт изображения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-163">Gets a value that indicates whether the contact has a picture.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-164">
+            <b>значение true,</b> Если контакт находится изображение; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-164">
+              <b>true</b> if the contact has a picture; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ImAddressDictionary ImAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ImAddressDictionary ImAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.ImAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImAddresses As ImAddressDictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ImAddressDictionary ^ ImAddresses { Microsoft::Exchange::WebServices::Data::ImAddressDictionary ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ImAddressDictionary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-165">Получает индексированным списком адресов мгновенного обмена мгновенными сообщениями для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-165">Gets an indexed list of instant messaging (IM) addresses for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-166">Индексированным списком адресов обмен мгновенными сообщениями (IM) для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-166">An indexed list of instant messaging (IM) addresses for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+        <example>
+          <span data-ttu-id="eca6f-167">
+            <para>Следующем примере показано, как установить первый адрес обмена мгновенными Сообщениями для контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
+            <code>contact.ImAddresses[ImAddressKey.ImAddress1] = "test@contoso.com";</code>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-167">
+              <para>The following example shows how to set the first IM address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
+              <code>contact.ImAddresses[ImAddressKey.ImAddress1] = "test@contoso.com";</code>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public string Initials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Initials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public Property Initials As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Initials { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-168">Получает или задает инициалы контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-168">Gets or sets the initials of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-169">Инициалы контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-169">The initials of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTitle">
+      <MemberSignature Language="C#" Value="public string JobTitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string JobTitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.JobTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ JobTitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-170">Получает или задает название должности контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-170">Gets or sets the job title of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-171">Название должности контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-171">The job title of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Manager">
+      <MemberSignature Language="C#" Value="public string Manager { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Manager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Manager" />
+      <MemberSignature Language="VB.NET" Value="Public Property Manager As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Manager { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-172">Получает или задает имя менеджера контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-172">Gets or sets the name of the contact's manager.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-173">Имя руководителя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-173">The name of the contact's manager.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagerMailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress ManagerMailbox { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress ManagerMailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.ManagerMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagerMailbox As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ ManagerMailbox { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-174">Получает адрес электронной почты контакта прямой руководитель.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-174">Gets the email address of contact's direct manager.</span>
+          </span>
+          <span data-ttu-id="eca6f-175">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-175">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-176">Адрес электронной почты диспетчера контактов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-176">The email address of the contact's manager.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public string MiddleName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public Property MiddleName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-177">Получает или задает отчество контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-177">Gets or sets the middle name of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-178">Отчество контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-178">The middle name of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public string Mileage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mileage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mileage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mileage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-179">Получает или задает расстояние для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-179">Gets or sets the mileage for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-180">Расстояние для этого контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-180">The mileage for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MSExchangeCertificate">
+      <MemberSignature Language="C#" Value="public byte[][] MSExchangeCertificate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[][] MSExchangeCertificate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.MSExchangeCertificate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MSExchangeCertificate As Byte()()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ MSExchangeCertificate { cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[][]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-181">Получает массив двоичных кодирования сертификат контакта Microsoft Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-181">Gets a binary array encoding the contact’s Microsoft Exchange certificate.</span>
+          </span>
+          <span data-ttu-id="eca6f-182">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-182">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-183">Сертификат Microsoft Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-183">A Microsoft Exchange certificate.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NickName">
+      <MemberSignature Language="C#" Value="public string NickName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NickName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.NickName" />
+      <MemberSignature Language="VB.NET" Value="Public Property NickName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NickName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-184">Получает или задает понятное имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-184">Gets or sets the nickname of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-185">Псевдоним контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-185">The nickname of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="public string Notes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Notes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Notes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Notes As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Notes { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-186">Получает свойства notes контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-186">Gets the notes property of a contact.</span>
+          </span>
+          <span data-ttu-id="eca6f-187">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-187">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-188">Заметки о сведения о контакте.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-188">The notes information about a contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfficeLocation">
+      <MemberSignature Language="C#" Value="public string OfficeLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OfficeLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.OfficeLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property OfficeLocation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OfficeLocation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-189">Получает или задает расположение контакта office.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-189">Gets or sets the location of the contact's office.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-190">Расположение офиса контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-190">The location of the contact's office.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary PhoneNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneNumbers As PhoneNumberDictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PhoneNumberDictionary ^ PhoneNumbers { Microsoft::Exchange::WebServices::Data::PhoneNumberDictionary ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-191">Получает индексированным списком телефонных номеров контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-191">Gets an indexed list of telephone numbers for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-192">Индексированным списком телефонных номеров контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-192">An indexed list of telephone numbers for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+        <example>
+          <span data-ttu-id="eca6f-193">
+            <para>Следующем примере показано, как задать номер домашнего телефона контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
+            <code>contact.PhoneNumbers[PhoneNumberKey.HomePhone] = "111-111-1111";</code>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-193">
+              <para>The following example shows how to set the home telephone number for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
+              <code>contact.PhoneNumbers[PhoneNumberKey.HomePhone] = "111-111-1111";</code>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticFirstName">
+      <MemberSignature Language="C#" Value="public string PhoneticFirstName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneticFirstName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.PhoneticFirstName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneticFirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneticFirstName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-194">Получает имя контакта с помощью алфавита фонетическая запись.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-194">Gets a contact’s first name using the phonetic alphabet.</span>
+          </span>
+          <span data-ttu-id="eca6f-195">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-195">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-196">Фонетическое имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-196">A contact's phonetic first name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticFullName">
+      <MemberSignature Language="C#" Value="public string PhoneticFullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneticFullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.PhoneticFullName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneticFullName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneticFullName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-197">Получает полное имя, включая сначала и последней, с помощью алфавита фонетическая запись контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-197">Gets a contact’s full name, including first and last, using the phonetic alphabet.</span>
+          </span>
+          <span data-ttu-id="eca6f-198">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-198">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-199">Фонетическое полное имя контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-199">A contact's full phonetic name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticLastName">
+      <MemberSignature Language="C#" Value="public string PhoneticLastName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneticLastName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.PhoneticLastName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneticLastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneticLastName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-200">Получает фамилию контакта с помощью алфавита фонетическая запись.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-200">Gets a contact’s last name using the phonetic alphabet.</span>
+          </span>
+          <span data-ttu-id="eca6f-201">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-201">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-202">Фонетическая фамилия контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-202">A contact's phonetic last name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhysicalAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary PhysicalAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary PhysicalAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.PhysicalAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhysicalAddresses As PhysicalAddressDictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PhysicalAddressDictionary ^ PhysicalAddresses { Microsoft::Exchange::WebServices::Data::PhysicalAddressDictionary ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-203">Получает индексированным списком физических адресов для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-203">Gets an indexed list of physical addresses for the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-204">Индексированные список физических адресов для контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-204">An indexed list of physical addresses for the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+        <example>
+          <span data-ttu-id="eca6f-205">
+            <para>Следующем примере показано, как задать рабочий адрес контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> представляет объект и businessAddress <see cref="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" /> объектов.</para>
+            <code>contact.PhysicalAddresses[PhysicalAddressKey.Business] = businessAddress;</code>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-205">
+              <para>The following example shows how to set the business address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object and businessAddress represents a <see cref="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" /> object.</para>
+              <code>contact.PhysicalAddresses[PhysicalAddressKey.Business] = businessAddress;</code>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalAddressIndex">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressIndex&gt; PostalAddressIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressIndex&gt; PostalAddressIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.PostalAddressIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalAddressIndex As Nullable(Of PhysicalAddressIndex)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::PhysicalAddressIndex&gt; PostalAddressIndex { Nullable&lt;Microsoft::Exchange::WebServices::Data::PhysicalAddressIndex&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::PhysicalAddressIndex&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressIndex&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-206">Получает или задает индекс почтовый адрес контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-206">Gets or sets the index of the contact's postal address.</span>
+          </span>
+          <span data-ttu-id="eca6f-207">Если параметр PostalAddressIndex ссылается на запись в списке индексированные свойства PhysicalAddresses.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-207">When set, PostalAddressIndex refers to an entry in the PhysicalAddresses property indexed list.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-208">Индекс почтовый адрес контакта в списке индексированные свойства PhysicalAddresses.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-208">The index of the contact's postal address in the PhysicalAddresses property indexed list.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Profession">
+      <MemberSignature Language="C#" Value="public string Profession { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Profession" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Profession" />
+      <MemberSignature Language="VB.NET" Value="Public Property Profession As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Profession { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-209">Получает или задает род занятий контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-209">Gets or sets the profession of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-210">Род занятий контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-210">The profession of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveContactPicture">
+      <MemberSignature Language="C#" Value="public void RemoveContactPicture ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveContactPicture() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Contact.RemoveContactPicture" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveContactPicture ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveContactPicture();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-211">Удаляет на изображение контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-211">Removes the contact's picture.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetContactPicture">
+      <MemberSignature Language="C#" Value="public void SetContactPicture (byte[] content);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetContactPicture(unsigned int8[] content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Contact.SetContactPicture(System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetContactPicture (content As Byte())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetContactPicture(cli::array &lt;System::Byte&gt; ^ content);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="content">
+          <span data-ttu-id="eca6f-212">Байт, которые делают изображение.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-212">The bytes that make the picture.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="eca6f-213">Задает на изображение контакта с помощью указанного массива байтов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-213">Sets the contact's picture by using the specified byte array.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetContactPicture">
+      <MemberSignature Language="C#" Value="public void SetContactPicture (System.IO.Stream contentStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetContactPicture(class System.IO.Stream contentStream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Contact.SetContactPicture(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetContactPicture (contentStream As Stream)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetContactPicture(System::IO::Stream ^ contentStream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentStream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="contentStream">
+          <span data-ttu-id="eca6f-214">Поток, который содержит изображение контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-214">The stream that contains the contact's picture.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="eca6f-215">Задает на изображение контакта с помощью указанного потока.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-215">Sets the contact's picture by using the specified stream.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetContactPicture">
+      <MemberSignature Language="C#" Value="public void SetContactPicture (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetContactPicture(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Contact.SetContactPicture(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetContactPicture (fileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetContactPicture(System::String ^ fileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">
+          <span data-ttu-id="eca6f-216">Имя файла, содержащего изображение контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-216">The name of the file that contains the contact's picture.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="eca6f-217">Задает на изображение контакта с помощью указанного файла.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-217">Sets the contact's picture by using the specified file.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpouseName">
+      <MemberSignature Language="C#" Value="public string SpouseName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SpouseName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.SpouseName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpouseName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SpouseName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-218">Получает или задает имя контакта супруга/партнера.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-218">Gets or sets the name of the contact's spouse/partner.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-219">Имя супруга или супруги контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-219">The name of the contact's spouse/partner.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surname">
+      <MemberSignature Language="C#" Value="public string Surname { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Surname" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.Surname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Surname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Surname { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-220">Получает или задает фамилию контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-220">Gets or sets the surname of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-221">Фамилия контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-221">The surname of the contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSMIMECertificate">
+      <MemberSignature Language="C#" Value="public byte[][] UserSMIMECertificate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[][] UserSMIMECertificate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.UserSMIMECertificate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserSMIMECertificate As Byte()()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ UserSMIMECertificate { cli::array &lt;cli::array &lt;System::Byte&gt; ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[][]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-222">Получает массив двоичных кодирования сертификат SMIME контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-222">Gets a binary array encoding the contact’s SMIME certificate.</span>
+          </span>
+          <span data-ttu-id="eca6f-223">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-223">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-224">Сертификат SMIME.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-224">A SMIME certificate.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WeddingAnniversary">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; WeddingAnniversary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; WeddingAnniversary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Contact.WeddingAnniversary" />
+      <MemberSignature Language="VB.NET" Value="Public Property WeddingAnniversary As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; WeddingAnniversary { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eca6f-225">Получает или задает дату Годовщина свадьбы контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-225">Gets or sets the date of the contact's wedding anniversary.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eca6f-226">Дата Годовщина свадьбы контакта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eca6f-226">The date of the contact's wedding anniversary.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

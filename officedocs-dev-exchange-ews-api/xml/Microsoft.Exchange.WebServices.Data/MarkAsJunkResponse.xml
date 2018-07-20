@@ -1,0 +1,74 @@
+<Type Name="MarkAsJunkResponse" FullName="Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3674657af4dd1f452f7bad165c2ff8a9a0aa6cc2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627387" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MarkAsJunkResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MarkAsJunkResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class MarkAsJunkResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MarkAsJunkResponse : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e266d-101">Содержит идентификатор сообщения, который был перемещен в папку нежелательной почты в ответ на него помеченные как нежелательная почта.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e266d-101">Contains the ID of a message that was moved to the Junk Email folder in response to it being marked as junk mail.</span>
+      </span>
+      <span data-ttu-id="e266d-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e266d-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MovedItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId MovedItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId MovedItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse.MovedItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MovedItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ MovedItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e266d-103">Получает идентификатор сообщения, помеченные как нежелательная почта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e266d-103">Gets the item ID of the message marked as junk mail.</span>
+          </span>
+          <span data-ttu-id="e266d-104">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse.MovedItemId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e266d-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse.MovedItemId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e266d-105">Идентификатор перемещенной элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e266d-105">The moved item ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

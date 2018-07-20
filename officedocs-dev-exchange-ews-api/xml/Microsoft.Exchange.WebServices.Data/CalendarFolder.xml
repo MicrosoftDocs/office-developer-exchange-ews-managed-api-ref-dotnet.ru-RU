@@ -1,0 +1,323 @@
+<Type Name="CalendarFolder" FullName="Microsoft.Exchange.WebServices.Data.CalendarFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="98a14ce66be6f0811ade9e9ef383937c628e7ea3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627214" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CalendarFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CalendarFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarFolder&#xA;Inherits Folder" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarFolder : Microsoft::Exchange::WebServices::Data::Folder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Folder</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="d88ce-101">Представляет папку, содержащую встреч.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d88ce-101">Represents a folder that contains appointments.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarFolder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarFolder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="d88ce-102">Объект класса ExchangeService, к которому будет привязан к папке календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-102">The ExchangeService class object to which the calendar folder will be bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d88ce-103">Инициализирует несохраненные локальный экземпляр класса CalendarFolder.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-103">Initializes an unsaved local instance of the CalendarFolder class.</span>
+          </span>
+          <span data-ttu-id="d88ce-104">Для привязки к существующей папке календаря, используйте метод привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-104">To bind to an existing calendar folder, use the Bind method.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As CalendarFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="d88ce-105">Служба должна использовать для привязки к папке календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-105">The service to use to bind to the calendar folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="d88ce-106">Идентификатор папки календаря для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-106">The ID of the calendar folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d88ce-107">Выполняет привязку к существующей папке календаря и загружает его свойства первого класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-107">Binds to an existing calendar folder and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="d88ce-108">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-108">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d88ce-109">Экземпляр класса CalendarFolder, который представляет в папке календаря, соответствующий указанным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-109">An instance of the CalendarFolder class that represents the calendar folder that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As CalendarFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="d88ce-110">Служба должна использовать для привязки к папке календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-110">The service to use to bind to the calendar folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="d88ce-111">Имя папки календаря для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-111">The name of the calendar folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d88ce-112">Выполняет привязку к существующей папке календаря и загружает его свойства первого класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-112">Binds to an existing calendar folder and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="d88ce-113">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-113">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d88ce-114">Экземпляр класса CalendarFolder, который представляет папки календаря с указанным именем.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-114">An instance of the CalendarFolder class that represents the calendar folder with the specified name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="d88ce-115">Служба должна использовать для привязки к папке календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-115">The service to use to bind to the calendar folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="d88ce-116">Идентификатор папки календаря для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-116">The ID of the calendar folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="d88ce-117">Набор свойств для загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-117">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d88ce-118">Выполняет привязку к существующей папке календаря и загружает указанный набор свойств.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-118">Binds to an existing calendar folder and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="d88ce-119">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-119">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d88ce-120">Экземпляр CalendarFolder, который представляет в папке календаря, соответствующий указанным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-120">A CalendarFolder instance that represents the calendar folder that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="d88ce-121">Служба должна использовать для привязки к папке календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-121">The service to use to bind to the calendar folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="d88ce-122">Имя папки календаря для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-122">The name of the calendar folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="d88ce-123">Набор свойств для загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-123">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d88ce-124">Выполняет привязку к существующей папке календаря и загружает указанный набор свойств.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-124">Binds to an existing calendar folder and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="d88ce-125">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-125">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d88ce-126">Экземпляр класса CalendarFolder, который представляет папки календаря с указанным именем.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-126">An instance of the CalendarFolder class that represents the calendar folder with the specified name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindAppointments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt; FindAppointments (Microsoft.Exchange.WebServices.Data.CalendarView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Appointment&gt; FindAppointments(class Microsoft.Exchange.WebServices.Data.CalendarView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.FindAppointments(Microsoft.Exchange.WebServices.Data.CalendarView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindAppointments (view As CalendarView) As FindItemsResults(Of Appointment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ FindAppointments(Microsoft::Exchange::WebServices::Data::CalendarView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.CalendarView" />
+      </Parameters>
+      <Docs>
+        <param name="view">
+          <span data-ttu-id="d88ce-127">Представление, определяющее диапазон встречи, которые возвращаются.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-127">The view that controls the range of appointments that are returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d88ce-128">Получает список встреч, поиск содержимого папки и для выполнения повторения расширения для повторяющихся встреч.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-128">Obtains a list of appointments by searching the contents of this folder and performing recurrence expansion for recurring appointments.</span>
+          </span>
+          <span data-ttu-id="d88ce-129">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-129">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d88ce-130">Объект, который представляет результаты операции поиска.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d88ce-130">An object that represents the results of the search operation.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

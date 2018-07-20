@@ -1,0 +1,574 @@
+<Type Name="ElcFolderType" FullName="Microsoft.Exchange.WebServices.Data.ElcFolderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7f4f9f51a1283bae3f43b297ec66e159c11c222b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626591" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ElcFolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ElcFolderType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ElcFolderType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ElcFolderType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ed804-101">Перечисление папок, которые принимают политики (MRM) управления записями сообщений.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ed804-101">Enumerates the folders that accept messaging records management (MRM) policies.</span>
+      </span>
+      <span data-ttu-id="ed804-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ed804-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType All = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-103">Политика хранения применяется ко всем папкам, не связанные с указанной политики.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-103">The retention policy applies to all folders that do not have a policy specified.</span>
+          </span>
+          <span data-ttu-id="ed804-104">Все поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-104">The All field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Calendar">
+      <MemberSignature Language="C#" Value="Calendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Calendar = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Calendar" />
+      <MemberSignature Language="VB.NET" Value="Calendar" />
+      <MemberSignature Language="C++ CLI" Value="Calendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-105">Политика хранения применяется к папке календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-105">The retention policy applies to the Calendar folder.</span>
+          </span>
+          <span data-ttu-id="ed804-106">В поле календарь используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-106">The Calendar field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="Contacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Contacts = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Contacts" />
+      <MemberSignature Language="C++ CLI" Value="Contacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-107">Политика хранения применяется к папке «Контакты».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-107">The retention policy applies to the Contacts folder.</span>
+          </span>
+          <span data-ttu-id="ed804-108">Поле контакты можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-108">The Contacts field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationHistory">
+      <MemberSignature Language="C#" Value="ConversationHistory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType ConversationHistory = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.ConversationHistory" />
+      <MemberSignature Language="VB.NET" Value="ConversationHistory" />
+      <MemberSignature Language="C++ CLI" Value="ConversationHistory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-109">Политика хранения применяется к папке журнала бесед по умолчанию.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-109">The retention policy applies to the default Conversation History folder.</span>
+          </span>
+          <span data-ttu-id="ed804-110">Эта папка используется в архив беседы службы обмена мгновенными Сообщениями конференц-связи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-110">This folder is used to archive IM Conferencing service conversations.</span>
+          </span>
+          <span data-ttu-id="ed804-111">В поле ConversationHistory используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-111">The ConversationHistory field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedItems">
+      <MemberSignature Language="C#" Value="DeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType DeletedItems = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.DeletedItems" />
+      <MemberSignature Language="VB.NET" Value="DeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="DeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-112">Применяет политику хранения для папки "Удаленные".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-112">The retention policy applies to the Deleted Items folder.</span>
+          </span>
+          <span data-ttu-id="ed804-113">В поле DeletedItems используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-113">The DeletedItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Drafts">
+      <MemberSignature Language="C#" Value="Drafts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Drafts = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Drafts" />
+      <MemberSignature Language="VB.NET" Value="Drafts" />
+      <MemberSignature Language="C++ CLI" Value="Drafts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-114">Политика хранения применяется к папке "Черновики".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-114">The retention policy applies to the Drafts folder.</span>
+          </span>
+          <span data-ttu-id="ed804-115">В поле «черновики» используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-115">The Drafts field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Inbox">
+      <MemberSignature Language="C#" Value="Inbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Inbox = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Inbox" />
+      <MemberSignature Language="VB.NET" Value="Inbox" />
+      <MemberSignature Language="C++ CLI" Value="Inbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-116">Политика хранения применяется к папке "Входящие".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-116">The retention policy applies to the Inbox folder.</span>
+          </span>
+          <span data-ttu-id="ed804-117">В поле папки «Входящие» используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-117">The Inbox field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Journal">
+      <MemberSignature Language="C#" Value="Journal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Journal = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Journal" />
+      <MemberSignature Language="VB.NET" Value="Journal" />
+      <MemberSignature Language="C++ CLI" Value="Journal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-118">Политика хранения применяется к папке журнала.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-118">The retention policy applies to the Journal folder.</span>
+          </span>
+          <span data-ttu-id="ed804-119">В поле журнала можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-119">The Journal field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JunkEmail">
+      <MemberSignature Language="C#" Value="JunkEmail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType JunkEmail = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.JunkEmail" />
+      <MemberSignature Language="VB.NET" Value="JunkEmail" />
+      <MemberSignature Language="C++ CLI" Value="JunkEmail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-120">Политика хранения применяется в папку нежелательной почты.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-120">The retention policy applies to the Junk mail folder.</span>
+          </span>
+          <span data-ttu-id="ed804-121">В поле JunkEmail используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-121">The JunkEmail field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedCustomFolder">
+      <MemberSignature Language="C#" Value="ManagedCustomFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType ManagedCustomFolder = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.ManagedCustomFolder" />
+      <MemberSignature Language="VB.NET" Value="ManagedCustomFolder" />
+      <MemberSignature Language="C++ CLI" Value="ManagedCustomFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-122">Политика хранения применяется к настраиваемые управляемые папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-122">The retention policy applies to the Managed Custom folders.</span>
+          </span>
+          <span data-ttu-id="ed804-123">В поле ManagedCustomFolder используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-123">The ManagedCustomFolder field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonIpmRoot">
+      <MemberSignature Language="C#" Value="NonIpmRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType NonIpmRoot = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.NonIpmRoot" />
+      <MemberSignature Language="VB.NET" Value="NonIpmRoot" />
+      <MemberSignature Language="C++ CLI" Value="NonIpmRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-124">Политика хранения применяется к папке не электронной почты — это поддерево обмена мгновенными сообщениями.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-124">The retention policy applies to the non-interpersonal messaging subtree folder.</span>
+          </span>
+          <span data-ttu-id="ed804-125">В поле NonIpmRoot используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-125">The NonIpmRoot field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="Notes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Notes = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Notes" />
+      <MemberSignature Language="VB.NET" Value="Notes" />
+      <MemberSignature Language="C++ CLI" Value="Notes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-126">Политика хранения применяется к папка «заметки».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-126">The retention policy applies to the Notes folder.</span>
+          </span>
+          <span data-ttu-id="ed804-127">В поле заметки можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-127">The Notes field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Outbox">
+      <MemberSignature Language="C#" Value="Outbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Outbox = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Outbox" />
+      <MemberSignature Language="VB.NET" Value="Outbox" />
+      <MemberSignature Language="C++ CLI" Value="Outbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-128">Политика хранения применяется к папке «Исходящие».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-128">The retention policy applies to the Outbox folder.</span>
+          </span>
+          <span data-ttu-id="ed804-129">В поле "Исходящие" используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-129">The Outbox field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Personal">
+      <MemberSignature Language="C#" Value="Personal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Personal = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Personal" />
+      <MemberSignature Language="VB.NET" Value="Personal" />
+      <MemberSignature Language="C++ CLI" Value="Personal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-130">Политика хранения применяется к личной папки, созданные пользователем.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-130">The retention policy applies to user-created personal folders.</span>
+          </span>
+          <span data-ttu-id="ed804-131">Личные поля используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-131">The Personal field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecoverableItems">
+      <MemberSignature Language="C#" Value="RecoverableItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType RecoverableItems = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.RecoverableItems" />
+      <MemberSignature Language="VB.NET" Value="RecoverableItems" />
+      <MemberSignature Language="C++ CLI" Value="RecoverableItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-132">Политика хранения применяется к папке элементов для восстановления.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-132">The retention policy applies to the Recoverable Items folder.</span>
+          </span>
+          <span data-ttu-id="ed804-133">В поле RecoverableItems используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-133">The RecoverableItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RssSubscriptions">
+      <MemberSignature Language="C#" Value="RssSubscriptions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType RssSubscriptions = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.RssSubscriptions" />
+      <MemberSignature Language="VB.NET" Value="RssSubscriptions" />
+      <MemberSignature Language="C++ CLI" Value="RssSubscriptions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-134">Политика хранения применяется к папке RSS-канал.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-134">The retention policy applies to the RSS folder.</span>
+          </span>
+          <span data-ttu-id="ed804-135">В поле RssSubscriptions используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-135">The RssSubscriptions field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SentItems">
+      <MemberSignature Language="C#" Value="SentItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType SentItems = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.SentItems" />
+      <MemberSignature Language="VB.NET" Value="SentItems" />
+      <MemberSignature Language="C++ CLI" Value="SentItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-136">Политика хранения применяется к этой папке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-136">The retention policy applies to the Sent Items folder.</span>
+          </span>
+          <span data-ttu-id="ed804-137">В поле папки "Отправленные" используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-137">The SentItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncIssues">
+      <MemberSignature Language="C#" Value="SyncIssues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType SyncIssues = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.SyncIssues" />
+      <MemberSignature Language="VB.NET" Value="SyncIssues" />
+      <MemberSignature Language="C++ CLI" Value="SyncIssues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-138">Политика хранения применяется к ошибки синхронизации папки по умолчанию.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-138">The retention policy applies to the default Sync Issues folder.</span>
+          </span>
+          <span data-ttu-id="ed804-139">В поле SyncIssues используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-139">The SyncIssues field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tasks">
+      <MemberSignature Language="C#" Value="Tasks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Tasks = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Tasks" />
+      <MemberSignature Language="VB.NET" Value="Tasks" />
+      <MemberSignature Language="C++ CLI" Value="Tasks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed804-140">Политика хранения применяется к папке задачи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-140">The retention policy applies to the Tasks folder.</span>
+          </span>
+          <span data-ttu-id="ed804-141">Поля задач можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed804-141">The Tasks field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

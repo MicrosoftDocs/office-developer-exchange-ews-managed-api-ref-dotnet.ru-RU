@@ -1,0 +1,124 @@
+<Type Name="GetEventsResults" FullName="Microsoft.Exchange.WebServices.Data.GetEventsResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="38b2607904a6d1b4de5367427d35eb69653c2957" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626521" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetEventsResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetEventsResults extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetEventsResults" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetEventsResults" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetEventsResults sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="7d1a6-101">Представляет коллекцию событий уведомления.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7d1a6-101">Represents a collection of notification events.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllEvents">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.NotificationEvent&gt; AllEvents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.NotificationEvent&gt; AllEvents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetEventsResults.AllEvents" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllEvents As Collection(Of NotificationEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::NotificationEvent ^&gt; ^ AllEvents { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::NotificationEvent ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.NotificationEvent&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d1a6-102">Получает коллекцию всех событий.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d1a6-102">Gets the collection of all events.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7d1a6-103">Объект коллекции, который содержит события уведомления.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d1a6-103">A Collection object that contains the notification events.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderEvents">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.FolderEvent&gt; FolderEvents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.FolderEvent&gt; FolderEvents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetEventsResults.FolderEvents" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderEvents As IEnumerable(Of FolderEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::FolderEvent ^&gt; ^ FolderEvents { System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::FolderEvent ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.FolderEvent&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d1a6-104">Получает коллекцию папок.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d1a6-104">Gets the collection of folder events.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7d1a6-105">Объект IEnumerable, который выполняет итерацию всех событий папки в коллекции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d1a6-105">An IEnumerable object that iterates over all folder events in the collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemEvents">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.ItemEvent&gt; ItemEvents { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.ItemEvent&gt; ItemEvents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetEventsResults.ItemEvents" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemEvents As IEnumerable(Of ItemEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::ItemEvent ^&gt; ^ ItemEvents { System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::ItemEvent ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.ItemEvent&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d1a6-106">Получает коллекцию событий элементов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d1a6-106">Gets the collection of item events.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7d1a6-107">Объект IEnumerable, который выполняет итерацию всех событий элемента в коллекции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d1a6-107">An IEnumerable object that iterates over all item events in the collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

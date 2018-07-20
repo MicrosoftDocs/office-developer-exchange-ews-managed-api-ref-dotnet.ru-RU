@@ -1,0 +1,94 @@
+<Type Name="ExchangeService+RenderingMode" FullName="Microsoft.Exchange.WebServices.Data.ExchangeService+RenderingMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="61fffe69e11997774dd341c95c1b00f16d62577d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626984" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ExchangeService.RenderingMode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed ExchangeService/RenderingMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExchangeService.RenderingMode" />
+  <TypeSignature Language="C++ CLI" Value="public: enum class ExchangeService::RenderingMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="faf4d-101">Задает режим сериализации данных для использования.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="faf4d-101">Specifies the data serialization mode to use.</span>
+      </span>
+      <span data-ttu-id="faf4d-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="faf4d-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="JSON">
+      <MemberSignature Language="C#" Value="JSON" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeService/RenderingMode JSON = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode.JSON" />
+      <MemberSignature Language="VB.NET" Value="JSON" />
+      <MemberSignature Language="C++ CLI" Value="JSON" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService+RenderingMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="faf4d-103">Данные сериализованным как JavaScript Object Notation (JSON).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="faf4d-103">Data serialized as JavaScript Object Notation (JSON).</span>
+          </span>
+          <span data-ttu-id="faf4d-104">В поле JSON используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="faf4d-104">The JSON field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Xml">
+      <MemberSignature Language="C#" Value="Xml" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeService/RenderingMode Xml = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode.Xml" />
+      <MemberSignature Language="VB.NET" Value="Xml" />
+      <MemberSignature Language="C++ CLI" Value="Xml" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService+RenderingMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="faf4d-105">Данные сериализованным как XML.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="faf4d-105">Data serialized as XML.</span>
+          </span>
+          <span data-ttu-id="faf4d-106">Поле Xml используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="faf4d-106">The Xml field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

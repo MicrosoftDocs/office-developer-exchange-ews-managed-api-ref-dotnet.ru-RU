@@ -1,0 +1,427 @@
+<Type Name="FolderId" FullName="Microsoft.Exchange.WebServices.Data.FolderId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8ab5db187cd522e45470a443353a0dfbbcd8ff89" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627116" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderId&#xA;Inherits ServiceId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderId sealed : Microsoft::Exchange::WebServices::Data::ServiceId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="9b143-101">Представляет идентификатор папки.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9b143-101">Represents the ID of a folder.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (folderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">
+          <span data-ttu-id="9b143-102">Имя папки, который используется для инициализации класса FolderId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-102">The folder name that is used to initialize the FolderId class.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9b143-103">Инициализирует новый экземпляр класса FolderId с именем известных папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-103">Initializes a new instance of the FolderId class, with the well-known folder name.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="9b143-104">
+            <para>Используйте этот конструктор, чтобы связать этот идентификатор папки известных папку (например, папки "Входящие", календаря или контакты).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-104">
+              <para>Use this constructor to link this folder ID to a well-known folder (for example, Inbox, Calendar, or Contacts).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniqueId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(System::String ^ uniqueId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">
+          <span data-ttu-id="9b143-105">Уникальный идентификатор, который используется для инициализации класса FolderId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-105">The unique ID that is used to initialize the FolderId class.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9b143-106">Инициализирует новый экземпляр класса FolderId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-106">Initializes a new instance of the FolderId class.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="9b143-107">
+            <para>Используйте этот конструктор, чтобы связать этот класс FolderId в существующей папке.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-107">
+              <para>Use this constructor to link this FolderId class to an existing folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName, Microsoft.Exchange.WebServices.Data.Mailbox mailbox);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName, class Microsoft.Exchange.WebServices.Data.Mailbox mailbox) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.Mailbox)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName, Microsoft::Exchange::WebServices::Data::Mailbox ^ mailbox);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="mailbox" Type="Microsoft.Exchange.WebServices.Data.Mailbox" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">
+          <span data-ttu-id="9b143-108">Имя папки, который используется для инициализации класса FolderId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-108">The folder name that is used to initialize the FolderId class.</span>
+          </span>
+        </param>
+        <param name="mailbox">
+          <span data-ttu-id="9b143-109">Почтовый ящик, который используется для инициализации класса FolderId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-109">The mailbox that is used to initialize the FolderId class.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9b143-110">Инициализирует новый экземпляр класса FolderID имя указанной папки и почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-110">Initializes a new instance of the FolderID class with the specified folder name and mailbox.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="9b143-111">
+            <para>Используйте этот конструктор, чтобы связать этот идентификатор папки в известном папку (например, папки «Входящие», календарь или контакты) определенного почтового ящика.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-111">
+              <para>Use this constructor to link this folder ID to a well-known folder (for example, Inbox, Calendar or Contacts) in a specific mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">
+          <span data-ttu-id="9b143-112">Папка для сравнения с текущей папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-112">The folder to compare with the current folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9b143-113">Определяет, является ли указанная папка равное текущей папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-113">Determines whether the specified folder is equal to the current folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="9b143-114">
+            <b>значение true,</b> Если указанная папка является равное текущей папки; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-114">
+              <b>true</b> if the specified folder is equal to the current folder; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NullReferenceException">
+          <span data-ttu-id="9b143-115">
+            <paramref name="obj" /> Параметр — это пустая ссылка (Nothing в Visual Basic).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-115">The <paramref name="obj" /> parameter is a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderName">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; FolderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; FolderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderId.FolderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderName As Nullable(Of WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; FolderName { Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9b143-116">Получает имя папки, который связан с идентификатором папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-116">Gets the name of the folder that is associated with the folder ID.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9b143-117">
+            <b>Допускает значение NULL</b> имя известных папки, который связан с идентификатором папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-117">A <b>nullable</b>  well-known folder name that is associated with the folder ID.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="9b143-118">
+            <para>Имя папки известных и идентификатор папки являются взаимоисключающими; Если один задано, другое — пустая ссылка (Nothing в Visual Basic).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-118">
+              <para>The well-known folder name and the folder ID are mutually exclusive; if one is set, the other is a null reference (Nothing in Visual Basic).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="9b143-119">Служит в качестве хэш-функции для определенного типа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-119">Serves as a hash function for a particular type.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="9b143-120">Хэш-код для текущей папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-120">A hash code for the current folder.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Mailbox Mailbox { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Mailbox Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderId.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mailbox As Mailbox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Mailbox ^ Mailbox { Microsoft::Exchange::WebServices::Data::Mailbox ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Mailbox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9b143-121">Получает папки почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-121">Gets the mailbox of the folder.</span>
+          </span>
+          <span data-ttu-id="9b143-122">Почтовый ящик устанавливается только в том случае, если установлено имя папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-122">Mailbox is only set when FolderName is set.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9b143-123">Папки почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-123">The mailbox of the folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.FolderId op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.op_Implicit(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)~Microsoft.Exchange.WebServices.Data.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (folderName As WellKnownFolderName) As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::FolderId ^(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">
+          <span data-ttu-id="9b143-124">Имя папки, чтобы преобразовать идентификатор папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-124">The folder name to convert to a folder ID.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9b143-125">Определяет неявное преобразование между имя известных папки и идентификатором папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-125">Defines an implicit conversion between a well-known folder name and a folder ID.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="9b143-126">Идентификатор папки, инициализирован с именем указанной папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-126">A folder ID that is initialized with the specified folder name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.FolderId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.FolderId op_Implicit(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniqueId As String) As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::FolderId ^(System::String ^ uniqueId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">
+          <span data-ttu-id="9b143-127">Уникальный идентификатор для преобразования в идентификатором папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-127">The unique ID to convert to a folder ID.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9b143-128">Определяет неявное преобразование между строку и идентификатором папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-128">Defines an implicit conversion between a string and a folder ID.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="9b143-129">Идентификатор папки, который инициализируется с указанным уникальным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-129">A folder ID that is initialized with the specified unique ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="9b143-130">Возвращает строку, представляющую текущей папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-130">Returns a string that represents the current folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="9b143-131">Имя текущей папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9b143-131">The name of the current folder.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

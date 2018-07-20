@@ -1,0 +1,150 @@
+<Type Name="FolderEvent" FullName="Microsoft.Exchange.WebServices.Data.FolderEvent">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d4bea49952eae4173cc461686ae1f0aaf1b4cf75" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626536" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FolderEvent : Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FolderEvent extends Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Class FolderEvent&#xA;Inherits NotificationEvent" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderEvent : Microsoft::Exchange::WebServices::Data::NotificationEvent" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.NotificationEvent</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="7273b-101">Представляет событие, которое применяется к папке.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7273b-101">Represents an event that applies to a folder.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId FolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId FolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderEvent.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ FolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7273b-102">Получает идентификатор к папке, которая применяется это событие.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-102">Gets the Id of the folder this event applies to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7273b-103">FolderId object, содержащий идентификатор задействованных базах папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-103">A FolderId object containing the identifier of the effected folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId OldFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId OldFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderEvent.OldFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ OldFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7273b-104">Получает идентификатор папки, который был перемещен или скопирован.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-104">Gets the Id of the folder that was moved or copied.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7273b-105">Объект FolderId, который содержит идентификатор папки, который был перемещен или скопирован.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-105">A FolderId object that contains the identifier of the folder that was moved or copied.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7273b-106">
+            <para>OldFolderId имеет смысл, только если EventType равно EventType.Moved или EventType.Copied. Для всех остальных типов событий OldFolderId имеет значение null.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-106">
+              <para>OldFolderId is only meaningful when EventType is equal to either EventType.Moved or EventType.Copied. For all other event types, OldFolderId is null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; UnreadCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; UnreadCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderEvent.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadCount As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; UnreadCount { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7273b-107">Получает новый количество непрочитанных сообщений.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-107">Gets the new number of unread messages.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7273b-108">Количество непрочитанных элементов в папке как целое число.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-108">The number of unread items in the folder as an integer.</span>
+          </span>
+          <span data-ttu-id="7273b-109">Свойство может иметь значение null.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-109">The property can be null.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="7273b-110">
+            <para>Это имеет смысл только при EventType равен EventType.Modified. Для всех остальных типов событий UnreadCount имеет значение null.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7273b-110">
+              <para>This is only meaningful when EventType is equal to EventType.Modified. For all other event types, UnreadCount is null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

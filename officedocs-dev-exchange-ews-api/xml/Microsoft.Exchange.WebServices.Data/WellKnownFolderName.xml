@@ -1,0 +1,913 @@
+<Type Name="WellKnownFolderName" FullName="Microsoft.Exchange.WebServices.Data.WellKnownFolderName">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ded3e0e7128c44208b62f1175b7012b600c37542" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626939" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum WellKnownFolderName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WellKnownFolderName extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WellKnownFolderName" />
+  <TypeSignature Language="C++ CLI" Value="public enum class WellKnownFolderName" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="9f3d8-101">Определяет общие имена папок, используемых в почтовых ящиков пользователей.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9f3d8-101">Defines common folder names that are used in users' mailboxes.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ArchiveDeletedItems">
+      <MemberSignature Language="C#" Value="ArchiveDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ArchiveDeletedItems = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ArchiveDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="ArchiveDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-102">Папки «Удаленные» в архивный почтовый ящик.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-102">The Deleted Items folder in the archive mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveMsgFolderRoot">
+      <MemberSignature Language="C#" Value="ArchiveMsgFolderRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ArchiveMsgFolderRoot = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ArchiveMsgFolderRoot" />
+      <MemberSignature Language="VB.NET" Value="ArchiveMsgFolderRoot" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveMsgFolderRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-103">Корень иерархии папок сообщение в архивный почтовый ящик.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-103">The root of the message folder hierarchy in the archive mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveRecoverableItemsDeletions">
+      <MemberSignature Language="C#" Value="ArchiveRecoverableItemsDeletions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ArchiveRecoverableItemsDeletions = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ArchiveRecoverableItemsDeletions" />
+      <MemberSignature Language="VB.NET" Value="ArchiveRecoverableItemsDeletions" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveRecoverableItemsDeletions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-104">Корень иерархии папок восстанавливаемый элементы, удаленные из папки "Удаленные" архивного почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-104">The root of the folder hierarchy of recoverable items that have been soft-deleted from the Deleted Items folder of the archive mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveRecoverableItemsPurges">
+      <MemberSignature Language="C#" Value="ArchiveRecoverableItemsPurges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ArchiveRecoverableItemsPurges = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ArchiveRecoverableItemsPurges" />
+      <MemberSignature Language="VB.NET" Value="ArchiveRecoverableItemsPurges" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveRecoverableItemsPurges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-105">Корень иерархии элементов для восстановления, которые были удален из папки "Удаленные" архивного почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-105">The root of the hierarchy of recoverable items that have been hard-deleted from the Deleted Items folder of the archive mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveRecoverableItemsRoot">
+      <MemberSignature Language="C#" Value="ArchiveRecoverableItemsRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ArchiveRecoverableItemsRoot = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ArchiveRecoverableItemsRoot" />
+      <MemberSignature Language="VB.NET" Value="ArchiveRecoverableItemsRoot" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveRecoverableItemsRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-106">Корень иерархии папок элементов для восстановления в архивный почтовый ящик.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-106">The root of the Recoverable Items folder hierarchy in the archive mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveRecoverableItemsVersions">
+      <MemberSignature Language="C#" Value="ArchiveRecoverableItemsVersions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ArchiveRecoverableItemsVersions = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ArchiveRecoverableItemsVersions" />
+      <MemberSignature Language="VB.NET" Value="ArchiveRecoverableItemsVersions" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveRecoverableItemsVersions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-107">Корень иерархии папок версий элементов для восстановления в архивный почтовый ящик.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-107">The root of the Recoverable Items versions folder hierarchy in the archive mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveRoot">
+      <MemberSignature Language="C#" Value="ArchiveRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ArchiveRoot = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ArchiveRoot" />
+      <MemberSignature Language="VB.NET" Value="ArchiveRoot" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-108">Корень иерархии папок в архивный почтовый ящик.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-108">The root of the folder hierarchy in the archive mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Calendar">
+      <MemberSignature Language="C#" Value="Calendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Calendar = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Calendar" />
+      <MemberSignature Language="VB.NET" Value="Calendar" />
+      <MemberSignature Language="C++ CLI" Value="Calendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-109">В папке календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-109">The Calendar folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Conflicts">
+      <MemberSignature Language="C#" Value="Conflicts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Conflicts = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Conflicts" />
+      <MemberSignature Language="VB.NET" Value="Conflicts" />
+      <MemberSignature Language="C++ CLI" Value="Conflicts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-110">Папки "конфликты".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-110">The Conflicts folder.</span>
+          </span>
+          <span data-ttu-id="9f3d8-111">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Conflicts" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-111">The <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Conflicts" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="Contacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Contacts = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Contacts" />
+      <MemberSignature Language="C++ CLI" Value="Contacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-112">Папка контактов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-112">The Contacts folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationHistory">
+      <MemberSignature Language="C#" Value="ConversationHistory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ConversationHistory = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ConversationHistory" />
+      <MemberSignature Language="VB.NET" Value="ConversationHistory" />
+      <MemberSignature Language="C++ CLI" Value="ConversationHistory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-113">Папки журнала бесед.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-113">The Conversation History folder.</span>
+          </span>
+          <span data-ttu-id="9f3d8-114">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ConversationHistory" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-114">The <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ConversationHistory" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedItems">
+      <MemberSignature Language="C#" Value="DeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName DeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.DeletedItems" />
+      <MemberSignature Language="VB.NET" Value="DeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="DeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-115">Папки «Удаленные».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-115">The Deleted Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Drafts">
+      <MemberSignature Language="C#" Value="Drafts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Drafts = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Drafts" />
+      <MemberSignature Language="VB.NET" Value="Drafts" />
+      <MemberSignature Language="C++ CLI" Value="Drafts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-116">Папка «Черновики».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-116">The Drafts folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Inbox">
+      <MemberSignature Language="C#" Value="Inbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Inbox = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Inbox" />
+      <MemberSignature Language="VB.NET" Value="Inbox" />
+      <MemberSignature Language="C++ CLI" Value="Inbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-117">Папка "Входящие".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-117">The Inbox folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Journal">
+      <MemberSignature Language="C#" Value="Journal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Journal = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Journal" />
+      <MemberSignature Language="VB.NET" Value="Journal" />
+      <MemberSignature Language="C++ CLI" Value="Journal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-118">Папка «журнал».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-118">The Journal folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JunkEmail">
+      <MemberSignature Language="C#" Value="JunkEmail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName JunkEmail = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.JunkEmail" />
+      <MemberSignature Language="VB.NET" Value="JunkEmail" />
+      <MemberSignature Language="C++ CLI" Value="JunkEmail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-119">В папку нежелательной почты.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-119">The Junk E-mail folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalFailures">
+      <MemberSignature Language="C#" Value="LocalFailures" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName LocalFailures = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.LocalFailures" />
+      <MemberSignature Language="VB.NET" Value="LocalFailures" />
+      <MemberSignature Language="C++ CLI" Value="LocalFailures" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-120">Папка Локальные ошибки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-120">The Local Failures folder.</span>
+          </span>
+          <span data-ttu-id="9f3d8-121">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.LocalFailures" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-121">The <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.LocalFailures" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MsgFolderRoot">
+      <MemberSignature Language="C#" Value="MsgFolderRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName MsgFolderRoot = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.MsgFolderRoot" />
+      <MemberSignature Language="VB.NET" Value="MsgFolderRoot" />
+      <MemberSignature Language="C++ CLI" Value="MsgFolderRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-122">Корень иерархии папок сообщения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-122">The root of the message folder hierarchy.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="Notes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Notes = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Notes" />
+      <MemberSignature Language="VB.NET" Value="Notes" />
+      <MemberSignature Language="C++ CLI" Value="Notes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-123">Папка «заметки».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-123">The Notes folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Outbox">
+      <MemberSignature Language="C#" Value="Outbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Outbox = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Outbox" />
+      <MemberSignature Language="VB.NET" Value="Outbox" />
+      <MemberSignature Language="C++ CLI" Value="Outbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-124">Папка "Исходящие".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-124">The Outbox folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicFoldersRoot">
+      <MemberSignature Language="C#" Value="PublicFoldersRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName PublicFoldersRoot = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.PublicFoldersRoot" />
+      <MemberSignature Language="VB.NET" Value="PublicFoldersRoot" />
+      <MemberSignature Language="C++ CLI" Value="PublicFoldersRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-125">Корень иерархии общих папок.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-125">The root of the Public Folders hierarchy.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="QuickContacts">
+      <MemberSignature Language="C#" Value="QuickContacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName QuickContacts = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.QuickContacts" />
+      <MemberSignature Language="VB.NET" Value="QuickContacts" />
+      <MemberSignature Language="C++ CLI" Value="QuickContacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-126">Папка экспресс-контактов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-126">The Quick Contacts folder.</span>
+          </span>
+          <span data-ttu-id="9f3d8-127">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.QuickContacts" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-127">The <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.QuickContacts" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientCache">
+      <MemberSignature Language="C#" Value="RecipientCache" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName RecipientCache = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.RecipientCache" />
+      <MemberSignature Language="VB.NET" Value="RecipientCache" />
+      <MemberSignature Language="C++ CLI" Value="RecipientCache" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-128">Папка кэш получателя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-128">The Recipient Cache folder.</span>
+          </span>
+          <span data-ttu-id="9f3d8-129">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.RecipientCache" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-129">The <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.RecipientCache" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecoverableItemsDeletions">
+      <MemberSignature Language="C#" Value="RecoverableItemsDeletions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName RecoverableItemsDeletions = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.RecoverableItemsDeletions" />
+      <MemberSignature Language="VB.NET" Value="RecoverableItemsDeletions" />
+      <MemberSignature Language="C++ CLI" Value="RecoverableItemsDeletions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-130">Корень иерархии папок восстанавливаемый элементы, удаленные из папки "Удаленные".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-130">The root of the folder hierarchy of recoverable items that have been soft-deleted from the Deleted Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecoverableItemsPurges">
+      <MemberSignature Language="C#" Value="RecoverableItemsPurges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName RecoverableItemsPurges = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.RecoverableItemsPurges" />
+      <MemberSignature Language="VB.NET" Value="RecoverableItemsPurges" />
+      <MemberSignature Language="C++ CLI" Value="RecoverableItemsPurges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-131">Корень иерархии папок элементов для восстановления, которые были удален из папки "Удаленные".</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-131">The root of the folder hierarchy of recoverable items that have been hard-deleted from the Deleted Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecoverableItemsRoot">
+      <MemberSignature Language="C#" Value="RecoverableItemsRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName RecoverableItemsRoot = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.RecoverableItemsRoot" />
+      <MemberSignature Language="VB.NET" Value="RecoverableItemsRoot" />
+      <MemberSignature Language="C++ CLI" Value="RecoverableItemsRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-132">Корень иерархии папок элементов для восстановления.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-132">The root of the Recoverable Items folder hierarchy.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecoverableItemsVersions">
+      <MemberSignature Language="C#" Value="RecoverableItemsVersions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName RecoverableItemsVersions = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.RecoverableItemsVersions" />
+      <MemberSignature Language="VB.NET" Value="RecoverableItemsVersions" />
+      <MemberSignature Language="C++ CLI" Value="RecoverableItemsVersions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-133">Корень иерархии папок версий элементов для восстановления в архивный почтовый ящик.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-133">The root of the Recoverable Items versions folder hierarchy in the archive mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Root">
+      <MemberSignature Language="C#" Value="Root" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Root = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Root" />
+      <MemberSignature Language="VB.NET" Value="Root" />
+      <MemberSignature Language="C++ CLI" Value="Root" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-134">Корневая папка почтового ящика.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-134">The root of the mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchFolders">
+      <MemberSignature Language="C#" Value="SearchFolders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName SearchFolders = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.SearchFolders" />
+      <MemberSignature Language="VB.NET" Value="SearchFolders" />
+      <MemberSignature Language="C++ CLI" Value="SearchFolders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-135">Папка папок поиска, также известной как папки поиска.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-135">The Search Folders folder, also known as the Finder folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SentItems">
+      <MemberSignature Language="C#" Value="SentItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName SentItems = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.SentItems" />
+      <MemberSignature Language="VB.NET" Value="SentItems" />
+      <MemberSignature Language="C++ CLI" Value="SentItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-136">Папка «Отправленные».</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-136">The Sent Items folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerFailures">
+      <MemberSignature Language="C#" Value="ServerFailures" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ServerFailures = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ServerFailures" />
+      <MemberSignature Language="VB.NET" Value="ServerFailures" />
+      <MemberSignature Language="C++ CLI" Value="ServerFailures" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-137">Папка сбоя сервера.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-137">The Server Failures folder.</span>
+          </span>
+          <span data-ttu-id="9f3d8-138">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ServerFailures" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-138">The <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ServerFailures" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncIssues">
+      <MemberSignature Language="C#" Value="SyncIssues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName SyncIssues = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.SyncIssues" />
+      <MemberSignature Language="VB.NET" Value="SyncIssues" />
+      <MemberSignature Language="C++ CLI" Value="SyncIssues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-139">Ошибки синхронизации папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-139">The Sync Issues folder.</span>
+          </span>
+          <span data-ttu-id="9f3d8-140">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.SyncIssues" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-140">The <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.SyncIssues" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tasks">
+      <MemberSignature Language="C#" Value="Tasks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName Tasks = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.Tasks" />
+      <MemberSignature Language="VB.NET" Value="Tasks" />
+      <MemberSignature Language="C++ CLI" Value="Tasks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-141">Папка задачи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-141">The Tasks folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDoSearch">
+      <MemberSignature Language="C#" Value="ToDoSearch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName ToDoSearch = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ToDoSearch" />
+      <MemberSignature Language="VB.NET" Value="ToDoSearch" />
+      <MemberSignature Language="C++ CLI" Value="ToDoSearch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-142">Чтобы выполнить поиск папки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-142">The To Do Search folder.</span>
+          </span>
+          <span data-ttu-id="9f3d8-143">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ToDoSearch" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-143">The <see cref="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.ToDoSearch" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VoiceMail">
+      <MemberSignature Language="C#" Value="VoiceMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName VoiceMail = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.WellKnownFolderName.VoiceMail" />
+      <MemberSignature Language="VB.NET" Value="VoiceMail" />
+      <MemberSignature Language="C++ CLI" Value="VoiceMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.WellKnownFolderName</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f3d8-144">Папка голосовой почты.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f3d8-144">The Voicemail folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

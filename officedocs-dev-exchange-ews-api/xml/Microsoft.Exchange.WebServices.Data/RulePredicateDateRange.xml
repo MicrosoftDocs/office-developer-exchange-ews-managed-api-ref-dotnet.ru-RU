@@ -1,0 +1,128 @@
+<Type Name="RulePredicateDateRange" FullName="Microsoft.Exchange.WebServices.Data.RulePredicateDateRange">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d92e6ab5bf5a147153e5eae764193203f1df390b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626959" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RulePredicateDateRange : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicateDateRange extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicateDateRange&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RulePredicateDateRange sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="15b30-101">Представляет диапазон дат и времени, в течение которого полученных сообщений.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="15b30-101">Represents the date and time range within which messages have been received.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="15b30-102">
+        <para>
+          <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" /> Свойство проверяет это <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> свойства.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="15b30-102">
+          <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" /> property checks this <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> properties.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; End { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15b30-103">Получает или задает диапазон Дата и время окончания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15b30-103">Gets or sets the range end date and time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15b30-104">Конец диапазона дат.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15b30-104">The end of the date range.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="15b30-105">
+            <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> задано значение null, без end date применяется.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15b30-105">
+              <para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> property is set to null, no end date applies.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; Start { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="15b30-106">Получает или задает диапазон дату и время начала.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15b30-106">Gets or sets the range start date and time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="15b30-107">Начало диапазона дат.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15b30-107">The start of the date range.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="15b30-108">
+            <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> свойство имеет значение null, Дата начала не применяется.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="15b30-108">
+              <para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> property is set to null, no start date applies.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,2579 @@
+<Type Name="Appointment" FullName="Microsoft.Exchange.WebServices.Data.Appointment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1e6e9d3d21281c21633fc0ea57a2916568b32bcf" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626750" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Appointment : Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Appointment extends Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Appointment" />
+  <TypeSignature Language="VB.NET" Value="Public Class Appointment&#xA;Inherits Item" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Appointment : Microsoft::Exchange::WebServices::Data::Item" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f6f16-101">Содержит свойства и методы, используемые для определения встречи или собрания.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f6f16-101">Contains the properties and methods used to define an appointment or a meeting.</span>
+      </span>
+      <span data-ttu-id="f6f16-102">Определенные свойства, доступные для встреч в <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> класса.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f6f16-102">Properties that are available on appointments are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> class.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Appointment (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Appointment(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f6f16-103">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляра, к которому привязан этой встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-103">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> instance to which this appointment is bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-104">Инициализирует несохраненные локальный экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-104">Initializes an unsaved local instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> class.</span>
+          </span>
+          <span data-ttu-id="f6f16-105">Чтобы выполнить привязку к существующую встречу, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> метод вместо этого.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-105">To bind to an existing appointment, use the <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> method instead.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Accept">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults Accept (bool sendResponse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults Accept(bool sendResponse) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Accept(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Accept (sendResponse As Boolean) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ Accept(bool sendResponse);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.Accept(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sendResponse" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="sendResponse">
+          <span data-ttu-id="f6f16-106">
+            <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-106">
+              <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-107">Принимает приглашение на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-107">Accepts the meeting.</span>
+          </span>
+          <span data-ttu-id="f6f16-108">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-108">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-109">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-109">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AcceptTentatively">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults AcceptTentatively (bool sendResponse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults AcceptTentatively(bool sendResponse) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.AcceptTentatively(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcceptTentatively (sendResponse As Boolean) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ AcceptTentatively(bool sendResponse);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.AcceptTentatively(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sendResponse" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="sendResponse">
+          <span data-ttu-id="f6f16-110">
+            <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-110">
+              <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-111">Предварительно принимает приглашение на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-111">Tentatively accepts the meeting.</span>
+          </span>
+          <span data-ttu-id="f6f16-112">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-112">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-113">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-113">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjacentMeetingCount">
+      <MemberSignature Language="C#" Value="public int AdjacentMeetingCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AdjacentMeetingCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AdjacentMeetingCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdjacentMeetingCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AdjacentMeetingCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-114">Получает число записей календаря, которые располагаются вплотную к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-114">Gets the number of calendar entries that are adjacent to the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-115">Количество записей календаря, которые располагаются вплотную к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-115">The number of calendar entries that are adjacent to the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjacentMeetings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt; AdjacentMeetings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Appointment&gt; AdjacentMeetings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AdjacentMeetings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdjacentMeetings As ItemCollection(Of Appointment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemCollection&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ AdjacentMeetings { Microsoft::Exchange::WebServices::Data::ItemCollection&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-116">Получает список собрания, которые располагаются вплотную к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-116">Gets a list of meetings that are adjacent to the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-117">Коллекция собрания, которые располагаются вплотную к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-117">A collection of the meetings that are adjacent to the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowNewTimeProposal">
+      <MemberSignature Language="C#" Value="public bool AllowNewTimeProposal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowNewTimeProposal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AllowNewTimeProposal" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowNewTimeProposal As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowNewTimeProposal { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-118">Получает или задает участников может предложить новое время собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-118">Gets or sets whether attendees may propose a new time for the meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-119">
+            <b>значение true,</b> Если участники могут предложить новое время для собраний; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-119">
+              <b>true</b> if attendees may propose a new time for the meeting; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentReplyTime">
+      <MemberSignature Language="C#" Value="public DateTime AppointmentReplyTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime AppointmentReplyTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AppointmentReplyTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentReplyTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime AppointmentReplyTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-120">Получает время участником дан ответ на запрос на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-120">Gets the time that an attendee replied to the meeting request.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-121">Время, участником дан ответ на запрос на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-121">The time that an attendee replied to the meeting request.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentSequenceNumber">
+      <MemberSignature Language="C#" Value="public int AppointmentSequenceNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AppointmentSequenceNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AppointmentSequenceNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentSequenceNumber As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AppointmentSequenceNumber { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-122">Получает значение, указывающее, номер версии измененных встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-122">Gets a value that indicates the version number of a changed appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-123">Номер версии встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-123">The version number of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentState">
+      <MemberSignature Language="C#" Value="public int AppointmentState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AppointmentState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AppointmentState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentState As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AppointmentState { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-124">Получает значение, указывающее, является ли связанный объект встречу, собрание, ответ на собрании или отмены собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-124">Gets a value that indicates whether the associated object is an appointment, a meeting, a response to a meeting, or a cancelled meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-125">Состояние встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-125">The state of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AppointmentType AppointmentType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.AppointmentType AppointmentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AppointmentType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentType As AppointmentType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AppointmentType AppointmentType { Microsoft::Exchange::WebServices::Data::AppointmentType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AppointmentType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-126">Получает значение, указывающее тип вхождение встречи; Например собрания, экземпляр повторяющееся собрание, исключение, повторяющееся собрание или элемент шаблона, который содержит собрания single шаблона повторения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-126">Gets a value that indicates the occurrence type of the appointment; for example, a single meeting, an instance of a recurring meeting, an exception to a recurring meeting, or a master item that contains a meeting recurrence pattern.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-127">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> значений перечисления, определяющее тип повторения встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-127">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> enumeration values that specifies the recurrence type of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f6f16-128">Служба должна использовать для привязки к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-128">The service to use to bind to the appointment.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="f6f16-129">Идентификатор элемента встречи для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-129">The identifier of the appointment to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-130">Выполняет привязку к существующую встречу и загружает его свойства первого класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-130">Binds to an existing appointment and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="f6f16-131">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-131">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-132">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляра, который представляет встречи, соответствующий указанным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-132">An <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> instance that represents the appointment that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="f6f16-133">В определенных сценариях, этот метод можно создать исключение, аналогичную following:System.ArgumentNullException: не может иметь значение null. Имя параметра: идентификатор в System.TimeZoneInfo.FindSystemTimeZoneById(String id)... Это может произойти, если выполняются все следующие условия: <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> переданного объекта <paramref name="service" /> параметр был создан со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> в <paramref name="requestedServerVersion" /> параметр. Атрибут<b>TimeZoneName</b><a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">MeetingTimeZone</a>. Если возникнет исключение, вы можете проверить отсутствие атрибута <b>TimeZoneName</b> , <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">Включение трассировки запросов и ответов</a>, чтобы обойти эту проблему, выполните одно из следующих действий: создание <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> или выше в <paramref name="requestedServerVersion" /> параметр. Укажите <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> объект, который не включает <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /> свойства.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-133">In specific scenarios, this method can generate an exception similar to the following:System.ArgumentNullException: Value cannot be null.Parameter name: id    At System.TimeZoneInfo.FindSystemTimeZoneById(String id)...This can happen if all of the following are true:The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object passed in the <paramref name="service" /> parameter was created with a value of <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> in the <paramref name="requestedServerVersion" /> parameter.The <a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">MeetingTimeZone</a><b>TimeZoneName</b> attribute.If you encounter this exception, you can verify the absence of the <b>TimeZoneName</b> attribute by <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">enabling tracing requests and responses</a>To work around this problem, do one of the following:Create the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object with a value of <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> or higher in the <paramref name="requestedServerVersion" /> parameter.Specify a <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object that does not include the <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /> properties.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f6f16-134">Служба должна использовать для привязки к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-134">The service to use to bind to the appointment.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="f6f16-135">Идентификатор элемента встречи для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-135">The identifier of the appointment to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="f6f16-136">Набор свойств для загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-136">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-137">Выполняет привязку к существующую встречу и загружает указанный набор свойств.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-137">Binds to an existing appointment and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="f6f16-138">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-138">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-139">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляра, который представляет встречи, соответствующий указанным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-139">An <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> instance that represents the appointment that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="f6f16-140">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-140">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToOccurrence">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment BindToOccurrence (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId recurringMasterId, int occurenceIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment BindToOccurrence(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId recurringMasterId, int32 occurenceIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.BindToOccurrence(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BindToOccurrence (service As ExchangeService, recurringMasterId As ItemId, occurenceIndex As Integer) As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ BindToOccurrence(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ recurringMasterId, int occurenceIndex);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="recurringMasterId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="occurenceIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f6f16-141">Служба должна использовать для привязки к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-141">The service to use to bind to the appointment.</span>
+          </span>
+        </param>
+        <param name="recurringMasterId">
+          <span data-ttu-id="f6f16-142">Идентификатор повторяющегося главных, представляющий индекс вхождения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-142">The identifier of the recurring master that the index represents an occurrence of.</span>
+          </span>
+        </param>
+        <param name="occurenceIndex">
+          <span data-ttu-id="f6f16-143">Индекс экземпляра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-143">The index of the occurrence.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-144">Выполняет привязку к существующей встречу и загружает его свойства первого класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-144">Binds to an occurrence of an existing appointment and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="f6f16-145">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-145">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-146">Копия встречи, соответствующий индекс указанного вхождения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-146">The appointment occurrence that corresponds to the specified occurrence index.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToOccurrence">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment BindToOccurrence (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId recurringMasterId, int occurenceIndex, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment BindToOccurrence(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId recurringMasterId, int32 occurenceIndex, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.BindToOccurrence(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,System.Int32,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ BindToOccurrence(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ recurringMasterId, int occurenceIndex, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="recurringMasterId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="occurenceIndex" Type="System.Int32" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f6f16-147">Служба должна использовать для привязки к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-147">The service to use to bind to the appointment.</span>
+          </span>
+        </param>
+        <param name="recurringMasterId">
+          <span data-ttu-id="f6f16-148">Идентификатор повторяющегося главных, представляющий индекс вхождения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-148">The identifier of the recurring master that the index represents an occurrence of.</span>
+          </span>
+        </param>
+        <param name="occurenceIndex">
+          <span data-ttu-id="f6f16-149">Индекс экземпляра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-149">The index of the occurrence.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="f6f16-150">Набор свойств для загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-150">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-151">Выполняет привязку к существующей встречу и загружает указанный набор свойств.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-151">Binds to an occurrence of an existing appointment and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="f6f16-152">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-152">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-153">Копия встречи, соответствующий индекс указанного вхождения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-153">The appointment occurrence that corresponds to the specified occurrence index.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToRecurringMaster">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment BindToRecurringMaster (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId occurrenceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment BindToRecurringMaster(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId occurrenceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.BindToRecurringMaster(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BindToRecurringMaster (service As ExchangeService, occurrenceId As ItemId) As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ BindToRecurringMaster(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ occurrenceId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="occurrenceId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f6f16-154">Служба должна использовать для привязки к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-154">The service to use to bind to the appointment.</span>
+          </span>
+        </param>
+        <param name="occurrenceId">
+          <span data-ttu-id="f6f16-155">Идентификатор одного из них в серии.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-155">The identifier of one of the occurrences in the series.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-156">Выполняет привязку Главная встреча ряда повторяющейся и загружает его свойства первого класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-156">Binds to the master appointment of a recurring series and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="f6f16-157">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-157">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-158">Главная встреча ряда повторяющейся, к которой принадлежит указанный вхождение.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-158">The master appointment of the recurring series to which the specified occurrence belongs.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToRecurringMaster">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment BindToRecurringMaster (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId occurrenceId, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment BindToRecurringMaster(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId occurrenceId, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.BindToRecurringMaster(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ BindToRecurringMaster(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ occurrenceId, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="occurrenceId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f6f16-159">Служба должна использовать для привязки к встрече.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-159">The service to use to bind to the appointment.</span>
+          </span>
+        </param>
+        <param name="occurrenceId">
+          <span data-ttu-id="f6f16-160">Идентификатор одного из них в серии.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-160">The identifier of one of the occurrences in the series.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="f6f16-161">Набор свойств для загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-161">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-162">Выполняет привязку Главная встреча ряда повторяющейся и загружает указанный набор свойств.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-162">Binds to the master appointment of a recurring series and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="f6f16-163">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-163">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-164">Главная встреча ряда повторяющейся, к которой принадлежит указанный вхождение.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-164">The master appointment of the recurring series to which the specified occurrence belongs.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelMeeting">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults CancelMeeting ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults CancelMeeting() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CancelMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Function CancelMeeting () As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ CancelMeeting();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-165">Показано, как отменить собрание и отправляет сообщения отмены всех участников.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-165">Cancels the meeting and sends cancellation messages to all attendees.</span>
+          </span>
+          <span data-ttu-id="f6f16-166">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-166">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-167">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-167">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelMeeting">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults CancelMeeting (string cancellationMessageText);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults CancelMeeting(string cancellationMessageText) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CancelMeeting(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CancelMeeting (cancellationMessageText As String) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ CancelMeeting(System::String ^ cancellationMessageText);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationMessageText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationMessageText">
+          <span data-ttu-id="f6f16-168">Отмена текст сообщения отправляются всем участникам.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-168">Cancellation message text sent to all attendees.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-169">Показано, как отменить собрание и отправляет сообщения отмены всех участников с помощью связанного текста.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-169">Cancels the meeting and sends cancellation messages to all attendees with the associated text.</span>
+          </span>
+          <span data-ttu-id="f6f16-170">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-170">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-171">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-171">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceType">
+      <MemberSignature Language="C#" Value="public int ConferenceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConferenceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ConferenceType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConferenceType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConferenceType { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-172">Получает или задает тип конференц-связи, который будет использоваться во время собрания; Например видеоконференции, презентации или сеанс беседы.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-172">Gets or sets the type of conferencing that will be used during the meeting; for example, a video conference, a presentation, or a chat session.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-173">Тип конференц-связи, который будет использоваться во время собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-173">The type of conferencing that will be used during the meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetingCount">
+      <MemberSignature Language="C#" Value="public int ConflictingMeetingCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConflictingMeetingCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ConflictingMeetingCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConflictingMeetingCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConflictingMeetingCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-174">Получает число записей календаря, конфликтующие с встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-174">Gets the number of calendar entries that conflict with the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-175">Число записей календаря, конфликтующие с встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-175">The number of calendar entries that conflict with the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt; ConflictingMeetings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Appointment&gt; ConflictingMeetings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ConflictingMeetings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConflictingMeetings As ItemCollection(Of Appointment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemCollection&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ ConflictingMeetings { Microsoft::Exchange::WebServices::Data::ItemCollection&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-176">Получает список собраний, конфликтующие с встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-176">Gets a list of meetings that conflict with the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-177">Коллекция собраний, конфликтующие с встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-177">A collection of the meetings that conflict with the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAcceptMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage CreateAcceptMessage (bool tentative);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage CreateAcceptMessage(bool tentative) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateAcceptMessage(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateAcceptMessage (tentative As Boolean) As AcceptMeetingInvitationMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::AcceptMeetingInvitationMessage ^ CreateAcceptMessage(bool tentative);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.CreateAcceptMessage(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tentative" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="tentative">
+          <span data-ttu-id="f6f16-178">
+            <b>значение true,</b> Если собрание будет принято под вопросом; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-178">
+              <b>true</b> if the meeting will be tentatively accepted; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-179">Создает локальный сообщение о принятии, могут быть настроены и отправляются на собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-179">Creates a local meeting acceptance message that can be customized and sent.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-180">Собрания сообщение о принятии.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-180">The meeting acceptance message.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateCancelMeetingMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CancelMeetingMessage CreateCancelMeetingMessage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CancelMeetingMessage CreateCancelMeetingMessage() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateCancelMeetingMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCancelMeetingMessage () As CancelMeetingMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CancelMeetingMessage ^ CreateCancelMeetingMessage();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CancelMeetingMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-181">Создает локальный отмены сообщение, могут быть настроены и отправляются на собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-181">Creates a local meeting cancellation message that can be customized and sent.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-182">Собрания отмены сообщения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-182">The meeting cancellation message.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDeclineMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DeclineMeetingInvitationMessage CreateDeclineMessage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.DeclineMeetingInvitationMessage CreateDeclineMessage() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateDeclineMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateDeclineMessage () As DeclineMeetingInvitationMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::DeclineMeetingInvitationMessage ^ CreateDeclineMessage();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.CreateDeclineMessage</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeclineMeetingInvitationMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-183">Создает локальный сообщение отказ, могут быть настроены и отправляются на собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-183">Creates a local meeting declination message that can be customized and sent.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-184">Собрания отказ сообщения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-184">The meeting declination message.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateForward">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateForward" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateForward () As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateForward();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-185">Создает переслать сообщение из этой встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-185">Creates a forward message from this appointment.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-186">Прямого ответа, впоследствии можно изменить и отправлено.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-186">The forward response that can subsequently be modified and sent.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateReply">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply (bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply(bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateReply(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateReply (replyAll As Boolean) As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateReply(bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="replyAll">
+          <span data-ttu-id="f6f16-187">
+            <b>значение true,</b> чтобы указать отправку ответа для всех участников; <b>значение false,</b> чтобы указать отправку ответа организатору только.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-187">
+              <b>true</b> to indicate that the reply should be sent to all the attendees; <b>false</b> to indicate that the reply should be sent to the organizer only.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-188">Создает ответа ответ для организатора и/или список участников собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-188">Creates a reply response to the organizer and/or attendees of the meeting.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-189">Ответ ответ, впоследствии можно изменить и отправлено.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-189">The reply response that can subsequently be modified and sent.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Decline">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults Decline (bool sendResponse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults Decline(bool sendResponse) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Decline(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Decline (sendResponse As Boolean) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ Decline(bool sendResponse);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.Decline(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sendResponse" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="sendResponse">
+          <span data-ttu-id="f6f16-190">
+            <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-190">
+              <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-191">Из участников отклоняет приглашение на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-191">Declines the meeting invitation.</span>
+          </span>
+          <span data-ttu-id="f6f16-192">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-192">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f6f16-193">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-193">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, Microsoft.Exchange.WebServices.Data.SendCancellationsMode sendCancellationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, valuetype Microsoft.Exchange.WebServices.Data.SendCancellationsMode sendCancellationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode,Microsoft.Exchange.WebServices.Data.SendCancellationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, Microsoft::Exchange::WebServices::Data::SendCancellationsMode sendCancellationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="sendCancellationsMode" Type="Microsoft.Exchange.WebServices.Data.SendCancellationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="f6f16-194">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> значений перечисления, определяющее режим удаления.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-194">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> enumeration values that indicates the deletion mode.</span>
+          </span>
+        </param>
+        <param name="sendCancellationsMode">
+          <span data-ttu-id="f6f16-195">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> значений перечисления, указывающее определить, каким образом будут отправляться уведомления об отмене при этом встреча является собранием.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-195">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> enumeration values that indicates whether and how cancellations should be sent if this appointment is a meeting.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-196">Удаление этой встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-196">Deletes this appointment.</span>
+          </span>
+          <span data-ttu-id="f6f16-197">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-197">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedOccurrences">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection DeletedOccurrences { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection DeletedOccurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.DeletedOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeletedOccurrences As DeletedOccurrenceInfoCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DeletedOccurrenceInfoCollection ^ DeletedOccurrences { Microsoft::Exchange::WebServices::Data::DeletedOccurrenceInfoCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-198">Возвращает список удаленных вхождений для повторяющиеся собрания или встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-198">Gets a list of deleted occurrences for a recurring meeting or appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-199">Коллекция удаленных вхождений.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-199">A collection of the deleted occurrences.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public TimeSpan Duration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duration As TimeSpan" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan Duration { TimeSpan get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-200">Получает время встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-200">Gets the duration of the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-201">Промежуток времени встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-201">The time span of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-202">Получает или задает время окончания встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-202">Gets or sets the end time of the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-203">Время окончания встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-203">The end time of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeZone">
+      <MemberSignature Language="C#" Value="public TimeZoneInfo EndTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.TimeZoneInfo EndTimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.EndTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTimeZone As TimeZoneInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeZoneInfo ^ EndTimeZone { TimeZoneInfo ^ get(); void set(TimeZoneInfo ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeZoneInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-204">Получает или задает часовой пояс свойства окончания встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-204">Gets or sets the time zone of the end property of the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-205">Часовой пояс свойство окончания встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-205">The time zone of the end property of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedLocation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EnhancedLocation EnhancedLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EnhancedLocation EnhancedLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnhancedLocation As EnhancedLocation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ EnhancedLocation { Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ get(); void set(Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-206">Получает или задает дополнительные сведения о собрании или встрече расположении.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-206">Gets or sets additional meeting or appointment location information.</span>
+          </span>
+          <span data-ttu-id="f6f16-207">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-207">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-208">Объект усовершенствованные location.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-208">The enhanced location object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstOccurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OccurrenceInfo FirstOccurrence { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OccurrenceInfo FirstOccurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.FirstOccurrence" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstOccurrence As OccurrenceInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^ FirstOccurrence { Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-209">Возвращает первого появления повторяющееся собрание или встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-209">Gets the first occurrence of a recurring meeting or appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-210">Первого появления повторяющееся собрание или встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-210">The first occurrence of a recurring meeting or appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, params Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,Microsoft.Exchange.WebServices.Data.EmailAddress[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, ParamArray toRecipients As EmailAddress())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="Microsoft.Exchange.WebServices.Data.EmailAddress[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="f6f16-211">Префикс для вставки в начале исходного текста сообщения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-211">The prefix to prepend to the original body of the message.</span>
+          </span>
+        </param>
+        <param name="toRecipients">
+          <span data-ttu-id="f6f16-212">Получатели переадресация встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-212">The recipients to forward the appointment to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-213">Переадресует встречи в связанной массив получателей с сообщением, добавляемое перед исходный запрос на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-213">Forwards the appointment to the associated array of recipients with a message prepended to the original meeting request.</span>
+          </span>
+          <span data-ttu-id="f6f16-214">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-214">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.EmailAddress})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, toRecipients As IEnumerable(Of EmailAddress))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="f6f16-215">Префикс для вставки в начале исходного текста сообщения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-215">The prefix to prepend to the original body of the message.</span>
+          </span>
+        </param>
+        <param name="toRecipients">
+          <span data-ttu-id="f6f16-216">Получатели переадресация встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-216">The recipients to forward the appointment to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-217">Переадресует встречи в соответствующую коллекцию получателей с сообщением, добавляемое перед исходный запрос на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-217">Forwards the appointment to the associated collection of recipients with a message prepended to the original meeting request.</span>
+          </span>
+          <span data-ttu-id="f6f16-218">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-218">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalDateTimeStamp">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ICalDateTimeStamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ICalDateTimeStamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ICalDateTimeStamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ICalDateTimeStamp As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; ICalDateTimeStamp { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-219">Получает iCalendar DateTimeStamp.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-219">Gets the iCalendar DateTimeStamp.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-220">ICalendar DateTimeStamp.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-220">The iCalendar DateTimeStamp.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalRecurrenceId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ICalRecurrenceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ICalRecurrenceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ICalRecurrenceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ICalRecurrenceId As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; ICalRecurrenceId { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-221">Получает iCalendar RecurrenceId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-221">Gets the iCalendar RecurrenceId.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-222">ICalendar RecurrenceId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-222">The iCalendar RecurrenceId.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalUid">
+      <MemberSignature Language="C#" Value="public string ICalUid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ICalUid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ICalUid" />
+      <MemberSignature Language="VB.NET" Value="Public Property ICalUid As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ICalUid { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-223">Получает или задает ИД пользователя iCalendar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-223">Gets or sets the iCalendar Uid.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-224">ICalendar ИД пользователя.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-224">The iCalendar Uid.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAllDayEvent">
+      <MemberSignature Language="C#" Value="public bool IsAllDayEvent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAllDayEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsAllDayEvent" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAllDayEvent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAllDayEvent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-225">Получает или задает значение, указывающее, является ли встреча событием на целый день.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-225">Gets or sets whether the appointment is an all-day event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-226">
+            <b>значение true,</b> Если встреча является событием на целый день; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-226">
+              <b>true</b> if the appointment is an all-day event; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCancelled">
+      <MemberSignature Language="C#" Value="public bool IsCancelled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCancelled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCancelled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCancelled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-227">Возвращает ли отменена встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-227">Gets whether the appointment has been canceled.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-228">
+            <b>значение true,</b> Если встречи было отменено; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-228">
+              <b>true</b> if the appointment has been canceled; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeeting">
+      <MemberSignature Language="C#" Value="public bool IsMeeting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeeting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeeting { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-229">Возвращает ли встреча является собранием.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-229">Gets whether the appointment is a meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-230">
+            <b>значение true,</b> Если встреча является собранием; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-230">
+              <b>true</b> if the appointment is a meeting; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOnlineMeeting">
+      <MemberSignature Language="C#" Value="public bool IsOnlineMeeting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOnlineMeeting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsOnlineMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOnlineMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOnlineMeeting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-231">Получает или задает, является ли собрания собрания по сети.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-231">Gets or sets whether the meeting is an online meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-232">
+            <b>значение true,</b> Если собрание собрания по сети; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-232">
+              <b>true</b> if the meeting is an online meeting; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-233">Возвращает ли является частью серии повторяющихся встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-233">Gets whether the appointment is part of a recurring series.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-234">
+            <b>значение true,</b> Если для повторяющейся встречи; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-234">
+              <b>true</b> if the appointment is recurring; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequested">
+      <MemberSignature Language="C#" Value="public bool IsResponseRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResponseRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsResponseRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResponseRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-235">Получает или задает ответы запрашиваются при отправке приглашения на собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-235">Gets or sets whether responses are requested when invitations are sent for the meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-236">
+            <b>значение true,</b> Если запрашиваются ответов; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-236">
+              <b>true</b> if responses are requested; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JoinOnlineMeetingUrl">
+      <MemberSignature Language="C#" Value="public string JoinOnlineMeetingUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string JoinOnlineMeetingUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JoinOnlineMeetingUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ JoinOnlineMeetingUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-237">Получает URL-адрес для присоединения к собранию по сети.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-237">Gets the URL for joining an online meeting.</span>
+          </span>
+          <span data-ttu-id="f6f16-238">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-238">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-239">URL-адрес для присоединения к собранию по сети.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-239">The URL for joining an online meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastOccurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OccurrenceInfo LastOccurrence { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OccurrenceInfo LastOccurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.LastOccurrence" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastOccurrence As OccurrenceInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^ LastOccurrence { Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-240">Возвращает последнего вхождения серии повторяющихся.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-240">Gets the last occurrence of a recurring series.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-241">Последнего вхождения повторяющееся собрание или встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-241">The last occurrence of a recurring meeting or appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyFreeBusyStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus LegacyFreeBusyStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus LegacyFreeBusyStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.LegacyFreeBusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property LegacyFreeBusyStatus As LegacyFreeBusyStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus LegacyFreeBusyStatus { Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus get(); void set(Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-242">Получает или задает значение, указывающее состояние занятости владельца встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-242">Gets or sets a value that indicates the free/busy status of the owner of the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-243">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> значений перечисления, указывающее состояние занятости владельца встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-243">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> enumeration values that specifies the free/busy status of the owner of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-244">Получает или задает расположение этой встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-244">Gets or sets the location of this appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-245">Место встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-245">The location of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestWasSent">
+      <MemberSignature Language="C#" Value="public bool MeetingRequestWasSent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MeetingRequestWasSent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.MeetingRequestWasSent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingRequestWasSent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MeetingRequestWasSent { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-246">Возвращает ли запрос на собрание было отправлено.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-246">Gets whether the meeting request has been sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-247">
+            <b>значение true,</b> Если запрос на собрание было отправлено; в противном случае — <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-247">
+              <b>true</b> if the meeting request has been sent; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingWorkspaceUrl">
+      <MemberSignature Language="C#" Value="public string MeetingWorkspaceUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeetingWorkspaceUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.MeetingWorkspaceUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingWorkspaceUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MeetingWorkspaceUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-248">Получает или задает URL-адрес рабочей области для собраний.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-248">Gets or sets the URL of the meeting workspace.</span>
+          </span>
+          <span data-ttu-id="f6f16-249">Рабочая область для собраний — это общий веб-узел для планирования собраний и отслеживания результатов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-249">A meeting workspace is a shared Web site for planning meetings and tracking results.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-250">URL-адрес рабочей области для собраний.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-250">The URL of the meeting workspace.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedOccurrences">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection ModifiedOccurrences { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection ModifiedOccurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ModifiedOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedOccurrences As OccurrenceInfoCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OccurrenceInfoCollection ^ ModifiedOccurrences { Microsoft::Exchange::WebServices::Data::OccurrenceInfoCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-251">Получает список собрания или встречи в ряду, которые были изменены.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-251">Gets a list of meetings or appointments in a recurring series that have been changed.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-252">Коллекция изменен собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-252">A collection changed meetings.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyResponseType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingResponseType MyResponseType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MeetingResponseType MyResponseType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.MyResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MyResponseType As MeetingResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingResponseType MyResponseType { Microsoft::Exchange::WebServices::Data::MeetingResponseType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-253">Получает пользователя последний ответ на запрос собрания; Например принять или отклонить.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-253">Gets the user's last response to a meeting request; for example, accept or decline.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-254">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> значений перечисления, указывающее, ответа пользователя на собрание.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-254">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> enumeration values indicating the user's response to a meeting request.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetShowUrl">
+      <MemberSignature Language="C#" Value="public string NetShowUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NetShowUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.NetShowUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetShowUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NetShowUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-255">Получает или задает URL-адрес собрания по сети Microsoft NetShow.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-255">Gets or sets the URL of the Microsoft NetShow online meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-256">URL-адрес собрания по сети Microsoft NetShow.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-256">The URL of the Microsoft NetShow online meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlineMeetingSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings OnlineMeetingSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings OnlineMeetingSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OnlineMeetingSettings As OnlineMeetingSettings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OnlineMeetingSettings ^ OnlineMeetingSettings { Microsoft::Exchange::WebServices::Data::OnlineMeetingSettings ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-257">Получает набор параметров участников доступа для собрания по сети.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-257">Gets a set of participant access settings for an online meeting.</span>
+          </span>
+          <span data-ttu-id="f6f16-258">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-258">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-259">Параметры собрания по сети.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-259">The online meeting settings.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptionalAttendees">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttendeeCollection OptionalAttendees { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttendeeCollection OptionalAttendees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.OptionalAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OptionalAttendees As AttendeeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ OptionalAttendees { Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-260">Получает список необязательных участников собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-260">Gets a list of optional attendees for the meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-261">Участникам собрания, которые не являются обязательными для собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-261">The attendees who are optional for the meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Organizer">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress Organizer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Organizer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Organizer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Organizer As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ Organizer { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-262">Получает адрес электронной почты организатора собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-262">Gets the email address of the meeting organizer.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-263">Адрес электронной почты организатора собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-263">The email address of the meeting organizer.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalStart">
+      <MemberSignature Language="C#" Value="public DateTime OriginalStart { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OriginalStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.OriginalStart" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OriginalStart As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime OriginalStart { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-264">Получает исходное время начала встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-264">Gets the original start time of the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-265">Исходное время начала встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-265">The original start time of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Recurrence Recurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Recurrence Recurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recurrence As Recurrence" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Recurrence ^ Recurrence { Microsoft::Exchange::WebServices::Data::Recurrence ^ get(); void set(Microsoft::Exchange::WebServices::Data::Recurrence ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-266">Получает или задает шаблон повторения для встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-266">Gets or sets the recurrence pattern for the appointment.</span>
+          </span>
+          <span data-ttu-id="f6f16-267">Классы шаблонов доступные повторения включают <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />, и <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-267">Available recurrence pattern classes include <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />, and <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-268">Шаблон повторения встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-268">The recurrence pattern of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="public void Reply (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reply(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Reply(Microsoft.Exchange.WebServices.Data.MessageBody,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reply (bodyPrefix As MessageBody, replyAll As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reply(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="f6f16-269">Префикс, следует добавлять к основному тексту встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-269">The prefix to prepend to the body of the meeting.</span>
+          </span>
+        </param>
+        <param name="replyAll">
+          <span data-ttu-id="f6f16-270">
+            <b>значение true,</b> чтобы указать отправку ответа для всех участников; <b>значение false,</b> чтобы указать отправку ответа организатору только.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-270">
+              <b>true</b> to indicate that the reply should be sent to all the attendees; <b>false</b> to indicate that the reply should be sent to the organizer only.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-271">Ответы, которые организатора и/или список участников собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-271">Replies to the organizer and/or the attendees of the meeting.</span>
+          </span>
+          <span data-ttu-id="f6f16-272">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-272">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredAttendees">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttendeeCollection RequiredAttendees { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttendeeCollection RequiredAttendees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.RequiredAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequiredAttendees As AttendeeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ RequiredAttendees { Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-273">Получает список обязательных участников собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-273">Gets a list of required attendees for the meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-274">Участникам собрания, которые необходимы для собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-274">The attendees who are required for the meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resources">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttendeeCollection Resources { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttendeeCollection Resources" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Resources" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Resources As AttendeeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ Resources { Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-275">Получает список ресурсов для собраний, такие как аудиовизуальной оборудования.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-275">Gets a list of resources for the meeting, such as audio-visual equipment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-276">Ресурсы для собрания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-276">The resources for the meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Save(Microsoft.Exchange.WebServices.Data.SendInvitationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::SendInvitationsMode sendInvitationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="sendInvitationsMode">
+          <span data-ttu-id="f6f16-277">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, указывающее определить, каким образом следует отправлены приглашения, при этом встреча является собранием.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-277">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates whether and how invitations should be sent if this appointment is a meeting.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-278">Сохраняет эту встречу в папке календаря.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-278">Saves this appointment in the Calendar folder.</span>
+          </span>
+          <span data-ttu-id="f6f16-279">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-279">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="f6f16-280">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-280">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId, Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId, valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Save(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.SendInvitationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId, Microsoft::Exchange::WebServices::Data::SendInvitationsMode sendInvitationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="f6f16-281">Идентификатор папки для сохранения этой встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-281">The identifier of the folder in which to save this appointment.</span>
+          </span>
+        </param>
+        <param name="sendInvitationsMode">
+          <span data-ttu-id="f6f16-282">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, которое указывает, если и как следует отправлены приглашения, при этом встреча является собранием.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-282">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates if and how invitations should be sent if this appointment is a meeting.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-283">Сохраняет эту встречу в указанной папке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-283">Saves this appointment in the specified folder.</span>
+          </span>
+          <span data-ttu-id="f6f16-284">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-284">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="f6f16-285">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-285">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName, Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName, valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.SendInvitationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName, Microsoft::Exchange::WebServices::Data::SendInvitationsMode sendInvitationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="f6f16-286">Имя папки, в которой для сохранения этой встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-286">The name of the folder in which to save this appointment.</span>
+          </span>
+        </param>
+        <param name="sendInvitationsMode">
+          <span data-ttu-id="f6f16-287">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, указывающее определить, каким образом следует отправлены приглашения, при этом встреча является собранием.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-287">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates whether and how invitations should be sent if this appointment is a meeting.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-288">Сохраняет эту встречу в указанной папке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-288">Saves this appointment in the specified folder.</span>
+          </span>
+          <span data-ttu-id="f6f16-289">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-289">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="f6f16-290">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-290">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-291">Получает или задает время начала встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-291">Gets or sets the start time of the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-292">Время начала встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-292">The start time of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTimeZone">
+      <MemberSignature Language="C#" Value="public TimeZoneInfo StartTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.TimeZoneInfo StartTimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.StartTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTimeZone As TimeZoneInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeZoneInfo ^ StartTimeZone { TimeZoneInfo ^ get(); void set(TimeZoneInfo ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeZoneInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-293">Получает или задает часовой пояс <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойства встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-293">Gets or sets the time zone of the <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> property of the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-294">Часовой пояс, <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-294">The time zone of the <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> property.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZone">
+      <MemberSignature Language="C#" Value="public string TimeZone { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.TimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeZone As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TimeZone { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-295">Получает часовой пояс, который указан для встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-295">Gets the time zone that is specified for the appointment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-296">Часовой пояс, который указан для встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-296">The time zone that is specified for the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode sendInvitationsOrCancellationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode sendInvitationsOrCancellationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode,Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode, Microsoft::Exchange::WebServices::Data::SendInvitationsOrCancellationsMode sendInvitationsOrCancellationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+        <Parameter Name="sendInvitationsOrCancellationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">
+          <span data-ttu-id="f6f16-297">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> значений перечисления, определяющее, как следует разрешать конфликты.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-297">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> enumeration values that indicates how conflicts should be resolved.</span>
+          </span>
+        </param>
+        <param name="sendInvitationsOrCancellationsMode">
+          <span data-ttu-id="f6f16-298">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> значений перечисления, которое указывает, если и способ отправки приглашения и отмены при этом встреча является собранием.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-298">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> enumeration values that indicates if and how invitations or cancellations should be sent if this appointment is a meeting.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f6f16-299">Применяет локальные изменения, внесенные в этом встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-299">Applies the local changes that have been made to this appointment.</span>
+          </span>
+          <span data-ttu-id="f6f16-300">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-300">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="f6f16-301">Несколько вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-301">Multiple calls to EWS might be made if attachments have been added or removed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="When">
+      <MemberSignature Language="C#" Value="public string When { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string When" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.When" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property When As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ When { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f6f16-302">Получает текстовое значение, которое указывает, когда происходит встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-302">Gets a text value that indicates when the appointment occurs.</span>
+          </span>
+          <span data-ttu-id="f6f16-303">Текстовое значение локализуется с помощью языка и региональных параметров Exchange Server или с помощью языка и региональных параметров, указанных в <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> свойства <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект, связанный с этой встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-303">The text value is localized by using the Exchange Server culture or by using the culture specified in the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> property of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object that this appointment is bound to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f6f16-304">Текстовое значение, которое указывает, когда происходит встречи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f6f16-304">A text value that indicates when the appointment occurs.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

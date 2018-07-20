@@ -1,0 +1,280 @@
+<Type Name="TasksFolder" FullName="Microsoft.Exchange.WebServices.Data.TasksFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="80d8fffb6f9b29aa5fe9a18298e2acd88a4ef76c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626933" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TasksFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TasksFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TasksFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Class TasksFolder&#xA;Inherits Folder" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TasksFolder : Microsoft::Exchange::WebServices::Data::Folder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Folder</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="cde9d-101">Представляет папку, содержащую элементы задачи.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cde9d-101">Represents a folder containing task items.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TasksFolder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TasksFolder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TasksFolder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="cde9d-102">Объект ExchangeService, к которому будет привязан папки задач.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-102">The ExchangeService object to which the tasks folder will be bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="cde9d-103">Инициализирует несохраненные локальный экземпляр.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-103">Initializes an unsaved local instance of.</span>
+          </span>
+          <span data-ttu-id="cde9d-104">Для привязки к существующей папке задачи, вместо этого используйте TasksFolder.Bind().</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-104">To bind to an existing tasks folder, use TasksFolder.Bind() instead.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.TasksFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.TasksFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TasksFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As TasksFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::TasksFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TasksFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="cde9d-105">Служба должна использовать для привязки к папке задачи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-105">The service to use to bind to the tasks folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="cde9d-106">Идентификатор папки задач для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-106">The Id of the tasks folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="cde9d-107">Выполняет привязку к существующей папке задачи и загружает его свойства первого класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-107">Binds to an existing tasks folder and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="cde9d-108">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-108">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="cde9d-109">Экземпляр TasksFolder, предоставляющий папку задач, в соответствии с указанным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-109">A TasksFolder instance representing the task folder corresponding to the specified Id.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.TasksFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.TasksFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TasksFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As TasksFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::TasksFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TasksFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="cde9d-110">Служба должна использовать для привязки к папке задачи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-110">The service to use to bind to the tasks folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="cde9d-111">Имя папки задач для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-111">The name of the tasks folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="cde9d-112">Выполняет привязку к существующей папке задачи и загружает его свойства первого класса.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-112">Binds to an existing tasks folder and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="cde9d-113">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-113">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="cde9d-114">Экземпляр TasksFolder, представляющее папки задач с указанным именем.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-114">A TasksFolder instance representing the tasks folder with the specified name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.TasksFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.TasksFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TasksFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::TasksFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TasksFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="cde9d-115">Служба должна использовать для привязки к папке задачи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-115">The service to use to bind to the tasks folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="cde9d-116">Идентификатор папки задач для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-116">The Id of the tasks folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="cde9d-117">Набор свойств для загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-117">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="cde9d-118">Выполняет привязку к существующей папке задачи и загружает указанный набор свойств.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-118">Binds to an existing tasks folder and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="cde9d-119">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-119">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="cde9d-120">Экземпляр TasksFolder, предоставляющий папку задач, в соответствии с указанным идентификатором.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-120">A TasksFolder instance representing the task folder corresponding to the specified Id.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.TasksFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.TasksFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TasksFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::TasksFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TasksFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="cde9d-121">Служба должна использовать для привязки к папке задачи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-121">The service to use to bind to the tasks folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="cde9d-122">Имя папки задач для привязки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-122">The name of the tasks folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="cde9d-123">Набор свойств для загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-123">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="cde9d-124">Выполняет привязку к существующей папке задачи и загружает указанный набор свойств.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-124">Binds to an existing tasks folder and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="cde9d-125">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-125">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="cde9d-126">Экземпляр TasksFolder, представляющее папки задач с указанным именем.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cde9d-126">A TasksFolder instance representing the tasks folder with the specified name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1058 @@
+<Type Name="ConversationSchema" FullName="Microsoft.Exchange.WebServices.Data.ConversationSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fff13e5b25b4d009332f89f54fceeb183d9e8252" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20626593" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ConversationSchema : Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationSchema extends Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationSchema&#xA;Inherits ServiceObjectSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationSchema : Microsoft::Exchange::WebServices::Data::ServiceObjectSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObjectSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a8528-101">Определение схемы для свойств беседы.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a8528-101">Defines the schema for conversation properties.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="a8528-102">
+        <para>
+          <b>Предупреждение</b>: </para>
+        <para>содержит список свойств, доступных на <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> объектов. Свойства, которые начинаются с «Global» указывает, что список свойств агрегируются по всему почтовому ящику не только определенной папки. Например, рассмотрим следующие беседы:</para>
+        <para>сообщение 1 – из Ken Circeo в folderMessage отправленные 2 — от Владимир ли в папке "Входящие" folderMessage 3 — от Jaka Stele в folderMessage папки "Входящие" 4 — от Jon Morris — в папке тестового</para>
+        <para>A запрос <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" /> возвращает свойство в окне беседы в папке "Входящие" «Владимир Петров, Jaka Stele». Сравнение полученных результатов с запросом к <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" /> свойство, которое будет возвращать «Кен Circeo, Владимир Иванов, Jaka Stele, Jon Morris». Дублированные записи не будут получены.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a8528-102">
+          <para>
+            <b>Caution</b>: </para>
+          <para>Contains a list of properties that are available on <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> objects. The properties that are prefixed with "Global" indicate that the property list is aggregated across the entire mailbox, not just a particular folder. For example, consider the following conversation:</para>
+          <para>Message 1 – from Ken Circeo, in the Sent Items folderMessage 2 – from Oliver Lee, in the Inbox folderMessage 3 – from Jaka Stele, in the Inbox folderMessage 4 – from Jon Morris – in the Test folder</para>
+          <para>A request for the <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" /> property on the conversation from the Inbox folder will return "Oliver Lee, Jaka Stele". Compare the results with a request for the <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" /> property, which will return "Ken Circeo, Oliver Lee, Jaka Stele, Jon Morris". Duplicate entries will not be returned.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Categories;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Categories" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Categories As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Categories;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-103">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-103">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-104">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-104">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DraftItemIds">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DraftItemIds;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DraftItemIds" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.DraftItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DraftItemIds As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DraftItemIds;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-105">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.DraftItemIds" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-105">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.DraftItemIds" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagStatus">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition FlagStatus;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition FlagStatus" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.FlagStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FlagStatus As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ FlagStatus;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-106">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-106">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-107">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-107">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalCategories">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalCategories;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalCategories" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalCategories" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalCategories As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalCategories;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-108">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-108">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-109">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-109">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalFlagStatus">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalFlagStatus;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalFlagStatus" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalFlagStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalFlagStatus As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalFlagStatus;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-110">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-110">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-111">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-111">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalHasAttachments">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalHasAttachments;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalHasAttachments" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalHasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalHasAttachments As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalHasAttachments;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-112">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasAttachments" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-112">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasAttachments" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-113">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-113">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalHasIrm">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalHasIrm;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalHasIrm" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalHasIrm" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalHasIrm As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalHasIrm;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-114">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-114">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-115">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-115">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalIconIndex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalIconIndex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalIconIndex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalIconIndex As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalIconIndex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-116">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-116">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-117">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-117">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalImportance">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalImportance;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalImportance" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalImportance" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalImportance As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalImportance;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-118">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalImportance" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-118">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalImportance" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-119">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-119">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalItemClasses">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalItemClasses;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalItemClasses" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalItemClasses As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalItemClasses;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-120">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemClasses" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-120">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemClasses" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-121">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-121">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalItemIds">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalItemIds;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalItemIds" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalItemIds As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalItemIds;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-122">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-122">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-123">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-123">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalLastDeliveryTime">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalLastDeliveryTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalLastDeliveryTime" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalLastDeliveryTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalLastDeliveryTime As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalLastDeliveryTime;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-124">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalLastDeliveryTime" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-124">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalLastDeliveryTime" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-125">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-125">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalMessageCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalMessageCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalMessageCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalMessageCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalMessageCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalMessageCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-126">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalMessageCount" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-126">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalMessageCount" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-127">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-127">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalSize">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalSize;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalSize" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalSize" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalSize As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalSize;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-128">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalSize" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-128">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalSize" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-129">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-129">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueRecipients">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalUniqueRecipients;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalUniqueRecipients" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalUniqueRecipients As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalUniqueRecipients;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-130">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueRecipients" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-130">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueRecipients" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-131">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-131">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueSenders">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalUniqueSenders;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalUniqueSenders" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalUniqueSenders As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalUniqueSenders;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-132">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueSenders" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-132">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueSenders" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-133">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-133">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueUnreadSenders">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalUniqueUnreadSenders;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalUniqueUnreadSenders" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueUnreadSenders" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalUniqueUnreadSenders As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalUniqueUnreadSenders;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-134">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueUnreadSenders" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-134">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueUnreadSenders" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-135">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-135">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUnreadCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalUnreadCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GlobalUnreadCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GlobalUnreadCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GlobalUnreadCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-136">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUnreadCount" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-136">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUnreadCount" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-137">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-137">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition HasAttachments;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition HasAttachments" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasAttachments As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ HasAttachments;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-138">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasAttachments" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-138">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasAttachments" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasIrm">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition HasIrm;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition HasIrm" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.HasIrm" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasIrm As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ HasIrm;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-139">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-139">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-140">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-140">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IconIndex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IconIndex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IconIndex As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IconIndex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-141">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-141">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-142">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-142">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Id;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Id" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Id As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Id;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-143">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Id" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-143">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Id" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-144">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-144">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Importance;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Importance" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Importance As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Importance;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-145">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-145">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-146">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-146">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition InstanceKey;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition InstanceKey" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InstanceKey As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ InstanceKey;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-147">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-147">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-148">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-148">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClasses">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ItemClasses;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ItemClasses" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.ItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemClasses As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ItemClasses;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-149">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-149">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-150">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-150">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemIds">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ItemIds;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ItemIds" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.ItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ItemIds As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ItemIds;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-151">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-151">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-152">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-152">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastDeliveryTime">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition LastDeliveryTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition LastDeliveryTime" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastDeliveryTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LastDeliveryTime As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ LastDeliveryTime;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-153">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-153">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-154">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-154">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition LastModifiedTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LastModifiedTime As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ LastModifiedTime;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-155">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-155">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-156">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-156">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition MessageCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition MessageCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.MessageCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MessageCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ MessageCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-157">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-157">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-158">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-158">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Preview;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Preview" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Preview As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Preview;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-159">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-159">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-160">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-160">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Size;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Size" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Size As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Size;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-161">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-161">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-162">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-162">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Topic">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Topic;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Topic" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Topic" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Topic As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Topic;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-163">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Topic" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-163">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Topic" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-164">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-164">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueRecipients">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition UniqueRecipients;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition UniqueRecipients" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UniqueRecipients As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ UniqueRecipients;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-165">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-165">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-166">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-166">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueSenders">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition UniqueSenders;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition UniqueSenders" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UniqueSenders As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ UniqueSenders;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-167">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-167">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-168">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-168">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueUnreadSenders">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition UniqueUnreadSenders;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition UniqueUnreadSenders" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueUnreadSenders" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UniqueUnreadSenders As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ UniqueUnreadSenders;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-169">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-169">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-170">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-170">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition UnreadCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition UnreadCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UnreadCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ UnreadCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a8528-171">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-171">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> property.</span>
+          </span>
+          <span data-ttu-id="a8528-172">Это свойство доступно только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a8528-172">This property is read-only.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

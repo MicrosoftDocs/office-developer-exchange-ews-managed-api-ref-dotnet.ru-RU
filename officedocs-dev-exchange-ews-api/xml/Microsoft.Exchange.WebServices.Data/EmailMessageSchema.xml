@@ -1,0 +1,477 @@
+<Type Name="EmailMessageSchema" FullName="Microsoft.Exchange.WebServices.Data.EmailMessageSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fc25aec52cfe0ba8c659efe4413893b920299bab" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20627118" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class EmailMessageSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailMessageSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailMessageSchema&#xA;Inherits ItemSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailMessageSchema : Microsoft::Exchange::WebServices::Data::ItemSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="99c94-101">Представляет схему для сообщений электронной почты.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99c94-101">Represents the schema for e-mail messages.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="99c94-102">
+        <para>Это перечисление содержит список свойств, которые можно использовать в <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessage" /> объекта.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99c94-102">
+          <para>This enumeration contains a list of properties that are available to an <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessage" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApprovalRequestData">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ApprovalRequestData;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ApprovalRequestData" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ApprovalRequestData" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ApprovalRequestData As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ApprovalRequestData;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-103">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ApprovalRequestData" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-103">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ApprovalRequestData" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition BccRecipients;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition BccRecipients" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BccRecipients As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ BccRecipients;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-104">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.BccRecipients" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-104">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.BccRecipients" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition CcRecipients;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition CcRecipients" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CcRecipients As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ CcRecipients;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-105">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.CcRecipients" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-105">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.CcRecipients" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationIndex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationIndex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConversationIndex As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConversationIndex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-106">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationIndex" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-106">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationIndex" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationTopic;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationTopic" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConversationTopic As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConversationTopic;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-107">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationTopic" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-107">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationTopic" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition From;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition From" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.From" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly From As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ From;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-108">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-108">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition InternetMessageId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition InternetMessageId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InternetMessageId As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ InternetMessageId;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-109">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.InternetMessageId" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-109">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.InternetMessageId" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeliveryReceiptRequested">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsDeliveryReceiptRequested;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsDeliveryReceiptRequested" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.IsDeliveryReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsDeliveryReceiptRequested As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsDeliveryReceiptRequested;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-110">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsDeliveryReceiptRequested" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-110">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsDeliveryReceiptRequested" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRead;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRead" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRead As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsRead;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-111">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsRead" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-111">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsRead" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequested">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsReadReceiptRequested;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsReadReceiptRequested" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.IsReadReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsReadReceiptRequested As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsReadReceiptRequested;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-112">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsReadReceiptRequested" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-112">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsReadReceiptRequested" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequested">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsResponseRequested;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsResponseRequested" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.IsResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsResponseRequested As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsResponseRequested;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-113">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsResponseRequested" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-113">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsResponseRequested" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedBy">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ReceivedBy;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ReceivedBy" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ReceivedBy" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReceivedBy As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ReceivedBy;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-114">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-114">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedRepresenting">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ReceivedRepresenting;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ReceivedRepresenting" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ReceivedRepresenting" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReceivedRepresenting As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ReceivedRepresenting;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-115">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-115">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="References">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition References;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition References" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.References" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly References As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ References;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-116">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.References" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-116">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.References" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyTo">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ReplyTo;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ReplyTo" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReplyTo As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ReplyTo;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-117">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReplyTo" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-117">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReplyTo" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Sender;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Sender" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Sender As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Sender;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-118">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.Sender" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-118">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.Sender" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ToRecipients;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ToRecipients" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ToRecipients As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ToRecipients;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-119">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ToRecipients" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-119">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ToRecipients" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VotingInformation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition VotingInformation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition VotingInformation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.VotingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VotingInformation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ VotingInformation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99c94-120">Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.VotingInformation" /> свойство.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99c94-120">Identifies the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.VotingInformation" /> property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
