@@ -1,13 +1,5 @@
 <Type Name="UpdateInboxRulesException" FullName="Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="10f27db7ce1ad5e198fd434ae41381f7a5264223" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627249" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class UpdateInboxRulesException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10f27db7ce1ad5e198fd434ae41381f7a5264223" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627249" /></Metadata><TypeSignature Language="C#" Value="public sealed class UpdateInboxRulesException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit UpdateInboxRulesException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UpdateInboxRulesException&#xA;Inherits ServiceRemoteException" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="381ad-101">Представляет исключение, порождаемое, если возникает ошибка в результате вызова операции UpdateInboxRules.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="381ad-101">Represents an exception that is thrown when an error occurs as a result of calling the UpdateInboxRules operation.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="4cb87-101">Представляет исключение, которое выдается при возникновении ошибки в результате вызова операции UpdateInboxRules.</span><span class="sxs-lookup"><span data-stu-id="4cb87-101">Represents an exception that is thrown when an error occurs as a result of calling the UpdateInboxRules operation.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,18 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="381ad-102">Возвращает код ошибки службы, который связан с операцией правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="381ad-102">Gets the service error code that is associated with the rule operation.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="381ad-103">Значение перечисления ServiceError, который содержит код ошибки для службы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="381ad-103">A ServiceError enumeration value that contains the service error code.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4cb87-102">Получает код ошибки службы, связанной с операцией с правилом.</span><span class="sxs-lookup"><span data-stu-id="4cb87-102">Gets the service error code that is associated with the rule operation.</span></span></summary>
+        <value><span data-ttu-id="4cb87-103">Значение перечисления Сервицееррор, содержащее код ошибки службы.</span><span class="sxs-lookup"><span data-stu-id="4cb87-103">A ServiceError enumeration value that contains the service error code.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -75,18 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="381ad-104">Получает сообщение об ошибке службы, который связан с операцией правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="381ad-104">Gets the service error message that is associated with the rule operation.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="381ad-105">Сообщение об ошибке, которое отображается при сбое проверки операции правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="381ad-105">The error message that is displayed when the rule operation validation fails.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4cb87-104">Получает сообщение об ошибке службы, связанное с операцией с правилом.</span><span class="sxs-lookup"><span data-stu-id="4cb87-104">Gets the service error message that is associated with the rule operation.</span></span></summary>
+        <value><span data-ttu-id="4cb87-105">Сообщение об ошибке, отображаемое при сбое проверки операции правила.</span><span class="sxs-lookup"><span data-stu-id="4cb87-105">The error message that is displayed when the rule operation validation fails.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,18 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RuleOperationErrorCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="381ad-106">Получает коллекцию ошибок, которые описываются причины правило проверки не удалось выполнить операцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="381ad-106">Gets a collection of errors that detail the reasons the rule operation failed validation.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="381ad-107">Коллекция объектов ошибок на операции правило, не прошедших проверку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="381ad-107">A collection of error objects on the rule operation that failed validation.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4cb87-106">Получает коллекцию ошибок, подробно описывающих причины сбоя при проверке операции правила.</span><span class="sxs-lookup"><span data-stu-id="4cb87-106">Gets a collection of errors that detail the reasons the rule operation failed validation.</span></span></summary>
+        <value><span data-ttu-id="4cb87-107">Коллекция объектов Error в операции правила, не прошедших проверку.</span><span class="sxs-lookup"><span data-stu-id="4cb87-107">A collection of error objects on the rule operation that failed validation.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -135,18 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceResponse</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="381ad-108">Получает ServiceResponse исключения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="381ad-108">Gets the ServiceResponse for the exception.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="381ad-109">Стандартный ответ на операцию правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="381ad-109">The standard response to the rule operation.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4cb87-108">Получает Сервицереспонсе для исключения.</span><span class="sxs-lookup"><span data-stu-id="4cb87-108">Gets the ServiceResponse for the exception.</span></span></summary>
+        <value><span data-ttu-id="4cb87-109">Стандартный ответ на операцию Rule.</span><span class="sxs-lookup"><span data-stu-id="4cb87-109">The standard response to the rule operation.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

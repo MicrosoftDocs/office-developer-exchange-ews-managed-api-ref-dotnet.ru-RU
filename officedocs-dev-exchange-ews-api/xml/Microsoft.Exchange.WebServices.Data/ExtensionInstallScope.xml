@@ -1,13 +1,5 @@
 <Type Name="ExtensionInstallScope" FullName="Microsoft.Exchange.WebServices.Data.ExtensionInstallScope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="355081a47485d86a28af82eb5e10942c88e5a87c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626575" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ExtensionInstallScope" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="355081a47485d86a28af82eb5e10942c88e5a87c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626575" /></Metadata><TypeSignature Language="C#" Value="public enum ExtensionInstallScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExtensionInstallScope extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" />
   <TypeSignature Language="VB.NET" Value="Public Enum ExtensionInstallScope" />
@@ -20,17 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ab86b-101">Определяет область управления доступом на основе ролей для расширения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab86b-101">Defines the role-based access control scope for the extension.</span>
-      </span>
-      <span data-ttu-id="ab86b-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab86b-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="93382-101">Определяет область управления доступом на основе ролей для расширения.</span><span class="sxs-lookup"><span data-stu-id="93382-101">Defines the role-based access control scope for the extension.</span></span>             <span data-ttu-id="93382-102"><see cref="T:Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="93382-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,16 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab86b-103">Настройки по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab86b-103">The configured default.</span>
-          </span>
-          <span data-ttu-id="ab86b-104">Поля по умолчанию используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab86b-104">The Default field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="93382-103">Настроенное значение по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="93382-103">The configured default.</span></span>             <span data-ttu-id="93382-104">Поле по умолчанию применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="93382-104">The Default field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -78,16 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab86b-105">Нет доступа к соответствующей задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab86b-105">No access for the associated task.</span>
-          </span>
-          <span data-ttu-id="ab86b-106">Нет поля используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab86b-106">The None field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="93382-105">Нет доступа для связанной задачи.</span><span class="sxs-lookup"><span data-stu-id="93382-105">No access for the associated task.</span></span>             <span data-ttu-id="93382-106">Поле "нет" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="93382-106">The None field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Organization">
@@ -106,16 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab86b-107">Группа «все» в связанной организации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab86b-107">The Everyone group in the associated organization.</span>
-          </span>
-          <span data-ttu-id="ab86b-108">Поля «организация» используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab86b-108">The Organization field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="93382-107">Группа "все" в связанной организации.</span><span class="sxs-lookup"><span data-stu-id="93382-107">The Everyone group in the associated organization.</span></span>             <span data-ttu-id="93382-108">Поле Organization (организация) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="93382-108">The Organization field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="User">
@@ -134,16 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab86b-109">Связанный пользователь.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab86b-109">The associated user.</span>
-          </span>
-          <span data-ttu-id="ab86b-110">Поля пользователя используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab86b-110">The User field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="93382-109">Связанный пользователь.</span><span class="sxs-lookup"><span data-stu-id="93382-109">The associated user.</span></span>             <span data-ttu-id="93382-110">Поле User (пользователь) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="93382-110">The User field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

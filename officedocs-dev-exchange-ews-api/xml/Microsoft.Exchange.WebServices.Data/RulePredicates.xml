@@ -1,13 +1,5 @@
 <Type Name="RulePredicates" FullName="Microsoft.Exchange.WebServices.Data.RulePredicates">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="36486a84f08191f9825b249cd872da7776b1953d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626606" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class RulePredicates : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="36486a84f08191f9825b249cd872da7776b1953d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626606" /></Metadata><TypeSignature Language="C#" Value="public sealed class RulePredicates : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicates extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicates&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="1c131-101">Представляет набор условий и исключений, доступных для правила.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1c131-101">Represents the set of conditions and exceptions that are available for a rule.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a9ce4-101">Представляет набор условий и исключений, доступных для правила.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-101">Represents the set of conditions and exceptions that are available for a rule.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,32 +32,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-102">Получает категории, которые входящее сообщение помечается в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-102">Gets the categories that an incoming message is labeled with in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-103">Категории, которые связаны с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-103">The categories that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-104">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-104">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-102">Получает категории, с которыми будет подписано входящее сообщение, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-102">Gets the categories that an incoming message is labeled with in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-103">Категории, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-103">The categories that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-104"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-104"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsBodyStrings">
@@ -88,32 +56,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-105">Получает строк, которые отображаются в теле входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-105">Gets the strings that appear in the body of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-106">Строки текста, связанные с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-106">The body strings that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-107">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-107">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-105">Получает строки, которые отображаются в теле входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-105">Gets the strings that appear in the body of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-106">Строки основного текста, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-106">The body strings that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-107"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-107"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsHeaderStrings">
@@ -131,32 +80,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-108">Получает строк, которые отображаются в заголовках входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-108">Gets the strings that appear in the headers of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-109">Заголовки строк, связанные с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-109">The headers strings that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-110">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-110">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-108">Получает строки, которые отображаются в заголовках входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-108">Gets the strings that appear in the headers of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-109">Строки заголовков, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-109">The headers strings that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-110"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-110"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsRecipientStrings">
@@ -174,32 +104,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-111">Получает строк, которые отображаются в окне Свойства ToRecipients или CcRecipients входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-111">Gets the strings that appear in either the ToRecipients or CcRecipients properties of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-112">Строки получателей, которые связаны с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-112">The recipient strings that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-113">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-113">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-111">Получает строки, которые отображаются в свойствах ToRecipients или CcRecipients входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-111">Gets the strings that appear in either the ToRecipients or CcRecipients properties of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-112">Строки получателей, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-112">The recipient strings that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-113"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-113"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsSenderStrings">
@@ -217,32 +128,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-114">Возвращает строки, отображается в свойстве From входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-114">Gets the strings that appears in the From property of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-115">Строки отправителя, связанных с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-115">The sender strings that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-116">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-116">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-114">Получает строки, которые отображаются в свойстве From входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-114">Gets the strings that appears in the From property of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-115">Строки отправителя, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-115">The sender strings that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-116"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-116"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsSubjectOrBodyStrings">
@@ -260,32 +152,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-117">Получает строк, которые отображаются в тексте или теме входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-117">Gets the strings that appear in either the body or the subject of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-118">Строки темы или текста, связанных с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-118">The subject or body strings that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-119">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-119">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-117">Получает строки, которые отображаются в тексте или теме входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-117">Gets the strings that appear in either the body or the subject of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-118">Строки темы или текста текста, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-118">The subject or body strings that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-119"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-119"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsSubjectStrings">
@@ -303,32 +176,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-120">Получает строк, которые отображаются в теме входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-120">Gets the strings that appear in the subject of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-121">Строки темы, связанные с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-121">The subject strings that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-122">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-122">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-120">Получает строки, которые отображаются в теме входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-120">Gets the strings that appear in the subject of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-121">Строки темы, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-121">The subject strings that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-122"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-122"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlaggedForAction">
@@ -346,32 +200,13 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-123">Получает или задает флаг, для которого действию задано значение, которое отображается на входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-123">Gets or sets the flag for action value that appears on incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-124">Значение свойства FlaggedForAction.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-124">The FlaggedForAction property value.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-125">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />можно отключить, назначить этому свойству значение null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-125">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" /> can be disabled by setting this property to null.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-123">Получает или задает значение флага, которое отображается в входящих сообщениях, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-123">Gets or sets the flag for action value that appears on incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-124">Значение свойства Флагжедфорактион.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-124">The FlaggedForAction property value.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-125"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />можно отключить, присвоив этому свойству значение null.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-125"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" /> can be disabled by setting this property to null.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromAddresses">
@@ -389,32 +224,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-126">Получает адреса электронной почты отправителей входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-126">Gets the e-mail addresses of the senders of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-127">Коллекция адреса электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-127">A collection of e-mail addresses.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-128">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-128">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-126">Получает адреса электронной почты отправителя входящих сообщений, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-126">Gets the e-mail addresses of the senders of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-127">Коллекция адресов электронной почты.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-127">A collection of e-mail addresses.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-128"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-128"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromConnectedAccounts">
@@ -432,32 +248,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-129">Возвращает имена учетных записей, с которых входящих сообщений должен были сводный в порядке для условие или исключение для применения сообщения электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-129">Gets the e-mail account names from which incoming messages must have been aggregated in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-130">Имена учетных записей электронной почты, связанные с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-130">The e-mail account names that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-131">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-131">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-129">Получает имена учетных записей электронной почты, из которых должны быть объединены входящие сообщения, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-129">Gets the e-mail account names from which incoming messages must have been aggregated in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-130">Имена учетных записей электронной почты, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-130">The e-mail account names that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-131"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-131"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachments">
@@ -475,18 +272,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-132">Получает или задает значение, указывающее, является ли входящих сообщений должен быть вложений для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-132">Gets or sets a value that indicates whether incoming messages must have attachments in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-133">значение true, если входящих сообщений должен быть вложений в форме условия или исключения для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-133">true if the incoming messages must have attachments in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-132">Получает или задает значение, указывающее, должны ли входящие сообщения содержать вложения, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-132">Gets or sets a value that indicates whether incoming messages must have attachments in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-133">значение true, если входящие сообщения должны иметь вложения, чтобы применялось условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-133">true if the incoming messages must have attachments in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -505,32 +292,13 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-134">Получает или задает важности, записывается во входящих сообщениях в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-134">Gets or sets the importance that is stamped on incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-135">Значение свойства важности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-135">The Importance property value.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-136">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />можно отключить, назначить этому свойству значение null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-136">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" /> can be disabled by setting this property to null.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-134">Получает или задает степень важности, которая отмечается для входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-134">Gets or sets the importance that is stamped on incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-135">Значение свойства важности.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-135">The Importance property value.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-136"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />можно отключить, присвоив этому свойству значение null.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-136"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" /> can be disabled by setting this property to null.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsApprovalRequest">
@@ -548,18 +316,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-137">Получает или задает значение, указывающее, должен ли входящих сообщений в порядке для условие или исключение для применения запросов на утверждение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-137">Gets or sets a value that indicates whether incoming messages must be approval requests in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-138">значение true, если входящих сообщений должен быть запросов на утверждение в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-138">true if the incoming messages must be approval requests in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-137">Получает или задает значение, указывающее, должны ли входящие сообщения быть запросами на утверждение, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-137">Gets or sets a value that indicates whether incoming messages must be approval requests in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-138">имеет значение true, если входящие сообщения должны быть запросами на утверждение, чтобы применить условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-138">true if the incoming messages must be approval requests in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -578,18 +336,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-139">Получает или задает значение, указывающее, должен ли автоматическая переадресация в порядке для условие или исключение для применения при входящих сообщений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-139">Gets or sets a value that indicates whether incoming messages must be automatic forwards in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-140">значение true, если входящих сообщений должен быть автоматическая переадресация в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-140">true if the incoming messages must be automatic forwards in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-139">Получает или задает значение, указывающее, должны ли входящие сообщения быть автоматически пересылаться, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-139">Gets or sets a value that indicates whether incoming messages must be automatic forwards in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-140">имеет значение true, если входящие сообщения должны быть автоматически пересылаться, чтобы применялось условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-140">true if the incoming messages must be automatic forwards in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -608,18 +356,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-141">Получает или задает значение, указывающее, должен ли автоматические ответы, чтобы условие или исключение можно применить при входящих сообщений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-141">Gets or sets a value that indicates whether incoming messages must be automatic replies in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-142">значение true, если входящих сообщений должен быть автоматических ответов в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-142">true if the incoming messages must be automatic replies in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-141">Получает или задает значение, указывающее, должны ли входящие сообщения быть автоматическими ответами, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-141">Gets or sets a value that indicates whether incoming messages must be automatic replies in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-142">имеет значение true, если входящие сообщения должны быть автоматическими ответами, чтобы применить условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-142">true if the incoming messages must be automatic replies in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -638,18 +376,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-143">Получает или задает значение, указывающее, является ли входящих сообщений должен быть зашифрован в порядке для условие или исключение для применения S/MIME.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-143">Gets or sets a value that indicates whether incoming messages must be S/MIME encrypted in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-144">значение true, если входящих сообщений должен быть S/MIME зашифрован условия или исключения для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-144">true if the incoming messages must be S/MIME encrypted for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-143">Получает или задает значение, указывающее, должны ли входящие сообщения шифроваться с помощью шифрования S/MIME, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-143">Gets or sets a value that indicates whether incoming messages must be S/MIME encrypted in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-144">значение true, если входящие сообщения должны быть зашифрованы по протоколу S/MIME для применения условия или исключения; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-144">true if the incoming messages must be S/MIME encrypted for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -668,18 +396,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-145">Получает или задает значение, указывающее, является ли входящих сообщений должны быть приглашений на собрания в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-145">Gets or sets a value that indicates whether incoming messages must be meeting requests in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-146">значение true, если входящие сообщения должны быть приглашений на собрания в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-146">true if the incoming messages must be meeting requests in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-145">Получает или задает значение, указывающее, должны ли входящие сообщения быть приглашениями на собрание, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-145">Gets or sets a value that indicates whether incoming messages must be meeting requests in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-146">имеет значение true, если входящие сообщения должны быть приглашениями на собрание, чтобы применялось условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-146">true if the incoming messages must be meeting requests in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -698,18 +416,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-147">Получает или задает значение, указывающее, должно ли собрания ответы в порядке для условие или исключение для применения входящих сообщений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-147">Gets or sets a value that indicates whether incoming messages must be meeting responses in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-148">значение true, если входящих сообщений должен пустые ответы в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-148">true if the incoming messages must be meeting responses in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-147">Получает или задает значение, указывающее, должны ли входящие сообщения отвечать на приглашения на собрания, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-147">Gets or sets a value that indicates whether incoming messages must be meeting responses in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-148">имеет значение true, если входящие сообщения должны отвечать на приглашения на собрания, чтобы применялось условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-148">true if the incoming messages must be meeting responses in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -728,18 +436,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-149">Получает или задает значение, указывающее, должен ли отчеты о недоставке (NDR) при входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-149">Gets or sets a value that indicates whether incoming messages must be non-delivery reports (NDR) in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-150">значение true, если входящие сообщения должны быть отчеты о недоставке (NDR) в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-150">true if the incoming messages must be non-delivery reports (NDR) in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-149">Получает или задает значение, указывающее, должны ли входящие сообщения относиться к отчетам о недоставке, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-149">Gets or sets a value that indicates whether incoming messages must be non-delivery reports (NDR) in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-150">имеет значение true, если входящие сообщения должны быть отчетами о недоставке, чтобы применить условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-150">true if the incoming messages must be non-delivery reports (NDR) in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -758,18 +456,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-151">Получает или задает значение, указывающее, входящих сообщений должен ли разрешение управляются (защищенные RMS) в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-151">Gets or sets a value that indicates whether incoming messages must be permission controlled (RMS protected) in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-152">значение true, если входящих сообщений должно быть разрешение управляются (защищенные RMS) в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-152">true if the incoming messages must be permission controlled (RMS protected) in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-151">Получает или задает значение, указывающее, должны ли входящие сообщения управляться разрешениями (RMS protected), чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-151">Gets or sets a value that indicates whether incoming messages must be permission controlled (RMS protected) in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-152">имеет значение true, если для входящих сообщений должно выполняться управление разрешениями (RMS protected), чтобы применить условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-152">true if the incoming messages must be permission controlled (RMS protected) in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -788,18 +476,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-153">Получает или задает значение, указывающее, является ли входящих сообщений должны прочитать поступлений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-153">Gets or sets a value that indicates whether incoming messages must be read receipts in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-154">значение true, если входящие сообщения должны быть прочтении в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-154">true if the incoming messages must be read receipts in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-153">Получает или задает значение, указывающее, должны ли входящие сообщения принимать уведомления о прочтении для того, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-153">Gets or sets a value that indicates whether incoming messages must be read receipts in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-154">имеет значение true, если для входящих сообщений должны быть прочитаны уведомления о прочтении, чтобы применить условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-154">true if the incoming messages must be read receipts in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -818,18 +496,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-155">Получает или задает значение, указывающее, должен ли входящих сообщений в порядке для условие или исключение для применения подписью S/MIME.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-155">Gets or sets a value that indicates whether incoming messages must be S/MIME signed in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-156">значение true, если входящих сообщений должен быть S/MIME подпись для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-156">true if the incoming messages must be S/MIME signed in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-155">Получает или задает значение, указывающее, должны ли входящие сообщения быть подписаны с помощью S/MIME, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-155">Gets or sets a value that indicates whether incoming messages must be S/MIME signed in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-156">имеет значение true, если входящие сообщения должны быть подписаны на S/MIME, чтобы применялось условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-156">true if the incoming messages must be S/MIME signed in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -848,18 +516,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-157">Получает или задает значение, указывающее, должен ли входящих сообщений голосовой почты в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-157">Gets or sets a value that indicates whether incoming messages must be voice mails in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-158">значение true, если входящих сообщений должен быть сообщения голосовой почты в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-158">true if the incoming messages must be voice mails in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-157">Получает или задает значение, указывающее, должны ли входящие сообщения быть голосовой почтой, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-157">Gets or sets a value that indicates whether incoming messages must be voice mails in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-158">значение true, если входящие сообщения должны быть голосовой почтой, чтобы применялось условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-158">true if the incoming messages must be voice mails in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -878,32 +536,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-159">Получает классов элементов, которые необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-159">Gets the item classes that must be stamped on incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-160">значение true, если классы элемента необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-160">true if the item classes must be stamped on incoming messages in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-161">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-161">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-159">Получает классы элементов, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-159">Gets the item classes that must be stamped on incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-160">имеет значение true, если классы элементов должны быть помечены для входящих сообщений, чтобы применялось условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-160">true if the item classes must be stamped on incoming messages in order for the condition or exception to apply; otherwise, false.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-161"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-161"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClassifications">
@@ -921,32 +560,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-162">Получает классификации сообщений, которые необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-162">Gets the message classifications that must be stamped on incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-163">Классификации сообщений, связанных с сообщением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-163">The message classifications that are associated with the message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-164">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-164">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-162">Получает классификации сообщений, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-162">Gets the message classifications that must be stamped on incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-163">Классификации сообщений, связанные с сообщением.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-163">The message classifications that are associated with the message.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-164"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-164"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotSentToMe">
@@ -964,18 +584,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-165">Получает или задает значение, указывающее, является ли владелец почтового ящика не должна быть в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-165">Gets or sets a value that indicates whether the owner of the mailbox must not be in the ToRecipients property of the incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-166">значение true, если владелец почтового ящика не должна быть получателя кому входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-166">true if owner of the mailbox must not be a To recipient of the incoming messages in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-165">Получает или задает значение, указывающее, должно ли владелец почтового ящика отсутствовать в свойстве ToRecipients входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-165">Gets or sets a value that indicates whether the owner of the mailbox must not be in the ToRecipients property of the incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-166">true, если владелец почтового ящика не должен быть получателем входящих сообщений для применения условия или исключения; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-166">true if owner of the mailbox must not be a To recipient of the incoming messages in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -994,32 +604,13 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Sensitivity&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-167">Получает или задает уровень конфиденциальности сообщения, который должен быть отметка для входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-167">Gets or sets the sensitivity that must be stamped on incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-168">Со значением свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-168">The Sensitivity property value.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-169">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />можно отключить, назначить этому свойству значение null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-169">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" /> can be disabled by setting this property to null.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-167">Получает или задает чувствительность, которая должна быть помечена для входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-167">Gets or sets the sensitivity that must be stamped on incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-168">Значение свойства чувствительности.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-168">The Sensitivity property value.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-169"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />можно отключить, присвоив этому свойству значение null.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-169"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" /> can be disabled by setting this property to null.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentCcMe">
@@ -1037,18 +628,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-170">Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве CcRecipients входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-170">Gets or sets a value that indicates whether the owner of the mailbox must be in the CcRecipients property of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-171">значение true, если владелец почтового ящика должен быть копия входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-171">true if the owner of the mailbox must be a Cc recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-170">Получает или задает значение, указывающее, должен ли владелец почтового ящика быть указан в свойстве CcRecipients входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-170">Gets or sets a value that indicates whether the owner of the mailbox must be in the CcRecipients property of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-171">значение true, если владелец почтового ящика должен быть получателем копии входящих сообщений, чтобы применить условие или исключение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-171">true if the owner of the mailbox must be a Cc recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1067,18 +648,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-172">Получает или задает значение, указывающее, является ли владелец почтового ящика должен быть только один в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-172">Gets or sets a value that indicates whether the owner of the mailbox must be the only one in the ToRecipients property of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-173">значение true, если владелец почтового ящика должен быть единственным получателю входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-173">true if the owner of the mailbox must be the only To recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-172">Получает или задает значение, указывающее, должен ли владелец почтового ящика быть единственным в свойстве ToRecipients входящих сообщений, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-172">Gets or sets a value that indicates whether the owner of the mailbox must be the only one in the ToRecipients property of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-173">значение true, если владелец почтового ящика должен быть единственным получателем входящих сообщений для применения условия или исключения; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-173">true if the owner of the mailbox must be the only To recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1097,32 +668,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-174">Получает адреса электронной почты, отправленных входящих сообщений необходимо чтобы предоставить условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-174">Gets the e-mail addresses that incoming messages must have been sent to in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-175">Коллекция адреса электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-175">A collection of e-mail addresses.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-176">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />можно отключить, установив это свойство в пустой список.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-176">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" /> can be disabled by setting this property to an empty list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-174">Получает адреса электронной почты, на которые должны быть отправлены входящие сообщения, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-174">Gets the e-mail addresses that incoming messages must have been sent to in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-175">Коллекция адресов электронной почты.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-175">A collection of e-mail addresses.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-176"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-176"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" /> can be disabled by setting this property to an empty list.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentToMe">
@@ -1140,18 +692,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-177">Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-177">Gets or sets a value that indicates whether the owner of the mailbox must be in the ToRecipients property of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-178">значение true, если владелец почтового ящика должен быть получателя кому входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-178">true if the owner of the mailbox must be a To recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-177">Получает или задает значение, указывающее, должен ли владелец почтового ящика быть указан в свойстве ToRecipients входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-177">Gets or sets a value that indicates whether the owner of the mailbox must be in the ToRecipients property of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-178">значение true, если владелец почтового ящика должен быть получателем входящих сообщений для применения условия или исключения; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-178">true if the owner of the mailbox must be a To recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1170,18 +712,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-179">Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве ToRecipients или CcRecipients входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-179">Gets or sets a value that indicates whether the owner of the mailbox must be in either a ToRecipients or CcRecipients property of incoming messages in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-180">значение true, если владелец почтового ящика необходимо быть получателя Кому или копия получателя входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-180">true if the owner of the mailbox must be either a To recipient or Cc recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a9ce4-179">Получает или задает значение, указывающее, должен ли владелец почтового ящика быть указан в свойстве ToRecipients или CcRecipients входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-179">Gets or sets a value that indicates whether the owner of the mailbox must be in either a ToRecipients or CcRecipients property of incoming messages in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-180">true, если владелец почтового ящика должен быть получателем или получателем получателей входящих сообщений для применения условия или исключения; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-180">true if the owner of the mailbox must be either a To recipient or Cc recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1200,32 +732,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateDateRange</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-181">Получает диапазон дат, в течение которого входящих сообщений должны были получены в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-181">Gets the date range within which incoming messages must have been received in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-182">Даты начала и окончания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-182">The start and end dates.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-183">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />можно отключить, установив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> свойств значение null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-183">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" /> can be disabled by setting the <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> properties to null.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-181">Получает диапазон дат, в течение которого должны быть получены входящие сообщения, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-181">Gets the date range within which incoming messages must have been received in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-182">Даты начала и окончания.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-182">The start and end dates.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-183"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />можно отключить, присвоив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> свойству <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> и свойствам значение null.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-183"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" /> can be disabled by setting the <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> properties to null.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="WithinSizeRange">
@@ -1243,32 +756,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c131-184">Получает минимальный и максимальный размеры, которые должны иметь входящих сообщений в порядке для условие или исключение для применения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-184">Gets the minimum and maximum sizes that incoming messages must have in order for the condition or exception to apply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c131-185">Минимальный размер и максимальный размер.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-185">The minimum size and maximum size values.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="1c131-186">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />можно отключить, установив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> свойств значение null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c131-186">
-              <para>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" /> can be disabled by setting the <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> properties to null.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a9ce4-184">Получает минимальный и максимальный размеры для входящих сообщений, которые должны быть применены для того, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-184">Gets the minimum and maximum sizes that incoming messages must have in order for the condition or exception to apply.</span></span></summary>
+        <value><span data-ttu-id="a9ce4-185">Значения минимального и максимального размера.</span><span class="sxs-lookup"><span data-stu-id="a9ce4-185">The minimum size and maximum size values.</span></span></value>
+        <remarks><span data-ttu-id="a9ce4-186"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />можно отключить, присвоив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> свойству <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> и свойствам значение null.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a9ce4-186"><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" /> can be disabled by setting the <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> properties to null.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="IFileAttachmentContentHandler" FullName="Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fb8f51c1d46d175817990bb2b93727a08f70d642" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626544" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IFileAttachmentContentHandler" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fb8f51c1d46d175817990bb2b93727a08f70d642" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626544" /></Metadata><TypeSignature Language="C#" Value="public interface IFileAttachmentContentHandler" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileAttachmentContentHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFileAttachmentContentHandler" />
@@ -18,16 +10,7 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="c6d8e-101">Определяет обработчик содержимого файла вложения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c6d8e-101">Defines a file attachment content handler.</span>
-      </span>
-      <span data-ttu-id="c6d8e-102">Приложения можно реализовать IFileAttachmentContentHandler для предоставления потока, к которому требуется записать содержимое файла вложения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c6d8e-102">An application can implement IFileAttachmentContentHandler to provide the stream to which the content of a file attachment should be written.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="de0ca-101">Определяет обработчик контента вложенного файла.</span><span class="sxs-lookup"><span data-stu-id="de0ca-101">Defines a file attachment content handler.</span></span> <span data-ttu-id="de0ca-102">Приложение может реализовать Ифилеаттачментконтенсандлер, чтобы предоставить поток, в который необходимо записать содержимое вложенного файла.</span><span class="sxs-lookup"><span data-stu-id="de0ca-102">An application can implement IFileAttachmentContentHandler to provide the stream to which the content of a file attachment should be written.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,24 +32,9 @@
         <Parameter Name="attachmentId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="attachmentId">
-          <span data-ttu-id="c6d8e-103">Идентификатор вложения, которое загружается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d8e-103">The identifier of the attachment that is being loaded.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c6d8e-104">Предоставляет поток, в который будут записываться содержимого вложения с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d8e-104">Provides a stream to which the content of the attachment with the specified identifier should be written.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="c6d8e-105">Поток, в котором будет записан содержимого вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d8e-105">A Stream to which the content of the attachment will be written.</span>
-          </span>
-        </returns>
+        <param name="attachmentId"><span data-ttu-id="de0ca-103">Идентификатор загружаемого вложения.</span><span class="sxs-lookup"><span data-stu-id="de0ca-103">The identifier of the attachment that is being loaded.</span></span></param>
+        <summary><span data-ttu-id="de0ca-104">Предоставляет поток, в который необходимо записать содержимое вложения с указанным идентификатором.</span><span class="sxs-lookup"><span data-stu-id="de0ca-104">Provides a stream to which the content of the attachment with the specified identifier should be written.</span></span></summary>
+        <returns><span data-ttu-id="de0ca-105">Поток, в который будет записано содержимое вложения.</span><span class="sxs-lookup"><span data-stu-id="de0ca-105">A Stream to which the content of the attachment will be written.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="Contact" FullName="Microsoft.Exchange.WebServices.Data.Contact">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a62fe19ef88507a054692710d224b9a99d55f9f2" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627153" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Contact : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a62fe19ef88507a054692710d224b9a99d55f9f2" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627153" /></Metadata><TypeSignature Language="C#" Value="public class Contact : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Contact extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Contact" />
   <TypeSignature Language="VB.NET" Value="Public Class Contact&#xA;Inherits Item" />
@@ -21,16 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="eca6f-101">Представляет контакт.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="eca6f-101">Represents a contact.</span>
-      </span>
-      <span data-ttu-id="eca6f-102">Свойства, доступные на контакты определены в класс ContactSchema.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="eca6f-102">The properties that are available on contacts are defined by the ContactSchema class.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a1f39-101">Представляет контакт.</span><span class="sxs-lookup"><span data-stu-id="a1f39-101">Represents a contact.</span></span> <span data-ttu-id="a1f39-102">Свойства, доступные в контактах, определяются классом Контактсчема.</span><span class="sxs-lookup"><span data-stu-id="a1f39-102">The properties that are available on contacts are defined by the ContactSchema class.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,22 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="eca6f-103">Объект ExchangeServiceBase, к которому будет привязан контакт.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-103">The ExchangeServiceBase object to which the contact will be bound.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="eca6f-104">Инициализирует несохраненные локальный экземпляр класса контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-104">Initializes an unsaved local instance of the Contact class.</span>
-          </span>
-          <span data-ttu-id="eca6f-105">Чтобы связать существующий контакт, используйте метод привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-105">To bind to an existing contact, use the Bind method instead.</span>
-          </span>
-        </summary>
+        <param name="service"><span data-ttu-id="a1f39-103">Объект Ексчанжесервицебасе, с которым будет связан контакт.</span><span class="sxs-lookup"><span data-stu-id="a1f39-103">The ExchangeServiceBase object to which the contact will be bound.</span></span></param>
+        <summary><span data-ttu-id="a1f39-104">Инициализирует несохраненный локальный экземпляр класса Contact.</span><span class="sxs-lookup"><span data-stu-id="a1f39-104">Initializes an unsaved local instance of the Contact class.</span></span> <span data-ttu-id="a1f39-105">Чтобы присоединиться к существующему контакту, вместо этого используйте метод Bind.</span><span class="sxs-lookup"><span data-stu-id="a1f39-105">To bind to an existing contact, use the Bind method instead.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,22 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-106">Получает псевдоним контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-106">Gets the contact's alias.</span>
-          </span>
-          <span data-ttu-id="eca6f-107">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-107">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-108">Псевдоним контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-108">The contact's alias.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-106">Возвращает псевдоним контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-106">Gets the contact's alias.</span></span> <span data-ttu-id="a1f39-107">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-107">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-108">Псевдоним контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-108">The contact's alias.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,18 +72,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-109">Получает или задает имя помощника контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-109">Gets or sets the name of the contact's assistant.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-110">Имя помощника контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-110">The name of the contact's assistant.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-109">Получает или задает имя помощника контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-109">Gets or sets the name of the contact's assistant.</span></span></summary>
+        <value><span data-ttu-id="a1f39-110">Имя помощника контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-110">The name of the contact's assistant.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,34 +96,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="eca6f-111">Служба должна использовать для привязки к контакту.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-111">The service to use to bind to the contact.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="eca6f-112">Идентификатор контакта для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-112">The ID of the contact to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="eca6f-113">Выполняет привязку существующего контакта и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-113">Binds to an existing contact and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="eca6f-114">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-114">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="eca6f-115">Контакта, который соответствует указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-115">The contact that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="a1f39-111">Служба, используемая для связывания с контактом.</span><span class="sxs-lookup"><span data-stu-id="a1f39-111">The service to use to bind to the contact.</span></span></param>
+        <param name="id"><span data-ttu-id="a1f39-112">ИДЕНТИФИКАТОР контакта, к которому требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="a1f39-112">The ID of the contact to bind to.</span></span></param>
+        <summary><span data-ttu-id="a1f39-113">Выполняет присоединение к существующему контакту и загружает его свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="a1f39-113">Binds to an existing contact and loads its first class properties.</span></span> <span data-ttu-id="a1f39-114">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="a1f39-114">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="a1f39-115">Контакт, соответствующий указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="a1f39-115">The contact that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -201,40 +122,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="eca6f-116">Служба должна использовать для привязки к контакту.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-116">The service to use to bind to the contact.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="eca6f-117">Идентификатор контакта для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-117">The ID of the contact to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="eca6f-118">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-118">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="eca6f-119">Выполняет привязку существующего контакта и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-119">Binds to an existing contact and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="eca6f-120">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-120">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="eca6f-121">Контакта, который соответствует указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-121">The contact that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="a1f39-116">Служба, используемая для связывания с контактом.</span><span class="sxs-lookup"><span data-stu-id="a1f39-116">The service to use to bind to the contact.</span></span></param>
+        <param name="id"><span data-ttu-id="a1f39-117">ИДЕНТИФИКАТОР контакта, к которому требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="a1f39-117">The ID of the contact to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="a1f39-118">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="a1f39-118">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="a1f39-119">Выполняет присоединение к существующему контакту и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="a1f39-119">Binds to an existing contact and loads the specified set of properties.</span></span> <span data-ttu-id="a1f39-120">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="a1f39-120">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="a1f39-121">Контакт, соответствующий указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="a1f39-121">The contact that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -253,18 +145,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-122">Получает или задает день рождения контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-122">Gets or sets the birthday of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-123">День рождения контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-123">The birthday of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-122">Получает или задает день рождения контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-122">Gets or sets the birthday of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-123">День рождения контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-123">The birthday of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -283,18 +165,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-124">Получает или задает домашней странице бизнес контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-124">Gets or sets the business home page of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-125">Домашняя страница контакта (рабочая).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-125">The business home page of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-124">Получает или задает домашнюю страницу контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-124">Gets or sets the business home page of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-125">Домашняя страница контакта (рабочая).</span><span class="sxs-lookup"><span data-stu-id="a1f39-125">The business home page of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -313,18 +185,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-126">Получает или задает список дочерних элементов для этого контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-126">Gets or sets a list of children for the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-127">Список дочерних элементов для этого контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-127">The list of children for the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-126">Получает или задает список дочерних элементов для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-126">Gets or sets a list of children for the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-127">Список дочерних элементов для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-127">The list of children for the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -343,18 +205,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-128">Получает или задает список компаний, для этого контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-128">Gets or sets a list of companies for the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-129">Список компаний для этого контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-129">The list of companies for the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-128">Получает или задает список компаний для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-128">Gets or sets a list of companies for the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-129">Список компаний для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-129">The list of companies for the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -373,18 +225,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-130">Получает или задает имя компании контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-130">Gets or sets the company name of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-131">Имя компании контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-131">The company name of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-130">Получает или задает название компании контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-130">Gets or sets the company name of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-131">Название компании контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-131">The company name of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -403,18 +245,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.CompleteName</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-132">Получает или задает полное имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-132">Gets or sets the complete name of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-133">Полное имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-133">The complete name of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-132">Получает или задает полное имя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-132">Gets or sets the complete name of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-133">Полное имя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-133">The complete name of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -433,18 +265,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ContactSource&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-134">Получает источник контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-134">Gets the source of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-135">Источник контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-135">The source of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-134">Получает источник контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-134">Gets the source of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-135">Источник контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-135">The source of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -463,18 +285,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-136">Получает или задает отдел контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-136">Gets or sets the department of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-137">Отдел контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-137">The department of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-136">Получает или задает отдел контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-136">Gets or sets the department of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-137">Отдел контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-137">The department of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -493,22 +305,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-138">Получает идентификатор каталогов контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-138">Gets the contact's directory identifier.</span>
-          </span>
-          <span data-ttu-id="eca6f-139">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-139">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-140">Идентификатор каталогов контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-140">The contact's directory identifier.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-138">Получает идентификатор каталога контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-138">Gets the contact's directory identifier.</span></span> <span data-ttu-id="a1f39-139">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-139">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-140">Идентификатор каталога контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-140">The contact's directory identifier.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -527,22 +325,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-141">Получает фотографии контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-141">Gets the contact's photo.</span>
-          </span>
-          <span data-ttu-id="eca6f-142">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-142">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-143">Фотографии контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-143">The contact's photo.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-141">Получает фотографию контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-141">Gets the contact's photo.</span></span> <span data-ttu-id="a1f39-142">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-142">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-143">Фотография контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-143">The contact's photo.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -561,22 +345,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-144">Получает контакта прямые отчеты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-144">Gets the contact's direct reports.</span>
-          </span>
-          <span data-ttu-id="eca6f-145">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-145">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-146">Коллекция адреса электронной почты, которые представляют подчиненные контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-146">A collection of email addresses that represent the contact's direct reports.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-144">Получает непосредственные отчеты о контакте.</span><span class="sxs-lookup"><span data-stu-id="a1f39-144">Gets the contact's direct reports.</span></span> <span data-ttu-id="a1f39-145">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-145">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-146">Коллекция адресов электронной почты, представляющих прямые отчеты контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-146">A collection of email addresses that represent the contact's direct reports.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -595,18 +365,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-147">Получает или задает отображаемое имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-147">Gets or sets the display name of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-148">Отображаемое имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-148">The display name of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-147">Получает или задает отображаемое имя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-147">Gets or sets the display name of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-148">Отображаемое имя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-148">The display name of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -625,31 +385,12 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-149">Получает индексированным списком адресов электронной почты для контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-149">Gets an indexed list of e-mail addresses for the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-150">Индексированным списком адресов электронной почты для контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-150">An indexed list of e-mail addresses for the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-149">Получает индексированный список адресов электронной почты контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-149">Gets an indexed list of e-mail addresses for the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-150">Индексированный список адресов электронной почты контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-150">An indexed list of e-mail addresses for the contact.</span></span></value>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="eca6f-151">
-            <para>Следующем примере показано, как установить первый адрес электронной почты контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
-            <code>contact.EmailAddresses[EmailAddressKey.EmailAddress1] = "test@contoso.com";</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-151">
-              <para>The following example shows how to set the first e-mail address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
-              <code>contact.EmailAddresses[EmailAddressKey.EmailAddress1] = "test@contoso.com";</code>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="a1f39-151"><para>В приведенном ниже примере показано, как задать первый адрес электронной почты контакта, где Contact представляет <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объект.</para>
+          <code>contact.EmailAddresses[EmailAddressKey.EmailAddress1] = "test@contoso.com";</code></span><span class="sxs-lookup"><span data-stu-id="a1f39-151"><para>The following example shows how to set the first e-mail address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
+          <code>contact.EmailAddresses[EmailAddressKey.EmailAddress1] = "test@contoso.com";</code></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="FileAs">
@@ -667,22 +408,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-152">Получает или задает имя, под которым оформлена этого контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-152">Gets or sets the name under which this contact is filed.</span>
-          </span>
-          <span data-ttu-id="eca6f-153">Это свойство можно задать вручную или автоматически рассчитывается на основе значения свойства FileAsMapping.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-153">This property can be manually set or can be automatically calculated based on the value of the FileAsMapping property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-154">Имя, под которым оформлена контакт.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-154">The name under which the contact is filed.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-152">Получает или задает имя для хранения контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-152">Gets or sets the name under which this contact is filed.</span></span> <span data-ttu-id="a1f39-153">Это свойство можно задать вручную или можно автоматически расрассчитывать на основе значения свойства Филеасмаппинг.</span><span class="sxs-lookup"><span data-stu-id="a1f39-153">This property can be manually set or can be automatically calculated based on the value of the FileAsMapping property.</span></span></summary>
+        <value><span data-ttu-id="a1f39-154">Имя, в котором будет храниться контакт.</span><span class="sxs-lookup"><span data-stu-id="a1f39-154">The name under which the contact is filed.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -701,18 +428,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-155">Получает или задает значение, указывающее, как FileAs свойство рассчитываться автоматически.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-155">Gets or sets a value that indicates how the FileAs property should be automatically calculated.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-156">Одно из значений перечисления FileAsMapping, определяет как свойство FileAs рассчитываться автоматически.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-156">One of the FileAsMapping enumeration values that specifies how the FileAs property should be automatically calculated.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-155">Получает или задает значение, указывающее, как следует автоматически рассчитывать свойство свойств fileas.</span><span class="sxs-lookup"><span data-stu-id="a1f39-155">Gets or sets a value that indicates how the FileAs property should be automatically calculated.</span></span></summary>
+        <value><span data-ttu-id="a1f39-156">Одно из значений перечисления Филеасмаппинг, задающее способ автоматического вычисления свойства свойств fileas.</span><span class="sxs-lookup"><span data-stu-id="a1f39-156">One of the FileAsMapping enumeration values that specifies how the FileAs property should be automatically calculated.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -731,18 +448,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-157">Получает или задает создания контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-157">Gets or sets the generation of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-158">Создание контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-158">The generation of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-157">Возвращает или задает создание контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-157">Gets or sets the generation of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-158">Создание контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-158">The generation of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -762,18 +469,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-159">Возвращает вложенный файл, который содержит изображение контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-159">Returns the file attachment that contains the contact's picture.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="eca6f-160">Вложение файла, который содержит изображение контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-160">The file attachment that contains the contact's picture.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="a1f39-159">Возвращает вложенный файл, содержащий изображение контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-159">Returns the file attachment that contains the contact's picture.</span></span></summary>
+        <returns><span data-ttu-id="a1f39-160">Вложенный файл, содержащий изображение контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-160">The file attachment that contains the contact's picture.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -792,18 +489,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-161">Получает или задает имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-161">Gets or sets the given name of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-162">Имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-162">The given name of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-161">Получает или задает заданное имя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-161">Gets or sets the given name of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-162">Заданное имя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-162">The given name of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -822,20 +509,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-163">Получает значение, указывающее, имеет ли контакт изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-163">Gets a value that indicates whether the contact has a picture.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-164">
-            <b>значение true,</b> Если контакт находится изображение; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-164">
-              <b>true</b> if the contact has a picture; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-163">Получает значение, указывающее, имеет ли контакт изображение.</span><span class="sxs-lookup"><span data-stu-id="a1f39-163">Gets a value that indicates whether the contact has a picture.</span></span></summary>
+        <value><span data-ttu-id="a1f39-164"><b>true</b> , если контакт имеет изображение; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="a1f39-164"><b>true</b> if the contact has a picture; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -854,31 +529,12 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ImAddressDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-165">Получает индексированным списком адресов мгновенного обмена мгновенными сообщениями для этого контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-165">Gets an indexed list of instant messaging (IM) addresses for the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-166">Индексированным списком адресов обмен мгновенными сообщениями (IM) для этого контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-166">An indexed list of instant messaging (IM) addresses for the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-165">Получает индексированный список адресов обмена мгновенными сообщениями для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-165">Gets an indexed list of instant messaging (IM) addresses for the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-166">Индексированный список адресов обмена мгновенными сообщениями для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-166">An indexed list of instant messaging (IM) addresses for the contact.</span></span></value>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="eca6f-167">
-            <para>Следующем примере показано, как установить первый адрес обмена мгновенными Сообщениями для контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
-            <code>contact.ImAddresses[ImAddressKey.ImAddress1] = "test@contoso.com";</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-167">
-              <para>The following example shows how to set the first IM address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
-              <code>contact.ImAddresses[ImAddressKey.ImAddress1] = "test@contoso.com";</code>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="a1f39-167"><para>В приведенном ниже примере показано, как задать первый адрес для обмена мгновенными сообщениями для контакта <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> , где Contact представляет объект.</para>
+          <code>contact.ImAddresses[ImAddressKey.ImAddress1] = "test@contoso.com";</code></span><span class="sxs-lookup"><span data-stu-id="a1f39-167"><para>The following example shows how to set the first IM address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
+          <code>contact.ImAddresses[ImAddressKey.ImAddress1] = "test@contoso.com";</code></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Initials">
@@ -896,18 +552,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-168">Получает или задает инициалы контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-168">Gets or sets the initials of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-169">Инициалы контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-169">The initials of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-168">Получает или задает инициалы контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-168">Gets or sets the initials of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-169">Инициалы контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-169">The initials of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -926,18 +572,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-170">Получает или задает название должности контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-170">Gets or sets the job title of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-171">Название должности контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-171">The job title of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-170">Получает или задает должность контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-170">Gets or sets the job title of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-171">Название должности контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-171">The job title of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -956,18 +592,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-172">Получает или задает имя менеджера контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-172">Gets or sets the name of the contact's manager.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-173">Имя руководителя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-173">The name of the contact's manager.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-172">Получает или задает имя руководителя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-172">Gets or sets the name of the contact's manager.</span></span></summary>
+        <value><span data-ttu-id="a1f39-173">Имя руководителя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-173">The name of the contact's manager.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -986,22 +612,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-174">Получает адрес электронной почты контакта прямой руководитель.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-174">Gets the email address of contact's direct manager.</span>
-          </span>
-          <span data-ttu-id="eca6f-175">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-175">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-176">Адрес электронной почты диспетчера контактов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-176">The email address of the contact's manager.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-174">Получает адрес электронной почты прямого менеджера контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-174">Gets the email address of contact's direct manager.</span></span> <span data-ttu-id="a1f39-175">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-175">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-176">Адрес электронной почты руководителя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-176">The email address of the contact's manager.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1020,18 +632,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-177">Получает или задает отчество контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-177">Gets or sets the middle name of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-178">Отчество контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-178">The middle name of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-177">Получает или задает отчество контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-177">Gets or sets the middle name of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-178">Отчество контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-178">The middle name of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1050,18 +652,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-179">Получает или задает расстояние для контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-179">Gets or sets the mileage for the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-180">Расстояние для этого контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-180">The mileage for the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-179">Получает или задает расстояние для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-179">Gets or sets the mileage for the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-180">Расстояние для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-180">The mileage for the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1080,22 +672,8 @@
         <ReturnType>System.Byte[][]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-181">Получает массив двоичных кодирования сертификат контакта Microsoft Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-181">Gets a binary array encoding the contact’s Microsoft Exchange certificate.</span>
-          </span>
-          <span data-ttu-id="eca6f-182">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-182">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-183">Сертификат Microsoft Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-183">A Microsoft Exchange certificate.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-181">Получает двоичный массив для кодирования сертификата Microsoft Exchange контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-181">Gets a binary array encoding the contact’s Microsoft Exchange certificate.</span></span> <span data-ttu-id="a1f39-182">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-182">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-183">Сертификат Microsoft Exchange.</span><span class="sxs-lookup"><span data-stu-id="a1f39-183">A Microsoft Exchange certificate.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1114,18 +692,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-184">Получает или задает понятное имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-184">Gets or sets the nickname of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-185">Псевдоним контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-185">The nickname of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-184">Получает или задает псевдоним контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-184">Gets or sets the nickname of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-185">Псевдоним контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-185">The nickname of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1144,22 +712,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-186">Получает свойства notes контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-186">Gets the notes property of a contact.</span>
-          </span>
-          <span data-ttu-id="eca6f-187">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-187">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-188">Заметки о сведения о контакте.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-188">The notes information about a contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-186">Получает свойство Notes контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-186">Gets the notes property of a contact.</span></span> <span data-ttu-id="a1f39-187">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-187">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-188">Сведения о заметках о контакте.</span><span class="sxs-lookup"><span data-stu-id="a1f39-188">The notes information about a contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1178,18 +732,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-189">Получает или задает расположение контакта office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-189">Gets or sets the location of the contact's office.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-190">Расположение офиса контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-190">The location of the contact's office.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-189">Получает или задает расположение офиса контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-189">Gets or sets the location of the contact's office.</span></span></summary>
+        <value><span data-ttu-id="a1f39-190">Расположение офиса контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-190">The location of the contact's office.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1208,31 +752,12 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-191">Получает индексированным списком телефонных номеров контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-191">Gets an indexed list of telephone numbers for the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-192">Индексированным списком телефонных номеров контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-192">An indexed list of telephone numbers for the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-191">Получает индексированный список номеров телефонов для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-191">Gets an indexed list of telephone numbers for the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-192">Индексированный список номеров телефонов контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-192">An indexed list of telephone numbers for the contact.</span></span></value>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="eca6f-193">
-            <para>Следующем примере показано, как задать номер домашнего телефона контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
-            <code>contact.PhoneNumbers[PhoneNumberKey.HomePhone] = "111-111-1111";</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-193">
-              <para>The following example shows how to set the home telephone number for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
-              <code>contact.PhoneNumbers[PhoneNumberKey.HomePhone] = "111-111-1111";</code>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="a1f39-193"><para>В приведенном ниже примере показано, как задать номер домашнего телефона контакта, где Contact представляет <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объект.</para>
+          <code>contact.PhoneNumbers[PhoneNumberKey.HomePhone] = "111-111-1111";</code></span><span class="sxs-lookup"><span data-stu-id="a1f39-193"><para>The following example shows how to set the home telephone number for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object.</para>
+          <code>contact.PhoneNumbers[PhoneNumberKey.HomePhone] = "111-111-1111";</code></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="PhoneticFirstName">
@@ -1250,22 +775,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-194">Получает имя контакта с помощью алфавита фонетическая запись.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-194">Gets a contact’s first name using the phonetic alphabet.</span>
-          </span>
-          <span data-ttu-id="eca6f-195">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-195">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-196">Фонетическое имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-196">A contact's phonetic first name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-194">Получает имя контакта с использованием фонетического алфавита.</span><span class="sxs-lookup"><span data-stu-id="a1f39-194">Gets a contact’s first name using the phonetic alphabet.</span></span> <span data-ttu-id="a1f39-195">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-195">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-196">Фонетическое имя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-196">A contact's phonetic first name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1284,22 +795,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-197">Получает полное имя, включая сначала и последней, с помощью алфавита фонетическая запись контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-197">Gets a contact’s full name, including first and last, using the phonetic alphabet.</span>
-          </span>
-          <span data-ttu-id="eca6f-198">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-198">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-199">Фонетическое полное имя контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-199">A contact's full phonetic name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-197">Получает полное имя контакта, включая имя и фамилию, с использованием фонетического алфавита.</span><span class="sxs-lookup"><span data-stu-id="a1f39-197">Gets a contact’s full name, including first and last, using the phonetic alphabet.</span></span> <span data-ttu-id="a1f39-198">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-198">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-199">Полное фонетическое имя контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-199">A contact's full phonetic name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1318,22 +815,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-200">Получает фамилию контакта с помощью алфавита фонетическая запись.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-200">Gets a contact’s last name using the phonetic alphabet.</span>
-          </span>
-          <span data-ttu-id="eca6f-201">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-201">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-202">Фонетическая фамилия контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-202">A contact's phonetic last name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-200">Получает фамилию контакта с использованием фонетического алфавита.</span><span class="sxs-lookup"><span data-stu-id="a1f39-200">Gets a contact’s last name using the phonetic alphabet.</span></span> <span data-ttu-id="a1f39-201">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-201">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-202">Фонетическое фамилию контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-202">A contact's phonetic last name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1352,31 +835,12 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-203">Получает индексированным списком физических адресов для контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-203">Gets an indexed list of physical addresses for the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-204">Индексированные список физических адресов для контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-204">An indexed list of physical addresses for the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-203">Получает индексированный список физических адресов для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-203">Gets an indexed list of physical addresses for the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-204">Индексированный список физических адресов для контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-204">An indexed list of physical addresses for the contact.</span></span></value>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="eca6f-205">
-            <para>Следующем примере показано, как задать рабочий адрес контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> представляет объект и businessAddress <see cref="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" /> объектов.</para>
-            <code>contact.PhysicalAddresses[PhysicalAddressKey.Business] = businessAddress;</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-205">
-              <para>The following example shows how to set the business address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object and businessAddress represents a <see cref="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" /> object.</para>
-              <code>contact.PhysicalAddresses[PhysicalAddressKey.Business] = businessAddress;</code>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="a1f39-205"><para>В приведенном ниже примере показано, как задать рабочий адрес контакта, где Contact представляет <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объект, а бусинессаддресс представляет <see cref="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" /> объект.</para>
+          <code>contact.PhysicalAddresses[PhysicalAddressKey.Business] = businessAddress;</code></span><span class="sxs-lookup"><span data-stu-id="a1f39-205"><para>The following example shows how to set the business address for a contact, where contact represents a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> object and businessAddress represents a <see cref="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" /> object.</para>
+          <code>contact.PhysicalAddresses[PhysicalAddressKey.Business] = businessAddress;</code></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="PostalAddressIndex">
@@ -1394,22 +858,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressIndex&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-206">Получает или задает индекс почтовый адрес контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-206">Gets or sets the index of the contact's postal address.</span>
-          </span>
-          <span data-ttu-id="eca6f-207">Если параметр PostalAddressIndex ссылается на запись в списке индексированные свойства PhysicalAddresses.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-207">When set, PostalAddressIndex refers to an entry in the PhysicalAddresses property indexed list.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-208">Индекс почтовый адрес контакта в списке индексированные свойства PhysicalAddresses.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-208">The index of the contact's postal address in the PhysicalAddresses property indexed list.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-206">Получает или задает индекс почтового адреса контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-206">Gets or sets the index of the contact's postal address.</span></span> <span data-ttu-id="a1f39-207">Если задано значение, Посталаддрессиндекс ссылается на запись в индексированном списке свойства Фисикаладдрессес.</span><span class="sxs-lookup"><span data-stu-id="a1f39-207">When set, PostalAddressIndex refers to an entry in the PhysicalAddresses property indexed list.</span></span></summary>
+        <value><span data-ttu-id="a1f39-208">Индекс почтового адреса контакта в индексированном списке свойства Фисикаладдрессес.</span><span class="sxs-lookup"><span data-stu-id="a1f39-208">The index of the contact's postal address in the PhysicalAddresses property indexed list.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1428,18 +878,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-209">Получает или задает род занятий контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-209">Gets or sets the profession of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-210">Род занятий контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-210">The profession of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-209">Получает или задает профессия контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-209">Gets or sets the profession of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-210">Профессия контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-210">The profession of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1459,12 +899,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-211">Удаляет на изображение контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-211">Removes the contact's picture.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1f39-211">Удаляет изображение контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-211">Removes the contact's picture.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1486,18 +921,8 @@
         <Parameter Name="content" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="content">
-          <span data-ttu-id="eca6f-212">Байт, которые делают изображение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-212">The bytes that make the picture.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="eca6f-213">Задает на изображение контакта с помощью указанного массива байтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-213">Sets the contact's picture by using the specified byte array.</span>
-          </span>
-        </summary>
+        <param name="content"><span data-ttu-id="a1f39-212">Байты, которые делают изображение.</span><span class="sxs-lookup"><span data-stu-id="a1f39-212">The bytes that make the picture.</span></span></param>
+        <summary><span data-ttu-id="a1f39-213">Задает рисунок контакта, используя указанный массив байтов.</span><span class="sxs-lookup"><span data-stu-id="a1f39-213">Sets the contact's picture by using the specified byte array.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1519,18 +944,8 @@
         <Parameter Name="contentStream" Type="System.IO.Stream" />
       </Parameters>
       <Docs>
-        <param name="contentStream">
-          <span data-ttu-id="eca6f-214">Поток, который содержит изображение контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-214">The stream that contains the contact's picture.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="eca6f-215">Задает на изображение контакта с помощью указанного потока.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-215">Sets the contact's picture by using the specified stream.</span>
-          </span>
-        </summary>
+        <param name="contentStream"><span data-ttu-id="a1f39-214">Поток, содержащий изображение контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-214">The stream that contains the contact's picture.</span></span></param>
+        <summary><span data-ttu-id="a1f39-215">Задает изображение контакта с помощью указанного потока.</span><span class="sxs-lookup"><span data-stu-id="a1f39-215">Sets the contact's picture by using the specified stream.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1552,18 +967,8 @@
         <Parameter Name="fileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="fileName">
-          <span data-ttu-id="eca6f-216">Имя файла, содержащего изображение контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-216">The name of the file that contains the contact's picture.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="eca6f-217">Задает на изображение контакта с помощью указанного файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-217">Sets the contact's picture by using the specified file.</span>
-          </span>
-        </summary>
+        <param name="fileName"><span data-ttu-id="a1f39-216">Имя файла, содержащего изображение контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-216">The name of the file that contains the contact's picture.</span></span></param>
+        <summary><span data-ttu-id="a1f39-217">Задает рисунок контакта, используя указанный файл.</span><span class="sxs-lookup"><span data-stu-id="a1f39-217">Sets the contact's picture by using the specified file.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1582,18 +987,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-218">Получает или задает имя контакта супруга/партнера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-218">Gets or sets the name of the contact's spouse/partner.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-219">Имя супруга или супруги контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-219">The name of the contact's spouse/partner.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-218">Получает или задает имя супруга/партнера контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-218">Gets or sets the name of the contact's spouse/partner.</span></span></summary>
+        <value><span data-ttu-id="a1f39-219">Имя супруга или супруги контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-219">The name of the contact's spouse/partner.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1612,18 +1007,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-220">Получает или задает фамилию контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-220">Gets or sets the surname of the contact.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-221">Фамилия контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-221">The surname of the contact.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-220">Получает или задает фамилию контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-220">Gets or sets the surname of the contact.</span></span></summary>
+        <value><span data-ttu-id="a1f39-221">Фамилия контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-221">The surname of the contact.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1642,22 +1027,8 @@
         <ReturnType>System.Byte[][]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-222">Получает массив двоичных кодирования сертификат SMIME контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-222">Gets a binary array encoding the contact’s SMIME certificate.</span>
-          </span>
-          <span data-ttu-id="eca6f-223">Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-223">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-224">Сертификат SMIME.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-224">A SMIME certificate.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-222">Возвращает двоичный массив для кодирования сертификата SMIME контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-222">Gets a binary array encoding the contact’s SMIME certificate.</span></span> <span data-ttu-id="a1f39-223">Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="a1f39-223">This property was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <value><span data-ttu-id="a1f39-224">Сертификат SMIME.</span><span class="sxs-lookup"><span data-stu-id="a1f39-224">A SMIME certificate.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1676,18 +1047,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eca6f-225">Получает или задает дату Годовщина свадьбы контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-225">Gets or sets the date of the contact's wedding anniversary.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="eca6f-226">Дата Годовщина свадьбы контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eca6f-226">The date of the contact's wedding anniversary.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1f39-225">Получает или задает дату юбилея свадьбы контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-225">Gets or sets the date of the contact's wedding anniversary.</span></span></summary>
+        <value><span data-ttu-id="a1f39-226">Дата юбилея свадьбы контакта.</span><span class="sxs-lookup"><span data-stu-id="a1f39-226">The date of the contact's wedding anniversary.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

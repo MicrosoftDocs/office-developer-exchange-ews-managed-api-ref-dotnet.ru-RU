@@ -1,13 +1,5 @@
 <Type Name="DeleteRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.DeleteRuleOperation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4849cf7491586006e5275c9ef6a0a8c876a82551" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627124" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DeleteRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4849cf7491586006e5275c9ef6a0a8c876a82551" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627124" /></Metadata><TypeSignature Language="C#" Value="public sealed class DeleteRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeleteRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeleteRuleOperation&#xA;Inherits RuleOperation" />
@@ -21,30 +13,14 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="a6e1a-101">Представляет операцию для удаления правила папки «Входящие».</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a6e1a-101">Represents an operation to delete an Inbox rule.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="a6e1a-102">
-        <para>Можно удалить существующий <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект класса с помощью этого класса.</para>
-        <para>Этот класс является производным от <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> класса.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a6e1a-102">
-          <para>You can delete an existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class object by using this class.</para>
-          <para>This class derives from the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> class.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
-    <example>
-      <span data-ttu-id="a6e1a-103">
-        <para>В следующем примере выполняется поиск <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> класс для поиска существующего <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект с именем «MoveInterestingToJunk» из почтового ящика пользователя. Если <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> существует, <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> при удалении службы. Строка UpdateInboxRules (new RuleOperation [] {setRuleOperation} значение true) выполняется.</para>
-        <code>// Create the DeleteRuleOperation.
+    <summary><span data-ttu-id="0aae7-101">Представляет операцию удаления правила для папки "Входящие".</span><span class="sxs-lookup"><span data-stu-id="0aae7-101">Represents an operation to delete an Inbox rule.</span></span></summary>
+    <remarks><span data-ttu-id="0aae7-102"><para>С помощью этого класса можно <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> удалить существующий объект Class.</para> 
+      <para>Этот класс является производным от <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> класса.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="0aae7-102"><para>You can delete an existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class object by using this class.</para>
+      <para>This class derives from the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> class.</para>
+      <para /></span></span></remarks>
+    <example><span data-ttu-id="0aae7-103"><para>В следующем примере в <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> классе выполняется поиск существующего <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объекта с именем "мовеинтерестингтожунк" в почтовом ящике пользователя. Если параметр <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> существует, то <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> он удаляется при наличии службы. Выполняется строка UpdateInboxRules (New Рулеоператион [] {Сетрулеоператион}, true).</para>
+      <code>// Create the DeleteRuleOperation.
 // Delete the rule "MoveInterestingToJunk", if it exists.
 // Get the RuleCollection.
 RuleCollection ruleCollection = service.GetInboxRules("User1@Contoso.com");
@@ -55,12 +31,8 @@ foreach (Rule ruleinCollection in ruleCollection)
         DeleteRuleOperation deleteRuleOperation = new DeleteRuleOperation(ruleinCollection.Id);
         service.UpdateInboxRules(new RuleOperation[] { deleteRuleOperation }, true);
     }
-}</code>
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a6e1a-103">
-          <para>The following example searches the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> class to find an existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> object with the name "MoveInterestingToJunk" from the user's mailbox. If the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> exists, the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is deleted when the service.UpdateInboxRules(new RuleOperation[] { setRuleOperation }, true) line is executed.</para>
-          <code>// Create the DeleteRuleOperation.
+}</code></span><span class="sxs-lookup"><span data-stu-id="0aae7-103"><para>The following example searches the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> class to find an existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> object with the name "MoveInterestingToJunk" from the user's mailbox. If the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> exists, the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is deleted when the service.UpdateInboxRules(new RuleOperation[] { setRuleOperation }, true) line is executed.</para>
+      <code>// Create the DeleteRuleOperation.
 // Delete the rule "MoveInterestingToJunk", if it exists.
 // Get the RuleCollection.
 RuleCollection ruleCollection = service.GetInboxRules("User1@Contoso.com");
@@ -71,10 +43,7 @@ foreach (Rule ruleinCollection in ruleCollection)
         DeleteRuleOperation deleteRuleOperation = new DeleteRuleOperation(ruleinCollection.Id);
         service.UpdateInboxRules(new RuleOperation[] { deleteRuleOperation }, true);
     }
-}</code>
-        </span>
-      </span>
-    </example>
+}</code></span></span></example>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -90,24 +59,10 @@ foreach (Rule ruleinCollection in ruleCollection)
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="a6e1a-104">Инициализирует новый экземпляр класса DeleteRuleOperation.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a6e1a-104">Initializes a new instance of the DeleteRuleOperation class.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a6e1a-105">
-            <para>Этот метод удаляет <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект класса в определенного почтового ящика.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a6e1a-105">
-              <para>This method deletes a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class object in a specific mailbox.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="0aae7-104">Инициализирует новый экземпляр класса Делетерулеоператион.</span><span class="sxs-lookup"><span data-stu-id="0aae7-104">Initializes a new instance of the DeleteRuleOperation class.</span></span></summary>
+        <remarks><span data-ttu-id="0aae7-105"><para>Этот метод удаляет объект <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Class в определенном почтовом ящике.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0aae7-105"><para>This method deletes a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class object in a specific mailbox.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -125,18 +80,8 @@ foreach (Rule ruleinCollection in ruleCollection)
         <Parameter Name="ruleId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ruleId">
-          <span data-ttu-id="a6e1a-106">Идентификатор правила для удаления и отправляются на сервер обмена сообщениями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a6e1a-106">The identifier of the rule to be deleted and sent to the messaging server.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a6e1a-107">Инициализирует новый экземпляр класса DeleteRuleOperation с идентификатором указанного правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a6e1a-107">Initializes a new instance of the DeleteRuleOperation class with the specified rule identifier.</span>
-          </span>
-        </summary>
+        <param name="ruleId"><span data-ttu-id="0aae7-106">Идентификатор правила, которое необходимо удалить и отправить на сервер обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="0aae7-106">The identifier of the rule to be deleted and sent to the messaging server.</span></span></param>
+        <summary><span data-ttu-id="0aae7-107">Инициализирует новый экземпляр класса Делетерулеоператион с указанным идентификатором правила.</span><span class="sxs-lookup"><span data-stu-id="0aae7-107">Initializes a new instance of the DeleteRuleOperation class with the specified rule identifier.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,31 +100,11 @@ foreach (Rule ruleinCollection in ruleCollection)
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a6e1a-108">Получает или задает уникальный идентификатор правила для удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a6e1a-108">Gets or sets the unique identifier of the rule to be deleted.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a6e1a-109">Идентификатор правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a6e1a-109">The rule identifier.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a6e1a-110">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" /> Свойство имеет уникальный идентификатор для <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект класса, который требуется удалить.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a6e1a-110">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" /> property is the unique identifier for the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class object that is to be deleted.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="0aae7-108">Получает или задает уникальный идентификатор удаляемого правила.</span><span class="sxs-lookup"><span data-stu-id="0aae7-108">Gets or sets the unique identifier of the rule to be deleted.</span></span></summary>
+        <value><span data-ttu-id="0aae7-109">Идентификатор правила.</span><span class="sxs-lookup"><span data-stu-id="0aae7-109">The rule identifier.</span></span></value>
+        <remarks><span data-ttu-id="0aae7-110"><para><see cref="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" /> Свойство является уникальным идентификатором объекта <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> класса, который требуется удалить.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0aae7-110"><para>The <see cref="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" /> property is the unique identifier for the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class object that is to be deleted.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="ConversationSchema" FullName="Microsoft.Exchange.WebServices.Data.ConversationSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fff13e5b25b4d009332f89f54fceeb183d9e8252" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626593" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ConversationSchema : Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fff13e5b25b4d009332f89f54fceeb183d9e8252" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626593" /></Metadata><TypeSignature Language="C#" Value="public class ConversationSchema : Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationSchema extends Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationSchema&#xA;Inherits ServiceObjectSchema" />
@@ -21,32 +13,18 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="a8528-101">Определение схемы для свойств беседы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a8528-101">Defines the schema for conversation properties.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="a8528-102">
-        <para>
-          <b>Предупреждение</b>: </para>
-        <para>содержит список свойств, доступных на <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> объектов. Свойства, которые начинаются с «Global» указывает, что список свойств агрегируются по всему почтовому ящику не только определенной папки. Например, рассмотрим следующие беседы:</para>
-        <para>сообщение 1 – из Ken Circeo в folderMessage отправленные 2 — от Владимир ли в папке "Входящие" folderMessage 3 — от Jaka Stele в folderMessage папки "Входящие" 4 — от Jon Morris — в папке тестового</para>
-        <para>A запрос <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" /> возвращает свойство в окне беседы в папке "Входящие" «Владимир Петров, Jaka Stele». Сравнение полученных результатов с запросом к <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" /> свойство, которое будет возвращать «Кен Circeo, Владимир Иванов, Jaka Stele, Jon Morris». Дублированные записи не будут получены.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a8528-102">
-          <para>
-            <b>Caution</b>: </para>
-          <para>Contains a list of properties that are available on <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> objects. The properties that are prefixed with "Global" indicate that the property list is aggregated across the entire mailbox, not just a particular folder. For example, consider the following conversation:</para>
-          <para>Message 1 – from Ken Circeo, in the Sent Items folderMessage 2 – from Oliver Lee, in the Inbox folderMessage 3 – from Jaka Stele, in the Inbox folderMessage 4 – from Jon Morris – in the Test folder</para>
-          <para>A request for the <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" /> property on the conversation from the Inbox folder will return "Oliver Lee, Jaka Stele". Compare the results with a request for the <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" /> property, which will return "Ken Circeo, Oliver Lee, Jaka Stele, Jon Morris". Duplicate entries will not be returned.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="8023b-101">Определяет схему свойств беседы.</span><span class="sxs-lookup"><span data-stu-id="8023b-101">Defines the schema for conversation properties.</span></span></summary>
+    <remarks><span data-ttu-id="8023b-102"><para>
+        <b>Внимание</b>: </para> 
+      <para>содержит список свойств, доступных <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> в объектах. Свойства с префиксом "Global" указывают на то, что список свойств составляется во всем почтовом ящике, а не только в определенной папке. Например, рассмотрим следующую беседу:</para>
+      <para>сообщение 1 от Ken Цирцео, в папке "Отправленные" фолдермессаже 2 – from Оливер Иванов, в папке "Входящие" фолдермессаже 3 – from Жака стеле, в папке "Входящие", в папке "Входящие", в папке "Входящие</para>", в папке "Входящие"
+      <para>. запрос <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" /> свойства диалога из папки "Входящие" возвратит "фолдермессаже Иванов, Morris Оливер". Сравните результаты с запросом для <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" /> свойства, который будет возвращать значение "Кен Цирцео, Оливер Иванов, Жака стеле, Jon Morris". Повторяющиеся записи не будут возвращены.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="8023b-102"><para>
+        <b>Caution</b>: </para>
+      <para>Contains a list of properties that are available on <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> objects. The properties that are prefixed with "Global" indicate that the property list is aggregated across the entire mailbox, not just a particular folder. For example, consider the following conversation:</para>
+      <para>Message 1 – from Ken Circeo, in the Sent Items folderMessage 2 – from Oliver Lee, in the Inbox folderMessage 3 – from Jaka Stele, in the Inbox folderMessage 4 – from Jon Morris – in the Test folder</para>
+      <para>A request for the <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" /> property on the conversation from the Inbox folder will return "Oliver Lee, Jaka Stele". Compare the results with a request for the <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" /> property, which will return "Ken Circeo, Oliver Lee, Jaka Stele, Jon Morris". Duplicate entries will not be returned.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Categories">
@@ -64,16 +42,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-103">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-103">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-104">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-104">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-103">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-103">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> property.</span></span> <span data-ttu-id="8023b-104">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-104">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -92,12 +61,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-105">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.DraftItemIds" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-105">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.DraftItemIds" /> property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-105">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.DraftItemIds" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-105">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.DraftItemIds" /> property.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,16 +80,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-106">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-106">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-107">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-107">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-106">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-106">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> property.</span></span> <span data-ttu-id="8023b-107">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-107">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -144,16 +99,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-108">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-108">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-109">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-109">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-108">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-108">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> property.</span></span> <span data-ttu-id="8023b-109">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-109">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -172,16 +118,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-110">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-110">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-111">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-111">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-110">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-110">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> property.</span></span> <span data-ttu-id="8023b-111">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-111">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -200,16 +137,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-112">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasAttachments" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-112">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasAttachments" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-113">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-113">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-112">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasAttachments" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-112">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasAttachments" /> property.</span></span> <span data-ttu-id="8023b-113">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-113">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -228,16 +156,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-114">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-114">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-115">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-115">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-114">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-114">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> property.</span></span> <span data-ttu-id="8023b-115">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-115">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -256,17 +175,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-116">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-116">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-117">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-117">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-116">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-116">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> property.</span></span> <span data-ttu-id="8023b-117">Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8023b-117">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -285,16 +194,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-118">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalImportance" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-118">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalImportance" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-119">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-119">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-118">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalImportance" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-118">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalImportance" /> property.</span></span> <span data-ttu-id="8023b-119">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-119">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -313,16 +213,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-120">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemClasses" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-120">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemClasses" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-121">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-121">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-120">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemClasses" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-120">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemClasses" /> property.</span></span> <span data-ttu-id="8023b-121">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-121">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -341,16 +232,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-122">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-122">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-123">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-123">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-122">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-122">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" /> property.</span></span> <span data-ttu-id="8023b-123">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-123">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -369,16 +251,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-124">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalLastDeliveryTime" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-124">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalLastDeliveryTime" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-125">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-125">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-124">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalLastDeliveryTime" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-124">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalLastDeliveryTime" /> property.</span></span> <span data-ttu-id="8023b-125">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-125">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -397,16 +270,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-126">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalMessageCount" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-126">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalMessageCount" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-127">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-127">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-126">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalMessageCount" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-126">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalMessageCount" /> property.</span></span> <span data-ttu-id="8023b-127">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-127">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -425,16 +289,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-128">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalSize" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-128">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalSize" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-129">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-129">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-128">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalSize" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-128">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalSize" /> property.</span></span> <span data-ttu-id="8023b-129">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-129">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -453,16 +308,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-130">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueRecipients" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-130">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueRecipients" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-131">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-131">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-130">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueRecipients" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-130">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueRecipients" /> property.</span></span> <span data-ttu-id="8023b-131">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-131">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -481,16 +327,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-132">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueSenders" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-132">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueSenders" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-133">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-133">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-132">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueSenders" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-132">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueSenders" /> property.</span></span> <span data-ttu-id="8023b-133">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-133">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -509,16 +346,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-134">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueUnreadSenders" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-134">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueUnreadSenders" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-135">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-135">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-134">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueUnreadSenders" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-134">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueUnreadSenders" /> property.</span></span> <span data-ttu-id="8023b-135">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-135">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -537,16 +365,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-136">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUnreadCount" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-136">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUnreadCount" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-137">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-137">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-136">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUnreadCount" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-136">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUnreadCount" /> property.</span></span> <span data-ttu-id="8023b-137">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-137">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -565,12 +384,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-138">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasAttachments" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-138">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasAttachments" /> property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-138">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasAttachments" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-138">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasAttachments" /> property.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -589,16 +403,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-139">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-139">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-140">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-140">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-139">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-139">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> property.</span></span> <span data-ttu-id="8023b-140">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-140">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -617,17 +422,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-141">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-141">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-142">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-142">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-141">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-141">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> property.</span></span> <span data-ttu-id="8023b-142">Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8023b-142">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -646,16 +441,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-143">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Id" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-143">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Id" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-144">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-144">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-143">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Id" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-143">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Id" /> property.</span></span> <span data-ttu-id="8023b-144">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-144">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -674,16 +460,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-145">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-145">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-146">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-146">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-145">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-145">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> property.</span></span> <span data-ttu-id="8023b-146">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-146">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -702,17 +479,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-147">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-147">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-148">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-148">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-147">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-147">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> property.</span></span>             <span data-ttu-id="8023b-148">Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8023b-148">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -731,16 +498,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-149">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-149">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-150">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-150">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-149">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-149">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> property.</span></span> <span data-ttu-id="8023b-150">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-150">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -759,16 +517,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-151">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-151">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-152">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-152">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-151">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-151">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> property.</span></span> <span data-ttu-id="8023b-152">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-152">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -787,16 +536,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-153">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-153">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-154">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-154">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-153">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-153">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> property.</span></span> <span data-ttu-id="8023b-154">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-154">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -815,17 +555,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-155">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-155">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-156">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-156">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-155">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-155">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> property.</span></span>             <span data-ttu-id="8023b-156">Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8023b-156">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -844,16 +574,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-157">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-157">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-158">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-158">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-157">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-157">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> property.</span></span> <span data-ttu-id="8023b-158">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-158">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -872,17 +593,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-159">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-159">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-160">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-160">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-159">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-159">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> property.</span></span> <span data-ttu-id="8023b-160">Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8023b-160">The <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -901,16 +612,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-161">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-161">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-162">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-162">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-161">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-161">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> property.</span></span> <span data-ttu-id="8023b-162">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-162">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -929,16 +631,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-163">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Topic" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-163">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Topic" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-164">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-164">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-163">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Topic" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-163">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Topic" /> property.</span></span> <span data-ttu-id="8023b-164">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-164">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -957,16 +650,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-165">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-165">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-166">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-166">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-165">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-165">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> property.</span></span> <span data-ttu-id="8023b-166">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-166">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -985,16 +669,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-167">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-167">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-168">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-168">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-167">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-167">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> property.</span></span> <span data-ttu-id="8023b-168">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-168">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1013,16 +688,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-169">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-169">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-170">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-170">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-169">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-169">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> property.</span></span> <span data-ttu-id="8023b-170">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-170">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1041,16 +707,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a8528-171">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-171">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> property.</span>
-          </span>
-          <span data-ttu-id="a8528-172">Это свойство доступно только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a8528-172">This property is read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8023b-171">Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> свойство.</span><span class="sxs-lookup"><span data-stu-id="8023b-171">Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> property.</span></span> <span data-ttu-id="8023b-172">Это свойство доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8023b-172">This property is read-only.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

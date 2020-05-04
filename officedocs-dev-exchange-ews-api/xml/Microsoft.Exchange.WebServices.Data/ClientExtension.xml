@@ -1,13 +1,5 @@
 <Type Name="ClientExtension" FullName="Microsoft.Exchange.WebServices.Data.ClientExtension">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="206a1bb75a365473bd19cf7621c3d5b30082368b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627123" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ClientExtension : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="206a1bb75a365473bd19cf7621c3d5b30082368b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627123" /></Metadata><TypeSignature Language="C#" Value="public sealed class ClientExtension : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientExtension extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientExtension&#xA;Inherits ComplexProperty" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="8cd5e-101">Определяет ссылку на объект расширения клиента.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8cd5e-101">Defines a reference to a client extension object.</span>
-      </span>
-      <span data-ttu-id="8cd5e-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8cd5e-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="65019-101">Определяет ссылку на объект расширения клиента.</span><span class="sxs-lookup"><span data-stu-id="65019-101">Defines a reference to a client extension object.</span></span>             <span data-ttu-id="65019-102"><see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -61,90 +43,19 @@
         <Parameter Name="etoken" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="type">
-          <span data-ttu-id="8cd5e-103">Тип расширения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-103">The extension type.</span>
-          </span>
-        </param>
-        <param name="scope">
-          <span data-ttu-id="8cd5e-104">Расширение установки области действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-104">The extension install scope.</span>
-          </span>
-        </param>
-        <param name="manifestStream">
-          <span data-ttu-id="8cd5e-105">Поток манифеста; может иметь значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-105">The manifest stream; can be null.</span>
-          </span>
-        </param>
-        <param name="marketplaceAssetID">
-          <span data-ttu-id="8cd5e-106">Идентификатор средства Office Marketplace.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-106">The asset ID for Office Marketplace.</span>
-          </span>
-        </param>
-        <param name="marketplaceContentMarket">
-          <span data-ttu-id="8cd5e-107">Рынок контента для Office Marketplace.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-107">The content market for Office Marketplace.</span>
-          </span>
-        </param>
-        <param name="isAvailable">
-          <span data-ttu-id="8cd5e-108">
-            <b>значение true,</b> Если данное расширение имени файла; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-108">
-              <b>true</b> if the extension is available; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <param name="isMandatory">
-          <span data-ttu-id="8cd5e-109">
-            <b>значение true,</b> Если расширение не является обязательным. в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-109">
-              <b>true</b> if the extension is mandatory; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <param name="isEnabledByDefault">
-          <span data-ttu-id="8cd5e-110">
-            <b>значение true,</b> Если этот параметр включен данное расширение имени файла по умолчанию; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-110">
-              <b>true</b> if the extension is enabled by default; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <param name="providedTo">
-          <span data-ttu-id="8cd5e-111">Членство в группе организации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-111">The organizational group membership.</span>
-          </span>
-        </param>
-        <param name="specificUsers">
-          <span data-ttu-id="8cd5e-112">Список пользователей расширение предоставляется может иметь значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-112">The list of users extension is provided for; can be null.</span>
-          </span>
-        </param>
-        <param name="appStatus">
-          <span data-ttu-id="8cd5e-113">Состояние приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-113">The app's status.</span>
-          </span>
-        </param>
-        <param name="etoken">
-          <span data-ttu-id="8cd5e-114">Маркер обслуживания для приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-114">The entitlement token for the app.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8cd5e-115">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-115">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="type"><span data-ttu-id="65019-103">Тип расширения.</span><span class="sxs-lookup"><span data-stu-id="65019-103">The extension type.</span></span></param>
+        <param name="scope"><span data-ttu-id="65019-104">Область установки расширения.</span><span class="sxs-lookup"><span data-stu-id="65019-104">The extension install scope.</span></span></param>
+        <param name="manifestStream"><span data-ttu-id="65019-105">Поток манифеста; может иметь значение null.</span><span class="sxs-lookup"><span data-stu-id="65019-105">The manifest stream; can be null.</span></span></param>
+        <param name="marketplaceAssetID"><span data-ttu-id="65019-106">Идентификатор актива для Office Marketplace.</span><span class="sxs-lookup"><span data-stu-id="65019-106">The asset ID for Office Marketplace.</span></span></param>
+        <param name="marketplaceContentMarket"><span data-ttu-id="65019-107">Рынок контента для Office Marketplace.</span><span class="sxs-lookup"><span data-stu-id="65019-107">The content market for Office Marketplace.</span></span></param>
+        <param name="isAvailable"><span data-ttu-id="65019-108"><b>значение true</b> , если расширение доступно; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="65019-108"><b>true</b> if the extension is available; otherwise, <b>false</b>.</span></span></param>
+        <param name="isMandatory"><span data-ttu-id="65019-109"><b>значение true</b> , если расширение является обязательным; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="65019-109"><b>true</b> if the extension is mandatory; otherwise, <b>false</b>.</span></span></param>
+        <param name="isEnabledByDefault"><span data-ttu-id="65019-110"><b>значение true</b> , если расширение включено по умолчанию; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="65019-110"><b>true</b> if the extension is enabled by default; otherwise, <b>false</b>.</span></span></param>
+        <param name="providedTo"><span data-ttu-id="65019-111">Членство в организационной группе.</span><span class="sxs-lookup"><span data-stu-id="65019-111">The organizational group membership.</span></span></param>
+        <param name="specificUsers"><span data-ttu-id="65019-112">Предоставляется список расширений пользователей; может иметь значение null.</span><span class="sxs-lookup"><span data-stu-id="65019-112">The list of users extension is provided for; can be null.</span></span></param>
+        <param name="appStatus"><span data-ttu-id="65019-113">Состояние приложения.</span><span class="sxs-lookup"><span data-stu-id="65019-113">The app's status.</span></span></param>
+        <param name="etoken"><span data-ttu-id="65019-114">Маркер обслуживания для приложения.</span><span class="sxs-lookup"><span data-stu-id="65019-114">The entitlement token for the app.</span></span></param>
+        <summary><span data-ttu-id="65019-115">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> класса. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-115">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -163,12 +74,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-116">Получает или задает состояние приложения. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-116">Gets or sets the app status.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65019-116">Получает или задает состояние приложения. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</span><span class="sxs-lookup"><span data-stu-id="65019-116">Gets or sets the app status.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -188,12 +94,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-117">Получает или задает маркер обслуживания для приложения. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-117">Gets or sets the entitlement token for the app.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65019-117">Получает или задает маркер обслуживания для приложения. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</span><span class="sxs-lookup"><span data-stu-id="65019-117">Gets or sets the entitlement token for the app.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,25 +114,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-118">Получает или задает значение, указывающее, доступно ли данное расширение имени файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-118">Gets or sets the value indicating whether the extension is available.</span>
-          </span>
-          <span data-ttu-id="8cd5e-119">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-120">
-            <b>значение true,</b> Если данное расширение имени файла; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-120">
-              <b>true</b> if the extension is available; otherwise <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-118">Получает или задает значение, указывающее, доступно ли расширение.</span><span class="sxs-lookup"><span data-stu-id="65019-118">Gets or sets the value indicating whether the extension is available.</span></span> <span data-ttu-id="65019-119"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-120"><b>значение true</b> , если расширение доступно; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="65019-120"><b>true</b> if the extension is available; otherwise <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -250,25 +134,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-121">Получает или задает значение, указывающее, включена ли данное расширение имени файла по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-121">Gets or sets the value indicating whether the extension is enabled by default.</span>
-          </span>
-          <span data-ttu-id="8cd5e-122">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-123">
-            <b>значение true,</b> Если этот параметр включен данное расширение имени файла по умолчанию; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-123">
-              <b>true</b> if the extension is enabled by default; otherwise <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-121">Получает или задает значение, указывающее, включено ли расширение по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="65019-121">Gets or sets the value indicating whether the extension is enabled by default.</span></span>  <span data-ttu-id="65019-122"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-123"><b>значение true</b> , если расширение включено по умолчанию; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="65019-123"><b>true</b> if the extension is enabled by default; otherwise <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -287,25 +154,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-124">Получает или задает значение, указывающее, является ли данное расширение имени файла является обязательным.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-124">Gets or sets the value indicating whether the extension is required.</span>
-          </span>
-          <span data-ttu-id="8cd5e-125">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-125">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-126">
-            <b>значение true,</b> Если расширение не является обязательным. в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-126">
-              <b>true</b> if the extension is mandatory; otherwise <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-124">Получает или задает значение, указывающее, является ли расширение обязательным.</span><span class="sxs-lookup"><span data-stu-id="65019-124">Gets or sets the value indicating whether the extension is required.</span></span>             <span data-ttu-id="65019-125"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-125">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-126"><b>значение true</b> , если расширение является обязательным; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="65019-126"><b>true</b> if the extension is mandatory; otherwise <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -324,23 +174,8 @@
         <ReturnType>System.IO.Stream</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-127">Получает или задает расширение манифеста поток.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-127">Gets or sets the extension manifest stream.</span>
-          </span>
-          <span data-ttu-id="8cd5e-128">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-128">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-129">Расширение манифеста поток.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-129">The extension manifest stream.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-127">Получает или задает поток манифеста расширения.</span><span class="sxs-lookup"><span data-stu-id="65019-127">Gets or sets the extension manifest stream.</span></span>             <span data-ttu-id="65019-128"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-128">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-129">Поток манифеста расширения.</span><span class="sxs-lookup"><span data-stu-id="65019-129">The extension manifest stream.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -359,23 +194,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-130">Получает или устанавливает код актива для Office Marketplace.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-130">Gets or sets the asset ID for Office Marketplace.</span>
-          </span>
-          <span data-ttu-id="8cd5e-131">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-131">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-132">Идентификатор средства Office Marketplace.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-132">The asset ID for Office Marketplace.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-130">Получает или задает идентификатор актива для Office Marketplace.</span><span class="sxs-lookup"><span data-stu-id="65019-130">Gets or sets the asset ID for Office Marketplace.</span></span>        <span data-ttu-id="65019-131"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-131">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-132">Идентификатор актива для Office Marketplace.</span><span class="sxs-lookup"><span data-stu-id="65019-132">The asset ID for Office Marketplace.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -394,23 +214,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-133">Получает или задает содержимое marketplace.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-133">Gets or sets the marketplace content.</span>
-          </span>
-          <span data-ttu-id="8cd5e-134">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-134">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-135">Содержимое marketplace.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-135">The marketplace content.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-133">Возвращает или задает контент из Marketplace.</span><span class="sxs-lookup"><span data-stu-id="65019-133">Gets or sets the marketplace content.</span></span> <span data-ttu-id="65019-134"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-134">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-135">Контент Marketplace.</span><span class="sxs-lookup"><span data-stu-id="65019-135">The marketplace content.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -429,23 +234,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-136">Получает или задает членство в группе организации, можно получить доступ данное расширение имени файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-136">Gets or sets the organizational group membership that can access the extension.</span>
-          </span>
-          <span data-ttu-id="8cd5e-137">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-137">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-138">Расширение значение ProvidedTo.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-138">The extension ProvidedTo value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-136">Получает или задает принадлежность к организационной группе, которая может получать доступ к расширению.</span><span class="sxs-lookup"><span data-stu-id="65019-136">Gets or sets the organizational group membership that can access the extension.</span></span>             <span data-ttu-id="65019-137"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-137">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-138">Значение расширения ProvidedTo.</span><span class="sxs-lookup"><span data-stu-id="65019-138">The extension ProvidedTo value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -464,23 +254,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionInstallScope</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-139">Получает или задает расширение области.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-139">Gets or sets the extension scope.</span>
-          </span>
-          <span data-ttu-id="8cd5e-140">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-140">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-141">Расширение области.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-141">The extension scope.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-139">Получает или задает область расширения.</span><span class="sxs-lookup"><span data-stu-id="65019-139">Gets or sets the extension scope.</span></span>             <span data-ttu-id="65019-140"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-140">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-141">Область расширения.</span><span class="sxs-lookup"><span data-stu-id="65019-141">The extension scope.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -499,23 +274,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-142">Получает или задает список пользователей, которые этот модуль.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-142">Gets or sets the user list this extension is provided to.</span>
-          </span>
-          <span data-ttu-id="8cd5e-143">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-143">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-144">Список пользователей, к которым предоставляется это расширение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-144">A list of users to which this extension is provided.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-142">Получает или задает список пользователей, для которых предоставляется расширение.</span><span class="sxs-lookup"><span data-stu-id="65019-142">Gets or sets the user list this extension is provided to.</span></span>     <span data-ttu-id="65019-143"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-143">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-144">Список пользователей, которым предоставлено это расширение.</span><span class="sxs-lookup"><span data-stu-id="65019-144">A list of users to which this extension is provided.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -534,23 +294,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8cd5e-145">Получает или задает тип расширения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-145">Gets or sets the extension type.</span>
-          </span>
-          <span data-ttu-id="8cd5e-146">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-146">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8cd5e-147">Тип расширения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8cd5e-147">The extension type.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="65019-145">Получает или задает тип расширения.</span><span class="sxs-lookup"><span data-stu-id="65019-145">Gets or sets the extension type.</span></span>             <span data-ttu-id="65019-146"><see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65019-146">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="65019-147">Тип расширения.</span><span class="sxs-lookup"><span data-stu-id="65019-147">The extension type.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

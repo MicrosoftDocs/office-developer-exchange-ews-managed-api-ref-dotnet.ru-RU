@@ -1,13 +1,5 @@
 <Type Name="LocationSource" FullName="Microsoft.Exchange.WebServices.Data.LocationSource">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2d33d6b97a2723c78c72f8e098605ae1ff3adecb" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627170" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum LocationSource" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2d33d6b97a2723c78c72f8e098605ae1ff3adecb" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627170" /></Metadata><TypeSignature Language="C#" Value="public enum LocationSource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LocationSource extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.LocationSource" />
   <TypeSignature Language="VB.NET" Value="Public Enum LocationSource" />
@@ -20,17 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="a3069-101">Определяет, какие контактные данные ресурсов используется для выбора физических адресов пользователя.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a3069-101">Defines which contact information resource is used to select the physical address of a persona.</span>
-      </span>
-      <span data-ttu-id="a3069-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.LocationSource" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a3069-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.LocationSource" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b6bb1-101">Определяет, какой ресурс контактной информации используется для выбора физического адреса пользователя.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-101">Defines which contact information resource is used to select the physical address of a persona.</span></span>             <span data-ttu-id="b6bb1-102"><see cref="T:Microsoft.Exchange.WebServices.Data.LocationSource" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.LocationSource" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,17 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a3069-103">Контакт в папке контактов пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-103">A contact in the user's contact folder.</span>
-          </span>
-          <span data-ttu-id="a3069-104">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Contact" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Contact" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b6bb1-103">Контакт в папке контактов пользователя.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-103">A contact in the user's contact folder.</span></span> <span data-ttu-id="b6bb1-104">Это <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Contact" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Contact" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Device">
@@ -79,17 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a3069-105">Устройство GPS-enabled.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-105">A GPS-enabled device.</span>
-          </span>
-          <span data-ttu-id="a3069-106">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Device" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Device" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b6bb1-105">Устройство с поддержкой GPS.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-105">A GPS-enabled device.</span></span> <span data-ttu-id="b6bb1-106">Это <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Device" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Device" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="LocationServices">
@@ -108,17 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a3069-107">Служба расположение, такие как функции сопоставления поисковой системы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-107">A location service such as the mapping feature of a search engine.</span>
-          </span>
-          <span data-ttu-id="a3069-108">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.LocationServices" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-108">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.LocationServices" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b6bb1-107">Служба расположения, например функция сопоставления поисковой системы.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-107">A location service such as the mapping feature of a search engine.</span></span> <span data-ttu-id="b6bb1-108">Это <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.LocationServices" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-108">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.LocationServices" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -137,17 +89,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a3069-109">Ресурс undefined контактные сведения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-109">An undefined contact information resource.</span>
-          </span>
-          <span data-ttu-id="a3069-110">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.None" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-110">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.None" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b6bb1-109">Неопределенный ресурс с контактной информацией.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-109">An undefined contact information resource.</span></span> <span data-ttu-id="b6bb1-110">Это <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.None" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-110">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.None" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="PhonebookServices">
@@ -166,17 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a3069-111">Службу внешнего телефонной книги.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-111">An external phonebook service.</span>
-          </span>
-          <span data-ttu-id="a3069-112">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.PhonebookServices" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-112">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.PhonebookServices" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b6bb1-111">Внешняя служба телефонной книги.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-111">An external phonebook service.</span></span> <span data-ttu-id="b6bb1-112">Это <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.PhonebookServices" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-112">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.PhonebookServices" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Resource">
@@ -195,17 +127,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a3069-113">Ресурс (например, конференц-зала).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-113">A resource (such as a conference room).</span>
-          </span>
-          <span data-ttu-id="a3069-114">
-            <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Resource" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a3069-114">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Resource" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b6bb1-113">Ресурс (например, Конференц-зал).</span><span class="sxs-lookup"><span data-stu-id="b6bb1-113">A resource (such as a conference room).</span></span> <span data-ttu-id="b6bb1-114">Это <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Resource" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b6bb1-114">The <see cref="F:Microsoft.Exchange.WebServices.Data.LocationSource.Resource" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="HoldStatus" FullName="Microsoft.Exchange.WebServices.Data.HoldStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="828cf675039ffdca5c4b25544382eefa2356383d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627160" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum HoldStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="828cf675039ffdca5c4b25544382eefa2356383d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627160" /></Metadata><TypeSignature Language="C#" Value="public enum HoldStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed HoldStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.HoldStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum HoldStatus" />
@@ -20,17 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="13bfd-101">Определяет состояние удержания почтового ящика для обнаружения электронных данных.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="13bfd-101">Defines the hold state of a mailbox for the purpose of eDiscovery.</span>
-      </span>
-      <span data-ttu-id="13bfd-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.HoldStatus" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="13bfd-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.HoldStatus" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="32a53-101">Определяет состояние хранения почтового ящика в целях обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="32a53-101">Defines the hold state of a mailbox for the purpose of eDiscovery.</span></span>             <span data-ttu-id="32a53-102"><see cref="T:Microsoft.Exchange.WebServices.Data.HoldStatus" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32a53-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.HoldStatus" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,16 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="13bfd-103">Операция неудачных удержания для целевого почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-103">Failed hold operation for the target mailbox.</span>
-          </span>
-          <span data-ttu-id="13bfd-104">Не удалось выполнить поле используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-104">The Failed field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="32a53-103">Сбой операции удержания для целевого почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="32a53-103">Failed hold operation for the target mailbox.</span></span>             <span data-ttu-id="32a53-104">Поле "ошибка" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32a53-104">The Failed field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="NotOnHold">
@@ -78,16 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="13bfd-105">Нет удержание электронных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-105">No eDiscovery hold.</span>
-          </span>
-          <span data-ttu-id="13bfd-106">В поле NotOnHold используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-106">The NotOnHold field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="32a53-105">Нет удержания для обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="32a53-105">No eDiscovery hold.</span></span>             <span data-ttu-id="32a53-106">Поле Нотонхолд применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32a53-106">The NotOnHold field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="OnHold">
@@ -106,16 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="13bfd-107">Удержание электронных данных на целевой почтовый ящик.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-107">An eDiscovery hold on the target mailbox.</span>
-          </span>
-          <span data-ttu-id="13bfd-108">В поле удержании используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-108">The OnHold field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="32a53-107">Удержание обнаружения электронных данных в целевом почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="32a53-107">An eDiscovery hold on the target mailbox.</span></span>             <span data-ttu-id="32a53-108">Поле "в удержание" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32a53-108">The OnHold field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="PartialHold">
@@ -134,16 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="13bfd-109">Некоторые почтовые ящики на хранение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-109">Some mailboxes on hold.</span>
-          </span>
-          <span data-ttu-id="13bfd-110">В поле PartialHold используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-110">The PartialHold field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="32a53-109">Некоторые почтовые ящики на удержании.</span><span class="sxs-lookup"><span data-stu-id="32a53-109">Some mailboxes on hold.</span></span>             <span data-ttu-id="32a53-110">Поле Партиалхолд применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32a53-110">The PartialHold field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Pending">
@@ -162,16 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="13bfd-111">Размещение или удаление удержание электронных данных в процессе выполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-111">Placing/removing an eDiscovery hold in progress.</span>
-          </span>
-          <span data-ttu-id="13bfd-112">Ожидающие поле используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="13bfd-112">The Pending field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="32a53-111">Идет помещение или удаление удержания обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="32a53-111">Placing/removing an eDiscovery hold in progress.</span></span>             <span data-ttu-id="32a53-112">Поле "ожидается" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32a53-112">The Pending field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

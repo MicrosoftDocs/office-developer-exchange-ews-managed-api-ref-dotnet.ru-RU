@@ -1,13 +1,5 @@
 <Type Name="MeetingCancellation" FullName="Microsoft.Exchange.WebServices.Data.MeetingCancellation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="52134ba584822c3a6e88f13f3a249233076f9256" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627058" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MeetingCancellation : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="52134ba584822c3a6e88f13f3a249233076f9256" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627058" /></Metadata><TypeSignature Language="C#" Value="public class MeetingCancellation : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingCancellation extends Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingCancellation" />
   <TypeSignature Language="VB.NET" Value="Public Class MeetingCancellation&#xA;Inherits MeetingMessage" />
@@ -21,16 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="db293-101">Представляет собрания отмены сообщения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="db293-101">Represents a meeting cancellation message.</span>
-      </span>
-      <span data-ttu-id="db293-102">Свойства, доступные на собрания сообщений определены в классе MeetingMessageSchema.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="db293-102">Properties available on meeting messages are defined in the MeetingMessageSchema class.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b7748-101">Представляет сообщение об отмене собрания.</span><span class="sxs-lookup"><span data-stu-id="b7748-101">Represents a meeting cancellation message.</span></span> <span data-ttu-id="b7748-102">Свойства, доступные в сообщениях о собраниях, определяются в классе Митингмессажесчема.</span><span class="sxs-lookup"><span data-stu-id="b7748-102">Properties available on meeting messages are defined in the MeetingMessageSchema class.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,42 +36,13 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="db293-103">Службы использовать для привязки к собранию отмены сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-103">The service to use to bind to the meeting cancellation message.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="db293-104">Идентификатор элемента отмены собрания сообщений для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-104">The identifier of the meeting cancellation message to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="db293-105">Привязки к существующей отмены собрания сообщений и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-105">Binds to an existing meeting cancellation message and loads its first class properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="db293-106">Экземпляр класса MeetingCancellation, который представляет отмены собрания сообщений в соответствии с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-106">An instance of the MeetingCancellation class that represents the meeting cancellation message corresponding to the specified identifier.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="db293-107">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-107">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="b7748-103">Служба, используемая для связывания с сообщением об отмене собрания.</span><span class="sxs-lookup"><span data-stu-id="b7748-103">The service to use to bind to the meeting cancellation message.</span></span></param>
+        <param name="id"><span data-ttu-id="b7748-104">Идентификатор сообщения об отмене собрания, к которому необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="b7748-104">The identifier of the meeting cancellation message to bind to.</span></span></param>
+        <summary><span data-ttu-id="b7748-105">Выполняет присоединение к существующему сообщению об отмене собрания и загружает его свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="b7748-105">Binds to an existing meeting cancellation message and loads its first class properties.</span></span></summary>
+        <returns><span data-ttu-id="b7748-106">Экземпляр класса Митингканцеллатион, представляющий сообщение об отмене собрания, соответствующее указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="b7748-106">An instance of the MeetingCancellation class that represents the meeting cancellation message corresponding to the specified identifier.</span></span></returns>
+        <remarks><span data-ttu-id="b7748-107"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b7748-107"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -110,48 +64,14 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="db293-108">Службы использовать для привязки к собранию отмены сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-108">The service to use to bind to the meeting cancellation message.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="db293-109">Идентификатор элемента отмены собрания сообщений для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-109">The identifier of the meeting cancellation message to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="db293-110">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-110">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="db293-111">Привязки к существующей отмены собрания сообщений и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-111">Binds to an existing meeting cancellation message and loads the specified set of properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="db293-112">Экземпляр класса MeetingCancellation, который представляет отмены собрания сообщений в соответствии с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-112">An instance of the MeetingCancellation class that represents the meeting cancellation message corresponding to the specified identifier.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="db293-113">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-113">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="b7748-108">Служба, используемая для связывания с сообщением об отмене собрания.</span><span class="sxs-lookup"><span data-stu-id="b7748-108">The service to use to bind to the meeting cancellation message.</span></span></param>
+        <param name="id"><span data-ttu-id="b7748-109">Идентификатор сообщения об отмене собрания, к которому необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="b7748-109">The identifier of the meeting cancellation message to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="b7748-110">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="b7748-110">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="b7748-111">Выполняет присоединение к существующему сообщению об отмене собрания и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="b7748-111">Binds to an existing meeting cancellation message and loads the specified set of properties.</span></span></summary>
+        <returns><span data-ttu-id="b7748-112">Экземпляр класса Митингканцеллатион, представляющий сообщение об отмене собрания, соответствующее указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="b7748-112">An instance of the MeetingCancellation class that represents the meeting cancellation message corresponding to the specified identifier.</span></span></returns>
+        <remarks><span data-ttu-id="b7748-113"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b7748-113"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="End">
@@ -169,23 +89,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="db293-114">Получает время окончания встречи отменено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-114">Gets the time that the canceled appointment ends.</span>
-          </span>
-          <span data-ttu-id="db293-115">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="db293-116">Время окончания встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-116">The end time of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b7748-114">Возвращает время окончания отмененной встречи.</span><span class="sxs-lookup"><span data-stu-id="b7748-114">Gets the time that the canceled appointment ends.</span></span>             <span data-ttu-id="b7748-115"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b7748-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b7748-116">Время окончания встречи.</span><span class="sxs-lookup"><span data-stu-id="b7748-116">The end time of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -204,23 +109,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="db293-117">Получает Дополнительные сведения о расположении отмененные собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-117">Gets additional details about the location of the canceled meeting.</span>
-          </span>
-          <span data-ttu-id="db293-118">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="db293-119">Объект, содержащий дополнительные сведения о расположении отмененные собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-119">An object containing additional details about the location of the canceled meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b7748-117">Получает дополнительные сведения о расположении отмененного собрания.</span><span class="sxs-lookup"><span data-stu-id="b7748-117">Gets additional details about the location of the canceled meeting.</span></span>             <span data-ttu-id="b7748-118"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b7748-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b7748-119">Объект, содержащий дополнительные сведения о расположении отмененного собрания.</span><span class="sxs-lookup"><span data-stu-id="b7748-119">An object containing additional details about the location of the canceled meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -239,23 +129,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="db293-120">Получает место встречи отменено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-120">Gets the location of the canceled appointment.</span>
-          </span>
-          <span data-ttu-id="db293-121">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="db293-122">Расположение Отмененные встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-122">The location of the canceled appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b7748-120">Получает местоположение отмененной встречи.</span><span class="sxs-lookup"><span data-stu-id="b7748-120">Gets the location of the canceled appointment.</span></span>             <span data-ttu-id="b7748-121"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b7748-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b7748-122">Местоположение отмененной встречи.</span><span class="sxs-lookup"><span data-stu-id="b7748-122">The location of the canceled appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -274,23 +149,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="db293-123">Получает шаблон повторения встречи, которому принадлежит этот Отмененные встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-123">Gets the recurrence pattern for the recurring series to which this canceled appointment belongs.</span>
-          </span>
-          <span data-ttu-id="db293-124">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="db293-125">Объект шаблона повторения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-125">A recurrence pattern object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b7748-123">Получает шаблон повторения для ряда, к которому относится отмененная встреча.</span><span class="sxs-lookup"><span data-stu-id="b7748-123">Gets the recurrence pattern for the recurring series to which this canceled appointment belongs.</span></span>             <span data-ttu-id="b7748-124"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b7748-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b7748-125">Объект шаблона повторения.</span><span class="sxs-lookup"><span data-stu-id="b7748-125">A recurrence pattern object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -310,18 +170,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="db293-126">Удаление собрания, связанный с сообщением отмены из календаря пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-126">Removes the meeting that is associated with the cancellation message from the user's calendar.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="db293-127">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-127">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="b7748-126">Удаляет собрание, связанное с сообщением об отмене, из календаря пользователя.</span><span class="sxs-lookup"><span data-stu-id="b7748-126">Removes the meeting that is associated with the cancellation message from the user's calendar.</span></span></summary>
+        <returns><span data-ttu-id="b7748-127">Объект <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" />.</span><span class="sxs-lookup"><span data-stu-id="b7748-127">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -340,23 +190,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="db293-128">Получает время начала Отмененные встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-128">Gets the time that the canceled appointment starts.</span>
-          </span>
-          <span data-ttu-id="db293-129">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-129">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="db293-130">Время начала встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="db293-130">The start time of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b7748-128">Получает время начала отмененной встречи.</span><span class="sxs-lookup"><span data-stu-id="b7748-128">Gets the time that the canceled appointment starts.</span></span>             <span data-ttu-id="b7748-129"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b7748-129">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b7748-130">Время начала встречи.</span><span class="sxs-lookup"><span data-stu-id="b7748-130">The start time of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

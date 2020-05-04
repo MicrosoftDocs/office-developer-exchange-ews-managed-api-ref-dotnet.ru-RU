@@ -1,13 +1,5 @@
 <Type Name="ExtendedProperty" FullName="Microsoft.Exchange.WebServices.Data.ExtendedProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="44ff95dce44d2b4d952850891e06e82d2ec90ffa" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627297" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ExtendedProperty : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="44ff95dce44d2b4d952850891e06e82d2ec90ffa" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627297" /></Metadata><TypeSignature Language="C#" Value="public sealed class ExtendedProperty : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExtendedProperty extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtendedProperty" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExtendedProperty&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="55b9e-101">Представляет расширенные свойства.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="55b9e-101">Represents an extended property.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f4093-101">Представляет расширенное свойство.</span><span class="sxs-lookup"><span data-stu-id="f4093-101">Represents an extended property.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,26 +35,9 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">
-          <span data-ttu-id="55b9e-102">Объект для сравнения с к расширенному свойству.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-102">The object to compare with the extended property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="55b9e-103">Указывает, является ли расширенные свойства указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-103">Indicates whether the extended property  is equal to the specified object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="55b9e-104">
-            <b>значение true,</b> Если указанный объект равен расширенные свойства; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-104">
-              <b>true</b> if the specified object is equal to the extended property; otherwise <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="obj"><span data-ttu-id="f4093-102">Объект, сравниваемый с расширенным свойством.</span><span class="sxs-lookup"><span data-stu-id="f4093-102">The object to compare with the extended property.</span></span></param>
+        <summary><span data-ttu-id="f4093-103">Указывает, равно ли расширенное свойство указанному объекту.</span><span class="sxs-lookup"><span data-stu-id="f4093-103">Indicates whether the extended property  is equal to the specified object.</span></span></summary>
+        <returns><span data-ttu-id="f4093-104"><b>значение true</b> , если указанный объект равен расширенному свойству; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="f4093-104"><b>true</b> if the specified object is equal to the extended property; otherwise <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -87,30 +57,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="55b9e-105">Возвращает хэш-код для объекта ExtendedProperty.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-105">Returns a hash code for the ExtendedProperty  object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="55b9e-106">Значение, указывающее, хэш-код для значения расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-106">An value that indicates the hash code for the extended property value.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="55b9e-107">
-            <para>Хэш-код — это числовое значение, используемое для идентификации объекта во время проверки равенства. Он также могут работать как индекса для объекта в коллекцию.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-107">
-              <para>A hash code is a numeric value that is used to identify an object during equality testing. It can also serve as an index for an object in a collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f4093-105">Возвращает хэш-код для объекта ExtendedProperty.</span><span class="sxs-lookup"><span data-stu-id="f4093-105">Returns a hash code for the ExtendedProperty  object.</span></span></summary>
+        <returns><span data-ttu-id="f4093-106">Значение, которое указывает хэш-код для значения расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="f4093-106">An value that indicates the hash code for the extended property value.</span></span></returns>
+        <remarks><span data-ttu-id="f4093-107"><para>Хэш-код это числовое значение, используемое для идентификации объекта во время проверки на равенство. Он также может служить в качестве индекса для объекта в коллекции.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="f4093-107"><para>A hash code is a numeric value that is used to identify an object during equality testing. It can also serve as an index for an object in a collection.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyDefinition">
@@ -128,18 +79,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55b9e-108">Получает определение расширенного свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-108">Gets the definition of the extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="55b9e-109">Определение расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-109">The definition of the extended property.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f4093-108">Получает определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="f4093-108">Gets the definition of the extended property.</span></span></summary>
+        <value><span data-ttu-id="f4093-109">Определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="f4093-109">The definition of the extended property.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,18 +99,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55b9e-110">Получает или задает значение расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-110">Gets or sets the value of the extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="55b9e-111">Значение расширенного свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55b9e-111">The value of the extended property.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f4093-110">Получает или задает значение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="f4093-110">Gets or sets the value of the extended property.</span></span></summary>
+        <value><span data-ttu-id="f4093-111">Значение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="f4093-111">The value of the extended property.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

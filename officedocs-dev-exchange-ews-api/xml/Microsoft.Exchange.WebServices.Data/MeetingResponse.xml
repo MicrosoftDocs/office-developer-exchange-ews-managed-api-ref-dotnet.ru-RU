@@ -1,13 +1,5 @@
 <Type Name="MeetingResponse" FullName="Microsoft.Exchange.WebServices.Data.MeetingResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b351ec80a7315a6707e56c2c55926db24aa9de31" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627051" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MeetingResponse : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b351ec80a7315a6707e56c2c55926db24aa9de31" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627051" /></Metadata><TypeSignature Language="C#" Value="public class MeetingResponse : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingResponse extends Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingResponse" />
   <TypeSignature Language="VB.NET" Value="Public Class MeetingResponse&#xA;Inherits MeetingMessage" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="77c39-101">Представляет ответ на приглашения на собрание.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="77c39-101">Represents a response to a meeting request.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="3b4de-101">Представляет ответ на приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="3b4de-101">Represents a response to a meeting request.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,34 +36,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="77c39-102">Служба должна использоваться для привязки приглашения на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-102">The service to use to bind to the meeting response.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="77c39-103">Идентификатор приглашения на собрание для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-103">The identifier of the meeting response to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="77c39-104">Выполняет привязку к существующей приглашения на собрание и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-104">Binds to an existing meeting response and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="77c39-105">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-105">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="77c39-106">Экземпляр класса MeetingResponse, представляющий приглашения на собрание, соответствующий с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-106">An instance of the MeetingResponse class that represents the meeting response that corresponds to the specified identifier.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="3b4de-102">Служба, используемая для связывания с ответом на приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="3b4de-102">The service to use to bind to the meeting response.</span></span></param>
+        <param name="id"><span data-ttu-id="3b4de-103">Идентификатор ответа на приглашение на собрание, к которому необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="3b4de-103">The identifier of the meeting response to bind to.</span></span></param>
+        <summary><span data-ttu-id="3b4de-104">Применяет к существующему ответу на приглашение на собрание и загружает его свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="3b4de-104">Binds to an existing meeting response and loads its first class properties.</span></span> <span data-ttu-id="3b4de-105">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="3b4de-105">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="3b4de-106">Экземпляр класса Митингреспонсе, представляющий ответ на приглашение на собрание, соответствующий указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="3b4de-106">An instance of the MeetingResponse class that represents the meeting response that corresponds to the specified identifier.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -99,40 +62,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="77c39-107">Служба должна использоваться для привязки приглашения на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-107">The service to use to bind to the meeting response.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="77c39-108">Идентификатор приглашения на собрание для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-108">The identifier of the meeting response to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="77c39-109">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-109">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="77c39-110">Выполняет привязку к существующей приглашения на собрание и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-110">Binds to an existing meeting response and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="77c39-111">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-111">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="77c39-112">Экземпляр класса MeetingResponse, представляющий приглашения на собрание, соответствующий с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-112">An instance of the MeetingResponse class that represents the meeting response that corresponds to the specified identifier.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="3b4de-107">Служба, используемая для связывания с ответом на приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="3b4de-107">The service to use to bind to the meeting response.</span></span></param>
+        <param name="id"><span data-ttu-id="3b4de-108">Идентификатор ответа на приглашение на собрание, к которому необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="3b4de-108">The identifier of the meeting response to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="3b4de-109">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="3b4de-109">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="3b4de-110">Выполняет присоединение к существующему ответу на приглашение на собрание и загружает указанный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="3b4de-110">Binds to an existing meeting response and loads the specified set of properties.</span></span> <span data-ttu-id="3b4de-111">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="3b4de-111">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="3b4de-112">Экземпляр класса Митингреспонсе, представляющий ответ на приглашение на собрание, соответствующий указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="3b4de-112">An instance of the MeetingResponse class that represents the meeting response that corresponds to the specified identifier.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,23 +85,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="77c39-113">Получает время окончания собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-113">Gets the end time of the meeting.</span>
-          </span>
-          <span data-ttu-id="77c39-114">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.End" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-114">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.End" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="77c39-115">Время окончания собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-115">The end time of the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="3b4de-113">Получает время окончания собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-113">Gets the end time of the meeting.</span></span>             <span data-ttu-id="3b4de-114"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.End" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3b4de-114">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.End" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="3b4de-115">Время окончания собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-115">The end time of the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -186,23 +105,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="77c39-116">Получает сведения о расположении для собраний, таким как название местоположения, адрес и дополнительные примечания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-116">Gets location information for the meeting such as the name of the location, address, and optional notes.</span>
-          </span>
-          <span data-ttu-id="77c39-117">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.EnhancedLocation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-117">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="77c39-118">Сведения о дополнительных расположении.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-118">Additional location information.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="3b4de-116">Получает сведения о расположении для собрания, такие как имя расположения, адрес и дополнительные примечания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-116">Gets location information for the meeting such as the name of the location, address, and optional notes.</span></span>             <span data-ttu-id="3b4de-117"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.EnhancedLocation" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3b4de-117">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="3b4de-118">Дополнительные сведения о расположении.</span><span class="sxs-lookup"><span data-stu-id="3b4de-118">Additional location information.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -221,23 +125,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="77c39-119">Получает место собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-119">Gets the location of the meeting.</span>
-          </span>
-          <span data-ttu-id="77c39-120">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Location" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-120">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="77c39-121">Место собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-121">The location of the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="3b4de-119">Получает место собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-119">Gets the location of the meeting.</span></span>             <span data-ttu-id="3b4de-120"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Location" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3b4de-120">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="3b4de-121">Место проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-121">The location of the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -256,23 +145,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="77c39-122">Получает время окончания предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-122">Gets the proposed end time of the meeting.</span>
-          </span>
-          <span data-ttu-id="77c39-123">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedEnd" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-123">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedEnd" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="77c39-124">Время окончания предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-124">The proposed end time of the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="3b4de-122">Получает предложенное время окончания собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-122">Gets the proposed end time of the meeting.</span></span>             <span data-ttu-id="3b4de-123"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedEnd" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3b4de-123">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedEnd" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="3b4de-124">Предложенное время окончания собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-124">The proposed end time of the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -291,23 +165,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="77c39-125">Получает время начала предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-125">Gets the proposed start time of the meeting.</span>
-          </span>
-          <span data-ttu-id="77c39-126">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedStart" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-126">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedStart" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="77c39-127">Время начала предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-127">The proposed start time of the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="3b4de-125">Получает предложенное время начала собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-125">Gets the proposed start time of the meeting.</span></span>             <span data-ttu-id="3b4de-126"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedStart" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3b4de-126">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedStart" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="3b4de-127">Предложенное время начала собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-127">The proposed start time of the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -326,23 +185,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="77c39-128">Получает шаблон повторения для этого приглашения на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-128">Gets the recurrence pattern for this meeting request.</span>
-          </span>
-          <span data-ttu-id="77c39-129">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Recurrence" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-129">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Recurrence" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="77c39-130">Шаблон повторения для этого приглашения на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-130">The recurrence pattern for this meeting request.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="3b4de-128">Получает шаблон повторения для этого приглашения на собрание.</span><span class="sxs-lookup"><span data-stu-id="3b4de-128">Gets the recurrence pattern for this meeting request.</span></span>             <span data-ttu-id="3b4de-129"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Recurrence" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3b4de-129">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Recurrence" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="3b4de-130">Шаблон повторения для этого приглашения на собрание.</span><span class="sxs-lookup"><span data-stu-id="3b4de-130">The recurrence pattern for this meeting request.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -361,23 +205,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="77c39-131">Получает время начала собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-131">Gets the start time of the meeting.</span>
-          </span>
-          <span data-ttu-id="77c39-132">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Start" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-132">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Start" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="77c39-133">Время начала собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="77c39-133">The start time of the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="3b4de-131">Получает время начала собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-131">Gets the start time of the meeting.</span></span>             <span data-ttu-id="3b4de-132"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Start" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3b4de-132">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Start" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="3b4de-133">Время начала собрания.</span><span class="sxs-lookup"><span data-stu-id="3b4de-133">The start time of the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

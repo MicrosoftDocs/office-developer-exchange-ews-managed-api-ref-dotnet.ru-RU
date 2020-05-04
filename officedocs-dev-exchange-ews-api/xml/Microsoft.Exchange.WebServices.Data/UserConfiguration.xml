@@ -1,13 +1,5 @@
 <Type Name="UserConfiguration" FullName="Microsoft.Exchange.WebServices.Data.UserConfiguration">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fcd20e4229fcedad2f9dcff4e9037d3b7f2113d7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627251" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class UserConfiguration" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fcd20e4229fcedad2f9dcff4e9037d3b7f2113d7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627251" /></Metadata><TypeSignature Language="C#" Value="public class UserConfiguration" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UserConfiguration extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfiguration" />
   <TypeSignature Language="VB.NET" Value="Public Class UserConfiguration" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="47ae4-101">Создает и получает доступ к пользовательской настройки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="47ae4-101">Creates and accesses user-defined configuration settings.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2f811-101">Создает пользовательские параметры конфигурации и получает к ним доступ.</span><span class="sxs-lookup"><span data-stu-id="2f811-101">Creates and accesses user-defined configuration settings.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,18 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="47ae4-102">Объект, который выполняет привязку к серверу Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-102">An object that binds to the Exchange server.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="47ae4-103">Инициализирует новый экземпляр класса <b>UserConfiguration</b> с объектом службы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-103">Initializes a new instance of the <b>UserConfiguration</b> class with a service object.</span>
-          </span>
-        </summary>
+        <param name="service"><span data-ttu-id="2f811-102">Объект, привязанный к серверу Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="2f811-102">An object that binds to the Exchange server.</span></span></param>
+        <summary><span data-ttu-id="2f811-103">Инициализирует новый экземпляр класса <b>усерконфигуратион</b> с объектом Service.</span><span class="sxs-lookup"><span data-stu-id="2f811-103">Initializes a new instance of the <b>UserConfiguration</b> class with a service object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -75,18 +52,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-104">Получает или задает двоичные данные конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-104">Gets or sets the binary data of the user configuration.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="47ae4-105">Массив байтов двоичных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-105">A byte array of binary data.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2f811-104">Получает или задает двоичные данные конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-104">Gets or sets the binary data of the user configuration.</span></span></summary>
+        <value><span data-ttu-id="2f811-105">Массив байтов двоичных данных.</span><span class="sxs-lookup"><span data-stu-id="2f811-105">A byte array of binary data.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,54 +78,15 @@
         <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="47ae4-106">Служба, к которому привязывается Конфигурация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-106">The service to which the user configuration is bound.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="47ae4-107">Имя конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-107">The name of the user configuration.</span>
-          </span>
-        </param>
-        <param name="parentFolderId">
-          <span data-ttu-id="47ae4-108">Идентификатор папки, содержащей Конфигурация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-108">The identifier of the folder that contains the user configuration.</span>
-          </span>
-        </param>
-        <param name="properties">
-          <span data-ttu-id="47ae4-109">Свойства для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-109">The properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="47ae4-110">Выполняет привязку к существующей конфигурации пользователя, на основе имени конфигурации пользователя, идентификатор папки и свойства конфигурации для указанного пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-110">Binds to an existing user configuration, based on a user configuration name, folder identifier, and the specified user configuration properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="47ae4-111">Экземпляр конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-111">A user configuration instance.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="47ae4-112">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-112">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="2f811-106">Служба, к которой привязана Конфигурация пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-106">The service to which the user configuration is bound.</span></span></param>
+        <param name="name"><span data-ttu-id="2f811-107">Имя конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-107">The name of the user configuration.</span></span></param>
+        <param name="parentFolderId"><span data-ttu-id="2f811-108">Идентификатор папки, содержащей конфигурацию пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-108">The identifier of the folder that contains the user configuration.</span></span></param>
+        <param name="properties"><span data-ttu-id="2f811-109">Свойства для загрузки.</span><span class="sxs-lookup"><span data-stu-id="2f811-109">The properties to load.</span></span></param>
+        <summary><span data-ttu-id="2f811-110">Выполняет присоединение к существующей конфигурации пользователя в соответствии с именем конфигурации пользователя, идентификатором папки и заданными свойствами конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-110">Binds to an existing user configuration, based on a user configuration name, folder identifier, and the specified user configuration properties.</span></span></summary>
+        <returns><span data-ttu-id="2f811-111">Экземпляр конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-111">A user configuration instance.</span></span></returns>
+        <remarks><span data-ttu-id="2f811-112"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="2f811-112"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -182,54 +110,15 @@
         <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="47ae4-113">Служба, к которому привязывается Конфигурация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-113">The service to which the user configuration is bound.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="47ae4-114">Имя конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-114">The name of the user configuration.</span>
-          </span>
-        </param>
-        <param name="parentFolderName">
-          <span data-ttu-id="47ae4-115">Идентификатор папки, содержащей Конфигурация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-115">The identifier of the folder that contains the user configuration.</span>
-          </span>
-        </param>
-        <param name="properties">
-          <span data-ttu-id="47ae4-116">Свойства для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-116">The properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="47ae4-117">Выполняет привязку к существующей конфигурации пользователя на основе имени пользователя конфигурации, имя папки и свойства конфигурации для указанного пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-117">Binds to an existing user configuration based on a user configuration name, folder name, and the specified user configuration properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="47ae4-118">Экземпляр конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-118">A user configuration instance.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="47ae4-119">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-119">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="2f811-113">Служба, к которой привязана Конфигурация пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-113">The service to which the user configuration is bound.</span></span></param>
+        <param name="name"><span data-ttu-id="2f811-114">Имя конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-114">The name of the user configuration.</span></span></param>
+        <param name="parentFolderName"><span data-ttu-id="2f811-115">Идентификатор папки, содержащей конфигурацию пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-115">The identifier of the folder that contains the user configuration.</span></span></param>
+        <param name="properties"><span data-ttu-id="2f811-116">Свойства для загрузки.</span><span class="sxs-lookup"><span data-stu-id="2f811-116">The properties to load.</span></span></param>
+        <summary><span data-ttu-id="2f811-117">Выполняет присоединение к существующей конфигурации пользователя на основе имени конфигурации пользователя, имени папки и указанных свойств конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-117">Binds to an existing user configuration based on a user configuration name, folder name, and the specified user configuration properties.</span></span></summary>
+        <returns><span data-ttu-id="2f811-118">Экземпляр конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-118">A user configuration instance.</span></span></returns>
+        <remarks><span data-ttu-id="2f811-119"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="2f811-119"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -248,24 +137,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-120">Удаление конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-120">Deletes the user configuration.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="47ae4-121">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS). A <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> уведомления о событии почтового ящика можно инициировать, вызывающий этот метод, поскольку удален Конфигурация пользователя, элементы перемещаются в корзину.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-121">
-              <para>Calling this method results in a call to Exchange Web Services (EWS). A <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> mailbox event notification can be triggered by calling this method because deleted user configuration items are moved to the dumpster.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2f811-120">Удаляет конфигурацию пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-120">Deletes the user configuration.</span></span></summary>
+        <remarks><span data-ttu-id="2f811-121"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS). Уведомление <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> о событии почтового ящика может быть вызвано вызовом этого метода, потому что удаленные элементы конфигурации пользователя перемещаются в корзину.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="2f811-121"><para>Calling this method results in a call to Exchange Web Services (EWS). A <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> mailbox event notification can be triggered by calling this method because deleted user configuration items are moved to the dumpster.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dictionary">
@@ -283,18 +158,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-122">Получает словарь Конфигурация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-122">Gets the dictionary of the user configuration.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="47ae4-123">Словарь конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-123">A user configuration dictionary.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2f811-122">Получает словарь конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-122">Gets the dictionary of the user configuration.</span></span></summary>
+        <value><span data-ttu-id="2f811-123">Словарь конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-123">A user configuration dictionary.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -313,20 +178,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-124">Получает значение, указывающее, были ли изменены объект конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-124">Gets a value that indicates whether the user configuration object has been modified.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="47ae4-125">
-            <b>значение true,</b> Если был изменен объект конфигурации пользователя; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-125">
-              <b>true</b> if the user configuration object has been modified; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2f811-124">Получает значение, указывающее, был ли изменен объект конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-124">Gets a value that indicates whether the user configuration object has been modified.</span></span></summary>
+        <value><span data-ttu-id="2f811-125"><b>значение true</b> , если объект конфигурации пользователя изменен; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2f811-125"><b>true</b> if the user configuration object has been modified; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -345,18 +198,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-126">Получает идентификатор конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-126">Gets the identifier of the user configuration.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="47ae4-127">Идентификатор элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-127">An item ID.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2f811-126">Получает идентификатор конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-126">Gets the identifier of the user configuration.</span></span></summary>
+        <value><span data-ttu-id="2f811-127">Идентификатор элемента.</span><span class="sxs-lookup"><span data-stu-id="2f811-127">An item ID.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -378,30 +221,11 @@
         <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
       </Parameters>
       <Docs>
-        <param name="properties">
-          <span data-ttu-id="47ae4-128">Свойства конфигурации пользователя для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-128">The user configuration properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="47ae4-129">Загружает свойства конфигурации для указанного пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-129">Loads the specified user configuration properties.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="47ae4-130">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-130">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="properties"><span data-ttu-id="2f811-128">Свойства конфигурации пользователя, которые необходимо загрузить.</span><span class="sxs-lookup"><span data-stu-id="2f811-128">The user configuration properties to load.</span></span></param>
+        <summary><span data-ttu-id="2f811-129">Загружает указанные свойства конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-129">Loads the specified user configuration properties.</span></span></summary>
+        <remarks><span data-ttu-id="2f811-130"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="2f811-130"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -419,18 +243,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-131">Получает имя конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-131">Gets the name of the user configuration.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="47ae4-132">Имя конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-132">A user configuration name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2f811-131">Получает имя конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-131">Gets the name of the user configuration.</span></span></summary>
+        <value><span data-ttu-id="2f811-132">Имя конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-132">A user configuration name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -449,18 +263,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-133">Получает идентификатор папки, содержащей Конфигурация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-133">Gets the identifier of the folder that contains the user configuration.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="47ae4-134">Идентификатор папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-134">A folder ID.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2f811-133">Получает идентификатор папки, содержащей конфигурацию пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-133">Gets the identifier of the folder that contains the user configuration.</span></span></summary>
+        <value><span data-ttu-id="2f811-134">Идентификатор папки.</span><span class="sxs-lookup"><span data-stu-id="2f811-134">A folder ID.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -483,36 +287,12 @@
         <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <span data-ttu-id="47ae4-135">Имя объекта конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-135">The name of the user configuration object.</span>
-          </span>
-        </param>
-        <param name="parentFolderId">
-          <span data-ttu-id="47ae4-136">Идентификатор папки, определяющий папки, которая будет содержать объект конфигурации сохраненного пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-136">The folder identifier that identifies the folder that will contain the saved user configuration object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="47ae4-137">Сохраняет Конфигурация пользователя, задав имя конфигурации пользователя и идентификатор папки папку, содержащую Конфигурация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-137">Saves the user configuration by setting the user configuration name and the folder identifier of the folder that contains the user configuration.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="47ae4-138">
-            <para>Вызов метода результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-138">
-              <para>Calling the method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="name"><span data-ttu-id="2f811-135">Имя объекта конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-135">The name of the user configuration object.</span></span></param>
+        <param name="parentFolderId"><span data-ttu-id="2f811-136">Идентификатор папки, указывающий папку, которая будет содержать сохраненный объект конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-136">The folder identifier that identifies the folder that will contain the saved user configuration object.</span></span></param>
+        <summary><span data-ttu-id="2f811-137">Сохранение конфигурации пользователя путем задания имени конфигурации пользователя и идентификатора папки, содержащей конфигурацию пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-137">Saves the user configuration by setting the user configuration name and the folder identifier of the folder that contains the user configuration.</span></span></summary>
+        <remarks><span data-ttu-id="2f811-138"><para>Вызов метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="2f811-138"><para>Calling the method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -534,36 +314,12 @@
         <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <span data-ttu-id="47ae4-139">Имя объекта конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-139">The name of the user configuration object.</span>
-          </span>
-        </param>
-        <param name="parentFolderName">
-          <span data-ttu-id="47ae4-140">— Хорошо известных папки имя папки, которая будет содержать объект конфигурации сохраненного пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-140">The well-known folder name that identifies the folder that will contain the saved user configuration object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="47ae4-141">Сохраняет Конфигурация пользователя, задав имя конфигурации пользователя и имя известных папки папку, содержащую Конфигурация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-141">Saves the user configuration by setting the user configuration name and the well-known folder name of the folder that contains the user configuration.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="47ae4-142">
-            <para>Вызов метода результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-142">
-              <para>Calling the method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="name"><span data-ttu-id="2f811-139">Имя объекта конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-139">The name of the user configuration object.</span></span></param>
+        <param name="parentFolderName"><span data-ttu-id="2f811-140">Известное имя папки, определяющее папку, которая будет содержать сохраненный объект конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-140">The well-known folder name that identifies the folder that will contain the saved user configuration object.</span></span></param>
+        <summary><span data-ttu-id="2f811-141">Сохранение конфигурации пользователя путем задания имени конфигурации пользователя и имени известной папки для папки, содержащей конфигурацию пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-141">Saves the user configuration by setting the user configuration name and the well-known folder name of the folder that contains the user configuration.</span></span></summary>
+        <remarks><span data-ttu-id="2f811-142"><para>Вызов метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="2f811-142"><para>Calling the method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -582,24 +338,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-143">Обновляет объект конфигурации пользователя на сервере.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-143">Updates the user configuration object on the server.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="47ae4-144">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-144">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2f811-143">Обновляет объект конфигурации пользователя на сервере.</span><span class="sxs-lookup"><span data-stu-id="2f811-143">Updates the user configuration object on the server.</span></span></summary>
+        <remarks><span data-ttu-id="2f811-144"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="2f811-144"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="XmlData">
@@ -617,18 +359,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47ae4-145">Получает или задает XML-данные конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-145">Gets or sets the XML data of the user configuration.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="47ae4-146">Массив байтов, XML-данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47ae4-146">A byte array of XML data.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2f811-145">Получает или задает XML-данные конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="2f811-145">Gets or sets the XML data of the user configuration.</span></span></summary>
+        <value><span data-ttu-id="2f811-146">Массив байтов XML-данных.</span><span class="sxs-lookup"><span data-stu-id="2f811-146">A byte array of XML data.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

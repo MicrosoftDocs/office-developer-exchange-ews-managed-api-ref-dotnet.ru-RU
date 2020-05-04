@@ -1,13 +1,5 @@
 <Type Name="GetDomainSettingsResponse" FullName="Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e22d40f4f51031e810a70aa651535ef11b420b7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627017" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetDomainSettingsResponse : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e22d40f4f51031e810a70aa651535ef11b420b7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627017" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetDomainSettingsResponse : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetDomainSettingsResponse extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetDomainSettingsResponse&#xA;Inherits AutodiscoverResponse" />
@@ -21,24 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="f2d9c-101">Представляет ответ на звонок GetDomainSettings для отдельного домена.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f2d9c-101">Represents the response to a GetDomainSettings call for an individual domain.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="f2d9c-102">
-        <para>Этот класс возвращается путем вызова <see cref="Overload:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings" /> метод.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f2d9c-102">
-          <para>This class is returned by calls to the <see cref="Overload:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings" /> method.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="5a523-101">Представляет ответ на вызов Жетдомаинсеттингс для отдельного домена.</span><span class="sxs-lookup"><span data-stu-id="5a523-101">Represents the response to a GetDomainSettings call for an individual domain.</span></span></summary>
+    <remarks><span data-ttu-id="5a523-102"><para>Этот класс возвращается вызовами <see cref="Overload:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings" /> метода.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="5a523-102"><para>This class is returned by calls to the <see cref="Overload:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings" /> method.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -54,12 +32,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f2d9c-103">Инициализирует новый экземпляр класса GetDomainSettingsResponse.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-103">Initializes a new instance of the GetDomainSettingsResponse class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5a523-103">Инициализирует новый экземпляр класса Жетдомаинсеттингсреспонсе.</span><span class="sxs-lookup"><span data-stu-id="5a523-103">Initializes a new instance of the GetDomainSettingsResponse class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,18 +51,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2d9c-104">Получает домен, к которому применяется этот ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-104">Gets the domain to which this response applies.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f2d9c-105">Имя домена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-105">The domain name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="5a523-104">Получает домен, к которому применяется этот отклик.</span><span class="sxs-lookup"><span data-stu-id="5a523-104">Gets the domain to which this response applies.</span></span></summary>
+        <value><span data-ttu-id="5a523-105">Доменное имя.</span><span class="sxs-lookup"><span data-stu-id="5a523-105">The domain name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -108,18 +71,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2d9c-106">Получает коллекцию ошибок для параметров, которые не будут получены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-106">Gets a collection of errors for settings that could not be returned.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f2d9c-107">Коллекция, содержащая DomainSettingError объектов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-107">A collection that contains DomainSettingError objects.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="5a523-106">Возвращает коллекцию ошибок для параметров, которые не удалось вернуть.</span><span class="sxs-lookup"><span data-stu-id="5a523-106">Gets a collection of errors for settings that could not be returned.</span></span></summary>
+        <value><span data-ttu-id="5a523-107">Коллекция, содержащая объекты Домаинсеттинжеррор.</span><span class="sxs-lookup"><span data-stu-id="5a523-107">A collection that contains DomainSettingError objects.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,18 +91,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2d9c-108">Получает целевой в режиме одобрения администратором (URL-адрес или адрес электронной почты).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-108">Gets the redirection target (URL or e-mail address).</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f2d9c-109">В режиме одобрения администратором конечного URL-адрес или адрес электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-109">The redirection target URL or e-mail address.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="5a523-108">Получает целевой объект перенаправления (URL-адрес или адрес электронной почты).</span><span class="sxs-lookup"><span data-stu-id="5a523-108">Gets the redirection target (URL or e-mail address).</span></span></summary>
+        <value><span data-ttu-id="5a523-109">Целевой URL-адрес или адрес электронной почты перенаправления.</span><span class="sxs-lookup"><span data-stu-id="5a523-109">The redirection target URL or e-mail address.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -168,18 +111,8 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName,System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2d9c-110">Получает запрошенные сведения для домена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-110">Gets the requested settings for the domain.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f2d9c-111">Объект IDictionary, содержащий доменные имена параметров и параметров домена как пары ключ значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2d9c-111">An IDictionary object that contains domain setting names and domain settings as a key/value pair.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="5a523-110">Получает запрошенные параметры для домена.</span><span class="sxs-lookup"><span data-stu-id="5a523-110">Gets the requested settings for the domain.</span></span></summary>
+        <value><span data-ttu-id="5a523-111">Объект IDictionary, который содержит имена параметров домена и параметры домена в виде записи "ключ-значение".</span><span class="sxs-lookup"><span data-stu-id="5a523-111">An IDictionary object that contains domain setting names and domain settings as a key/value pair.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

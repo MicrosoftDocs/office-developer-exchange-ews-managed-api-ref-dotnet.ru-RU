@@ -1,13 +1,5 @@
 <Type Name="ServiceId" FullName="Microsoft.Exchange.WebServices.Data.ServiceId">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9f78c5b828f97271afd242bc6144bb1b5373d6f7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627182" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ServiceId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9f78c5b828f97271afd242bc6144bb1b5373d6f7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627182" /></Metadata><TypeSignature Language="C#" Value="public abstract class ServiceId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceId extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceId" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceId&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="b4cad-101">Представляет идентификатор объекта Exchange.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b4cad-101">Represents the Id of an Exchange object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="714b2-101">Представляет идентификатор объекта Exchange.</span><span class="sxs-lookup"><span data-stu-id="714b2-101">Represents the Id of an Exchange object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,30 +32,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b4cad-102">Получает изменить ключ, связанный с объектом Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-102">Gets the change key associated with the Exchange object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b4cad-103">Строковое значение</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-103">A string value</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="b4cad-104">
-            <para>Изменить ключ представляет версию связанный элемент или папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-104">
-              <para>The change key represents the version of the associated item or folder.            </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="714b2-102">Получает ключ изменения, связанный с объектом Exchange.</span><span class="sxs-lookup"><span data-stu-id="714b2-102">Gets the change key associated with the Exchange object.</span></span></summary>
+        <value><span data-ttu-id="714b2-103">Строковое значение</span><span class="sxs-lookup"><span data-stu-id="714b2-103">A string value</span></span></value>
+        <remarks><span data-ttu-id="714b2-104"><para>Ключ Change представляет версию связанного элемента или папки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="714b2-104"><para>The change key represents the version of the associated item or folder.            </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -89,43 +57,13 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">
-          <span data-ttu-id="b4cad-105">System.Object для сравнения с текущей System.Object.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-105">The System.Object to compare with the current System.Object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b4cad-106">Определяет, является ли указанный текущему.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-106">Determines whether the specified is equal to the current.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b4cad-107">Значение true, если указанный System.Object равное текущей System.Object; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-107">True if the specified System.Object is equal to the current System.Object; otherwise, false.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="b4cad-108">
-            <para>Мы не рекомендуется использовать ChangeKey для ServiceId.Equals.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-108">
-              <para>We don’t consider the ChangeKey for ServiceId.Equals.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <exception cref="T:System.NullReferenceException">
-          <span data-ttu-id="b4cad-109">
-            <paramref name="obj" />Параметр имеет значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-109">The<paramref name="obj" />parameter is null.</span>
-          </span>
-        </exception>
+        <param name="obj"><span data-ttu-id="714b2-105">System. Object для сравнения с текущим System. Object.</span><span class="sxs-lookup"><span data-stu-id="714b2-105">The System.Object to compare with the current System.Object.</span></span></param>
+        <summary><span data-ttu-id="714b2-106">Определяет, равно ли указанное значение текущему.</span><span class="sxs-lookup"><span data-stu-id="714b2-106">Determines whether the specified is equal to the current.</span></span></summary>
+        <returns><span data-ttu-id="714b2-107">Значение true, если указанный System. Object равен текущему System. Object; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="714b2-107">True if the specified System.Object is equal to the current System.Object; otherwise, false.</span></span></returns>
+        <remarks><span data-ttu-id="714b2-108"><para>Мы не рекомендуем Чанжекэй для ServiceId. Equals.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="714b2-108"><para>We don’t consider the ChangeKey for ServiceId.Equals.</para>
+          <para /></span></span></remarks>
+        <exception cref="T:System.NullReferenceException"><span data-ttu-id="714b2-109"><paramref name="obj" />Параметр имеет значение null.</span><span class="sxs-lookup"><span data-stu-id="714b2-109">The<paramref name="obj" />parameter is null.</span></span></exception>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -144,30 +82,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b4cad-110">Служит в качестве хэш-функции для определенного типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-110">Serves as a hash function for a particular type.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b4cad-111">Хэш-код для текущей System.Object.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-111">A hash code for the current System.Object.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="b4cad-112">
-            <para>Мы не рассмотрите возможность изменить ключ при вычислении хэш-функции кода.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-112">
-              <para>We don’t consider the change key in the hash code computation.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="714b2-110">Служит в качестве хэш-функции для определенного типа.</span><span class="sxs-lookup"><span data-stu-id="714b2-110">Serves as a hash function for a particular type.</span></span></summary>
+        <returns><span data-ttu-id="714b2-111">Хэш-код для текущего System. Object.</span><span class="sxs-lookup"><span data-stu-id="714b2-111">A hash code for the current System.Object.</span></span></returns>
+        <remarks><span data-ttu-id="714b2-112"><para>Мы не будем рассматривать ключ изменения в вычислении хэш-кода.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="714b2-112"><para>We don’t consider the change key in the hash code computation.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SameIdAndChangeKey">
@@ -188,24 +107,9 @@
         <Parameter Name="other" Type="Microsoft.Exchange.WebServices.Data.ServiceId" />
       </Parameters>
       <Docs>
-        <param name="other">
-          <span data-ttu-id="b4cad-113">ServiceId для сравнения с текущей ServiceId.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-113">The ServiceId to compare with the current ServiceId.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b4cad-114">Определяет, будет ли ServiceId они равны (включая ChangeKeys)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-114">Determines whether two ServiceId instances are equal (including ChangeKeys)</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b4cad-115">Значение true, если они равны; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-115">True if the two instances are equal; otherwise, false.</span>
-          </span>
-        </returns>
+        <param name="other"><span data-ttu-id="714b2-113">ServiceId для сравнения с текущим ServiceId.</span><span class="sxs-lookup"><span data-stu-id="714b2-113">The ServiceId to compare with the current ServiceId.</span></span></param>
+        <summary><span data-ttu-id="714b2-114">Определяет, равны ли два экземпляра ServiceId (в том числе Чанжекэйс).</span><span class="sxs-lookup"><span data-stu-id="714b2-114">Determines whether two ServiceId instances are equal (including ChangeKeys)</span></span></summary>
+        <returns><span data-ttu-id="714b2-115">Значение true, если два экземпляра равны; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="714b2-115">True if the two instances are equal; otherwise, false.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,18 +129,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b4cad-116">Возвращает System.String, который представляет текущего System.Object.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-116">Returns a System.String that represents the current System.Object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b4cad-117">System.String, который представляет текущего System.Object.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-117">A System.String that represents the current System.Object.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="714b2-116">Возвращает System. String, представляющий текущий System. Object.</span><span class="sxs-lookup"><span data-stu-id="714b2-116">Returns a System.String that represents the current System.Object.</span></span></summary>
+        <returns><span data-ttu-id="714b2-117">System. String, представляющий текущий System. Object.</span><span class="sxs-lookup"><span data-stu-id="714b2-117">A System.String that represents the current System.Object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -255,18 +149,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b4cad-118">Получает уникальный идентификатор объекта Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-118">Gets the unique Id of the Exchange object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b4cad-119">Строковое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b4cad-119">A string value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="714b2-118">Получает уникальный идентификатор объекта Exchange.</span><span class="sxs-lookup"><span data-stu-id="714b2-118">Gets the unique Id of the Exchange object.</span></span></summary>
+        <value><span data-ttu-id="714b2-119">Строковое значение.</span><span class="sxs-lookup"><span data-stu-id="714b2-119">A string value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

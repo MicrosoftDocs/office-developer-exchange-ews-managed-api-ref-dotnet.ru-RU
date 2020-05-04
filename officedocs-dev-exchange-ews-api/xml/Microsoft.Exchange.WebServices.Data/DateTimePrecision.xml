@@ -1,13 +1,5 @@
 <Type Name="DateTimePrecision" FullName="Microsoft.Exchange.WebServices.Data.DateTimePrecision">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d1bbb02b23af79fc8f32259e24d9c74f4609f571" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626570" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum DateTimePrecision" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d1bbb02b23af79fc8f32259e24d9c74f4609f571" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626570" /></Metadata><TypeSignature Language="C#" Value="public enum DateTimePrecision" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DateTimePrecision extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DateTimePrecision" />
   <TypeSignature Language="VB.NET" Value="Public Enum DateTimePrecision" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="92d24-101">Определяет точность объекты DateTime, передаются в клиент.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="92d24-101">Determines the precision of DateTime objects to be communicated to a client.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="502f0-101">Определяет точность объектов DateTime, которые будут переданы клиенту.</span><span class="sxs-lookup"><span data-stu-id="502f0-101">Determines the precision of DateTime objects to be communicated to a client.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="92d24-102">Значение точности не отправляются клиенту.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="92d24-102">No precision value is sent to the client.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="502f0-102">Клиенту не отправляется значение точности.</span><span class="sxs-lookup"><span data-stu-id="502f0-102">No precision value is sent to the client.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Milliseconds">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="92d24-103">Точность устанавливается в миллисекундах.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="92d24-103">Precision is set to milliseconds.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="502f0-103">Для точности задано значение миллисекунд.</span><span class="sxs-lookup"><span data-stu-id="502f0-103">Precision is set to milliseconds.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Seconds">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="92d24-104">Точность присвоено значение секунд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="92d24-104">Precision is set to seconds.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="502f0-104">Для точности задано значение секунды.</span><span class="sxs-lookup"><span data-stu-id="502f0-104">Precision is set to seconds.</span></span></summary>
       </Docs>
     </Member>
   </Members>

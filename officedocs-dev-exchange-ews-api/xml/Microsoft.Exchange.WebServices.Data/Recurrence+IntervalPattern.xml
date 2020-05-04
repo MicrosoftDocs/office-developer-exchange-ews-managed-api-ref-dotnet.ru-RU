@@ -1,13 +1,5 @@
 <Type Name="Recurrence+IntervalPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9a322ee0a7ad778bad11c9e905845376f8094a19" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626560" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class Recurrence.IntervalPattern : Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9a322ee0a7ad778bad11c9e905845376f8094a19" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626560" /></Metadata><TypeSignature Language="C#" Value="public abstract class Recurrence.IntervalPattern : Microsoft.Exchange.WebServices.Data.Recurrence" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit Recurrence/IntervalPattern extends Microsoft.Exchange.WebServices.Data.Recurrence" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Recurrence.IntervalPattern&#xA;Inherits Recurrence" />
@@ -26,12 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="de241-101">Представляет шаблон повторения, где каждый происходит через определенные интервалы времени после предыдущей команды.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="de241-101">Represents a recurrence pattern where each occurrence happens at a specific interval after the previous one.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="37c9f-101">Представляет шаблон повторения, в котором каждое событие происходит в определенный интервал времени после предыдущего.</span><span class="sxs-lookup"><span data-stu-id="37c9f-101">Represents a recurrence pattern where each occurrence happens at a specific interval after the previous one.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,18 +37,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="de241-102">Получает или задает интервал между вхождений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="de241-102">Gets or sets the interval between occurrences.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="de241-103">Целое число.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="de241-103">An integer value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="37c9f-102">Получает или задает интервал между повторениями.</span><span class="sxs-lookup"><span data-stu-id="37c9f-102">Gets or sets the interval between occurrences.</span></span></summary>
+        <value><span data-ttu-id="37c9f-103">Целое число.</span><span class="sxs-lookup"><span data-stu-id="37c9f-103">An integer value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

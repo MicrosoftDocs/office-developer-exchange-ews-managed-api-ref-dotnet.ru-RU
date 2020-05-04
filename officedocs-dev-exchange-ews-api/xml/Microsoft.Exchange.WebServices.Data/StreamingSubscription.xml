@@ -1,13 +1,5 @@
 <Type Name="StreamingSubscription" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscription">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2d3ac55ddb01c5a970d51f0cff5c0cdea1c4718f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626727" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class StreamingSubscription : Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2d3ac55ddb01c5a970d51f0cff5c0cdea1c4718f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626727" /></Metadata><TypeSignature Language="C#" Value="public sealed class StreamingSubscription : Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StreamingSubscription extends Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscription" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StreamingSubscription&#xA;Inherits SubscriptionBase" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="c6df6-101">Представляет потоковой передачи подписки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c6df6-101">Represents a streaming subscription.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="0e9f6-101">Представляет потоковую подписку.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-101">Represents a streaming subscription.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,30 +36,10 @@
         <Parameter Name="state" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="callback">
-          <span data-ttu-id="c6df6-102">Делегат AsyncCallback.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-102">The AsyncCallback delegate.</span>
-          </span>
-        </param>
-        <param name="state">
-          <span data-ttu-id="c6df6-103">Объект, который содержит сведения о состоянии для этого запроса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-103">An object that contains state information for this request.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c6df6-104">Начинает асинхронный запрос для отмены подписки. Этот метод был введен в Microsoft Exchange Web Services (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-104">Begins an asynchronous request to unsubscribe from a subscription.This method was introduced in the Microsoft Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="c6df6-105">IAsyncResult, который ссылается на асинхронный запрос.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-105">An IAsyncResult that references the asynchronous request.</span>
-          </span>
-        </returns>
+        <param name="callback"><span data-ttu-id="0e9f6-102">Делегат AsyncCallback.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-102">The AsyncCallback delegate.</span></span></param>
+        <param name="state"><span data-ttu-id="0e9f6-103">Объект, содержащий сведения о состоянии для этого запроса.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-103">An object that contains state information for this request.</span></span></param>
+        <summary><span data-ttu-id="0e9f6-104">Начинает асинхронный запрос для отмены подписки на подписку. Этот метод появился в управляемом API веб-служб Microsoft Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-104">Begins an asynchronous request to unsubscribe from a subscription.This method was introduced in the Microsoft Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
+        <returns><span data-ttu-id="0e9f6-105">Объект IAsyncResult, ссылающийся на асинхронный запрос.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-105">An IAsyncResult that references the asynchronous request.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,18 +61,8 @@
         <Parameter Name="asyncResult" Type="System.IAsyncResult" />
       </Parameters>
       <Docs>
-        <param name="asyncResult">
-          <span data-ttu-id="c6df6-106">IAsyncResult, который ссылается на асинхронный запрос.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-106">An IAsyncResult that references the asynchronous request.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c6df6-107">Завершает асинхронный запрос для отмены подписки. Этот метод был введен в Microsoft Exchange Web Services (EWS) управляемого интерфейса API 1.2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-107">Ends an asynchronous request to unsubscribe from a subscription.This method was introduced in the Microsoft Exchange Web Services (EWS) Managed API 1.2.</span>
-          </span>
-        </summary>
+        <param name="asyncResult"><span data-ttu-id="0e9f6-106">Объект IAsyncResult, ссылающийся на асинхронный запрос.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-106">An IAsyncResult that references the asynchronous request.</span></span></param>
+        <summary><span data-ttu-id="0e9f6-107">Завершает асинхронный запрос на отмену подписки на подписку. Этот метод появился в управляемом API веб-служб Microsoft Exchange (EWS) 1,2.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-107">Ends an asynchronous request to unsubscribe from a subscription.This method was introduced in the Microsoft Exchange Web Services (EWS) Managed API 1.2.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,18 +81,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6df6-108">Возвращает службу, которая используется для создания этой подписки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-108">Gets the service that is used to create this subscription.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c6df6-109">Объект, представляющий службы Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-109">An object that represents the Exchange service.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0e9f6-108">Получает службу, используемую для создания этой подписки.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-108">Gets the service that is used to create this subscription.</span></span></summary>
+        <value><span data-ttu-id="0e9f6-109">Объект, представляющий службу Exchange.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-109">An object that represents the Exchange service.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,12 +102,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="c6df6-110">Отменяет подписку из потоковой передачи подписки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6df6-110">Unsubscribes from the streaming subscription.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0e9f6-110">Отменяет подписку на потоковую подписку.</span><span class="sxs-lookup"><span data-stu-id="0e9f6-110">Unsubscribes from the streaming subscription.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

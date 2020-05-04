@@ -1,13 +1,5 @@
 <Type Name="CalendarFolder" FullName="Microsoft.Exchange.WebServices.Data.CalendarFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="98a14ce66be6f0811ade9e9ef383937c628e7ea3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627214" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class CalendarFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="98a14ce66be6f0811ade9e9ef383937c628e7ea3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627214" /></Metadata><TypeSignature Language="C#" Value="public class CalendarFolder : Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CalendarFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarFolder" />
   <TypeSignature Language="VB.NET" Value="Public Class CalendarFolder&#xA;Inherits Folder" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="d88ce-101">Представляет папку, содержащую встреч.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d88ce-101">Represents a folder that contains appointments.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="400c2-101">Представляет папку, которая содержит встречи.</span><span class="sxs-lookup"><span data-stu-id="400c2-101">Represents a folder that contains appointments.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,22 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="d88ce-102">Объект класса ExchangeService, к которому будет привязан к папке календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-102">The ExchangeService class object to which the calendar folder will be bound.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d88ce-103">Инициализирует несохраненные локальный экземпляр класса CalendarFolder.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-103">Initializes an unsaved local instance of the CalendarFolder class.</span>
-          </span>
-          <span data-ttu-id="d88ce-104">Для привязки к существующей папке календаря, используйте метод привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-104">To bind to an existing calendar folder, use the Bind method.</span>
-          </span>
-        </summary>
+        <param name="service"><span data-ttu-id="400c2-102">Объект класса ExchangeService, к которому будет привязана папка календаря.</span><span class="sxs-lookup"><span data-stu-id="400c2-102">The ExchangeService class object to which the calendar folder will be bound.</span></span></param>
+        <summary><span data-ttu-id="400c2-103">Инициализирует несохраненный локальный экземпляр класса Календарфолдер.</span><span class="sxs-lookup"><span data-stu-id="400c2-103">Initializes an unsaved local instance of the CalendarFolder class.</span></span> <span data-ttu-id="400c2-104">Чтобы выполнить присоединение к существующей папке календаря, используйте метод Bind.</span><span class="sxs-lookup"><span data-stu-id="400c2-104">To bind to an existing calendar folder, use the Bind method.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,34 +56,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="d88ce-105">Служба должна использовать для привязки к папке календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-105">The service to use to bind to the calendar folder.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="d88ce-106">Идентификатор папки календаря для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-106">The ID of the calendar folder to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d88ce-107">Выполняет привязку к существующей папке календаря и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-107">Binds to an existing calendar folder and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="d88ce-108">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-108">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d88ce-109">Экземпляр класса CalendarFolder, который представляет в папке календаря, соответствующий указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-109">An instance of the CalendarFolder class that represents the calendar folder that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="400c2-105">Служба, используемая для связывания с папкой календаря.</span><span class="sxs-lookup"><span data-stu-id="400c2-105">The service to use to bind to the calendar folder.</span></span></param>
+        <param name="id"><span data-ttu-id="400c2-106">Идентификатор папки календаря, к которой требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="400c2-106">The ID of the calendar folder to bind to.</span></span></param>
+        <summary><span data-ttu-id="400c2-107">Выполняет присоединение к существующей папке календаря и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="400c2-107">Binds to an existing calendar folder and loads its first class properties.</span></span> <span data-ttu-id="400c2-108">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="400c2-108">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="400c2-109">Экземпляр класса Календарфолдер, представляющий папку календаря, соответствующую указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="400c2-109">An instance of the CalendarFolder class that represents the calendar folder that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -133,34 +82,10 @@
         <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="d88ce-110">Служба должна использовать для привязки к папке календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-110">The service to use to bind to the calendar folder.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="d88ce-111">Имя папки календаря для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-111">The name of the calendar folder to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d88ce-112">Выполняет привязку к существующей папке календаря и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-112">Binds to an existing calendar folder and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="d88ce-113">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-113">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d88ce-114">Экземпляр класса CalendarFolder, который представляет папки календаря с указанным именем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-114">An instance of the CalendarFolder class that represents the calendar folder with the specified name.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="400c2-110">Служба, используемая для связывания с папкой календаря.</span><span class="sxs-lookup"><span data-stu-id="400c2-110">The service to use to bind to the calendar folder.</span></span></param>
+        <param name="name"><span data-ttu-id="400c2-111">Имя папки календаря, к которой необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="400c2-111">The name of the calendar folder to bind to.</span></span></param>
+        <summary><span data-ttu-id="400c2-112">Выполняет присоединение к существующей папке календаря и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="400c2-112">Binds to an existing calendar folder and loads its first class properties.</span></span> <span data-ttu-id="400c2-113">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="400c2-113">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="400c2-114">Экземпляр класса Календарфолдер, представляющий папку календаря с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="400c2-114">An instance of the CalendarFolder class that represents the calendar folder with the specified name.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,40 +108,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="d88ce-115">Служба должна использовать для привязки к папке календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-115">The service to use to bind to the calendar folder.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="d88ce-116">Идентификатор папки календаря для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-116">The ID of the calendar folder to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="d88ce-117">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-117">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d88ce-118">Выполняет привязку к существующей папке календаря и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-118">Binds to an existing calendar folder and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="d88ce-119">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-119">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d88ce-120">Экземпляр CalendarFolder, который представляет в папке календаря, соответствующий указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-120">A CalendarFolder instance that represents the calendar folder that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="400c2-115">Служба, используемая для связывания с папкой календаря.</span><span class="sxs-lookup"><span data-stu-id="400c2-115">The service to use to bind to the calendar folder.</span></span></param>
+        <param name="id"><span data-ttu-id="400c2-116">Идентификатор папки календаря, к которой требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="400c2-116">The ID of the calendar folder to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="400c2-117">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="400c2-117">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="400c2-118">Выполняет присоединение к существующей папке календаря и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="400c2-118">Binds to an existing calendar folder and loads the specified set of properties.</span></span> <span data-ttu-id="400c2-119">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="400c2-119">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="400c2-120">Экземпляр Календарфолдер, представляющий папку календаря, соответствующую указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="400c2-120">A CalendarFolder instance that represents the calendar folder that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -239,40 +135,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="d88ce-121">Служба должна использовать для привязки к папке календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-121">The service to use to bind to the calendar folder.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="d88ce-122">Имя папки календаря для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-122">The name of the calendar folder to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="d88ce-123">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-123">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d88ce-124">Выполняет привязку к существующей папке календаря и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-124">Binds to an existing calendar folder and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="d88ce-125">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-125">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d88ce-126">Экземпляр класса CalendarFolder, который представляет папки календаря с указанным именем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-126">An instance of the CalendarFolder class that represents the calendar folder with the specified name.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="400c2-121">Служба, используемая для связывания с папкой календаря.</span><span class="sxs-lookup"><span data-stu-id="400c2-121">The service to use to bind to the calendar folder.</span></span></param>
+        <param name="name"><span data-ttu-id="400c2-122">Имя папки календаря, к которой необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="400c2-122">The name of the calendar folder to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="400c2-123">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="400c2-123">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="400c2-124">Выполняет присоединение к существующей папке календаря и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="400c2-124">Binds to an existing calendar folder and loads the specified set of properties.</span></span> <span data-ttu-id="400c2-125">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="400c2-125">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="400c2-126">Экземпляр класса Календарфолдер, представляющий папку календаря с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="400c2-126">An instance of the CalendarFolder class that represents the calendar folder with the specified name.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -294,28 +161,9 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.CalendarView" />
       </Parameters>
       <Docs>
-        <param name="view">
-          <span data-ttu-id="d88ce-127">Представление, определяющее диапазон встречи, которые возвращаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-127">The view that controls the range of appointments that are returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d88ce-128">Получает список встреч, поиск содержимого папки и для выполнения повторения расширения для повторяющихся встреч.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-128">Obtains a list of appointments by searching the contents of this folder and performing recurrence expansion for recurring appointments.</span>
-          </span>
-          <span data-ttu-id="d88ce-129">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-129">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d88ce-130">Объект, который представляет результаты операции поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d88ce-130">An object that represents the results of the search operation.</span>
-          </span>
-        </returns>
+        <param name="view"><span data-ttu-id="400c2-127">Представление, управляющее диапазоном возвращаемых встреч.</span><span class="sxs-lookup"><span data-stu-id="400c2-127">The view that controls the range of appointments that are returned.</span></span></param>
+        <summary><span data-ttu-id="400c2-128">Получает список встреч, выполняя поиск по содержимому этой папки и выполняет расширение повторений для повторяющихся встреч.</span><span class="sxs-lookup"><span data-stu-id="400c2-128">Obtains a list of appointments by searching the contents of this folder and performing recurrence expansion for recurring appointments.</span></span> <span data-ttu-id="400c2-129">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="400c2-129">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="400c2-130">Объект, представляющий результаты операции поиска.</span><span class="sxs-lookup"><span data-stu-id="400c2-130">An object that represents the results of the search operation.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

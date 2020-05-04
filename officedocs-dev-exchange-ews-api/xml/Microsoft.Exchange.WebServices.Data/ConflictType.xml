@@ -1,13 +1,5 @@
 <Type Name="ConflictType" FullName="Microsoft.Exchange.WebServices.Data.ConflictType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c7964a586d6d931701a03830bd5aacca17c05efd" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626738" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ConflictType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c7964a586d6d931701a03830bd5aacca17c05efd" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626738" /></Metadata><TypeSignature Language="C#" Value="public enum ConflictType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConflictType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConflictType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConflictType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="29ff7-101">Определяет типы конфликтов, которые могут быть возвращены в собрание предложений по времени.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="29ff7-101">Defines the conflict types that can be returned in meeting time suggestions.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="34408-101">Определяет типы конфликтов, которые могут быть возвращены в предложениях по времени собраний.</span><span class="sxs-lookup"><span data-stu-id="34408-101">Defines the conflict types that can be returned in meeting time suggestions.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29ff7-102">Имеется конфликт с по крайней мере один член группы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29ff7-102">There is a conflict with at least one member of a group.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="34408-102">Существует конфликт по крайней мере с одним участником группы.</span><span class="sxs-lookup"><span data-stu-id="34408-102">There is a conflict with at least one member of a group.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="GroupTooBigConflict">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29ff7-103">Конфликт с по крайней мере один член группы, но группе слишком велик для возвращения сведений отдельного конфликта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29ff7-103">There is a conflict with at least one member of a group, but the group is too large to return individual conflict information.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="34408-103">Конфликт по крайней мере с одним участником группы, но группа слишком велика для возврата сведений о конфликтах.</span><span class="sxs-lookup"><span data-stu-id="34408-103">There is a conflict with at least one member of a group, but the group is too large to return individual conflict information.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="IndividualAttendeeConflict">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29ff7-104">Имеется конфликт с отдельными участниками.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29ff7-104">There is a conflict with an individual attendee.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="34408-104">Существует конфликт с отдельным участником.</span><span class="sxs-lookup"><span data-stu-id="34408-104">There is a conflict with an individual attendee.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="UnknownAttendeeConflict">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29ff7-105">Конфликт с неразрешимые участником на участника, который не является физическим, группы или контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29ff7-105">There is a conflict with an unresolvable attendee, on an attendee that is not an individual, group, or contact.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="34408-105">Возник конфликт с неразрешимым участником, который не является отдельным участником, группой или контактом.</span><span class="sxs-lookup"><span data-stu-id="34408-105">There is a conflict with an unresolvable attendee, on an attendee that is not an individual, group, or contact.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="TasksFolder" FullName="Microsoft.Exchange.WebServices.Data.TasksFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="80d8fffb6f9b29aa5fe9a18298e2acd88a4ef76c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626933" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class TasksFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80d8fffb6f9b29aa5fe9a18298e2acd88a4ef76c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626933" /></Metadata><TypeSignature Language="C#" Value="public class TasksFolder : Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TasksFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TasksFolder" />
   <TypeSignature Language="VB.NET" Value="Public Class TasksFolder&#xA;Inherits Folder" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="cde9d-101">Представляет папку, содержащую элементы задачи.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cde9d-101">Represents a folder containing task items.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="13107-101">Представляет папку, содержащую элементы задачи.</span><span class="sxs-lookup"><span data-stu-id="13107-101">Represents a folder containing task items.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,22 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="cde9d-102">Объект ExchangeService, к которому будет привязан папки задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-102">The ExchangeService object to which the tasks folder will be bound.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cde9d-103">Инициализирует несохраненные локальный экземпляр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-103">Initializes an unsaved local instance of.</span>
-          </span>
-          <span data-ttu-id="cde9d-104">Для привязки к существующей папке задачи, вместо этого используйте TasksFolder.Bind().</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-104">To bind to an existing tasks folder, use TasksFolder.Bind() instead.</span>
-          </span>
-        </summary>
+        <param name="service"><span data-ttu-id="13107-102">Объект ExchangeService, с которым будет связана папка "задачи".</span><span class="sxs-lookup"><span data-stu-id="13107-102">The ExchangeService object to which the tasks folder will be bound.</span></span></param>
+        <summary><span data-ttu-id="13107-103">Инициализирует несохраненный локальный экземпляр.</span><span class="sxs-lookup"><span data-stu-id="13107-103">Initializes an unsaved local instance of.</span></span> <span data-ttu-id="13107-104">Чтобы выполнить присоединение к существующей папке Tasks, используйте Тасксфолдер. bind ().</span><span class="sxs-lookup"><span data-stu-id="13107-104">To bind to an existing tasks folder, use TasksFolder.Bind() instead.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,34 +56,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="cde9d-105">Служба должна использовать для привязки к папке задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-105">The service to use to bind to the tasks folder.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="cde9d-106">Идентификатор папки задач для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-106">The Id of the tasks folder to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cde9d-107">Выполняет привязку к существующей папке задачи и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-107">Binds to an existing tasks folder and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="cde9d-108">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-108">Calling this method results in a call to EWS.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cde9d-109">Экземпляр TasksFolder, предоставляющий папку задач, в соответствии с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-109">A TasksFolder instance representing the task folder corresponding to the specified Id.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="13107-105">Служба, используемая для связывания с папкой Tasks.</span><span class="sxs-lookup"><span data-stu-id="13107-105">The service to use to bind to the tasks folder.</span></span></param>
+        <param name="id"><span data-ttu-id="13107-106">Идентификатор папки Tasks, к которой необходимо выполнить присоединение.</span><span class="sxs-lookup"><span data-stu-id="13107-106">The Id of the tasks folder to bind to.</span></span></param>
+        <summary><span data-ttu-id="13107-107">Выполняет присоединение к существующей папке Tasks и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="13107-107">Binds to an existing tasks folder and loads its first class properties.</span></span>            <span data-ttu-id="13107-108">Вызов этого метода приводит к вызову EWS.</span><span class="sxs-lookup"><span data-stu-id="13107-108">Calling this method results in a call to EWS.</span></span></summary>
+        <returns><span data-ttu-id="13107-109">Экземпляр Тасксфолдер, представляющий папку задач, соответствующую указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="13107-109">A TasksFolder instance representing the task folder corresponding to the specified Id.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -133,34 +82,10 @@
         <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="cde9d-110">Служба должна использовать для привязки к папке задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-110">The service to use to bind to the tasks folder.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="cde9d-111">Имя папки задач для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-111">The name of the tasks folder to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cde9d-112">Выполняет привязку к существующей папке задачи и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-112">Binds to an existing tasks folder and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="cde9d-113">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-113">Calling this method results in a call to EWS.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cde9d-114">Экземпляр TasksFolder, представляющее папки задач с указанным именем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-114">A TasksFolder instance representing the tasks folder with the specified name.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="13107-110">Служба, используемая для связывания с папкой Tasks.</span><span class="sxs-lookup"><span data-stu-id="13107-110">The service to use to bind to the tasks folder.</span></span></param>
+        <param name="name"><span data-ttu-id="13107-111">Имя папки Tasks, к которой необходимо выполнить присоединение.</span><span class="sxs-lookup"><span data-stu-id="13107-111">The name of the tasks folder to bind to.</span></span></param>
+        <summary><span data-ttu-id="13107-112">Выполняет присоединение к существующей папке Tasks и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="13107-112">Binds to an existing tasks folder and loads its first class properties.</span></span>            <span data-ttu-id="13107-113">Вызов этого метода приводит к вызову EWS.</span><span class="sxs-lookup"><span data-stu-id="13107-113">Calling this method results in a call to EWS.</span></span></summary>
+        <returns><span data-ttu-id="13107-114">Экземпляр Тасксфолдер, представляющий папку Tasks с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="13107-114">A TasksFolder instance representing the tasks folder with the specified name.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,40 +108,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="cde9d-115">Служба должна использовать для привязки к папке задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-115">The service to use to bind to the tasks folder.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="cde9d-116">Идентификатор папки задач для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-116">The Id of the tasks folder to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="cde9d-117">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-117">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cde9d-118">Выполняет привязку к существующей папке задачи и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-118">Binds to an existing tasks folder and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="cde9d-119">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-119">Calling this method results in a call to EWS.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cde9d-120">Экземпляр TasksFolder, предоставляющий папку задач, в соответствии с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-120">A TasksFolder instance representing the task folder corresponding to the specified Id.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="13107-115">Служба, используемая для связывания с папкой Tasks.</span><span class="sxs-lookup"><span data-stu-id="13107-115">The service to use to bind to the tasks folder.</span></span></param>
+        <param name="id"><span data-ttu-id="13107-116">Идентификатор папки Tasks, к которой необходимо выполнить присоединение.</span><span class="sxs-lookup"><span data-stu-id="13107-116">The Id of the tasks folder to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="13107-117">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="13107-117">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="13107-118">Выполняет присоединение к существующей папке Tasks и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="13107-118">Binds to an existing tasks folder and loads the specified set of properties.</span></span>            <span data-ttu-id="13107-119">Вызов этого метода приводит к вызову EWS.</span><span class="sxs-lookup"><span data-stu-id="13107-119">Calling this method results in a call to EWS.</span></span></summary>
+        <returns><span data-ttu-id="13107-120">Экземпляр Тасксфолдер, представляющий папку задач, соответствующую указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="13107-120">A TasksFolder instance representing the task folder corresponding to the specified Id.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -239,40 +135,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="cde9d-121">Служба должна использовать для привязки к папке задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-121">The service to use to bind to the tasks folder.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="cde9d-122">Имя папки задач для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-122">The name of the tasks folder to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="cde9d-123">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-123">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cde9d-124">Выполняет привязку к существующей папке задачи и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-124">Binds to an existing tasks folder and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="cde9d-125">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-125">Calling this method results in a call to EWS.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cde9d-126">Экземпляр TasksFolder, представляющее папки задач с указанным именем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cde9d-126">A TasksFolder instance representing the tasks folder with the specified name.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="13107-121">Служба, используемая для связывания с папкой Tasks.</span><span class="sxs-lookup"><span data-stu-id="13107-121">The service to use to bind to the tasks folder.</span></span></param>
+        <param name="name"><span data-ttu-id="13107-122">Имя папки Tasks, к которой необходимо выполнить присоединение.</span><span class="sxs-lookup"><span data-stu-id="13107-122">The name of the tasks folder to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="13107-123">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="13107-123">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="13107-124">Выполняет присоединение к существующей папке Tasks и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="13107-124">Binds to an existing tasks folder and loads the specified set of properties.</span></span>            <span data-ttu-id="13107-125">Вызов этого метода приводит к вызову EWS.</span><span class="sxs-lookup"><span data-stu-id="13107-125">Calling this method results in a call to EWS.</span></span></summary>
+        <returns><span data-ttu-id="13107-126">Экземпляр Тасксфолдер, представляющий папку Tasks с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="13107-126">A TasksFolder instance representing the tasks folder with the specified name.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

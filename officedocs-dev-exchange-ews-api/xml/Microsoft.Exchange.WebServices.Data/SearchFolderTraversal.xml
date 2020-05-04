@@ -1,13 +1,5 @@
 <Type Name="SearchFolderTraversal" FullName="Microsoft.Exchange.WebServices.Data.SearchFolderTraversal">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="18d4215b18b116bf62aeb9abd4e4adbb81fca680" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627398" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SearchFolderTraversal" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="18d4215b18b116bf62aeb9abd4e4adbb81fca680" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627398" /></Metadata><TypeSignature Language="C#" Value="public enum SearchFolderTraversal" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchFolderTraversal extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFolderTraversal" />
   <TypeSignature Language="VB.NET" Value="Public Enum SearchFolderTraversal" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="f36c8-101">Определяет число уровней элементов, которые извлекаются папки поиска.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f36c8-101">Defines the depth of the items that are retrieved by a search folder.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="de689-101">Определяет глубину элементов, извлекаемых папкой поиска.</span><span class="sxs-lookup"><span data-stu-id="de689-101">Defines the depth of the items that are retrieved by a search folder.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f36c8-102">Загрузки элементов, относящихся к корневой папки и вложенные в нее папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f36c8-102">Items that belong to the root folder and its subfolders are retrieved.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de689-102">Извлекаются элементы, принадлежащие корневой папке и вложенным папкам.</span><span class="sxs-lookup"><span data-stu-id="de689-102">Items that belong to the root folder and its subfolders are retrieved.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Shallow">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f36c8-103">Загрузки элементов, относящихся к в корневой папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f36c8-103">Items that belong to the root folder are retrieved.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de689-103">Извлекаются элементы, принадлежащие корневой папке.</span><span class="sxs-lookup"><span data-stu-id="de689-103">Items that belong to the root folder are retrieved.</span></span></summary>
       </Docs>
     </Member>
   </Members>

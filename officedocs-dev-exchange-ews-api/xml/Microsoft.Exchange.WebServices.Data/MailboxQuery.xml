@@ -1,13 +1,5 @@
 <Type Name="MailboxQuery" FullName="Microsoft.Exchange.WebServices.Data.MailboxQuery">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="302a67edc2417f181ae21b53461b35d2470d1ffa" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626711" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MailboxQuery" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="302a67edc2417f181ae21b53461b35d2470d1ffa" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626711" /></Metadata><TypeSignature Language="C#" Value="public sealed class MailboxQuery" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxQuery extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxQuery" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="adc2d-101">Содержит запрос поиска для поиска обнаружения электронных данных.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="adc2d-101">Contains a search query for an eDiscovery search.</span>
-      </span>
-      <span data-ttu-id="adc2d-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="adc2d-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="41f9a-101">Содержит поисковый запрос для поиска обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="41f9a-101">Contains a search query for an eDiscovery search.</span></span>             <span data-ttu-id="41f9a-102"><see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="41f9a-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -51,29 +33,9 @@
         <Parameter Name="searchScopes" Type="Microsoft.Exchange.WebServices.Data.MailboxSearchScope[]" />
       </Parameters>
       <Docs>
-        <param name="query">
-          <span data-ttu-id="adc2d-103">Поисковые запросы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-103">The search query.</span>
-          </span>
-        </param>
-        <param name="searchScopes">
-          <span data-ttu-id="adc2d-104">Коллекция конечного почтовые ящики с их типы расположение почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-104">A collection of target mailboxes with their associated mailbox location types.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="adc2d-105">Создает новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-105">Creates a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> class.</span>
-          </span>
-          <span data-ttu-id="adc2d-106">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-106">The <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="query"><span data-ttu-id="41f9a-103">Поисковый запрос.</span><span class="sxs-lookup"><span data-stu-id="41f9a-103">The search query.</span></span></param>
+        <param name="searchScopes"><span data-ttu-id="41f9a-104">Коллекция целевых почтовых ящиков со связанными типами расположений почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="41f9a-104">A collection of target mailboxes with their associated mailbox location types.</span></span></param>
+        <summary><span data-ttu-id="41f9a-105">Создает новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> класса.</span><span class="sxs-lookup"><span data-stu-id="41f9a-105">Creates a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> class.</span></span>             <span data-ttu-id="41f9a-106"><see cref="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="41f9a-106">The <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -92,23 +54,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchScope[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="adc2d-107">Получает или задает коллекцию конечного почтовые ящики с их типы расположение почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-107">Gets or sets the collection of target mailboxes with their associated mailbox location types.</span>
-          </span>
-          <span data-ttu-id="adc2d-108">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-108">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="adc2d-109">Коллекция почтовых ящиков и их тип расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-109">The collection of mailboxes and their location type.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="41f9a-107">Получает или задает коллекцию целевых почтовых ящиков со связанными типами расположений почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="41f9a-107">Gets or sets the collection of target mailboxes with their associated mailbox location types.</span></span>             <span data-ttu-id="41f9a-108"><see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="41f9a-108">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="41f9a-109">Коллекция почтовых ящиков и их тип расположения.</span><span class="sxs-lookup"><span data-stu-id="41f9a-109">The collection of mailboxes and their location type.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,23 +74,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="adc2d-110">Получает или задает запрос, используемый для для поиска обнаружения электронных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-110">Gets or sets the query used to for an eDiscovery search.</span>
-          </span>
-          <span data-ttu-id="adc2d-111">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-111">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="adc2d-112">Поисковые запросы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="adc2d-112">The search query.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="41f9a-110">Получает или задает запрос, используемый для поиска с обнаружением электронных данных.</span><span class="sxs-lookup"><span data-stu-id="41f9a-110">Gets or sets the query used to for an eDiscovery search.</span></span>              <span data-ttu-id="41f9a-111"><see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="41f9a-111">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="41f9a-112">Поисковый запрос.</span><span class="sxs-lookup"><span data-stu-id="41f9a-112">The search query.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

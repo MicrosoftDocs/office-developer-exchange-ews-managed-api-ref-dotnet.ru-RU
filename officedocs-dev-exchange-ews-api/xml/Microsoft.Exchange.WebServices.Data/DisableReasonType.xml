@@ -1,13 +1,5 @@
 <Type Name="DisableReasonType" FullName="Microsoft.Exchange.WebServices.Data.DisableReasonType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fb0aeb88c49b4467b67933ff3ffb0ed75f76fb64" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626583" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum DisableReasonType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fb0aeb88c49b4467b67933ff3ffb0ed75f76fb64" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626583" /></Metadata><TypeSignature Language="C#" Value="public enum DisableReasonType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DisableReasonType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DisableReasonType" />
   <TypeSignature Language="VB.NET" Value="Public Enum DisableReasonType" />
@@ -20,17 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="4fd62-101">Указывает, что отключается причине данное расширение имени файла.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4fd62-101">Indicates the reason the extension is being disabled.</span>
-      </span>
-      <span data-ttu-id="4fd62-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.DisableReasonType" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4fd62-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.DisableReasonType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="835bd-101">Указывает причину отключения расширения.</span><span class="sxs-lookup"><span data-stu-id="835bd-101">Indicates the reason the extension is being disabled.</span></span>            <span data-ttu-id="835bd-102"><see cref="T:Microsoft.Exchange.WebServices.Data.DisableReasonType" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="835bd-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.DisableReasonType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,16 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4fd62-103">Disabled мобильный Outlook Web App для повышения производительности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4fd62-103">Disabled from Mobile Outlook Web App for performance reasons.</span>
-          </span>
-          <span data-ttu-id="4fd62-104">В поле MobileClientPerformance используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4fd62-104">The MobileClientPerformance field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="835bd-103">Отключено от мобильного Outlook Web App по соображениям производительности.</span><span class="sxs-lookup"><span data-stu-id="835bd-103">Disabled from Mobile Outlook Web App for performance reasons.</span></span>             <span data-ttu-id="835bd-104">Поле Мобилеклиентперформанце применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="835bd-104">The MobileClientPerformance field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="NoReason">
@@ -78,16 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4fd62-105">Отключено с нет причин.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4fd62-105">Disabled with no reason.</span>
-          </span>
-          <span data-ttu-id="4fd62-106">В поле NoReason используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4fd62-106">The NoReason field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="835bd-105">Отключено без причин.</span><span class="sxs-lookup"><span data-stu-id="835bd-105">Disabled with no reason.</span></span>            <span data-ttu-id="835bd-106">Поле "причина" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="835bd-106">The NoReason field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="OutlookClientPerformance">
@@ -106,16 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4fd62-107">Отключено из Outlook в целях повышения производительности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4fd62-107">Disabled from Outlook for performance reasons.</span>
-          </span>
-          <span data-ttu-id="4fd62-108">В поле OutlookClientPerformance используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4fd62-108">The OutlookClientPerformance field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="835bd-107">Отключение из Outlook по соображениям производительности.</span><span class="sxs-lookup"><span data-stu-id="835bd-107">Disabled from Outlook for performance reasons.</span></span>             <span data-ttu-id="835bd-108">Поле Аутлукклиентперформанце применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="835bd-108">The OutlookClientPerformance field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="OWAClientPerformance">
@@ -134,16 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4fd62-109">Отключено из Outlook Web Access в целях повышения производительности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4fd62-109">Disabled from Outlook Web Access for performance reasons.</span>
-          </span>
-          <span data-ttu-id="4fd62-110">В поле OWAClientPerformance используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4fd62-110">The OWAClientPerformance field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="835bd-109">Отключение из Outlook Web Access из соображений производительности.</span><span class="sxs-lookup"><span data-stu-id="835bd-109">Disabled from Outlook Web Access for performance reasons.</span></span>             <span data-ttu-id="835bd-110">Поле Оваклиентперформанце применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="835bd-110">The OWAClientPerformance field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

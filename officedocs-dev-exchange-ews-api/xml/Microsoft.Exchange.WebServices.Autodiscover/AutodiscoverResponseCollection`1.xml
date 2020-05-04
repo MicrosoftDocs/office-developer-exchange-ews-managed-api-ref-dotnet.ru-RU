@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverResponseCollection&lt;TResponse&gt;" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection&lt;TResponse&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bc0e633563f95ffe1d14f66be73b0f849146eb1b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626729" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class AutodiscoverResponseCollection&lt;TResponse&gt; : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse, System.Collections.Generic.IEnumerable&lt;TResponse&gt; where TResponse : AutodiscoverResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bc0e633563f95ffe1d14f66be73b0f849146eb1b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626729" /></Metadata><TypeSignature Language="C#" Value="public abstract class AutodiscoverResponseCollection&lt;TResponse&gt; : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse, System.Collections.Generic.IEnumerable&lt;TResponse&gt; where TResponse : AutodiscoverResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AutodiscoverResponseCollection`1&lt;(class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse) TResponse&gt; extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse implements class System.Collections.Generic.IEnumerable`1&lt;!TResponse&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class AutodiscoverResponseCollection(Of TResponse)&#xA;Inherits AutodiscoverResponse&#xA;Implements IEnumerable(Of TResponse)" />
@@ -32,18 +24,8 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <typeparam name="TResponse">
-      <span data-ttu-id="ec875-101">Тип ответов в коллекции.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ec875-101">The type of the responses in the collection.</span>
-      </span>
-    </typeparam>
-    <summary>
-      <span data-ttu-id="ec875-102">Содержит коллекцию ответов на вызов для службы автообнаружения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ec875-102">Contains a collection of responses to a call to the Autodiscover service.</span>
-      </span>
-    </summary>
+    <typeparam name="TResponse"><span data-ttu-id="33339-101">Тип ответов в коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-101">The type of the responses in the collection.</span></span></typeparam>
+    <summary><span data-ttu-id="33339-102">Содержит коллекцию ответов на вызов службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="33339-102">Contains a collection of responses to a call to the Autodiscover service.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -62,18 +44,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec875-103">Возвращает количество ответов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-103">Gets the number of responses in the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ec875-104">Число объектов ответа в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-104">The number of response objects in the collection.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="33339-103">Получает число ответов в коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-103">Gets the number of responses in the collection.</span></span></summary>
+        <value><span data-ttu-id="33339-104">Число объектов Response в коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-104">The number of response objects in the collection.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,18 +68,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ec875-105">Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-105">Returns an enumerator that enables you to iterate through the objects in the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="ec875-106">Перечислитель, который можно использовать для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-106">An enumerator that can be used to iterate through the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="33339-105">Возвращает перечислитель, который позволяет перебирать объекты в коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-105">Returns an enumerator that enables you to iterate through the objects in the collection.</span></span></summary>
+        <returns><span data-ttu-id="33339-106">Перечислитель, который можно использовать для итерации по коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-106">An enumerator that can be used to iterate through the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -129,36 +91,12 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="ec875-107">Отсчитываемый от нуля индекс возвращаемого объекта ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-107">The zero-based index of the Response object to get.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ec875-108">Получает ответ по указанному индексу в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-108">Gets the response at the specified index in the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ec875-109">Ответ по указанному индексу в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-109">The response at the specified index in the collection.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="ec875-110">
-            <para>Свойство Item(System.Int32) позволяет получить определенный <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" /> в коллекции. Если вы хотите перечисления коллекции, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" /> метод обычным способом.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-110">
-              <para>The Item(System.Int32) property enables you to retrieve a specific <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" /> in the collection. If you want to enumerate the collection, you can use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" /> method in the standard way.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="index"><span data-ttu-id="33339-107">Отсчитываемый от нуля индекс получаемого объекта ответа.</span><span class="sxs-lookup"><span data-stu-id="33339-107">The zero-based index of the Response object to get.</span></span></param>
+        <summary><span data-ttu-id="33339-108">Получает ответ по указанному индексу в коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-108">Gets the response at the specified index in the collection.</span></span></summary>
+        <value><span data-ttu-id="33339-109">Отклик по указанному индексу в коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-109">The response at the specified index in the collection.</span></span></value>
+        <remarks><span data-ttu-id="33339-110"><para>Свойство Item (System. Int32) позволяет получить конкретное <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" /> значение в коллекции. Если вы хотите перечислить коллекцию, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" /> метод стандартным способом.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="33339-110"><para>The Item(System.Int32) property enables you to retrieve a specific <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" /> in the collection. If you want to enumerate the collection, you can use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" /> method in the standard way.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
@@ -180,23 +118,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ec875-111">Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-111">Returns an enumerator that enables you to iterate through the objects in the collection.</span>
-          </span>
-          <span data-ttu-id="ec875-112">
-            <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-112">The <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="ec875-113">Перечислитель, который можно использовать для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec875-113">An enumerator that can be used to iterate through the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="33339-111">Возвращает перечислитель, который позволяет перебирать объекты в коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-111">Returns an enumerator that enables you to iterate through the objects in the collection.</span></span> <span data-ttu-id="33339-112">Этот <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="33339-112">The <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="33339-113">Перечислитель, который можно использовать для итерации по коллекции.</span><span class="sxs-lookup"><span data-stu-id="33339-113">An enumerator that can be used to iterate through the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

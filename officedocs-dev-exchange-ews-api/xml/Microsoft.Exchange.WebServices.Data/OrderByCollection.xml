@@ -1,13 +1,5 @@
 <Type Name="OrderByCollection" FullName="Microsoft.Exchange.WebServices.Data.OrderByCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a08b639bc5e26e58d1790b0cd1674b6536d18342" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626911" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class OrderByCollection : System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.SortDirection&gt;&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a08b639bc5e26e58d1790b0cd1674b6536d18342" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626911" /></Metadata><TypeSignature Language="C#" Value="public sealed class OrderByCollection : System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.SortDirection&gt;&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OrderByCollection extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase, valuetype Microsoft.Exchange.WebServices.Data.SortDirection&gt;&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OrderByCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OrderByCollection&#xA;Implements IEnumerable(Of KeyValuePair(Of PropertyDefinitionBase, SortDirection))" />
@@ -25,12 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-      <span data-ttu-id="9a566-101">Представляет упорядоченную коллекцию определений свойств, которые указаны с направление сортировки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9a566-101">Represents an ordered collection of property definitions that are qualified with a sort direction.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="330a9-101">Представляет упорядоченную коллекцию определений свойств, которые определены в соответствии с направлением сортировки.</span><span class="sxs-lookup"><span data-stu-id="330a9-101">Represents an ordered collection of property definitions that are qualified with a sort direction.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,24 +39,9 @@
         <Parameter Name="sortDirection" Type="Microsoft.Exchange.WebServices.Data.SortDirection" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">
-          <span data-ttu-id="9a566-102">Определение свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-102">The property definition.</span>
-          </span>
-        </param>
-        <param name="sortDirection">
-          <span data-ttu-id="9a566-103">Порядок сортировки по возрастанию или убыванию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-103">A sort order of either ascending or descending.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9a566-104">Добавляет в коллекцию пару направление определения/сортировки указанного свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-104">Adds the specified property definition/sort direction pair to the collection.</span>
-          </span>
-        </summary>
+        <param name="propertyDefinition"><span data-ttu-id="330a9-102">Определение свойства.</span><span class="sxs-lookup"><span data-stu-id="330a9-102">The property definition.</span></span></param>
+        <param name="sortDirection"><span data-ttu-id="330a9-103">Порядок сортировки: по возрастанию или по убыванию.</span><span class="sxs-lookup"><span data-stu-id="330a9-103">A sort order of either ascending or descending.</span></span></param>
+        <summary><span data-ttu-id="330a9-104">Добавляет указанную комбинацию определения и сортировки свойств в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="330a9-104">Adds the specified property definition/sort direction pair to the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -89,12 +61,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9a566-105">Удаляет все элементы из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-105">Removes all elements from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="330a9-105">Удаляет все элементы из коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-105">Removes all elements from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,18 +80,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9a566-106">Возвращает число элементов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-106">Gets the number of items in the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9a566-107">Количество элементов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-107">The number of items in the collection.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="330a9-106">Возвращает число элементов в коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-106">Gets the number of items in the collection.</span></span></summary>
+        <value><span data-ttu-id="330a9-107">Число элементов в коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-107">The number of items in the collection.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -147,18 +104,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9a566-108">Получает перечислитель, который можно использовать для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-108">Gets an enumerator that can be used to iterate through the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9a566-109">Перечислитель, который можно использовать для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-109">An enumerator that can be used to iterate through the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="330a9-108">Получает перечислитель, который можно использовать для итерации по коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-108">Gets an enumerator that can be used to iterate through the collection.</span></span></summary>
+        <returns><span data-ttu-id="330a9-109">Перечислитель, который можно использовать для итерации по коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-109">An enumerator that can be used to iterate through the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -180,24 +127,9 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="9a566-110">Индекс определения свойства, которое требуется вернуть.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-110">The index of the property definition to return.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9a566-111">Получает определение свойства по указанному индексу в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-111">Gets the property definition at the specified index in the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9a566-112">Свойство определения и порядок сортировки по указанному индексу в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-112">The property definition and sort order at the specified index in the collection.</span>
-          </span>
-        </value>
+        <param name="index"><span data-ttu-id="330a9-110">Индекс возвращаемого определения свойства.</span><span class="sxs-lookup"><span data-stu-id="330a9-110">The index of the property definition to return.</span></span></param>
+        <summary><span data-ttu-id="330a9-111">Получает определение свойства по указанному индексу в коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-111">Gets the property definition at the specified index in the collection.</span></span></summary>
+        <value><span data-ttu-id="330a9-112">Определение свойства и порядок сортировки по указанному индексу в коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-112">The property definition and sort order at the specified index in the collection.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -219,26 +151,9 @@
         <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">
-          <span data-ttu-id="9a566-113">В определении свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-113">The property definition to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9a566-114">Удаляет определение указанное свойство из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-114">Removes the specified property definition from the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9a566-115">
-            <b>значение true,</b> Если был удален в определении свойств; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-115">
-              <b>true</b> if the property definition was removed; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="propertyDefinition"><span data-ttu-id="330a9-113">Определение свойства, которое требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="330a9-113">The property definition to remove.</span></span></param>
+        <summary><span data-ttu-id="330a9-114">Удаляет указанное определение свойства из коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-114">Removes the specified property definition from the collection.</span></span></summary>
+        <returns><span data-ttu-id="330a9-115"><b>значение true</b> , если определение свойства удалено; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="330a9-115"><b>true</b> if the property definition was removed; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -260,18 +175,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="9a566-116">Отсчитываемый от нуля индекс определения свойства, которое требуется удалить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-116">The zero-based index of the property definition to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9a566-117">Удаляет определение свойства по указанному индексу из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-117">Removes the property definition at the specified index from the collection.</span>
-          </span>
-        </summary>
+        <param name="index"><span data-ttu-id="330a9-116">Отсчитываемый от нуля индекс определения свойства, которое требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="330a9-116">The zero-based index of the property definition to remove.</span></span></param>
+        <summary><span data-ttu-id="330a9-117">Удаляет определение свойства по указанному индексу из коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-117">Removes the property definition at the specified index from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -294,23 +199,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9a566-118">Возвращает перечислитель, который выполняет итерацию по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-118">Returns an enumerator that iterates through a collection.</span>
-          </span>
-          <span data-ttu-id="9a566-119">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.OrderByCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-119">The <see cref="M:Microsoft.Exchange.WebServices.Data.OrderByCollection.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9a566-120">Перечислитель для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-120">An enumerator that iterates through a collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="330a9-118">Возвращает перечислитель, который выполняет итерацию по коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-118">Returns an enumerator that iterates through a collection.</span></span>             <span data-ttu-id="330a9-119">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.OrderByCollection.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="330a9-119">The <see cref="M:Microsoft.Exchange.WebServices.Data.OrderByCollection.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="330a9-120">Перечислитель, который выполняет итерацию по коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-120">An enumerator that iterates through a collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -333,39 +223,10 @@
         <Parameter Name="sortDirection" Type="Microsoft.Exchange.WebServices.Data.SortDirection&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">
-          <span data-ttu-id="9a566-121">Определение свойства для получения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-121">The property definition to get.</span>
-          </span>
-        </param>
-        <param name="sortDirection">
-          <span data-ttu-id="9a566-122">Направление сортировки для свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-122">The sort direction for the property.</span>
-          </span>
-          <span data-ttu-id="9a566-123">Если в определении свойств не найден, этот параметр является пустая ссылка (Nothing в Visual Basic).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-123">If the property definition is not found, this parameter is a null reference (Nothing in Visual Basic).</span>
-          </span>
-          <span data-ttu-id="9a566-124">Это свойство передается неинициализированную переменную.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-124">This property is passed uninitialized.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9a566-125">Возвращает определение указанное свойство из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-125">Returns the specified property definition from the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9a566-126">возвращается <b>значение true,</b> Если порядок сортировки в определении свойств; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9a566-126">
-              <b>true</b> if the property definition sort order is returned; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="propertyDefinition"><span data-ttu-id="330a9-121">Определение свойства, которое требуется получить.</span><span class="sxs-lookup"><span data-stu-id="330a9-121">The property definition to get.</span></span></param>
+        <param name="sortDirection"><span data-ttu-id="330a9-122">Направление сортировки для свойства.</span><span class="sxs-lookup"><span data-stu-id="330a9-122">The sort direction for the property.</span></span> <span data-ttu-id="330a9-123">Если определение свойства не найдено, этот параметр является пустой ссылкой (Nothing в Visual Basic).</span><span class="sxs-lookup"><span data-stu-id="330a9-123">If the property definition is not found, this parameter is a null reference (Nothing in Visual Basic).</span></span> <span data-ttu-id="330a9-124">Это свойство передается неинициализированным.</span><span class="sxs-lookup"><span data-stu-id="330a9-124">This property is passed uninitialized.</span></span></param>
+        <summary><span data-ttu-id="330a9-125">Возвращает определение указанного свойства из коллекции.</span><span class="sxs-lookup"><span data-stu-id="330a9-125">Returns the specified property definition from the collection.</span></span></summary>
+        <returns><span data-ttu-id="330a9-126"><b>значение true</b> , если возвращается порядок сортировки определения свойства; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="330a9-126"><b>true</b> if the property definition sort order is returned; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

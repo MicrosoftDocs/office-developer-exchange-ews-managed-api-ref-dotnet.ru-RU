@@ -1,13 +1,5 @@
 <Type Name="RuleErrorCode" FullName="Microsoft.Exchange.WebServices.Data.RuleErrorCode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="227af534b997d9037ffedb75417c665179266c01" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626962" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum RuleErrorCode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="227af534b997d9037ffedb75417c665179266c01" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626962" /></Metadata><TypeSignature Language="C#" Value="public enum RuleErrorCode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RuleErrorCode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleErrorCode" />
   <TypeSignature Language="VB.NET" Value="Public Enum RuleErrorCode" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="91e15-101">Определяет коды ошибок, определить причину сбоя проверки правила не удалось.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="91e15-101">Defines the error codes that identify why a rule failed validation.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c567e-101">Определяет коды ошибок, указывающие, почему правило не прошло проверку.</span><span class="sxs-lookup"><span data-stu-id="c567e-101">Defines the error codes that identify why a rule failed validation.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-102">Не удалось выполнить операцию Active Directory.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-102">The Active Directory operation failed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-102">Не удалось выполнить операцию Active Directory.</span><span class="sxs-lookup"><span data-stu-id="c567e-102">The Active Directory operation failed.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ConnectedAccountNotFound">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-103">Учетная запись электронной почты, указанных в свойстве FromConnectedAccounts не найден.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-103">The e-mail account specified in the FromConnectedAccounts property was not found.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-103">Учетная запись электронной почты, указанная в свойстве Фромконнектедаккаунтс, не найдена.</span><span class="sxs-lookup"><span data-stu-id="c567e-103">The e-mail account specified in the FromConnectedAccounts property was not found.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="CreateWithRuleId">
@@ -93,16 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-104">Предпринята попытка создать правило с идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-104">You attempted to create a rule with an ID.</span>
-          </span>
-          <span data-ttu-id="91e15-105">Идентификаторы новые правила, созданные со стороны сервера и не должно быть предоставлено клиентом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-105">The IDs of new rules are generated server side and should not be provided by the client.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-104">Предпринята попытка создать правило с ИДЕНТИФИКАТОРом.</span><span class="sxs-lookup"><span data-stu-id="c567e-104">You attempted to create a rule with an ID.</span></span> <span data-ttu-id="c567e-105">Идентификаторы новых правил создаются на стороне сервера и не должны предоставляться клиентом.</span><span class="sxs-lookup"><span data-stu-id="c567e-105">The IDs of new rules are generated server side and should not be provided by the client.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="DuplicatedOperationOnTheSameRule">
@@ -121,16 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-106">Существует несколько операций с того же правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-106">There are multiple operations against the same rule.</span>
-          </span>
-          <span data-ttu-id="91e15-107">Допускается только одна операция для каждого правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-107">Only one operation per rule is allowed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-106">Для одного и того же правила существует несколько операций.</span><span class="sxs-lookup"><span data-stu-id="c567e-106">There are multiple operations against the same rule.</span></span> <span data-ttu-id="c567e-107">Разрешена только одна операция для каждого правила.</span><span class="sxs-lookup"><span data-stu-id="c567e-107">Only one operation per rule is allowed.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="DuplicatedPriority">
@@ -149,16 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-108">Существует несколько правил с одинаковым приоритетом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-108">There are multiple rules with the same priority.</span>
-          </span>
-          <span data-ttu-id="91e15-109">Приоритет может иметь только одно правило.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-109">A priority can have only one rule.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-108">Существует несколько правил с одинаковым приоритетом.</span><span class="sxs-lookup"><span data-stu-id="c567e-108">There are multiple rules with the same priority.</span></span> <span data-ttu-id="c567e-109">У приоритета может быть только одно правило.</span><span class="sxs-lookup"><span data-stu-id="c567e-109">A priority can have only one rule.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EmptyValueFound">
@@ -177,16 +127,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-110">Свойство Value будет пустым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-110">The Value property is empty.</span>
-          </span>
-          <span data-ttu-id="91e15-111">Пустые свойства Value не допускается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-111">An empty Value property is not allowed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-110">Свойство Value имеет пустое значение.</span><span class="sxs-lookup"><span data-stu-id="c567e-110">The Value property is empty.</span></span> <span data-ttu-id="c567e-111">Свойство пустое значение не разрешено.</span><span class="sxs-lookup"><span data-stu-id="c567e-111">An empty Value property is not allowed.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="FolderDoesNotExist">
@@ -205,12 +146,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-112">Папка не существует в почтовом ящике пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-112">The folder does not exist in the user's mailbox.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-112">Папка не существует в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="c567e-112">The folder does not exist in the user's mailbox.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidAddress">
@@ -229,12 +165,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-113">Указан недопустимый адрес электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-113">The e-mail address is invalid.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-113">Недопустимый адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="c567e-113">The e-mail address is invalid.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidDateRange">
@@ -253,12 +184,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-114">Диапазон дат является недопустимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-114">The date range is invalid.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-114">Недопустимый диапазон дат.</span><span class="sxs-lookup"><span data-stu-id="c567e-114">The date range is invalid.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidFolderId">
@@ -277,12 +203,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-115">Недопустимый идентификатор папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-115">The folder ID is invalid.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-115">Недопустимый идентификатор папки.</span><span class="sxs-lookup"><span data-stu-id="c567e-115">The folder ID is invalid.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidSizeRange">
@@ -301,12 +222,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-116">Размер диапазона является недопустимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-116">The size range is invalid.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-116">Недопустимый диапазон размера.</span><span class="sxs-lookup"><span data-stu-id="c567e-116">The size range is invalid.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidValue">
@@ -325,12 +241,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-117">Недопустимое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-117">The value is invalid.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-117">Недопустимое значение.</span><span class="sxs-lookup"><span data-stu-id="c567e-117">The value is invalid.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MessageClassificationNotFound">
@@ -349,12 +260,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-118">Классификация сообщений не найден.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-118">The message classification was not found.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-118">Классификация сообщений не найдена.</span><span class="sxs-lookup"><span data-stu-id="c567e-118">The message classification was not found.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MissingAction">
@@ -373,16 +279,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-119">Указан никаких действий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-119">No action was specified.</span>
-          </span>
-          <span data-ttu-id="91e15-120">Действие по крайней мере один правила должен быть указан для проверки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-120">At least one rule action must be specified for validation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-119">Действие не было указано.</span><span class="sxs-lookup"><span data-stu-id="c567e-119">No action was specified.</span></span> <span data-ttu-id="c567e-120">Для проверки необходимо указать по крайней мере одно действие Rule.</span><span class="sxs-lookup"><span data-stu-id="c567e-120">At least one rule action must be specified for validation.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MissingParameter">
@@ -401,12 +298,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-121">Отсутствует обязательный параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-121">The required parameter is missing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-121">Отсутствует обязательный параметр.</span><span class="sxs-lookup"><span data-stu-id="c567e-121">The required parameter is missing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MissingRangeValue">
@@ -425,12 +317,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-122">Отсутствует значение диапазона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-122">The range value is missing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-122">Отсутствует значение Range.</span><span class="sxs-lookup"><span data-stu-id="c567e-122">The range value is missing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="NotSettable">
@@ -449,12 +336,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-123">Свойство не может быть изменено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-123">The property cannot be modified.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-123">Свойство не может быть изменено.</span><span class="sxs-lookup"><span data-stu-id="c567e-123">The property cannot be modified.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="RecipientDoesNotExist">
@@ -473,12 +355,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-124">Получатель не существует.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-124">The recipient does not exist.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-124">Получатель не существует.</span><span class="sxs-lookup"><span data-stu-id="c567e-124">The recipient does not exist.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="RuleNotFound">
@@ -497,16 +374,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-125">Правило не найден.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-125">The rule was not found.</span>
-          </span>
-          <span data-ttu-id="91e15-126">Правила не найдено, соответствующие критериям.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-126">No rules were found that match the criteria.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-125">Правило не найдено.</span><span class="sxs-lookup"><span data-stu-id="c567e-125">The rule was not found.</span></span> <span data-ttu-id="c567e-126">Не найдены правила, которые удовлетворяют условиям.</span><span class="sxs-lookup"><span data-stu-id="c567e-126">No rules were found that match the criteria.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SizeLessThanZero">
@@ -525,12 +393,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-127">Размер меньше нуля.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-127">The size is less than zero.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-127">Размер меньше нуля.</span><span class="sxs-lookup"><span data-stu-id="c567e-127">The size is less than zero.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="StringValueTooBig">
@@ -549,12 +412,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-128">Строковое значение слишком велик.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-128">The string value is too big.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-128">Строковое значение слишком велико.</span><span class="sxs-lookup"><span data-stu-id="c567e-128">The string value is too big.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="UnexpectedError">
@@ -573,12 +431,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-129">Произошла непредвиденная ошибка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-129">An unexpected error occurred.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-129">Произошла непредвиденная ошибка.</span><span class="sxs-lookup"><span data-stu-id="c567e-129">An unexpected error occurred.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="UnsupportedAddress">
@@ -597,12 +450,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-130">Адрес не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-130">The address is unsupported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-130">Адрес не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="c567e-130">The address is unsupported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="UnsupportedRule">
@@ -621,12 +469,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="91e15-131">Правило не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="91e15-131">The rule is not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c567e-131">Правило не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="c567e-131">The rule is not supported.</span></span></summary>
       </Docs>
     </Member>
   </Members>

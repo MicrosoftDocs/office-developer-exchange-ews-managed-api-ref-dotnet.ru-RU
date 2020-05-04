@@ -1,13 +1,5 @@
 <Type Name="RuleCollection" FullName="Microsoft.Exchange.WebServices.Data.RuleCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1f5ac4bbf1e731d05a4ec8ea012a92827fc57c47" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626581" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class RuleCollection : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Rule&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1f5ac4bbf1e731d05a4ec8ea012a92827fc57c47" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626581" /></Metadata><TypeSignature Language="C#" Value="public sealed class RuleCollection : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Rule&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleCollection extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.Rule&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleCollection&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of Rule)" />
@@ -25,12 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-      <span data-ttu-id="37d6e-101">Представляет коллекцию правил.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="37d6e-101">Represents a collection of rules.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="5997f-101">Представляет коллекцию правил.</span><span class="sxs-lookup"><span data-stu-id="5997f-101">Represents a collection of rules.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,18 +36,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="37d6e-102">Получает число правил в коллекцию правил.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-102">Gets the number of rules in the rule collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="37d6e-103">Число правил в коллекцию правил.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-103">The number of rules in the rule collection.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="5997f-102">Получает количество правил в коллекции правил.</span><span class="sxs-lookup"><span data-stu-id="5997f-102">Gets the number of rules in the rule collection.</span></span></summary>
+        <value><span data-ttu-id="5997f-103">Число правил в коллекции правил.</span><span class="sxs-lookup"><span data-stu-id="5997f-103">The number of rules in the rule collection.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,18 +60,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="37d6e-104">Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-104">Returns an enumerator that enables you to iterate through the objects in the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="37d6e-105">Перечислитель, который можно использовать для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-105">An enumerator that can be used to iterate through the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="5997f-104">Возвращает перечислитель, который позволяет перебирать объекты в коллекции.</span><span class="sxs-lookup"><span data-stu-id="5997f-104">Returns an enumerator that enables you to iterate through the objects in the collection.</span></span></summary>
+        <returns><span data-ttu-id="5997f-105">Перечислитель, который можно использовать для итерации по коллекции.</span><span class="sxs-lookup"><span data-stu-id="5997f-105">An enumerator that can be used to iterate through the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,37 +83,12 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="37d6e-106">Отсчитываемый от нуля индекс правило, которое требуется получить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-106">The zero-based index of the rule to get.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="37d6e-107">Получает правила по указанному индексу в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-107">Gets the rule at the specified index in the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="37d6e-108">Правила по указанному индексу в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-108">The rule at the specified index in the collection.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="37d6e-109">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Item(System.Int32)" /> Свойство позволяет получить определенный <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объектов в коллекции. Если вы хотите перечисления коллекции, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.GetEnumerator" /> метод обычным способом.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-109">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Item(System.Int32)" /> property enables you to retrieve a specific <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> object in the collection. If you want to enumerate the collection, you can use the <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.GetEnumerator" /> method in the standard way.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="index"><span data-ttu-id="5997f-106">Отсчитываемый от нуля индекс правила, которое требуется получить.</span><span class="sxs-lookup"><span data-stu-id="5997f-106">The zero-based index of the rule to get.</span></span></param>
+        <summary><span data-ttu-id="5997f-107">Получает правило по указанному индексу в коллекции.</span><span class="sxs-lookup"><span data-stu-id="5997f-107">Gets the rule at the specified index in the collection.</span></span></summary>
+        <value><span data-ttu-id="5997f-108">Правило по указанному индексу в коллекции.</span><span class="sxs-lookup"><span data-stu-id="5997f-108">The rule at the specified index in the collection.</span></span></value>
+        <remarks><span data-ttu-id="5997f-109"><para><see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Item(System.Int32)" /> Свойство позволяет получить определенный <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект в коллекции. Если вы хотите перечислить коллекцию, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.GetEnumerator" /> метод стандартным способом.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="5997f-109"><para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Item(System.Int32)" /> property enables you to retrieve a specific <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> object in the collection. If you want to enumerate the collection, you can use the <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.GetEnumerator" /> method in the standard way.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="OutlookRuleBlobExists">
@@ -164,34 +106,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="37d6e-110">Получает значение, указывающее, существует ли правило большого двоичного объекта Microsoft Outlook в почтовом ящике пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-110">Gets a value that indicates whether a Microsoft Outlook rule blob exists in the user's mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="37d6e-111">
-            <b>значение true,</b> Если существует правило blob Outlook; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-111">
-              <b>true</b> if the Outlook rule blob exists; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="37d6e-112">
-            <para>Можно использовать <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.OutlookRuleBlobExists" /> свойство, чтобы определить, нужно ли запрашивать у пользователя перед отправкой <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метод.</para>
-            <para>Для изменения правил при больших двоичных объектов Outlook правило существует, вызовите <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метод, передав <b>значение true,</b> в качестве значения <paramref name="removeOutlookRuleBlob" /> параметр.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-112">
-              <para>You can use the <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.OutlookRuleBlobExists" /> property to determine whether to prompt the user before submitting the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> method.</para>
-              <para>To update rules when the Outlook rule blob exists, call the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> method, passing <b>true</b> as the value of the <paramref name="removeOutlookRuleBlob" /> parameter.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="5997f-110">Получает значение, указывающее, существует ли большой двоичный объект правила Microsoft Outlook в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="5997f-110">Gets a value that indicates whether a Microsoft Outlook rule blob exists in the user's mailbox.</span></span></summary>
+        <value><span data-ttu-id="5997f-111"><b>значение true</b> , если большой двоичный объект правила Outlook существует; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="5997f-111"><b>true</b> if the Outlook rule blob exists; otherwise, <b>false</b>.</span></span></value>
+        <remarks><span data-ttu-id="5997f-112"><para>Вы можете использовать <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.OutlookRuleBlobExists" /> свойство, чтобы определить, следует ли запрашивать пользователя перед отправкой <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метода.</para> 
+          <para>Чтобы обновить правила при наличии BLOB-объекта правила Outlook, вызовите <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метод, передав <b>true</b> в качестве значения <paramref name="removeOutlookRuleBlob" /> параметра.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="5997f-112"><para>You can use the <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.OutlookRuleBlobExists" /> property to determine whether to prompt the user before submitting the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> method.</para>
+          <para>To update rules when the Outlook rule blob exists, call the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> method, passing <b>true</b> as the value of the <paramref name="removeOutlookRuleBlob" /> parameter.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
@@ -213,23 +134,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="37d6e-113">Получает перечислитель для итерации по элементам коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-113">Gets an enumerator to iterate through the elements of the collection.</span>
-          </span>
-          <span data-ttu-id="37d6e-114">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-114">The <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="37d6e-115">Перечислитель для итерации по элементам коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37d6e-115">An enumerator to iterate through the elements of the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="5997f-113">Получает перечислитель для итерации элементов коллекции.</span><span class="sxs-lookup"><span data-stu-id="5997f-113">Gets an enumerator to iterate through the elements of the collection.</span></span>             <span data-ttu-id="5997f-114">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5997f-114">The <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="5997f-115">Перечислитель для итерации элементов коллекции.</span><span class="sxs-lookup"><span data-stu-id="5997f-115">An enumerator to iterate through the elements of the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

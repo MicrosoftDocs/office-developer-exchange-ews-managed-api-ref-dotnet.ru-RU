@@ -1,13 +1,5 @@
 <Type Name="AttendeeAvailability" FullName="Microsoft.Exchange.WebServices.Data.AttendeeAvailability">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="65b4c6115a40a5e1faa1cf1c528295d8fa88b122" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626878" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AttendeeAvailability : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="65b4c6115a40a5e1faa1cf1c528295d8fa88b122" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626878" /></Metadata><TypeSignature Language="C#" Value="public sealed class AttendeeAvailability : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttendeeAvailability extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttendeeAvailability" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttendeeAvailability&#xA;Inherits ServiceResponse" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="7e228-101">Доступность отдельных участников.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7e228-101">The availability of an individual attendee.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="61571-101">Доступность отдельного участника.</span><span class="sxs-lookup"><span data-stu-id="61571-101">The availability of an individual attendee.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,18 +32,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.CalendarEvent&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e228-102">Получает коллекцию событий календаря для участника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e228-102">Gets a collection of calendar events for the attendee.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7e228-103">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.CalendarEvents" /> — это свойство <a href="http://go.microsoft.com/fwlink/?LinkId=162659">T:System.Collections.ObjectModel.Collection "1</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e228-103">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.CalendarEvents" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=162659">T:System.Collections.ObjectModel.Collection \` 1</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="61571-102">Возвращает коллекцию событий календаря для участника.</span><span class="sxs-lookup"><span data-stu-id="61571-102">Gets a collection of calendar events for the attendee.</span></span></summary>
+        <value><span data-ttu-id="61571-103">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.CalendarEvents" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkId=162659">т:систем.коллектионс.обжектмодел.коллектион ' 1</a></span><span class="sxs-lookup"><span data-stu-id="61571-103">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.CalendarEvents" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=162659">T:System.Collections.ObjectModel.Collection \` 1</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -75,18 +52,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e228-104">Получает коллекцию элементов состояния занятости для участника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e228-104">Gets a collection of free/busy status items for the attendee.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7e228-105">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.MergedFreeBusyStatus" /> — это свойство <a href="http://go.microsoft.com/fwlink/?LinkId=162659">T:System.Collections.ObjectModel.Collection "1</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e228-105">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.MergedFreeBusyStatus" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=162659">T:System.Collections.ObjectModel.Collection \` 1</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="61571-104">Получает коллекцию элементов состояния занятости участника.</span><span class="sxs-lookup"><span data-stu-id="61571-104">Gets a collection of free/busy status items for the attendee.</span></span></summary>
+        <value><span data-ttu-id="61571-105">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.MergedFreeBusyStatus" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkId=162659">т:систем.коллектионс.обжектмодел.коллектион ' 1</a></span><span class="sxs-lookup"><span data-stu-id="61571-105">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.MergedFreeBusyStatus" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=162659">T:System.Collections.ObjectModel.Collection \` 1</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,18 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e228-106">Получает тип представления сведений о доступности, полученной для участника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e228-106">Gets the free/busy view type that is retrieved for the attendee.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7e228-107">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.ViewType" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e228-107">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.ViewType" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="61571-106">Получает тип представления сведений о занятости, который извлекается для участника.</span><span class="sxs-lookup"><span data-stu-id="61571-106">Gets the free/busy view type that is retrieved for the attendee.</span></span></summary>
+        <value><span data-ttu-id="61571-107">Значением <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.ViewType" /> свойства является <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> объект.</span><span class="sxs-lookup"><span data-stu-id="61571-107">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.ViewType" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -135,18 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.WorkingHours</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e228-108">Получает рабочие часы для участника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e228-108">Gets the working hours of the attendee.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7e228-109">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.WorkingHours" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.WorkingHours" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e228-109">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.WorkingHours" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.WorkingHours" /> object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="61571-108">Получает рабочие часы участника.</span><span class="sxs-lookup"><span data-stu-id="61571-108">Gets the working hours of the attendee.</span></span></summary>
+        <value><span data-ttu-id="61571-109">Значением <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.WorkingHours" /> свойства является <see cref="T:Microsoft.Exchange.WebServices.Data.WorkingHours" /> объект.</span><span class="sxs-lookup"><span data-stu-id="61571-109">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.WorkingHours" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.WorkingHours" /> object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

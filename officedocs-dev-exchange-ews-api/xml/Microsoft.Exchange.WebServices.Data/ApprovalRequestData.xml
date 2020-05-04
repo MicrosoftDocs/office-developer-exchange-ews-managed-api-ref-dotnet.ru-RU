@@ -1,13 +1,5 @@
 <Type Name="ApprovalRequestData" FullName="Microsoft.Exchange.WebServices.Data.ApprovalRequestData">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="55200fe16e93878a1af4bbca705655f781471e11" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626880" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ApprovalRequestData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="55200fe16e93878a1af4bbca705655f781471e11" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626880" /></Metadata><TypeSignature Language="C#" Value="public sealed class ApprovalRequestData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ApprovalRequestData extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ApprovalRequestData&#xA;Inherits ComplexProperty" />
@@ -21,24 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="41350-101">Представляет состояние утверждения сообщение запроса утверждения. <see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="41350-101">Represents the approval state of an approval request message.The <see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="41350-102">
-        <para>Утверждение запроса сообщения отправляются модератору как часть поток сообщений для управляемой получателей. Для получения дополнительных сведений см <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Проходят контроль транспорта</a></para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="41350-102">
-          <para>Approval request messages are sent to a moderator as part of the message flow for moderated recipients. For more information, see <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Moderated Transport</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="701f5-101">Представляет состояние утверждения сообщения с запросом на утверждение. <see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="701f5-101">Represents the approval state of an approval request message.The <see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+    <remarks><span data-ttu-id="701f5-102"><para>Сообщения запроса утверждения отправляются модератору в составе последовательности сообщений для управляемых получателей. Дополнительные сведения см в разделе <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">управляемый транспорт</a></para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="701f5-102"><para>Approval request messages are sent to a moderator as part of the message flow for moderated recipients. For more information, see <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Moderated Transport</a></para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="ApprovalDecision">
@@ -56,53 +34,39 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41350-103">Получение утверждения решение сообщения запроса на утверждение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41350-103">Gets the approval decision on the approval request message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="701f5-103">Получает решение об утверждении для запроса на утверждение.</span><span class="sxs-lookup"><span data-stu-id="701f5-103">Gets the approval decision on the approval request message.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="41350-104">
-            <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойство показывает принял решение в модератору на запрос утверждения. Свойство может иметь одно из значений в таблице ниже.</para>
-            <list type="table">
-              <item>
-                <term>0</term>
-                <description>решение не было сделано.</description>
-              </item>
-              <item>
-                <term>1</term>
-                <description>запрос был утвержден.</description>
-              </item>
-              <item>
-                <term>2</term>
-                <description>Запрос отклонен.</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41350-104">
-              <para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property indicates the decision made by the moderator on an approval request. The property can have one of the values in the following table.</para>
-              <list type="table">
-                <item>
-                  <term>0</term>
-                  <description>A decision has not been made.</description>
-                </item>
-                <item>
-                  <term>1</term>
-                  <description>The request was approved.</description>
-                </item>
-                <item>
-                  <term>2</term>
-                  <description>The request was rejected.</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="701f5-104"><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства указывает решение, принятое модератором в запросе на утверждение. Свойство может иметь одно из значений в приведенной ниже таблице.</para> 
+          <list type="table"> 
+            <item> 
+              <term>0</term>
+              <description>решение не</description> 
+            </item> было принято. 
+            <item> 
+              <term>1</term>
+              <description>запрос был утвержден.</description> 
+            </item> 
+            <item> 
+              <term>2</term>
+              <description>запрос отклонен.</description> 
+            </item> 
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="701f5-104"><para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property indicates the decision made by the moderator on an approval request. The property can have one of the values in the following table.</para>
+          <list type="table">
+            <item>
+              <term>0</term>
+              <description>A decision has not been made.</description>
+            </item>
+            <item>
+              <term>1</term>
+              <description>The request was approved.</description>
+            </item>
+            <item>
+              <term>2</term>
+              <description>The request was rejected.</description>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ApprovalDecisionMaker">
@@ -120,25 +84,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41350-105">Получает отображаемое имя управляющий, который утверждения или отклонения запроса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41350-105">Gets the display name of the moderator who approved or rejected the request.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="701f5-105">Получает отображаемое имя модератора, который утвердил или отклонил запрос.</span><span class="sxs-lookup"><span data-stu-id="701f5-105">Gets the display name of the moderator who approved or rejected the request.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="41350-106">
-            <para>Если значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства имеет значение 0, указывающего на то, что решение имеет еще не сделано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" /> свойства будет пустая ссылка (Nothing в Visual Basic).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41350-106">
-              <para>If the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property is 0, indicating that a decision has not yet been made, the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" /> property will be a null reference (Nothing in Visual Basic).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="701f5-106"><para>Если значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства равно 0, что означает, что решение еще не было создано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" /> свойства будет пустой ссылкой (Nothing в Visual Basic).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="701f5-106"><para>If the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property is 0, indicating that a decision has not yet been made, the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" /> property will be a null reference (Nothing in Visual Basic).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ApprovalDecisionTime">
@@ -156,25 +106,11 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41350-107">Получает время, в которой модератор утверждения или отклонения запроса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41350-107">Gets the time at which a moderator approved or rejected the request.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="701f5-107">Возвращает время, в течение которого модератор утверждает или отклонил запрос.</span><span class="sxs-lookup"><span data-stu-id="701f5-107">Gets the time at which a moderator approved or rejected the request.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="41350-108">
-            <para>Если значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства имеет значение 0, указывающего на то, что решение имеет еще не сделано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" /> свойства будет <see cref="F:System.DateTime.MinValue" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41350-108">
-              <para>If the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property is 0, indicating that a decision has not yet been made, the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" /> property will be <see cref="F:System.DateTime.MinValue" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="701f5-108"><para>Если значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства равно 0, что означает, что решение еще не было создано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" /> свойства будет иметь <see cref="F:System.DateTime.MinValue" />значение.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="701f5-108"><para>If the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> property is 0, indicating that a decision has not yet been made, the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" /> property will be <see cref="F:System.DateTime.MinValue" />.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsUndecidedApprovalRequest">
@@ -192,12 +128,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41350-109">Получает значение, указывающее, является ли этот запрос на утверждение ожидает модератор утвердить или отклонить запрос.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41350-109">Gets a value indicating whether this approval request is awaiting a moderator to approve or reject the request.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="701f5-109">Получает значение, указывающее, ожидает ли этот запрос утверждения модератору для утверждения или отклонения запроса.</span><span class="sxs-lookup"><span data-stu-id="701f5-109">Gets a value indicating whether this approval request is awaiting a moderator to approve or reject the request.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

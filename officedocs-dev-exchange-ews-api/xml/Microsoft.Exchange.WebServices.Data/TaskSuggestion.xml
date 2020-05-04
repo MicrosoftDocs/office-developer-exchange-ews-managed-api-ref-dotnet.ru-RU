@@ -1,13 +1,5 @@
 <Type Name="TaskSuggestion" FullName="Microsoft.Exchange.WebServices.Data.TaskSuggestion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="48f1bbce45953b2bb13e3e68b8155ce15e686894" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627327" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class TaskSuggestion : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="48f1bbce45953b2bb13e3e68b8155ce15e686894" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627327" /></Metadata><TypeSignature Language="C#" Value="public sealed class TaskSuggestion : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TaskSuggestion extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TaskSuggestion" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TaskSuggestion&#xA;Inherits ExtractedEntity" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="ec0c9-101">Описание предлагаемого задач.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ec0c9-101">Describes a proposed task.</span>
-      </span>
-      <span data-ttu-id="ec0c9-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.TaskSuggestion" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ec0c9-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.TaskSuggestion" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="abfde-101">Описывает предложенную задачу.</span><span class="sxs-lookup"><span data-stu-id="abfde-101">Describes a proposed task.</span></span>             <span data-ttu-id="abfde-102"><see cref="T:Microsoft.Exchange.WebServices.Data.TaskSuggestion" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="abfde-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.TaskSuggestion" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,23 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0c9-103">Возвращает имена людей, назначена предложенная задача.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0c9-103">Gets the names of the people assigned to the proposed task.</span>
-          </span>
-          <span data-ttu-id="ec0c9-104">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.Assignees" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0c9-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.Assignees" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ec0c9-105">Имена assignees предложения о задаче.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0c9-105">The names of the task suggestion assignees.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="abfde-103">Получает имена людей, назначенных предложенной задаче.</span><span class="sxs-lookup"><span data-stu-id="abfde-103">Gets the names of the people assigned to the proposed task.</span></span>             <span data-ttu-id="abfde-104"><see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.Assignees" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="abfde-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.Assignees" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="abfde-105">Имена предложений задач уполномоченные.</span><span class="sxs-lookup"><span data-stu-id="abfde-105">The names of the task suggestion assignees.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,23 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0c9-106">Получает описание предлагаемого задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0c9-106">Gets the description of the proposed task.</span>
-          </span>
-          <span data-ttu-id="ec0c9-107">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.TaskString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0c9-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.TaskString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ec0c9-108">Предложенной задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0c9-108">The suggested task.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="abfde-106">Получает описание предложенной задачи.</span><span class="sxs-lookup"><span data-stu-id="abfde-106">Gets the description of the proposed task.</span></span>             <span data-ttu-id="abfde-107"><see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.TaskString" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="abfde-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.TaskSuggestion.TaskString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="abfde-108">Предложенная задача.</span><span class="sxs-lookup"><span data-stu-id="abfde-108">The suggested task.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="FindFoldersResults" FullName="Microsoft.Exchange.WebServices.Data.FindFoldersResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8eef1348a3391ac6d073429325e3cb6a498068a9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626552" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FindFoldersResults : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Folder&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8eef1348a3391ac6d073429325e3cb6a498068a9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626552" /></Metadata><TypeSignature Language="C#" Value="public sealed class FindFoldersResults : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Folder&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindFoldersResults extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.Folder&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindFoldersResults" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindFoldersResults&#xA;Implements IEnumerable(Of Folder)" />
@@ -25,12 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-      <span data-ttu-id="0316e-101">Представляет результаты операции поиска папок.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0316e-101">Represents the results of a folder search operation.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="d1ce3-101">Представляет результаты операции поиска папки.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-101">Represents the results of a folder search operation.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,18 +36,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Folder&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0316e-102">Получает коллекцию, содержащую папок, которые были найдены операцией поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-102">Gets a collection that contains the folders that were found by the search operation.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0316e-103">Объект коллекции, который содержит папки, которые были найдены операцией поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-103">A collection object that contains the folders that were found by the search operation.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d1ce3-102">Получает коллекцию, содержащую папки, обнаруженные в ходе операции поиска.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-102">Gets a collection that contains the folders that were found by the search operation.</span></span></summary>
+        <value><span data-ttu-id="d1ce3-103">Объект Collection, содержащий папки, обнаруженные операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-103">A collection object that contains the folders that were found by the search operation.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,18 +60,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0316e-104">Возвращает перечислитель для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-104">Returns an enumerator that enables you to iterate through the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0316e-105">Перечислитель, который можно использовать для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-105">An enumerator that can be used to iterate through the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="d1ce3-104">Возвращает перечислитель, позволяющий выполнять итерацию по коллекции.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-104">Returns an enumerator that enables you to iterate through the collection.</span></span></summary>
+        <returns><span data-ttu-id="d1ce3-105">Перечислитель, который можно использовать для итерации по коллекции.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-105">An enumerator that can be used to iterate through the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,20 +80,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0316e-106">Получает значение, указывающее, доступны ли папки, которые соответствуют условиям поиска в папке, в которой выполняется поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-106">Gets a value that indicates whether more folders that match the search criteria are available in the searched folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0316e-107">
-            <b>значение true,</b> Если доступны дополнительные папки; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-107">
-              <b>true</b> if more folders are available; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d1ce3-106">Получает значение, указывающее, доступны ли в папке поиска другие папки, которые отвечают условиям поиска.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-106">Gets a value that indicates whether more folders that match the search criteria are available in the searched folder.</span></span></summary>
+        <value><span data-ttu-id="d1ce3-107"><b>значение true</b> , если доступны дополнительные папки; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-107"><b>true</b> if more folders are available; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -145,19 +100,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0316e-108">Получает смещение, который должен использоваться с объектом FolderView для получения следующей страницы папки в ходе операции FindFolders.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-108">Gets the offset that should be used with a FolderView object to retrieve the next page of folders in a FindFolders operation.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0316e-109">
-            <b>Допускает значение NULL</b> значение, смещение к следующей странице папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-109">A <b>nullable</b> value that is the offset to the next page of folders.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d1ce3-108">Получает смещение, которое должно использоваться с объектом FolderView для получения следующей страницы папок в операции Финдфолдерс.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-108">Gets the offset that should be used with a FolderView object to retrieve the next page of folders in a FindFolders operation.</span></span></summary>
+        <value><span data-ttu-id="d1ce3-109">Значение, <b>допускающее значение NULL</b> , которое является смещением к следующей странице папок.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-109">A <b>nullable</b> value that is the offset to the next page of folders.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -180,23 +124,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0316e-110">Возвращает перечислитель, который выполняет итерацию по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-110">Returns an enumerator that iterates through a collection.</span>
-          </span>
-          <span data-ttu-id="0316e-111">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.FindFoldersResults.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-111">The <see cref="M:Microsoft.Exchange.WebServices.Data.FindFoldersResults.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0316e-112">Перечислитель для просмотра элементов из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-112">An enumerator that iterates through the elements of the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="d1ce3-110">Возвращает перечислитель, который выполняет итерацию по коллекции.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-110">Returns an enumerator that iterates through a collection.</span></span>             <span data-ttu-id="d1ce3-111">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.FindFoldersResults.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-111">The <see cref="M:Microsoft.Exchange.WebServices.Data.FindFoldersResults.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="d1ce3-112">Перечислитель, который выполняет итерацию элементов коллекции.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-112">An enumerator that iterates through the elements of the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -215,18 +144,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0316e-113">Возвращает общее число папок, которые соответствуют условиям поиска, доступных в папке, в которой выполняется поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-113">Gets the total number of folders that match the search criteria that are available in the searched folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0316e-114">Общее число папок, которые соответствуют условиям поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0316e-114">The total number of folders that match the search criteria.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d1ce3-113">Получает общее количество папок, которые удовлетворяют критериям поиска, доступным в папке, в которой выполняется поиск.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-113">Gets the total number of folders that match the search criteria that are available in the searched folder.</span></span></summary>
+        <value><span data-ttu-id="d1ce3-114">Общее количество папок, которые отвечают условиям поиска.</span><span class="sxs-lookup"><span data-stu-id="d1ce3-114">The total number of folders that match the search criteria.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

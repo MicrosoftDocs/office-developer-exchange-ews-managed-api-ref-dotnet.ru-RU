@@ -1,13 +1,5 @@
 <Type Name="ClientAccessTokenRequest" FullName="Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d6a9c75d2376c2efff9b0b153a9e3a59168f5afa" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627128" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ClientAccessTokenRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6a9c75d2376c2efff9b0b153a9e3a59168f5afa" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627128" /></Metadata><TypeSignature Language="C#" Value="public class ClientAccessTokenRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClientAccessTokenRequest extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class ClientAccessTokenRequest&#xA;Inherits ComplexProperty" />
@@ -21,25 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="c677b-101">Представляет запрос маркера доступа клиента для почтового приложения для Outlook.The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c677b-101">Represents a client token access request for a mail app for Outlook.The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="c677b-102">
-        <para>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> Класс используется с <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetClientAccessToken(Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest[])" /> метод для запроса маркеров доступа клиента для почтовых приложений для Outlook.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c677b-102">
-          <para>The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> class is used with the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetClientAccessToken(Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest[])" /> method to request client access tokens for mail apps for Outlook.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="c2c07-101">Представляет запрос на доступ маркера клиента для почтового приложения для Outlook. <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> этот класс применяется для клиентов, обращающихся к Exchange Online и версиям Exchange, начиная с exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c2c07-101">Represents a client token access request for a mail app for Outlook.The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+    <remarks><span data-ttu-id="c2c07-102"><para><see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> Класс используется с <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetClientAccessToken(Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest[])" /> методом для запроса маркеров клиентского доступа для почтовых приложений для Outlook.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="c2c07-102"><para>The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> class is used with the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetClientAccessToken(Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest[])" /> method to request client access tokens for mail apps for Outlook.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -58,24 +35,9 @@
         <Parameter Name="tokenType" Type="Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" />
       </Parameters>
       <Docs>
-        <param name="id">
-          <span data-ttu-id="c677b-103">Идентификатор приложения для приложения, запрашивающего маркера доступа клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-103">The app identifier for the app requesting a client access token.</span>
-          </span>
-        </param>
-        <param name="tokenType">
-          <span data-ttu-id="c677b-104">Запрошенный тип маркера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-104">The requested token type.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c677b-105">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класс с идентификатором приложения и тип маркера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-105">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> class with an app identifier and a token type.</span>
-          </span>
-        </summary>
+        <param name="id"><span data-ttu-id="c2c07-103">Идентификатор приложения, запрашивающего маркер клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c2c07-103">The app identifier for the app requesting a client access token.</span></span></param>
+        <param name="tokenType"><span data-ttu-id="c2c07-104">Запрошенный тип маркера.</span><span class="sxs-lookup"><span data-stu-id="c2c07-104">The requested token type.</span></span></param>
+        <summary><span data-ttu-id="c2c07-105">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класса с идентификатором приложения и типом токена.</span><span class="sxs-lookup"><span data-stu-id="c2c07-105">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> class with an app identifier and a token type.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,34 +58,10 @@
         <Parameter Name="scope" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="id">
-          <span data-ttu-id="c677b-106">Идентификатор приложения для приложения, запрашивающего маркера доступа клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-106">The app identifier for the app requesting a client access token.</span>
-          </span>
-        </param>
-        <param name="tokenType">
-          <span data-ttu-id="c677b-107">Запрошенный тип маркера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-107">The requested token type.</span>
-          </span>
-        </param>
-        <param name="scope">
-          <span data-ttu-id="c677b-108">Область действия маркера доступа запрошенного клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-108">The scope of the requested client access token.</span>
-          </span>
-          <span data-ttu-id="c677b-109">Этот параметр применяется, только если значение <paramref name="tokenType" /><b>ClientAccessTokenType.ScopedToken</b>— это параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-109">This parameter is only applicable if the value of the <paramref name="tokenType" /> parameter is <b>ClientAccessTokenType.ScopedToken</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c677b-110">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класс с идентификатором приложения, тип маркера и области.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-110">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> class with an app identifier, a token type, and a scope.</span>
-          </span>
-        </summary>
+        <param name="id"><span data-ttu-id="c2c07-106">Идентификатор приложения, запрашивающего маркер клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c2c07-106">The app identifier for the app requesting a client access token.</span></span></param>
+        <param name="tokenType"><span data-ttu-id="c2c07-107">Запрошенный тип маркера.</span><span class="sxs-lookup"><span data-stu-id="c2c07-107">The requested token type.</span></span></param>
+        <param name="scope"><span data-ttu-id="c2c07-108">Область запрошенного маркера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c2c07-108">The scope of the requested client access token.</span></span> <span data-ttu-id="c2c07-109">Этот параметр применяется только в том случае, если для <paramref name="tokenType" /> параметра задано значение <b>клиентакцесстокентипе. скопедтокен</b>.</span><span class="sxs-lookup"><span data-stu-id="c2c07-109">This parameter is only applicable if the value of the <paramref name="tokenType" /> parameter is <b>ClientAccessTokenType.ScopedToken</b>.</span></span></param>
+        <summary><span data-ttu-id="c2c07-110">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класса с идентификатором приложения, типом токена и областью.</span><span class="sxs-lookup"><span data-stu-id="c2c07-110">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> class with an app identifier, a token type, and a scope.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -142,12 +80,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c677b-111">Получает идентификатор приложения, связанные с запрос маркера доступа клиентов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-111">Gets the app identifier associated with the client access token request.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c2c07-111">Получает идентификатор приложения, связанный с запросом маркера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c2c07-111">Gets the app identifier associated with the client access token request.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -167,12 +100,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c677b-112">Получает запрошенные маркеров область, связанные с запрос маркера доступа клиентов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-112">Gets the requested token scope associated with the client access token request.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c2c07-112">Получает запрошенную область токенов, связанную с запросом маркера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c2c07-112">Gets the requested token scope associated with the client access token request.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,12 +120,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c677b-113">Получает тип запрошенного маркеров, связанных с запрос маркера доступа клиентов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c677b-113">Gets the requested token type associated with the client access token request.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c2c07-113">Получает запрошенный тип маркера, связанный с запросом маркера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c2c07-113">Gets the requested token type associated with the client access token request.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

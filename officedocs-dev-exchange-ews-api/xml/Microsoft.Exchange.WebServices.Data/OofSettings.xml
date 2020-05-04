@@ -1,13 +1,5 @@
 <Type Name="OofSettings" FullName="Microsoft.Exchange.WebServices.Data.OofSettings">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b111544ae6572d97fd3dc97e5ef0367b2a1ea24e" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626709" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class OofSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b111544ae6572d97fd3dc97e5ef0367b2a1ea24e" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626709" /></Metadata><TypeSignature Language="C#" Value="public sealed class OofSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OofSettings extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OofSettings" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OofSettings&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="f523a-101">Представляет на работе (OOF) параметры пользователя.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f523a-101">Represents a user's out of office (OOF) settings.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a6244-101">Представляет параметры заместителя пользователя (отсутствие на работе).</span><span class="sxs-lookup"><span data-stu-id="a6244-101">Represents a user's out of office (OOF) settings.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f523a-102">Инициализирует новый экземпляр класса OofSettings.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-102">Initializes a new instance of the OofSettings class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a6244-102">Инициализирует новый экземпляр класса Уфсеттингс.</span><span class="sxs-lookup"><span data-stu-id="a6244-102">Initializes a new instance of the OofSettings class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,18 +49,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofExternalAudience</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f523a-103">Получает значение, указывающее, внешние корреспонденты, которые можно получить из сообщений, сообщения об отсутствии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-103">Gets a value that indicates the external correspondents who can receive out of office (OOF) messages.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f523a-104">Одно из значений перечисления OofExternalAudience.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-104">One of the OofExternalAudience enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a6244-103">Получает значение, указывающее внешних корреспондентов, которые могут получать сообщения об отсутствии на работе (отсутствие на работе).</span><span class="sxs-lookup"><span data-stu-id="a6244-103">Gets a value that indicates the external correspondents who can receive out of office (OOF) messages.</span></span></summary>
+        <value><span data-ttu-id="a6244-104">Одно из значений перечисления Уфекстерналаудиенце.</span><span class="sxs-lookup"><span data-stu-id="a6244-104">One of the OofExternalAudience enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,18 +69,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TimeWindow</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f523a-105">Получает или задает длительность ожидания состояние сообщения об отсутствии, когда пользователь выполняет планирование сообщений об отсутствии на работе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-105">Gets or sets the duration of the out of office (OOF) status when the user has scheduled OOF messages.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f523a-106">Период времени, в котором об отсутствии на работе будут отправляться сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-106">The time period in which OOF messages will be sent.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a6244-105">Получает или задает значение, указывающее время отсутствия на работе (отсутствие на работе) при запланированных сообщениях о незавершении работы.</span><span class="sxs-lookup"><span data-stu-id="a6244-105">Gets or sets the duration of the out of office (OOF) status when the user has scheduled OOF messages.</span></span></summary>
+        <value><span data-ttu-id="a6244-106">Период времени, в течение которого отправляются сообщения об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="a6244-106">The time period in which OOF messages will be sent.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,18 +89,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofExternalAudience</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f523a-107">Получает или задает значение, которое указывает, кто должен получить внешние сообщения об отсутствии сообщений об отсутствии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-107">Gets or sets a value that indicates who should receive external out of office (OOF) messages.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f523a-108">Одно из значений перечисления OofExternalAudience, которые указывают, какие внешних корреспонденты будут получать сообщения об отсутствии на работе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-108">One of the OofExternalAudience enumeration values that indicate which external correspondents will receive OOF messages.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a6244-107">Получает или задает значение, указывающее, кто должен получить внешние сообщения об отсутствии на работе (отсутствие на работе).</span><span class="sxs-lookup"><span data-stu-id="a6244-107">Gets or sets a value that indicates who should receive external out of office (OOF) messages.</span></span></summary>
+        <value><span data-ttu-id="a6244-108">Одно из значений перечисления Уфекстерналаудиенце, указывающее, какие внешние корреспонденты будут получать сообщения об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="a6244-108">One of the OofExternalAudience enumeration values that indicate which external correspondents will receive OOF messages.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,18 +109,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofReply</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f523a-109">Получает или задает ожидания сообщения об отсутствии на сообщения, отправленные на внешние адреса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-109">Gets or sets the out of office (OOF) message that is sent to external e-mail addresses.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f523a-110">Содержимое сообщения об отсутствии на работе, которое отправляется другим пользователям за пределами домена пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-110">The contents of the OOF message that is sent to other users outside the user's domain.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a6244-109">Получает или задает сообщение об отсутствии на рабочем месте, которое отправляется на внешние адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="a6244-109">Gets or sets the out of office (OOF) message that is sent to external e-mail addresses.</span></span></summary>
+        <value><span data-ttu-id="a6244-110">Содержимое сообщения об отсутствии на работе, которое отправляется другим пользователям вне домена пользователя.</span><span class="sxs-lookup"><span data-stu-id="a6244-110">The contents of the OOF message that is sent to other users outside the user's domain.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -187,18 +129,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofReply</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f523a-111">Получает или задает ожидания сообщения об отсутствии на сообщение, которое отправляется пользователям в домене или доверенном домене пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-111">Gets or sets the out of office (OOF) message that is sent to other users in the user's domain or trusted domain.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f523a-112">Содержимое сообщения об отсутствии на работе, которое отправляется пользователям в домене пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-112">The contents of the OOF message that is sent to other users in the user's domain.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a6244-111">Получает или задает сообщение об отсутствии на работе (отсутствие на работе), которое отправляется другим пользователям в домене пользователя или доверенном домене.</span><span class="sxs-lookup"><span data-stu-id="a6244-111">Gets or sets the out of office (OOF) message that is sent to other users in the user's domain or trusted domain.</span></span></summary>
+        <value><span data-ttu-id="a6244-112">Содержимое сообщения об отсутствии на работе, которое отправляется другим пользователям в домене пользователя.</span><span class="sxs-lookup"><span data-stu-id="a6244-112">The contents of the OOF message that is sent to other users in the user's domain.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -217,18 +149,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f523a-113">Получает или задает пользователя из состояния сообщения об отсутствии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-113">Gets or sets the user's out of office (OOF) state.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f523a-114">Одно из значений перечисления OofState, которые указывают, является ли пользователь отправляет сообщения об отсутствии на работе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f523a-114">One of the OofState enumeration values that indicate whether the user is sending OOF messages.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a6244-113">Получает или задает состояние отсутствия на рабочем месте пользователя.</span><span class="sxs-lookup"><span data-stu-id="a6244-113">Gets or sets the user's out of office (OOF) state.</span></span></summary>
+        <value><span data-ttu-id="a6244-114">Одно из значений перечисления Уфстате, указывающее, отправляет ли пользователь сообщения об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="a6244-114">One of the OofState enumeration values that indicate whether the user is sending OOF messages.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

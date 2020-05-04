@@ -1,13 +1,5 @@
 <Type Name="ConversationIndexedItemView" FullName="Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e62f76a1dfa4fbcc011fd11ed8c40a44b66613ee" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626876" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ConversationIndexedItemView : Microsoft.Exchange.WebServices.Data.PagedView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e62f76a1dfa4fbcc011fd11ed8c40a44b66613ee" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626876" /></Metadata><TypeSignature Language="C#" Value="public sealed class ConversationIndexedItemView : Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationIndexedItemView extends Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationIndexedItemView&#xA;Inherits PagedView" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="84560-101">Содержит параметры представления беседы в папке операции поиска.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="84560-101">Contains the conversation view settings in a folder search operation.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="38d20-101">Содержит параметры представления беседы в операции поиска папки.</span><span class="sxs-lookup"><span data-stu-id="38d20-101">Contains the conversation view settings in a folder search operation.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,18 +32,8 @@
         <Parameter Name="pageSize" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pageSize">
-          <span data-ttu-id="84560-102">Максимальное количество бесед, которые должен возвращать операции поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-102">The maximum number of conversations the search operation should return.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84560-103">Инициализирует новый экземпляр класса ConversationIndexedItemView с помощью размер заданный страницы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-103">Initializes a new instance of the ConversationIndexedItemView class by using the supplied page size.</span>
-          </span>
-        </summary>
+        <param name="pageSize"><span data-ttu-id="38d20-102">Максимальное количество бесед, возвращаемых операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="38d20-102">The maximum number of conversations the search operation should return.</span></span></param>
+        <summary><span data-ttu-id="38d20-103">Инициализирует новый экземпляр класса Конверсатиониндекседитемвиев, используя предоставленный размер страницы.</span><span class="sxs-lookup"><span data-stu-id="38d20-103">Initializes a new instance of the ConversationIndexedItemView class by using the supplied page size.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -76,40 +53,12 @@
         <Parameter Name="offset" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pageSize">
-          <span data-ttu-id="84560-104">Максимальное количество бесед, которые должен возвращать операции поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-104">The maximum number of conversations the search operation should return.</span>
-          </span>
-        </param>
-        <param name="offset">
-          <span data-ttu-id="84560-105">Смещение от первого беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-105">The offset from the first conversation.</span>
-          </span>
-          <span data-ttu-id="84560-106">Идентифицирует начала страницы возвращаемых бесед.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-106">Identifies where the page of returned conversations will start.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84560-107">Инициализирует новый экземпляр класса ConversationIndexedItemView, используя заданный размер и смещение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-107">Initializes a new instance of the ConversationIndexedItemView class by using the supplied page size and offset.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="84560-108">
-            <para>Этот конструктор предполагает, что базовой точки начинается в начале набора бесед.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-108">
-              <para>This constructor assumes that the base point starts at the beginning of the set of conversations.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="pageSize"><span data-ttu-id="38d20-104">Максимальное количество бесед, возвращаемых операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="38d20-104">The maximum number of conversations the search operation should return.</span></span></param>
+        <param name="offset"><span data-ttu-id="38d20-105">Смещение от первой беседы.</span><span class="sxs-lookup"><span data-stu-id="38d20-105">The offset from the first conversation.</span></span> <span data-ttu-id="38d20-106">Определяет, где будет начинаться страница возвращаемой беседы.</span><span class="sxs-lookup"><span data-stu-id="38d20-106">Identifies where the page of returned conversations will start.</span></span></param>
+        <summary><span data-ttu-id="38d20-107">Инициализирует новый экземпляр класса Конверсатиониндекседитемвиев, используя предоставленный размер страницы и смещение.</span><span class="sxs-lookup"><span data-stu-id="38d20-107">Initializes a new instance of the ConversationIndexedItemView class by using the supplied page size and offset.</span></span></summary>
+        <remarks><span data-ttu-id="38d20-108"><para>В этом конструкторе предполагается, что базовая точка начинается с начала набора бесед.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="38d20-108"><para>This constructor assumes that the base point starts at the beginning of the set of conversations.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -128,34 +77,10 @@
         <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
       </Parameters>
       <Docs>
-        <param name="pageSize">
-          <span data-ttu-id="84560-109">Максимальное количество бесед, которые должен возвращать операции поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-109">The maximum number of conversations the search operation should return.</span>
-          </span>
-        </param>
-        <param name="offset">
-          <span data-ttu-id="84560-110">Смещение от базовой точки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-110">The offset from the base point.</span>
-          </span>
-          <span data-ttu-id="84560-111">Идентифицирует начала страницы возвращаемых бесед.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-111">Identifies where the page of returned conversations will start.</span>
-          </span>
-        </param>
-        <param name="offsetBasePoint">
-          <span data-ttu-id="84560-112">Базовый точка смещение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-112">The base point of the offset.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84560-113">Инициализирует новый экземпляр класса ConversationIndexedItemView с помощью заданный размер, смещение и базовой точки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-113">Initializes a new instance of the ConversationIndexedItemView class by using the supplied page size, offset, and base point.</span>
-          </span>
-        </summary>
+        <param name="pageSize"><span data-ttu-id="38d20-109">Максимальное количество бесед, возвращаемых операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="38d20-109">The maximum number of conversations the search operation should return.</span></span></param>
+        <param name="offset"><span data-ttu-id="38d20-110">Смещение от базовой точки.</span><span class="sxs-lookup"><span data-stu-id="38d20-110">The offset from the base point.</span></span> <span data-ttu-id="38d20-111">Определяет, где будет начинаться страница возвращаемой беседы.</span><span class="sxs-lookup"><span data-stu-id="38d20-111">Identifies where the page of returned conversations will start.</span></span></param>
+        <param name="offsetBasePoint"><span data-ttu-id="38d20-112">Базовая точка смещения.</span><span class="sxs-lookup"><span data-stu-id="38d20-112">The base point of the offset.</span></span></param>
+        <summary><span data-ttu-id="38d20-113">Инициализирует новый экземпляр класса Конверсатиониндекседитемвиев, используя предоставленный размер страницы, смещение и базовую точку.</span><span class="sxs-lookup"><span data-stu-id="38d20-113">Initializes a new instance of the ConversationIndexedItemView class by using the supplied page size, offset, and base point.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -174,30 +99,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84560-114">Получает свойства, от которых должны быть упорядочены возвращаемых элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-114">Gets the properties against which the returned items should be ordered.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84560-115">Упорядоченный набор из определения свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-115">An ordered collection of property definitions.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="84560-116">
-            <para>Единственный параметр, который поддерживается для сортировки, <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastDeliveryTime" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-116">
-              <para>The only property that is supported for sorting is <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastDeliveryTime" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="38d20-114">Получает свойства, по которым должны упорядочиваться возвращенные элементы.</span><span class="sxs-lookup"><span data-stu-id="38d20-114">Gets the properties against which the returned items should be ordered.</span></span></summary>
+        <value><span data-ttu-id="38d20-115">Упорядоченная коллекция определений свойств.</span><span class="sxs-lookup"><span data-stu-id="38d20-115">An ordered collection of property definitions.</span></span></value>
+        <remarks><span data-ttu-id="38d20-116"><para>Единственным свойством, которое поддерживает сортировка, является <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastDeliveryTime" />.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="38d20-116"><para>The only property that is supported for sorting is <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastDeliveryTime" />.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Traversal">
@@ -215,23 +121,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84560-117">Получает или задает режим обхода запроса беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-117">Gets or sets the conversation query traversal mode.</span>
-          </span>
-          <span data-ttu-id="84560-118">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.Traversal" /> Свойство используется для клиентов, относящихся к Exchange Online и версий Exchange startingwith Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.Traversal" /> property is applicable for clients that target Exchange Online and versions of Exchange startingwith Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84560-119">Режим обхода запроса беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-119">The conversation query traversal mode.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="38d20-117">Получает или задает режим обхода запроса "Беседа".</span><span class="sxs-lookup"><span data-stu-id="38d20-117">Gets or sets the conversation query traversal mode.</span></span>              <span data-ttu-id="38d20-118"><see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.Traversal" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange Стартингвис exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="38d20-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.Traversal" /> property is applicable for clients that target Exchange Online and versions of Exchange startingwith Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="38d20-119">Режим обхода запроса "Беседа".</span><span class="sxs-lookup"><span data-stu-id="38d20-119">The conversation query traversal mode.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -250,23 +141,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ViewFilter&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84560-120">Получает или задает фильтр представления, определяющее тип возвращаемых элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-120">Gets or sets the view filter specifying the type of items to return.</span>
-          </span>
-          <span data-ttu-id="84560-121">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.ViewFilter" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.ViewFilter" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84560-122">Фильтр представления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84560-122">The view filter.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="38d20-120">Получает или задает фильтр представления, указывающий тип возвращаемых элементов.</span><span class="sxs-lookup"><span data-stu-id="38d20-120">Gets or sets the view filter specifying the type of items to return.</span></span>              <span data-ttu-id="38d20-121"><see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.ViewFilter" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="38d20-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.ViewFilter" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="38d20-122">Фильтр представления.</span><span class="sxs-lookup"><span data-stu-id="38d20-122">The view filter.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

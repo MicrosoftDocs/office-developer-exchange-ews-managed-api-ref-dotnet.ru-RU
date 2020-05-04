@@ -1,13 +1,5 @@
 <Type Name="AttachmentCollection" FullName="Microsoft.Exchange.WebServices.Data.AttachmentCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="99b4cb0d83e11922d5457d02b89f84ea23ee48c3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626582" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AttachmentCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="99b4cb0d83e11922d5457d02b89f84ea23ee48c3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626582" /></Metadata><TypeSignature Language="C#" Value="public sealed class AttachmentCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttachmentCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttachmentCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttachmentCollection&#xA;Inherits ComplexPropertyCollection(Of Attachment)" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="045ff-101">Определяет коллекцию вложений элемента.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="045ff-101">Defines an item's attachment collection.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c7d53-101">Определяет коллекцию вложений элемента.</span><span class="sxs-lookup"><span data-stu-id="c7d53-101">Defines an item's attachment collection.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -56,24 +43,9 @@
         <Parameter Name="fileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="fileName">
-          <span data-ttu-id="045ff-102">Путь к файлу для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-102">The path to a file to be added to the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="045ff-103">Добавляет вложение файла в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-103">Adds a file attachment to the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="045ff-104">Вложенный файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-104">A file attachment.</span>
-          </span>
-        </returns>
+        <param name="fileName"><span data-ttu-id="c7d53-102">Путь к файлу, который необходимо добавить в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="c7d53-102">The path to a file to be added to the collection.</span></span></param>
+        <summary><span data-ttu-id="c7d53-103">Добавляет вложенный файл в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="c7d53-103">Adds a file attachment to the collection.</span></span></summary>
+        <returns><span data-ttu-id="c7d53-104">Вложенный файл.</span><span class="sxs-lookup"><span data-stu-id="c7d53-104">A file attachment.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,30 +68,10 @@
         <Parameter Name="content" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <span data-ttu-id="045ff-105">Отображаемое имя файла вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-105">The file attachment's display name.</span>
-          </span>
-        </param>
-        <param name="content">
-          <span data-ttu-id="045ff-106">Массив байтов, который представляет содержимое файла вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-106">A byte array that represents the content of the file attachment.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="045ff-107">Добавляет вложение файла в коллекцию, содержащую файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-107">Adds a file attachment to the collection that contains the file.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="045ff-108">Вложенный файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-108">A file attachment.</span>
-          </span>
-        </returns>
+        <param name="name"><span data-ttu-id="c7d53-105">Отображаемое имя вложенного файла.</span><span class="sxs-lookup"><span data-stu-id="c7d53-105">The file attachment's display name.</span></span></param>
+        <param name="content"><span data-ttu-id="c7d53-106">Массив байтов, представляющий содержимое вложенного файла.</span><span class="sxs-lookup"><span data-stu-id="c7d53-106">A byte array that represents the content of the file attachment.</span></span></param>
+        <summary><span data-ttu-id="c7d53-107">Добавляет вложенный файл в коллекцию, содержащую файл.</span><span class="sxs-lookup"><span data-stu-id="c7d53-107">Adds a file attachment to the collection that contains the file.</span></span></summary>
+        <returns><span data-ttu-id="c7d53-108">Вложенный файл.</span><span class="sxs-lookup"><span data-stu-id="c7d53-108">A file attachment.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -142,30 +94,10 @@
         <Parameter Name="contentStream" Type="System.IO.Stream" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <span data-ttu-id="045ff-109">Отображаемое имя файла вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-109">The file attachment's display name.</span>
-          </span>
-        </param>
-        <param name="contentStream">
-          <span data-ttu-id="045ff-110">Поток данных, содержащую файл, который присоединяется к коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-110">The data stream that contains the file to be attached to the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="045ff-111">Добавляет подключение файла к коллекции с помощью поток данных, содержащую файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-111">Adds a file attachment to the collection by using a data stream that contains the file.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="045ff-112">Вложенный файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-112">A file attachment.</span>
-          </span>
-        </returns>
+        <param name="name"><span data-ttu-id="c7d53-109">Отображаемое имя вложенного файла.</span><span class="sxs-lookup"><span data-stu-id="c7d53-109">The file attachment's display name.</span></span></param>
+        <param name="contentStream"><span data-ttu-id="c7d53-110">Поток данных, содержащий файл, который необходимо вложить в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="c7d53-110">The data stream that contains the file to be attached to the collection.</span></span></param>
+        <summary><span data-ttu-id="c7d53-111">Добавляет вложенный файл в коллекцию с помощью потока данных, который содержит файл.</span><span class="sxs-lookup"><span data-stu-id="c7d53-111">Adds a file attachment to the collection by using a data stream that contains the file.</span></span></summary>
+        <returns><span data-ttu-id="c7d53-112">Вложенный файл.</span><span class="sxs-lookup"><span data-stu-id="c7d53-112">A file attachment.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -188,30 +120,10 @@
         <Parameter Name="fileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <span data-ttu-id="045ff-113">Отображаемое имя файла вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-113">The file attachment's display name.</span>
-          </span>
-        </param>
-        <param name="fileName">
-          <span data-ttu-id="045ff-114">Имя файла вложения файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-114">The file attachment's file name.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="045ff-115">Добавляет вложение файла в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-115">Adds a file attachment to the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="045ff-116">Вложенный файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-116">A file attachment.</span>
-          </span>
-        </returns>
+        <param name="name"><span data-ttu-id="c7d53-113">Отображаемое имя вложенного файла.</span><span class="sxs-lookup"><span data-stu-id="c7d53-113">The file attachment's display name.</span></span></param>
+        <param name="fileName"><span data-ttu-id="c7d53-114">Имя файла вложения.</span><span class="sxs-lookup"><span data-stu-id="c7d53-114">The file attachment's file name.</span></span></param>
+        <summary><span data-ttu-id="c7d53-115">Добавляет вложенный файл в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="c7d53-115">Adds a file attachment to the collection.</span></span></summary>
+        <returns><span data-ttu-id="c7d53-116">Вложенный файл.</span><span class="sxs-lookup"><span data-stu-id="c7d53-116">A file attachment.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -238,24 +150,9 @@
       </TypeParameters>
       <Parameters />
       <Docs>
-        <typeparam name="TItem">
-          <span data-ttu-id="045ff-117">Тип элемента присоединяется к коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-117">The type of the item to be attached to the collection.</span>
-          </span>
-        </typeparam>
-        <summary>
-          <span data-ttu-id="045ff-118">Добавление вложения элемента в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-118">Adds an item attachment to the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="045ff-119">Вложение элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-119">An item attachment.</span>
-          </span>
-        </returns>
+        <typeparam name="TItem"><span data-ttu-id="c7d53-117">Тип элемента, который необходимо присоединить к коллекции.</span><span class="sxs-lookup"><span data-stu-id="c7d53-117">The type of the item to be attached to the collection.</span></span></typeparam>
+        <summary><span data-ttu-id="c7d53-118">Добавляет вложение элемента в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="c7d53-118">Adds an item attachment to the collection.</span></span></summary>
+        <returns><span data-ttu-id="c7d53-119">Вложение элемента.</span><span class="sxs-lookup"><span data-stu-id="c7d53-119">An item attachment.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -275,12 +172,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="045ff-120">Удаляет все вложения из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-120">Removes all attachments from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c7d53-120">Удаляет все вложения из коллекции.</span><span class="sxs-lookup"><span data-stu-id="c7d53-120">Removes all attachments from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -301,26 +193,9 @@
         <Parameter Name="attachment" Type="Microsoft.Exchange.WebServices.Data.Attachment" />
       </Parameters>
       <Docs>
-        <param name="attachment">
-          <span data-ttu-id="045ff-121">Вложения для удаления из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-121">The attachment to be removed from the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="045ff-122">Удаляет указанное вложение из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-122">Removes the specified attachment from the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="045ff-123">
-            <b>значение true,</b> Если указанное вложение успешно удалена из коллекции. в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-123">
-              <b>true</b> if the specified attachment was successfully removed from the collection; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="attachment"><span data-ttu-id="c7d53-121">Вложение, которое необходимо удалить из коллекции.</span><span class="sxs-lookup"><span data-stu-id="c7d53-121">The attachment to be removed from the collection.</span></span></param>
+        <summary><span data-ttu-id="c7d53-122">Удаляет указанное вложение из коллекции.</span><span class="sxs-lookup"><span data-stu-id="c7d53-122">Removes the specified attachment from the collection.</span></span></summary>
+        <returns><span data-ttu-id="c7d53-123"><b>значение true</b> , если указанное вложение было успешно удалено из коллекции; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="c7d53-123"><b>true</b> if the specified attachment was successfully removed from the collection; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -342,18 +217,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="045ff-124">Индекс вложения для удаления из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-124">The index of the attachment to be removed from the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="045ff-125">Удаляет вложения по указанному индексу (расположение) в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="045ff-125">Removes the attachment at the specified index (location) in the collection.</span>
-          </span>
-        </summary>
+        <param name="index"><span data-ttu-id="c7d53-124">Индекс вложения, которое необходимо удалить из коллекции.</span><span class="sxs-lookup"><span data-stu-id="c7d53-124">The index of the attachment to be removed from the collection.</span></span></param>
+        <summary><span data-ttu-id="c7d53-125">Удаляет вложение по указанному индексу (расположению) в коллекции.</span><span class="sxs-lookup"><span data-stu-id="c7d53-125">Removes the attachment at the specified index (location) in the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

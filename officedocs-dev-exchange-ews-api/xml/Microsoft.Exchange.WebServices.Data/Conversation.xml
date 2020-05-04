@@ -1,13 +1,5 @@
 <Type Name="Conversation" FullName="Microsoft.Exchange.WebServices.Data.Conversation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="22d5bd88ef39fe662d62391f299aa71ba81fdbca" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626629" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Conversation : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="22d5bd88ef39fe662d62391f299aa71ba81fdbca" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626629" /></Metadata><TypeSignature Language="C#" Value="public class Conversation : Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Conversation extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Conversation" />
   <TypeSignature Language="VB.NET" Value="Public Class Conversation&#xA;Inherits ServiceObject" />
@@ -21,24 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="a202a-101">Представляет беседы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a202a-101">Represents a conversation.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="a202a-102">
-        <para>Возвращается коллекция объектов беседы <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" /> метод для <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> класса. Определения свойств для класса беседы определены в <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" /> класса.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a202a-102">
-          <para>A collection of Conversation objects is returned by the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" /> method for the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class. Property definitions for the Conversation class are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" /> class.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="b9ec2-101">Представляет беседу.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-101">Represents a conversation.</span></span></summary>
+    <remarks><span data-ttu-id="b9ec2-102"><para>Коллекция объектов CONVERSATION возвращается <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" /> методом для <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> класса. Определения свойств для класса CONVERSATION определены в <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" /> классе.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-102"><para>A collection of Conversation objects is returned by the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" /> method for the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class. Property definitions for the Conversation class are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" /> class.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Categories">
@@ -56,30 +34,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-103">Получает список категорий для элементов беседы в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-103">Gets the category list for conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-104">Список категорий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-104">A list of categories.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-105">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> свойство, позволяющее получить список категорий для всех элементов беседы в почтовом ящике.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-105">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> property to get the category list for all conversation items in a mailbox.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-103">Получает список категорий для элементов бесед в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-103">Gets the category list for conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-104">Список категорий.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-104">A list of categories.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-105"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> свойство, чтобы получить список категорий для всех элементов бесед в почтовом ящике.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-105"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> property to get the category list for all conversation items in a mailbox.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearItemFlags">
@@ -100,39 +59,11 @@
         <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-106">Идентификатор папки которого элементы будут без отметки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-106">The identifier of the folder whose items will be unflagged.</span>
-          </span>
-          <span data-ttu-id="a202a-107">Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), снят флаги для элементами в беседах по всему почтовому ящику.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-107">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), flags for items in conversations across the entire mailbox are cleared.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-108">Очищает отмеченного состояния на элементы в связанной беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-108">Clears the flagged status on items in the associated conversation.</span>
-          </span>
-          <span data-ttu-id="a202a-109">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-109">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-110">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-110">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-106">Идентификатор папки, элементы которой будут отмечаться.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-106">The identifier of the folder whose items will be unflagged.</span></span> <span data-ttu-id="b9ec2-107">Если значение <paramref name="contextFolderId" /> параметра является пустой ссылкой (Nothing в Visual Basic), то флажки для элементов в беседах во всем почтовом ящике очищаются.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-107">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), flags for items in conversations across the entire mailbox are cleared.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-108">Очищает состояние помеченных элементов в связанной беседе.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-108">Clears the flagged status on items in the associated conversation.</span></span>       <span data-ttu-id="b9ec2-109">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-109">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-110"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-110"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="CopyItemsInConversation">
@@ -154,40 +85,12 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-111">Идентификатор папки папку, содержащую элементов беседы для копирования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-111">The folder identifier of the folder that contains the conversation items to copy.</span>
-          </span>
-          <span data-ttu-id="a202a-112">Если этот аргумент пустая ссылка (Nothing в Visual Basic), все элементы в беседе по всему почтовому ящику, копируются в конечную папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-112">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are copied to the destination folder.</span>
-          </span>
-        </param>
-        <param name="destinationFolderId">
-          <span data-ttu-id="a202a-113">Идентификатор папки назначения папки, которая будет содержать копируемые элементы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-113">The destination folder identifier of the folder that will contain the copied items.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-114">Элементы копируются в окне беседы в указанную папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-114">Copies items in the conversation to a specified folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-115">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-115">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-111">Идентификатор папки, содержащей элементы беседы, которые требуется скопировать.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-111">The folder identifier of the folder that contains the conversation items to copy.</span></span> <span data-ttu-id="b9ec2-112">Если для этого аргумента задана пустая ссылка (Nothing в Visual Basic), все элементы в беседе во всем почтовом ящике копируются в целевую папку.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-112">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are copied to the destination folder.</span></span></param>
+        <param name="destinationFolderId"><span data-ttu-id="b9ec2-113">Конечный идентификатор папки, в которой будут содержаться скопированные элементы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-113">The destination folder identifier of the folder that will contain the copied items.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-114">Копирует элементы беседы в указанную папку.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-114">Copies items in the conversation to a specified folder.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-115"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-115"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteItems">
@@ -208,40 +111,12 @@
         <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-116">Идентификатор папки папку, содержащую элементов беседы для удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-116">The folder identifier of the folder that contains the conversation items to delete.</span>
-          </span>
-          <span data-ttu-id="a202a-117">Если этот аргумент пустая ссылка (Nothing в Visual Basic), будут удалены все элементы в беседе по всему почтовому ящику.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-117">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are deleted.</span>
-          </span>
-        </param>
-        <param name="deleteMode">
-          <span data-ttu-id="a202a-118">Режим удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-118">The deletion mode.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-119">Удаляет элементы в окне беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-119">Deletes items in the conversation.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-120">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-120">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-116">Идентификатор папки, содержащей элементы беседы, которые требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-116">The folder identifier of the folder that contains the conversation items to delete.</span></span> <span data-ttu-id="b9ec2-117">Если для этого аргумента задана пустая ссылка (Nothing в Visual Basic), удаляются все элементы в беседе во всем почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-117">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are deleted.</span></span></param>
+        <param name="deleteMode"><span data-ttu-id="b9ec2-118">Режим удаления.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-118">The deletion mode.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-119">Удаляет элементы в беседе.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-119">Deletes items in the conversation.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-120"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-120"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisableAlwaysCategorizeItems">
@@ -262,32 +137,11 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="processSynchronously">
-          <span data-ttu-id="a202a-121">
-            <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после завершенных категоризации отключение и удаление категории из существующих элементов в окне беседы; <b>значение false,</b> если методом является для возврата немедленно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-121">
-              <b>true</b> to indicate whether the method should return after it has completed disabling categorization and removing the categories from existing items in the conversation; <b>false</b> if the method is to return immediately.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-122">Отключает автоматическую классификации элементов в беседе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-122">Disables automatic categorization of items in a conversation.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-123">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-123">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="processSynchronously"><span data-ttu-id="b9ec2-121"><b>значение true</b> , чтобы указать, должен ли метод возвращаться после завершения отключения классификации и удаления категорий из существующих элементов в беседе; <b>false</b> , если метод должен возвратить немедленно.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-121"><b>true</b> to indicate whether the method should return after it has completed disabling categorization and removing the categories from existing items in the conversation; <b>false</b> if the method is to return immediately.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-122">Отключает автоматическую категоризацию элементов в беседе.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-122">Disables automatic categorization of items in a conversation.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-123"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-123"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisableAlwaysDeleteItems">
@@ -308,32 +162,11 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="processSynchronously">
-          <span data-ttu-id="a202a-124">
-            <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после его завершения отключение автоматического перемещения элементов в беседе для папки «Удаленные» и восстановлен удаленных элементов в исходные папки; <b>значение false,</b> если методом является для возврата немедленно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-124">
-              <b>true</b> to indicate whether the method should return after it has completed disabling automatic move of items in a conversation to the Deleted Items folder and has restored the deleted items to their original folders; <b>false</b> if the method is to return immediately.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-125">Отключает автоматическое перемещение элементов в беседе для папки «Удаленные».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-125">Disables the automatic move of items in a conversation to the Deleted Items folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-126">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-126">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="processSynchronously"><span data-ttu-id="b9ec2-124"><b>значение true</b> указывает, должен ли метод возвращаться после завершения отключения автоматического перемещения элементов в беседе в папку "Удаленные" и восстановления удаленных элементов в исходных папках; <b>false</b> , если метод должен возвратить немедленно.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-124"><b>true</b> to indicate whether the method should return after it has completed disabling automatic move of items in a conversation to the Deleted Items folder and has restored the deleted items to their original folders; <b>false</b> if the method is to return immediately.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-125">Отключает автоматическое перемещение элементов в беседе в папку "Удаленные".</span><span class="sxs-lookup"><span data-stu-id="b9ec2-125">Disables the automatic move of items in a conversation to the Deleted Items folder.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-126"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-126"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisableAlwaysMoveItemsInConversation">
@@ -354,32 +187,11 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="processSynchronously">
-          <span data-ttu-id="a202a-127">
-            <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после его завершения отключение автоматического перемещение элементов в беседе в целевой папке; <b>значение false,</b> если методом является для возврата немедленно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-127">
-              <b>true</b> to indicate whether the method should return after it has completed disabling automatic move of items in a conversation to the target folder; <b>false</b> if the method is to return immediately.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-128">Отключает автоматическое перемещение элементов в беседе в целевой папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-128">Disables the automatic move of items in a conversation to a target folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-129">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-129">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="processSynchronously"><span data-ttu-id="b9ec2-127"><b>значение true</b> , чтобы указать, должен ли метод возвращаться после завершения отключения автоматического перемещения элементов в беседе в целевую папку; <b>false</b> , если метод должен возвратить немедленно.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-127"><b>true</b> to indicate whether the method should return after it has completed disabling automatic move of items in a conversation to the target folder; <b>false</b> if the method is to return immediately.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-128">Отключает автоматическое перемещение элементов в беседе в целевую папку.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-128">Disables the automatic move of items in a conversation to a target folder.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-129"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-129"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DraftItemIds">
@@ -397,18 +209,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-130">Получает коллекцию идентификаторов элемента черновика для элементов, которые еще не были отправлены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-130">Gets a collection of draft item identifiers for items that have not yet been sent.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-131">Возвращает коллекцию идентификаторов элементов черновиков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-131">Returns a collection of draft item identifiers.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-130">Получает коллекцию идентификаторов элементов черновиков элементов, которые еще не были отправлены.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-130">Gets a collection of draft item identifiers for items that have not yet been sent.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-131">Возвращает коллекцию идентификаторов элементов черновиков.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-131">Returns a collection of draft item identifiers.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -431,38 +233,12 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="categories">
-          <span data-ttu-id="a202a-132">Категории автоматически применяется к элементам в беседе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-132">The categories to automatically be applied to items in a conversation.</span>
-          </span>
-        </param>
-        <param name="processSynchronously">
-          <span data-ttu-id="a202a-133">
-            <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после завершенных Включение категоризации и добавления категории в существующих элементов в окне беседы; <b>значение false,</b> если методом является для возврата немедленно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-133">
-              <b>true</b> to indicate whether the method should return after it has completed enabling categorization and adding the categories to existing items in the conversation; <b>false</b> if the method is to return immediately.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-134">Включение автоматического классификации элементов в беседе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-134">Enables the automatic categorization of items in a conversation.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-135">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-135">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="categories"><span data-ttu-id="b9ec2-132">Категории, которые будут автоматически применены к элементам в беседе.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-132">The categories to automatically be applied to items in a conversation.</span></span></param>
+        <param name="processSynchronously"><span data-ttu-id="b9ec2-133"><b>значение true</b> указывает, должен ли метод возвращаться после завершения включения классификации и добавления категорий к существующим элементам в беседе; <b>false</b> , если метод должен возвратить немедленно.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-133"><b>true</b> to indicate whether the method should return after it has completed enabling categorization and adding the categories to existing items in the conversation; <b>false</b> if the method is to return immediately.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-134">Включает автоматическую категоризацию элементов в беседе.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-134">Enables the automatic categorization of items in a conversation.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-135"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-135"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableAlwaysDeleteItems">
@@ -483,32 +259,11 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="processSynchronously">
-          <span data-ttu-id="a202a-136">
-            <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после его завершения Включение автоматическое перемещение элементов в беседе для папки «Удаленные» и был перемещен существующих элементов в беседе для папки "Удаленные"; <b>значение false,</b> если методом является для возврата немедленно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-136">
-              <b>true</b> to indicate whether the method should return after it has completed enabling the automatic move of items in a conversation to the Deleted Items folder and has moved existing items in a conversation to the Deleted Items folder; <b>false</b> if the method is to return immediately.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-137">Включает автоматическое перемещение элементов в беседе для папки «Удаленные».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-137">Enables the automatic move of items in a conversation to the Deleted Items folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-138">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-138">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="processSynchronously"><span data-ttu-id="b9ec2-136"><b>значение true</b> указывает, должен ли метод возвращаться после завершения включения автоматического перемещения элементов в беседе в папку "Удаленные" и перемещения существующих элементов в беседу в папку "Удаленные". <b>false</b> , если метод должен возвратить немедленно.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-136"><b>true</b> to indicate whether the method should return after it has completed enabling the automatic move of items in a conversation to the Deleted Items folder and has moved existing items in a conversation to the Deleted Items folder; <b>false</b> if the method is to return immediately.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-137">Включает автоматическое перемещение элементов в беседе в папку "Удаленные".</span><span class="sxs-lookup"><span data-stu-id="b9ec2-137">Enables the automatic move of items in a conversation to the Deleted Items folder.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-138"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-138"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableAlwaysMoveItems">
@@ -530,38 +285,12 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">
-          <span data-ttu-id="a202a-139">Идентификатор папки, какую беседу, перемещение элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-139">The identifier of the folder to which conversation items are moved.</span>
-          </span>
-        </param>
-        <param name="processSynchronously">
-          <span data-ttu-id="a202a-140">
-            <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после его завершения Включение автоматическое перемещение элементов в беседе в целевой папке и перемещен существующих элементов беседы в целевой папке; <b>значение false,</b> если методом является для возврата немедленно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-140">
-              <b>true</b> to indicate whether the method should return after it has completed enabling the automatic move of items in a conversation to the target folder and has moved existing conversation items to the target folder; <b>false</b> if the method is to return immediately.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-141">Включает автоматическое перемещение новых и существующих элементов в беседе в целевой папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-141">Enables the automatic move of new and existing items in a conversation to a target folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-142">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-142">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="destinationFolderId"><span data-ttu-id="b9ec2-139">Идентификатор папки, в которую перемещаются элементы беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-139">The identifier of the folder to which conversation items are moved.</span></span></param>
+        <param name="processSynchronously"><span data-ttu-id="b9ec2-140"><b>значение true</b> указывает, должен ли метод возвращаться после завершения включения автоматического перемещения элементов в беседе в целевую папку и перемещения существующих элементов беседы в целевую папку; <b>false</b> , если метод должен возвратить немедленно.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-140"><b>true</b> to indicate whether the method should return after it has completed enabling the automatic move of items in a conversation to the target folder and has moved existing conversation items to the target folder; <b>false</b> if the method is to return immediately.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-141">Включает автоматическое перемещение новых и существующих элементов в беседе в целевую папку.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-141">Enables the automatic move of new and existing items in a conversation to a target folder.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-142"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-142"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagItems">
@@ -584,51 +313,13 @@
         <Parameter Name="dueDate" Type="System.Nullable&lt;System.DateTime&gt;" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-143">Идентификатор папки, отмечаемых, элементы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-143">The identifer of the folder whose items will be flagged.</span>
-          </span>
-          <span data-ttu-id="a202a-144">Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), отмеченные элементы в связанной беседы по всему почтовому ящику.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-144">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), items in the associated conversation across the entire mailbox are flagged.</span>
-          </span>
-        </param>
-        <param name="startDate">
-          <span data-ttu-id="a202a-145">Дата начала (может быть пустая ссылка (Nothing в Visual Basic)).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-145">The start date (can be a null reference (Nothing in Visual Basic)).</span>
-          </span>
-        </param>
-        <param name="dueDate">
-          <span data-ttu-id="a202a-146">Срок (может быть пустая ссылка (Nothing в Visual Basic)).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-146">The due date (can be a null reference (Nothing in Visual Basic)).</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-147">Задает отмеченного состояния для элементов в связанной беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-147">Sets the flagged status on items in the associated conversation.</span>
-          </span>
-          <span data-ttu-id="a202a-148">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-148">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-149">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-149">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-143">Идентификатор папки, элементы которой будут помечены.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-143">The identifer of the folder whose items will be flagged.</span></span> <span data-ttu-id="b9ec2-144">Если значение <paramref name="contextFolderId" /> параметра является пустой ссылкой (Nothing в Visual Basic), элементы связанного диалога помечаются во всем почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-144">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), items in the associated conversation across the entire mailbox are flagged.</span></span></param>
+        <param name="startDate"><span data-ttu-id="b9ec2-145">Дата начала (может быть пустой ссылкой (Nothing в Visual Basic)).</span><span class="sxs-lookup"><span data-stu-id="b9ec2-145">The start date (can be a null reference (Nothing in Visual Basic)).</span></span></param>
+        <param name="dueDate"><span data-ttu-id="b9ec2-146">Дата выполнения (может быть пустой ссылкой (Nothing в Visual Basic)).</span><span class="sxs-lookup"><span data-stu-id="b9ec2-146">The due date (can be a null reference (Nothing in Visual Basic)).</span></span></param>
+        <summary><span data-ttu-id="b9ec2-147">Задает помеченное состояние для элементов в связанной беседе.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-147">Sets the flagged status on items in the associated conversation.</span></span>          <span data-ttu-id="b9ec2-148">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-148">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-149"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-149"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagItemsComplete">
@@ -650,45 +341,12 @@
         <Parameter Name="completeDate" Type="System.Nullable&lt;System.DateTime&gt;" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-150">Идентификатор папки, элементы которого будут помечены как завершенные.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-150">The identifer of the folder whose items will be flagged as complete.</span>
-          </span>
-          <span data-ttu-id="a202a-151">Если значение <paramref name="contextFolderId" /> параметр пустая ссылка (Nothing в Visual Basic), а элементы в беседе по всему почтовому ящику помечены как завершенные.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-151">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), items in conversation across the entire mailbox are marked as complete.</span>
-          </span>
-        </param>
-        <param name="completeDate">
-          <span data-ttu-id="a202a-152">Дата завершения (может быть пустая ссылка (Nothing в Visual Basic)).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-152">The complete date (can be a null reference (Nothing in Visual Basic)).</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-153">Изменяет отмеченного состояния элементов в связанной беседы для выполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-153">Changes the flagged status of items in the associated conversation to complete.</span>
-          </span>
-          <span data-ttu-id="a202a-154">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-154">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-155">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-155">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-150">Идентификатор папки, элементы которой будут помечены как завершенные.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-150">The identifer of the folder whose items will be flagged as complete.</span></span> <span data-ttu-id="b9ec2-151">Если значение <paramref name="contextFolderId" /> параметра является пустой ссылкой (Nothing в Visual Basic), элементы в беседе во всем почтовом ящике помечаются как завершенные.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-151">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), items in conversation across the entire mailbox are marked as complete.</span></span></param>
+        <param name="completeDate"><span data-ttu-id="b9ec2-152">Полная дата (может быть пустой ссылкой (Nothing в Visual Basic)).</span><span class="sxs-lookup"><span data-stu-id="b9ec2-152">The complete date (can be a null reference (Nothing in Visual Basic)).</span></span></param>
+        <summary><span data-ttu-id="b9ec2-153">Изменяет состояние помеченных элементов в сопоставленной беседе на "завершено".</span><span class="sxs-lookup"><span data-stu-id="b9ec2-153">Changes the flagged status of items in the associated conversation to complete.</span></span>            <span data-ttu-id="b9ec2-154">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-154">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-155"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-155"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagStatus">
@@ -706,30 +364,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationFlagStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-156">Получает состояние флага сводный для элементов беседы в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-156">Gets the aggregated flag status for conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-157">Состояние отметки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-157">A flag status.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-158">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> свойство, чтобы получить сведения о состоянии сводный флаг для всех элементов беседы в почтовом ящике.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-158">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> property to get the aggregated flag status for all conversation items in a mailbox.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-156">Получает сводный статус флага для элементов беседы в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-156">Gets the aggregated flag status for conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-157">Состояние флага.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-157">A flag status.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-158"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> свойство, чтобы получить сводное состояние флага для всех элементов бесед в почтовом ящике.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-158"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> property to get the aggregated flag status for all conversation items in a mailbox.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalCategories">
@@ -747,30 +386,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-159">Получает список категорий для всех элементов беседы в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-159">Gets the category list for all conversation items in a mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-160">Список категорий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-160">A list of categories.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-161">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> свойство, позволяющее получить список категорий для элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-161">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> property to get the category list for conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-159">Получает список категорий для всех элементов бесед в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-159">Gets the category list for all conversation items in a mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-160">Список категорий.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-160">A list of categories.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-161"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> свойство, чтобы получить список категорий для элементов беседы в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-161"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> property to get the category list for conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalFlagStatus">
@@ -788,30 +408,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationFlagStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-162">Получает состояние флага сводный для всех элементов беседы в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-162">Gets the aggregated flag status for all conversation items in a mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-163">Состояние отметки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-163">A flag status.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-164">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> свойство, чтобы получить сведения о состоянии сводный флаг для всех элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-164">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> property to get the aggregated flag status for all conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-162">Получает суммарный статус флага для всех элементов бесед в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-162">Gets the aggregated flag status for all conversation items in a mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-163">Состояние флага.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-163">A flag status.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-164"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> свойство, чтобы получить сводный статус флага для всех элементов бесед в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-164"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> property to get the aggregated flag status for all conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalHasAttachments">
@@ -829,20 +430,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-165">Получает значение, указывающее на наличие по крайней мере один беседы элемента в почтовом ящике вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-165">Gets a value that indicates whether at least one conversation item in a mailbox has an attachment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-166">
-            <b>значение true,</b> Если хотя бы один беседы элемента в почтовом ящике с вложением; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-166">
-              <b>true</b> if at least one conversation item in a mailbox has an attachment; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-165">Получает значение, указывающее, имеет ли хотя бы один элемент в почтовом ящике вложение.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-165">Gets a value that indicates whether at least one conversation item in a mailbox has an attachment.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-166">имеет <b>значение true</b> , если по крайней мере один элемент беседы в почтовом ящике содержит вложение; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-166"><b>true</b> if at least one conversation item in a mailbox has an attachment; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -861,20 +450,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-167">Получает значение, указывающее, является ли беседы по крайней мере один элемент в любой папке в почтовый ящик был защищен службой управления правами на доступ к данным (IRM). <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-167">Gets a value indicating whether at least one conversation item in any folder in a mailbox is protected by Information Rights Management (IRM).The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-168">
-            <b>значение true,</b> Если хотя бы один беседы элемента в почтовом ящике защищен IRM; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-168">
-              <b>true</b> if at least one conversation item in a mailbox is protected by IRM; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-167">Получает значение, указывающее, защищен ли по крайней мере один элемент беседы в любой папке почтового ящика службой управления правами на доступ к данным (IRM). <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-167">Gets a value indicating whether at least one conversation item in any folder in a mailbox is protected by Information Rights Management (IRM).The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-168"><b>имеет значение true</b> , если по крайней мере один элемент беседы в почтовом ящике защищен IRM; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-168"><b>true</b> if at least one conversation item in a mailbox is protected by IRM; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -893,18 +470,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-169">Возвращает индекс глобального значок. <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-169">Gets the global icon index.The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-170">Индекс глобального значок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-170">The global icon index.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-169">Получает глобальный индекс значка. <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-169">Gets the global icon index.The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-170">Глобальный индекс значка.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-170">The global icon index.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -923,30 +490,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-171">Возвращает объединенные важности для всех элементов беседы в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-171">Gets the aggregated importance for all conversation items in a mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-172">Глобальные важность беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-172">The global importance of a conversation.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-173">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> свойство, позволяющее получить сводный важности для всех элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-173">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> property to get the aggregated importance for all conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-171">Получает совокупную важность для всех элементов бесед в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-171">Gets the aggregated importance for all conversation items in a mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-172">Глобальная важность беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-172">The global importance of a conversation.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-173"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> свойство, чтобы получить совокупную важность для всех элементов бесед в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-173"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> property to get the aggregated importance for all conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalItemClasses">
@@ -964,30 +512,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-174">Получает список классов элементов, представляющий все классы элементов беседы элементов в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-174">Gets a list of item classes that represents all the item classes of the conversation items in a mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-175">Список классов элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-175">A list of item classes.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-176">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> свойство, позволяющее получить классов элементов из всех элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-176">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> property to get the item classes of all the conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-174">Получает список классов элементов, которые представляют все классы элементов бесед в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-174">Gets a list of item classes that represents all the item classes of the conversation items in a mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-175">Список классов элементов.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-175">A list of item classes.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-176"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> свойство, чтобы получить классы элементов для всех элементов беседы в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-176"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> property to get the item classes of all the conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalItemIds">
@@ -1005,30 +534,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-177">Получает коллекцию идентификаторов элементов для всех элементов беседы в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-177">Gets the collection of item identifiers for all conversation items in a mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-178">Коллекция идентификаторов элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-178">A collection of item identifiers.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-179">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> свойство, позволяющее получить идентификаторы элементов для всех элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-179">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> property to get the item identifiers for all conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-177">Получает коллекцию идентификаторов элементов для всех элементов бесед в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-177">Gets the collection of item identifiers for all conversation items in a mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-178">Коллекция идентификаторов элементов.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-178">A collection of item identifiers.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-179"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> свойство, чтобы получить идентификаторы элементов для всех элементов бесед в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-179"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> property to get the item identifiers for all conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalLastDeliveryTime">
@@ -1046,30 +556,11 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-180">Получает время доставки сообщений, который был получен последний беседы во всех папках в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-180">Gets the delivery time of the message that was last received in this conversation across all folders in the mailbox..</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-181">Время доставки последнего элемента беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-181">The delivery time of the last conversation item.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-182">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> свойство, позволяющее получить время доставки запись о беседе, Дата и время последнего полученного в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-182">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> property to get the delivery time of the conversation item that was last received in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-180">Возвращает время доставки сообщения, которое было последний раз получено в данной беседе, во всех папках почтового ящика..</span><span class="sxs-lookup"><span data-stu-id="b9ec2-180">Gets the delivery time of the message that was last received in this conversation across all folders in the mailbox..</span></span></summary>
+        <value><span data-ttu-id="b9ec2-181">Время доставки последнего элемента беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-181">The delivery time of the last conversation item.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-182"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> свойство, чтобы получить время доставки элемента диалога, полученного последним в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-182"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> property to get the delivery time of the conversation item that was last received in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalMessageCount">
@@ -1087,30 +578,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-183">Возвращает общее число элементов беседы в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-183">Gets the total number of conversation items in the mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-184">Количество элементов беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-184">The number of conversation items.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-185">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> свойство, позволяющее получить общее число элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-185">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> property to get the total number of conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-183">Получает общее число элементов беседы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-183">Gets the total number of conversation items in the mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-184">Количество элементов беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-184">The number of conversation items.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-185"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> свойство, чтобы получить общее количество элементов беседы в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-185"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> property to get the total number of conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalSize">
@@ -1128,30 +600,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-186">Получает размер беседы, вычисляемых из размер всех элементов беседы в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-186">Gets the size of the conversation calculated from the size of all conversation items in the mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-187">Размер беседу в статьи базы знаний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-187">The size of the conversation in KBs.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-188">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> свойство, позволяющее получить размер беседы рассчитывается размер всех элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-188">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> property to get the size of the conversation calculated from the size of all conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-186">Получает размер диалога, рассчитанный на основе размера всех элементов бесед в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-186">Gets the size of the conversation calculated from the size of all conversation items in the mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-187">Размер беседы в КБ.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-187">The size of the conversation in KBs.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-188"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> свойство, чтобы получить размер диалога, рассчитанный на основе размера всех элементов бесед в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-188"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> property to get the size of the conversation calculated from the size of all conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalUniqueRecipients">
@@ -1169,30 +622,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-189">Получает список всех людей, полученных сообщений в беседе всех папок в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-189">Gets a list of all the people who have received messages in this conversation across all folders in the mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-190">Список получателей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-190">A list of recipients.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-191">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> свойство, чтобы получить список всех получателей элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-191">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> property to get the list of all the recipients of conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-189">Получает список всех пользователей, получивших сообщения в этой беседе во всех папках почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-189">Gets a list of all the people who have received messages in this conversation across all folders in the mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-190">Список получателей.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-190">A list of recipients.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-191"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> свойство, чтобы получить список всех получателей бесед в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-191"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> property to get the list of all the recipients of conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalUniqueSenders">
@@ -1210,30 +644,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-192">Получает список всех отправителей беседы элементов в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-192">Gets a list of all the senders of conversation items in the mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-193">Список отправителей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-193">A list of senders.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-194">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> свойство, чтобы получить список всех отправителей элементов беседы в текущую папку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-194">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> property to get the list of all the senders of conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-192">Получает список всех отправителей элементов беседы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-192">Gets a list of all the senders of conversation items in the mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-193">Список отправителей.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-193">A list of senders.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-194"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> свойство, чтобы получить список всех отправителей элементов беседы в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-194"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> property to get the list of all the senders of conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalUniqueUnreadSenders">
@@ -1251,30 +666,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-195">Получает список всех людей, отправленные сообщения, в настоящее время непрочитанные сообщения в беседе для всех папок в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-195">Gets a list of all the people who have sent messages that are currently unread in this conversation across all folders in the mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-196">Список отправителей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-196">A list of senders.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-197">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> свойство, позволяющее получить список всех отправителей беседы непрочитанные элементы в текущей папке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-197">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> property to get the list of all the senders of unread conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-195">Получает список всех пользователей, которые отправили сообщение, непрочитанное в данный момент во всех папках почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-195">Gets a list of all the people who have sent messages that are currently unread in this conversation across all folders in the mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-196">Список отправителей.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-196">A list of senders.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-197"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> свойство, чтобы получить список всех отправителей непрочитанных элементов беседы в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-197"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> property to get the list of all the senders of unread conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalUnreadCount">
@@ -1292,30 +688,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-198">Получает число всех элементов непрочитанных сообщений в почтовом ящике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-198">Gets a count of all the unread conversation items in the mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-199">Количество непрочитанных элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-199">The count of unread items.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="a202a-200">
-            <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> свойство, позволяющее получить число всех элементов непрочитанных сообщений в текущей папке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-200">
-              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> property to get the count of all unread conversation items in the current folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b9ec2-198">Получает количество всех непрочтенных элементов беседы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-198">Gets a count of all the unread conversation items in the mailbox.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-199">Количество непрочитанных элементов.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-199">The count of unread items.</span></span></value>
+        <remarks><span data-ttu-id="b9ec2-200"><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> свойство, чтобы получить количество всех непрочтенных элементов беседы в текущей папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-200"><para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> property to get the count of all unread conversation items in the current folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachments">
@@ -1333,20 +710,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-201">Получает значение, указывающее, имеет ли беседы по крайней мере один элемент в текущей папке вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-201">Gets a value that indicates whether at least one conversation item in the current folder has an attachment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-202">
-            <b>значение true,</b> Если беседы по крайней мере один элемент в текущей папке имеет вложение; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-202">
-              <b>true</b> if at least one conversation item in the current folder has an attachment; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-201">Получает значение, указывающее, есть ли вложение по крайней мере для одного элемента беседы в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-201">Gets a value that indicates whether at least one conversation item in the current folder has an attachment.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-202">имеет <b>значение true</b> , если по крайней мере один элемент беседы в текущей папке содержит вложение; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-202"><b>true</b> if at least one conversation item in the current folder has an attachment; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1365,20 +730,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-203">Получает значение, указывающее, является ли беседы по крайней мере один элемент в текущей папке был защищен службой управления правами на доступ к данным (IRM). <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-203">Gets a value indicating whether at least one conversation item in the current folder is protected by Information Rights Management (IRM).The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-204">
-            <b>значение true,</b> Если беседы по крайней мере один элемент в текущей папке защищен IRM; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-204">
-              <b>true</b> if at least one conversation item in the current folder is protected by IRM; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-203">Получает значение, указывающее, защищен ли по крайней мере один элемент беседы в текущей папке службой управления правами на доступ к данным (IRM). <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-203">Gets a value indicating whether at least one conversation item in the current folder is protected by Information Rights Management (IRM).The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-204"><b>имеет значение true</b> , если по крайней мере один элемент беседы в текущей папке защищен IRM; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-204"><b>true</b> if at least one conversation item in the current folder is protected by IRM; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1397,18 +750,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-205">Получает индекс значка. <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-205">Gets the icon index.The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-206">Индекс значка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-206">The icon index.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-205">Получает индекс значка. <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-205">Gets the icon index.The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-206">Индекс значка.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-206">The icon index.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1427,18 +770,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-207">Получает идентификатор беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-207">Gets the conversation identifier.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-208">Идентификатор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-208">An identifier.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-207">Получает идентификатор беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-207">Gets the conversation identifier.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-208">Идентификатор.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-208">An identifier.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1457,18 +790,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-209">Возвращает объединенные важности для всех элементов беседы в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-209">Gets the aggregated importance for all conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-210">Важность беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-210">The importance of a conversation.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-209">Получает совокупную важность для всех элементов бесед в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-209">Gets the aggregated importance for all conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-210">Важность беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-210">The importance of a conversation.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1487,23 +810,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-211">Возвращает ключ экземпляра беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-211">Gets the conversation instance key.</span>
-          </span>
-          <span data-ttu-id="a202a-212">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-212">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-213">Ключ экземпляра беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-213">The conversation instance key.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-211">Получает ключ экземпляра беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-211">Gets the conversation instance key.</span></span>             <span data-ttu-id="b9ec2-212"><see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-212">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-213">Ключ экземпляра беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-213">The conversation instance key.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1522,18 +830,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-214">Получает список классов элементов, представляющий все классы элементов из элементов беседы в текущей папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-214">Gets a list of item classes that represents all the item classes of the conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-215">Список классов элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-215">A list of item classes.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-214">Получает список классов элементов, которые представляют все классы элементов для элементов беседы в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-214">Gets a list of item classes that represents all the item classes of the conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-215">Список классов элементов.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-215">A list of item classes.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1552,18 +850,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-216">Получает коллекцию идентификаторов элементов для всех элементов беседы в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-216">Gets the collection of item identifiers for all conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-217">Коллекция идентификаторов элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-217">A collection of item identifiers.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-216">Получает коллекцию идентификаторов элементов для всех элементов бесед в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-216">Gets the collection of item identifiers for all conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-217">Коллекция идентификаторов элементов.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-217">A collection of item identifiers.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1582,18 +870,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-218">Получает время доставки сообщений, который был получен последний в эту беседу в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-218">Gets the delivery time of the message that was last received in this conversation in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-219">Время доставки последнего элемента беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-219">The delivery time of the last conversation item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-218">Возвращает время доставки сообщения, которое было последний раз получено в этой беседе в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-218">Gets the delivery time of the message that was last received in this conversation in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-219">Время доставки последнего элемента беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-219">The delivery time of the last conversation item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1612,23 +890,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-220">Получает дату и время последнего изменения эту беседу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-220">Gets the date and time this conversation was last modified.</span>
-          </span>
-          <span data-ttu-id="a202a-221">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-221">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-222">Дата и время последнего изменения эту беседу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-222">The date and time this conversation was last modified.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-220">Получает дату и время последнего изменения этой беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-220">Gets the date and time this conversation was last modified.</span></span>             <span data-ttu-id="b9ec2-221"><see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-221">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-222">Дата и время последнего изменения этой беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-222">The date and time this conversation was last modified.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1647,18 +910,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-223">Возвращает общее число элементов беседы в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-223">Gets the total number of conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-224">Количество элементов беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-224">The number of conversation items.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-223">Получает общее число элементов беседы в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-223">Gets the total number of conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-224">Количество элементов беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-224">The number of conversation items.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1681,40 +934,12 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-225">Идентификатор папки папку, содержащую элементов беседы для перемещения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-225">The folder identifier of the folder that contains the conversation items to move.</span>
-          </span>
-          <span data-ttu-id="a202a-226">Если этот аргумент пустая ссылка (Nothing в Visual Basic), все элементы в беседе по всему почтовому ящику перемещаются в папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-226">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are moved to the destination folder.</span>
-          </span>
-        </param>
-        <param name="destinationFolderId">
-          <span data-ttu-id="a202a-227">Идентификатор папки назначения папки, которая будет содержать перемещаемых элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-227">The destination folder identifier of the folder that will contain the moved items.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-228">Перемещает элементы в беседе в целевую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-228">Moves items in a conversation to a destination folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-229">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-229">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-225">Идентификатор папки, содержащей элементы беседы, которые требуется переместить.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-225">The folder identifier of the folder that contains the conversation items to move.</span></span> <span data-ttu-id="b9ec2-226">Если для этого аргумента задана пустая ссылка (Nothing в Visual Basic), все элементы в беседе во всем почтовом ящике перемещаются в целевую папку.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-226">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are moved to the destination folder.</span></span></param>
+        <param name="destinationFolderId"><span data-ttu-id="b9ec2-227">Конечный идентификатор папки, в которой будут содержаться перемещенные элементы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-227">The destination folder identifier of the folder that will contain the moved items.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-228">Перемещает элементы в беседе в папку назначения.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-228">Moves items in a conversation to a destination folder.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-229"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-229"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Preview">
@@ -1732,23 +957,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-230">Получает preview беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-230">Gets the conversation preview.</span>
-          </span>
-          <span data-ttu-id="a202a-231">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-231">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-232">Предварительный просмотр беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-232">The conversation preview.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-230">Получает предварительный просмотр беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-230">Gets the conversation preview.</span></span>             <span data-ttu-id="b9ec2-231"><see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-231">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-232">Просмотр беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-232">The conversation preview.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1771,42 +981,12 @@
         <Parameter Name="isRead" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-233">Идентификатор папки, элементы которого будут иметь свои чтения состояние обновления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-233">The identifier of the folder whose items will have their read state updated.</span>
-          </span>
-          <span data-ttu-id="a202a-234">Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), будут обновлены состояние чтения всех элементов в связанной беседы по всему почтовому ящику.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-234">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the read state of all items in the associated conversation across an entire mailbox will be updated.</span>
-          </span>
-        </param>
-        <param name="isRead">
-          <span data-ttu-id="a202a-235">
-            <b>значение true</b> , если элементов беседы помечены как чтение; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-235">
-              <b>true</b> if conversation items are marked as read; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-236">Задает состояние чтения элементов в беседе. <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-236">Sets the read state of items in a conversation.The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-237">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-237">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-233">Идентификатор папки, элементы которой будут обновлены с состоянием "чтение".</span><span class="sxs-lookup"><span data-stu-id="b9ec2-233">The identifier of the folder whose items will have their read state updated.</span></span> <span data-ttu-id="b9ec2-234">Если значение <paramref name="contextFolderId" /> параметра является пустой ссылкой (Nothing в Visual Basic), будет обновлено состояние чтения всех элементов в связанном диалоговом окне во всем почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-234">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the read state of all items in the associated conversation across an entire mailbox will be updated.</span></span></param>
+        <param name="isRead"><span data-ttu-id="b9ec2-235"><b>значение true</b> , если элементы беседы помечаются как прочтенные; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-235"><b>true</b> if conversation items are marked as read; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-236">Задает состояние чтения элементов в беседе. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-236">Sets the read state of items in a conversation.The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-237"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-237"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetReadStateForItemsInConversation">
@@ -1829,55 +1009,13 @@
         <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-238">Идентификатор папки, элементы которого будут иметь свои чтения состояние обновления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-238">The identifier of the folder whose items will have their read state updated.</span>
-          </span>
-          <span data-ttu-id="a202a-239">Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), задайте просмотра состояния элементов по всему почтовому ящику.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-239">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the read states of items across the entire mailbox are set.</span>
-          </span>
-        </param>
-        <param name="isRead">
-          <span data-ttu-id="a202a-240">
-            <b>значение true</b>, если элементы беседы, помечаются как чтение; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-240">
-              <b>true</b>, if conversation items are marked as read; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <param name="suppressReadReceipts">
-          <span data-ttu-id="a202a-241">
-            <b>значение true,</b> Если чтение квитанций отключено; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-241">
-              <b>true</b> if read receipts are suppressed; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-242">Задает состояние чтения элементов в указанном беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-242">Sets the read state of items in the specified conversation.</span>
-          </span>
-          <span data-ttu-id="a202a-243">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-243">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-244">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-244">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-238">Идентификатор папки, элементы которой будут обновлены с состоянием "чтение".</span><span class="sxs-lookup"><span data-stu-id="b9ec2-238">The identifier of the folder whose items will have their read state updated.</span></span> <span data-ttu-id="b9ec2-239">Если значение <paramref name="contextFolderId" /> параметра представляет собой пустую ссылку (Nothing в Visual Basic), задаются состояния считывания элементов во всем почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-239">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the read states of items across the entire mailbox are set.</span></span></param>
+        <param name="isRead"><span data-ttu-id="b9ec2-240"><b>значение true</b>, если элементы беседы помечаются как прочтенные; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-240"><b>true</b>, if conversation items are marked as read; otherwise, <b>false</b>.</span></span></param>
+        <param name="suppressReadReceipts"><span data-ttu-id="b9ec2-241"><b>значение true</b> , если уведомления о прочтении подавляются; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-241"><b>true</b> if read receipts are suppressed; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-242">Задает состояние чтения элементов в указанной беседе.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-242">Sets the read state of items in the specified conversation.</span></span>            <span data-ttu-id="b9ec2-243">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-243">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-244"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-244"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetRetentionPolicyForItemsInConversation">
@@ -1900,55 +1038,13 @@
         <Parameter Name="retentionPolicyTagId" Type="System.Nullable&lt;System.Guid&gt;" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">
-          <span data-ttu-id="a202a-245">Идентификатор папки, элементы будут иметь свои задать политику хранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-245">The identifier of the folder whose items will have their retention policy set.</span>
-          </span>
-          <span data-ttu-id="a202a-246">Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), задать политику хранения элементов по всему почтовому ящику.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-246">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the retention policy of items across the entire mailbox are set.</span>
-          </span>
-        </param>
-        <param name="retentionPolicyType">
-          <span data-ttu-id="a202a-247">Значение, указывающее, является ли объект с тегами для архивации или удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-247">A value indicating whether the tagged object is to be archived or deleted.</span>
-          </span>
-        </param>
-        <param name="retentionPolicyTagId">
-          <span data-ttu-id="a202a-248">Идентификатор тега политики хранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-248">The retention policy tag identifier.</span>
-          </span>
-          <span data-ttu-id="a202a-249">A пустая ссылка (Nothing в Visual Basic) значение будет очистить политику.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-249">A a null reference (Nothing in Visual Basic) value will clear the policy.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a202a-250">Задает политику хранения элементов в указанном беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-250">Sets the retention policy of items in the specified conversation.</span>
-          </span>
-          <span data-ttu-id="a202a-251">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-251">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a202a-252">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-252">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="contextFolderId"><span data-ttu-id="b9ec2-245">Идентификатор папки, элементы которой будут иметь набор политик хранения.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-245">The identifier of the folder whose items will have their retention policy set.</span></span> <span data-ttu-id="b9ec2-246">Если значение <paramref name="contextFolderId" /> параметра представляет собой пустую ссылку (Nothing в Visual Basic), устанавливается политика хранения элементов во всем почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-246">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the retention policy of items across the entire mailbox are set.</span></span></param>
+        <param name="retentionPolicyType"><span data-ttu-id="b9ec2-247">Значение, указывающее, следует ли архивировать или удалять помеченный объект.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-247">A value indicating whether the tagged object is to be archived or deleted.</span></span></param>
+        <param name="retentionPolicyTagId"><span data-ttu-id="b9ec2-248">Идентификатор тега политики хранения.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-248">The retention policy tag identifier.</span></span> <span data-ttu-id="b9ec2-249">При значении NULL ссылки (Nothing в Visual Basic) политика будет сброшена.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-249">A a null reference (Nothing in Visual Basic) value will clear the policy.</span></span></param>
+        <summary><span data-ttu-id="b9ec2-250">Задает политику хранения элементов в указанной беседе.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-250">Sets the retention policy of items in the specified conversation.</span></span>            <span data-ttu-id="b9ec2-251">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-251">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <remarks><span data-ttu-id="b9ec2-252"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b9ec2-252"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -1966,18 +1062,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-253">Получает размер беседы, вычисляемых из размер всех элементов беседы в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-253">Gets the size of the conversation calculated from the size of all conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-254">Размер беседу в статьи базы знаний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-254">The size of the conversation in KBs.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-253">Получает размер диалога, рассчитанный на основе размера всех элементов бесед в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-253">Gets the size of the conversation calculated from the size of all conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-254">Размер беседы в КБ.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-254">The size of the conversation in KBs.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1996,18 +1082,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-255">Получает тему беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-255">Gets the topic of the conversation.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-256">Предметам.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-256">A conversation topic.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-255">Получает тему беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-255">Gets the topic of the conversation.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-256">Тема беседы.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-256">A conversation topic.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2026,18 +1102,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-257">Получает список всех людей, полученных сообщений в беседе для сообщений в текущей папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-257">Gets a list of all the people who have received messages in this conversation for messages in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-258">Список получателей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-258">A list of recipients.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-257">Получает список всех пользователей, получивших сообщения в этой беседе для сообщений в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-257">Gets a list of all the people who have received messages in this conversation for messages in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-258">Список получателей.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-258">A list of recipients.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2056,18 +1122,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-259">Получает список всех отправителей элементов беседы в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-259">Gets a list of all the senders of conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-260">Список отправителей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-260">A list of senders.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-259">Получает список всех отправителей элементов беседы в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-259">Gets a list of all the senders of conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-260">Список отправителей.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-260">A list of senders.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2086,18 +1142,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-261">Получает список всех людей, отправленные сообщения, которые в настоящее время непрочитанные сообщения в эту беседу в текущую папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-261">Gets a list of all the people who have sent messages that are currently unread in this conversation in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-262">Список отправителей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-262">A list of senders.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-261">Получает список всех пользователей, которые отправили сообщения, которые в настоящее время не прочитаны в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-261">Gets a list of all the people who have sent messages that are currently unread in this conversation in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-262">Список отправителей.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-262">A list of senders.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2116,18 +1162,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a202a-263">Получает число всех элементов непрочитанных сообщений в текущей папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-263">Gets a count of all the unread conversation items in the current folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a202a-264">Количество непрочитанных элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a202a-264">The count of unread items.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b9ec2-263">Получает количество всех непрочитанных элементов беседы в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-263">Gets a count of all the unread conversation items in the current folder.</span></span></summary>
+        <value><span data-ttu-id="b9ec2-264">Количество непрочитанных элементов.</span><span class="sxs-lookup"><span data-stu-id="b9ec2-264">The count of unread items.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

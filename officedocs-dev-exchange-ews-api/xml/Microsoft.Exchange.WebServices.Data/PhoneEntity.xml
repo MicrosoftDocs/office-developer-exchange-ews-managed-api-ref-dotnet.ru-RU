@@ -1,13 +1,5 @@
 <Type Name="PhoneEntity" FullName="Microsoft.Exchange.WebServices.Data.PhoneEntity">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="577bb940b9e70aa774bfaf6c255b5dcf749c40ee" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626577" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PhoneEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="577bb940b9e70aa774bfaf6c255b5dcf749c40ee" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626577" /></Metadata><TypeSignature Language="C#" Value="public sealed class PhoneEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhoneEntity extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhoneEntity&#xA;Inherits ExtractedEntity" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="c734e-101">Содержит номер телефона, извлеченные из части сообщения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c734e-101">Contains a phone number extracted from a message part.</span>
-      </span>
-      <span data-ttu-id="c734e-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c734e-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="90c46-101">Содержит номер телефона, извлеченный из части сообщения.</span><span class="sxs-lookup"><span data-stu-id="90c46-101">Contains a phone number extracted from a message part.</span></span>             <span data-ttu-id="90c46-102"><see cref="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="90c46-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,23 +32,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c734e-103">Получает значение номер телефона, как и в части исходного сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-103">Gets the value of the phone number as it was in the source message part.</span>
-          </span>
-          <span data-ttu-id="c734e-104">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.OriginalPhoneString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.OriginalPhoneString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c734e-105">Телефон сущности телефона строка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-105">The phone entity original phone string.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="90c46-103">Возвращает значение номера телефона, в котором она находилась в исходной части сообщения.</span><span class="sxs-lookup"><span data-stu-id="90c46-103">Gets the value of the phone number as it was in the source message part.</span></span>             <span data-ttu-id="90c46-104"><see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.OriginalPhoneString" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="90c46-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.OriginalPhoneString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="90c46-105">Исходная телефонная строка телефонного объекта.</span><span class="sxs-lookup"><span data-stu-id="90c46-105">The phone entity original phone string.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,23 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c734e-106">Получает извлеченные телефонный номер.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-106">Gets the extracted phone number.</span>
-          </span>
-          <span data-ttu-id="c734e-107">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.PhoneString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.PhoneString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c734e-108">Строка, содержащая телефон сущности телефона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-108">The phone entity phone string.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="90c46-106">Получает извлеченный номер телефона.</span><span class="sxs-lookup"><span data-stu-id="90c46-106">Gets the extracted phone number.</span></span>             <span data-ttu-id="90c46-107"><see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.PhoneString" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="90c46-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.PhoneString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="90c46-108">Телефонная строка телефонного объекта.</span><span class="sxs-lookup"><span data-stu-id="90c46-108">The phone entity phone string.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,27 +72,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c734e-109">Получает тип извлеченные телефона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-109">Gets the extracted phone type.</span>
-          </span>
-          <span data-ttu-id="c734e-110">Например бизнеса или дома.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-110">For example, business or home.</span>
-          </span>
-          <span data-ttu-id="c734e-111">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.Type" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-111">The <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c734e-112">Тип сущности телефона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c734e-112">The phone entity type.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="90c46-109">Получает извлеченный тип телефона.</span><span class="sxs-lookup"><span data-stu-id="90c46-109">Gets the extracted phone type.</span></span> <span data-ttu-id="90c46-110">Например, "предприятие" или "Главная".</span><span class="sxs-lookup"><span data-stu-id="90c46-110">For example, business or home.</span></span>             <span data-ttu-id="90c46-111"><see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.Type" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="90c46-111">The <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="90c46-112">Тип телефонного объекта.</span><span class="sxs-lookup"><span data-stu-id="90c46-112">The phone entity type.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

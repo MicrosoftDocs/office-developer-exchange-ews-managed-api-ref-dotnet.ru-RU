@@ -1,13 +1,5 @@
 <Type Name="Folder" FullName="Microsoft.Exchange.WebServices.Data.Folder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8f7ee894ed9b06eab788afe3a41dd63b6a30d3ba" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626904" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Folder : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8f7ee894ed9b06eab788afe3a41dd63b6a30d3ba" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626904" /></Metadata><TypeSignature Language="C#" Value="public class Folder : Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Folder extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="VB.NET" Value="Public Class Folder&#xA;Inherits ServiceObject" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="3a8d0-101">Представляет общей папки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3a8d0-101">Represents a generic folder.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1c3cf-101">Представляет общую папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-101">Represents a generic folder.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,30 +32,11 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="3a8d0-102">Служба веб-служб Exchange (EWS), к которому принадлежит этот объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-102">The Exchange Web Services (EWS) service to which this object belongs.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-103">Инициализирует несохраненные локальный экземпляр класса папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-103">Initializes an unsaved local instance of the Folder class.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3a8d0-104">
-            <para>Чтобы привязать к существующей папке, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" /> метод вместо этого.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-104">
-              <para>To bind to an existing folder, use the <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" /> method instead.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="1c3cf-102">Служба веб-служб Exchange (EWS), к которой принадлежит этот объект.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-102">The Exchange Web Services (EWS) service to which this object belongs.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-103">Инициализирует несохраненный локальный экземпляр класса Folder.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-103">Initializes an unsaved local instance of the Folder class.</span></span></summary>
+        <remarks><span data-ttu-id="1c3cf-104"><para>Чтобы выполнить присоединение к существующей папке, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" /> вместо этого метод.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-104"><para>To bind to an existing folder, use the <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" /> method instead.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ArchiveTag">
@@ -86,23 +54,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-105">Получает или задает тег архива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-105">Gets or sets the archive tag.</span>
-          </span>
-          <span data-ttu-id="3a8d0-106">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-107">Тег папку архива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-107">The folder's archive tag.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-105">Получает или задает Тег архива.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-105">Gets or sets the archive tag.</span></span>             <span data-ttu-id="1c3cf-106"><see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-107">Архивный тег папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-107">The folder's archive tag.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,42 +78,13 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="3a8d0-108">Служба должна использовать для привязки к папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-108">The service to use to bind to the folder.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="3a8d0-109">Идентификатор папки для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-109">The identifier of the folder to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-110">Выполняет привязку к существующей папке, независимо от его фактический тип и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-110">Binds to an existing folder, whatever its actual type is, and loads its first class properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-111">Папка, соответствующий указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-111">The folder that corresponds to the specified ID.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-112">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-112">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="1c3cf-108">Служба, используемая для связывания с папкой.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-108">The service to use to bind to the folder.</span></span></param>
+        <param name="id"><span data-ttu-id="1c3cf-109">Идентификатор папки, к которой необходимо выполнить присоединение.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-109">The identifier of the folder to bind to.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-110">Выполняет присоединение к существующей папке, любой ее фактический тип и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-110">Binds to an existing folder, whatever its actual type is, and loads its first class properties.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-111">Папка, соответствующая указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-111">The folder that corresponds to the specified ID.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-112"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-112"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -182,42 +106,13 @@
         <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="3a8d0-113">Служба должна использовать для привязки к папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-113">The service to use to bind to the folder.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="3a8d0-114">Имя папки для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-114">The name of the folder to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-115">Выполняет привязку к существующей папке, независимо от его фактический тип и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-115">Binds to an existing folder, whatever its actual type is, and loads its first class properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-116">Папка с указанным <paramref name="name" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-116">The folder with the specified <paramref name="name" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-117">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-117">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="1c3cf-113">Служба, используемая для связывания с папкой.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-113">The service to use to bind to the folder.</span></span></param>
+        <param name="name"><span data-ttu-id="1c3cf-114">Имя папки, к которой требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-114">The name of the folder to bind to.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-115">Выполняет присоединение к существующей папке, любой ее фактический тип и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-115">Binds to an existing folder, whatever its actual type is, and loads its first class properties.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-116">Папка с указанным <paramref name="name" />параметром.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-116">The folder with the specified <paramref name="name" />.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-117"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-117"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -239,48 +134,14 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="3a8d0-118">Служба должна использовать для привязки к папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-118">The service to use to bind to the folder.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="3a8d0-119">Идентификатор папки для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-119">The identifier of the folder to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="3a8d0-120">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-120">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-121">Выполняет привязку к существующей папке, независимо от его фактический тип и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-121">Binds to an existing folder, whatever its actual type is, and loads the specified set of properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-122">Папка, соответствующий указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-122">The folder that corresponds to the specified ID.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-123">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-123">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="1c3cf-118">Служба, используемая для связывания с папкой.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-118">The service to use to bind to the folder.</span></span></param>
+        <param name="id"><span data-ttu-id="1c3cf-119">Идентификатор папки, к которой необходимо выполнить присоединение.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-119">The identifier of the folder to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="1c3cf-120">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-120">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-121">Выполняет присоединение к существующей папке, любой ее фактический тип и загружает указанный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-121">Binds to an existing folder, whatever its actual type is, and loads the specified set of properties.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-122">Папка, соответствующая указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-122">The folder that corresponds to the specified ID.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-123"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-123"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -302,48 +163,14 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="3a8d0-124">Служба должна использовать для привязки к папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-124">The service to use to bind to the folder.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="3a8d0-125">Имя папки для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-125">The name of the folder to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="3a8d0-126">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-126">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-127">Выполняет привязку к существующей папке, независимо от его фактический тип и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-127">Binds to an existing folder, whatever its actual type is, and loads the specified set of properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-128">Папка с указанным <paramref name="name" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-128">The folder with the specified <paramref name="name" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-129">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-129">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="service"><span data-ttu-id="1c3cf-124">Служба, используемая для связывания с папкой.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-124">The service to use to bind to the folder.</span></span></param>
+        <param name="name"><span data-ttu-id="1c3cf-125">Имя папки, к которой требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-125">The name of the folder to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="1c3cf-126">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-126">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-127">Выполняет присоединение к существующей папке, любой ее фактический тип и загружает указанный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-127">Binds to an existing folder, whatever its actual type is, and loads the specified set of properties.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-128">Папка с указанным <paramref name="name" />параметром.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-128">The folder with the specified <paramref name="name" />.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-129"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-129"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ChildFolderCount">
@@ -361,18 +188,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-130">Получает количество дочерних папок в этом этой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-130">Gets the number of child folders in this this folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-131">Число дочерних папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-131">The number of child folders.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-130">Получает количество дочерних папок в этой папке.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-130">Gets the number of child folders in this this folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-131">Количество дочерних папок.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-131">The number of child folders.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -394,36 +211,12 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">
-          <span data-ttu-id="3a8d0-132">Идентификатор папки, в которую следует скопировать эту папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-132">The identifier of the folder in which to copy this folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-133">Копирует эту папку в указанной папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-133">Copies this folder into a specific folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-134">Папка, копия исходной папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-134">The folder that is the copy of the original folder.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-135">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-135">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="destinationFolderId"><span data-ttu-id="1c3cf-132">Идентификатор папки, в которую следует скопировать эту папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-132">The identifier of the folder in which to copy this folder.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-133">Копирует эту папку в определенную папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-133">Copies this folder into a specific folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-134">Папка, которая является копией исходной папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-134">The folder that is the copy of the original folder.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-135"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-135"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Copy">
@@ -444,36 +237,12 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">
-          <span data-ttu-id="3a8d0-136">Имя папки, в которую следует скопировать эту папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-136">The name of the folder in which to copy this folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-137">Копирует эту папку в указанной папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-137">Copies this folder into the specified folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-138">Папка, копия исходной папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-138">The folder that is the copy of the original folder.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-139">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-139">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="destinationFolderName"><span data-ttu-id="1c3cf-136">Имя папки, в которую следует скопировать эту папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-136">The name of the folder in which to copy this folder.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-137">Копирует эту папку в указанную папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-137">Copies this folder into the specified folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-138">Папка, которая является копией исходной папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-138">The folder that is the copy of the original folder.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-139"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-139"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -493,30 +262,11 @@
         <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
       </Parameters>
       <Docs>
-        <param name="deleteMode">
-          <span data-ttu-id="3a8d0-140">Режим удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-140">The deletion mode.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-141">Удаляет папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-141">Deletes the folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3a8d0-142">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-142">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="deleteMode"><span data-ttu-id="1c3cf-140">Режим удаления.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-140">The deletion mode.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-141">Удаляет папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-141">Deletes the folder.</span></span></summary>
+        <remarks><span data-ttu-id="1c3cf-142"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-142"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -534,18 +284,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-143">Получает или задает отображаемое имя папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-143">Gets or sets the display name of the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-144">Отображаемое имя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-144">The display name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-143">Получает или задает отображаемое имя папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-143">Gets or sets the display name of the folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-144">Отображаемое имя.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-144">The display name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -564,18 +304,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-145">Получает значение, указывающее, действующих прав, для которых есть текущего прошедшего проверку подлинности пользователя в общей папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-145">Gets a value that indicates the effective rights that the current authenticated user has on the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-146">Значение перечисления, указывающее, действующих прав.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-146">The enumeration value that specifies the effective rights.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-145">Получает значение, которое указывает действующие права, которые текущий пользователь, прошедший проверку подлинности, находится в папке.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-145">Gets a value that indicates the effective rights that the current authenticated user has on the folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-146">Значение перечисления, задающее действующие права.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-146">The enumeration value that specifies the effective rights.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -597,30 +327,9 @@
         <Parameter Name="deleteSubFolders" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="deleteMode">
-          <span data-ttu-id="3a8d0-147">Режим удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-147">The deletion mode.</span>
-          </span>
-        </param>
-        <param name="deleteSubFolders">
-          <span data-ttu-id="3a8d0-148">
-            <b>значение true,</b> чтобы указать, что следует также удалить вложенные папки; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-148">
-              <b>true</b> to indicate that subfolders should also be deleted; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-149">Очищает папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-149">Empties the folder.</span>
-          </span>
-          <span data-ttu-id="3a8d0-150">Кроме того позволяет пустой вложенных папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-150">Optionally, enables you to empty subfolders.</span>
-          </span>
-        </summary>
+        <param name="deleteMode"><span data-ttu-id="1c3cf-147">Режим удаления.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-147">The deletion mode.</span></span></param>
+        <param name="deleteSubFolders"><span data-ttu-id="1c3cf-148"><b>значение true</b> указывает, что необходимо также удалить вложенные папки; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-148"><b>true</b> to indicate that subfolders should also be deleted; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-149">Очищает папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-149">Empties the folder.</span></span> <span data-ttu-id="1c3cf-150">При необходимости можно выбрать пустые подпапки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-150">Optionally, enables you to empty subfolders.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -639,18 +348,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-151">Получает список расширенные свойства, связанные с папкой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-151">Gets a list of extended properties that are associated with the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-152">Объект коллекции с расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-152">A Collection object with the extended properties.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-151">Получает список расширенных свойств, связанных с папкой.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-151">Gets a list of extended properties that are associated with the folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-152">Объект Collection с расширенными свойствами.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-152">A Collection object with the extended properties.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -672,36 +371,12 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.FolderView" />
       </Parameters>
       <Docs>
-        <param name="view">
-          <span data-ttu-id="3a8d0-153">Представление, определяющее число папок, которые будут возвращены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-153">The view that controls the number of folders that are returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-154">Получает список папок, поиск по ключевым словам вложенных папок из этой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-154">Obtains a list of folders by searching the subfolders of this folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-155">Результаты операции поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-155">The results of the search operation.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-156">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-156">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="view"><span data-ttu-id="1c3cf-153">Представление, управляющее количеством возвращаемых папок.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-153">The view that controls the number of folders that are returned.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-154">Получает список папок, выполняя поиск по вложенным папкам этой папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-154">Obtains a list of folders by searching the subfolders of this folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-155">Результаты операции поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-155">The results of the search operation.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-156"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-156"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindFolders">
@@ -722,42 +397,13 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.FolderView" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">
-          <span data-ttu-id="3a8d0-157">Фильтр поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-157">The search filter.</span>
-          </span>
-        </param>
-        <param name="view">
-          <span data-ttu-id="3a8d0-158">Представление, определяющее число папок, которые будут возвращены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-158">The view that controls the number of folders that are returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-159">Возвращает список папок, поиск по ключевым словам вложенных папок в указанном представлении, соответствующие заданным условиям фильтра поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-159">Returns a list of folders by searching the subfolders in the specified view that satisfy the specified search filter criteria.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-160">Результаты поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-160">The results of the search.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-161">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-161">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="searchFilter"><span data-ttu-id="1c3cf-157">Фильтр поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-157">The search filter.</span></span></param>
+        <param name="view"><span data-ttu-id="1c3cf-158">Представление, управляющее количеством возвращаемых папок.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-158">The view that controls the number of folders that are returned.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-159">Возвращает список папок, выполняя поиск в подпапках указанного представления, удовлетворяющих заданным условиям фильтра поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-159">Returns a list of folders by searching the subfolders in the specified view that satisfy the specified search filter criteria.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-160">Результаты поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-160">The results of the search.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-161"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-161"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -778,36 +424,12 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
       </Parameters>
       <Docs>
-        <param name="view">
-          <span data-ttu-id="3a8d0-162">Представление, определяющее число элементов, которые возвращаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-162">The view that controls the number of items that are returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-163">Получает список элементов, поиск по ключевым словам содержимое этой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-163">Obtains a list of items by searching the contents of this folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-164">Результаты операции поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-164">The results of the search operation.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-165">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-165">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="view"><span data-ttu-id="1c3cf-162">Представление, управляющее числом возвращаемых элементов.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-162">The view that controls the number of items that are returned.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-163">Получение списка элементов путем поиска содержимого этой папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-163">Obtains a list of items by searching the contents of this folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-164">Результаты операции поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-164">The results of the search operation.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-165"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-165"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -829,42 +451,13 @@
         <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
       </Parameters>
       <Docs>
-        <param name="view">
-          <span data-ttu-id="3a8d0-166">Представление, определяющее число элементов, которые возвращаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-166">The view that controls the number of items that are returned.</span>
-          </span>
-        </param>
-        <param name="groupBy">
-          <span data-ttu-id="3a8d0-167">Критерии группировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-167">The grouping criteria.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-168">Получает список элементов, поиск по ключевым словам содержимое этой папки в указанном представлении, сгруппированные по указанного свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-168">Obtains a list of items by searching the contents of this folder in the specified view and grouped by the specified property.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-169">Результаты поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-169">The results of the search.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-170">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-170">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="view"><span data-ttu-id="1c3cf-166">Представление, управляющее числом возвращаемых элементов.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-166">The view that controls the number of items that are returned.</span></span></param>
+        <param name="groupBy"><span data-ttu-id="1c3cf-167">Критерии группирования.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-167">The grouping criteria.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-168">Получает список элементов путем поиска содержимого этой папки в указанном представлении и группировки по заданному свойству.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-168">Obtains a list of items by searching the contents of this folder in the specified view and grouped by the specified property.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-169">Результаты поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-169">The results of the search.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-170"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-170"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -885,42 +478,13 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">
-          <span data-ttu-id="3a8d0-171">Фильтр поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-171">The search filter.</span>
-          </span>
-        </param>
-        <param name="view">
-          <span data-ttu-id="3a8d0-172">Представление, определяющее число элементов, которые возвращаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-172">The view that controls the number of items that are returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-173">Получает список элементов, поиск по ключевым словам содержимое этой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-173">Obtains a list of items by searching the contents of this folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-174">Результаты поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-174">The results of the search.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-175">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-175">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="searchFilter"><span data-ttu-id="1c3cf-171">Фильтр поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-171">The search filter.</span></span></param>
+        <param name="view"><span data-ttu-id="1c3cf-172">Представление, управляющее числом возвращаемых элементов.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-172">The view that controls the number of items that are returned.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-173">Получение списка элементов путем поиска содержимого этой папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-173">Obtains a list of items by searching the contents of this folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-174">Результаты поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-174">The results of the search.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-175"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-175"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -942,42 +506,13 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
       </Parameters>
       <Docs>
-        <param name="queryString">
-          <span data-ttu-id="3a8d0-176">Строка запроса, который определяет элементов для возврата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-176">The query string that specifies the items to return.</span>
-          </span>
-        </param>
-        <param name="view">
-          <span data-ttu-id="3a8d0-177">Представление, определяющее число элементов, которые возвращаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-177">The view that controls the number of items that are returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-178">Возвращает список элементов, поиск по ключевым словам содержимое этой папки с указанной строкой запроса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-178">Returns a list of items by searching the contents of this folder with the specified query string.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-179">Результаты поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-179">The results of the search.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-180">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-180">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="queryString"><span data-ttu-id="1c3cf-176">Строка запроса, указывающая возвращаемые элементы.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-176">The query string that specifies the items to return.</span></span></param>
+        <param name="view"><span data-ttu-id="1c3cf-177">Представление, управляющее числом возвращаемых элементов.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-177">The view that controls the number of items that are returned.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-178">Возвращает список элементов, выполняя поиск по содержимому этой папки с указанной строкой запроса.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-178">Returns a list of items by searching the contents of this folder with the specified query string.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-179">Результаты поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-179">The results of the search.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-180"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-180"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -999,48 +534,14 @@
         <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">
-          <span data-ttu-id="3a8d0-181">Фильтр поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-181">The search filter.</span>
-          </span>
-        </param>
-        <param name="view">
-          <span data-ttu-id="3a8d0-182">Представление, определяющее число элементов, которые возвращаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-182">The view that controls the number of items that are returned.</span>
-          </span>
-        </param>
-        <param name="groupBy">
-          <span data-ttu-id="3a8d0-183">Критерии группировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-183">The grouping criteria.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-184">Возвращает список элементов, поиск по ключевым словам содержимое этой папки, используя указанный фильтр поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-184">Returns a list of items by searching the contents of this folder, using the specified search filter.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-185">Результаты поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-185">The results of the search.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-186">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-186">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="searchFilter"><span data-ttu-id="1c3cf-181">Фильтр поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-181">The search filter.</span></span></param>
+        <param name="view"><span data-ttu-id="1c3cf-182">Представление, управляющее числом возвращаемых элементов.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-182">The view that controls the number of items that are returned.</span></span></param>
+        <param name="groupBy"><span data-ttu-id="1c3cf-183">Критерии группирования.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-183">The grouping criteria.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-184">Возвращает список элементов, выполняя поиск по содержимому этой папки с использованием указанного фильтра поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-184">Returns a list of items by searching the contents of this folder, using the specified search filter.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-185">Результаты поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-185">The results of the search.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-186"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-186"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -1063,48 +564,14 @@
         <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
       </Parameters>
       <Docs>
-        <param name="queryString">
-          <span data-ttu-id="3a8d0-187">Строка запроса, который определяет поисковый фильтр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-187">The query string that specifies the search filter.</span>
-          </span>
-        </param>
-        <param name="view">
-          <span data-ttu-id="3a8d0-188">Представление, определяющее число элементов, которые возвращаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-188">The view that controls the number of items that are returned.</span>
-          </span>
-        </param>
-        <param name="groupBy">
-          <span data-ttu-id="3a8d0-189">Критерии группировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-189">The grouping criteria.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-190">Возвращает список элементов, поиск по ключевым словам содержимое этой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-190">Returns a list of items by searching the contents of this folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-191">Результаты поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-191">The results of the search.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-192">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-192">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="queryString"><span data-ttu-id="1c3cf-187">Строка запроса, указывающая фильтр поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-187">The query string that specifies the search filter.</span></span></param>
+        <param name="view"><span data-ttu-id="1c3cf-188">Представление, управляющее числом возвращаемых элементов.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-188">The view that controls the number of items that are returned.</span></span></param>
+        <param name="groupBy"><span data-ttu-id="1c3cf-189">Критерии группирования.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-189">The grouping criteria.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-190">Возвращает список элементов, выполняя поиск по содержимому этой папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-190">Returns a list of items by searching the contents of this folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-191">Результаты поиска.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-191">The results of the search.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-192"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-192"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FolderClass">
@@ -1122,18 +589,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-193">Получает или задает имя настраиваемого класса этой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-193">Gets or sets the custom class name of this folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-194">Имя класса папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-194">The folder class name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-193">Получает или задает имя настраиваемого класса для этой папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-193">Gets or sets the custom class name of this folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-194">Имя класса папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-194">The folder class name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1152,18 +609,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-195">Получает идентификатор папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-195">Gets the identifier of the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-196">Значение идентификатора папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-196">The value of the folder identifier.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-195">Получает идентификатор папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-195">Gets the identifier of the folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-196">Значение идентификатора папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-196">The value of the folder identifier.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1182,18 +629,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ManagedFolderInformation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-197">Получает сведения о управления записями обмена сообщениями (MRM), который связан с папкой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-197">Gets the Messaging Records Management (MRM) information that is associated with the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-198">Сведения о управления записями сообщений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-198">The MRM information.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-197">Получает сведения об управлении записями обмена сообщениями (управления ЗАПИСЯМИ сообщений), связанные с папкой.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-197">Gets the Messaging Records Management (MRM) information that is associated with the folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-198">Сведения о управления ЗАПИСЯМИ сообщений.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-198">The MRM information.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1215,37 +652,11 @@
         <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="suppressReadReceipts">
-          <span data-ttu-id="3a8d0-199">
-            <b>значение true,</b> чтобы запретить отправку уведомления о прочтении для элементов; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-199">
-              <b>true</b> to suppress sending read receipts for items; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-200">Помечает все элементы в папке как прочтенные.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-200">Marks all items in folder as read.</span>
-          </span>
-          <span data-ttu-id="3a8d0-201">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-201">The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3a8d0-202">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-202">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="suppressReadReceipts"><span data-ttu-id="1c3cf-199"><b>значение true</b> , чтобы запретить отправку уведомлений о прочтении для элементов; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-199"><b>true</b> to suppress sending read receipts for items; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-200">Помечает все элементы в папке как прочтенные.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-200">Marks all items in folder as read.</span></span>             <span data-ttu-id="1c3cf-201">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-201">The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <remarks><span data-ttu-id="1c3cf-202"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-202"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAllItemsAsUnread">
@@ -1266,37 +677,11 @@
         <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="suppressReadReceipts">
-          <span data-ttu-id="3a8d0-203">
-            <b>значение true,</b> чтобы запретить отправку уведомления о прочтении для элементов; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-203">
-              <b>true</b> to suppress sending read receipts for items; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-204">Помечает все элементы в папке как непрочтенные.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-204">Marks all items in folder as unread.</span>
-          </span>
-          <span data-ttu-id="3a8d0-205">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-205">The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3a8d0-206">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-206">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="suppressReadReceipts"><span data-ttu-id="1c3cf-203"><b>значение true</b> , чтобы запретить отправку уведомлений о прочтении для элементов; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-203"><b>true</b> to suppress sending read receipts for items; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-204">Помечает все элементы в папке как непрочтенные.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-204">Marks all items in folder as unread.</span></span>             <span data-ttu-id="1c3cf-205">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-205">The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <remarks><span data-ttu-id="1c3cf-206"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-206"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1317,38 +702,14 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">
-          <span data-ttu-id="3a8d0-207">Идентификатор папки, в которой хотите переместить эту папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-207">The identifier of the folder in which to move this folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-208">Перемещает эту папку в указанную папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-208">Moves this folder to a specific folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-209">Новую папку, представляющий эту папку в новом месте.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-209">A new folder that represents this folder in its new location.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-210">
-            <para>Вызова этого метода приводит к вызову для веб-служб Exchange (EWS).</para>
-            <para>После <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" /> завершается, исходные папка не существует.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-210">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para>After <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" /> completes, the original folder does not exist.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="destinationFolderId"><span data-ttu-id="1c3cf-207">Идентификатор папки, в которую необходимо переместить эту папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-207">The identifier of the folder in which to move this folder.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-208">Перемещает эту папку в определенную папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-208">Moves this folder to a specific folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-209">Новая папка, представляющая эту папку в новом расположении.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-209">A new folder that represents this folder in its new location.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-210"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para> 
+          <para>По <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" /> завершении исходная папка не существует.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-210"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para>After <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" /> completes, the original folder does not exist.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1369,38 +730,14 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">
-          <span data-ttu-id="3a8d0-211">Имя папки, в которой хотите переместить эту папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-211">The name of the folder in which to move this folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-212">Перемещает эту папку в указанную папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-212">Moves this folder to the specified folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-213">Новую папку, представляющий эту папку в новом месте.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-213">A new folder that represents this folder in its new location.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3a8d0-214">
-            <para>Вызова этого метода приводит к вызову для веб-служб Exchange (EWS).</para>
-            <para>После <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" /> завершается, исходные папка не существует.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-214">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para>After <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" /> completes, the original folder does not exist.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="destinationFolderName"><span data-ttu-id="1c3cf-211">Имя папки, в которую необходимо переместить эту папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-211">The name of the folder in which to move this folder.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-212">Перемещает эту папку в указанную папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-212">Moves this folder to the specified folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-213">Новая папка, представляющая эту папку в новом расположении.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-213">A new folder that represents this folder in its new location.</span></span></returns>
+        <remarks><span data-ttu-id="1c3cf-214"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para> 
+          <para>По <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" /> завершении исходная папка не существует.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-214"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para>After <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" /> completes, the original folder does not exist.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ParentFolderId">
@@ -1418,18 +755,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-215">Получает идентификатор родительской папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-215">Gets the identifier of this folder's parent folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-216">Значение идентификатора родительской папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-216">The value of the parent folder's identifier.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-215">Получает идентификатор родительской папки данной папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-215">Gets the identifier of this folder's parent folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-216">Значение идентификатора родительской папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-216">The value of the parent folder's identifier.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1448,30 +775,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-217">Получает или задает список разрешений для папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-217">Gets or sets a list of permissions for the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-218">Коллекция, которая содержит список разрешений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-218">A collection that includes the list of permissions.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="3a8d0-219">
-            <para>При настройке Exchange Online, Exchange Online как часть Office 365 и локальной версии Exchange, начиная с Exchange 2013 разрешения папок не возвращаются в <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> набором свойств. Для получения разрешений для папки, добавить <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> свойство, чтобы свойство при привязке к папке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-219">
-              <para>When targeting Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange 2013, folder permissions are not returned in the <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> property set. In order to retrieve folder permissions, add the <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> property to the property set when binding to the folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="1c3cf-217">Получает или задает список разрешений для папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-217">Gets or sets a list of permissions for the folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-218">Коллекция, включающая список разрешений.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-218">A collection that includes the list of permissions.</span></span></value>
+        <remarks><span data-ttu-id="1c3cf-219"><para>При использовании Exchange Online, Exchange Online в составе Office 365 и локальных версиях Exchange, начиная с Exchange 2013, разрешения для папок не возвращаются в наборе <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> свойств. Чтобы получить разрешения для папки, добавьте <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> свойство к набору свойств при привязке к папке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-219"><para>When targeting Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange 2013, folder permissions are not returned in the <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> property set. In order to retrieve folder permissions, add the <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> property to the property set when binding to the folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="PolicyTag">
@@ -1489,23 +797,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-220">Получает или задает тег политики.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-220">Gets or sets the policy tag.</span>
-          </span>
-          <span data-ttu-id="3a8d0-221">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-221">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-222">Тег политики папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-222">The folder's policy tag.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-220">Получает или задает тег политики.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-220">Gets or sets the policy tag.</span></span>             <span data-ttu-id="1c3cf-221"><see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-221">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-222">Тег политики папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-222">The folder's policy tag.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1526,26 +819,9 @@
         <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="extendedPropertyDefinition">
-          <span data-ttu-id="3a8d0-223">Определение расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-223">The extended property definition.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-224">Удаляет расширенному свойству из папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-224">Removes an extended property from the folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3a8d0-225">
-            <b>значение true,</b> Если свойство был удален; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-225">
-              <b>true</b> if property was removed; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="extendedPropertyDefinition"><span data-ttu-id="1c3cf-223">Определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-223">The extended property definition.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-224">Удаляет расширенное свойство из папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-224">Removes an extended property from the folder.</span></span></summary>
+        <returns><span data-ttu-id="1c3cf-225"><b>значение true</b> , если свойство было удалено; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-225"><b>true</b> if property was removed; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1567,30 +843,11 @@
         <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="parentFolderId">
-          <span data-ttu-id="3a8d0-226">Идентификатор папки, в которой следует сохранить эту папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-226">The identifier of the folder in which to save this folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-227">Сохраняет эту папку в указанной папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-227">Saves this folder in a specific folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3a8d0-228">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-228">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="parentFolderId"><span data-ttu-id="1c3cf-226">Идентификатор папки, в которой необходимо сохранить эту папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-226">The identifier of the folder in which to save this folder.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-227">Сохраняет эту папку в определенной папке.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-227">Saves this folder in a specific folder.</span></span></summary>
+        <remarks><span data-ttu-id="1c3cf-228"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-228"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -1611,30 +868,11 @@
         <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="parentFolderName">
-          <span data-ttu-id="3a8d0-229">Имя папки, в которой следует сохранить эту папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-229">The name of the folder in which to save this folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-230">Сохраняет эту папку в указанной папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-230">Saves this folder in a specific folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3a8d0-231">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-231">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="parentFolderName"><span data-ttu-id="1c3cf-229">Имя папки, в которой необходимо сохранить эту папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-229">The name of the folder in which to save this folder.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-230">Сохраняет эту папку в определенной папке.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-230">Saves this folder in a specific folder.</span></span></summary>
+        <remarks><span data-ttu-id="1c3cf-231"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-231"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetExtendedProperty">
@@ -1655,24 +893,9 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="extendedPropertyDefinition">
-          <span data-ttu-id="3a8d0-232">Определение расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-232">The definition of the extended property.</span>
-          </span>
-        </param>
-        <param name="value">
-          <span data-ttu-id="3a8d0-233">Значение, для которого необходимо задать к расширенному свойству.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-233">The value to which to set the extended property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3a8d0-234">Устанавливает для указанного расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-234">Sets the specified extended property.</span>
-          </span>
-        </summary>
+        <param name="extendedPropertyDefinition"><span data-ttu-id="1c3cf-232">Определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-232">The definition of the extended property.</span></span></param>
+        <param name="value"><span data-ttu-id="1c3cf-233">Значение, для которого задается расширенное свойство.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-233">The value to which to set the extended property.</span></span></param>
+        <summary><span data-ttu-id="1c3cf-234">Задает указанное расширенное свойство.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-234">Sets the specified extended property.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1691,18 +914,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-235">Возвращает общее число элементов, содержащихся в папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-235">Gets the total number of items that are contained in the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-236">Количество элементов в папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-236">The number of items in the folder.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-235">Получает общее количество элементов, которые находятся в папке.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-235">Gets the total number of items that are contained in the folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-236">Число элементов в папке.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-236">The number of items in the folder.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1721,18 +934,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-237">Получает количество непрочитанных элементов в папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-237">Gets the number of unread items in the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-238">Целочисленное значение, представляющее количество непрочитанных элементов в папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-238">An integer value that represents the number of unread items in the folder.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-237">Получает число непрочтенных элементов в папке.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-237">Gets the number of unread items in the folder.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-238">Целое значение, представляющее число непрочтенных элементов в папке.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-238">An integer value that represents the number of unread items in the folder.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1752,24 +955,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-239">Применяет локальные изменения, внесенные в эту папку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-239">Applies the local changes that have been made to this folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3a8d0-240">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-240">
-              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="1c3cf-239">Применение локальных изменений, внесенных в эту папку.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-239">Applies the local changes that have been made to this folder.</span></span></summary>
+        <remarks><span data-ttu-id="1c3cf-240"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1c3cf-240"><para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="WellKnownFolderName">
@@ -1787,23 +976,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a8d0-241">Получает одно общие имена папок, перечисленных в <see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" /> перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-241">Gets one of the common folder names listed in the <see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" /> enumeration.</span>
-          </span>
-          <span data-ttu-id="3a8d0-242">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-242">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3a8d0-243">Значение перечисления имя известных папки для этой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a8d0-243">The well-known folder name enumeration value of this folder.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c3cf-241">Получает одно из имен общих папок, перечисленных в <see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" /> перечислении.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-241">Gets one of the common folder names listed in the <see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" /> enumeration.</span></span>             <span data-ttu-id="1c3cf-242"><see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-242">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="1c3cf-243">Значение перечисления известных папок для этой папки.</span><span class="sxs-lookup"><span data-stu-id="1c3cf-243">The well-known folder name enumeration value of this folder.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

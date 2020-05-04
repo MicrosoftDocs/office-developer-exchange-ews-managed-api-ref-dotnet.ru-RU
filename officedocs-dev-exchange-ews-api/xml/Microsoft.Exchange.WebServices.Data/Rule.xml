@@ -1,13 +1,5 @@
 <Type Name="Rule" FullName="Microsoft.Exchange.WebServices.Data.Rule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5815ef1faf18a92d498cfbab1936f6f0202e261d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626976" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Rule : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5815ef1faf18a92d498cfbab1936f6f0202e261d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626976" /></Metadata><TypeSignature Language="C#" Value="public sealed class Rule : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Rule extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Rule" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Rule&#xA;Inherits ComplexProperty" />
@@ -21,46 +13,29 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="27655-101">Представляет отдельного правила папки «Входящие» в почтовом ящике.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="27655-101">Represents an individual Inbox rule in the mailbox.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="27655-102">
-        <para>Правила папки «Входящие» — это набор <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />и связанные с <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> , которое клиенты могли автоматически организации, классификации и обрабатывают сообщения как сообщения будут доставляться в папку. Например <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> можно создать для поддержки требования, что любые входящую почту, содержащий определенные строки в теме автоматически перемещены в предопределенном папку. <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> оценки запускается, когда сообщения электронной почты будут доставляться в почтовый ящик пользователя или когда сообщения сначала сохраняются в папку. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> В <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> , применяются к свойства входящего сообщения. Если <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> значение <b>true</b>, правило <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> выполняются на сервере.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="27655-102">
-          <para>An Inbox rule is a set of <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />, and associated <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> that enable clients to automatically organize, categorize, and act on messages as the messages are delivered to a folder. For example, a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> can be created to require that any incoming mail that contains a certain string in the subject be automatically moved to a predetermined folder. <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> evaluation is triggered when e-mail messages are delivered in a user's mailbox or when messages are first saved to a folder. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> are evaluated against the properties of the incoming message. If the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> evaluate to <b>true</b>, the rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> are executed by the server.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
-    <example>
-      <span data-ttu-id="27655-103">
-        <para>В следующем примере создается новое правило и сохраняет его на сервер обмена сообщениями. Правило содержит <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> свойство. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> Являются: </para>
-        <list type="bullet">
-          <item>
-            <description>сообщения электронной почты отправляется в папку JunkEmail.</description>
-          </item>
-          <item>
-            <description>Назначение категории «Интерпретация».</description>
-          </item>
-          <item>
-            <description>Назначение категории «Только для внутреннего использования».</description>
-          </item>
-        </list>
-        <para>
-          <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> Являются:</para>
-        <list type="bullet">
-          <item>
-            <description>Сообщения электронной почты содержит слово «Interesting» в теме сообщения.</description>
-          </item>
-        </list>
-        <code>// Create an inbox rule.
+    <summary><span data-ttu-id="e064f-101">Представляет отдельное правило для папки "Входящие" в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="e064f-101">Represents an individual Inbox rule in the mailbox.</span></span></summary>
+    <remarks><span data-ttu-id="e064f-102"><para>Правило для папки "Входящие" это <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />набор <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> который позволяет клиентам автоматически упорядочивать, классифицировать и обрабатывать сообщения по мере доставки сообщений в папку. Например, <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> можно создать, чтобы все входящие сообщения, содержащие определенную строку в теме, автоматически перемещались в предварительно определенную папку. <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Оценка инициируется при доставке сообщений электронной почты в почтовый ящик пользователя, а также при первом сохранении сообщений в папке. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> В элементе a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> выполняется оценка свойств входящего сообщения. Если параметру <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> присвоено <b>значение true</b>, то это правило <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> выполняется сервером.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-102"><para>An Inbox rule is a set of <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />, and associated <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> that enable clients to automatically organize, categorize, and act on messages as the messages are delivered to a folder. For example, a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> can be created to require that any incoming mail that contains a certain string in the subject be automatically moved to a predetermined folder. <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> evaluation is triggered when e-mail messages are delivered in a user's mailbox or when messages are first saved to a folder. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> are evaluated against the properties of the incoming message. If the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> evaluate to <b>true</b>, the rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> are executed by the server.</para>
+      <para /></span></span></remarks>
+    <example><span data-ttu-id="e064f-103"><para>В следующем примере показано, как создать новое правило и сохранить его на сервере обмена сообщениями. Правило содержит свойство <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> . Это <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> : </para> 
+      <list type="bullet"> 
+        <item>
+          <description>сообщение электронной почты отправляется в папку жункемаил</description>
+        </item> 
+        <item>
+          <description>Назначение категории "immediate".</description>
+        </item> 
+        <item>
+          <description>Назначьте категорию "только для внутреннего использования".</description>
+        </item> 
+      </list> :
+      <list type="bullet">
+        <item>
+          <description>Сообщение электронной почты содержит слово "интересное" в теме.</description>
+        </item>
+      </list> 
+      <para> <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> </para>
+      <code>// Create an inbox rule.
 // If "Interesting" is in the e-mail's subject, move it into the Junk folder
 // and assign two categories to the message.
 Rule newRule = new Rule();
@@ -75,29 +50,25 @@ newRule.Actions.AssignCategories.Add("Internal use only.");
 
 // Create the CreateRuleOperation.
 CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
-service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="27655-103">
-          <para>The following example creates a new Rule and saves it to the messaging server. The rule contains an <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> are: </para>
-          <list type="bullet">
-            <item>
-              <description>The e-mail message is sent to the JunkEmail folder.</description>
-            </item>
-            <item>
-              <description>Assign a category of "Immediate".</description>
-            </item>
-            <item>
-              <description>Assign a category of "Internal use only".</description>
-            </item>
-          </list>
-          <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are:</para>
-          <list type="bullet">
-            <item>
-              <description>The e-mail message contains the word "Interesting" in the subject.</description>
-            </item>
-          </list>
-          <code>// Create an inbox rule.
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code></span><span class="sxs-lookup"><span data-stu-id="e064f-103"><para>The following example creates a new Rule and saves it to the messaging server. The rule contains an <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> are: </para>
+      <list type="bullet">
+        <item>
+          <description>The e-mail message is sent to the JunkEmail folder.</description>
+        </item>
+        <item>
+          <description>Assign a category of "Immediate".</description>
+        </item>
+        <item>
+          <description>Assign a category of "Internal use only".</description>
+        </item>
+      </list>
+      <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are:</para>
+      <list type="bullet">
+        <item>
+          <description>The e-mail message contains the word "Interesting" in the subject.</description>
+        </item>
+      </list>
+      <code>// Create an inbox rule.
 // If "Interesting" is in the e-mail's subject, move it into the Junk folder
 // and assign two categories to the message.
 Rule newRule = new Rule();
@@ -112,10 +83,7 @@ newRule.Actions.AssignCategories.Add("Internal use only.");
 
 // Create the CreateRuleOperation.
 CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
-service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
-        </span>
-      </span>
-    </example>
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code></span></span></example>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -131,12 +99,7 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-104">Инициализирует новый экземпляр класса правил.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-104">Initializes a new instance of the Rule class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e064f-104">Инициализирует новый экземпляр класса Rule.</span><span class="sxs-lookup"><span data-stu-id="e064f-104">Initializes a new instance of the Rule class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,31 +118,11 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>Microsoft.Exchange.WebServices.Data.RuleActions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-105">Получает действия, которые необходимо выполнить на сообщение, если будут выполнены условия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-105">Gets the actions to be taken on a message when the Conditions are fulfilled.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-106">Действия, предпринимаемые при условия будут выполнены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-106">The actions to be taken when the Conditions are fulfilled.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-107">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> Свойство представляет набор <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> объектов, представляющих действия, выполняемые на <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объекта при <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> рассматривать как <b>значение true</b>. A <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> объект имеет свойства, которые соответствуют каждой действие часто используемые правила в <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Можно создать <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> , которая позволяет любой из <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> в <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> объекта.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-107">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> property represents a set of <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> objects, representing actions that are executed on a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> object when the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are evaluated as <b>true</b>. A <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> object has properties that correspond to each commonly used rule action in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. You can create a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> that enables any of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> contained in the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-105">Возвращает действия, выполняемые над сообщением при выполнении условий.</span><span class="sxs-lookup"><span data-stu-id="e064f-105">Gets the actions to be taken on a message when the Conditions are fulfilled.</span></span></summary>
+        <value><span data-ttu-id="e064f-106">Действия, выполняемые при выполнении условий.</span><span class="sxs-lookup"><span data-stu-id="e064f-106">The actions to be taken when the Conditions are fulfilled.</span></span></value>
+        <remarks><span data-ttu-id="e064f-107"><para><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> Свойство представляет <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> набор объектов, представляющих действия, <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> выполняемые над объектом при вычислении значения <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> <b>true</b>. <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> Объект имеет свойства, соответствующие всем часто используемым действиям правила в <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Вы можете создать объект <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> a, который включает любой <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> объект, содержащийся в объекте.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-107"><para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> property represents a set of <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> objects, representing actions that are executed on a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> object when the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are evaluated as <b>true</b>. A <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> object has properties that correspond to each commonly used rule action in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. You can create a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> that enables any of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> contained in the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> object. </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conditions">
@@ -197,31 +140,11 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicates</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-108">Получает условия, если выполнен, будет активировать правило действий для этого правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-108">Gets the conditions that when fulfilled, will trigger the rule Actions for that Rule.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-109">RulePredicates с условиями правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-109">A RulePredicates with the Rule conditions.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-110">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> Представляют собой свойство <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объект, относящиеся к каждому часто использовать условие правила в <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. При поступлении сообщения электронной почты, компьютера Exchange Server оценивает сообщение и определяет, если он выполнил <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> из <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Если это так, компьютера Exchange Server затем будет обрабатывать сообщения согласно <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. Можно создать правило, которое позволяет любой из <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> в <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объекта.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-110">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property represent a <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object, that correspond to each commonly used rule condition in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. When an e-mail arrives, the Exchange Server computer evaluates the message and determines if it has fulfilled the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. If it does, the Exchange Server computer will then process the message according to the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. You can create a rule that enables any of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> contained in the <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-108">Получает условия, при выполнении которых будет запущено действие правила для этого правила.</span><span class="sxs-lookup"><span data-stu-id="e064f-108">Gets the conditions that when fulfilled, will trigger the rule Actions for that Rule.</span></span></summary>
+        <value><span data-ttu-id="e064f-109">Рулепредикатес с условиями правила.</span><span class="sxs-lookup"><span data-stu-id="e064f-109">A RulePredicates with the Rule conditions.</span></span></value>
+        <remarks><span data-ttu-id="e064f-110"><para><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> Свойство представляет <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объект, который соответствует всем часто используемым условиям правила в <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Когда сообщение поступает, компьютер с Exchange Server оценивает сообщение и определяет, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> выполнил ли он. <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Если это так, компьютер с сервером Exchange будет обрабатывать сообщение в соответствии <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />с. Вы можете создать правило, которое включает любой из <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объектов, включенных в объект.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-110"><para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property represent a <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object, that correspond to each commonly used rule condition in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. When an e-mail arrives, the Exchange Server computer evaluates the message and determines if it has fulfilled the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. If it does, the Exchange Server computer will then process the message according to the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. You can create a rule that enables any of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> contained in the <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -239,31 +162,11 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-111">Получает или задает значение типа string, содержащая отображаемое имя правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-111">Gets or sets a string value that contains the display name of a Rule.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-112">Отображаемое имя для правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-112">The display name for the Rule.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-113">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Неуникальных отображаемое имя — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Свойство — это имя правила, как оно отображается для пользователя. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Не может быть задано значение null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-113">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> property is a non-unique display name of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> property is the name of the rule as it is displayed to the user. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> cannot be set to null.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-111">Получает или задает строковое значение, содержащее отображаемое имя правила.</span><span class="sxs-lookup"><span data-stu-id="e064f-111">Gets or sets a string value that contains the display name of a Rule.</span></span></summary>
+        <value><span data-ttu-id="e064f-112">Отображаемое имя правила.</span><span class="sxs-lookup"><span data-stu-id="e064f-112">The display name for the Rule.</span></span></value>
+        <remarks><span data-ttu-id="e064f-113"><para><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Свойство не является уникальным отображаемым именем объекта <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Свойство — это имя правила в том виде, в котором оно отображается для пользователя. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> Не может иметь значение null.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-113"><para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> property is a non-unique display name of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> property is the name of the rule as it is displayed to the user. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> cannot be set to null.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -281,31 +184,11 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicates</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-114">Возвращает исключение, представляющий все доступные правила условия исключений для правила папки «Входящие».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-114">Gets the Exceptions that represents all the available rule exception conditions for the inbox rule.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-115">RulePredicates с исключения для правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-115">A RulePredicates with the exceptions to the Rule.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-116">
-            <para>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> Представляют собой свойство <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объекта, о том, условия, при которых <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> не следует применять.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-116">
-              <para>The <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> property represent a <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object, that states the conditions under which the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> should not be applied.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-114">Получает исключения, которые представляют все доступные условия исключения правила для правила папки "Входящие".</span><span class="sxs-lookup"><span data-stu-id="e064f-114">Gets the Exceptions that represents all the available rule exception conditions for the inbox rule.</span></span></summary>
+        <value><span data-ttu-id="e064f-115">Объект Рулепредикатес с исключениями из правила.</span><span class="sxs-lookup"><span data-stu-id="e064f-115">A RulePredicates with the exceptions to the Rule.</span></span></value>
+        <remarks><span data-ttu-id="e064f-116"><para><see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> Свойство представляет <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> объект, в котором определяются условия, при которых не <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> следует применять этот параметр.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-116"><para>The <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> property represent a <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object, that states the conditions under which the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> should not be applied.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -323,30 +206,11 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-117">Получает или задает идентификатор правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-117">Gets or sets the Rule identifier.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-118">Идентификатор правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-118">The Rule identifier.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-119">
-            <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Id" /> свойство до <see cref="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" /> или <see cref="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" /> вызовет исключение.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-119">
-              <para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Id" /> property prior to a <see cref="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" /> or an <see cref="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" /> will cause an exception to be thrown.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-117">Получает или задает идентификатор правила.</span><span class="sxs-lookup"><span data-stu-id="e064f-117">Gets or sets the Rule identifier.</span></span></summary>
+        <value><span data-ttu-id="e064f-118">Идентификатор правила.</span><span class="sxs-lookup"><span data-stu-id="e064f-118">The Rule identifier.</span></span></value>
+        <remarks><span data-ttu-id="e064f-119"><para>Если задать <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Id" /> свойство, предшествующее <see cref="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" /> "a <see cref="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" /> " или "a", будет вызвано исключение.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-119"><para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Id" /> property prior to a <see cref="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" /> or an <see cref="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" /> will cause an exception to be thrown.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsEnabled">
@@ -364,37 +228,11 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-120">Получает или задает включение правила.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-120">Gets or sets whether the Rule is enabled.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-121">
-            <b>значение true,</b> Если правило включено; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-121">
-              <b>true</b> if the Rule is enabled; otherwise, <b>false</b>.</span>
-          </span>
-          <span data-ttu-id="27655-122">Значение по умолчанию: <b>true</b></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-122">The default value is <b>true</b></span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-123">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" /> Свойство указывает, будет ли <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> включен. Если правило не включен он будет игнорироваться, когда входящее сообщение <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> будут выполнены и нет <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> будет выполнено.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-123">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" /> property specifies whether a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is enabled.. If the rule is not enabled it will be ignored when an incoming message's <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are fulfilled and no <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> will be taken.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-120">Получает или задает значение, указывающее, включено ли правило.</span><span class="sxs-lookup"><span data-stu-id="e064f-120">Gets or sets whether the Rule is enabled.</span></span></summary>
+        <value><span data-ttu-id="e064f-121"><b>значение true</b> , если правило включено; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="e064f-121"><b>true</b> if the Rule is enabled; otherwise, <b>false</b>.</span></span> <span data-ttu-id="e064f-122">Значение по умолчанию: <b>true</b></span><span class="sxs-lookup"><span data-stu-id="e064f-122">The default value is <b>true</b></span></span></value>
+        <remarks><span data-ttu-id="e064f-123"><para><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" /> Свойство указывает, <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> включено ли свойство... Если правило не включено, оно будет игнорироваться, когда <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> выполняется входящее сообщение, а не <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> будет выполнено.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-123"><para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" /> property specifies whether a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is enabled.. If the rule is not enabled it will be ignored when an incoming message's <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are fulfilled and no <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> will be taken.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsInError">
@@ -412,33 +250,11 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-124">Получает значение, указывающее, является ли правило в случае ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-124">Gets a value that indicates whether the Rule is in an error condition.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-125">
-            <b>значение true,</b> Если правило в случае ошибки; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-125">
-              <b>true</b> if the Rule is in an error condition; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-126">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" /> Свойство указывает состояние правила. A <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> , который содержит ошибки не удается обработать до исправления ошибки.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-126">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" /> property specifies the rule status. A <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> that has errors cannot be processed until the error is corrected.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-124">Получает значение, указывающее, находится ли правило в состоянии ошибки.</span><span class="sxs-lookup"><span data-stu-id="e064f-124">Gets a value that indicates whether the Rule is in an error condition.</span></span></summary>
+        <value><span data-ttu-id="e064f-125"><b>значение true</b> , если правило находится в состоянии ошибки; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="e064f-125"><b>true</b> if the Rule is in an error condition; otherwise, <b>false</b>.</span></span></value>
+        <remarks><span data-ttu-id="e064f-126"><para><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" /> Свойство указывает состояние правила. A <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> с ошибками не может быть обработано, пока не будет исправлена ошибка.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-126"><para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" /> property specifies the rule status. A <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> that has errors cannot be processed until the error is corrected.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsNotSupported">
@@ -456,32 +272,11 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-127">Получает значение, указывающее, ли правило не могут быть изменены с управляемым кодом API-интерфейсы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-127">Gets a value that indicates whether the Rule cannot be modified with the managed code APIs.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-128">
-            <b>значение true,</b> Если правило не могут быть изменены с управляемым кодом API; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-128">
-              <b>true</b> if the Rule cannot be modified with the managed code APIs; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-129">
-            <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> свойство имеет <b>значение true</b>, <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> нельзя изменить. Вы можете проверить значение <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> перед выполнением <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метод.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-129">
-              <para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> property is <b>true</b>, the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> cannot not be modified. You can check the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> prior to performing a <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-127">Получает значение, указывающее, может ли правило измениться с помощью API управляемого кода.</span><span class="sxs-lookup"><span data-stu-id="e064f-127">Gets a value that indicates whether the Rule cannot be modified with the managed code APIs.</span></span></summary>
+        <value><span data-ttu-id="e064f-128"><b>имеет значение true</b> , если правило не может быть изменено с помощью API управляемого кода; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="e064f-128"><b>true</b> if the Rule cannot be modified with the managed code APIs; otherwise, <b>false</b>.</span></span></value>
+        <remarks><span data-ttu-id="e064f-129"><para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> свойство имеет <b>значение true</b>, изменить <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> нельзя. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> Перед выполнением <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метода можно проверить значение.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-129"><para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> property is <b>true</b>, the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> cannot not be modified. You can check the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> prior to performing a <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> method.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Priority">
@@ -499,32 +294,13 @@ service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</co
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="27655-130">Получает или задает приоритет правила, значение, указывающее порядок, в котором должна запускаться правило.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-130">Gets or sets the Rule priority, a value that indicates the order in which a Rule should be run.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="27655-131">Значение, указывающее порядок выполнения, в котором должна запускаться правило.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-131">The value that indicates the execution order in which a Rule should be run.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="27655-132">
-            <para>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />классы, которые имеют высокое значение приоритета выполняются до более низкий приоритет <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> классы. Значение по умолчанию <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> значение для каких-либо <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> равно 0. При <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> создается с тем же <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> как существующий <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />, существующих <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> увеличивается. Правило <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> должно быть положительное значение.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="27655-132">
-              <para>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> classes that have a higher priority value are run before lower priority <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> classes. The default <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> value for any <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is 0. When a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is created with the same <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> as an existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />, the existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is incremented. A rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> must be a positive value.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e064f-130">Получает или задает приоритет правила, значение которого указывает порядок выполнения правила.</span><span class="sxs-lookup"><span data-stu-id="e064f-130">Gets or sets the Rule priority, a value that indicates the order in which a Rule should be run.</span></span></summary>
+        <value><span data-ttu-id="e064f-131">Значение, указывающее порядок выполнения, в котором должно выполняться правило.</span><span class="sxs-lookup"><span data-stu-id="e064f-131">The value that indicates the execution order in which a Rule should be run.</span></span></value>
+        <remarks><span data-ttu-id="e064f-132"><para>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />классы, имеющие более высокое значение приоритета, выполняются перед классами с более низким приоритетом <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> . Значение по <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> умолчанию для <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Any равно 0. При создании <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объекта a с таким же <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> , как у <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />существующего, существующий <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> увеличивается. Правило <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> должно иметь положительное значение.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e064f-132"><para>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> classes that have a higher priority value are run before lower priority <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> classes. The default <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> value for any <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is 0. When a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is created with the same <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> as an existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />, the existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is incremented. A rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> must be a positive value.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

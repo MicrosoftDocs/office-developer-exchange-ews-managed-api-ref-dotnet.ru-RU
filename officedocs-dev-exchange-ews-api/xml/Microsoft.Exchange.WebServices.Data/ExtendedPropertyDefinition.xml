@@ -1,13 +1,5 @@
 <Type Name="ExtendedPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02c5b5ea716a26f84fef6fd1d95894a2a6f39535" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626985" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ExtendedPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02c5b5ea716a26f84fef6fd1d95894a2a6f39535" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626985" /></Metadata><TypeSignature Language="C#" Value="public sealed class ExtendedPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExtendedPropertyDefinition extends Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExtendedPropertyDefinition&#xA;Inherits PropertyDefinitionBase" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="3bd31-101">Представляет определение расширенного свойства.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3bd31-101">Represents the definition of an extended property.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="6ba14-101">Представляет определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-101">Represents the definition of an extended property.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -46,24 +33,9 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="tag">
-          <span data-ttu-id="3bd31-102">Тег расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-102">The tag of the extended property.</span>
-          </span>
-        </param>
-        <param name="mapiType">
-          <span data-ttu-id="3bd31-103">Тип MAPI расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-103">The MAPI type of the extended property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bd31-104">Инициализирует новый экземпляр класса ExtendedPropertyDefinition, который содержит тег, указанного идентификатором <paramref name="tag" /> и тип MAPI, указанный в <paramref name="mapiType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-104">Initializes a new instance of the ExtendedPropertyDefinition class that has the tag specified by <paramref name="tag" /> and the MAPI type specified by <paramref name="mapiType" />.</span>
-          </span>
-        </summary>
+        <param name="tag"><span data-ttu-id="6ba14-102">Тег расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-102">The tag of the extended property.</span></span></param>
+        <param name="mapiType"><span data-ttu-id="6ba14-103">Тип MAPI расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-103">The MAPI type of the extended property.</span></span></param>
+        <summary><span data-ttu-id="6ba14-104">Инициализирует новый экземпляр класса Екстендедпропертидефинитион, в котором указан тег <paramref name="tag" /> и тип MAPI, заданный параметром. <paramref name="mapiType" /></span><span class="sxs-lookup"><span data-stu-id="6ba14-104">Initializes a new instance of the ExtendedPropertyDefinition class that has the tag specified by <paramref name="tag" /> and the MAPI type specified by <paramref name="mapiType" />.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,30 +56,10 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="propertySet">
-          <span data-ttu-id="3bd31-105">Набор свойств, расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-105">The property set of the extended property.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="3bd31-106">Идентификатор расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-106">The ID of the extended property.</span>
-          </span>
-        </param>
-        <param name="mapiType">
-          <span data-ttu-id="3bd31-107">Тип MAPI расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-107">The MAPI type of the extended property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bd31-108">Инициализирует новый экземпляр класса ExtendedPropertyDefinition, свойство имеет значение определяется <paramref name="propertySet" />, идентификатор, указанный с <paramref name="id" />и тип MAPI, указанный в <paramref name="mapiType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-108">Initializes a new instance of the ExtendedPropertyDefinition class that has the property set specified by <paramref name="propertySet" />, the identifier specified by <paramref name="id" />, and the MAPI type specified by <paramref name="mapiType" />.</span>
-          </span>
-        </summary>
+        <param name="propertySet"><span data-ttu-id="6ba14-105">Набор свойств расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-105">The property set of the extended property.</span></span></param>
+        <param name="id"><span data-ttu-id="6ba14-106">Идентификатор расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-106">The ID of the extended property.</span></span></param>
+        <param name="mapiType"><span data-ttu-id="6ba14-107">Тип MAPI расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-107">The MAPI type of the extended property.</span></span></param>
+        <summary><span data-ttu-id="6ba14-108">Инициализирует новый экземпляр класса Екстендедпропертидефинитион, в котором заданы свойства <paramref name="propertySet" />, идентификаторы <paramref name="id" />и типы MAPI, заданные в параметре. <paramref name="mapiType" /></span><span class="sxs-lookup"><span data-stu-id="6ba14-108">Initializes a new instance of the ExtendedPropertyDefinition class that has the property set specified by <paramref name="propertySet" />, the identifier specified by <paramref name="id" />, and the MAPI type specified by <paramref name="mapiType" />.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,30 +80,10 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="propertySet">
-          <span data-ttu-id="3bd31-109">Расширенные свойства набора расширенных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-109">The extended property set of the extended property.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="3bd31-110">Имя расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-110">The name of the extended property.</span>
-          </span>
-        </param>
-        <param name="mapiType">
-          <span data-ttu-id="3bd31-111">Тип MAPI расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-111">The MAPI type of the extended property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bd31-112">Инициализирует новый экземпляр класса ExtendedPropertyDefinition, свойство имеет значение определяется <paramref name="propertySet" />, указанного в параметре <paramref name="name" />и тип MAPI, указанный в <paramref name="mapiType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-112">Initializes a new instance of the ExtendedPropertyDefinition class that has the property set specified by <paramref name="propertySet" />, the name specified by <paramref name="name" />, and the MAPI type specified by <paramref name="mapiType" />.</span>
-          </span>
-        </summary>
+        <param name="propertySet"><span data-ttu-id="6ba14-109">Набор расширенных свойств расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-109">The extended property set of the extended property.</span></span></param>
+        <param name="name"><span data-ttu-id="6ba14-110">Имя расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-110">The name of the extended property.</span></span></param>
+        <param name="mapiType"><span data-ttu-id="6ba14-111">Тип MAPI расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-111">The MAPI type of the extended property.</span></span></param>
+        <summary><span data-ttu-id="6ba14-112">Инициализирует новый экземпляр класса Екстендедпропертидефинитион, в котором заданы заданные свойства <paramref name="propertySet" />, имя <paramref name="name" />и тип MAPI, заданные параметром. <paramref name="mapiType" /></span><span class="sxs-lookup"><span data-stu-id="6ba14-112">Initializes a new instance of the ExtendedPropertyDefinition class that has the property set specified by <paramref name="propertySet" />, the name specified by <paramref name="name" />, and the MAPI type specified by <paramref name="mapiType" />.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -172,30 +104,10 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="propertySetId">
-          <span data-ttu-id="3bd31-113">Идентификатор расширенного свойства набора свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-113">The property set ID of the extended property.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="3bd31-114">Идентификатор расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-114">The ID of the extended property.</span>
-          </span>
-        </param>
-        <param name="mapiType">
-          <span data-ttu-id="3bd31-115">Тип MAPI расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-115">The MAPI type of the extended property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bd31-116">Инициализирует новый экземпляр класса ExtendedPropertyDefinition, который имеет свойство задания идентификатор, указанный с <paramref name="propertySetId" />, идентификатор, указанный с <paramref name="id" />и тип MAPI, указанный в <paramref name="mapiType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-116">Initializes a new instance of the ExtendedPropertyDefinition class that has the property set identifier specified by <paramref name="propertySetId" />, the identifier specified by <paramref name="id" />, and the MAPI type specified by <paramref name="mapiType" />.</span>
-          </span>
-        </summary>
+        <param name="propertySetId"><span data-ttu-id="6ba14-113">Идентификатор набора свойств расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-113">The property set ID of the extended property.</span></span></param>
+        <param name="id"><span data-ttu-id="6ba14-114">Идентификатор расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-114">The ID of the extended property.</span></span></param>
+        <param name="mapiType"><span data-ttu-id="6ba14-115">Тип MAPI расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-115">The MAPI type of the extended property.</span></span></param>
+        <summary><span data-ttu-id="6ba14-116">Инициализирует новый экземпляр класса Екстендедпропертидефинитион, который содержит заданный идентификатор набора свойств <paramref name="propertySetId" />, идентификатор <paramref name="id" />, указанный в параметре, и тип MAPI, заданный параметром. <paramref name="mapiType" /></span><span class="sxs-lookup"><span data-stu-id="6ba14-116">Initializes a new instance of the ExtendedPropertyDefinition class that has the property set identifier specified by <paramref name="propertySetId" />, the identifier specified by <paramref name="id" />, and the MAPI type specified by <paramref name="mapiType" />.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -216,30 +128,10 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="propertySetId">
-          <span data-ttu-id="3bd31-117">Идентификатор расширенного свойства набора свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-117">The property set ID of the extended property.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="3bd31-118">Имя расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-118">The name of the extended property.</span>
-          </span>
-        </param>
-        <param name="mapiType">
-          <span data-ttu-id="3bd31-119">Тип MAPI расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-119">The MAPI type of the extended property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bd31-120">Инициализирует новый экземпляр класса ExtendedPropertyDefinition, который имеет свойство задания идентификатор, указанный с <paramref name="propertySetId" />, указанного в параметре <paramref name="name" />и тип MAPI, указанный в <paramref name="mapiType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-120">Initializes a new instance of the ExtendedPropertyDefinition class that has the property set identifier specified by <paramref name="propertySetId" />, the name specified by <paramref name="name" />, and the MAPI type specified by <paramref name="mapiType" />.</span>
-          </span>
-        </summary>
+        <param name="propertySetId"><span data-ttu-id="6ba14-117">Идентификатор набора свойств расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-117">The property set ID of the extended property.</span></span></param>
+        <param name="name"><span data-ttu-id="6ba14-118">Имя расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-118">The name of the extended property.</span></span></param>
+        <param name="mapiType"><span data-ttu-id="6ba14-119">Тип MAPI расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-119">The MAPI type of the extended property.</span></span></param>
+        <summary><span data-ttu-id="6ba14-120">Инициализирует новый экземпляр класса Екстендедпропертидефинитион, который содержит заданный идентификатор набора свойств <paramref name="propertySetId" />, имя <paramref name="name" />, указанное в параметре, и тип MAPI, заданный параметром. <paramref name="mapiType" /></span><span class="sxs-lookup"><span data-stu-id="6ba14-120">Initializes a new instance of the ExtendedPropertyDefinition class that has the property set identifier specified by <paramref name="propertySetId" />, the name specified by <paramref name="name" />, and the MAPI type specified by <paramref name="mapiType" />.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -261,26 +153,9 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">
-          <span data-ttu-id="3bd31-121">Объект для проверки на равенство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-121">The object to check for equality.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bd31-122">Определяет, является ли определение данного расширенные свойства равно определение расширенных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-122">Determines whether a given extended property definition is equal to this extended property definition.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3bd31-123">
-            <b>значение true,</b> Если свойство в определениях же расширенные свойства; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-123">
-              <b>true</b> if the property definitions define the same extended property; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="obj"><span data-ttu-id="6ba14-121">Объект для проверки на равенство.</span><span class="sxs-lookup"><span data-stu-id="6ba14-121">The object to check for equality.</span></span></param>
+        <summary><span data-ttu-id="6ba14-122">Определяет, совпадает ли заданное расширенное свойство с определением этого расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-122">Determines whether a given extended property definition is equal to this extended property definition.</span></span></summary>
+        <returns><span data-ttu-id="6ba14-123"><b>значение true</b> , если определения свойств определяют одно и то же расширенное свойство; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="6ba14-123"><b>true</b> if the property definitions define the same extended property; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -300,18 +175,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-124">Возвращает хэш-код для объекта ExtendedPropertyDefinition.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-124">Returns a hash code for the ExtendedPropertyDefinition object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3bd31-125">Хэш-код для объекта ExtendedPropertyDefinition.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-125">The hash code for the ExtendedPropertyDefinition object.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="6ba14-124">Возвращает хэш-код для объекта Екстендедпропертидефинитион.</span><span class="sxs-lookup"><span data-stu-id="6ba14-124">Returns a hash code for the ExtendedPropertyDefinition object.</span></span></summary>
+        <returns><span data-ttu-id="6ba14-125">Хэш-код для объекта Екстендедпропертидефинитион.</span><span class="sxs-lookup"><span data-stu-id="6ba14-125">The hash code for the ExtendedPropertyDefinition object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -351,19 +216,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-126">Получает идентификатор расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-126">Gets the ID of the extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bd31-127">
-            <b>Допускает значение NULL</b> значение, содержащее идентификатор расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-127">A <b>nullable</b> value that contains the identifier of the extended property.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ba14-126">Получает идентификатор расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-126">Gets the ID of the extended property.</span></span></summary>
+        <value><span data-ttu-id="6ba14-127">Значение <b>Nullable</b> , которое содержит идентификатор расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-127">A <b>nullable</b> value that contains the identifier of the extended property.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -382,18 +236,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MapiPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-128">Получает тип MAPI расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-128">Gets the MAPI type of the extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bd31-129">MapiPropertyType, который является типом расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-129">A MapiPropertyType that is the extended property type.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ba14-128">Возвращает тип MAPI расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-128">Gets the MAPI type of the extended property.</span></span></summary>
+        <value><span data-ttu-id="6ba14-129">Объект Мапипропертитипе, который является типом расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-129">A MapiPropertyType that is the extended property type.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -412,18 +256,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-130">Получает имя расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-130">Gets the name of the extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bd31-131">Имя расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-131">The name of the extended property.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ba14-130">Получает имя расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-130">Gets the name of the extended property.</span></span></summary>
+        <value><span data-ttu-id="6ba14-131">Имя расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-131">The name of the extended property.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -446,32 +280,10 @@
         <Parameter Name="extPropDef2" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="extPropDef1">
-          <span data-ttu-id="3bd31-132">Первое определение расширенных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-132">The first extended property definition.</span>
-          </span>
-        </param>
-        <param name="extPropDef2">
-          <span data-ttu-id="3bd31-133">Второе определение расширенных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-133">The second extended property definition.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bd31-134">Определяет, равны ли два указанных экземпляра ExtendedPropertyDefinition.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-134">Determines whether two specified instances of ExtendedPropertyDefinition are equal.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3bd31-135">
-            <b>значение true,</b> Если определения расширенных свойств равны; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-135">
-              <b>true</b> if extended property definitions are equal; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="extPropDef1"><span data-ttu-id="6ba14-132">Первое определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-132">The first extended property definition.</span></span></param>
+        <param name="extPropDef2"><span data-ttu-id="6ba14-133">Второе определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-133">The second extended property definition.</span></span></param>
+        <summary><span data-ttu-id="6ba14-134">Определяет, равны ли два указанных экземпляра Екстендедпропертидефинитион.</span><span class="sxs-lookup"><span data-stu-id="6ba14-134">Determines whether two specified instances of ExtendedPropertyDefinition are equal.</span></span></summary>
+        <returns><span data-ttu-id="6ba14-135"><b>значение true</b> , если определения расширенных свойств равны; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="6ba14-135"><b>true</b> if extended property definitions are equal; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -494,32 +306,10 @@
         <Parameter Name="extPropDef2" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="extPropDef1">
-          <span data-ttu-id="3bd31-136">Первое определение расширенных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-136">The first extended property definition.</span>
-          </span>
-        </param>
-        <param name="extPropDef2">
-          <span data-ttu-id="3bd31-137">Второе определение расширенных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-137">The second extended property definition.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bd31-138">Определяет, будет ли два указанных экземпляра ExtendedPropertyDefinition не равны.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-138">Determines whether two specified instances of ExtendedPropertyDefinition are not equal.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3bd31-139">
-            <b>значение true,</b> Если определения расширенных свойств не равны; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-139">
-              <b>true</b> if extended property definitions are not equal; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="extPropDef1"><span data-ttu-id="6ba14-136">Первое определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-136">The first extended property definition.</span></span></param>
+        <param name="extPropDef2"><span data-ttu-id="6ba14-137">Второе определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-137">The second extended property definition.</span></span></param>
+        <summary><span data-ttu-id="6ba14-138">Определяет, являются ли два указанных экземпляра Екстендедпропертидефинитион неравными.</span><span class="sxs-lookup"><span data-stu-id="6ba14-138">Determines whether two specified instances of ExtendedPropertyDefinition are not equal.</span></span></summary>
+        <returns><span data-ttu-id="6ba14-139"><b>значение true</b> , если определения расширенных свойств не равны; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="6ba14-139"><b>true</b> if extended property definitions are not equal; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -538,19 +328,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-140">Получает набор свойств расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-140">Gets the property set of the extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bd31-141">
-            <b>Допускает значение NULL</b> значение, содержащее набор свойств расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-141">A <b>nullable</b> value that contains the property set of the extended property.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ba14-140">Возвращает набор свойств расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-140">Gets the property set of the extended property.</span></span></summary>
+        <value><span data-ttu-id="6ba14-141">Значение <b>Nullable</b> , которое содержит набор свойств расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-141">A <b>nullable</b> value that contains the property set of the extended property.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -569,19 +348,8 @@
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-142">Возвращает свойство задать идентификатор для расширенного свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-142">Gets the property set ID for the extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bd31-143">
-            <b>Допускает значение NULL</b> значение, содержащее свойство задать идентификатор расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-143">A <b>nullable</b> value that contains the property set identifier of the extended property.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ba14-142">Возвращает идентификатор набора свойств для расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-142">Gets the property set ID for the extended property.</span></span></summary>
+        <value><span data-ttu-id="6ba14-143">Значение <b>Nullable</b> , которое содержит идентификатор набора свойств расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-143">A <b>nullable</b> value that contains the property set identifier of the extended property.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -600,19 +368,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-144">Получает тег для расширенного свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-144">Gets the tag for the extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bd31-145">
-            <b>Допускает значение NULL</b> значение, которое содержит тег расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-145">A <b>nullable</b> value that contains the tag of the extended property.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ba14-144">Получает тег для расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-144">Gets the tag for the extended property.</span></span></summary>
+        <value><span data-ttu-id="6ba14-145">Значение <b>Nullable</b> , содержащее тег расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-145">A <b>nullable</b> value that contains the tag of the extended property.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -631,18 +388,8 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-146">Получает тип свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-146">Gets the property type.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bd31-147">Тип свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-147">The property type.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ba14-146">Получает тип свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-146">Gets the property type.</span></span></summary>
+        <value><span data-ttu-id="6ba14-147">Тип свойства.</span><span class="sxs-lookup"><span data-stu-id="6ba14-147">The property type.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -661,18 +408,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bd31-148">Получает Минимальная версия Exchange, которая поддерживает этого расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-148">Gets the minimum Exchange version that supports this extended property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bd31-149">Значение перечисления ExchangeVersion.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bd31-149">An ExchangeVersion enumeration value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ba14-148">Возвращает минимальную версию Exchange, поддерживающую это расширенное свойство.</span><span class="sxs-lookup"><span data-stu-id="6ba14-148">Gets the minimum Exchange version that supports this extended property.</span></span></summary>
+        <value><span data-ttu-id="6ba14-149">Значение перечисления Ексчанжеверсион.</span><span class="sxs-lookup"><span data-stu-id="6ba14-149">An ExchangeVersion enumeration value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

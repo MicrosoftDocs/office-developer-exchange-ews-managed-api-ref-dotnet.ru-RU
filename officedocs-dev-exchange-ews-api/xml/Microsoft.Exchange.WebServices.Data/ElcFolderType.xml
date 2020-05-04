@@ -1,13 +1,5 @@
 <Type Name="ElcFolderType" FullName="Microsoft.Exchange.WebServices.Data.ElcFolderType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7f4f9f51a1283bae3f43b297ec66e159c11c222b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626591" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ElcFolderType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7f4f9f51a1283bae3f43b297ec66e159c11c222b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626591" /></Metadata><TypeSignature Language="C#" Value="public enum ElcFolderType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ElcFolderType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ElcFolderType" />
@@ -20,17 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ed804-101">Перечисление папок, которые принимают политики (MRM) управления записями сообщений.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ed804-101">Enumerates the folders that accept messaging records management (MRM) policies.</span>
-      </span>
-      <span data-ttu-id="ed804-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ed804-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2f76f-101">Перечисляет папки, принимающие политики управления записями сообщений (управления ЗАПИСЯМИ сообщений).</span><span class="sxs-lookup"><span data-stu-id="2f76f-101">Enumerates the folders that accept messaging records management (MRM) policies.</span></span>             <span data-ttu-id="2f76f-102"><see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,16 +32,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-103">Политика хранения применяется ко всем папкам, не связанные с указанной политики.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-103">The retention policy applies to all folders that do not have a policy specified.</span>
-          </span>
-          <span data-ttu-id="ed804-104">Все поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-104">The All field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-103">Политика хранения применяется ко всем папкам, для которых не указана политика.</span><span class="sxs-lookup"><span data-stu-id="2f76f-103">The retention policy applies to all folders that do not have a policy specified.</span></span>             <span data-ttu-id="2f76f-104">Поле все подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-104">The All field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Calendar">
@@ -78,16 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-105">Политика хранения применяется к папке календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-105">The retention policy applies to the Calendar folder.</span>
-          </span>
-          <span data-ttu-id="ed804-106">В поле календарь используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-106">The Calendar field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-105">Политика хранения применяется к папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="2f76f-105">The retention policy applies to the Calendar folder.</span></span>             <span data-ttu-id="2f76f-106">Поле "Календарь" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-106">The Calendar field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Contacts">
@@ -106,16 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-107">Политика хранения применяется к папке «Контакты».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-107">The retention policy applies to the Contacts folder.</span>
-          </span>
-          <span data-ttu-id="ed804-108">Поле контакты можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-108">The Contacts field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-107">Политика хранения применяется к папке "Контакты".</span><span class="sxs-lookup"><span data-stu-id="2f76f-107">The retention policy applies to the Contacts folder.</span></span>             <span data-ttu-id="2f76f-108">Поле Contacts подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-108">The Contacts field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ConversationHistory">
@@ -134,20 +89,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-109">Политика хранения применяется к папке журнала бесед по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-109">The retention policy applies to the default Conversation History folder.</span>
-          </span>
-          <span data-ttu-id="ed804-110">Эта папка используется в архив беседы службы обмена мгновенными Сообщениями конференц-связи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-110">This folder is used to archive IM Conferencing service conversations.</span>
-          </span>
-          <span data-ttu-id="ed804-111">В поле ConversationHistory используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-111">The ConversationHistory field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-109">Политика хранения применяется к папке журнала бесед по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="2f76f-109">The retention policy applies to the default Conversation History folder.</span></span> <span data-ttu-id="2f76f-110">Эта папка используется для архивации бесед в службе конференц-связи с IM.</span><span class="sxs-lookup"><span data-stu-id="2f76f-110">This folder is used to archive IM Conferencing service conversations.</span></span> <span data-ttu-id="2f76f-111">Поле ConversationHistory применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-111">The ConversationHistory field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="DeletedItems">
@@ -166,16 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-112">Применяет политику хранения для папки "Удаленные".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-112">The retention policy applies to the Deleted Items folder.</span>
-          </span>
-          <span data-ttu-id="ed804-113">В поле DeletedItems используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-113">The DeletedItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-112">Политика хранения применяется к папке "Удаленные".</span><span class="sxs-lookup"><span data-stu-id="2f76f-112">The retention policy applies to the Deleted Items folder.</span></span>             <span data-ttu-id="2f76f-113">Поле DeletedItems применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-113">The DeletedItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Drafts">
@@ -194,16 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-114">Политика хранения применяется к папке "Черновики".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-114">The retention policy applies to the Drafts folder.</span>
-          </span>
-          <span data-ttu-id="ed804-115">В поле «черновики» используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-115">The Drafts field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-114">Политика хранения применяется к папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="2f76f-114">The retention policy applies to the Drafts folder.</span></span>             <span data-ttu-id="2f76f-115">Поле черновики подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-115">The Drafts field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Inbox">
@@ -222,16 +146,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-116">Политика хранения применяется к папке "Входящие".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-116">The retention policy applies to the Inbox folder.</span>
-          </span>
-          <span data-ttu-id="ed804-117">В поле папки «Входящие» используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-117">The Inbox field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-116">Политика хранения применяется к папке "Входящие".</span><span class="sxs-lookup"><span data-stu-id="2f76f-116">The retention policy applies to the Inbox folder.</span></span>             <span data-ttu-id="2f76f-117">Поле "Входящие" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-117">The Inbox field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Journal">
@@ -250,16 +165,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-118">Политика хранения применяется к папке журнала.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-118">The retention policy applies to the Journal folder.</span>
-          </span>
-          <span data-ttu-id="ed804-119">В поле журнала можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-119">The Journal field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-118">Политика хранения применяется к папке журнала.</span><span class="sxs-lookup"><span data-stu-id="2f76f-118">The retention policy applies to the Journal folder.</span></span>             <span data-ttu-id="2f76f-119">Поле журнала подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-119">The Journal field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="JunkEmail">
@@ -278,16 +184,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-120">Политика хранения применяется в папку нежелательной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-120">The retention policy applies to the Junk mail folder.</span>
-          </span>
-          <span data-ttu-id="ed804-121">В поле JunkEmail используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-121">The JunkEmail field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-120">Политика хранения применяется к папке нежелательной почты.</span><span class="sxs-lookup"><span data-stu-id="2f76f-120">The retention policy applies to the Junk mail folder.</span></span>             <span data-ttu-id="2f76f-121">Поле Жункемаил применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-121">The JunkEmail field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ManagedCustomFolder">
@@ -306,16 +203,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-122">Политика хранения применяется к настраиваемые управляемые папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-122">The retention policy applies to the Managed Custom folders.</span>
-          </span>
-          <span data-ttu-id="ed804-123">В поле ManagedCustomFolder используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-123">The ManagedCustomFolder field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-122">Политика хранения применяется к настраиваемым управляемым папкам.</span><span class="sxs-lookup"><span data-stu-id="2f76f-122">The retention policy applies to the Managed Custom folders.</span></span>             <span data-ttu-id="2f76f-123">Поле Манажедкустомфолдер применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-123">The ManagedCustomFolder field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="NonIpmRoot">
@@ -334,16 +222,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-124">Политика хранения применяется к папке не электронной почты — это поддерево обмена мгновенными сообщениями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-124">The retention policy applies to the non-interpersonal messaging subtree folder.</span>
-          </span>
-          <span data-ttu-id="ed804-125">В поле NonIpmRoot используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-125">The NonIpmRoot field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-124">Политика хранения применяется к папке поддерева, в котором не используется межпользовательская система обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="2f76f-124">The retention policy applies to the non-interpersonal messaging subtree folder.</span></span>             <span data-ttu-id="2f76f-125">Поле Нонипмрут применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-125">The NonIpmRoot field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Notes">
@@ -362,16 +241,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-126">Политика хранения применяется к папка «заметки».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-126">The retention policy applies to the Notes folder.</span>
-          </span>
-          <span data-ttu-id="ed804-127">В поле заметки можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-127">The Notes field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-126">Политика хранения применяется к папке Notes.</span><span class="sxs-lookup"><span data-stu-id="2f76f-126">The retention policy applies to the Notes folder.</span></span>             <span data-ttu-id="2f76f-127">Поле Notes (заметки) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-127">The Notes field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Outbox">
@@ -390,16 +260,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-128">Политика хранения применяется к папке «Исходящие».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-128">The retention policy applies to the Outbox folder.</span>
-          </span>
-          <span data-ttu-id="ed804-129">В поле "Исходящие" используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-129">The Outbox field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-128">Политика хранения применяется к папке "Исходящие".</span><span class="sxs-lookup"><span data-stu-id="2f76f-128">The retention policy applies to the Outbox folder.</span></span>             <span data-ttu-id="2f76f-129">Поле "Исходящие" применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-129">The Outbox field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Personal">
@@ -418,16 +279,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-130">Политика хранения применяется к личной папки, созданные пользователем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-130">The retention policy applies to user-created personal folders.</span>
-          </span>
-          <span data-ttu-id="ed804-131">Личные поля используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-131">The Personal field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-130">Политика хранения применяется к личным папкам, созданным пользователями.</span><span class="sxs-lookup"><span data-stu-id="2f76f-130">The retention policy applies to user-created personal folders.</span></span>             <span data-ttu-id="2f76f-131">Личное поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-131">The Personal field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="RecoverableItems">
@@ -446,16 +298,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-132">Политика хранения применяется к папке элементов для восстановления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-132">The retention policy applies to the Recoverable Items folder.</span>
-          </span>
-          <span data-ttu-id="ed804-133">В поле RecoverableItems используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-133">The RecoverableItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-132">Политика хранения применяется к папке "элементы с возможностью восстановления".</span><span class="sxs-lookup"><span data-stu-id="2f76f-132">The retention policy applies to the Recoverable Items folder.</span></span>             <span data-ttu-id="2f76f-133">Поле RecoverableItems применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-133">The RecoverableItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="RssSubscriptions">
@@ -474,16 +317,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-134">Политика хранения применяется к папке RSS-канал.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-134">The retention policy applies to the RSS folder.</span>
-          </span>
-          <span data-ttu-id="ed804-135">В поле RssSubscriptions используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-135">The RssSubscriptions field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-134">Политика хранения применяется к папке RSS.</span><span class="sxs-lookup"><span data-stu-id="2f76f-134">The retention policy applies to the RSS folder.</span></span>             <span data-ttu-id="2f76f-135">Поле Рсссубскриптионс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-135">The RssSubscriptions field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SentItems">
@@ -502,16 +336,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-136">Политика хранения применяется к этой папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-136">The retention policy applies to the Sent Items folder.</span>
-          </span>
-          <span data-ttu-id="ed804-137">В поле папки "Отправленные" используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-137">The SentItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-136">Политика хранения применяется к папке "Отправленные".</span><span class="sxs-lookup"><span data-stu-id="2f76f-136">The retention policy applies to the Sent Items folder.</span></span>             <span data-ttu-id="2f76f-137">Поле SentItems применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-137">The SentItems field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SyncIssues">
@@ -530,16 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-138">Политика хранения применяется к ошибки синхронизации папки по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-138">The retention policy applies to the default Sync Issues folder.</span>
-          </span>
-          <span data-ttu-id="ed804-139">В поле SyncIssues используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-139">The SyncIssues field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-138">Политика хранения применяется к папке "ошибки синхронизации по умолчанию".</span><span class="sxs-lookup"><span data-stu-id="2f76f-138">The retention policy applies to the default Sync Issues folder.</span></span>             <span data-ttu-id="2f76f-139">Поле СинЦиссуес применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-139">The SyncIssues field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Tasks">
@@ -558,16 +374,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ed804-140">Политика хранения применяется к папке задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-140">The retention policy applies to the Tasks folder.</span>
-          </span>
-          <span data-ttu-id="ed804-141">Поля задач можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ed804-141">The Tasks field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2f76f-140">Политика хранения применяется к папке "задачи".</span><span class="sxs-lookup"><span data-stu-id="2f76f-140">The retention policy applies to the Tasks folder.</span></span>             <span data-ttu-id="2f76f-141">Поле Tasks (задачи) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f76f-141">The Tasks field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

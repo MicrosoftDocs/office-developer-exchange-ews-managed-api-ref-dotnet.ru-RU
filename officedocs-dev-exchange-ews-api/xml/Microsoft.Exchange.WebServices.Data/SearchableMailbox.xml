@@ -1,13 +1,5 @@
 <Type Name="SearchableMailbox" FullName="Microsoft.Exchange.WebServices.Data.SearchableMailbox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8162c32391574af0a59694adda4e65fc47453286" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627412" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchableMailbox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8162c32391574af0a59694adda4e65fc47453286" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627412" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchableMailbox" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchableMailbox extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchableMailbox" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="dc846-101">Представляет объект доступен для поиска почтовых ящиков.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="dc846-101">Represents a searchable mailbox object.</span>
-      </span>
-      <span data-ttu-id="dc846-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="dc846-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f5d39-101">Представляет объект почтового ящика, который вы ищете.</span><span class="sxs-lookup"><span data-stu-id="f5d39-101">Represents a searchable mailbox object.</span></span>             <span data-ttu-id="f5d39-102"><see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,17 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="dc846-103">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class.</span>
-          </span>
-          <span data-ttu-id="dc846-104">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f5d39-103">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.</span><span class="sxs-lookup"><span data-stu-id="f5d39-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class.</span></span>  <span data-ttu-id="f5d39-104"><see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,63 +54,14 @@
         <Parameter Name="referenceId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="guid">
-          <span data-ttu-id="dc846-105">Идентификатор почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-105">The mailbox identifier.</span>
-          </span>
-        </param>
-        <param name="smtpAddress">
-          <span data-ttu-id="dc846-106">Адрес Simple Mail Transfer Protocol (SMTP) почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-106">The Simple Mail Transfer Protocol (SMTP) address of the mailbox.</span>
-          </span>
-        </param>
-        <param name="isExternalMailbox">
-          <span data-ttu-id="dc846-107">
-            <b>значение true,</b> Если почтовый ящик относится внешнего почтового ящика; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-107">
-              <b>true</b> if the mailbox is an external mailbox; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <param name="externalEmailAddress">
-          <span data-ttu-id="dc846-108">Внешний адрес электронной почты для почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-108">The external email address of the mailbox.</span>
-          </span>
-        </param>
-        <param name="displayName">
-          <span data-ttu-id="dc846-109">Имя почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-109">The name of the mailbox.</span>
-          </span>
-        </param>
-        <param name="isMembershipGroup">
-          <span data-ttu-id="dc846-110">
-            <b>значение true,</b> Если данный является списком рассылки; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-110">
-              <b>true</b> if this is a distribution list; otherwise <b>false</b>.</span>
-          </span>
-        </param>
-        <param name="referenceId">
-          <span data-ttu-id="dc846-111">Справочник по идентификатор почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-111">The reference identifier of the mailbox.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="dc846-112">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class.</span>
-          </span>
-          <span data-ttu-id="dc846-113">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="guid"><span data-ttu-id="f5d39-105">Идентификатор почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="f5d39-105">The mailbox identifier.</span></span></param>
+        <param name="smtpAddress"><span data-ttu-id="f5d39-106">SMTP-адрес почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="f5d39-106">The Simple Mail Transfer Protocol (SMTP) address of the mailbox.</span></span></param>
+        <param name="isExternalMailbox"><span data-ttu-id="f5d39-107"><b>значение true</b> , если почтовый ящик является внешним почтовым ящиком; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="f5d39-107"><b>true</b> if the mailbox is an external mailbox; otherwise, <b>false</b>.</span></span></param>
+        <param name="externalEmailAddress"><span data-ttu-id="f5d39-108">Внешний адрес электронной почты почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="f5d39-108">The external email address of the mailbox.</span></span></param>
+        <param name="displayName"><span data-ttu-id="f5d39-109">Имя почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="f5d39-109">The name of the mailbox.</span></span></param>
+        <param name="isMembershipGroup"><span data-ttu-id="f5d39-110"><b>значение true</b> , если это список рассылки; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="f5d39-110"><b>true</b> if this is a distribution list; otherwise <b>false</b>.</span></span></param>
+        <param name="referenceId"><span data-ttu-id="f5d39-111">Идентификатор ссылки для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="f5d39-111">The reference identifier of the mailbox.</span></span></param>
+        <summary><span data-ttu-id="f5d39-112">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.</span><span class="sxs-lookup"><span data-stu-id="f5d39-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class.</span></span>             <span data-ttu-id="f5d39-113"><see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,23 +80,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dc846-114">Получает или задает отображаемое имя почтового ящика для поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-114">Gets or sets the display name of the mailbox to be searched.</span>
-          </span>
-          <span data-ttu-id="dc846-115">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="dc846-116">Отображаемое имя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-116">The display name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f5d39-114">Получает или задает отображаемое имя почтового ящика, в котором выполняется поиск.</span><span class="sxs-lookup"><span data-stu-id="f5d39-114">Gets or sets the display name of the mailbox to be searched.</span></span>             <span data-ttu-id="f5d39-115"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="f5d39-116">Отображаемое имя.</span><span class="sxs-lookup"><span data-stu-id="f5d39-116">The display name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -192,23 +100,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dc846-117">Получает или задает внешний адрес электронной почты для почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-117">Gets or sets the external email address of the mailbox.</span>
-          </span>
-          <span data-ttu-id="dc846-118">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="dc846-119">Внешний адрес электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-119">The external email address.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f5d39-117">Получает или задает внешний адрес электронной почты почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="f5d39-117">Gets or sets the external email address of the mailbox.</span></span>
+<span data-ttu-id="f5d39-118"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="f5d39-119">Внешний адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="f5d39-119">The external email address.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -227,23 +121,8 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dc846-120">Получает или задает идентификатор почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-120">Gets or sets the mailbox identifier.</span>
-          </span>
-          <span data-ttu-id="dc846-121">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="dc846-122">Идентификатор GUID.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-122">The GUID.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f5d39-120">Получает или задает идентификатор почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="f5d39-120">Gets or sets the mailbox identifier.</span></span>             <span data-ttu-id="f5d39-121"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="f5d39-122">GUID.</span><span class="sxs-lookup"><span data-stu-id="f5d39-122">The GUID.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -262,25 +141,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dc846-123">Получает или задает значение, указывающее, является ли внешнего почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-123">Gets or sets a value that indicates whether this is an external mailbox.</span>
-          </span>
-          <span data-ttu-id="dc846-124">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="dc846-125">
-            <b>значение true,</b> Если внешнего почтового ящика; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-125">
-              <b>true</b> if an external mailbox; otherwise <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f5d39-123">Получает или задает значение, указывающее, является ли этот почтовый ящик внешним.</span><span class="sxs-lookup"><span data-stu-id="f5d39-123">Gets or sets a value that indicates whether this is an external mailbox.</span></span>
+<span data-ttu-id="f5d39-124"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="f5d39-125"><b>значение true</b> , если внешний почтовый ящик; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="f5d39-125"><b>true</b> if an external mailbox; otherwise <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -299,25 +162,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dc846-126">Получает или задает, является ли связанный SMTP-адрес почтового ящика или списку рассылки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-126">Gets or sets whether the associated SMTP address is a mailbox or distribution list.</span>
-          </span>
-          <span data-ttu-id="dc846-127">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="dc846-128">
-            <b>значение true,</b> Если связанные SMTP-адрес является списком рассылки; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-128">
-              <b>true</b> if the associated SMTP address is a distribution list; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f5d39-126">Получает или задает значение, указывающее, является ли связанный SMTP-адрес почтовым ящиком или списком рассылки.</span><span class="sxs-lookup"><span data-stu-id="f5d39-126">Gets or sets whether the associated SMTP address is a mailbox or distribution list.</span></span>             <span data-ttu-id="f5d39-127"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="f5d39-128"><b>true</b> , если связанный SMTP-адрес является списком рассылки; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="f5d39-128"><b>true</b> if the associated SMTP address is a distribution list; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -336,23 +182,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dc846-129">Получает или задает идентификатор ссылку почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-129">Gets or sets the mailbox reference identifier.</span>
-          </span>
-          <span data-ttu-id="dc846-130">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="dc846-131">Идентификатор ссылки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-131">The reference identifier.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f5d39-129">Получает или задает идентификатор ссылки для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="f5d39-129">Gets or sets the mailbox reference identifier.</span></span>             <span data-ttu-id="f5d39-130"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="f5d39-131">Идентификатор ссылки.</span><span class="sxs-lookup"><span data-stu-id="f5d39-131">The reference identifier.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -371,23 +202,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dc846-132">Получает или задает адрес Simple Mail Transfer Protocol (SMTP) почтового ящика для поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-132">Gets or sets the Simple Mail Transfer Protocol (SMTP) address of the mailbox to be searched.</span>
-          </span>
-          <span data-ttu-id="dc846-133">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-133">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="dc846-134">SMTP-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dc846-134">The SMTP address.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f5d39-132">Получает или задает SMTP-адрес почтового ящика, в котором выполняется поиск.</span><span class="sxs-lookup"><span data-stu-id="f5d39-132">Gets or sets the Simple Mail Transfer Protocol (SMTP) address of the mailbox to be searched.</span></span>             <span data-ttu-id="f5d39-133"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5d39-133">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="f5d39-134">SMTP-адрес.</span><span class="sxs-lookup"><span data-stu-id="f5d39-134">The SMTP address.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

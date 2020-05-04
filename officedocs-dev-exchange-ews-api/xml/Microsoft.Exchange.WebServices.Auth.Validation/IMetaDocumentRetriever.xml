@@ -1,13 +1,5 @@
 <Type Name="IMetaDocumentRetriever" FullName="Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b30bd8a4df5878f19ebfde9555b6783508c32892" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626943" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IMetaDocumentRetriever" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b30bd8a4df5878f19ebfde9555b6783508c32892" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626943" /></Metadata><TypeSignature Language="C#" Value="public interface IMetaDocumentRetriever" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMetaDocumentRetriever" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMetaDocumentRetriever" />
@@ -18,17 +10,7 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="6da41-101">Определяет интерфейс для извлечения документов метаданных проверки подлинности на сервере.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6da41-101">Defines the interface for retrieving authentication metadata documents from a server.</span>
-      </span>
-      <span data-ttu-id="6da41-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" /> Интерфейс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6da41-102">The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" /> interface is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2c1d3-101">Определяет интерфейс для получения документов метаданных проверки подлинности с сервера.</span><span class="sxs-lookup"><span data-stu-id="2c1d3-101">Defines the interface for retrieving authentication metadata documents from a server.</span></span> <span data-ttu-id="2c1d3-102"><see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" /> Интерфейс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2c1d3-102">The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" /> interface is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,37 +34,10 @@
         <Parameter Name="publicKeyDocument" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="url">
-          <span data-ttu-id="6da41-103">URL-адрес, где находится документ метаданных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6da41-103">The URL of the location where the metadata document is located.</span>
-          </span>
-        </param>
-        <param name="bypassCache">
-          <span data-ttu-id="6da41-104">
-            <b>значение true,</b> Чтобы обойти кэшированная версия документа метаданных; <b>значение false,</b> Чтобы использовать кэшированный документ, если он доступен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6da41-104">
-              <b>true</b> to bypass a cached version of the metadata document; <b>false</b> to use a cached document, if available.</span>
-          </span>
-        </param>
-        <param name="publicKeyDocument">
-          <span data-ttu-id="6da41-105">Открытого ключа документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6da41-105">The public key document.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6da41-106">Получает документ метаданных проверки подлинности из указанного расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6da41-106">Gets an authentication metadata document from the specified location.</span>
-          </span>
-          <span data-ttu-id="6da41-107">
-            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever.GetData(System.Uri,System.Boolean,System.String@)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6da41-107">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever.GetData(System.Uri,System.Boolean,System.String@)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="url"><span data-ttu-id="2c1d3-103">URL-адрес расположения, в котором находится документ метаданных.</span><span class="sxs-lookup"><span data-stu-id="2c1d3-103">The URL of the location where the metadata document is located.</span></span></param>
+        <param name="bypassCache"><span data-ttu-id="2c1d3-104"><b>значение true</b> , чтобы обходить кэшированную версию документа метаданных; <b>значение false</b> используется для использования кэшированного документа (если он доступен).</span><span class="sxs-lookup"><span data-stu-id="2c1d3-104"><b>true</b> to bypass a cached version of the metadata document; <b>false</b> to use a cached document, if available.</span></span></param>
+        <param name="publicKeyDocument"><span data-ttu-id="2c1d3-105">Документ открытого ключа.</span><span class="sxs-lookup"><span data-stu-id="2c1d3-105">The public key document.</span></span></param>
+        <summary><span data-ttu-id="2c1d3-106">Получает документ метаданных проверки подлинности в указанном расположении.</span><span class="sxs-lookup"><span data-stu-id="2c1d3-106">Gets an authentication metadata document from the specified location.</span></span> <span data-ttu-id="2c1d3-107">Этот <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever.GetData(System.Uri,System.Boolean,System.String@)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2c1d3-107">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever.GetData(System.Uri,System.Boolean,System.String@)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

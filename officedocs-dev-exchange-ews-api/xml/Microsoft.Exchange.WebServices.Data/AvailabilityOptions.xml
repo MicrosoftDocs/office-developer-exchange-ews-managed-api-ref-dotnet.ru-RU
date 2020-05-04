@@ -1,13 +1,5 @@
 <Type Name="AvailabilityOptions" FullName="Microsoft.Exchange.WebServices.Data.AvailabilityOptions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="df9a6d8c671ff4f4d48feb796e79338abeba86a8" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627310" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AvailabilityOptions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="df9a6d8c671ff4f4d48feb796e79338abeba86a8" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627310" /></Metadata><TypeSignature Language="C#" Value="public sealed class AvailabilityOptions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AvailabilityOptions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AvailabilityOptions" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="b980c-101">Представляет параметры для запроса доступности.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b980c-101">Represents the options for an availability request.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="606cf-101">Представляет параметры запроса доступности.</span><span class="sxs-lookup"><span data-stu-id="606cf-101">Represents the options for an availability request.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-102">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" /> class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="606cf-102">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" /> класса.</span><span class="sxs-lookup"><span data-stu-id="606cf-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" /> class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,18 +49,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-103">Получает или задает время начала собрания для обновления с временем предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-103">Gets or sets the start time of a meeting to update with suggested meeting times.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-104">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162789">T:System.Nullable'1</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-104">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162789">T:System.Nullable\`1</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-103">Получает или задает время начала собрания, которое необходимо обновить с учетом предложенного времени проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="606cf-103">Gets or sets the start time of a meeting to update with suggested meeting times.</span></span></summary>
+        <value><span data-ttu-id="606cf-104">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162789">т:систем.нуллабле ' 1</a></span><span class="sxs-lookup"><span data-stu-id="606cf-104">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162789">T:System.Nullable\`1</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,18 +69,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TimeWindow</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-105">Свойство получает или задает период времени, для которого возвращается подробные сведения о времени предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-105">Property gets or sets the time period for which detailed information about suggested meeting times should be returned.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-106">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> объект класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-106">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> class object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-105">Свойство получает или задает период времени, для которого возвращаются подробные сведения о предложенном времени проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="606cf-105">Property gets or sets the time period for which detailed information about suggested meeting times should be returned.</span></span></summary>
+        <value><span data-ttu-id="606cf-106">Значением <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" /> свойства является объект <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> Class.</span><span class="sxs-lookup"><span data-stu-id="606cf-106">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> class object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,18 +89,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-107">Получает или задает глобальный идентификатор собрание, которую нужно изменить, возвращаемые данные.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-107">Gets or sets the global identifier of a meeting to be modified by the returned data.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-108">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-108">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-107">Получает или задает глобальный идентификатор собрания, который необходимо изменить с помощью возвращенных данных.</span><span class="sxs-lookup"><span data-stu-id="606cf-107">Gets or sets the global identifier of a meeting to be modified by the returned data.</span></span></summary>
+        <value><span data-ttu-id="606cf-108"><see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" /> Свойство имеет значение <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></span><span class="sxs-lookup"><span data-stu-id="606cf-108">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,18 +109,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-109">Получает или задает процент участников, которые необходимо открыть для периода времени, в рамках программы как хороший предложенного собрания период времени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-109">Gets or sets the percentage of attendees that must have the time period open for the time period to qualify as a good suggested meeting time.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-110">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-110">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-109">Получает или задает процент участников, которые должны иметь период времени, который должен быть указан в качестве приемлемого времени проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="606cf-109">Gets or sets the percentage of attendees that must have the time period open for the time period to qualify as a good suggested meeting time.</span></span></summary>
+        <value><span data-ttu-id="606cf-110">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span><span class="sxs-lookup"><span data-stu-id="606cf-110">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -187,18 +129,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-111">Получает или задает количество времени, которые должны предложенных за пределами обычных рабочих часов в день.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-111">Gets or sets the number of meeting times that should be suggested outside of regular working hours per day.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-112">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-112">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-111">Получает или задает количество времени собрания, которое должно быть предложено за преработкой нестандартных рабочих часов в день.</span><span class="sxs-lookup"><span data-stu-id="606cf-111">Gets or sets the number of meeting times that should be suggested outside of regular working hours per day.</span></span></summary>
+        <value><span data-ttu-id="606cf-112">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span><span class="sxs-lookup"><span data-stu-id="606cf-112">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -217,18 +149,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-113">Получает или задает максимальное количество попыток собрания, которые должны быть предложенных в день.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-113">Gets or sets the maximum number of meeting times that should be suggested per day.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-114">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-114">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-113">Получает или задает максимальное количество времени собрания, которое должно быть предложено в день.</span><span class="sxs-lookup"><span data-stu-id="606cf-113">Gets or sets the maximum number of meeting times that should be suggested per day.</span></span></summary>
+        <value><span data-ttu-id="606cf-114">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span><span class="sxs-lookup"><span data-stu-id="606cf-114">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -247,18 +169,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-115">Получает или задает длительность, в минутах, собрания, для которого необходимо получить предложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-115">Gets or sets the duration, in minutes, of the meeting for which to obtain suggestions.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-116">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-116">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-115">Получает или задает продолжительность собрания в минутах, для которого требуется получить предложения.</span><span class="sxs-lookup"><span data-stu-id="606cf-115">Gets or sets the duration, in minutes, of the meeting for which to obtain suggestions.</span></span></summary>
+        <value><span data-ttu-id="606cf-116">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span><span class="sxs-lookup"><span data-stu-id="606cf-116">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -277,18 +189,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-117">Получает или задает разницу между двумя последовательными совещаний объединенное представление сведений о доступности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-117">Gets or sets the time difference between two successive meeting times in a merged free/busy view.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-118">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-118">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-117">Получает или задает разное время между двумя последовательными временами собраний в объединенном представлении сведений о доступности.</span><span class="sxs-lookup"><span data-stu-id="606cf-117">Gets or sets the time difference between two successive meeting times in a merged free/busy view.</span></span></summary>
+        <value><span data-ttu-id="606cf-118">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span><span class="sxs-lookup"><span data-stu-id="606cf-118">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -307,22 +209,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-119">Получает или задает минимальное качество предложений для возврата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-119">Gets or sets the minimum quality of suggestions to return.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-120">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> значение перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-120">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" /> property is a  <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> enumeration value.</span>
-          </span>
-          <span data-ttu-id="b980c-121">Значение по умолчанию — <see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-121">The default value is <see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-119">Получает или задает минимальное качество возвращаемых предложений.</span><span class="sxs-lookup"><span data-stu-id="606cf-119">Gets or sets the minimum quality of suggestions to return.</span></span></summary>
+        <value><span data-ttu-id="606cf-120">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" /> свойства является значением <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="606cf-120">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" /> property is a  <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> enumeration value.</span></span> <span data-ttu-id="606cf-121">Значение по умолчанию — <see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />.</span><span class="sxs-lookup"><span data-stu-id="606cf-121">The default value is <see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -341,22 +229,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b980c-122">Получает или задает запрашиваемый тип представления сведений о доступности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-122">Gets or sets the requested type of free/busy view.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b980c-123">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> значение перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-123">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" /> property is a  <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> enumeration value.</span>
-          </span>
-          <span data-ttu-id="b980c-124">Значение по умолчанию — <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b980c-124">The default value is <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="606cf-122">Получает или задает запрошенный тип представления сведений о доступности.</span><span class="sxs-lookup"><span data-stu-id="606cf-122">Gets or sets the requested type of free/busy view.</span></span></summary>
+        <value><span data-ttu-id="606cf-123">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" /> свойства является значением <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="606cf-123">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" /> property is a  <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> enumeration value.</span></span> <span data-ttu-id="606cf-124">Значение по умолчанию — <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />.</span><span class="sxs-lookup"><span data-stu-id="606cf-124">The default value is <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

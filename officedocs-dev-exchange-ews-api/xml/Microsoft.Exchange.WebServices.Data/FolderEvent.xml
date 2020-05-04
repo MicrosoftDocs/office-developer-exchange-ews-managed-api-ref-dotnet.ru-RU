@@ -1,13 +1,5 @@
 <Type Name="FolderEvent" FullName="Microsoft.Exchange.WebServices.Data.FolderEvent">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d4bea49952eae4173cc461686ae1f0aaf1b4cf75" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626536" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class FolderEvent : Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d4bea49952eae4173cc461686ae1f0aaf1b4cf75" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626536" /></Metadata><TypeSignature Language="C#" Value="public class FolderEvent : Microsoft.Exchange.WebServices.Data.NotificationEvent" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FolderEvent extends Microsoft.Exchange.WebServices.Data.NotificationEvent" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderEvent" />
   <TypeSignature Language="VB.NET" Value="Public Class FolderEvent&#xA;Inherits NotificationEvent" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="7273b-101">Представляет событие, которое применяется к папке.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7273b-101">Represents an event that applies to a folder.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="07bd0-101">Представляет событие, которое применяется к папке.</span><span class="sxs-lookup"><span data-stu-id="07bd0-101">Represents an event that applies to a folder.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,18 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7273b-102">Получает идентификатор к папке, которая применяется это событие.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-102">Gets the Id of the folder this event applies to.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7273b-103">FolderId object, содержащий идентификатор задействованных базах папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-103">A FolderId object containing the identifier of the effected folder.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="07bd0-102">Получает идентификатор папки, к которой применяется это событие.</span><span class="sxs-lookup"><span data-stu-id="07bd0-102">Gets the Id of the folder this event applies to.</span></span></summary>
+        <value><span data-ttu-id="07bd0-103">Объект FolderId, содержащий идентификатор измененной папки.</span><span class="sxs-lookup"><span data-stu-id="07bd0-103">A FolderId object containing the identifier of the effected folder.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -75,30 +52,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7273b-104">Получает идентификатор папки, который был перемещен или скопирован.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-104">Gets the Id of the folder that was moved or copied.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7273b-105">Объект FolderId, который содержит идентификатор папки, который был перемещен или скопирован.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-105">A FolderId object that contains the identifier of the folder that was moved or copied.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="7273b-106">
-            <para>OldFolderId имеет смысл, только если EventType равно EventType.Moved или EventType.Copied. Для всех остальных типов событий OldFolderId имеет значение null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-106">
-              <para>OldFolderId is only meaningful when EventType is equal to either EventType.Moved or EventType.Copied. For all other event types, OldFolderId is null.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="07bd0-104">Получает идентификатор папки, которая была перемещена или скопирована.</span><span class="sxs-lookup"><span data-stu-id="07bd0-104">Gets the Id of the folder that was moved or copied.</span></span></summary>
+        <value><span data-ttu-id="07bd0-105">Объект FolderId, содержащий идентификатор папки, которая была перемещена или скопирована.</span><span class="sxs-lookup"><span data-stu-id="07bd0-105">A FolderId object that contains the identifier of the folder that was moved or copied.</span></span></value>
+        <remarks><span data-ttu-id="07bd0-106"><para>Олдфолдерид имеет смысл только в том случае, если EventType равен значению EventType. Move или EventType. скопировано. Для всех остальных типов событий Олдфолдерид имеет значение null.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="07bd0-106"><para>OldFolderId is only meaningful when EventType is equal to either EventType.Moved or EventType.Copied. For all other event types, OldFolderId is null.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnreadCount">
@@ -116,34 +74,11 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7273b-107">Получает новый количество непрочитанных сообщений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-107">Gets the new number of unread messages.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7273b-108">Количество непрочитанных элементов в папке как целое число.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-108">The number of unread items in the folder as an integer.</span>
-          </span>
-          <span data-ttu-id="7273b-109">Свойство может иметь значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-109">The property can be null.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="7273b-110">
-            <para>Это имеет смысл только при EventType равен EventType.Modified. Для всех остальных типов событий UnreadCount имеет значение null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7273b-110">
-              <para>This is only meaningful when EventType is equal to EventType.Modified. For all other event types, UnreadCount is null.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="07bd0-107">Получает новое число непрочитанных сообщений.</span><span class="sxs-lookup"><span data-stu-id="07bd0-107">Gets the new number of unread messages.</span></span></summary>
+        <value><span data-ttu-id="07bd0-108">Количество непрочтенных элементов в папке в виде целого числа.</span><span class="sxs-lookup"><span data-stu-id="07bd0-108">The number of unread items in the folder as an integer.</span></span> <span data-ttu-id="07bd0-109">Свойство может иметь значение null.</span><span class="sxs-lookup"><span data-stu-id="07bd0-109">The property can be null.</span></span></value>
+        <remarks><span data-ttu-id="07bd0-110"><para>Это имеет смысл, только если EventType равен EventType. Modified. Для всех остальных типов событий Унреадкаунт имеет значение null.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="07bd0-110"><para>This is only meaningful when EventType is equal to EventType.Modified. For all other event types, UnreadCount is null.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

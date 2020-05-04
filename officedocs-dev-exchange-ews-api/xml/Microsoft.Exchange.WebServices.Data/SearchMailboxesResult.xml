@@ -1,13 +1,5 @@
 <Type Name="SearchMailboxesResult" FullName="Microsoft.Exchange.WebServices.Data.SearchMailboxesResult">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5e0f7c185ddcd14f166ffcbfdcc1374145c058d9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626975" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchMailboxesResult" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5e0f7c185ddcd14f166ffcbfdcc1374145c058d9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626975" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchMailboxesResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchMailboxesResult extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchMailboxesResult" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="523bd-101">Содержит результаты поиска и статистики в ответ на запрос поиска обнаружения электронных данных.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="523bd-101">Contains search results and statistics in response to an eDiscovery search query.</span>
-      </span>
-      <span data-ttu-id="523bd-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="523bd-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="afa52-101">Содержит результаты поиска и статистику в ответ на поисковый запрос обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="afa52-101">Contains search results and statistics in response to an eDiscovery search query.</span></span>             <span data-ttu-id="afa52-102"><see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,17 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-103">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> class.</span>
-          </span>
-          <span data-ttu-id="523bd-104">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="afa52-103">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> класса.</span><span class="sxs-lookup"><span data-stu-id="afa52-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> class.</span></span> <span data-ttu-id="afa52-104"><see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,23 +49,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-105">Получает или задает коллекцию почтовые ящики которых не удалось выполнить запрос поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-105">Gets or sets the collection of mailboxes where the search query failed.</span>
-          </span>
-          <span data-ttu-id="523bd-106">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.FailedMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.FailedMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-107">Почтовые ящики, где не удалось выполнить запрос поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-107">The mailboxes where the search query failed.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-105">Получает или задает коллекцию почтовых ящиков, для которых не удалось выполнить поисковый запрос.</span><span class="sxs-lookup"><span data-stu-id="afa52-105">Gets or sets the collection of mailboxes where the search query failed.</span></span>             <span data-ttu-id="afa52-106"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.FailedMailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.FailedMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-107">Почтовые ящики, для которых не удалось выполнить запрос поиска.</span><span class="sxs-lookup"><span data-stu-id="afa52-107">The mailboxes where the search query failed.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -112,23 +69,8 @@
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-108">Получает или задает общее число элементов в результатах поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-108">Gets or sets the total number of items in a search result.</span>
-          </span>
-          <span data-ttu-id="523bd-109">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ItemCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ItemCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-110">Число элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-110">The item count.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-108">Получает или задает общее количество элементов в результатах поиска.</span><span class="sxs-lookup"><span data-stu-id="afa52-108">Gets or sets the total number of items in a search result.</span></span>             <span data-ttu-id="afa52-109"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ItemCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ItemCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-110">Количество элементов.</span><span class="sxs-lookup"><span data-stu-id="afa52-110">The item count.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -147,23 +89,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-111">Получает или задает статистику по ключевым словам в результатах поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-111">Gets or sets the keyword statistics in the search result.</span>
-          </span>
-          <span data-ttu-id="523bd-112">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.KeywordStats" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.KeywordStats" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-113">Результат поиска статистику по ключевым словам.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-113">The keyword statistics search result.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-111">Возвращает или задает статистику ключевых слов в результатах поиска.</span><span class="sxs-lookup"><span data-stu-id="afa52-111">Gets or sets the keyword statistics in the search result.</span></span>             <span data-ttu-id="afa52-112"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.KeywordStats" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.KeywordStats" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-113">Результат поиска статистики по ключевым словам.</span><span class="sxs-lookup"><span data-stu-id="afa52-113">The keyword statistics search result.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,23 +109,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-114">Получает или задает коллекцию <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> объекты, связанные с результатами поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-114">Gets or sets the collection of <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> objects associated with the search result.</span>
-          </span>
-          <span data-ttu-id="523bd-115">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.MailboxStats" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.MailboxStats" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-116">Статистика почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-116">The mailbox statistics.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-114">Получает или задает коллекцию <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> объектов, связанных с результатом поиска.</span><span class="sxs-lookup"><span data-stu-id="afa52-114">Gets or sets the collection of <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> objects associated with the search result.</span></span>             <span data-ttu-id="afa52-115"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.MailboxStats" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.MailboxStats" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-116">Статистика почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="afa52-116">The mailbox statistics.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -217,23 +129,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-117">Получает или задает число страниц, возвращаемых в разбиение на страницы результатов поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-117">Gets or sets the number of pages returned in a search result pagination.</span>
-          </span>
-          <span data-ttu-id="523bd-118">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-119">Число элементов страницы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-119">The page item count.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-117">Получает или задает количество страниц, возвращаемых при разбивке результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="afa52-117">Gets or sets the number of pages returned in a search result pagination.</span></span>             <span data-ttu-id="afa52-118"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-119">Число элементов страницы.</span><span class="sxs-lookup"><span data-stu-id="afa52-119">The page item count.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -257,23 +154,8 @@
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-120">Получает или задает число элементов, возвращаемых в разбиение на страницы результатов поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-120">Gets or sets the number of items to return in a search result pagination.</span>
-          </span>
-          <span data-ttu-id="523bd-121">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemSize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemSize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-122">Общий элемент размер страницы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-122">The total page item size.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-120">Получает или задает количество элементов, возвращаемых при разбивке результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="afa52-120">Gets or sets the number of items to return in a search result pagination.</span></span>             <span data-ttu-id="afa52-121"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemSize" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemSize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-122">Общий размер элемента страницы.</span><span class="sxs-lookup"><span data-stu-id="afa52-122">The total page item size.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -292,23 +174,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPreviewItem[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-123">Получает или задает коллекцию элементов, доступных для предварительного просмотра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-123">Gets or sets the collection of items available for preview.</span>
-          </span>
-          <span data-ttu-id="523bd-124">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PreviewItems" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PreviewItems" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-125">Просмотр элементов поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-125">The search preview items.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-123">Получает или задает коллекцию элементов, доступных для предварительного просмотра.</span><span class="sxs-lookup"><span data-stu-id="afa52-123">Gets or sets the collection of items available for preview.</span></span>             <span data-ttu-id="afa52-124"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PreviewItems" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PreviewItems" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-125">Элементы предварительного просмотра поиска.</span><span class="sxs-lookup"><span data-stu-id="afa52-125">The search preview items.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -327,23 +194,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchRefinerItem[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-126">Получает или задает набор уточнения запросов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-126">Gets or sets the set of query refiners.</span>
-          </span>
-          <span data-ttu-id="523bd-127">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Refiners" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Refiners" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-128">Уточнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-128">The refiners.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-126">Получает или задает набор уточнений запроса.</span><span class="sxs-lookup"><span data-stu-id="afa52-126">Gets or sets the set of query refiners.</span></span>             <span data-ttu-id="afa52-127"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Refiners" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Refiners" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-128">Уточнения.</span><span class="sxs-lookup"><span data-stu-id="afa52-128">The refiners.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -362,23 +214,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchResultType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-129">Получает или задает значение, определяющее, была ли поиск статистические или поиска предварительного просмотра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-129">Gets or sets the value that determines whether the search was a statistical or preview search.</span>
-          </span>
-          <span data-ttu-id="523bd-130">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ResultType" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ResultType" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-131">Тип результата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-131">The result type.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-129">Получает или задает значение, определяющее, был ли поиск статистическим или предварительным поиском.</span><span class="sxs-lookup"><span data-stu-id="afa52-129">Gets or sets the value that determines whether the search was a statistical or preview search.</span></span>             <span data-ttu-id="afa52-130"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ResultType" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ResultType" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-131">Тип результата.</span><span class="sxs-lookup"><span data-stu-id="afa52-131">The result type.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -397,23 +234,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxQuery[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-132">Получает или задает поисковых запросов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-132">Gets or sets the search queries.</span>
-          </span>
-          <span data-ttu-id="523bd-133">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.SearchQueries" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-133">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.SearchQueries" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-134">Запросы поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-134">The search queries.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-132">Получает или задает поисковые запросы.</span><span class="sxs-lookup"><span data-stu-id="afa52-132">Gets or sets the search queries.</span></span>             <span data-ttu-id="afa52-133"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.SearchQueries" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-133">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.SearchQueries" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-134">Поисковые запросы.</span><span class="sxs-lookup"><span data-stu-id="afa52-134">The search queries.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -437,23 +259,8 @@
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="523bd-135">Получает или задает размер, в байтах, элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-135">Gets or sets the size, in bytes, of an item.</span>
-          </span>
-          <span data-ttu-id="523bd-136">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Size" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-136">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Size" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="523bd-137">Общий размер.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="523bd-137">The total size.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="afa52-135">Получает или задает размер элемента (в байтах).</span><span class="sxs-lookup"><span data-stu-id="afa52-135">Gets or sets the size, in bytes, of an item.</span></span>             <span data-ttu-id="afa52-136"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Size" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afa52-136">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Size" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="afa52-137">Общий размер.</span><span class="sxs-lookup"><span data-stu-id="afa52-137">The total size.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

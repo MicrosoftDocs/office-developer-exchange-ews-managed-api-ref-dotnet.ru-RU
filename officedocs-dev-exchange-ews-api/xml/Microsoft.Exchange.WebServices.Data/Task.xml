@@ -1,13 +1,5 @@
 <Type Name="Task" FullName="Microsoft.Exchange.WebServices.Data.Task">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="34e75740d4da8773702891d7b056b9fd673a8d76" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627018" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Task : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="34e75740d4da8773702891d7b056b9fd673a8d76" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627018" /></Metadata><TypeSignature Language="C#" Value="public class Task : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Task extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Task" />
   <TypeSignature Language="VB.NET" Value="Public Class Task&#xA;Inherits Item" />
@@ -21,16 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="1c9ae-101">Представляет элемент задачи.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1c9ae-101">Represents a Task item.</span>
-      </span>
-      <span data-ttu-id="1c9ae-102">Свойства, доступные на задачи определяются в классе TaskSchema.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1c9ae-102">Properties available on tasks are defined in the TaskSchema class.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="36443-101">Представляет элемент задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-101">Represents a Task item.</span></span> <span data-ttu-id="36443-102">Свойства, доступные в задачах, определяются в классе Тасксчема.</span><span class="sxs-lookup"><span data-stu-id="36443-102">Properties available on tasks are defined in the TaskSchema class.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,22 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="1c9ae-103">Экземпляр ExchangeService, к которому привязывается этой задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-103">The ExchangeService instance to which this task is bound.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="1c9ae-104">Инициализирует несохраненные локальный экземпляр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-104">Initializes an unsaved local instance of .</span>
-          </span>
-          <span data-ttu-id="1c9ae-105">Чтобы выполнить привязку к существующей задачи, используйте Task.Bind().</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-105">To bind to an existing task, use Task.Bind() instead.</span>
-          </span>
-        </summary>
+        <param name="service"><span data-ttu-id="36443-103">Экземпляр ExchangeService, к которому привязана эта задача.</span><span class="sxs-lookup"><span data-stu-id="36443-103">The ExchangeService instance to which this task is bound.</span></span></param>
+        <summary><span data-ttu-id="36443-104">Инициализирует несохраненный локальный экземпляр.</span><span class="sxs-lookup"><span data-stu-id="36443-104">Initializes an unsaved local instance of .</span></span> <span data-ttu-id="36443-105">Чтобы выполнить присоединение к существующей задаче, используйте вместо нее Task. bind ().</span><span class="sxs-lookup"><span data-stu-id="36443-105">To bind to an existing task, use Task.Bind() instead.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,18 +52,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-106">Получает или задает фактическое время, затрачиваемое на задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-106">Gets or sets the actual amount of time that is spent on the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-107">Целочисленное значение; или значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-107">An integer value; or null.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-106">Получает или задает фактическое количество времени, затраченное на выполнение задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-106">Gets or sets the actual amount of time that is spent on the task.</span></span></summary>
+        <value><span data-ttu-id="36443-107">Целое значение; или null.</span><span class="sxs-lookup"><span data-stu-id="36443-107">An integer value; or null.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,18 +72,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-108">Получает дату и время, назначенных задаче.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-108">Gets the date and time the task was assigned.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-109">Значение даты и времени; или значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-109">A DateTime value; or null.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-108">Получает дату и время назначения задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-108">Gets the date and time the task was assigned.</span></span></summary>
+        <value><span data-ttu-id="36443-109">Значение даты и времени; или null.</span><span class="sxs-lookup"><span data-stu-id="36443-109">A DateTime value; or null.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,18 +92,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-110">Получает или задает сведения об оплате задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-110">Gets or sets the billing information of the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-111">Строковое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-111">A string value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-110">Получает или задает сведения о выставлении счетов для задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-110">Gets or sets the billing information of the task.</span></span></summary>
+        <value><span data-ttu-id="36443-111">Строковое значение.</span><span class="sxs-lookup"><span data-stu-id="36443-111">A string value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -177,34 +116,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="1c9ae-112">Служба должна использовать для привязки к задаче.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-112">The service to use to bind to the task.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="1c9ae-113">Идентификатор задачи для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-113">The Id of the task to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="1c9ae-114">Выполняет привязку к существующей задачи и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-114">Binds to an existing task and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="1c9ae-115">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-115">Calling this method results in a call to EWS.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="1c9ae-116">Экземпляр задачи, представляющее задач, в соответствии с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-116">A Task instance representing the task corresponding to the specified Id.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="36443-112">Служба, используемая для выполнения связывания с задачей.</span><span class="sxs-lookup"><span data-stu-id="36443-112">The service to use to bind to the task.</span></span></param>
+        <param name="id"><span data-ttu-id="36443-113">Идентификатор задачи, к которой необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="36443-113">The Id of the task to bind to.</span></span></param>
+        <summary><span data-ttu-id="36443-114">Выполняет присоединение к существующей задаче и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="36443-114">Binds to an existing task and loads its first class properties.</span></span>            <span data-ttu-id="36443-115">Вызов этого метода приводит к вызову EWS.</span><span class="sxs-lookup"><span data-stu-id="36443-115">Calling this method results in a call to EWS.</span></span></summary>
+        <returns><span data-ttu-id="36443-116">Экземпляр задачи, представляющий задачу, соответствующую указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="36443-116">A Task instance representing the task corresponding to the specified Id.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -227,40 +142,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="1c9ae-117">Служба должна использовать для привязки к задаче.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-117">The service to use to bind to the task.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="1c9ae-118">Идентификатор задачи для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-118">The Id of the task to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="1c9ae-119">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-119">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="1c9ae-120">Выполняет привязку к существующей задачи и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-120">Binds to an existing task and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="1c9ae-121">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-121">Calling this method results in a call to EWS.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="1c9ae-122">Экземпляр задачи, представляющее задач, в соответствии с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-122">A Task instance representing the task corresponding to the specified Id.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="36443-117">Служба, используемая для выполнения связывания с задачей.</span><span class="sxs-lookup"><span data-stu-id="36443-117">The service to use to bind to the task.</span></span></param>
+        <param name="id"><span data-ttu-id="36443-118">Идентификатор задачи, к которой необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="36443-118">The Id of the task to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="36443-119">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="36443-119">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="36443-120">Выполняет присоединение к существующей задаче и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="36443-120">Binds to an existing task and loads the specified set of properties.</span></span>            <span data-ttu-id="36443-121">Вызов этого метода приводит к вызову EWS.</span><span class="sxs-lookup"><span data-stu-id="36443-121">Calling this method results in a call to EWS.</span></span></summary>
+        <returns><span data-ttu-id="36443-122">Экземпляр задачи, представляющий задачу, соответствующую указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="36443-122">A Task instance representing the task corresponding to the specified Id.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -279,18 +165,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-123">Получает количество отправок задачи был изменен с момента его создания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-123">Gets the number of times the task has changed since it was created.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-124">Целое значение, содержащее число попыток задачи, была изменена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-124">An integer value containing the number of times the task has changed.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-123">Получает количество изменений, произошедших с момента создания задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-123">Gets the number of times the task has changed since it was created.</span></span></summary>
+        <value><span data-ttu-id="36443-124">Целое значение, содержащее количество изменений в задаче.</span><span class="sxs-lookup"><span data-stu-id="36443-124">An integer value containing the number of times the task has changed.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -309,18 +185,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-125">Получает или задает список компаний, связанные с задачей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-125">Gets or sets a list of companies associated with the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-126">Объект основная система.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-126">A StringList object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-125">Получает или задает список компаний, связанных с задачей.</span><span class="sxs-lookup"><span data-stu-id="36443-125">Gets or sets a list of companies associated with the task.</span></span></summary>
+        <value><span data-ttu-id="36443-126">Объект Стринглист.</span><span class="sxs-lookup"><span data-stu-id="36443-126">A StringList object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -339,18 +205,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-127">Получает или задает дату и время завершения задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-127">Gets or sets the date and time on which the task was completed.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-128">Значение даты и времени; или значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-128">A DateTime value; or null.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-127">Получает или задает дату и время завершения задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-127">Gets or sets the date and time on which the task was completed.</span></span></summary>
+        <value><span data-ttu-id="36443-128">Значение даты и времени; или null.</span><span class="sxs-lookup"><span data-stu-id="36443-128">A DateTime value; or null.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -369,18 +225,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-129">Получает или задает список контактов, связанных с задачей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-129">Gets or sets a list of contacts associated with the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-130">Объект основная система.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-130">A StringList object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-129">Получает или задает список контактов, связанных с задачей.</span><span class="sxs-lookup"><span data-stu-id="36443-129">Gets or sets a list of contacts associated with the task.</span></span></summary>
+        <value><span data-ttu-id="36443-130">Объект Стринглист.</span><span class="sxs-lookup"><span data-stu-id="36443-130">A StringList object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -399,18 +245,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TaskDelegationState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-131">Возвращает текущее состояние делегирование задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-131">Gets the current delegation state of the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-132">Одно из значений перечисления TaskDelegationState.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-132">One of the TaskDelegationState enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-131">Получает текущее состояние делегирования задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-131">Gets the current delegation state of the task.</span></span></summary>
+        <value><span data-ttu-id="36443-132">Одно из значений перечисления Таскделегатионстате.</span><span class="sxs-lookup"><span data-stu-id="36443-132">One of the TaskDelegationState enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -429,18 +265,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-133">Возвращает имя сотрудника этой задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-133">Gets the name of the delegator of this task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-134">Значение типа string, содержащая имя сотрудника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-134">A string value containing the name of the delegator.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-133">Получает имя представителя этой задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-133">Gets the name of the delegator of this task.</span></span></summary>
+        <value><span data-ttu-id="36443-134">Строковое значение, содержащее имя представителя.</span><span class="sxs-lookup"><span data-stu-id="36443-134">A string value containing the name of the delegator.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -461,30 +287,8 @@
         <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
       </Parameters>
       <Docs>
-        <param name="deleteMode">
-          <span data-ttu-id="1c9ae-135">Режим удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-135">The deletion mode.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="1c9ae-136">Удаляет текущий экземпляр повторяющейся задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-136">Deletes the current occurrence of a recurring task.</span>
-          </span>
-          <span data-ttu-id="1c9ae-137">После текущей isdeleted вхождение задача представляет следующее вхождение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-137">After the current occurrence isdeleted,            the task represents the next occurrence.</span>
-          </span>
-          <span data-ttu-id="1c9ae-138">Разработчики должны вызывать нагрузку так, чтобы получить новые значения свойств задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-138">Developers should call Load to retrieve the new property            values of the task.</span>
-          </span>
-          <span data-ttu-id="1c9ae-139">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-139">Calling this method results in a call to EWS.</span>
-          </span>
-        </summary>
+        <param name="deleteMode"><span data-ttu-id="36443-135">Режим удаления.</span><span class="sxs-lookup"><span data-stu-id="36443-135">The deletion mode.</span></span></param>
+        <summary><span data-ttu-id="36443-136">Удаляет текущее вхождение повторяющейся задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-136">Deletes the current occurrence of a recurring task.</span></span> <span data-ttu-id="36443-137">После удаления текущего вхождения задача представляет следующий экземпляр.</span><span class="sxs-lookup"><span data-stu-id="36443-137">After the current occurrence isdeleted,            the task represents the next occurrence.</span></span> <span data-ttu-id="36443-138">Разработчики должны вызвать загрузку, чтобы получить новые значения свойств задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-138">Developers should call Load to retrieve the new property            values of the task.</span></span> <span data-ttu-id="36443-139">Вызов этого метода приводит к вызову EWS.</span><span class="sxs-lookup"><span data-stu-id="36443-139">Calling this method results in a call to EWS.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -503,18 +307,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-140">Получает или задает дату и время, на котором срок выполнения задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-140">Gets or sets the date and time on which the task is due.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-141">Значение даты и времени; или значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-141">A DateTime value; or null.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-140">Получает или задает дату и время выполнения задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-140">Gets or sets the date and time on which the task is due.</span></span></summary>
+        <value><span data-ttu-id="36443-141">Значение даты и времени; или null.</span><span class="sxs-lookup"><span data-stu-id="36443-141">A DateTime value; or null.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -533,18 +327,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-142">Получает значение, указывающее, является ли задача завершена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-142">Gets a value indicating whether the task is complete.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-143">Значение true, если задача завершена; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-143">True if the task is complete; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-142">Получает значение, указывающее, завершена ли задача.</span><span class="sxs-lookup"><span data-stu-id="36443-142">Gets a value indicating whether the task is complete.</span></span></summary>
+        <value><span data-ttu-id="36443-143">Значение true, если задача завершена; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="36443-143">True if the task is complete; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -563,18 +347,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-144">Получает значение, указывающее, является ли Повторяющаяся задача.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-144">Gets a value indicating whether the task is recurring.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-145">Значение true, если для повторяющейся задачи; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-145">True if the task is recurring; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-144">Получает значение, указывающее, является ли задача повторяющейся.</span><span class="sxs-lookup"><span data-stu-id="36443-144">Gets a value indicating whether the task is recurring.</span></span></summary>
+        <value><span data-ttu-id="36443-145">Значение true, если задача повторяется; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="36443-145">True if the task is recurring; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -593,18 +367,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-146">Получает значение, указывающее, является ли задача задачей группы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-146">Gets a value indicating whether the task is a team task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-147">Значение true, если задача является задачей группы; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-147">True if the task is a team task; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-146">Получает значение, указывающее, является ли задача задачей группы.</span><span class="sxs-lookup"><span data-stu-id="36443-146">Gets a value indicating whether the task is a team task.</span></span></summary>
+        <value><span data-ttu-id="36443-147">Значение true, если задача является задачей группы; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="36443-147">True if the task is a team task; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -623,18 +387,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-148">Получает или задает расстояние задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-148">Gets or sets the mileage of the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-149">Строковое значение, содержащее расстояние задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-149">A string value containing the mileage of the task.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-148">Получает или задает расстояние от задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-148">Gets or sets the mileage of the task.</span></span></summary>
+        <value><span data-ttu-id="36443-149">Строковое значение, содержащее расстояние задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-149">A string value containing the mileage of the task.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -653,18 +407,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-150">Получает значение, указывающее режим задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-150">Gets a value indicating the mode of the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-151">Одно из значений перечисления TaskMode.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-151">One of the TaskMode enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-150">Получает значение, указывающее режим выполнения задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-150">Gets a value indicating the mode of the task.</span></span></summary>
+        <value><span data-ttu-id="36443-151">Одно из значений перечисления Таскмоде.</span><span class="sxs-lookup"><span data-stu-id="36443-151">One of the TaskMode enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -683,18 +427,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-152">Получает имя владельца задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-152">Gets the name of the owner of the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-153">Строковое значение, содержащее имя владельца задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-153">A string value containing the name of the task owner.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-152">Получает имя владельца задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-152">Gets the name of the owner of the task.</span></span></summary>
+        <value><span data-ttu-id="36443-153">Строковое значение, содержащее имя владельца задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-153">A string value containing the name of the task owner.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -713,22 +447,8 @@
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-154">Получает или задает completeion процент выполнения задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-154">Gets or sets the completeion percentage of the task.</span>
-          </span>
-          <span data-ttu-id="1c9ae-155">PercentComplete должен быть между 0 и 100.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-155">PercentComplete must be between 0 and 100.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-156">Значение типа Double, указывающее процент выполнения задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-156">A Double value indicating the percentage complete for the task.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-154">Получает или задает процент завершения задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-154">Gets or sets the completeion percentage of the task.</span></span> <span data-ttu-id="36443-155">Значение PercentComplete должно находиться в пределах от 0 до 100.</span><span class="sxs-lookup"><span data-stu-id="36443-155">PercentComplete must be between 0 and 100.</span></span></summary>
+        <value><span data-ttu-id="36443-156">Двойное значение, указывающее процент выполнения для задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-156">A Double value indicating the percentage complete for the task.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -747,22 +467,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-157">Получает или задает шаблон повторения для этой задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-157">Gets or sets the recurrence pattern for this task.</span>
-          </span>
-          <span data-ttu-id="1c9ae-158">Классы шаблонов доступные повторения относятся Recurrence.DailyPattern, Recurrence.MonthlyPattern и Recurrence.YearlyPattern.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-158">Available recurrence pattern classes include            Recurrence.DailyPattern, Recurrence.MonthlyPattern and Recurrence.YearlyPattern.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-159">Объект рекурсии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-159">A Recurrence object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-157">Получает или задает шаблон повторения для этой задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-157">Gets or sets the recurrence pattern for this task.</span></span> <span data-ttu-id="36443-158">Доступные классы шаблонов повторения включают повторения. Даилипаттерн, повторения. Монслипаттерн и повторения. Еарлипаттерн.</span><span class="sxs-lookup"><span data-stu-id="36443-158">Available recurrence pattern classes include            Recurrence.DailyPattern, Recurrence.MonthlyPattern and Recurrence.YearlyPattern.</span></span></summary>
+        <value><span data-ttu-id="36443-159">Объект повторения.</span><span class="sxs-lookup"><span data-stu-id="36443-159">A Recurrence object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -781,18 +487,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-160">Получает или задает дату и время, на котором запускается задание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-160">Gets or sets the date and time on which the task starts.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-161">Значение даты и времени; или значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-161">A DateTime value; or null.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-160">Получает или задает дату и время начала задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-160">Gets or sets the date and time on which the task starts.</span></span></summary>
+        <value><span data-ttu-id="36443-161">Значение даты и времени; или null.</span><span class="sxs-lookup"><span data-stu-id="36443-161">A DateTime value; or null.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -811,18 +507,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TaskStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-162">Получает или задает состояние задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-162">Gets or sets the status of the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-163">Одно из значений перечисления статус этогозадания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-163">One of the TaskStatus enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-162">Получает или задает состояние задачи.</span><span class="sxs-lookup"><span data-stu-id="36443-162">Gets or sets the status of the task.</span></span></summary>
+        <value><span data-ttu-id="36443-163">Одно из значений перечисления Таскстатус.</span><span class="sxs-lookup"><span data-stu-id="36443-163">One of the TaskStatus enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -841,18 +527,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-164">Получает строку, представляющую состояние задачи, локализованное по свойству PreferredCulture объекта ExchangeService, с которым связано задание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-164">Gets a string representing the status of the task, localized according to the PreferredCulture            property of the ExchangeService object the task is bound to.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-165">Строковое значение, содержащее описание состояния.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-165">A string value containing the status description.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-164">Получает строку, представляющую состояние задачи, локализованное в соответствии со свойством Преферредкултуре объекта ExchangeService, к которому привязана задача.</span><span class="sxs-lookup"><span data-stu-id="36443-164">Gets a string representing the status of the task, localized according to the PreferredCulture            property of the ExchangeService object the task is bound to.</span></span></summary>
+        <value><span data-ttu-id="36443-165">Строковое значение, содержащее описание состояния.</span><span class="sxs-lookup"><span data-stu-id="36443-165">A string value containing the status description.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -871,18 +547,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1c9ae-166">Получает или задает общий объем работы, затраченное на выполнение задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-166">Gets or sets the total amount of work spent on the task.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1c9ae-167">Целочисленное значение; или значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-167">An integer value; or null.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="36443-166">Получает или задает общий объем работы, затраченной на задачу.</span><span class="sxs-lookup"><span data-stu-id="36443-166">Gets or sets the total amount of work spent on the task.</span></span></summary>
+        <value><span data-ttu-id="36443-167">Целое значение; или null.</span><span class="sxs-lookup"><span data-stu-id="36443-167">An integer value; or null.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -903,32 +569,9 @@
         <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
       </Parameters>
       <Docs>
-        <param name="conflictResolutionMode">
-          <span data-ttu-id="1c9ae-168">Указывает, разрешению конфликтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-168">Specifies how conflicts should be resolved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="1c9ae-169">Применяет локальные изменения, внесенные в этой задаче.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-169">Applies the local changes that have been made to this task.</span>
-          </span>
-          <span data-ttu-id="1c9ae-170">При вызове этого метода приводит к по крайней мере один вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-170">Calling this method results in at least one call to EWS.</span>
-          </span>
-          <span data-ttu-id="1c9ae-171">Множественные вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-171">Mutliple calls to EWS might be made if attachments have been added or removed.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="1c9ae-172">Объект задач, представляющий завершенный вхождение повторяющейся задачи и обновление помечается как выполненное; или задачи, представляющий текущее вхождение Если повторяющейся задачи и обновление изменено повторять; или значение null, во всех других случаях.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1c9ae-172">A Task object representing the completed occurrence if the task is recurring and the update marks it as completed; or a Task object representing the current occurrence if the task is recurring and the update changed its recurrence pattern; or null in every other case.</span>
-          </span>
-        </returns>
+        <param name="conflictResolutionMode"><span data-ttu-id="36443-168">Определяет способ разрешения конфликтов.</span><span class="sxs-lookup"><span data-stu-id="36443-168">Specifies how conflicts should be resolved.</span></span></param>
+        <summary><span data-ttu-id="36443-169">Применяет локальные изменения, внесенные в эту задачу.</span><span class="sxs-lookup"><span data-stu-id="36443-169">Applies the local changes that have been made to this task.</span></span> <span data-ttu-id="36443-170">Вызов этого метода приводит к по крайней мере один вызов EWS.</span><span class="sxs-lookup"><span data-stu-id="36443-170">Calling this method results in at least one call to EWS.</span></span>            <span data-ttu-id="36443-171">Вызовы мутлипле в EWS могут быть сделаны при добавлении или удалении вложений.</span><span class="sxs-lookup"><span data-stu-id="36443-171">Mutliple calls to EWS might be made if attachments have been added or removed.</span></span></summary>
+        <returns><span data-ttu-id="36443-172">Объект Task, представляющий завершенный экземпляр, если задача повторяется, а обновление помечает как завершенное. или объект Task, представляющий текущее событие, если задача повторяется, а обновление изменяет шаблон повторения; или NULL в любом другом случае.</span><span class="sxs-lookup"><span data-stu-id="36443-172">A Task object representing the completed occurrence if the task is recurring and the update marks it as completed; or a Task object representing the current occurrence if the task is recurring and the update changed its recurrence pattern; or null in every other case.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

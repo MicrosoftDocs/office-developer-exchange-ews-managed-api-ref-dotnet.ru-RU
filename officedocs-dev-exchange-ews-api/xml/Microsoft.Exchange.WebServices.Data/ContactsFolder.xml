@@ -1,13 +1,5 @@
 <Type Name="ContactsFolder" FullName="Microsoft.Exchange.WebServices.Data.ContactsFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="08af22f9142da28034e1007356113e3bf7d8b84f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627147" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ContactsFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="08af22f9142da28034e1007356113e3bf7d8b84f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627147" /></Metadata><TypeSignature Language="C#" Value="public class ContactsFolder : Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactsFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactsFolder" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactsFolder&#xA;Inherits Folder" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="54c12-101">Представляет папку, содержащую контакты.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="54c12-101">Represents a folder that contains contacts.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="7fc63-101">Представляет папку, содержащую контакты.</span><span class="sxs-lookup"><span data-stu-id="7fc63-101">Represents a folder that contains contacts.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,22 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="54c12-102">Объект ExchangeService, к которому будет привязан папки «Контакты».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-102">The ExchangeService object to which the contacts folder will be bound.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="54c12-103">Инициализирует несохраненные локальный экземпляр класса ContactsFolder.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-103">Initializes an unsaved local instance of the ContactsFolder class.</span>
-          </span>
-          <span data-ttu-id="54c12-104">Чтобы привязать к существующей папки Контакты, вместо этого используйте ContactsFolder.Bind().</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-104">To bind to an existing contacts folder, use ContactsFolder.Bind() instead.</span>
-          </span>
-        </summary>
+        <param name="service"><span data-ttu-id="7fc63-102">Объект ExchangeService, с которым будет связана папка "Контакты".</span><span class="sxs-lookup"><span data-stu-id="7fc63-102">The ExchangeService object to which the contacts folder will be bound.</span></span></param>
+        <summary><span data-ttu-id="7fc63-103">Инициализирует несохраненный локальный экземпляр класса Контактсфолдер.</span><span class="sxs-lookup"><span data-stu-id="7fc63-103">Initializes an unsaved local instance of the ContactsFolder class.</span></span> <span data-ttu-id="7fc63-104">Чтобы выполнить присоединение к существующей папке "Контакты", используйте вместо этого Контактсфолдер. bind ().</span><span class="sxs-lookup"><span data-stu-id="7fc63-104">To bind to an existing contacts folder, use ContactsFolder.Bind() instead.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,30 +56,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="54c12-105">Служба должна использовать для привязки к папке «Контакты».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-105">The service to use to bind to the contacts folder.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="54c12-106">Идентификатор папки «Контакты» для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-106">The ID of the contacts folder to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="54c12-107">Выполняет привязку к существующей папке Контакты и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-107">Binds to an existing contacts folder and loads its first class properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="54c12-108">Экземпляр ContactsFolder, который представляет папку Контакты, соответствующий указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-108">A ContactsFolder instance that represents the contacts folder that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="7fc63-105">Служба, используемая для связывания с папкой "Контакты".</span><span class="sxs-lookup"><span data-stu-id="7fc63-105">The service to use to bind to the contacts folder.</span></span></param>
+        <param name="id"><span data-ttu-id="7fc63-106">Идентификатор папки контактов, к которой требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="7fc63-106">The ID of the contacts folder to bind to.</span></span></param>
+        <summary><span data-ttu-id="7fc63-107">Выполняет присоединение к существующей папке контактов и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="7fc63-107">Binds to an existing contacts folder and loads its first class properties.</span></span></summary>
+        <returns><span data-ttu-id="7fc63-108">Экземпляр Контактсфолдер, представляющий папку Contacts, соответствующую указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="7fc63-108">A ContactsFolder instance that represents the contacts folder that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -129,30 +82,10 @@
         <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="54c12-109">Служба должна использовать для привязки к папке «Контакты».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-109">The service to use to bind to the contacts folder.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="54c12-110">Имя папки Контакты для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-110">The name of the contacts folder to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="54c12-111">Выполняет привязку к существующей папке Контакты и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-111">Binds to an existing contacts folder and loads its first class properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="54c12-112">Экземпляр ContactsFolder, который представляет папку Контакты с указанным именем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-112">A ContactsFolder instance that represents the contacts folder with the specified name.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="7fc63-109">Служба, используемая для связывания с папкой "Контакты".</span><span class="sxs-lookup"><span data-stu-id="7fc63-109">The service to use to bind to the contacts folder.</span></span></param>
+        <param name="name"><span data-ttu-id="7fc63-110">Имя папки контактов, к которой необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="7fc63-110">The name of the contacts folder to bind to.</span></span></param>
+        <summary><span data-ttu-id="7fc63-111">Выполняет присоединение к существующей папке контактов и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="7fc63-111">Binds to an existing contacts folder and loads its first class properties.</span></span></summary>
+        <returns><span data-ttu-id="7fc63-112">Экземпляр Контактсфолдер, представляющий папку Contacts с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="7fc63-112">A ContactsFolder instance that represents the contacts folder with the specified name.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -175,36 +108,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="54c12-113">Служба должна использовать для привязки к папке «Контакты».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-113">The service to use to bind to the contacts folder.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="54c12-114">Идентификатор папки «Контакты» для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-114">The ID of the contacts folder to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="54c12-115">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-115">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="54c12-116">Выполняет привязку к существующей папке Контакты и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-116">Binds to an existing contacts folder and loads the specified set of properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="54c12-117">Экземпляр ContactsFolder, который представляет папку Контакты, соответствующий указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-117">A ContactsFolder instance that represents the contacts folder that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="7fc63-113">Служба, используемая для связывания с папкой "Контакты".</span><span class="sxs-lookup"><span data-stu-id="7fc63-113">The service to use to bind to the contacts folder.</span></span></param>
+        <param name="id"><span data-ttu-id="7fc63-114">Идентификатор папки контактов, к которой требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="7fc63-114">The ID of the contacts folder to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="7fc63-115">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="7fc63-115">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="7fc63-116">Выполняет присоединение к существующей папке контактов и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="7fc63-116">Binds to an existing contacts folder and loads the specified set of properties.</span></span></summary>
+        <returns><span data-ttu-id="7fc63-117">Экземпляр Контактсфолдер, представляющий папку Contacts, соответствующую указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="7fc63-117">A ContactsFolder instance that represents the contacts folder that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -227,36 +135,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="54c12-118">Служба должна использовать для привязки к папке «Контакты».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-118">The service to use to bind to the contacts folder.</span>
-          </span>
-        </param>
-        <param name="name">
-          <span data-ttu-id="54c12-119">Имя папки Контакты для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-119">The name of the contacts folder to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="54c12-120">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-120">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="54c12-121">Выполняет привязку к существующей папке Контакты и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-121">Binds to an existing contacts folder and loads the specified set of properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="54c12-122">Экземпляр ContactsFolder, который представляет папку Контакты с указанным именем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="54c12-122">A ContactsFolder instance that represents the contacts folder with the specified name.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="7fc63-118">Служба, используемая для связывания с папкой "Контакты".</span><span class="sxs-lookup"><span data-stu-id="7fc63-118">The service to use to bind to the contacts folder.</span></span></param>
+        <param name="name"><span data-ttu-id="7fc63-119">Имя папки контактов, к которой необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="7fc63-119">The name of the contacts folder to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="7fc63-120">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="7fc63-120">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="7fc63-121">Выполняет присоединение к существующей папке контактов и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="7fc63-121">Binds to an existing contacts folder and loads the specified set of properties.</span></span></summary>
+        <returns><span data-ttu-id="7fc63-122">Экземпляр Контактсфолдер, представляющий папку Contacts с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="7fc63-122">A ContactsFolder instance that represents the contacts folder with the specified name.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

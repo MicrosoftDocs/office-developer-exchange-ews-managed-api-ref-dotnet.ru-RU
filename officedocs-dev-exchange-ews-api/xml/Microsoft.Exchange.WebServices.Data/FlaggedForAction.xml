@@ -1,13 +1,5 @@
 <Type Name="FlaggedForAction" FullName="Microsoft.Exchange.WebServices.Data.FlaggedForAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a15662eab7e58bbf14f8b110172917e8d4903a3d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626986" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FlaggedForAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a15662eab7e58bbf14f8b110172917e8d4903a3d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626986" /></Metadata><TypeSignature Language="C#" Value="public enum FlaggedForAction" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlaggedForAction extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FlaggedForAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum FlaggedForAction" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="a5bc0-101">Определяет звонящему действия, которые могут быть отметка на сообщение.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a5bc0-101">Defines the follow-up actions that may be stamped on a message.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="d9846-101">Определяет дальнейшие действия, которые могут быть помечены для сообщения.</span><span class="sxs-lookup"><span data-stu-id="d9846-101">Defines the follow-up actions that may be stamped on a message.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-102">Сообщение имеет флаг с каких-либо действий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-102">The message is flagged with any action.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-102">Сообщение помечено любым действием.</span><span class="sxs-lookup"><span data-stu-id="d9846-102">The message is flagged with any action.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Call">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-103">Получатель запрашивается для вызова отправитель.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-103">The recipient is requested to call the sender.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-103">Получатель запрашивается позвонить отправителю.</span><span class="sxs-lookup"><span data-stu-id="d9846-103">The recipient is requested to call the sender.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="DoNotForward">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-104">Получатель запрашивается не необходимо переслать сообщение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-104">The recipient is requested not to forward the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-104">Получатель запрашивается не пересылать сообщение.</span><span class="sxs-lookup"><span data-stu-id="d9846-104">The recipient is requested not to forward the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="FollowUp">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-105">Получатель запрашивается к исполнению в окне сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-105">The recipient is requested to follow up on the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-105">Получатель запрашивает дальнейшие действия с сообщением.</span><span class="sxs-lookup"><span data-stu-id="d9846-105">The recipient is requested to follow up on the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-106">Получатель запрашивается необходимо переслать сообщение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-106">The recipient is requested to forward the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-106">Получатель запрашивает пересылка сообщения.</span><span class="sxs-lookup"><span data-stu-id="d9846-106">The recipient is requested to forward the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="FYI">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-107">Получатель сообщения сведения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-107">The recipient received the message for information.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-107">Получатель получил сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="d9846-107">The recipient received the message for information.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="NoResponseNecessary">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-108">Получатель уведомляется о том, что ответ на сообщение не является обязательным.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-108">The recipient is informed that a response to the message is not required.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-108">Получатель уведомляет о том, что ответ на сообщение не требуется.</span><span class="sxs-lookup"><span data-stu-id="d9846-108">The recipient is informed that a response to the message is not required.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-109">Получатель запрашивается для чтения сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-109">The recipient is requested to read the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-109">Получатель запрашивает разрешение на чтение сообщения.</span><span class="sxs-lookup"><span data-stu-id="d9846-109">The recipient is requested to read the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-110">Получатель запрашивается ответ на отправителя сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-110">The recipient is requested to reply to the sender of the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-110">Получатель запрашивает ответ отправителю сообщения.</span><span class="sxs-lookup"><span data-stu-id="d9846-110">The recipient is requested to reply to the sender of the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ReplyToAll">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-111">Получатель запрашивается отвечать всем пользователям было отправлено сообщение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-111">The recipient is requested to reply to everyone the message was sent to.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-111">Получатель запрашивается ответить всем, кому было отправлено сообщение.</span><span class="sxs-lookup"><span data-stu-id="d9846-111">The recipient is requested to reply to everyone the message was sent to.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Review">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5bc0-112">Получатель запрашивается сообщения для просмотра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5bc0-112">The recipient is requested to review the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d9846-112">Получателю запрашивается Просмотр сообщения.</span><span class="sxs-lookup"><span data-stu-id="d9846-112">The recipient is requested to review the message.</span></span></summary>
       </Docs>
     </Member>
   </Members>

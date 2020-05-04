@@ -1,13 +1,5 @@
 <Type Name="UserConfigurationDictionary" FullName="Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b95d7b5132df53cc66e22f1942b95d43a347809a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626940" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class UserConfigurationDictionary : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b95d7b5132df53cc66e22f1942b95d43a347809a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626940" /></Metadata><TypeSignature Language="C#" Value="public sealed class UserConfigurationDictionary : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UserConfigurationDictionary extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UserConfigurationDictionary&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="8d8d6-101">Представляет свойство словаря конфигурации пользователя.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8d8d6-101">Represents a user configuration dictionary property.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="4f987-101">Представляет свойство словаря конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-101">Represents a user configuration dictionary property.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -58,24 +45,9 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="key">
-          <span data-ttu-id="8d8d6-102">Объект для использования в качестве ключ записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-102">The object to use as the key of the entry.</span>
-          </span>
-        </param>
-        <param name="value">
-          <span data-ttu-id="8d8d6-103">Объект для использования в качестве значение параметра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-103">The object to use as the value of the entry.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8d8d6-104">Добавляет запись с указанным ключом и значением пользовательский словарь конфигурации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-104">Adds an entry with the provided key and value to the user configuration dictionary.</span>
-          </span>
-        </summary>
+        <param name="key"><span data-ttu-id="4f987-102">Объект, используемый в качестве ключа записи.</span><span class="sxs-lookup"><span data-stu-id="4f987-102">The object to use as the key of the entry.</span></span></param>
+        <param name="value"><span data-ttu-id="4f987-103">Объект, используемый в качестве значения записи.</span><span class="sxs-lookup"><span data-stu-id="4f987-103">The object to use as the value of the entry.</span></span></param>
+        <summary><span data-ttu-id="4f987-104">Добавляет запись с предоставленным ключом и значением в словарь конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-104">Adds an entry with the provided key and value to the user configuration dictionary.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -95,12 +67,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="8d8d6-105">Удаляет все элементы из словаря конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-105">Removes all the items from the user configuration dictionary.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f987-105">Удаляет все элементы из словаря конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-105">Removes all the items from the user configuration dictionary.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -122,26 +89,9 @@
         <Parameter Name="key" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="key">
-          <span data-ttu-id="8d8d6-106">Ключ для поиска в словаре конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-106">The key to locate in the user configuration dictionary.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8d8d6-107">Показывает, содержит ли пользовательский словарь конфигурации запись с указанным ключом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-107">Indicates whether the user configuration dictionary contains an entry with the specified key.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="8d8d6-108">
-            <b>значение true,</b> Если пользовательский словарь конфигурации содержит запись с ключом; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-108">
-              <b>true</b> if the user configuration dictionary contains an entry with the key; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="key"><span data-ttu-id="4f987-106">Ключ, который требуется разместить в словаре конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-106">The key to locate in the user configuration dictionary.</span></span></param>
+        <summary><span data-ttu-id="4f987-107">Указывает, содержит ли словарь конфигурации пользователя запись с указанным ключом.</span><span class="sxs-lookup"><span data-stu-id="4f987-107">Indicates whether the user configuration dictionary contains an entry with the specified key.</span></span></summary>
+        <returns><span data-ttu-id="4f987-108"><b>имеет значение true</b> , если словарь конфигурации пользователя содержит запись с ключом; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="4f987-108"><b>true</b> if the user configuration dictionary contains an entry with the key; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -160,18 +110,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8d8d6-109">Получает число записей в словаре конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-109">Gets the number of entries in the user configuration dictionary.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8d8d6-110">Число записей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-110">The number of entries.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4f987-109">Получает число записей в словаре конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-109">Gets the number of entries in the user configuration dictionary.</span></span></summary>
+        <value><span data-ttu-id="4f987-110">Количество записей.</span><span class="sxs-lookup"><span data-stu-id="4f987-110">The number of entries.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -197,29 +137,9 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="jsonCollection">
-          <span data-ttu-id="8d8d6-111">Коллекция JSON.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-111">The JSON collection.</span>
-          </span>
-        </param>
-        <param name="service">
-          <span data-ttu-id="8d8d6-112">Объект службы Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-112">An Exchange service  object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8d8d6-113">Создание словаря конфигурации из коллекции объектов JavaScript Object Notation (JSON).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-113">Creates the configuration dictionary from a collection of JavaScript Object Notation (JSON) objects.</span>
-          </span>
-          <span data-ttu-id="8d8d6-114">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-114">The <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="jsonCollection"><span data-ttu-id="4f987-111">Коллекция JSON.</span><span class="sxs-lookup"><span data-stu-id="4f987-111">The JSON collection.</span></span></param>
+        <param name="service"><span data-ttu-id="4f987-112">Объект службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="4f987-112">An Exchange service  object.</span></span></param>
+        <summary><span data-ttu-id="4f987-113">Создает словарь конфигурации из коллекции объектов JavaScript Object Notation (JSON).</span><span class="sxs-lookup"><span data-stu-id="4f987-113">Creates the configuration dictionary from a collection of JavaScript Object Notation (JSON) objects.</span></span>             <span data-ttu-id="4f987-114">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4f987-114">The <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -242,18 +162,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="8d8d6-115">Возвращает перечислитель для настройки пользовательского словаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-115">Returns an enumerator for the user configuration dictionary.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="8d8d6-116">Перечислитель для настройки пользовательского словаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-116">An enumerator for the user configuration dictionary.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="4f987-115">Возвращает перечислитель для словаря конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-115">Returns an enumerator for the user configuration dictionary.</span></span></summary>
+        <returns><span data-ttu-id="4f987-116">Перечислитель для словаря конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-116">An enumerator for the user configuration dictionary.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -275,24 +185,9 @@
         <Parameter Name="key" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="key">
-          <span data-ttu-id="8d8d6-117">Ключ записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-117">The entry key.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8d8d6-118">Получает или задает запись с указанным ключом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-118">Gets or sets the entry with the specified key.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8d8d6-119">Запись с указанным ключом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-119">The entry with the specified key.</span>
-          </span>
-        </value>
+        <param name="key"><span data-ttu-id="4f987-117">Клавиша записи.</span><span class="sxs-lookup"><span data-stu-id="4f987-117">The entry key.</span></span></param>
+        <summary><span data-ttu-id="4f987-118">Получает или задает запись с указанным ключом.</span><span class="sxs-lookup"><span data-stu-id="4f987-118">Gets or sets the entry with the specified key.</span></span></summary>
+        <value><span data-ttu-id="4f987-119">Запись с указанным ключом.</span><span class="sxs-lookup"><span data-stu-id="4f987-119">The entry with the specified key.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -314,26 +209,9 @@
         <Parameter Name="key" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="key">
-          <span data-ttu-id="8d8d6-120">Ключ записи, которую требуется удалить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-120">The key of the entry to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8d8d6-121">Удаляет запись с указанным ключом из словаря конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-121">Removes the entry with the specified key from the user configuration dictionary.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="8d8d6-122">
-            <b>значение true,</b> Если операция успешно удалено; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-122">
-              <b>true</b> if the entry is successfully removed; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="key"><span data-ttu-id="4f987-120">Ключ записи, которую необходимо удалить.</span><span class="sxs-lookup"><span data-stu-id="4f987-120">The key of the entry to remove.</span></span></param>
+        <summary><span data-ttu-id="4f987-121">Удаляет запись с указанным ключом из словаря конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-121">Removes the entry with the specified key from the user configuration dictionary.</span></span></summary>
+        <returns><span data-ttu-id="4f987-122"><b>значение true</b> , если запись успешно удалена; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="4f987-122"><b>true</b> if the entry is successfully removed; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -356,32 +234,10 @@
         <Parameter Name="value" Type="System.Object&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="key">
-          <span data-ttu-id="8d8d6-123">Ключ записи словаря по конфигурации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-123">A user configuration dictionary entry key.</span>
-          </span>
-        </param>
-        <param name="value">
-          <span data-ttu-id="8d8d6-124">Если ключ найден, значение, которая связана с указанным ключом; в противном случае — значение NULL (Nothing в Visual Basic).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-124">If the key is found, the value that is associated with the specified key; otherwise, a null reference (Nothing in Visual Basic).</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8d8d6-125">Получает значение, связанное с указанным ключом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-125">Gets the value that is associated with the specified key.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="8d8d6-126">
-            <b>значение true,</b> Если пользовательский словарь конфигурации содержит ключ; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-126">
-              <b>true</b> if the user configuration dictionary contains the key; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="key"><span data-ttu-id="4f987-123">Клавиша записи словаря конфигурации пользователя.</span><span class="sxs-lookup"><span data-stu-id="4f987-123">A user configuration dictionary entry key.</span></span></param>
+        <param name="value"><span data-ttu-id="4f987-124">Если ключ найден, значение, связанное с указанным ключом; в противном случае — пустая ссылка (Nothing в Visual Basic).</span><span class="sxs-lookup"><span data-stu-id="4f987-124">If the key is found, the value that is associated with the specified key; otherwise, a null reference (Nothing in Visual Basic).</span></span></param>
+        <summary><span data-ttu-id="4f987-125">Получает значение, связанное с указанным ключом.</span><span class="sxs-lookup"><span data-stu-id="4f987-125">Gets the value that is associated with the specified key.</span></span></summary>
+        <returns><span data-ttu-id="4f987-126"><b>имеет значение true</b> , если словарь конфигурации пользователя содержит ключ; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="4f987-126"><b>true</b> if the user configuration dictionary contains the key; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -407,29 +263,9 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="jsonCollection">
-          <span data-ttu-id="8d8d6-127">Коллекция JSON.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-127">The JSON collection.</span>
-          </span>
-        </param>
-        <param name="service">
-          <span data-ttu-id="8d8d6-128">Объект службы Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-128">An Exchange service object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8d8d6-129">Обновляет существующий словарь конфигурации с помощью коллекцию объектов JavaScript Object Notation (JSON).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-129">Updates an existing configuration dictionary by using a collection of JavaScript Object Notation (JSON) objects.</span>
-          </span>
-          <span data-ttu-id="8d8d6-130">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8d8d6-130">The <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="jsonCollection"><span data-ttu-id="4f987-127">Коллекция JSON.</span><span class="sxs-lookup"><span data-stu-id="4f987-127">The JSON collection.</span></span></param>
+        <param name="service"><span data-ttu-id="4f987-128">Объект службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="4f987-128">An Exchange service object.</span></span></param>
+        <summary><span data-ttu-id="4f987-129">Обновляет существующий словарь конфигурации, используя коллекцию объектов JavaScript Object Notation (JSON).</span><span class="sxs-lookup"><span data-stu-id="4f987-129">Updates an existing configuration dictionary by using a collection of JavaScript Object Notation (JSON) objects.</span></span>             <span data-ttu-id="4f987-130">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4f987-130">The <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

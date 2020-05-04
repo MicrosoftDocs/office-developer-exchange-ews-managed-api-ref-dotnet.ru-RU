@@ -1,13 +1,5 @@
 <Type Name="TimeSuggestion" FullName="Microsoft.Exchange.WebServices.Data.TimeSuggestion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e5f918009aee68c0d72fdd51ce606258ea61f258" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626814" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class TimeSuggestion : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e5f918009aee68c0d72fdd51ce606258ea61f258" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626814" /></Metadata><TypeSignature Language="C#" Value="public sealed class TimeSuggestion : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TimeSuggestion extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TimeSuggestion" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TimeSuggestion&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="157a1-101">Представляет предложения о времени доступности.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="157a1-101">Represents an availability time suggestion.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1c197-101">Представляет предложенное время доступности.</span><span class="sxs-lookup"><span data-stu-id="1c197-101">Represents an availability time suggestion.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,18 +32,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conflict&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="157a1-102">Получает коллекцию конфликтующие собраний для предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="157a1-102">Gets a collection of conflicting meetings for the suggested meeting time.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="157a1-103">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" /> — это свойство <a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collections.ObjectModel.Collection&lt;T&gt; </a><see cref="T:Microsoft.Exchange.WebServices.Data.Conflict" /> объекты, которые представляют конфликтует с предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="157a1-103">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collections.ObjectModel.Collection&lt;T&gt;</a><see cref="T:Microsoft.Exchange.WebServices.Data.Conflict" /> objects that represent conflicts with the suggested meeting time.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c197-102">Получает коллекцию конфликтующих собраний для предложенного времени проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="1c197-102">Gets a collection of conflicting meetings for the suggested meeting time.</span></span></summary>
+        <value><span data-ttu-id="1c197-103">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" /> свойства — это объекты <a href="http://go.microsoft.com/fwlink/?LinkId=164020">т:систем.коллектионс.обжектмодел.коллектион&lt;T&gt; </a> <see cref="T:Microsoft.Exchange.WebServices.Data.Conflict" /> , представляющие конфликты с предложенным временем собрания.</span><span class="sxs-lookup"><span data-stu-id="1c197-103">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collections.ObjectModel.Collection&lt;T&gt;</a><see cref="T:Microsoft.Exchange.WebServices.Data.Conflict" /> objects that represent conflicts with the suggested meeting time.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -75,18 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="157a1-104">Получает значение, указывающее, является ли время предложенного собрания в почтовом ящике рабочие часы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="157a1-104">Gets a value that indicates whether the suggested meeting time is within the mailbox's working hours.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="157a1-105">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" /> свойство является <a href="http://go.microsoft.com/fwlink/?LinkId=162619">T:System.Boolean</a> , если время собрания в почтовом ящике рабочие часы; в противном случае — значение <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="157a1-105">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkId=162619">T:System.Boolean</a> if the meeting time is within the mailbox's working hours; otherwise, the value is <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c197-104">Получает значение, указывающее, находится ли предлагаемое время собрания в рабочих часах почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="1c197-104">Gets a value that indicates whether the suggested meeting time is within the mailbox's working hours.</span></span></summary>
+        <value><span data-ttu-id="1c197-105">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" /> свойства — значение <a href="http://go.microsoft.com/fwlink/?LinkId=162619">T:System.Boolean</a> , если время собрания находится в рабочих часах почтового ящика; в противном случае — значение <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="1c197-105">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkId=162619">T:System.Boolean</a> if the meeting time is within the mailbox's working hours; otherwise, the value is <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,18 +72,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="157a1-106">Получает время предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="157a1-106">Gets the suggested meeting time.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="157a1-107">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="157a1-107">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c197-106">Получает предложенное время проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="1c197-106">Gets the suggested meeting time.</span></span></summary>
+        <value><span data-ttu-id="1c197-107">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></span><span class="sxs-lookup"><span data-stu-id="1c197-107">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -135,18 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="157a1-108">Получает качество предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="157a1-108">Gets the quality of the suggested meeting time.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="157a1-109">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> объект указывает качество предложенного собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="157a1-109">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> object the indicates the quality of the suggested meeting time.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1c197-108">Получает качество предполагаемого времени проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="1c197-108">Gets the quality of the suggested meeting time.</span></span></summary>
+        <value><span data-ttu-id="1c197-109">Значением <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" /> свойства является <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> объект, указывающий качество предполагаемого времени проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="1c197-109">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> object the indicates the quality of the suggested meeting time.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

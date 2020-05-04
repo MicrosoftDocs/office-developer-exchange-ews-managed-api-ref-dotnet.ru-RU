@@ -1,13 +1,5 @@
 <Type Name="TextBody" FullName="Microsoft.Exchange.WebServices.Data.TextBody">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="973b685ede9a3f83e640627181517ce3d14d408d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627329" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class TextBody : Microsoft.Exchange.WebServices.Data.MessageBody" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="973b685ede9a3f83e640627181517ce3d14d408d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627329" /></Metadata><TypeSignature Language="C#" Value="public sealed class TextBody : Microsoft.Exchange.WebServices.Data.MessageBody" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TextBody extends Microsoft.Exchange.WebServices.Data.MessageBody" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TextBody" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TextBody&#xA;Inherits MessageBody" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="4e7a3-101">Содержит основного текста сообщения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4e7a3-101">Contains the body of a message.</span>
-      </span>
-      <span data-ttu-id="4e7a3-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4e7a3-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="72f39-101">Содержит текст сообщения.</span><span class="sxs-lookup"><span data-stu-id="72f39-101">Contains the body of a message.</span></span>             <span data-ttu-id="72f39-102"><see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="72f39-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,17 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="4e7a3-103">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class.</span>
-          </span>
-          <span data-ttu-id="4e7a3-104">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72f39-103">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> класса.</span><span class="sxs-lookup"><span data-stu-id="72f39-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class.</span></span>             <span data-ttu-id="72f39-104"><see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="72f39-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,23 +49,8 @@
         <Parameter Name="text" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="text">
-          <span data-ttu-id="4e7a3-105">Текст сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-105">The text of the message body.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="4e7a3-106">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> класс с текстом, равное переданное значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class with text equal to the passed-in value.</span>
-          </span>
-          <span data-ttu-id="4e7a3-107">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-107">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="text"><span data-ttu-id="72f39-105">Текст текста сообщения.</span><span class="sxs-lookup"><span data-stu-id="72f39-105">The text of the message body.</span></span></param>
+        <summary><span data-ttu-id="72f39-106">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> класса с текстом, равным переданному значению.</span><span class="sxs-lookup"><span data-stu-id="72f39-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> class with text equal to the passed-in value.</span></span> <span data-ttu-id="72f39-107"><see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="72f39-107">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,33 +71,9 @@
         <Parameter Name="textBody" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="textBody">
-          <span data-ttu-id="4e7a3-108">Строка для преобразования в <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-108">The string to convert to a <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> object.</span>
-          </span>
-          <span data-ttu-id="4e7a3-109">Предполагается, что строке source в формате HTML.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-109">The source string is assumed to be in HTML format.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="4e7a3-110">Определяет неявное преобразование между строку и основного текста сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-110">Defines an implicit conversion between a string and the body of a message.</span>
-          </span>
-          <span data-ttu-id="4e7a3-111">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" /> Оператор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-111">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" /> operator is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="4e7a3-112">A <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> инициализирован с указанной строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4e7a3-112">A <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> initialized with the specified string.</span>
-          </span>
-        </returns>
+        <param name="textBody"><span data-ttu-id="72f39-108">Строка, преобразуемая в <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> объект.</span><span class="sxs-lookup"><span data-stu-id="72f39-108">The string to convert to a <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> object.</span></span> <span data-ttu-id="72f39-109">Предполагается, что исходная строка имеет формат HTML.</span><span class="sxs-lookup"><span data-stu-id="72f39-109">The source string is assumed to be in HTML format.</span></span></param>
+        <summary><span data-ttu-id="72f39-110">Определяет неявное преобразование между строкой и текстом сообщения.</span><span class="sxs-lookup"><span data-stu-id="72f39-110">Defines an implicit conversion between a string and the body of a message.</span></span>             <span data-ttu-id="72f39-111">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" /> оператор подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="72f39-111">The <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" /> operator is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="72f39-112"><see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> Инициализация с указанной строкой.</span><span class="sxs-lookup"><span data-stu-id="72f39-112">A <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> initialized with the specified string.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

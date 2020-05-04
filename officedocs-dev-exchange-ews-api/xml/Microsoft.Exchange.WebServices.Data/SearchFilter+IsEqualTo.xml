@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+IsEqualTo" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+IsEqualTo">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b5783f8a74f5f9a8e4a3d9e2f8c9e08232ddd43" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626970" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.IsEqualTo : Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9b5783f8a74f5f9a8e4a3d9e2f8c9e08232ddd43" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626970" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.IsEqualTo : Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/IsEqualTo extends Microsoft.Exchange.WebServices.Data.SearchFilter/RelationalFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.IsEqualTo&#xA;Inherits SearchFilter.RelationalFilter" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="ea857-101">Представляет поисковый фильтр, который определяет, что ли свойство равно заданным значением или другие свойства.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ea857-101">Represents a search filter that determines wheter a property is equal to a given value or other property.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="815cf-101">Представляет фильтр поиска, который определяет вхетер свойство равно заданному значению или другому свойству.</span><span class="sxs-lookup"><span data-stu-id="815cf-101">Represents a search filter that determines wheter a property is equal to a given value or other property.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ea857-102">Инициализирует новый экземпляр класса SearchFilter.IsEqualTo.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea857-102">Initializes a new instance of the SearchFilter.IsEqualTo class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="815cf-102">Инициализирует новый экземпляр класса SearchFilter. Исекуалто.</span><span class="sxs-lookup"><span data-stu-id="815cf-102">Initializes a new instance of the SearchFilter.IsEqualTo class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,24 +50,9 @@
         <Parameter Name="otherPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">
-          <span data-ttu-id="ea857-103">Определение свойств, который сравнивается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea857-103">The definition of the property that is being compared.</span>
-          </span>
-        </param>
-        <param name="otherPropertyDefinition">
-          <span data-ttu-id="ea857-104">Определение свойств, который сравнивается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea857-104">The definition of the property that is being compared.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ea857-105">Инициализирует новый экземпляр класса SearchFilter.IsEqualTo с определения указанного свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea857-105">Initializes a new instance of the SearchFilter.IsEqualTo class with the specified property definitions.</span>
-          </span>
-        </summary>
+        <param name="propertyDefinition"><span data-ttu-id="815cf-103">Определение сравниваемого свойства.</span><span class="sxs-lookup"><span data-stu-id="815cf-103">The definition of the property that is being compared.</span></span></param>
+        <param name="otherPropertyDefinition"><span data-ttu-id="815cf-104">Определение сравниваемого свойства.</span><span class="sxs-lookup"><span data-stu-id="815cf-104">The definition of the property that is being compared.</span></span></param>
+        <summary><span data-ttu-id="815cf-105">Инициализирует новый экземпляр класса SearchFilter. Исекуалто с указанными определениями свойств.</span><span class="sxs-lookup"><span data-stu-id="815cf-105">Initializes a new instance of the SearchFilter.IsEqualTo class with the specified property definitions.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,24 +72,9 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">
-          <span data-ttu-id="ea857-106">Определение свойств, который сравнивается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea857-106">The definition of the property that is being compared.</span>
-          </span>
-        </param>
-        <param name="value">
-          <span data-ttu-id="ea857-107">Значение для сравнения свойства с.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea857-107">The value to compare the property with.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ea857-108">Инициализирует новый экземпляр класса SearchFilter.IsEqualTo определения указанного свойства и значения для сравнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea857-108">Initializes a new instance of the SearchFilter.IsEqualTo class with the specified property definition and value to compare.</span>
-          </span>
-        </summary>
+        <param name="propertyDefinition"><span data-ttu-id="815cf-106">Определение сравниваемого свойства.</span><span class="sxs-lookup"><span data-stu-id="815cf-106">The definition of the property that is being compared.</span></span></param>
+        <param name="value"><span data-ttu-id="815cf-107">Значение, с которым сравнивается свойство.</span><span class="sxs-lookup"><span data-stu-id="815cf-107">The value to compare the property with.</span></span></param>
+        <summary><span data-ttu-id="815cf-108">Инициализирует новый экземпляр класса SearchFilter. Исекуалто с указанным определением свойства и значением для сравнения.</span><span class="sxs-lookup"><span data-stu-id="815cf-108">Initializes a new instance of the SearchFilter.IsEqualTo class with the specified property definition and value to compare.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

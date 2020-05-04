@@ -1,13 +1,5 @@
 <Type Name="StreamingSubscriptionConnection" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e9da615d5ab3c567c9b50f777e7e045855d28108" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626812" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class StreamingSubscriptionConnection : IDisposable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e9da615d5ab3c567c9b50f777e7e045855d28108" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626812" /></Metadata><TypeSignature Language="C#" Value="public sealed class StreamingSubscriptionConnection : IDisposable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StreamingSubscriptionConnection extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StreamingSubscriptionConnection&#xA;Implements IDisposable" />
@@ -25,12 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-      <span data-ttu-id="52cb0-101">Представляет подключение для текущего потока событий.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52cb0-101">Represents a connection to an ongoing stream of events.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f1c78-101">Представляет подключение к текущему потоку событий.</span><span class="sxs-lookup"><span data-stu-id="f1c78-101">Represents a connection to an ongoing stream of events.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,20 +37,9 @@
         <Parameter Name="lifetime" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="52cb0-102">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, который использует это подключение для подключения к серверу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> instance that this connection uses to connect to the server.</span>
-          </span>
-        </param>
+        <param name="service"><span data-ttu-id="f1c78-102"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, который используется этим подключением для подключения к серверу.</span><span class="sxs-lookup"><span data-stu-id="f1c78-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> instance that this connection uses to connect to the server.</span></span></param>
         <param name="lifetime">To be added.</param>
-        <summary>
-          <span data-ttu-id="52cb0-103">Инициализирует новый экземпляр класса StreamingSubscriptionConnection.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-103">Initializes a new instance of the StreamingSubscriptionConnection class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1c78-103">Инициализирует новый экземпляр класса StreamingSubscriptionConnection.</span><span class="sxs-lookup"><span data-stu-id="f1c78-103">Initializes a new instance of the StreamingSubscriptionConnection class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,26 +60,10 @@
         <Parameter Name="lifetime" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="52cb0-104">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, который использует это подключение для подключения к серверу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-104">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> instance that this connection uses to connect to the server.</span>
-          </span>
-        </param>
-        <param name="subscriptions">
-          <span data-ttu-id="52cb0-105">A <see cref="T:Microsoft.Exchange.WebServices.Data.StreamingSubscription" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-105">A <see cref="T:Microsoft.Exchange.WebServices.Data.StreamingSubscription" /> object.</span>
-          </span>
-        </param>
+        <param name="service"><span data-ttu-id="f1c78-104"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, который используется этим подключением для подключения к серверу.</span><span class="sxs-lookup"><span data-stu-id="f1c78-104">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> instance that this connection uses to connect to the server.</span></span></param>
+        <param name="subscriptions"><span data-ttu-id="f1c78-105">Объект <see cref="T:Microsoft.Exchange.WebServices.Data.StreamingSubscription" />.</span><span class="sxs-lookup"><span data-stu-id="f1c78-105">A <see cref="T:Microsoft.Exchange.WebServices.Data.StreamingSubscription" /> object.</span></span></param>
         <param name="lifetime">To be added.</param>
-        <summary>
-          <span data-ttu-id="52cb0-106">Инициализирует новый экземпляр класса StreamingSubscriptionConnection.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-106">Initializes a new instance of the StreamingSubscriptionConnection class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1c78-106">Инициализирует новый экземпляр класса StreamingSubscriptionConnection.</span><span class="sxs-lookup"><span data-stu-id="f1c78-106">Initializes a new instance of the StreamingSubscriptionConnection class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,25 +85,10 @@
         <Parameter Name="subscription" Type="Microsoft.Exchange.WebServices.Data.StreamingSubscription" />
       </Parameters>
       <Docs>
-        <param name="subscription">
-          <span data-ttu-id="52cb0-107">Подписки для добавления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-107">The subscription to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="52cb0-108">Добавляет подписку на это подключение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-108">Adds a subscription to this connection.</span>
-          </span>
-        </summary>
+        <param name="subscription"><span data-ttu-id="f1c78-107">Добавляемая подписка.</span><span class="sxs-lookup"><span data-stu-id="f1c78-107">The subscription to add.</span></span></param>
+        <summary><span data-ttu-id="f1c78-108">Добавляет подписку к этому подключению.</span><span class="sxs-lookup"><span data-stu-id="f1c78-108">Adds a subscription to this connection.</span></span></summary>
         <remarks>To be added.</remarks>
-        <exception cref="System.InvalidOperationException">
-          <span data-ttu-id="52cb0-109">Возникает при вызове AddSubscription во время подключения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-109">Thrown when AddSubscription is called while connected.</span>
-          </span>
-        </exception>
+        <exception cref="System.InvalidOperationException"><span data-ttu-id="f1c78-109">Вызывается при вызове Addsubscriptionhttp при подключении.</span><span class="sxs-lookup"><span data-stu-id="f1c78-109">Thrown when AddSubscription is called while connected.</span></span></exception>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -162,24 +107,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="52cb0-110">Закрывает это подключение таким образом останавливается, получение событий с сервера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-110">Closes this connection so it stops receiving events from the server.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="52cb0-111">
-            <para>Это завершение работы долгосрочную звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-111">
-              <para>This terminates a long-standing call to Exchange Web Services (EWS).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f1c78-110">Закрывает это подключение, чтобы оно прекратило получать события от сервера.</span><span class="sxs-lookup"><span data-stu-id="f1c78-110">Closes this connection so it stops receiving events from the server.</span></span></summary>
+        <remarks><span data-ttu-id="f1c78-111"><para>Это завершает долгосрочный вызов веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="f1c78-111"><para>This terminates a long-standing call to Exchange Web Services (EWS).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentSubscriptions">
@@ -197,12 +128,7 @@
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.StreamingSubscription&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52cb0-112">Получает текущий подписок данного подключения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-112">Gets the current subscriptions in this connection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1c78-112">Получает текущие подписки в данном подключении.</span><span class="sxs-lookup"><span data-stu-id="f1c78-112">Gets the current subscriptions in this connection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -226,12 +152,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="52cb0-113">Освобождает ресурсы, которые связаны с этой StreamingSubscriptionConnection.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-113">Frees resources that are associated with this StreamingSubscriptionConnection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1c78-113">Освобождает ресурсы, связанные с этим StreamingSubscriptionConnection.</span><span class="sxs-lookup"><span data-stu-id="f1c78-113">Frees resources that are associated with this StreamingSubscriptionConnection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -270,20 +191,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52cb0-114">Получает значение, указывающее, открыт ли это подключение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-114">Gets a value that indicates whether this connection is open.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="52cb0-115">
-            <b>значение true,</b> Если подключение открыто; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-115">
-              <b>true</b> if the connection is open; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f1c78-114">Получает значение, указывающее, открыто ли это подключение.</span><span class="sxs-lookup"><span data-stu-id="f1c78-114">Gets a value that indicates whether this connection is open.</span></span></summary>
+        <value><span data-ttu-id="f1c78-115"><b>значение true</b> , если подключение открыто; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="f1c78-115"><b>true</b> if the connection is open; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -302,12 +211,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+SubscriptionErrorDelegate</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52cb0-116">Происходит, когда потоковой передачи подписки соединения с сервера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-116">Occurs when a streaming subscription connection is disconnected from the server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1c78-116">Происходит, когда подключение к потоковой подписке отключается от сервера.</span><span class="sxs-lookup"><span data-stu-id="f1c78-116">Occurs when a streaming subscription connection is disconnected from the server.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -326,12 +230,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+NotificationEventDelegate</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52cb0-117">Происходит, когда происходит получение уведомлений с сервера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-117">Occurs when notifications are received from the server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1c78-117">Возникает при получении уведомлений от сервера.</span><span class="sxs-lookup"><span data-stu-id="f1c78-117">Occurs when notifications are received from the server.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -350,12 +249,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+SubscriptionErrorDelegate</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="52cb0-118">Происходит, когда подписка возникает ошибка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-118">Occurs when a subscription encounters an error.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1c78-118">Возникает, когда в подписке возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="f1c78-118">Occurs when a subscription encounters an error.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -375,19 +269,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="52cb0-119">Открывает это подключение начинается для получения событий на сервере.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-119">Opens this connection so that it begins to receive events from the server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1c78-119">Открывает это подключение, чтобы оно начинало получать события с сервера.</span><span class="sxs-lookup"><span data-stu-id="f1c78-119">Opens this connection so that it begins to receive events from the server.</span></span></summary>
         <remarks>To be added.</remarks>
-        <exception cref="System.InvalidOperationException">
-          <span data-ttu-id="52cb0-120">Возникает при вызове открыть во время подключения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-120">Thrown when Open is called while connected.</span>
-          </span>
-        </exception>
+        <exception cref="System.InvalidOperationException"><span data-ttu-id="f1c78-120">Вызывается, когда вызывается метод Open при подключении.</span><span class="sxs-lookup"><span data-stu-id="f1c78-120">Thrown when Open is called while connected.</span></span></exception>
       </Docs>
     </Member>
     <Member MemberName="RemoveSubscription">
@@ -408,25 +292,10 @@
         <Parameter Name="subscription" Type="Microsoft.Exchange.WebServices.Data.StreamingSubscription" />
       </Parameters>
       <Docs>
-        <param name="subscription">
-          <span data-ttu-id="52cb0-121">Подписки, которую необходимо удалить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-121">The subscription to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="52cb0-122">Удаление указанной подписки потоковой передачи из подключения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-122">Removes the specified streaming subscription from the connection.</span>
-          </span>
-        </summary>
+        <param name="subscription"><span data-ttu-id="f1c78-121">Подписку, которую необходимо удалить.</span><span class="sxs-lookup"><span data-stu-id="f1c78-121">The subscription to remove.</span></span></param>
+        <summary><span data-ttu-id="f1c78-122">Удаляет указанную потоковую подписку из подключения.</span><span class="sxs-lookup"><span data-stu-id="f1c78-122">Removes the specified streaming subscription from the connection.</span></span></summary>
         <remarks>To be added.</remarks>
-        <exception cref="System.InvalidOperationException">
-          <span data-ttu-id="52cb0-123">Возникает при вызове RemoveSubscription во время подключения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="52cb0-123">Thrown when RemoveSubscription is called while connected.</span>
-          </span>
-        </exception>
+        <exception cref="System.InvalidOperationException"><span data-ttu-id="f1c78-123">Вызывается при вызове Ремовесубскриптион при подключении.</span><span class="sxs-lookup"><span data-stu-id="f1c78-123">Thrown when RemoveSubscription is called while connected.</span></span></exception>
       </Docs>
     </Member>
   </Members>

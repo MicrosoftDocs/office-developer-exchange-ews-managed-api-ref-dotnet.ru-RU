@@ -1,13 +1,5 @@
 <Type Name="Grouping" FullName="Microsoft.Exchange.WebServices.Data.Grouping">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dfbc3ea8ced3614a4d204217efa8d458654d13c6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626569" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Grouping" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dfbc3ea8ced3614a4d204217efa8d458654d13c6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626569" /></Metadata><TypeSignature Language="C#" Value="public sealed class Grouping" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Grouping extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Grouping" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Grouping" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="166ad-101">Представляет объединение параметров в операции поиска элемента.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="166ad-101">Represents grouping options in item search operations.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="08823-101">Представляет параметры группировки в операциях поиска элементов.</span><span class="sxs-lookup"><span data-stu-id="08823-101">Represents grouping options in item search operations.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="166ad-102">Инициализирует новый экземпляр класса группировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-102">Initializes a new instance of the Grouping class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="08823-102">Инициализирует новый экземпляр класса Group.</span><span class="sxs-lookup"><span data-stu-id="08823-102">Initializes a new instance of the Grouping class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,36 +51,11 @@
         <Parameter Name="aggregateType" Type="Microsoft.Exchange.WebServices.Data.AggregateType" />
       </Parameters>
       <Docs>
-        <param name="groupOn">
-          <span data-ttu-id="166ad-103">Свойства группы после.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-103">The property to group upon.</span>
-          </span>
-        </param>
-        <param name="sortDirection">
-          <span data-ttu-id="166ad-104">Направление сортировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-104">The sort direction.</span>
-          </span>
-        </param>
-        <param name="aggregateOn">
-          <span data-ttu-id="166ad-105">Свойство к сбору статистических данных по.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-105">The property to aggregate upon.</span>
-          </span>
-        </param>
-        <param name="aggregateType">
-          <span data-ttu-id="166ad-106">Тип выполняется статистическая обработка для вычисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-106">The type of aggregate to calculate.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="166ad-107">Инициализирует новый экземпляр класса группировки, который связан с указанным <paramref name="groupOn" /> параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-107">Initializes a new instance of the Grouping class that is associated with the specified <paramref name="groupOn" /> parameter.</span>
-          </span>
-        </summary>
+        <param name="groupOn"><span data-ttu-id="08823-103">Свойство, по которому выполняется группировка.</span><span class="sxs-lookup"><span data-stu-id="08823-103">The property to group upon.</span></span></param>
+        <param name="sortDirection"><span data-ttu-id="08823-104">Направление сортировки.</span><span class="sxs-lookup"><span data-stu-id="08823-104">The sort direction.</span></span></param>
+        <param name="aggregateOn"><span data-ttu-id="08823-105">Свойство, по которому выполняется статистическое вычисление.</span><span class="sxs-lookup"><span data-stu-id="08823-105">The property to aggregate upon.</span></span></param>
+        <param name="aggregateType"><span data-ttu-id="08823-106">Тип агрегата для вычисления.</span><span class="sxs-lookup"><span data-stu-id="08823-106">The type of aggregate to calculate.</span></span></param>
+        <summary><span data-ttu-id="08823-107">Инициализирует новый экземпляр класса группирования, связанного с указанным <paramref name="groupOn" /> параметром.</span><span class="sxs-lookup"><span data-stu-id="08823-107">Initializes a new instance of the Grouping class that is associated with the specified <paramref name="groupOn" /> parameter.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,18 +74,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="166ad-108">Получает или задает для свойства значение статистической обработки после.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-108">Gets or sets the property to aggregate upon.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="166ad-109">Свойство к сбору статистических данных по.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-109">The property to aggregate upon.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="08823-108">Получает или задает свойство, по которому выполняется статистическое вычисление.</span><span class="sxs-lookup"><span data-stu-id="08823-108">Gets or sets the property to aggregate upon.</span></span></summary>
+        <value><span data-ttu-id="08823-109">Свойство, по которому выполняется статистическое вычисление.</span><span class="sxs-lookup"><span data-stu-id="08823-109">The property to aggregate upon.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -147,18 +94,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AggregateType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="166ad-110">Получает или задает типы выполняется статистическая обработка для вычисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-110">Gets or sets the types of aggregate to calculate.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="166ad-111">Одно из значений перечисления AggregateType, чтобы указать, будет ли значения пример свойства используется для упорядочения элементов в группе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-111">One of the AggregateType enumeration values that identify whether the maximum or minimum value of a representative property is used to order the items in a group.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="08823-110">Получает или задает типы статистических вычислений, которые требуется вычислить.</span><span class="sxs-lookup"><span data-stu-id="08823-110">Gets or sets the types of aggregate to calculate.</span></span></summary>
+        <value><span data-ttu-id="08823-111">Одно из значений перечисления Аггрегатетипе, которое определяет, используется ли максимальное или минимальное значение свойства-представителя для упорядочивания элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="08823-111">One of the AggregateType enumeration values that identify whether the maximum or minimum value of a representative property is used to order the items in a group.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -177,18 +114,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="166ad-112">Получает или задает свойства группы после.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-112">Gets or sets the property to group upon.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="166ad-113">Объект класса PropertyDefinitionBase с помощью свойства группы после.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-113">A PropertyDefinitionBase class object with the property to group upon.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="08823-112">Получает или задает свойство, по которому выполняется группировка.</span><span class="sxs-lookup"><span data-stu-id="08823-112">Gets or sets the property to group upon.</span></span></summary>
+        <value><span data-ttu-id="08823-113">Объект класса Пропертидефинитионбасе со свойством, по которому выполняется группировка.</span><span class="sxs-lookup"><span data-stu-id="08823-113">A PropertyDefinitionBase class object with the property to group upon.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -207,18 +134,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SortDirection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="166ad-114">Получает или задает направление сортировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-114">Gets or sets the sort direction.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="166ad-115">Одно из значений перечисления направления сортировки, которые определяют порядок сортировки для данных, который возвращается службой поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="166ad-115">One of the SortDirection enumeration values that define the sort order for data that is returned by a search.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="08823-114">Получает или задает направление сортировки.</span><span class="sxs-lookup"><span data-stu-id="08823-114">Gets or sets the sort direction.</span></span></summary>
+        <value><span data-ttu-id="08823-115">Одно из значений перечисления SortDirection, определяющее порядок сортировки данных, возвращаемых службой поиска.</span><span class="sxs-lookup"><span data-stu-id="08823-115">One of the SortDirection enumeration values that define the sort order for data that is returned by a search.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

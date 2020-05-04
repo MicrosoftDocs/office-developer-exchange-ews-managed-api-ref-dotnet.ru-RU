@@ -1,13 +1,5 @@
 <Type Name="DayOfTheWeek" FullName="Microsoft.Exchange.WebServices.Data.DayOfTheWeek">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7b8f9038ce6575dc8da4088849e6e25d7f6a5220" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626781" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum DayOfTheWeek" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b8f9038ce6575dc8da4088849e6e25d7f6a5220" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626781" /></Metadata><TypeSignature Language="C#" Value="public enum DayOfTheWeek" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DayOfTheWeek extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />
   <TypeSignature Language="VB.NET" Value="Public Enum DayOfTheWeek" />
@@ -20,25 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="6eb74-101">Задает день недели.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6eb74-101">Specifies the day of the week.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="6eb74-102">
-        <para>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> Значение перечисления совпадает с <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a><see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" /> через <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />). Эти значения могут быть безопасно приведен между двумя перечисления. Особые дни недели (<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />, <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />, и <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />), используемых для повторения ежемесячно и ежегодно и нельзя привести к <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a></para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6eb74-102">
-          <para>The <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration value is the same as the <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a><see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" /> through <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />). These values can be safely cast between the two enumerations. The special days of the week (<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />, <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />, and <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />) are used for monthly and yearly recurrences and cannot be cast to <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="43894-101">Задает день недели.</span><span class="sxs-lookup"><span data-stu-id="43894-101">Specifies the day of the week.</span></span></summary>
+    <remarks><span data-ttu-id="43894-102"><para>Значение <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> перечисления это то же, что и <a href="http://go.microsoft.com/fwlink/?LinkId=163123">т:систем.дайофвик</a> <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" /> <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />. Эти значения могут быть безопасно приведены между этими двумя перечислениями. Особые дни недели<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />(, <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />и <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />) используются для ежемесячных и ежегодных повторений и не могут быть приведены к <a href="http://go.microsoft.com/fwlink/?LinkId=163123">т:систем.дайофвик</a> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="43894-102"><para>The <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration value is the same as the <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a><see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" /> through <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />). These values can be safely cast between the two enumerations. The special days of the week (<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />, <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />, and <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />) are used for monthly and yearly recurrences and cannot be cast to <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a></para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Day">
@@ -57,12 +34,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-103">Любой день недели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-103">Any day of the week.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-103">Любой день недели.</span><span class="sxs-lookup"><span data-stu-id="43894-103">Any day of the week.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Friday">
@@ -81,12 +53,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-104">Пятница.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-104">Friday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-104">Пятницам.</span><span class="sxs-lookup"><span data-stu-id="43894-104">Friday.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Monday">
@@ -105,12 +72,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-105">Понедельник.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-105">Monday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-105">Вторник.</span><span class="sxs-lookup"><span data-stu-id="43894-105">Monday.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Saturday">
@@ -129,12 +91,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-106">Суббота.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-106">Saturday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-106">Субботу.</span><span class="sxs-lookup"><span data-stu-id="43894-106">Saturday.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Sunday">
@@ -153,12 +110,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-107">Воскресенье.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-107">Sunday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-107">Воскресеньям.</span><span class="sxs-lookup"><span data-stu-id="43894-107">Sunday.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Thursday">
@@ -177,12 +129,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-108">Четверг.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-108">Thursday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-108">Пятница.</span><span class="sxs-lookup"><span data-stu-id="43894-108">Thursday.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Tuesday">
@@ -201,12 +148,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-109">Вторник.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-109">Tuesday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-109">Во.</span><span class="sxs-lookup"><span data-stu-id="43894-109">Tuesday.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Wednesday">
@@ -225,12 +167,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-110">Среда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-110">Wednesday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-110">Четверг.</span><span class="sxs-lookup"><span data-stu-id="43894-110">Wednesday.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Weekday">
@@ -249,12 +186,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-111">Любой день недели обычной коммерческой деятельности (понедельника по пятницу).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-111">Any day of the usual business week (Monday through Friday).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-111">Любой день обычной рабочей недели (с понедельника по пятницу).</span><span class="sxs-lookup"><span data-stu-id="43894-111">Any day of the usual business week (Monday through Friday).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="WeekendDay">
@@ -273,12 +205,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6eb74-112">Любой выходной день (суббота или воскресенье).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6eb74-112">Any weekend day (Saturday or Sunday).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43894-112">Любой выходной день (суббота или воскресенье).</span><span class="sxs-lookup"><span data-stu-id="43894-112">Any weekend day (Saturday or Sunday).</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+PropertyBasedFilter" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+PropertyBasedFilter">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="84f5413d92f1ee5a8fc174908ec5bc522f8dd652" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626535" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class SearchFilter.PropertyBasedFilter : Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="84f5413d92f1ee5a8fc174908ec5bc522f8dd652" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626535" /></Metadata><TypeSignature Language="C#" Value="public abstract class SearchFilter.PropertyBasedFilter : Microsoft.Exchange.WebServices.Data.SearchFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit SearchFilter/PropertyBasedFilter extends Microsoft.Exchange.WebServices.Data.SearchFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class SearchFilter.PropertyBasedFilter&#xA;Inherits SearchFilter" />
@@ -26,12 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e5431-101">Представляет поисковый фильтр, основанный на элемент или папку свойства.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e5431-101">Represents a search filter that is based on an item or folder property.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="9fa1b-101">Представляет фильтр поиска, основанный на свойстве элемента или папки.</span><span class="sxs-lookup"><span data-stu-id="9fa1b-101">Represents a search filter that is based on an item or folder property.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,30 +37,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e5431-102">Получает или задает свойства элемента, используемый для фильтрации поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5431-102">Gets or sets an item property that is used to filter the search.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="e5431-103">Определение свойств элемента, используемый для фильтрации поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5431-103">The definition of the item property that is used to filter the search.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="e5431-104">
-            <para>Свойство определения доступны как статические члены из классов схемы таких как <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" />, <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" />, <see cref="T:Microsoft.Exchange.WebServices.Data.ContactSchema" />, и т. д.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e5431-104">
-              <para>Property definitions are available as static members from schema classes such as <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" />, <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" />, <see cref="T:Microsoft.Exchange.WebServices.Data.ContactSchema" />, and so on.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="9fa1b-102">Получает или задает свойство элемента, используемое для фильтрации поиска.</span><span class="sxs-lookup"><span data-stu-id="9fa1b-102">Gets or sets an item property that is used to filter the search.</span></span></summary>
+        <value><span data-ttu-id="9fa1b-103">Определение свойства элемента, используемого для фильтрации поиска.</span><span class="sxs-lookup"><span data-stu-id="9fa1b-103">The definition of the item property that is used to filter the search.</span></span></value>
+        <remarks><span data-ttu-id="9fa1b-104"><para>Определения свойств доступны в виде статических элементов из классов схемы, таких <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" />как <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" />, <see cref="T:Microsoft.Exchange.WebServices.Data.ContactSchema" />, и т. д.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="9fa1b-104"><para>Property definitions are available as static members from schema classes such as <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" />, <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" />, <see cref="T:Microsoft.Exchange.WebServices.Data.ContactSchema" />, and so on.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

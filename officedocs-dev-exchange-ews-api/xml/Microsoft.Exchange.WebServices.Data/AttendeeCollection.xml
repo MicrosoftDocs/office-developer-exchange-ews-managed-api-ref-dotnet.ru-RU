@@ -1,13 +1,5 @@
 <Type Name="AttendeeCollection" FullName="Microsoft.Exchange.WebServices.Data.AttendeeCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="170217c47aa4c92a6bd410bbba294ff977d1c0e9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626723" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AttendeeCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attendee&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="170217c47aa4c92a6bd410bbba294ff977d1c0e9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626723" /></Metadata><TypeSignature Language="C#" Value="public sealed class AttendeeCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attendee&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttendeeCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Attendee&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttendeeCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttendeeCollection&#xA;Inherits ComplexPropertyCollection(Of Attendee)" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="3f7a3-101">Представляет коллекцию участников.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3f7a3-101">Represents a collection of attendees.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="179a3-101">Представляет коллекцию участников.</span><span class="sxs-lookup"><span data-stu-id="179a3-101">Represents a collection of attendees.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -55,18 +42,8 @@
         <Parameter Name="attendee" Type="Microsoft.Exchange.WebServices.Data.Attendee" />
       </Parameters>
       <Docs>
-        <param name="attendee">
-          <span data-ttu-id="3f7a3-102">Участника для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-102">The attendee to add to the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3f7a3-103">Добавляет участника в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-103">Adds an attendee to the collection.</span>
-          </span>
-        </summary>
+        <param name="attendee"><span data-ttu-id="179a3-102">Участник, добавляемый в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="179a3-102">The attendee to add to the collection.</span></span></param>
+        <summary><span data-ttu-id="179a3-103">Добавляет участника в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="179a3-103">Adds an attendee to the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,24 +65,9 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">
-          <span data-ttu-id="3f7a3-104">SMTP-адрес участника для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-104">The SMTP address of the attendee to add to the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3f7a3-105">Добавляет участника в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-105">Adds an attendee to the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3f7a3-106">Экземпляр класса Attendee, инициализированный отмеченными SMTP-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-106">An instance of the Attendee class that is initialized with the provided SMTP address.</span>
-          </span>
-        </returns>
+        <param name="smtpAddress"><span data-ttu-id="179a3-104">SMTP-адрес участника, добавляемого в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="179a3-104">The SMTP address of the attendee to add to the collection.</span></span></param>
+        <summary><span data-ttu-id="179a3-105">Добавляет участника в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="179a3-105">Adds an attendee to the collection.</span></span></summary>
+        <returns><span data-ttu-id="179a3-106">Экземпляр класса участника, инициализируемый с помощью предоставленного SMTP-адреса.</span><span class="sxs-lookup"><span data-stu-id="179a3-106">An instance of the Attendee class that is initialized with the provided SMTP address.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,30 +90,10 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <span data-ttu-id="3f7a3-107">Имя участника для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-107">The name of the attendee to add to the collection.</span>
-          </span>
-        </param>
-        <param name="smtpAddress">
-          <span data-ttu-id="3f7a3-108">SMTP-адрес участника для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-108">The SMTP address of the attendee to add to the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3f7a3-109">Добавляет участника в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-109">Adds an attendee to the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3f7a3-110">Экземпляр класса Attendee, инициализирован с указанным именем и SMTP-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-110">An instance of the Attendee class that is initialized with the provided name and SMTP address.</span>
-          </span>
-        </returns>
+        <param name="name"><span data-ttu-id="179a3-107">Имя участника, добавляемого в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="179a3-107">The name of the attendee to add to the collection.</span></span></param>
+        <param name="smtpAddress"><span data-ttu-id="179a3-108">SMTP-адрес участника, добавляемого в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="179a3-108">The SMTP address of the attendee to add to the collection.</span></span></param>
+        <summary><span data-ttu-id="179a3-109">Добавляет участника в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="179a3-109">Adds an attendee to the collection.</span></span></summary>
+        <returns><span data-ttu-id="179a3-110">Экземпляр класса участника, который инициализируется с указанным именем и SMTP-адресом.</span><span class="sxs-lookup"><span data-stu-id="179a3-110">An instance of the Attendee class that is initialized with the provided name and SMTP address.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -171,12 +113,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3f7a3-111">Удаляет из коллекции всех участников.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-111">Removes all attendees from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="179a3-111">Удаляет всех участников из коллекции.</span><span class="sxs-lookup"><span data-stu-id="179a3-111">Removes all attendees from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -197,26 +134,9 @@
         <Parameter Name="attendee" Type="Microsoft.Exchange.WebServices.Data.Attendee" />
       </Parameters>
       <Docs>
-        <param name="attendee">
-          <span data-ttu-id="3f7a3-112">Участника, чтобы удалить из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-112">The attendee to remove from the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3f7a3-113">Удаление участника из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-113">Removes an attendee from the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3f7a3-114">
-            <b>значение true,</b> Если участник успешно удалена из коллекции. в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-114">
-              <b>true</b> if the attendee was successfully removed from the collection; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="attendee"><span data-ttu-id="179a3-112">Участник, который необходимо удалить из коллекции.</span><span class="sxs-lookup"><span data-stu-id="179a3-112">The attendee to remove from the collection.</span></span></param>
+        <summary><span data-ttu-id="179a3-113">Удаляет участника из коллекции.</span><span class="sxs-lookup"><span data-stu-id="179a3-113">Removes an attendee from the collection.</span></span></summary>
+        <returns><span data-ttu-id="179a3-114"><b>значение true</b> , если участник успешно удален из коллекции; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="179a3-114"><b>true</b> if the attendee was successfully removed from the collection; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -238,18 +158,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="3f7a3-115">Индекс attendee, чтобы удалить из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-115">The index of the attendee to remove from the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3f7a3-116">Удаление участника из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3f7a3-116">Removes an attendee from the collection.</span>
-          </span>
-        </summary>
+        <param name="index"><span data-ttu-id="179a3-115">Индекс участника, который необходимо удалить из коллекции.</span><span class="sxs-lookup"><span data-stu-id="179a3-115">The index of the attendee to remove from the collection.</span></span></param>
+        <summary><span data-ttu-id="179a3-116">Удаляет участника из коллекции.</span><span class="sxs-lookup"><span data-stu-id="179a3-116">Removes an attendee from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="FolderPermissionReadAccess" FullName="Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c585dc6e4449b474d86e76eb8c170dc94fc7c3b8" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626765" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FolderPermissionReadAccess" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c585dc6e4449b474d86e76eb8c170dc94fc7c3b8" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626765" /></Metadata><TypeSignature Language="C#" Value="public enum FolderPermissionReadAccess" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FolderPermissionReadAccess extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess" />
   <TypeSignature Language="VB.NET" Value="Public Enum FolderPermissionReadAccess" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ef9e1-101">Определяет пользователя разрешение на чтение для элементов в папке календаря, отличного от.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ef9e1-101">Defines a user's read access permission on items in a non-calendar folder.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="74686-101">Определяет разрешение на чтение для элементов в папке, не относящейся к календарю.</span><span class="sxs-lookup"><span data-stu-id="74686-101">Defines a user's read access permission on items in a non-calendar folder.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9e1-102">Пользователь имеет доступ к полные сведения элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9e1-102">The user has access to the full details of items.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74686-102">У пользователя есть доступ к полным сведениям об элементах.</span><span class="sxs-lookup"><span data-stu-id="74686-102">The user has access to the full details of items.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9e1-103">Пользователь имеет доступ на чтение для элементов в папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9e1-103">The user has no read access on the items in the folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74686-103">У пользователя нет прав на чтение элементов в папке.</span><span class="sxs-lookup"><span data-stu-id="74686-103">The user has no read access on the items in the folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="TimeAndSubjectAndLocation">
@@ -93,16 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9e1-104">Пользователь может читать начальная и конечная даты и время, тему и место встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9e1-104">The user can read the start and end date and time, subject, and location of appointments.</span>
-          </span>
-          <span data-ttu-id="ef9e1-105">(Может применяться только к папкам календаря).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9e1-105">(Can only be applied to Calendar folders).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74686-104">Пользователь может читать дату и время начала и окончания, тему и место встречи.</span><span class="sxs-lookup"><span data-stu-id="74686-104">The user can read the start and end date and time, subject, and location of appointments.</span></span> <span data-ttu-id="74686-105">(Можно применять только к папкам календаря).</span><span class="sxs-lookup"><span data-stu-id="74686-105">(Can only be applied to Calendar folders).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="TimeOnly">
@@ -121,16 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ef9e1-106">Пользователь может читать начальная и конечная даты и времени встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9e1-106">The user can read the start and end date and time of appointments.</span>
-          </span>
-          <span data-ttu-id="ef9e1-107">(Может применяться только к папкам календаря).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ef9e1-107">(Can only be applied to Calendar folders).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74686-106">Пользователь может считывать дату и время начала и окончания встреч.</span><span class="sxs-lookup"><span data-stu-id="74686-106">The user can read the start and end date and time of appointments.</span></span> <span data-ttu-id="74686-107">(Можно применять только к папкам календаря).</span><span class="sxs-lookup"><span data-stu-id="74686-107">(Can only be applied to Calendar folders).</span></span></summary>
       </Docs>
     </Member>
   </Members>

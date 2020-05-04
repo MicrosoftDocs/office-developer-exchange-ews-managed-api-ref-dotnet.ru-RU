@@ -1,13 +1,5 @@
 <Type Name="MeetingSuggestion" FullName="Microsoft.Exchange.WebServices.Data.MeetingSuggestion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0b9d86415fee65d1420f821b997e0f439c9559f9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626578" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MeetingSuggestion : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0b9d86415fee65d1420f821b997e0f439c9559f9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626578" /></Metadata><TypeSignature Language="C#" Value="public sealed class MeetingSuggestion : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MeetingSuggestion extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MeetingSuggestion&#xA;Inherits ExtractedEntity" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="8367e-101">Содержит сведения о приглашения на собрание с предложенного собрания.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8367e-101">Contains information about a meeting response with a suggested meeting time.</span>
-      </span>
-      <span data-ttu-id="8367e-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8367e-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="16611-101">Содержит сведения о ответе на приглашение с предложенным временем собрания.</span><span class="sxs-lookup"><span data-stu-id="16611-101">Contains information about a meeting response with a suggested meeting time.</span></span>             <span data-ttu-id="16611-102"><see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16611-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,23 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8367e-103">Получает участников собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-103">Gets the attendees for the meeting.</span>
-          </span>
-          <span data-ttu-id="8367e-104">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8367e-105">Участники.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-105">The attendees.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="16611-103">Получает участников собрания.</span><span class="sxs-lookup"><span data-stu-id="16611-103">Gets the attendees for the meeting.</span></span>             <span data-ttu-id="16611-104"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16611-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="16611-105">Участники.</span><span class="sxs-lookup"><span data-stu-id="16611-105">The attendees.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,23 +52,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8367e-106">Получает время, когда будет окончания собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-106">Gets the time the meeting will end.</span>
-          </span>
-          <span data-ttu-id="8367e-107">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8367e-108">Время окончания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-108">The end time.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="16611-106">Получает время завершения собрания.</span><span class="sxs-lookup"><span data-stu-id="16611-106">Gets the time the meeting will end.</span></span>             <span data-ttu-id="16611-107"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16611-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="16611-108">Время окончания.</span><span class="sxs-lookup"><span data-stu-id="16611-108">The end time.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,23 +72,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8367e-109">Получает место собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-109">Gets the location of the meeting.</span>
-          </span>
-          <span data-ttu-id="8367e-110">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8367e-111">Расположение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-111">The location.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="16611-109">Получает место собрания.</span><span class="sxs-lookup"><span data-stu-id="16611-109">Gets the location of the meeting.</span></span>             <span data-ttu-id="16611-110"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16611-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="16611-111">Расположение.</span><span class="sxs-lookup"><span data-stu-id="16611-111">The location.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,23 +92,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8367e-112">Возвращает имя собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-112">Gets the name of the meeting.</span>
-          </span>
-          <span data-ttu-id="8367e-113">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8367e-114">Имя собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-114">The meeting name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="16611-112">Получает имя собрания.</span><span class="sxs-lookup"><span data-stu-id="16611-112">Gets the name of the meeting.</span></span>             <span data-ttu-id="16611-113"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16611-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="16611-114">Имя собрания.</span><span class="sxs-lookup"><span data-stu-id="16611-114">The meeting name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -190,23 +112,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8367e-115">Получает время начала собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-115">Gets the time the meeting starts.</span>
-          </span>
-          <span data-ttu-id="8367e-116">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-116">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8367e-117">Время начала.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-117">The start time.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="16611-115">Получает время начала собрания.</span><span class="sxs-lookup"><span data-stu-id="16611-115">Gets the time the meeting starts.</span></span>             <span data-ttu-id="16611-116"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16611-116">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="16611-117">Время начала.</span><span class="sxs-lookup"><span data-stu-id="16611-117">The start time.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,19 +132,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8367e-118">Получает строку темы собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-118">Gets the subject line of the meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8367e-119">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" /> Свойство используется для клиентов, относящихся к Exchange Online и subject предложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8367e-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" /> property is applicable for clients that target Exchange Online and suggestion subject.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="16611-118">Получает строку темы собрания.</span><span class="sxs-lookup"><span data-stu-id="16611-118">Gets the subject line of the meeting.</span></span></summary>
+        <value><span data-ttu-id="16611-119"><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" /> Свойство применяется для клиентов, которые предназначены для Exchange Online и темы предложения.</span><span class="sxs-lookup"><span data-stu-id="16611-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" /> property is applicable for clients that target Exchange Online and suggestion subject.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

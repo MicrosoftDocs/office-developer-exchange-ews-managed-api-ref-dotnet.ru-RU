@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+SearchFilterCollection" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+SearchFilterCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="72d4206dbb588dfe019d690d71d745c91fe11198" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626592" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.SearchFilterCollection : Microsoft.Exchange.WebServices.Data.SearchFilter, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="72d4206dbb588dfe019d690d71d745c91fe11198" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626592" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.SearchFilterCollection : Microsoft.Exchange.WebServices.Data.SearchFilter, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/SearchFilterCollection extends Microsoft.Exchange.WebServices.Data.SearchFilter implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.SearchFilter&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.SearchFilterCollection&#xA;Inherits SearchFilter&#xA;Implements IEnumerable(Of SearchFilter)" />
@@ -25,24 +17,10 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-      <span data-ttu-id="9b9f1-101">Представляет коллекцию поисковых фильтров, которые связаны с логический оператор.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9b9f1-101">Represents a collection of search filters that are linked by a logical operator.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="9b9f1-102">
-        <para>Можно использовать <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса, чтобы определить сложных поисковых фильтров, такие как «Условие2 <b>AND</b> Условие1».</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9b9f1-102">
-          <para>You can use the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class to define complex search filters such as "Condition1 <b>AND</b> Condition2".            </para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="f79bc-101">Представляет коллекцию фильтров поиска, связанных логическим оператором.</span><span class="sxs-lookup"><span data-stu-id="f79bc-101">Represents a collection of search filters that are linked by a logical operator.</span></span></summary>
+    <remarks><span data-ttu-id="f79bc-102"><para>С помощью <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса можно определять сложные фильтры поиска, например "condition1 <b>и</b> Condition2".</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="f79bc-102"><para>You can use the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class to define complex search filters such as "Condition1 <b>AND</b> Condition2".            </para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -58,24 +36,10 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9b9f1-103">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="9b9f1-104">
-            <para>После инициализации <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.LogicalOperator" /> свойству <see cref="F:Microsoft.Exchange.WebServices.Data.LogicalOperator.And" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-104">
-              <para>After initialization, the <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.LogicalOperator" /> property is set to <see cref="F:Microsoft.Exchange.WebServices.Data.LogicalOperator.And" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f79bc-103">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса.</span><span class="sxs-lookup"><span data-stu-id="f79bc-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class.</span></span></summary>
+        <remarks><span data-ttu-id="f79bc-104"><para>После инициализации для <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.LogicalOperator" /> <see cref="F:Microsoft.Exchange.WebServices.Data.LogicalOperator.And" />свойства задается значение.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="f79bc-104"><para>After initialization, the <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.LogicalOperator" /> property is set to <see cref="F:Microsoft.Exchange.WebServices.Data.LogicalOperator.And" />.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -92,18 +56,8 @@
         <Parameter Name="logicalOperator" Type="Microsoft.Exchange.WebServices.Data.LogicalOperator" />
       </Parameters>
       <Docs>
-        <param name="logicalOperator">
-          <span data-ttu-id="9b9f1-105">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> значений перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-105">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-106">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класс с указанным логического оператора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator.</span>
-          </span>
-        </summary>
+        <param name="logicalOperator"><span data-ttu-id="f79bc-105">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="f79bc-105">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</span></span></param>
+        <summary><span data-ttu-id="f79bc-106">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса с указанным логическим оператором.</span><span class="sxs-lookup"><span data-stu-id="f79bc-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,24 +82,9 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="logicalOperator">
-          <span data-ttu-id="9b9f1-107">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> значений перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-107">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</span>
-          </span>
-        </param>
-        <param name="searchFilters">
-          <span data-ttu-id="9b9f1-108">Фильтры поиска для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-108">The search filters to add to the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-109">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класс с указанного логического оператора и поиска фильтры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-109">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator and search filters.</span>
-          </span>
-        </summary>
+        <param name="logicalOperator"><span data-ttu-id="f79bc-107">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="f79bc-107">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</span></span></param>
+        <param name="searchFilters"><span data-ttu-id="f79bc-108">Фильтры поиска, добавляемые в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="f79bc-108">The search filters to add to the collection.</span></span></param>
+        <summary><span data-ttu-id="f79bc-109">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса с указанным логическим оператором и фильтрами поиска.</span><span class="sxs-lookup"><span data-stu-id="f79bc-109">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator and search filters.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -164,24 +103,9 @@
         <Parameter Name="searchFilters" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
       </Parameters>
       <Docs>
-        <param name="logicalOperator">
-          <span data-ttu-id="9b9f1-110">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> значений перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-110">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</span>
-          </span>
-        </param>
-        <param name="searchFilters">
-          <span data-ttu-id="9b9f1-111">Фильтры поиска для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-111">The search filters to add to the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-112">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класс с указанного логического оператора и поиска фильтры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator and search filters.</span>
-          </span>
-        </summary>
+        <param name="logicalOperator"><span data-ttu-id="f79bc-110">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="f79bc-110">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</span></span></param>
+        <param name="searchFilters"><span data-ttu-id="f79bc-111">Фильтры поиска, добавляемые в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="f79bc-111">The search filters to add to the collection.</span></span></param>
+        <summary><span data-ttu-id="f79bc-112">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса с указанным логическим оператором и фильтрами поиска.</span><span class="sxs-lookup"><span data-stu-id="f79bc-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator and search filters.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -202,154 +126,135 @@
         <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">
-          <span data-ttu-id="9b9f1-113">Добавить фильтр поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-113">The search filter to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-114">Добавляет в коллекцию поисковый фильтр любого типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-114">Adds a search filter of any type to the collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="9b9f1-115">
-            <para>Ниже приведены классы фильтра поиска.</para>
-            <list type="bullet">
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
-                </description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-115">
-              <para>The following are the available search filter classes:      </para>
-              <list type="bullet">
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
-                  </description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="searchFilter"><span data-ttu-id="f79bc-113">Фильтр поиска, который требуется добавить.</span><span class="sxs-lookup"><span data-stu-id="f79bc-113">The search filter to add.</span></span></param>
+        <summary><span data-ttu-id="f79bc-114">Добавляет в коллекцию фильтр поиска любого типа.</span><span class="sxs-lookup"><span data-stu-id="f79bc-114">Adds a search filter of any type to the collection.</span></span></summary>
+        <remarks><span data-ttu-id="f79bc-115"><para>Доступны следующие классы фильтра поиска:</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+              </description>
+            </item>
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="f79bc-115"><para>The following are the available search filter classes:      </para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+              </description>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddRange">
@@ -370,154 +275,135 @@
         <Parameter Name="searchFilters" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
       </Parameters>
       <Docs>
-        <param name="searchFilters">
-          <span data-ttu-id="9b9f1-116">Фильтры поиска для добавления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-116">The search filters to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-117">Добавляет в коллекцию один или несколько фильтров поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-117">Adds one or more search filters to the collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="9b9f1-118">
-            <para>Ниже приведены классы фильтра поиска.</para>
-            <list type="bullet">
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
-                </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
-                </description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-118">
-              <para>The following are the available search filter classes:      </para>
-              <list type="bullet">
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
-                  </description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
-                  </description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="searchFilters"><span data-ttu-id="f79bc-116">Фильтры поиска для добавления.</span><span class="sxs-lookup"><span data-stu-id="f79bc-116">The search filters to add.</span></span></param>
+        <summary><span data-ttu-id="f79bc-117">Добавляет один или несколько фильтров поиска в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="f79bc-117">Adds one or more search filters to the collection.</span></span></summary>
+        <remarks><span data-ttu-id="f79bc-118"><para>Доступны следующие классы фильтра поиска:</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+              </description>
+            </item>
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="f79bc-118"><para>The following are the available search filter classes:      </para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+              </description>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -536,12 +422,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9b9f1-119">Удаляет коллекцию фильтры поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-119">Clears the collection of search filters.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f79bc-119">Очищает коллекцию фильтров поиска.</span><span class="sxs-lookup"><span data-stu-id="f79bc-119">Clears the collection of search filters.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -562,26 +443,9 @@
         <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">
-          <span data-ttu-id="9b9f1-120">Поисковый фильтр для поиска в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-120">The search filter to locate in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-121">Определяет, является ли фильтр поиска в семействе сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-121">Determines whether a specific search filter is in the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9b9f1-122">
-            <b>значение true,</b> Если фильтр поиска в семействе сайтов; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-122">
-              <b>true</b> if the search filter is in the collection; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="searchFilter"><span data-ttu-id="f79bc-120">Фильтр поиска, который требуется найти в коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-120">The search filter to locate in the collection.</span></span></param>
+        <summary><span data-ttu-id="f79bc-121">Определяет, находится ли определенный фильтр поиска в коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-121">Determines whether a specific search filter is in the collection.</span></span></summary>
+        <returns><span data-ttu-id="f79bc-122"><b>значение true</b> , если фильтр поиска включен в коллекцию; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="f79bc-122"><b>true</b> if the search filter is in the collection; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -600,18 +464,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9b9f1-123">Возвращает общее число поисковых фильтров в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-123">Gets the total number of search filters in the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9b9f1-124">Число поисковых фильтров в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-124">The number of search filters in the collection.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f79bc-123">Получает общее количество фильтров поиска в коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-123">Gets the total number of search filters in the collection.</span></span></summary>
+        <value><span data-ttu-id="f79bc-124">Число фильтров поиска в коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-124">The number of search filters in the collection.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -634,18 +488,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9b9f1-125">Получает перечислитель, который выполняет элемента в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-125">Gets an enumerator that iterates through the elements of the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9b9f1-126">Перечислитель для коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-126">An enumerator for the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="f79bc-125">Получает перечислитель, который выполняет итерацию элементов коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-125">Gets an enumerator that iterates through the elements of the collection.</span></span></summary>
+        <returns><span data-ttu-id="f79bc-126">Перечислитель для коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-126">An enumerator for the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -667,24 +511,9 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="9b9f1-127">Отсчитываемый от нуля индекс поисковый фильтр, чтобы получить или задать.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-127">The zero-based index of the search filter to get or set.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-128">Получает или задает фильтр поиска по указанному индексу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-128">Gets or sets the search filter at the specified index.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9b9f1-129">Поисковый фильтр по указанному индексу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-129">The search filter at the specified index.</span>
-          </span>
-        </value>
+        <param name="index"><span data-ttu-id="f79bc-127">Отсчитываемый от нуля индекс фильтра поиска, который требуется получить или задать.</span><span class="sxs-lookup"><span data-stu-id="f79bc-127">The zero-based index of the search filter to get or set.</span></span></param>
+        <summary><span data-ttu-id="f79bc-128">Получает или задает фильтр поиска по указанному индексу.</span><span class="sxs-lookup"><span data-stu-id="f79bc-128">Gets or sets the search filter at the specified index.</span></span></summary>
+        <value><span data-ttu-id="f79bc-129">Фильтр поиска по указанному индексу.</span><span class="sxs-lookup"><span data-stu-id="f79bc-129">The search filter at the specified index.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -703,18 +532,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.LogicalOperator</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9b9f1-130">Получает или задает логический оператор, который поисковых фильтров для ссылки в этом семействе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-130">Gets or sets the logical operator that links the search filters in this collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9b9f1-131">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> значений перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-131">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f79bc-130">Получает или задает логический оператор, который связывает фильтры поиска в этой коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-130">Gets or sets the logical operator that links the search filters in this collection.</span></span></summary>
+        <value><span data-ttu-id="f79bc-131">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="f79bc-131">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -735,18 +554,8 @@
         <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">
-          <span data-ttu-id="9b9f1-132">Поисковый фильтр для удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-132">The search filter to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-133">Удаляет указанный фильтр поиска из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-133">Removes the specified search filter from the collection.</span>
-          </span>
-        </summary>
+        <param name="searchFilter"><span data-ttu-id="f79bc-132">Фильтр поиска, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="f79bc-132">The search filter to remove.</span></span></param>
+        <summary><span data-ttu-id="f79bc-133">Удаляет указанный фильтр поиска из коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-133">Removes the specified search filter from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -768,18 +577,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="9b9f1-134">Отсчитываемый от нуля индекс поисковый фильтр для удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-134">The zero-based index of the search filter to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9b9f1-135">Удаляет фильтр поиска по указанному индексу из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-135">Removes the search filter at the specified index from the collection.</span>
-          </span>
-        </summary>
+        <param name="index"><span data-ttu-id="f79bc-134">Отсчитываемый от нуля индекс фильтра поиска, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="f79bc-134">The zero-based index of the search filter to remove.</span></span></param>
+        <summary><span data-ttu-id="f79bc-135">Удаляет фильтр поиска по указанному индексу из коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-135">Removes the search filter at the specified index from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -802,23 +601,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="9b9f1-136">Получает перечислитель, который выполняет элемента в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-136">Gets an enumerator that iterates through the elements of the collection.</span>
-          </span>
-          <span data-ttu-id="9b9f1-137">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-137">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="9b9f1-138">Перечислитель для просмотра элементов из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b9f1-138">An enumerator that iterates through the elements of the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="f79bc-136">Получает перечислитель, который выполняет итерацию элементов коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-136">Gets an enumerator that iterates through the elements of the collection.</span></span>             <span data-ttu-id="f79bc-137">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f79bc-137">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="f79bc-138">Перечислитель, который выполняет итерацию элементов коллекции.</span><span class="sxs-lookup"><span data-stu-id="f79bc-138">An enumerator that iterates through the elements of the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

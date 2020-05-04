@@ -1,13 +1,5 @@
 <Type Name="ResponseActions" FullName="Microsoft.Exchange.WebServices.Data.ResponseActions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b3c37ffa8164f5d86780ff5c0691d3b786e5cf5a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626703" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ResponseActions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b3c37ffa8164f5d86780ff5c0691d3b786e5cf5a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626703" /></Metadata><TypeSignature Language="C#" Value="public enum ResponseActions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResponseActions extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseActions" />
   <TypeSignature Language="VB.NET" Value="Public Enum ResponseActions" />
@@ -25,12 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="29279-101">Определяет константы, которые определяют действия ответа, которые могут быть выполнены элемента.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="29279-101">Specifies constants that define the response actions that can be taken on an item.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="46ba9-101">Задает константы, определяющие действия ответа, которые можно предпринять для элемента.</span><span class="sxs-lookup"><span data-stu-id="46ba9-101">Specifies constants that define the response actions that can be taken on an item.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,12 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-102">Можно принять элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-102">The item can be accepted.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-102">Элемент можно принять.</span><span class="sxs-lookup"><span data-stu-id="46ba9-102">The item can be accepted.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Cancel">
@@ -74,12 +56,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-103">Элемент может быть отменена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-103">The item can be canceled.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-103">Элемент может быть отменен.</span><span class="sxs-lookup"><span data-stu-id="46ba9-103">The item can be canceled.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Decline">
@@ -98,12 +75,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-104">Элемент может быть отклонено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-104">The item can be declined.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-104">Элемент можно отклонить.</span><span class="sxs-lookup"><span data-stu-id="46ba9-104">The item can be declined.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -122,12 +94,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-105">Можно переадресовывать элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-105">The item can be forwarded.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-105">Элемент можно переадресовать.</span><span class="sxs-lookup"><span data-stu-id="46ba9-105">The item can be forwarded.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -146,12 +113,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-106">Можно ли переводить никаких действий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-106">No action can be taken.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-106">Действие не может быть выполнено.</span><span class="sxs-lookup"><span data-stu-id="46ba9-106">No action can be taken.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="PostReply">
@@ -170,12 +132,7 @@
       </ReturnValue>
       <MemberValue>512</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-107">Можно отправить ее в ответ на элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-107">A reply to the item can be posted.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-107">Можно отправить ответ на элемент.</span><span class="sxs-lookup"><span data-stu-id="46ba9-107">A reply to the item can be posted.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="RemoveFromCalendar">
@@ -194,12 +151,7 @@
       </ReturnValue>
       <MemberValue>128</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-108">Можно удалить элемент из календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-108">The item can be removed from the calendar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-108">Элемент можно удалить из календаря.</span><span class="sxs-lookup"><span data-stu-id="46ba9-108">The item can be removed from the calendar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -218,12 +170,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-109">Элемент может быть ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-109">The item can be replied to.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-109">К элементу может быть дан ответ.</span><span class="sxs-lookup"><span data-stu-id="46ba9-109">The item can be replied to.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ReplyAll">
@@ -242,12 +189,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-110">Элемент может быть ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-110">The item can be replied to.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-110">К элементу может быть дан ответ.</span><span class="sxs-lookup"><span data-stu-id="46ba9-110">The item can be replied to.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SuppressReadReceipt">
@@ -266,12 +208,7 @@
       </ReturnValue>
       <MemberValue>256</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-111">Можно было отменено прочтении элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-111">The item's read receipt can be suppressed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-111">Уведомление о прочтении элемента можно отключить.</span><span class="sxs-lookup"><span data-stu-id="46ba9-111">The item's read receipt can be suppressed.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="TentativelyAccept">
@@ -290,12 +227,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="29279-112">Элемент может быть под вопросом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="29279-112">The item can be tentatively accepted.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46ba9-112">Элемент можно принять под вопросом.</span><span class="sxs-lookup"><span data-stu-id="46ba9-112">The item can be tentatively accepted.</span></span></summary>
       </Docs>
     </Member>
   </Members>

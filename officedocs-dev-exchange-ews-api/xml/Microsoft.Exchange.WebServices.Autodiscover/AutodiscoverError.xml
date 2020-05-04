@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverError" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0e46d10098d2ef304c2a4a0a56b33e0fa3dc16e3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627201" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AutodiscoverError" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0e46d10098d2ef304c2a4a0a56b33e0fa3dc16e3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627201" /></Metadata><TypeSignature Language="C#" Value="public sealed class AutodiscoverError" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit AutodiscoverError extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AutodiscoverError" />
@@ -26,12 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="90463-101">Представляет ошибку, который возвращается службой автообнаружения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="90463-101">Represents an error that is returned by the Autodiscover service.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="d90b7-101">Представляет ошибку, возвращаемую службой автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="d90b7-101">Represents an error that is returned by the Autodiscover service.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,30 +37,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90463-102">Получает данные отладки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-102">Gets the debug data.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="90463-103">Данные отладки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-103">The debug data.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="90463-104">
-            <para>Это свойство представляет Дополнительные сведения о сбое, которые могут помочь системный администратор отладки источником проблемы.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-104">
-              <para>This property represents more information about the failure that can help the system administrator debug the source of the problem.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="d90b7-102">Получает данные отладки.</span><span class="sxs-lookup"><span data-stu-id="d90b7-102">Gets the debug data.</span></span></summary>
+        <value><span data-ttu-id="d90b7-103">Данные отладки.</span><span class="sxs-lookup"><span data-stu-id="d90b7-103">The debug data.</span></span></value>
+        <remarks><span data-ttu-id="d90b7-104"><para>Это свойство представляет дополнительные сведения об ошибке, которые могут помочь системному администратору отладить источник проблемы.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="d90b7-104"><para>This property represents more information about the failure that can help the system administrator debug the source of the problem.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ErrorCode">
@@ -91,18 +59,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90463-105">Возвращает код ошибки, указывающий причину ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-105">Gets the error code that indicates the cause of the error.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="90463-106">Код ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-106">The error code.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d90b7-105">Получает код ошибки, указывающий на причину ошибки.</span><span class="sxs-lookup"><span data-stu-id="d90b7-105">Gets the error code that indicates the cause of the error.</span></span></summary>
+        <value><span data-ttu-id="d90b7-106">Код ошибки.</span><span class="sxs-lookup"><span data-stu-id="d90b7-106">The error code.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,18 +79,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90463-107">Получает хэш-имя компьютера, на котором выполняется Microsoft Exchange Server.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-107">Gets a hash of the name of the computer that is running Microsoft Exchange Server.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="90463-108">Имя хэш-функции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-108">The hash name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d90b7-107">Возвращает хэш имени компьютера, на котором работает Microsoft Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="d90b7-107">Gets a hash of the name of the computer that is running Microsoft Exchange Server.</span></span></summary>
+        <value><span data-ttu-id="d90b7-108">Имя хэша.</span><span class="sxs-lookup"><span data-stu-id="d90b7-108">The hash name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,18 +99,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90463-109">Получает сообщение об ошибке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-109">Gets the error message.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="90463-110">Сообщение об ошибке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-110">The error message.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d90b7-109">Получает сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="d90b7-109">Gets the error message.</span></span></summary>
+        <value><span data-ttu-id="d90b7-110">Сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="d90b7-110">The error message.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -181,18 +119,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90463-111">Возвращает время, когда была возвращена ошибка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-111">Gets the time when the error was returned.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="90463-112">Время ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90463-112">The time of the error.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d90b7-111">Получает время, когда была возвращена ошибка.</span><span class="sxs-lookup"><span data-stu-id="d90b7-111">Gets the time when the error was returned.</span></span></summary>
+        <value><span data-ttu-id="d90b7-112">Время ошибки.</span><span class="sxs-lookup"><span data-stu-id="d90b7-112">The time of the error.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

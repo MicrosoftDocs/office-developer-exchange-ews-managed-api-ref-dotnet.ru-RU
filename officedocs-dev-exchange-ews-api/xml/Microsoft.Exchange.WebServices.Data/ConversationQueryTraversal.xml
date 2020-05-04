@@ -1,13 +1,5 @@
 <Type Name="ConversationQueryTraversal" FullName="Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="45f5525f920a9dd1fa30a8a211b5241a4a1977da" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626835" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ConversationQueryTraversal" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="45f5525f920a9dd1fa30a8a211b5241a4a1977da" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626835" /></Metadata><TypeSignature Language="C#" Value="public enum ConversationQueryTraversal" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationQueryTraversal extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationQueryTraversal" />
@@ -20,17 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="e846d-101">Указывает, является ли запрос элементов беседы для (частичного) целевой папке или папку и все вложенные папки (глубокое).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e846d-101">Specifies whether a query of conversation items is for the target folder (shallow) or the target folder and all subfolders (deep).</span>
-      </span>
-      <span data-ttu-id="e846d-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e846d-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="4e7bc-101">Указывает, относится ли запрос элементов беседы к целевой папке (неполному) или к целевой папке и всем вложенным папкам (глубоким).</span><span class="sxs-lookup"><span data-stu-id="4e7bc-101">Specifies whether a query of conversation items is for the target folder (shallow) or the target folder and all subfolders (deep).</span></span>             <span data-ttu-id="4e7bc-102"><see cref="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4e7bc-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,16 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e846d-103">В целевую папку и все вложенные папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e846d-103">The target folder and all subfolders.</span>
-          </span>
-          <span data-ttu-id="e846d-104">Глубокое поле используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e846d-104">The Deep field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4e7bc-103">Целевая папка и все вложенные папки.</span><span class="sxs-lookup"><span data-stu-id="4e7bc-103">The target folder and all subfolders.</span></span>             <span data-ttu-id="4e7bc-104">Поле Deep подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4e7bc-104">The Deep field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Shallow">
@@ -78,16 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e846d-105">Только папка назначения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e846d-105">The target folder only.</span>
-          </span>
-          <span data-ttu-id="e846d-106">Поле частичного используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e846d-106">The Shallow field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4e7bc-105">Только Целевая папка.</span><span class="sxs-lookup"><span data-stu-id="4e7bc-105">The target folder only.</span></span>             <span data-ttu-id="4e7bc-106">Неполное поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4e7bc-106">The Shallow field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

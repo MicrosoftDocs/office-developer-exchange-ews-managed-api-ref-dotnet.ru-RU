@@ -1,13 +1,5 @@
 <Type Name="ChangeHighlights" FullName="Microsoft.Exchange.WebServices.Data.ChangeHighlights">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7eccdf7d4ce3c663ac83c66483b56c7348a7386f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626587" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ChangeHighlights : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7eccdf7d4ce3c663ac83c66483b56c7348a7386f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626587" /></Metadata><TypeSignature Language="C#" Value="public sealed class ChangeHighlights : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ChangeHighlights extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ChangeHighlights&#xA;Inherits ComplexProperty" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="70a56-101">Содержит сведения об изменениях приглашения на собрание.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="70a56-101">Encapsulates information on changes to a meeting request.</span>
-      </span>
-      <span data-ttu-id="70a56-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="70a56-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="ea3d1-101">Инкапсулирует сведения об изменениях в приглашении на собрание.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-101">Encapsulates information on changes to a meeting request.</span></span>             <span data-ttu-id="ea3d1-102"><see cref="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,23 +32,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="70a56-103">Получает старый Дата и время окончания собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-103">Gets the old end date and time of the meeting.</span>
-          </span>
-          <span data-ttu-id="70a56-104">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="70a56-105">Старый Дата и время окончания собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-105">The old end date and time of the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ea3d1-103">Получает старую дату и время окончания собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-103">Gets the old end date and time of the meeting.</span></span>             <span data-ttu-id="ea3d1-104"><see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ea3d1-105">Старые Дата и время окончания собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-105">The old end date and time of the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,25 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="70a56-106">Проверяет, изменился ли время окончания собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-106">Checks whether the end time of the meeting has changed.</span>
-          </span>
-          <span data-ttu-id="70a56-107">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="70a56-108">
-            <b>значение true,</b> Если изменилось время начала; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-108">
-              <b>true</b> if the start time has changed; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ea3d1-106">Проверяет, изменилось ли время окончания собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-106">Checks whether the end time of the meeting has changed.</span></span> <span data-ttu-id="ea3d1-107"><see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ea3d1-108"><b>значение true</b> , если время начала изменилось; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-108"><b>true</b> if the start time has changed; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -122,25 +72,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="70a56-109">Проверяет, находятся ли изменения расположения для собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-109">Checks whether the location for the meeting has changed.</span>
-          </span>
-          <span data-ttu-id="70a56-110">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="70a56-111">
-            <b>значение true,</b> Если изменилось расположение; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-111">
-              <b>true</b> if the location has changed; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ea3d1-109">Проверяет, изменилось ли место проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-109">Checks whether the location for the meeting has changed.</span></span> <span data-ttu-id="ea3d1-110"><see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ea3d1-111"><b>значение true</b> , если расположение было изменено; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-111"><b>true</b> if the location has changed; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,25 +92,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="70a56-112">Проверяет, изменился ли время начала собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-112">Checks whether the start time for the meeting has changed.</span>
-          </span>
-          <span data-ttu-id="70a56-113">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="70a56-114">
-            <b>значение true,</b> Если изменилось время начала; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-114">
-              <b>true</b> if the start time has changed; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ea3d1-112">Проверяет, изменилось ли время начала собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-112">Checks whether the start time for the meeting has changed.</span></span> <span data-ttu-id="ea3d1-113"><see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ea3d1-114"><b>значение true</b> , если время начала изменилось; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-114"><b>true</b> if the start time has changed; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -196,23 +112,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="70a56-115">Получает старый место собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-115">Gets the old location of the meeting.</span>
-          </span>
-          <span data-ttu-id="70a56-116">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-116">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="70a56-117">Старый расположение для собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-117">The old location for the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ea3d1-115">Получает старое расположение собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-115">Gets the old location of the meeting.</span></span>             <span data-ttu-id="ea3d1-116"><see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-116">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ea3d1-117">Старое место проведения собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-117">The old location for the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -231,23 +132,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="70a56-118">Получает старый Дата начала и время собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-118">Gets the old start date and time of the meeting.</span>
-          </span>
-          <span data-ttu-id="70a56-119">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="70a56-120">Старый Дата начала и время собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="70a56-120">The old start date and time of the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ea3d1-118">Получает старую дату и время начала собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-118">Gets the old start date and time of the meeting.</span></span>             <span data-ttu-id="ea3d1-119"><see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ea3d1-120">Старая Дата и время начала собрания.</span><span class="sxs-lookup"><span data-stu-id="ea3d1-120">The old start date and time of the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

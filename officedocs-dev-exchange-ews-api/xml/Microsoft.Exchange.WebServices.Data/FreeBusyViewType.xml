@@ -1,13 +1,5 @@
 <Type Name="FreeBusyViewType" FullName="Microsoft.Exchange.WebServices.Data.FreeBusyViewType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cd38ff1c874eedcb0966dab94a62fd62bf6df459" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626753" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FreeBusyViewType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cd38ff1c874eedcb0966dab94a62fd62bf6df459" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626753" /></Metadata><TypeSignature Language="C#" Value="public enum FreeBusyViewType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FreeBusyViewType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" />
   <TypeSignature Language="VB.NET" Value="Public Enum FreeBusyViewType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ab9eb-101">Задает тип сведений о доступности, который возвращается <a href="http://go.microsoft.com/fwlink/?LinkID=163422">операция GetUserAvailability</a></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab9eb-101">Defines the type of free/busy information that is returned by a <a href="http://go.microsoft.com/fwlink/?LinkID=163422">GetUserAvailability operation</a></span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="83552-101">Определяет тип сведений о занятости, возвращаемых <a href="http://go.microsoft.com/fwlink/?LinkID=163422">операцией GetUserAvailability</a></span><span class="sxs-lookup"><span data-stu-id="83552-101">Defines the type of free/busy information that is returned by a <a href="http://go.microsoft.com/fwlink/?LinkID=163422">GetUserAvailability operation</a></span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,24 +32,9 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab9eb-102">Представляет сведения о состоянии прежних версий: бесплатная, «занят», под вопросом и OOF; время начала и окончания встречи; различные свойства и встречи, такие как тему, местоположение и важности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-102">Represents the legacy status information: free, busy, tentative, and OOF; the start/end times of the appointments; and various properties of the appointment such as subject, location, and importance.</span>
-          </span>
-          <span data-ttu-id="ab9eb-103">В этом требуемого представления возвращает максимальный объем сведений, для которого является привилегированной запрашивающего пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-103">This requested view will return the maximum amount of information for which the requesting user is privileged.</span>
-          </span>
-          <span data-ttu-id="ab9eb-104">Если объединенные сведения о доступности только доступна как с запросом информации для пользователей в лесу, Microsoft Exchange Server 2003, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> будут возвращены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-104">If merged free/busy information only is available, as with requesting information for users in a Microsoft Exchange Server 2003 forest, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> will be returned.</span>
-          </span>
-          <span data-ttu-id="ab9eb-105">В противном случае <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> будут возвращены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-105">Otherwise, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> will be returned.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83552-102">Представляет устаревшие сведения о состоянии: Free, Busy, под вопросом и отсутствие на работе; время начала и окончания встреч; и различные свойства встречи, такие как тема, расположение и важность.</span><span class="sxs-lookup"><span data-stu-id="83552-102">Represents the legacy status information: free, busy, tentative, and OOF; the start/end times of the appointments; and various properties of the appointment such as subject, location, and importance.</span></span>
+<span data-ttu-id="83552-103">В этом запрошенном представлении возвращается максимальное количество сведений, для которых пользователь запрашивает привилегированный доступ.</span><span class="sxs-lookup"><span data-stu-id="83552-103">This requested view will return the maximum amount of information for which the requesting user is privileged.</span></span>
+<span data-ttu-id="83552-104">Если доступны объединенные сведения о доступности, то при запросе сведений для пользователей в лесу Microsoft Exchange Server 2003 <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> будет возвращено.</span><span class="sxs-lookup"><span data-stu-id="83552-104">If merged free/busy information only is available, as with requesting information for users in a Microsoft Exchange Server 2003 forest, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> will be returned.</span></span> <span data-ttu-id="83552-105"><see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> В противном случае <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> возвращается.</span><span class="sxs-lookup"><span data-stu-id="83552-105">Otherwise, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> will be returned.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="DetailedMerged">
@@ -81,20 +53,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab9eb-106">Представляет все свойства в <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> с потока данных объединенные доступность сведений о доступности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-106">Represents all the properties in <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> with a stream of merged free/busy availability information.</span>
-          </span>
-          <span data-ttu-id="ab9eb-107">Если доступен объединенные сведения о доступности, например, если почтовый ящик существует на компьютере, на котором работает Exchange 2003 только <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> будут возвращены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-107">If only merged free/busy information is available, for example if the mailbox exists on a computer that is running Exchange 2003, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> will be returned.</span>
-          </span>
-          <span data-ttu-id="ab9eb-108">В противном случае <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusyMerged" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.DetailedMerged" /> будут возвращены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-108">Otherwise, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusyMerged" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.DetailedMerged" /> will be returned.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83552-106">Представляет все свойства в <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> потоке Объединенных сведений о доступности сведений о занятости.</span><span class="sxs-lookup"><span data-stu-id="83552-106">Represents all the properties in <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> with a stream of merged free/busy availability information.</span></span> <span data-ttu-id="83552-107">Если доступны только объединенные сведения о доступности, например, если почтовый ящик существует на компьютере с Exchange 2003, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> будет возвращено.</span><span class="sxs-lookup"><span data-stu-id="83552-107">If only merged free/busy information is available, for example if the mailbox exists on a computer that is running Exchange 2003, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> will be returned.</span></span> <span data-ttu-id="83552-108"><see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusyMerged" /> В противном случае <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.DetailedMerged" /> возвращается.</span><span class="sxs-lookup"><span data-stu-id="83552-108">Otherwise, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusyMerged" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.DetailedMerged" /> will be returned.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="FreeBusy">
@@ -113,20 +72,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab9eb-109">Представляет сведения о состоянии прежних версий: бесплатная, «занят», под вопросом и нет на месте (OOF).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-109">Represents the legacy status information: free, busy, tentative, and Out of Office (OOF).</span>
-          </span>
-          <span data-ttu-id="ab9eb-110">Это также включает в себя времени начала или окончания встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-110">This also includes the start/end times of the appointments.</span>
-          </span>
-          <span data-ttu-id="ab9eb-111">В этом представлении функционального предоставляются не прежних версий занятости представления, так как отдельные собрания начала и окончания раз вместо поток объединенные обмен сведениями о доступности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-111">This view is richer than the legacy free/busy view because individual meeting start and end times are provided instead of an aggregated free/busy stream.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83552-109">Представляет устаревшую информацию о состоянии: свободен, занят, под вопросом и нет на работе (отсутствие на работе).</span><span class="sxs-lookup"><span data-stu-id="83552-109">Represents the legacy status information: free, busy, tentative, and Out of Office (OOF).</span></span> <span data-ttu-id="83552-110">Сюда также входят время начала и окончания встреч.</span><span class="sxs-lookup"><span data-stu-id="83552-110">This also includes the start/end times of the appointments.</span></span> <span data-ttu-id="83552-111">Это представление более широкое, чем устаревшее представление сведений о доступности, так как начальное и конечное время собрания предоставляется вместо сводного потока занятости.</span><span class="sxs-lookup"><span data-stu-id="83552-111">This view is richer than the legacy free/busy view because individual meeting start and end times are provided instead of an aggregated free/busy stream.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="FreeBusyMerged">
@@ -145,12 +91,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab9eb-112">Представляет все свойства в <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> с потока данных объединенные доступность сведений о доступности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-112">Represents all the properties in <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> with a stream of merged free/busy availability information.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83552-112">Представляет все свойства в <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> потоке Объединенных сведений о доступности сведений о занятости.</span><span class="sxs-lookup"><span data-stu-id="83552-112">Represents all the properties in <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> with a stream of merged free/busy availability information.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MergedOnly">
@@ -169,20 +110,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab9eb-113">Представляет поток объединенные обмен сведениями о доступности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-113">Represents an aggregated free/busy stream.</span>
-          </span>
-          <span data-ttu-id="ab9eb-114">В сценариях между лесами, в которых конечного пользователя в одном лесу не использовать службу доступности настроен службу доступности инициатор запроса получает сведения о доступности конечного пользователя из занятости общих папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-114">In cross-forest scenarios in which the target user in one forest does not have an Availability service configured, the Availability service of the requester retrieves the target user’s free/busy information from the free/busy public folder.</span>
-          </span>
-          <span data-ttu-id="ab9eb-115">Так как общие папки только хранить сведения о доступности в объединенные формы <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> доступны только данные.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-115">Because public folders only store free/busy information in merged form, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> is the only available information.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83552-113">Представляет объединенный поток занятости.</span><span class="sxs-lookup"><span data-stu-id="83552-113">Represents an aggregated free/busy stream.</span></span> <span data-ttu-id="83552-114">В сценариях перекрестного леса, в которых целевой пользователь в одном лесу не настроена служба доступности, служба доступности инициатора запроса получает сведения о доступности конечного пользователя из общедоступной папки "сведения о доступности".</span><span class="sxs-lookup"><span data-stu-id="83552-114">In cross-forest scenarios in which the target user in one forest does not have an Availability service configured, the Availability service of the requester retrieves the target user’s free/busy information from the free/busy public folder.</span></span> <span data-ttu-id="83552-115">Так как в общедоступных папках хранятся только сведения о доступности <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> в объединенной форме, единственным доступным является информация.</span><span class="sxs-lookup"><span data-stu-id="83552-115">Because public folders only store free/busy information in merged form, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> is the only available information.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -201,12 +129,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab9eb-116">Представляет не сведения о доступности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab9eb-116">Represents no free/busy information.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="83552-116">Представляет сведения о занятости.</span><span class="sxs-lookup"><span data-stu-id="83552-116">Represents no free/busy information.</span></span></summary>
       </Docs>
     </Member>
   </Members>

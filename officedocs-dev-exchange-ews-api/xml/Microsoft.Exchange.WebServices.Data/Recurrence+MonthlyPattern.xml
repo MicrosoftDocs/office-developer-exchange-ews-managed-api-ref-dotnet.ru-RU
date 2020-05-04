@@ -1,13 +1,5 @@
 <Type Name="Recurrence+MonthlyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+MonthlyPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bccbfec5b8cc5be888af2512804155d9ebb7f961" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626707" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Recurrence.MonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bccbfec5b8cc5be888af2512804155d9ebb7f961" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626707" /></Metadata><TypeSignature Language="C#" Value="public sealed class Recurrence.MonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/MonthlyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.MonthlyPattern&#xA;Inherits Recurrence.IntervalPattern" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="f9dfe-101">Представляет шаблон повторения, где каждый происходит в определенный день указанное число месяцев после предыдущей команды.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f9dfe-101">Represents a recurrence pattern where each occurrence happens on a specific day a specific number of months after the previous one.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="58ff8-101">Представляет шаблон повторения, в котором каждое событие происходит в определенный день в определенное количество месяцев после предыдущего.</span><span class="sxs-lookup"><span data-stu-id="58ff8-101">Represents a recurrence pattern where each occurrence happens on a specific day a specific number of months after the previous one.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f9dfe-102">Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f9dfe-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="58ff8-102">Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Монслипаттерн.</span><span class="sxs-lookup"><span data-stu-id="58ff8-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,30 +51,10 @@
         <Parameter Name="dayOfMonth" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="startDate">
-          <span data-ttu-id="f9dfe-103">Дата и время начала повторения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f9dfe-103">The date and time when the recurrence starts.</span>
-          </span>
-        </param>
-        <param name="interval">
-          <span data-ttu-id="f9dfe-104">Число месяцев между каждого повтора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f9dfe-104">The number of months between each occurrence.</span>
-          </span>
-        </param>
-        <param name="dayOfMonth">
-          <span data-ttu-id="f9dfe-105">День месяца, когда происходит каждого повтора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f9dfe-105">The day of the month when each occurrence happens.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f9dfe-106">Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f9dfe-106">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern class.</span>
-          </span>
-        </summary>
+        <param name="startDate"><span data-ttu-id="58ff8-103">Дата и время начала повторения.</span><span class="sxs-lookup"><span data-stu-id="58ff8-103">The date and time when the recurrence starts.</span></span></param>
+        <param name="interval"><span data-ttu-id="58ff8-104">Число месяцев между повторениями.</span><span class="sxs-lookup"><span data-stu-id="58ff8-104">The number of months between each occurrence.</span></span></param>
+        <param name="dayOfMonth"><span data-ttu-id="58ff8-105">День месяца, когда происходит каждое событие.</span><span class="sxs-lookup"><span data-stu-id="58ff8-105">The day of the month when each occurrence happens.</span></span></param>
+        <summary><span data-ttu-id="58ff8-106">Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Монслипаттерн.</span><span class="sxs-lookup"><span data-stu-id="58ff8-106">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,30 +73,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f9dfe-107">Получает или задает день месяца, когда происходит каждого повтора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f9dfe-107">Gets or sets the day of the month when each occurrence happens.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f9dfe-108">Целое число.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f9dfe-108">An integer value.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="f9dfe-109">
-            <para>День месяца должен быть от 1 до 31.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f9dfe-109">
-              <para>DayOfMonth must be between 1 and 31.            </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="58ff8-107">Получает или задает день месяца, когда происходит каждое событие.</span><span class="sxs-lookup"><span data-stu-id="58ff8-107">Gets or sets the day of the month when each occurrence happens.</span></span></summary>
+        <value><span data-ttu-id="58ff8-108">Целое число.</span><span class="sxs-lookup"><span data-stu-id="58ff8-108">An integer value.</span></span></value>
+        <remarks><span data-ttu-id="58ff8-109"><para>DayOfMonth должен находиться в пределах от 1 до 31.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="58ff8-109"><para>DayOfMonth must be between 1 and 31.            </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

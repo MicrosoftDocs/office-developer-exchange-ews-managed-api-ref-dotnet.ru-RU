@@ -1,13 +1,5 @@
 <Type Name="PostReply" FullName="Microsoft.Exchange.WebServices.Data.PostReply">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="197031b17f33ca1bfb0875c1479314402aff0603" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627175" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PostReply : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="197031b17f33ca1bfb0875c1479314402aff0603" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627175" /></Metadata><TypeSignature Language="C#" Value="public sealed class PostReply : Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PostReply extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PostReply" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PostReply&#xA;Inherits ServiceObject" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="d2cb8-101">Представляет ответ для элемента записи.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d2cb8-101">Represents a reply to a post item.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c036a-101">Представляет ответ на элемент POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-101">Represents a reply to a post item.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,18 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d2cb8-102">Получает или задает текст ответа на post.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-102">Gets or sets the body of the post reply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d2cb8-103">Основной текст сообщения элемента post.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-103">A post item message body.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c036a-102">Получает или задает основной текст ответа POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-102">Gets or sets the body of the post reply.</span></span></summary>
+        <value><span data-ttu-id="c036a-103">Текст сообщения элемента POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-103">A post item message body.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -75,18 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d2cb8-104">Получает или задает текст префикса, которая вставляется тело исходного элемента записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-104">Gets or sets the body prefix that is prepended to the original post item's body.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d2cb8-105">Начале стоит символ сообщения в теле сообщения элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-105">A prepended message to the post item message body.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c036a-104">Получает или задает префикс основного текста, добавляемый в начало тела элемента POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-104">Gets or sets the body prefix that is prepended to the original post item's body.</span></span></summary>
+        <value><span data-ttu-id="c036a-105">Сообщение в начале сообщения элемента POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-105">A prepended message to the post item message body.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -106,30 +73,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d2cb8-106">Сохраняет поместить элемент ответ в ту же папку исходного элемента записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-106">Saves the post item reply in the same folder as the original post item.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d2cb8-107">Элемент post, представляющий размещенное ответное сообщение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-107">A post item that represents the posted reply.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="d2cb8-108">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-108">
-              <para>Calling this method results in a call to Exchange Web Services (EWS). </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="c036a-106">Сохраняет ответ элемента POST в той же папке, что и исходный элемент POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-106">Saves the post item reply in the same folder as the original post item.</span></span></summary>
+        <returns><span data-ttu-id="c036a-107">Элемент POST, представляющий отправленный ответ.</span><span class="sxs-lookup"><span data-stu-id="c036a-107">A post item that represents the posted reply.</span></span></returns>
+        <remarks><span data-ttu-id="c036a-108"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="c036a-108"><para>Calling this method results in a call to Exchange Web Services (EWS). </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -150,36 +98,12 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">
-          <span data-ttu-id="d2cb8-109">Идентификатор папки папку назначения для сохранения поместить элемент ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-109">The folder identifier of the target folder in which to save the post item reply.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d2cb8-110">Сохраняет поместить элемент ответ в указанной папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-110">Saves the post item reply in the specified folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d2cb8-111">Элемент post, представляющий размещенное ответное сообщение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-111">A post item that represents the posted reply.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="d2cb8-112">
-            <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-112">
-              <para>Calling this method results in a call to Exchange Web Services (EWS). </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="destinationFolderId"><span data-ttu-id="c036a-109">Идентификатор папки целевой папки, в которой нужно сохранить ответ элемента POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-109">The folder identifier of the target folder in which to save the post item reply.</span></span></param>
+        <summary><span data-ttu-id="c036a-110">Сохраняет ответ элемента POST в указанной папке.</span><span class="sxs-lookup"><span data-stu-id="c036a-110">Saves the post item reply in the specified folder.</span></span></summary>
+        <returns><span data-ttu-id="c036a-111">Элемент POST, представляющий отправленный ответ.</span><span class="sxs-lookup"><span data-stu-id="c036a-111">A post item that represents the posted reply.</span></span></returns>
+        <remarks><span data-ttu-id="c036a-112"><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="c036a-112"><para>Calling this method results in a call to Exchange Web Services (EWS). </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -200,24 +124,9 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">
-          <span data-ttu-id="d2cb8-113">Имя папки папку назначения для сохранения поместить элемент ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-113">The folder name of the target folder in which to save the post item reply.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d2cb8-114">Сохраняет поместить элемент ответ в указанной папке известных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-114">Saves the post item reply in a specified well-known folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d2cb8-115">Элемент post, представляющий размещенное ответное сообщение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-115">A post item that represents the posted reply.</span>
-          </span>
-        </returns>
+        <param name="destinationFolderName"><span data-ttu-id="c036a-113">Имя папки целевой папки, в которой нужно сохранить ответ элемента POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-113">The folder name of the target folder in which to save the post item reply.</span></span></param>
+        <summary><span data-ttu-id="c036a-114">Сохраняет ответ элемента POST в указанной надежной папке.</span><span class="sxs-lookup"><span data-stu-id="c036a-114">Saves the post item reply in a specified well-known folder.</span></span></summary>
+        <returns><span data-ttu-id="c036a-115">Элемент POST, представляющий отправленный ответ.</span><span class="sxs-lookup"><span data-stu-id="c036a-115">A post item that represents the posted reply.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -236,18 +145,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d2cb8-116">Получает или задает тему поместить элемент ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-116">Gets or sets the subject of the post item reply.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d2cb8-117">Тема элемента записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d2cb8-117">The subject of the post item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c036a-116">Получает или задает тему ответа элемента POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-116">Gets or sets the subject of the post item reply.</span></span></summary>
+        <value><span data-ttu-id="c036a-117">Тема элемента POST.</span><span class="sxs-lookup"><span data-stu-id="c036a-117">The subject of the post item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

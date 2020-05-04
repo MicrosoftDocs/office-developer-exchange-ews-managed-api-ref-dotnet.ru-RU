@@ -1,13 +1,5 @@
 <Type Name="ServiceResponse" FullName="Microsoft.Exchange.WebServices.Data.ServiceResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9bb8d66bae46fd92ce96b727fbed2f8ab9734108" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627075" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9bb8d66bae46fd92ce96b727fbed2f8ab9734108" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627075" /></Metadata><TypeSignature Language="C#" Value="public class ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServiceResponse extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="VB.NET" Value="Public Class ServiceResponse" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="e08ae-101">Представляет стандартный ответ на операцию веб-служб Exchange.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e08ae-101">Represents the standard response to an Exchange Web Services operation.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="07696-101">Представляет стандартный ответ на операцию веб-служб Exchange.</span><span class="sxs-lookup"><span data-stu-id="07696-101">Represents the standard response to an Exchange Web Services operation.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,18 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e08ae-102">Возвращает код ошибки, связанный с этим ответом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-102">Gets the error code associated with this response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="e08ae-103">Одно из значений перечисления ServiceError.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-103">One of the ServiceError enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="07696-102">Получает код ошибки, связанный с этим ответом.</span><span class="sxs-lookup"><span data-stu-id="07696-102">Gets the error code associated with this response.</span></span></summary>
+        <value><span data-ttu-id="07696-103">Одно из значений перечисления Сервицееррор.</span><span class="sxs-lookup"><span data-stu-id="07696-103">One of the ServiceError enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -75,30 +52,11 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e08ae-104">Получает сведения об ошибках, связанных с запросом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-104">Gets error details associated with the response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="e08ae-105">Словарь подробные сведения об ошибке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-105">The error details dictionary.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="e08ae-106">
-            <para>Если результата Success, ErrorDetailsDictionary возвращает значение null. Дополнительные сведения об ошибке будут доступны только для некоторых ошибок. Например при ErrorRecurrenceHasNoOccurrence, код ошибки ErrorDetailsDictionary будет содержать ключи для EffectiveStartDate и EffectiveEndDate.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-106">
-              <para>If Result is set to Success, ErrorDetailsDictionary returns null. Error details will only available for some error codes. For example, when error code is ErrorRecurrenceHasNoOccurrence,  the ErrorDetailsDictionary will contain keys for EffectiveStartDate and EffectiveEndDate.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="07696-104">Получает сведения об ошибке, связанные с ответом.</span><span class="sxs-lookup"><span data-stu-id="07696-104">Gets error details associated with the response.</span></span></summary>
+        <value><span data-ttu-id="07696-105">Словарь подробных сведений об ошибках.</span><span class="sxs-lookup"><span data-stu-id="07696-105">The error details dictionary.</span></span></value>
+        <remarks><span data-ttu-id="07696-106"><para>Если для Result задано значение Success, Еррордетаилсдиктионари возвращает значение null. Сведения об ошибках будут доступны только для некоторых кодов ошибок. Например, если код ошибки — Ерроррекурренцехаснуккурренце, Еррордетаилсдиктионари будет содержать ключи для Еффективестартдате и Еффективинддате.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="07696-106"><para>If Result is set to Success, ErrorDetailsDictionary returns null. Error details will only available for some error codes. For example, when error code is ErrorRecurrenceHasNoOccurrence,  the ErrorDetailsDictionary will contain keys for EffectiveStartDate and EffectiveEndDate.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ErrorMessage">
@@ -116,30 +74,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e08ae-107">Получает подробное сообщение об ошибке связанных с запросом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-107">Gets a detailed error message associated with the response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="e08ae-108">Строковое значение, содержащее сообщение об ошибке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-108">A string value containing an error message.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="e08ae-109">
-            <para>Если результата Success, сообщение об ошибке возвращает значение null. Сообщение об ошибке локализуется согласно свойство PreferredCulture объекта ExchangeService, который использовался для вызова метода, создавшего ответ.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-109">
-              <para>If Result is set to Success, ErrorMessage returns null. ErrorMessage is localized according to the PreferredCulture property of the ExchangeService object that was used to call the method that generated the response.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="07696-107">Получает подробное сообщение об ошибке, связанное с ответом.</span><span class="sxs-lookup"><span data-stu-id="07696-107">Gets a detailed error message associated with the response.</span></span></summary>
+        <value><span data-ttu-id="07696-108">Строковое значение, содержащее сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="07696-108">A string value containing an error message.</span></span></value>
+        <remarks><span data-ttu-id="07696-109"><para>Если для Result задано значение Success, ErrorMessage возвращает null. ErrorMessage локализуется в соответствии со свойством Преферредкултуре объекта ExchangeService, который использовался для вызова метода, создавшего ответ.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="07696-109"><para>If Result is set to Success, ErrorMessage returns null. ErrorMessage is localized according to the PreferredCulture property of the ExchangeService object that was used to call the method that generated the response.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ErrorProperties">
@@ -157,30 +96,11 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e08ae-110">Получает сведения об ошибках свойства, связанные с ответом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-110">Gets information about property errors associated with the response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="e08ae-111">Список свойств ошибок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-111">The error properties list.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="e08ae-112">
-            <para>Если результата Success, ErrorProperties возвращает значение null. ErrorProperties доступна только для некоторых ошибок. К примеру Если код ошибки ErrorInvalidPropertyForOperation, ErrorProperties будет содержать определения свойства, которое было недопустимым для запроса.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-112">
-              <para>If Result is set to Success, ErrorProperties returns null. ErrorProperties is only available for some error codes. For example, when the error code is ErrorInvalidPropertyForOperation, ErrorProperties will contain the definition of the property that was invalid for the request.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="07696-110">Получает сведения об ошибках свойств, связанных с откликом.</span><span class="sxs-lookup"><span data-stu-id="07696-110">Gets information about property errors associated with the response.</span></span></summary>
+        <value><span data-ttu-id="07696-111">Список свойств ошибки.</span><span class="sxs-lookup"><span data-stu-id="07696-111">The error properties list.</span></span></value>
+        <remarks><span data-ttu-id="07696-112"><para>Если для Result задано значение Success, Еррорпропертиес возвращает значение null. Еррорпропертиес доступен только для некоторых кодов ошибок. Например, если код ошибки — Ерроринвалидпропертифороператион, Еррорпропертиес будет содержать определение свойства, которое было недопустимым для запроса.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="07696-112"><para>If Result is set to Success, ErrorProperties returns null. ErrorProperties is only available for some error codes. For example, when the error code is ErrorInvalidPropertyForOperation, ErrorProperties will contain the definition of the property that was invalid for the request.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Result">
@@ -198,18 +118,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e08ae-113">Возвращает результат, связанный с этим ответом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-113">Gets the result associated with this response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="e08ae-114">Одно из значений перечисления ServiceResult.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e08ae-114">One of the ServiceResult enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="07696-113">Получает результат, связанный с этим ответом.</span><span class="sxs-lookup"><span data-stu-id="07696-113">Gets the result associated with this response.</span></span></summary>
+        <value><span data-ttu-id="07696-114">Одно из значений перечисления Сервицересулт.</span><span class="sxs-lookup"><span data-stu-id="07696-114">One of the ServiceResult enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

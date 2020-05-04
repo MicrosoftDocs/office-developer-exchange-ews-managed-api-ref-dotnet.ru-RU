@@ -1,13 +1,5 @@
 <Type Name="PropertySet" FullName="Microsoft.Exchange.WebServices.Data.PropertySet">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a66eac0127ccc25e96b2f298bdaf6b5b1bac5dc7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626965" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PropertySet : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a66eac0127ccc25e96b2f298bdaf6b5b1bac5dc7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626965" /></Metadata><TypeSignature Language="C#" Value="public sealed class PropertySet : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PropertySet extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertySet" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PropertySet&#xA;Implements IEnumerable(Of PropertyDefinitionBase)" />
@@ -25,24 +17,10 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-      <span data-ttu-id="369ad-101">Представляет набор свойств, элемента или папки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="369ad-101">Represents a set of item or folder properties.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="369ad-102">
-        <para>Наборы свойств используются для указания того, какие свойства элемента или папки, которые должны быть загружены при привязке к существующего элемента или папки или при загрузке элемента или свойств папки.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="369ad-102">
-          <para>Property sets are used to indicate what properties of an item or folder should be loaded when binding to an existing item or folder or when loading an item or folder's properties.            </para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="0a8fd-101">Представляет набор свойств элемента или папки.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-101">Represents a set of item or folder properties.</span></span></summary>
+    <remarks><span data-ttu-id="0a8fd-102"><para>Наборы свойств используются, чтобы указать, какие свойства элемента или папки должны загружаться при привязке к существующему элементу или папке или при загрузке свойств элемента или папки.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="0a8fd-102"><para>Property sets are used to indicate what properties of an item or folder should be loaded when binding to an existing item or folder or when loading an item or folder's properties.            </para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -58,12 +36,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-103">Инициализирует новый экземпляр класса PropertySet, используя идентификатор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-103">Initializes a new instance of the PropertySet class based on the ID.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0a8fd-103">Инициализирует новый экземпляр класса набора свойств на основе идентификатора.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-103">Initializes a new instance of the PropertySet class based on the ID.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,18 +54,8 @@
         <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
       </Parameters>
       <Docs>
-        <param name="basePropertySet">
-          <span data-ttu-id="369ad-104">Базовый свойство будет создана свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-104">The base property set to base the property set on.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-105">Инициализирует новый экземпляр класса PropertySet, на основе указанного свойства базового набора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-105">Initializes a new instance of the PropertySet class based on the specified base property set.</span>
-          </span>
-        </summary>
+        <param name="basePropertySet"><span data-ttu-id="0a8fd-104">Базовое свойство, для которого задается свойство Base.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-104">The base property set to base the property set on.</span></span></param>
+        <summary><span data-ttu-id="0a8fd-105">Инициализирует новый экземпляр класса набора свойств на основе указанного базового набора свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-105">Initializes a new instance of the PropertySet class based on the specified base property set.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,22 +80,8 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="additionalProperties">
-          <span data-ttu-id="369ad-106">Дополнительные свойства необходимо включить в набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-106">The additional properties to include in the property set.</span>
-          </span>
-          <span data-ttu-id="369ad-107">Определения свойств доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-107">Property definitions are available as static members from schema classes (for example,  EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on).</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-108">Инициализирует новый экземпляр класса PropertySet, на основе идентификатора и определенные дополнительные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-108">Initializes a new instance of the PropertySet class based on the ID and the specified additional properties.</span>
-          </span>
-        </summary>
+        <param name="additionalProperties"><span data-ttu-id="0a8fd-106">Дополнительные свойства, которые необходимо включить в набор свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-106">The additional properties to include in the property set.</span></span> <span data-ttu-id="0a8fd-107">Определения свойств доступны в виде статических элементов из классов схемы (например, Емаилмессажесчема. subject, Аппоинтментсчема. Start, Контактсчема. GivenName и т. д.).</span><span class="sxs-lookup"><span data-stu-id="0a8fd-107">Property definitions are available as static members from schema classes (for example,  EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on).</span></span></param>
+        <summary><span data-ttu-id="0a8fd-108">Инициализирует новый экземпляр класса набора свойств на основе идентификатора и заданных дополнительных свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-108">Initializes a new instance of the PropertySet class based on the ID and the specified additional properties.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,22 +100,8 @@
         <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
       </Parameters>
       <Docs>
-        <param name="additionalProperties">
-          <span data-ttu-id="369ad-109">Дополнительные свойства необходимо включить в набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-109">The additional properties to include in the property set.</span>
-          </span>
-          <span data-ttu-id="369ad-110">Определения свойств доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-110">Property definitions are available as static members from schema classes (for example,  EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on).</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-111">Инициализирует новый экземпляр класса PropertySet, на основе идентификатора и указанной коллекции дополнительные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-111">Initializes a new instance of the PropertySet class based on the ID and the specified collection of additional properties.</span>
-          </span>
-        </summary>
+        <param name="additionalProperties"><span data-ttu-id="0a8fd-109">Дополнительные свойства, которые необходимо включить в набор свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-109">The additional properties to include in the property set.</span></span> <span data-ttu-id="0a8fd-110">Определения свойств доступны в виде статических элементов из классов схемы (например, Емаилмессажесчема. subject, Аппоинтментсчема. Start, Контактсчема. GivenName и т. д.).</span><span class="sxs-lookup"><span data-stu-id="0a8fd-110">Property definitions are available as static members from schema classes (for example,  EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on).</span></span></param>
+        <summary><span data-ttu-id="0a8fd-111">Инициализирует новый экземпляр класса набора свойств на основе идентификатора и указанной коллекции дополнительных свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-111">Initializes a new instance of the PropertySet class based on the ID and the specified collection of additional properties.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -191,36 +126,12 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="basePropertySet">
-          <span data-ttu-id="369ad-112">Базовый свойство будет создана свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-112">The base property set to base the property set on.</span>
-          </span>
-        </param>
-        <param name="additionalProperties">
-          <span data-ttu-id="369ad-113">Дополнительные свойства необходимо включить в набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-113">Additional properties to include in the property set.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-114">Инициализирует новый экземпляр класса PropertySet с указанным набором базового и дополнительные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-114">Initializes a new instance of the PropertySet class with the specified base property set and additional properties.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="369ad-115">
-            <para>Свойство определения доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.)</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-115">
-              <para>Property definitions are available as static members from schema classes (for example, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName, and so on)</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="basePropertySet"><span data-ttu-id="0a8fd-112">Базовое свойство, для которого задается свойство Base.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-112">The base property set to base the property set on.</span></span></param>
+        <param name="additionalProperties"><span data-ttu-id="0a8fd-113">Дополнительные свойства, включаемые в набор свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-113">Additional properties to include in the property set.</span></span></param>
+        <summary><span data-ttu-id="0a8fd-114">Инициализирует новый экземпляр класса набора свойств с указанным базовым набором свойств и дополнительными свойствами.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-114">Initializes a new instance of the PropertySet class with the specified base property set and additional properties.</span></span></summary>
+        <remarks><span data-ttu-id="0a8fd-115"><para>Определения свойств доступны в виде статических элементов из классов схемы (например, Емаилмессажесчема. subject, Аппоинтментсчема. Start, Контактсчема. GivenName и т. д.)</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0a8fd-115"><para>Property definitions are available as static members from schema classes (for example, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName, and so on)</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -238,28 +149,9 @@
         <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
       </Parameters>
       <Docs>
-        <param name="basePropertySet">
-          <span data-ttu-id="369ad-116">Базовый свойство будет создана свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-116">The base property set to base the property set on.</span>
-          </span>
-        </param>
-        <param name="additionalProperties">
-          <span data-ttu-id="369ad-117">Дополнительные свойства необходимо включить в набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-117">Additional properties to include in the property set.</span>
-          </span>
-          <span data-ttu-id="369ad-118">Свойство определения доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject AppointmentSchema.Start, ContactSchema.GivenName и т. д.)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-118">Property definitions are available as static members from schema classes (for example, EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on.)</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-119">Инициализирует новый экземпляр класса PropertySet с указанным набором базового и набор дополнительных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-119">Initializes a new instance of the PropertySet class with the specified base property set and collection of additional properties.</span>
-          </span>
-        </summary>
+        <param name="basePropertySet"><span data-ttu-id="0a8fd-116">Базовое свойство, для которого задается свойство Base.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-116">The base property set to base the property set on.</span></span></param>
+        <param name="additionalProperties"><span data-ttu-id="0a8fd-117">Дополнительные свойства, включаемые в набор свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-117">Additional properties to include in the property set.</span></span> <span data-ttu-id="0a8fd-118">Определения свойств доступны в виде статических элементов из классов схемы (например, Емаилмессажесчема. subject, Аппоинтментсчема. Start, Контактсчема. GivenName и т. д.).</span><span class="sxs-lookup"><span data-stu-id="0a8fd-118">Property definitions are available as static members from schema classes (for example, EmailMessageSchema.Subject,  AppointmentSchema.Start,  ContactSchema.GivenName, and so on.)</span></span></param>
+        <summary><span data-ttu-id="0a8fd-119">Инициализирует новый экземпляр класса набора свойств с указанным базовым набором свойств и коллекцией дополнительных свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-119">Initializes a new instance of the PropertySet class with the specified base property set and collection of additional properties.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -281,18 +173,8 @@
         <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="property">
-          <span data-ttu-id="369ad-120">Чтобы добавить свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-120">The property to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-121">Добавляет указанное свойство набором свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-121">Adds the specified property to the property set.</span>
-          </span>
-        </summary>
+        <param name="property"><span data-ttu-id="0a8fd-120">Свойство, которое требуется добавить.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-120">The property to add.</span></span></param>
+        <summary><span data-ttu-id="0a8fd-121">Добавляет указанное свойство в набор свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-121">Adds the specified property to the property set.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -311,25 +193,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-122">Получает или задает значение, указывающее, добавьте атрибут пустой целевой ссылки привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-122">Gets or sets value indicating whether to add a blank target attribute to anchor links.</span>
-          </span>
-          <span data-ttu-id="369ad-123">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-123">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-124">
-            <b>значение true</b> для добавления пустой целевой атрибут для привязки ссылок; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-124">
-              <b>true</b> to add a blank target attribute to anchor links; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0a8fd-122">Получает или задает значение, указывающее, следует ли добавить пустой целевой атрибут для ссылок на привязки.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-122">Gets or sets value indicating whether to add a blank target attribute to anchor links.</span></span>             <span data-ttu-id="0a8fd-123"><see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-123">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-124"><b>значение true</b> , чтобы добавить пустой целевой атрибут для ссылок на привязки; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-124"><b>true</b> to add a blank target attribute to anchor links; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -351,18 +216,8 @@
         <Parameter Name="properties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
       </Parameters>
       <Docs>
-        <param name="properties">
-          <span data-ttu-id="369ad-125">Свойства, которые нужно добавить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-125">The properties to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-126">Добавляет указанного свойства в набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-126">Adds the specified properties to the property set.</span>
-          </span>
-        </summary>
+        <param name="properties"><span data-ttu-id="0a8fd-125">Свойства, которые требуется добавить.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-125">The properties to add.</span></span></param>
+        <summary><span data-ttu-id="0a8fd-126">Добавляет указанные свойства в набор свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-126">Adds the specified properties to the property set.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -381,18 +236,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.BasePropertySet</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-127">Получает или задает набор базовых свойств на основе набора свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-127">Gets or sets the base property set that the property set is based on.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-128">Набор базового свойства на основе набора свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-128">The base property set that the property set is based on.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0a8fd-127">Получает или задает базовый набор свойств, на котором основан набор свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-127">Gets or sets the base property set that the property set is based on.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-128">Базовый набор свойств, на котором основано свойство Set.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-128">The base property set that the property set is based on.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -411,25 +256,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-129">Получает или задает значение, указывающее, следует ли преобразовать URL-адресов, которые указывают на файлы изображений, встроенных изображений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-129">Gets or sets value indicating whether to convert URLs that point to image files to inline images.</span>
-          </span>
-          <span data-ttu-id="369ad-130">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-131">
-            <b>значение true,</b> Если URL-адресов, которые указывают на файлы изображений должны быть преобразованы в встроенных изображений; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-131">
-              <b>true</b> if URLs that point to image files should be converted to inline images; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0a8fd-129">Получает или задает значение, указывающее, следует ли преобразовать URL-адреса, указывающие на файлы изображений, в встроенные изображения.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-129">Gets or sets value indicating whether to convert URLs that point to image files to inline images.</span></span>             <span data-ttu-id="0a8fd-130"><see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-131"><b>значение true</b> , если URL-адреса, указывающие на файлы изображений, должны быть преобразованы в встроенные изображения; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-131"><b>true</b> if URLs that point to image files should be converted to inline images; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -449,12 +277,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-132">Удаляет все явно добавлена свойства из набора свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-132">Removes all explicitly added properties from the property set.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0a8fd-132">Удаляет все явно добавленные свойства из набора свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-132">Removes all explicitly added properties from the property set.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -476,26 +299,9 @@
         <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="property">
-          <span data-ttu-id="369ad-133">Свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-133">The property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-134">Определяет, является ли указанное свойство явно добавлена с этим свойством, задание с помощью методов Add или AddRange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-134">Determines whether the specified property has been explicitly added to this property set by using the Add or AddRange methods.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="369ad-135">
-            <b>значение true,</b> Если значение этого свойства, содержащий указанное свойство; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-135">
-              <b>true</b> if this property set contains the specified property; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="property"><span data-ttu-id="0a8fd-133">Свойство.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-133">The property.</span></span></param>
+        <summary><span data-ttu-id="0a8fd-134">Определяет, было ли указанное свойство явно добавлено к этому свойству с помощью методов Add и AddRange.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-134">Determines whether the specified property has been explicitly added to this property set by using the Add or AddRange methods.</span></span></summary>
+        <returns><span data-ttu-id="0a8fd-135"><b>значение true</b> , если набор свойств содержит указанное свойство; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-135"><b>true</b> if this property set contains the specified property; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -514,24 +320,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-136">Получает или задает значение, указывающее, следует ли сервер преобразование кода HTML-страницу для кодировки UTF8.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-136">Gets or sets a value that indicates whether the server should convert the HTML code page to UTF8 encoding.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-137">
-            <b>значение true,</b> Если сервер следует преобразовать код HTML-страницу UTF9; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-137">
-              <b>true</b> if the server should convert the HTML code page to UTF9; otherwise, <b>false</b>.</span>
-          </span>
-          <span data-ttu-id="369ad-138">Это свойство может быть пустая ссылка (Nothing в Visual Basic).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-138">This property may be a null reference (Nothing in Visual Basic).</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0a8fd-136">Получает или задает значение, указывающее, должен ли сервер преобразовать HTML-код в кодировку UTF8.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-136">Gets or sets a value that indicates whether the server should convert the HTML code page to UTF8 encoding.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-137"><b>имеет значение true</b> , если сервер должен преобразовать кодовую страницу HTML в UTF9; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-137"><b>true</b> if the server should convert the HTML code page to UTF9; otherwise, <b>false</b>.</span></span> <span data-ttu-id="0a8fd-138">Это свойство может быть пустой ссылкой (Nothing в Visual Basic).</span><span class="sxs-lookup"><span data-stu-id="0a8fd-138">This property may be a null reference (Nothing in Visual Basic).</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -550,18 +340,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-139">Получает число свойств, явно добавлена в этот набор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-139">Gets the number of explicitly added properties in this set.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-140">Число свойств явно добавлена в указанным набором свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-140">The number of explicitly added properties in the specified property set.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0a8fd-139">Получает число явно добавленных свойств в этом наборе.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-139">Gets the number of explicitly added properties in this set.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-140">Число явно добавленных свойств в заданном наборе свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-140">The number of explicitly added properties in the specified property set.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -580,24 +360,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-141">Получает или задает значение, указывающее, следует ли потенциально небезопасных HTML-фильтра содержимого из текстов сообщений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-141">Gets or sets value that indicates whether to filter potentially unsafe HTML content from message bodies.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-142">
-            <b>значение true,</b> чтобы отфильтровать потенциально небезопасных HTML-контента; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-142">
-              <b>true</b> to filter potentially unsafe HTML content; otherwise, <b>false</b>.</span>
-          </span>
-          <span data-ttu-id="369ad-143">Это свойство может быть пустая ссылка (Nothing в Visual Basic).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-143">This property can be a null reference (Nothing in Visual Basic).</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0a8fd-141">Получает или задает значение, указывающее, следует ли фильтровать потенциально небезопасное содержимое HTML из тела сообщения.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-141">Gets or sets value that indicates whether to filter potentially unsafe HTML content from message bodies.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-142"><b>значение true</b> , чтобы фильтровать потенциально небезопасное содержимое HTML; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-142"><b>true</b> to filter potentially unsafe HTML content; otherwise, <b>false</b>.</span></span> <span data-ttu-id="0a8fd-143">Это свойство может быть пустой ссылкой (Nothing в Visual Basic).</span><span class="sxs-lookup"><span data-stu-id="0a8fd-143">This property can be a null reference (Nothing in Visual Basic).</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -616,12 +380,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-144">Набор предварительно заданных свойств, который включает в себя первого класса свойства элемента или папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-144">A predefined property set that includes the first-class properties of an item or folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0a8fd-144">Предопределенный набор свойств, включающий свойства первого класса элемента или папки.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-144">A predefined property set that includes the first-class properties of an item or folder.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -644,18 +403,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-145">Возвращает перечислитель, который выполняет итерацию по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-145">Returns an enumerator that iterates through the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="369ad-146">Объект IEnumerator, который можно использовать для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-146">An IEnumerator object that can be used to iterate through the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="0a8fd-145">Возвращает перечислитель, который выполняет итерацию по коллекции.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-145">Returns an enumerator that iterates through the collection.</span></span></summary>
+        <returns><span data-ttu-id="0a8fd-146">Объект IEnumerator, который можно использовать для итерации по коллекции.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-146">An IEnumerator object that can be used to iterate through the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -674,12 +423,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-147">Набор предварительно заданных свойств, содержащий только свойства ID.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-147">A predefined property set that only includes the ID property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0a8fd-147">Предопределенный набор свойств, включающий только свойство ID.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-147">A predefined property set that only includes the ID property.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -698,23 +442,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-148">Получает или задает URL-адрес шаблона, используемого для встроенных изображений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-148">Gets or sets the URL of the template to use for inline images.</span>
-          </span>
-          <span data-ttu-id="369ad-149">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-149">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-150">URL-адрес шаблона для встроенных изображений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-150">The URL of the template to use for inline images.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0a8fd-148">Получает или задает URL-адрес шаблона, который будет использоваться для встроенных изображений.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-148">Gets or sets the URL of the template to use for inline images.</span></span>             <span data-ttu-id="0a8fd-149"><see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-149">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-150">URL-адрес шаблона, используемый для встроенных изображений.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-150">The URL of the template to use for inline images.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -736,29 +465,9 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="369ad-151">Индекс запрошенного свойства в набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-151">The index of the requested property in the property set.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-152">Получает элемент по указанному индексу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-152">Gets the item at the specified index.</span>
-          </span>
-          <span data-ttu-id="369ad-153">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-153">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-154">Элемент по указанному индексу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-154">The item at the specified index.</span>
-          </span>
-        </value>
+        <param name="index"><span data-ttu-id="0a8fd-151">Индекс запрошенного свойства в наборе свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-151">The index of the requested property in the property set.</span></span></param>
+        <summary><span data-ttu-id="0a8fd-152">Получает элемент по указанному индексу.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-152">Gets the item at the specified index.</span></span>            <span data-ttu-id="0a8fd-153"><see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-153">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-154">Элемент по указанному индексу.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-154">The item at the specified index.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -777,23 +486,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-155">Получает или задает максимальный размер текста нужно вернуть.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-155">Gets or sets the maximum size of the body to be retrieved.</span>
-          </span>
-          <span data-ttu-id="369ad-156">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-156">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-157">Максимальный размер текста нужно вернуть.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-157">The maximum size of the body to be retrieved.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0a8fd-155">Получает или задает максимальный размер извлекаемого текста.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-155">Gets or sets the maximum size of the body to be retrieved.</span></span>             <span data-ttu-id="0a8fd-156"><see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-156">The <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-157">Максимальный размер извлекаемого текста.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-157">The maximum size of the body to be retrieved.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -814,24 +508,9 @@
         <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
       </Parameters>
       <Docs>
-        <param name="basePropertySet">
-          <span data-ttu-id="369ad-158">Значение BasePropertySet для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-158">The BasePropertySet value to convert from.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-159">Реализует неявное преобразование между PropertySet и BasePropertySet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-159">Implements an implicit conversion between the PropertySet class and the BasePropertySet class.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="369ad-160">Экземпляр PropertySet, основанный на указанным базового набором свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-160">A PropertySet instance that is based on the specified base property set.</span>
-          </span>
-        </returns>
+        <param name="basePropertySet"><span data-ttu-id="0a8fd-158">Значение Басепропертисет, из которого необходимо выполнить преобразование.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-158">The BasePropertySet value to convert from.</span></span></param>
+        <summary><span data-ttu-id="0a8fd-159">Реализует неявное преобразование между классом свойства и классом Басепропертисет.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-159">Implements an implicit conversion between the PropertySet class and the BasePropertySet class.</span></span></summary>
+        <returns><span data-ttu-id="0a8fd-160">Экземпляр набора свойств, основанный на указанном базовом наборе свойств.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-160">A PropertySet instance that is based on the specified base property set.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -853,26 +532,9 @@
         <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="property">
-          <span data-ttu-id="369ad-161">Свойство для удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-161">The property to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="369ad-162">Удаляет указанное свойство из набора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-162">Removes the specified property from the set.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="369ad-163">
-            <b>значение true,</b> Если свойство успешно удалено; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-163">
-              <b>true</b> if the property was successfully removed; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="property"><span data-ttu-id="0a8fd-161">Свойство, которое требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-161">The property to remove.</span></span></param>
+        <summary><span data-ttu-id="0a8fd-162">Удаляет указанное свойство из набора.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-162">Removes the specified property from the set.</span></span></summary>
+        <returns><span data-ttu-id="0a8fd-163"><b>значение true</b> , если свойство было успешно удалено; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-163"><b>true</b> if the property was successfully removed; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -891,34 +553,11 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-164">Получает или задает тип текст, который следует загрузить на элементы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-164">Gets or sets type of body that should be loaded on items.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="369ad-165">Одно из значений перечисления типа текста сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-165">One of the BodyType enumeration values.</span>
-          </span>
-          <span data-ttu-id="369ad-166">Это свойство может быть пустая ссылка (Nothing в Visual Basic).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-166">This property can be a null reference (Nothing in Visual Basic).</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="369ad-167">
-            <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> свойство является пустая ссылка (Nothing в Visual Basic), основной текст элемента возвращается в виде HTML-код, если он доступен; в противном случае тексте запроса возвращаются в виде обычного текста.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-167">
-              <para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> property is a null reference (Nothing in Visual Basic), the item's body is returned as HTML if available; otherwise, the body is returned as plain text.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="0a8fd-164">Получает или задает тип основного текста, который должен загружаться в элементах.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-164">Gets or sets type of body that should be loaded on items.</span></span></summary>
+        <value><span data-ttu-id="0a8fd-165">Одно из значений перечисления BodyType.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-165">One of the BodyType enumeration values.</span></span> <span data-ttu-id="0a8fd-166">Это свойство может быть пустой ссылкой (Nothing в Visual Basic).</span><span class="sxs-lookup"><span data-stu-id="0a8fd-166">This property can be a null reference (Nothing in Visual Basic).</span></span></value>
+        <remarks><span data-ttu-id="0a8fd-167"><para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> свойство является пустой ссылкой (Nothing в Visual Basic), текст элемента возвращается в виде HTML, если он доступен; в противном случае текст возвращается в виде обычного текста.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0a8fd-167"><para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> property is a null reference (Nothing in Visual Basic), the item's body is returned as HTML if available; otherwise, the body is returned as plain text.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="RequestedNormalizedBodyType">
@@ -936,25 +575,11 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-168">Получает или задает тип текст, который должен быть загружен для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойств элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-168">Gets or sets type of body that should be loaded for the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property on items.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0a8fd-168">Получает или задает тип основного текста, который должен загружаться для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойства элементов.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-168">Gets or sets type of body that should be loaded for the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property on items.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="369ad-169">
-            <para>Если значение null, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойство будет иметь совпадает с типом <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> свойство.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-169">
-              <para>If null, the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property will have the same type as the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0a8fd-169"><para>Если значение равно NULL <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> , свойство будет иметь тот же тип, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> что и свойство.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0a8fd-169"><para>If null, the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property will have the same type as the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="RequestedUniqueBodyType">
@@ -972,25 +597,11 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-170">Получает или задает тип текст, который должен быть загружен для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> свойств элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-170">Gets or sets type of body that should be loaded for the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> property on items.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0a8fd-170">Получает или задает тип основного текста, который должен загружаться для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> свойства элементов.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-170">Gets or sets type of body that should be loaded for the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> property on items.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="369ad-171">
-            <para>Если значение null, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> свойство будет иметь совпадает с типом <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> свойство.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-171">
-              <para>If null, the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> property will have the same type as the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0a8fd-171"><para>Если значение равно NULL <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> , свойство будет иметь тот же тип, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> что и свойство.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0a8fd-171"><para>If null, the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> property will have the same type as the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
@@ -1012,23 +623,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="369ad-172">Возвращает перечислитель, который выполняет итерацию по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-172">Returns an enumerator that iterates through a collection.</span>
-          </span>
-          <span data-ttu-id="369ad-173">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-173">The <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="369ad-174">Перечислитель для просмотра элементов из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="369ad-174">An enumerator that iterates through the elements of the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="0a8fd-172">Возвращает перечислитель, который выполняет итерацию по коллекции.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-172">Returns an enumerator that iterates through a collection.</span></span>            <span data-ttu-id="0a8fd-173">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-173">The <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="0a8fd-174">Перечислитель, который выполняет итерацию элементов коллекции.</span><span class="sxs-lookup"><span data-stu-id="0a8fd-174">An enumerator that iterates through the elements of the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

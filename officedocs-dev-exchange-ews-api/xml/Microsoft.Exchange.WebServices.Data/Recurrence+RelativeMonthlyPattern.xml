@@ -1,13 +1,5 @@
 <Type Name="Recurrence+RelativeMonthlyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+RelativeMonthlyPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3fce0ab724d3accf8f3673736e96deecbc3ff4c1" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626549" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Recurrence.RelativeMonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3fce0ab724d3accf8f3673736e96deecbc3ff4c1" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626549" /></Metadata><TypeSignature Language="C#" Value="public sealed class Recurrence.RelativeMonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/RelativeMonthlyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.RelativeMonthlyPattern&#xA;Inherits Recurrence.IntervalPattern" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="3bf39-101">Представляет шаблон повторения, где каждый происходит относительный день указанное число месяцев после предыдущей команды.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3bf39-101">Represents a recurrence pattern where each occurrence happens on a relative day a specific number of months after the previous one.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="870c3-101">Представляет шаблон повторения, в котором каждое событие происходит в относительный день определенного количества месяцев после предыдущего.</span><span class="sxs-lookup"><span data-stu-id="870c3-101">Represents a recurrence pattern where each occurrence happens on a relative day a specific number of months after the previous one.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3bf39-102">Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="870c3-102">Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Релативемонслипаттерн.</span><span class="sxs-lookup"><span data-stu-id="870c3-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,36 +51,11 @@
         <Parameter Name="dayOfTheWeekIndex" Type="Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex" />
       </Parameters>
       <Docs>
-        <param name="startDate">
-          <span data-ttu-id="3bf39-103">Дата начала повторения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-103">The start date of the recurrence pattern.</span>
-          </span>
-        </param>
-        <param name="interval">
-          <span data-ttu-id="3bf39-104">Интервал между вхождений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-104">The interval between occurrences.</span>
-          </span>
-        </param>
-        <param name="dayOfTheWeek">
-          <span data-ttu-id="3bf39-105">Одно из значений перечисления DayOfTheWeek, указывает на какой день недели событие повторяется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-105">One of the DayOfTheWeek enumeration values that indicates on which day of the week the event recurs.</span>
-          </span>
-        </param>
-        <param name="dayOfTheWeekIndex">
-          <span data-ttu-id="3bf39-106">Одно из значений перечисления DayOfTheWeekIndex, которое указывает, какие недели, месяца событие повторяется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-106">One of the DayOfTheWeekIndex enumeration values that indicates in which week of the month the event recurs.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3bf39-107">Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern с заданными параметрами.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-107">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern class with the specified parameters.</span>
-          </span>
-        </summary>
+        <param name="startDate"><span data-ttu-id="870c3-103">Дата начала расписания повторения.</span><span class="sxs-lookup"><span data-stu-id="870c3-103">The start date of the recurrence pattern.</span></span></param>
+        <param name="interval"><span data-ttu-id="870c3-104">Интервал между повторениями.</span><span class="sxs-lookup"><span data-stu-id="870c3-104">The interval between occurrences.</span></span></param>
+        <param name="dayOfTheWeek"><span data-ttu-id="870c3-105">Одно из значений перечисления Дайофсевик, которое указывает, на какой день недели событие повторяется.</span><span class="sxs-lookup"><span data-stu-id="870c3-105">One of the DayOfTheWeek enumeration values that indicates on which day of the week the event recurs.</span></span></param>
+        <param name="dayOfTheWeekIndex"><span data-ttu-id="870c3-106">Одно из значений перечисления Дайофсевикиндекс, которое указывает, в какой неделе месяца повторяется событие.</span><span class="sxs-lookup"><span data-stu-id="870c3-106">One of the DayOfTheWeekIndex enumeration values that indicates in which week of the month the event recurs.</span></span></param>
+        <summary><span data-ttu-id="870c3-107">Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. Релативемонслипаттерн. с указанными параметрами.</span><span class="sxs-lookup"><span data-stu-id="870c3-107">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern class with the specified parameters.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,18 +74,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bf39-108">Получает или задает день недели, на котором событие повторяется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-108">Gets or sets the day of the week on which the event recurs.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bf39-109">Одно из значений перечисления DayOfTheWeek.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-109">One of the DayOfTheWeek enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="870c3-108">Получает или задает день недели, в течение которого событие повторяется.</span><span class="sxs-lookup"><span data-stu-id="870c3-108">Gets or sets the day of the week on which the event recurs.</span></span></summary>
+        <value><span data-ttu-id="870c3-109">Одно из значений перечисления Дайофсевик.</span><span class="sxs-lookup"><span data-stu-id="870c3-109">One of the DayOfTheWeek enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -147,18 +94,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bf39-110">Получает или задает недели, месяца, на котором событие повторяется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-110">Gets or sets the week of the month on which the event recurs.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3bf39-111">Одно из значений перечисления DayOfTheWeekIndex.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bf39-111">One of the DayOfTheWeekIndex enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="870c3-110">Получает или задает значение недели месяца, в котором повторяется событие.</span><span class="sxs-lookup"><span data-stu-id="870c3-110">Gets or sets the week of the month on which the event recurs.</span></span></summary>
+        <value><span data-ttu-id="870c3-111">Одно из значений перечисления Дайофсевикиндекс.</span><span class="sxs-lookup"><span data-stu-id="870c3-111">One of the DayOfTheWeekIndex enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

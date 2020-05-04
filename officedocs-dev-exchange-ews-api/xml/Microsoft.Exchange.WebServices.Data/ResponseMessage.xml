@@ -1,13 +1,5 @@
 <Type Name="ResponseMessage" FullName="Microsoft.Exchange.WebServices.Data.ResponseMessage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9c9e1c27f0efa2a96df9f13bb2d14df76a704d6c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627057" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ResponseMessage : Microsoft.Exchange.WebServices.Data.ResponseObject&lt;Microsoft.Exchange.WebServices.Data.EmailMessage&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9c9e1c27f0efa2a96df9f13bb2d14df76a704d6c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627057" /></Metadata><TypeSignature Language="C#" Value="public sealed class ResponseMessage : Microsoft.Exchange.WebServices.Data.ResponseObject&lt;Microsoft.Exchange.WebServices.Data.EmailMessage&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ResponseMessage extends Microsoft.Exchange.WebServices.Data.ResponseObject`1&lt;class Microsoft.Exchange.WebServices.Data.EmailMessage&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseMessage" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ResponseMessage&#xA;Inherits ResponseObject(Of EmailMessage)" />
@@ -24,12 +16,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="06ea6-101">Представляет базовый класс для электронной почты связанных с ними ответы (ответить, ответить всем или переслать).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="06ea6-101">Represents the base class for e-mail related responses (Reply, Reply all and Forward).</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f9ffc-101">Представляет базовый класс для откликов, связанных с электронной почтой (ответ, ответ все и переадресация).</span><span class="sxs-lookup"><span data-stu-id="f9ffc-101">Represents the base class for e-mail related responses (Reply, Reply all and Forward).</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,18 +35,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06ea6-102">Получает список получателей в этом будет отправлен ответ, в качестве скрытой копии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-102">Gets a list of recipients this response will be sent to as Bcc.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="06ea6-103">Объект EmailAddressCollection.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-103">An EmailAddressCollection object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f9ffc-102">Получает список получателей, которым отправляется этот ответ в виде скрытой копии.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-102">Gets a list of recipients this response will be sent to as Bcc.</span></span></summary>
+        <value><span data-ttu-id="f9ffc-103">Объект Емаиладдрессколлектион.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-103">An EmailAddressCollection object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,18 +55,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06ea6-104">Получает или задает основного текста ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-104">Gets or sets the body of the response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="06ea6-105">Объект MessageBody.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-105">A MessageBody object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f9ffc-104">Получает или задает текст отклика.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-104">Gets or sets the body of the response.</span></span></summary>
+        <value><span data-ttu-id="f9ffc-105">Объект Мессажебоди.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-105">A MessageBody object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -108,22 +75,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06ea6-106">Получает или задает текст префикса данного ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-106">Gets or sets the body prefix of this response.</span>
-          </span>
-          <span data-ttu-id="06ea6-107">Текст префикса будут добавляться в начало текста исходного сообщения при ответе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-107">The body prefix will be prepended to the original            message's body when the response is created.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="06ea6-108">Объект MessageBody.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-108">A MessageBody object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f9ffc-106">Получает или задает префикс текста для этого ответа.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-106">Gets or sets the body prefix of this response.</span></span> <span data-ttu-id="f9ffc-107">При создании ответа префикс основного текста будет добавлен в начале текста исходного сообщения.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-107">The body prefix will be prepended to the original            message's body when the response is created.</span></span></summary>
+        <value><span data-ttu-id="f9ffc-108">Объект Мессажебоди.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-108">A MessageBody object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -142,18 +95,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06ea6-109">Получает список получателей, который будет отправлен ответ для как «копия».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-109">Gets a list of recipients the response will be sent to as Cc.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="06ea6-110">Объект EmailAddressCollection.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-110">An EmailAddressCollection object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f9ffc-109">Получает список получателей, которым будет отправлен ответ в качестве CC.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-109">Gets a list of recipients the response will be sent to as Cc.</span></span></summary>
+        <value><span data-ttu-id="f9ffc-110">Объект Емаиладдрессколлектион.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-110">An EmailAddressCollection object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -172,18 +115,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessageType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06ea6-111">Получает значение, указывающее тип ответа, представляемого объектом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-111">Gets a value indicating the type of response this object represents.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="06ea6-112">Объект ResponseMessageType.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-112">A ResponseMessageType object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f9ffc-111">Получает значение, указывающее тип ответа, который представляет этот объект.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-111">Gets a value indicating the type of response this object represents.</span></span></summary>
+        <value><span data-ttu-id="f9ffc-112">Объект Респонсемессажетипе.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-112">A ResponseMessageType object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -202,18 +135,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06ea6-113">Получает или задает тему этот ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-113">Gets or sets the subject of this response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="06ea6-114">Строковое значение, содержащее темы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-114">A string value containing the subject.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f9ffc-113">Получает или задает тему этого ответа.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-113">Gets or sets the subject of this response.</span></span></summary>
+        <value><span data-ttu-id="f9ffc-114">Строковое значение, содержащее тему.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-114">A string value containing the subject.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -232,18 +155,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="06ea6-115">Получает список получателей, который будет отправлен ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-115">Gets a list of recipients the response will be sent to.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="06ea6-116">Объект EmailAddressCollection.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="06ea6-116">An EmailAddressCollection object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f9ffc-115">Получает список получателей, в которые будет отправлен ответ.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-115">Gets a list of recipients the response will be sent to.</span></span></summary>
+        <value><span data-ttu-id="f9ffc-116">Объект Емаиладдрессколлектион.</span><span class="sxs-lookup"><span data-stu-id="f9ffc-116">An EmailAddressCollection object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

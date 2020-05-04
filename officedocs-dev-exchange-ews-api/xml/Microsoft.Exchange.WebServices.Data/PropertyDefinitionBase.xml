@@ -1,13 +1,5 @@
 <Type Name="PropertyDefinitionBase" FullName="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ad75e65d512ec7db789beb5c146d7a724a4b6307" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626998" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class PropertyDefinitionBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ad75e65d512ec7db789beb5c146d7a724a4b6307" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626998" /></Metadata><TypeSignature Language="C#" Value="public abstract class PropertyDefinitionBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit PropertyDefinitionBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class PropertyDefinitionBase" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="12f4e-101">Определяет базовый класс для определения свойств.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="12f4e-101">Defines the base class for property definitions.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="eb5dd-101">Определяет базовый класс для определений свойств.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-101">Defines the base class for property definitions.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -46,23 +33,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="12f4e-102">Получает тип переменной JavaScript Object Notation (JSON) связанного свойства, например <b>string</b>, <b>номер</b>, <b>объект</b>, <b>массива</b>или <b>типа Boolean</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="12f4e-102">Gets the JavaScript Object Notation (JSON) variable type of the associated property, for example, <b>string</b>, <b>number</b>, <b>object</b>, <b>array</b>, or <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="12f4e-103">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.GetJsonType" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="12f4e-103">The <see cref="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.GetJsonType" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="12f4e-104">Тип переменной JSON.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="12f4e-104">The JSON variable type.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="eb5dd-102">Получает тип переменной JSON (Notation объектов JavaScript) связанного свойства, например <b>String</b>, <b>Number</b>, <b>Object</b>, <b>Array</b>или <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-102">Gets the JavaScript Object Notation (JSON) variable type of the associated property, for example, <b>string</b>, <b>number</b>, <b>object</b>, <b>array</b>, or <b>Boolean</b>.</span></span>             <span data-ttu-id="eb5dd-103">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.GetJsonType" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-103">The <see cref="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.GetJsonType" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="eb5dd-104">Тип переменной JSON.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-104">The JSON variable type.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,18 +54,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="12f4e-105">Возвращает <see cref="T:System.String" /> , который представляет текущего <see cref="T:System.Object" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="12f4e-105">Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="12f4e-106">A <see cref="T:System.String" /> , который представляет текущего <see cref="T:System.Object" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="12f4e-106">A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="eb5dd-105">Возвращает объект <see cref="T:System.String" /> , представляющий текущую <see cref="T:System.Object" />.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-105">Returns a <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.</span></span></summary>
+        <returns><span data-ttu-id="eb5dd-106">A <see cref="T:System.String" /> , представляющий текущее <see cref="T:System.Object" />значение.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-106">A <see cref="T:System.String" /> that represents the current <see cref="T:System.Object" />.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -112,12 +74,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="12f4e-107">Получает тип свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="12f4e-107">Gets the type of the property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="eb5dd-107">Получает тип свойства.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-107">Gets the type of the property.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,18 +94,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="12f4e-108">Получает Минимальная версия Exchange, который поддерживает это свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="12f4e-108">Gets the minimum Exchange version that supports this property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="12f4e-109">Одно из значений перечисления ExchangeVersion.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="12f4e-109">One of the ExchangeVersion enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="eb5dd-108">Возвращает минимальную версию Exchange, поддерживающую это свойство.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-108">Gets the minimum Exchange version that supports this property.</span></span></summary>
+        <value><span data-ttu-id="eb5dd-109">Одно из значений перечисления Ексчанжеверсион.</span><span class="sxs-lookup"><span data-stu-id="eb5dd-109">One of the ExchangeVersion enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

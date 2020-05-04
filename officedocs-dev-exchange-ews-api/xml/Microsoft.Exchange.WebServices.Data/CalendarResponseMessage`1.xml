@@ -1,13 +1,5 @@
 <Type Name="CalendarResponseMessage&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;TMessage&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="924940ce507f06cc1ba7a5dee215d0fbfdf5538d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626858" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class CalendarResponseMessage&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;TMessage&gt; where TMessage : EmailMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="924940ce507f06cc1ba7a5dee215d0fbfdf5538d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626858" /></Metadata><TypeSignature Language="C#" Value="public abstract class CalendarResponseMessage&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;TMessage&gt; where TMessage : EmailMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CalendarResponseMessage`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1&lt;!TMessage&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class CalendarResponseMessage(Of TMessage)&#xA;Inherits CalendarResponseMessageBase(Of TMessage)" />
@@ -36,18 +28,8 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <typeparam name="TMessage">
-      <span data-ttu-id="250ec-101">Тип сообщения, созданный при сохранении в этом ответное сообщение.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="250ec-101">The type of message that is created when this response message is saved.</span>
-      </span>
-    </typeparam>
-    <summary>
-      <span data-ttu-id="250ec-102">Представляет базовый класс для всех сообщений, связанные с календарем ответа.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="250ec-102">Represents the base class for all calendar-related response messages.</span>
-      </span>
-    </summary>
+    <typeparam name="TMessage"><span data-ttu-id="85c9c-101">Тип сообщения, создаваемого при сохранении ответного сообщения.</span><span class="sxs-lookup"><span data-stu-id="85c9c-101">The type of message that is created when this response message is saved.</span></span></typeparam>
+    <summary><span data-ttu-id="85c9c-102">Представляет базовый класс для всех ответных сообщений, относящихся к календарю.</span><span class="sxs-lookup"><span data-stu-id="85c9c-102">Represents the base class for all calendar-related response messages.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -66,18 +48,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="250ec-103">Получает список вложений для этого ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-103">Gets a list of attachments to this response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="250ec-104">Список вложений в ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-104">The list of attachments to the response.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="85c9c-103">Получает список вложений для этого ответа.</span><span class="sxs-lookup"><span data-stu-id="85c9c-103">Gets a list of attachments to this response.</span></span></summary>
+        <value><span data-ttu-id="85c9c-104">Список вложений для ответа.</span><span class="sxs-lookup"><span data-stu-id="85c9c-104">The list of attachments to the response.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,18 +68,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="250ec-105">Получает список получателей, которые этот будет отправлен ответ, в качестве скрытой копии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-105">Gets a list of recipients that this response will be sent to as Bcc.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="250ec-106">Список получателей, которым будет отправлен ответ как скрытой копии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-106">The list of recipients that the response will be sent to as Bcc.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="85c9c-105">Получает список получателей, которым будет отправлен этот ответ в качестве скрытой копии.</span><span class="sxs-lookup"><span data-stu-id="85c9c-105">Gets a list of recipients that this response will be sent to as Bcc.</span></span></summary>
+        <value><span data-ttu-id="85c9c-106">Список получателей, которым отправляются ответы в скрытом списке получателей.</span><span class="sxs-lookup"><span data-stu-id="85c9c-106">The list of recipients that the response will be sent to as Bcc.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,18 +88,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="250ec-107">Получает или задает текст в этом ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-107">Gets or sets the body of this response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="250ec-108">Основного текста ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-108">The body of the response.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="85c9c-107">Получает или задает основной текст этого ответа.</span><span class="sxs-lookup"><span data-stu-id="85c9c-107">Gets or sets the body of this response.</span></span></summary>
+        <value><span data-ttu-id="85c9c-108">Текст отклика.</span><span class="sxs-lookup"><span data-stu-id="85c9c-108">The body of the response.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -156,18 +108,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="250ec-109">Получает список получателей, которые этот будет отправлен ответ как «копия».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-109">Gets a list of recipients that this response will be sent to as Cc.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="250ec-110">Список получателей, которым будет отправлен ответ как «копия».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-110">The list of recipients that the response will be sent to as Cc.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="85c9c-109">Получает список получателей, которым будет отправлен этот ответ в качестве CC.</span><span class="sxs-lookup"><span data-stu-id="85c9c-109">Gets a list of recipients that this response will be sent to as Cc.</span></span></summary>
+        <value><span data-ttu-id="85c9c-110">Список получателей, которым будет отправлен ответ в качестве CC.</span><span class="sxs-lookup"><span data-stu-id="85c9c-110">The list of recipients that the response will be sent to as Cc.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -186,18 +128,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="250ec-111">Получает или задает отправителя этот ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-111">Gets or sets the sender of this response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="250ec-112">Отправитель ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-112">The sender of the response.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="85c9c-111">Получает или задает отправителя этого ответа.</span><span class="sxs-lookup"><span data-stu-id="85c9c-111">Gets or sets the sender of this response.</span></span></summary>
+        <value><span data-ttu-id="85c9c-112">Отправитель отклика.</span><span class="sxs-lookup"><span data-stu-id="85c9c-112">The sender of the response.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -216,18 +148,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="250ec-113">Получает или задает уровень конфиденциальности сообщения в этом ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-113">Gets or sets the sensitivity of this response.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="250ec-114">Уровень конфиденциальности сообщения ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-114">The sensitivity of the response.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="85c9c-113">Получает или задает чувствительность этого отклика.</span><span class="sxs-lookup"><span data-stu-id="85c9c-113">Gets or sets the sensitivity of this response.</span></span></summary>
+        <value><span data-ttu-id="85c9c-114">Чувствительность отклика.</span><span class="sxs-lookup"><span data-stu-id="85c9c-114">The sensitivity of the response.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -246,18 +168,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="250ec-115">Получает список получателей, которые будут отправляться в этом ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-115">Gets a list of recipients that this response will be sent to.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="250ec-116">Список получателей, которым будет отправлен ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="250ec-116">The list of recipients that the response will be sent to.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="85c9c-115">Получает список получателей, на который будет отправлен этот ответ.</span><span class="sxs-lookup"><span data-stu-id="85c9c-115">Gets a list of recipients that this response will be sent to.</span></span></summary>
+        <value><span data-ttu-id="85c9c-116">Список получателей, на который будет отправлен ответ.</span><span class="sxs-lookup"><span data-stu-id="85c9c-116">The list of recipients that the response will be sent to.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

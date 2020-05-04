@@ -1,13 +1,5 @@
 <Type Name="Item" FullName="Microsoft.Exchange.WebServices.Data.Item">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627081" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627081" /></Metadata><TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Item extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="VB.NET" Value="Public Class Item&#xA;Inherits ServiceObject" />
@@ -21,16 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="84f1d-101">Представляет универсальный элемент.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="84f1d-101">Represents a generic item.</span>
-      </span>
-      <span data-ttu-id="84f1d-102">Свойства, доступные на элементы определены в <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> класса. <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> Типа используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="84f1d-102">Properties that are available on items are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> class.The <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> type is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="758a1-101">Представляет общий элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-101">Represents a generic item.</span></span> <span data-ttu-id="758a1-102">Свойства, доступные для элементов, определяются в <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> классе. <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> Тип применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-102">Properties that are available on items are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> class.The <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> type is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,22 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseActions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-103">Получает значение, указывающее, разрешенные действия ответа по этому элементу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-103">Gets a value that indicates which response actions are allowed on this item.</span>
-          </span>
-          <span data-ttu-id="84f1d-104">Примеры действий ответа, ответить или переслать.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-104">Examples of response actions are Reply and Forward.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-105">Значение перечисления ResponseActions.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-105">A ResponseActions enumeration value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-103">Получает значение, указывающее, какие действия отклика разрешены для данного элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-103">Gets a value that indicates which response actions are allowed on this item.</span></span> <span data-ttu-id="758a1-104">Примерами действий ответа являются ответ и пересылка.</span><span class="sxs-lookup"><span data-stu-id="758a1-104">Examples of response actions are Reply and Forward.</span></span></summary>
+        <value><span data-ttu-id="758a1-105">Значение перечисления Респонсеактионс.</span><span class="sxs-lookup"><span data-stu-id="758a1-105">A ResponseActions enumeration value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,23 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-106">Получает или задает тег архива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-106">Gets or sets the archive tag.</span>
-          </span>
-          <span data-ttu-id="84f1d-107">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-108">Тег архива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-108">The archive tag.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-106">Получает или задает Тег архива.</span><span class="sxs-lookup"><span data-stu-id="758a1-106">Gets or sets the archive tag.</span></span>             <span data-ttu-id="758a1-107"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-108">Тег архива.</span><span class="sxs-lookup"><span data-stu-id="758a1-108">The archive tag.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,18 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-109">Получает список вложений для данного элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-109">Gets a list of the attachments to this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-110">Объект AttachmentCollection.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-110">An AttachmentCollection object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-109">Получает список вложений для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-109">Gets a list of the attachments to this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-110">Объект Аттачментколлектион.</span><span class="sxs-lookup"><span data-stu-id="758a1-110">An AttachmentCollection object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -152,41 +96,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="84f1d-111">Служба должна использовать для привязки к элементу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-111">The service to use to bind to the item.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="84f1d-112">Идентификатор элемента для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-112">The ID of the item to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-113">Выполняет привязку к существующему элементу, независимо от его фактический тип и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-113">Binds to an existing item, whatever its actual type is, and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="84f1d-114">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-114">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="84f1d-115">Экземпляр элемента, представляющий элемент, который соответствует с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-115">An Item instance representing the item that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="758a1-111">Служба, используемая для связывания с элементом.</span><span class="sxs-lookup"><span data-stu-id="758a1-111">The service to use to bind to the item.</span></span></param>
+        <param name="id"><span data-ttu-id="758a1-112">Идентификатор элемента, к которому необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="758a1-112">The ID of the item to bind to.</span></span></param>
+        <summary><span data-ttu-id="758a1-113">Применяет к существующему элементу, независимо от его фактического типа, и загружает свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="758a1-113">Binds to an existing item, whatever its actual type is, and loads its first class properties.</span></span> <span data-ttu-id="758a1-114">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-114">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="758a1-115">Экземпляр элемента, представляющий элемент, соответствующий указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="758a1-115">An Item instance representing the item that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <span data-ttu-id="84f1d-116">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-116">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
-          </span>
-        </exception>
+        <exception cref="T:System.ArgumentNullException"><span data-ttu-id="758a1-116">Подробнее об этом исключении можно узнать <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />в статье.</span><span class="sxs-lookup"><span data-stu-id="758a1-116">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span></span></exception>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -208,43 +123,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="84f1d-117">Служба должна использовать для привязки к элементу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-117">The service to use to bind to the item.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="84f1d-118">Идентификатор элемента для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-118">The ID of the item to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="84f1d-119">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-119">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-120">Выполняет привязку к существующему элементу, независимо от его фактический тип и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-120">Binds to an existing item, whatever its actual type is, and loads the specified set of properties.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="84f1d-121">Экземпляр элемента, представляющий элемент, в соответствии с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-121">An Item instance representing the item corresponding to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="758a1-117">Служба, используемая для связывания с элементом.</span><span class="sxs-lookup"><span data-stu-id="758a1-117">The service to use to bind to the item.</span></span></param>
+        <param name="id"><span data-ttu-id="758a1-118">Идентификатор элемента, к которому необходимо присоединиться.</span><span class="sxs-lookup"><span data-stu-id="758a1-118">The ID of the item to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="758a1-119">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="758a1-119">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="758a1-120">Применяет к существующему элементу, независимо от его фактического типа, и загружает указанный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="758a1-120">Binds to an existing item, whatever its actual type is, and loads the specified set of properties.</span></span></summary>
+        <returns><span data-ttu-id="758a1-121">Экземпляр элемента, представляющий элемент, соответствующий указанному ИДЕНТИФИКАТОРу.</span><span class="sxs-lookup"><span data-stu-id="758a1-121">An Item instance representing the item corresponding to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <span data-ttu-id="84f1d-122">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-122">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
-          </span>
-        </exception>
+        <exception cref="T:System.ArgumentNullException"><span data-ttu-id="758a1-122">Подробнее об этом исключении можно узнать <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />в статье.</span><span class="sxs-lookup"><span data-stu-id="758a1-122">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span></span></exception>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -262,18 +147,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-123">Получает или задает тело этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-123">Gets or sets the body of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-124">Объект MessageBody.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-124">A MessageBody object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-123">Получает или задает основной текст этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-123">Gets or sets the body of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-124">Объект Мессажебоди.</span><span class="sxs-lookup"><span data-stu-id="758a1-124">A MessageBody object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -292,18 +167,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-125">Получает или задает список категорий, которые связаны с этим элементом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-125">Gets or sets the list of categories that are associated with this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-126">Объект основная система.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-126">A StringList object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-125">Получает или задает список категорий, связанных с этим элементом.</span><span class="sxs-lookup"><span data-stu-id="758a1-125">Gets or sets the list of categories that are associated with this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-126">Объект Стринглист.</span><span class="sxs-lookup"><span data-stu-id="758a1-126">A StringList object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -322,18 +187,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-127">Получает идентификатор беседы, этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-127">Gets the ID of the conversation that this item is part of.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-128">Объект ConversationId.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-128">A ConversationId object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-127">Получает идентификатор диалога, в состав которого входит этот элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-127">Gets the ID of the conversation that this item is part of.</span></span></summary>
+        <value><span data-ttu-id="758a1-128">Объект ConversationId.</span><span class="sxs-lookup"><span data-stu-id="758a1-128">A ConversationId object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -355,28 +210,9 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">
-          <span data-ttu-id="84f1d-129">Идентификатор папки, в котором необходимо создать копию этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-129">The ID of the folder in which to create a copy of this item.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-130">Создает копию этого элемента в указанной папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-130">Creates a copy of this item in the specified folder.</span>
-          </span>
-          <span data-ttu-id="84f1d-131">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-131">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="84f1d-132">Объект Item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-132">An Item object.</span>
-          </span>
-        </returns>
+        <param name="destinationFolderId"><span data-ttu-id="758a1-129">Идентификатор папки, в которой будет создана копия этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-129">The ID of the folder in which to create a copy of this item.</span></span></param>
+        <summary><span data-ttu-id="758a1-130">Создает копию этого элемента в указанной папке.</span><span class="sxs-lookup"><span data-stu-id="758a1-130">Creates a copy of this item in the specified folder.</span></span> <span data-ttu-id="758a1-131">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-131">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="758a1-132">Объект Item.</span><span class="sxs-lookup"><span data-stu-id="758a1-132">An Item object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -398,28 +234,9 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">
-          <span data-ttu-id="84f1d-133">Имя папки, в котором необходимо создать копию этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-133">The name of the folder in which to create a copy of this item.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-134">Создает копию этого элемента в указанной папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-134">Creates a copy of this item in the specified folder.</span>
-          </span>
-          <span data-ttu-id="84f1d-135">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-135">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="84f1d-136">Объект Item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-136">An Item object.</span>
-          </span>
-        </returns>
+        <param name="destinationFolderName"><span data-ttu-id="758a1-133">Имя папки, в которой будет создана копия этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-133">The name of the folder in which to create a copy of this item.</span></span></param>
+        <summary><span data-ttu-id="758a1-134">Создает копию этого элемента в указанной папке.</span><span class="sxs-lookup"><span data-stu-id="758a1-134">Creates a copy of this item in the specified folder.</span></span> <span data-ttu-id="758a1-135">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-135">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="758a1-136">Объект Item.</span><span class="sxs-lookup"><span data-stu-id="758a1-136">An Item object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -438,18 +255,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-137">Получает или задает язык и региональные параметры, связанный с этим элементом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-137">Gets or sets the culture that is associated with this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-138">String, указывающее язык и региональные параметры элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-138">A string indicating the culture of the item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-137">Получает или задает язык и региональные параметры, связанные с этим элементом.</span><span class="sxs-lookup"><span data-stu-id="758a1-137">Gets or sets the culture that is associated with this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-138">Строка, указывающая язык и региональные параметры элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-138">A string indicating the culture of the item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -468,18 +275,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-139">Получает дату и время, в которой был создан этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-139">Gets the date and time at which this item was created.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-140">Значение даты и времени, указывающее дату и время создания элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-140">A DateTime value indicating the date and time the item was created.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-139">Получает дату и время создания элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-139">Gets the date and time at which this item was created.</span></span></summary>
+        <value><span data-ttu-id="758a1-140">Значение DateTime, указывающее дату и время создания элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-140">A DateTime value indicating the date and time the item was created.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -498,18 +295,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-141">Возвращает время, когда этот элемент был получен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-141">Gets the time when this item was received.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-142">Значение даты и времени, указывающее дату и время получения элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-142">A DateTime value indicating the date and time the item was received.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-141">Получает время получения этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-141">Gets the time when this item was received.</span></span></summary>
+        <value><span data-ttu-id="758a1-142">Значение DateTime, указывающее дату и время получения элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-142">A DateTime value indicating the date and time the item was received.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -528,18 +315,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-143">Получает дату и время отправки этому элементу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-143">Gets the date and time at which this item was sent.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-144">Значение даты и времени, указывающее дату и время отправки элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-144">A DateTime value indicating the date and time the item was sent.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-143">Получает дату и время отправки элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-143">Gets the date and time at which this item was sent.</span></span></summary>
+        <value><span data-ttu-id="758a1-144">Значение DateTime, указывающее дату и время отправки элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-144">A DateTime value indicating the date and time the item was sent.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -560,22 +337,8 @@
         <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
       </Parameters>
       <Docs>
-        <param name="deleteMode">
-          <span data-ttu-id="84f1d-145">Режим удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-145">The deletion mode.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-146">Удаляет элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-146">Deletes the item.</span>
-          </span>
-          <span data-ttu-id="84f1d-147">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-147">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
+        <param name="deleteMode"><span data-ttu-id="758a1-145">Режим удаления.</span><span class="sxs-lookup"><span data-stu-id="758a1-145">The deletion mode.</span></span></param>
+        <summary><span data-ttu-id="758a1-146">Удаляет элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-146">Deletes the item.</span></span> <span data-ttu-id="758a1-147">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-147">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -597,30 +360,9 @@
         <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="deleteMode">
-          <span data-ttu-id="84f1d-148">Режим удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-148">The deletion mode.</span>
-          </span>
-        </param>
-        <param name="suppressReadReceipts">
-          <span data-ttu-id="84f1d-149">
-            <b>значение true,</b> Если считывания квитанций не должен отправляться, если элемент удаляется запросил прочтении; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-149">
-              <b>true</b> if read receipts should not be sent if the item being deleted has requested a read receipt; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-150">Удаляет элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-150">Deletes the item.</span>
-          </span>
-          <span data-ttu-id="84f1d-151">Вызывает этот метод результаты в вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-151">Calling this method results in a call to EWS.</span>
-          </span>
-        </summary>
+        <param name="deleteMode"><span data-ttu-id="758a1-148">Режим удаления.</span><span class="sxs-lookup"><span data-stu-id="758a1-148">The deletion mode.</span></span></param>
+        <param name="suppressReadReceipts"><span data-ttu-id="758a1-149"><b>имеет значение true</b> , если уведомления о прочтении не следует отправлять, если удаляемый элемент запросил уведомление о прочтении; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="758a1-149"><b>true</b> if read receipts should not be sent if the item being deleted has requested a read receipt; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="758a1-150">Удаляет элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-150">Deletes the item.</span></span> <span data-ttu-id="758a1-151">Вызов этого метода приводит к вызову EWS.</span><span class="sxs-lookup"><span data-stu-id="758a1-151">Calling this method results in a call to EWS.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -639,18 +381,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-152">Получает строку текста, в котором приведены получателей копии этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-152">Gets a text string that lists the Cc recipients of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-153">Строковое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-153">A string value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-152">Получает текстовую строку, в которой перечисляются получатели копии этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-152">Gets a text string that lists the Cc recipients of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-153">Строковое значение.</span><span class="sxs-lookup"><span data-stu-id="758a1-153">A string value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -669,18 +401,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-154">Получает строку текста, в котором приведены получателей для этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-154">Gets a text string that lists the To recipients of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-155">Строковое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-155">A string value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-154">Получает текстовую строку, в которой перечислены получатели этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-154">Gets a text string that lists the To recipients of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-155">Строковое значение.</span><span class="sxs-lookup"><span data-stu-id="758a1-155">A string value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -699,18 +421,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-156">Получает значение, указывающее, действующих прав, для которых есть текущего прошедшего проверку подлинности пользователя по этому элементу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-156">Gets a value that indicates the effective rights that the current authenticated user has on this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-157">Значение перечисления EffectiveRights.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-157">An EffectiveRights enumeration value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-156">Получает значение, указывающее действующие права, которые текущий пользователь, прошедший проверку подлинности, имеет для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-156">Gets a value that indicates the effective rights that the current authenticated user has on this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-157">Значение перечисления Еффективеригхтс.</span><span class="sxs-lookup"><span data-stu-id="758a1-157">An EffectiveRights enumeration value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -729,23 +441,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EntityExtractionResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-158">Получает сведения о извлечение сущностей для элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-158">Gets the entity extraction information on the item.</span>
-          </span>
-          <span data-ttu-id="84f1d-159">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-159">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-160">Извлеченные сущностей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-160">The extracted entities.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-158">Получает сведения об извлечении сущностей для элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-158">Gets the entity extraction information on the item.</span></span>             <span data-ttu-id="758a1-159"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-159">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-160">Извлеченные объекты.</span><span class="sxs-lookup"><span data-stu-id="758a1-160">The extracted entities.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -764,18 +461,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-161">Получает список расширенные свойства, которые определены по этому элементу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-161">Gets a list of extended properties that are defined on this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-162">Объект ExtendedPropertyCollection.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-162">An ExtendedPropertyCollection object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-161">Получает список расширенных свойств, определенных для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-161">Gets a list of extended properties that are defined on this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-162">Объект Екстендедпропертиколлектион.</span><span class="sxs-lookup"><span data-stu-id="758a1-162">An ExtendedPropertyCollection object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -794,23 +481,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Flag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-163">Получает или задает значение флага, указывающее состояние, Дата начала, Дата завершения или Дата завершения для элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-163">Gets or sets a flag value that indicates the status, start date, due date, or completion date for an item.</span>
-          </span>
-          <span data-ttu-id="84f1d-164">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-164">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-165">Значение флага для этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-165">The flag value for this item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-163">Получает или задает значение флага, которое указывает состояние, дату начала, дату выполнения или дату завершения для элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-163">Gets or sets a flag value that indicates the status, start date, due date, or completion date for an item.</span></span>   <span data-ttu-id="758a1-164"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-164">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-165">Значение флага для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-165">The flag value for this item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -829,18 +501,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-166">Получает значение, указывающее, является ли элемент содержит вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-166">Gets a value that indicates whether the item has attachments.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-167">Значение true, если элемент содержит вложения; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-167">True if the item has attachments; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-166">Получает значение, указывающее, есть ли у элемента вложения.</span><span class="sxs-lookup"><span data-stu-id="758a1-166">Gets a value that indicates whether the item has attachments.</span></span></summary>
+        <value><span data-ttu-id="758a1-167">Значение true, если элемент имеет вложения; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-167">True if the item has attachments; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -859,23 +521,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-168">Получает индекс значка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-168">Gets the icon index.</span>
-          </span>
-          <span data-ttu-id="84f1d-169">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-169">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-170">Индекс значка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-170">The icon index.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-168">Получает индекс значка.</span><span class="sxs-lookup"><span data-stu-id="758a1-168">Gets the icon index.</span></span> <span data-ttu-id="758a1-169"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-169">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-170">Индекс значка.</span><span class="sxs-lookup"><span data-stu-id="758a1-170">The icon index.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -894,18 +541,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-171">Получает идентификатор данного элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-171">Gets the ID of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-172">Объект ItemId.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-172">An ItemId object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-171">Получает идентификатор этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-171">Gets the ID of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-172">Объект ItemId.</span><span class="sxs-lookup"><span data-stu-id="758a1-172">An ItemId object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -924,18 +561,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-173">Получает или задает важности для данного элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-173">Gets or sets the importance of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-174">Важность значение перечисления, указывающее, важности элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-174">An Importance enumeration value indicating the importance of the item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-173">Получает или задает важность этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-173">Gets or sets the importance of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-174">Значение перечисления важности, указывающее важность элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-174">An Importance enumeration value indicating the importance of the item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -954,18 +581,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-175">Получает или задает ссылку на ответ для этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-175">Gets or sets the In-Reply-To reference of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-176">Строковое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-176">A string value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-175">Получает или задает ссылку на ссылку для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-175">Gets or sets the In-Reply-To reference of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-176">Строковое значение.</span><span class="sxs-lookup"><span data-stu-id="758a1-176">A string value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -984,23 +601,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-177">Возвращает ключ экземпляра элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-177">Gets the item instance key.</span>
-          </span>
-          <span data-ttu-id="84f1d-178">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-178">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-179">Ключ экземпляра элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-179">The item instance key.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-177">Получает ключ экземпляра элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-177">Gets the item instance key.</span></span>             <span data-ttu-id="758a1-178"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-178">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-179">Ключ экземпляра элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-179">The item instance key.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1019,41 +621,17 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-180">Получает список заголовков Интернета для этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-180">Gets a list of Internet headers for this item.</span>
-          </span>
-          <span data-ttu-id="84f1d-181">Чтобы получить вся коллекция заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-181">To get the entire collection of Internet message headers, use the PR_TRANSPORT_MESSAGE_HEADERS property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-182">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> Объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-182">An <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> object.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="84f1d-183">
-            <para>Ниже приводится определение PR_TRANSPORT_MESSAGE_HEADERS расширенные свойства.</para>
-            <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
-            <para>Можно добавить определение свойств к <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> для получения заголовков сообщений Интернета.</para>
-            <para>Дополнительные сведения о веб-служб Exchange и Интернет заголовки сообщений, посвященной «Приступая к Интернету заголовки сообщений» в <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">веб-служб Exchange, MIME и отсутствующие заголовков сообщений Интернета</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-183">
-              <para>The following is the definition for the PR_TRANSPORT_MESSAGE_HEADERS extended property.</para>
-              <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
-              <para>You can add this property definition to the <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object to get the Internet message headers.</para>
-              <para>For more information about EWS and Internet message headers, see “Getting Internet message headers” in <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME, and the missing Internet message headers</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="758a1-180">Получает список заголовков Интернета для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-180">Gets a list of Internet headers for this item.</span></span> <span data-ttu-id="758a1-181">Чтобы получить всю коллекцию заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS.</span><span class="sxs-lookup"><span data-stu-id="758a1-181">To get the entire collection of Internet message headers, use the PR_TRANSPORT_MESSAGE_HEADERS property.</span></span></summary>
+        <value><span data-ttu-id="758a1-182"><see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> Объект.</span><span class="sxs-lookup"><span data-stu-id="758a1-182">An <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> object.</span></span></value>
+        <remarks><span data-ttu-id="758a1-183"><para>Ниже приведено определение расширенного свойства PR_TRANSPORT_MESSAGE_HEADERS.</para> 
+          <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code> 
+          <para>Вы можете добавить это определение свойства в <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> объект, чтобы получить заголовки сообщений Интернета.</para> 
+          <para>Дополнительные сведения о службах EWS и заголовках сообщений в Интернете приведены в разделе "извлечение заголовков сообщений Интернета" в <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME и отсутствующих заголовках сообщений в Интернете</a> </para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="758a1-183"><para>The following is the definition for the PR_TRANSPORT_MESSAGE_HEADERS extended property.</para>
+          <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+          <para>You can add this property definition to the <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object to get the Internet message headers.</para>
+          <para>For more information about EWS and Internet message headers, see “Getting Internet message headers” in <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME, and the missing Internet message headers</a></para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsAssociated">
@@ -1071,18 +649,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-184">Получает значение, указывающее, является ли связанный элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-184">Gets a value that indicates whether this is an associated item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-185">Значение true, если связанный элемент; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-185">True if this is an associated item; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-184">Получает значение, указывающее, является ли это значение связанным элементом.</span><span class="sxs-lookup"><span data-stu-id="758a1-184">Gets a value that indicates whether this is an associated item.</span></span></summary>
+        <value><span data-ttu-id="758a1-185">Значение true, если это связанный элемент; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-185">True if this is an associated item; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1101,18 +669,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-186">Получает значение, указывающее, является ли элемент вложение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-186">Gets a value that indicates whether the item is an attachment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-187">Значение true, если элемент содержит вложение; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-187">True if the item has an attachment; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-186">Получает значение, указывающее, является ли элемент вложенным.</span><span class="sxs-lookup"><span data-stu-id="758a1-186">Gets a value that indicates whether the item is an attachment.</span></span></summary>
+        <value><span data-ttu-id="758a1-187">Значение true, если элемент имеет вложение; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-187">True if the item has an attachment; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1131,22 +689,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-188">Получает значение, указывающее, является ли элемент черновик.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-188">Gets a value that indicates whether the item is a draft.</span>
-          </span>
-          <span data-ttu-id="84f1d-189">Элемент является черновиком, когда он не был отправлен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-189">An item is a draft when it has not yet been sent.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-190">Значение true, если этот элемент является черновиком; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-190">True if this item is a draft; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-188">Получает значение, указывающее, является ли элемент черновиком.</span><span class="sxs-lookup"><span data-stu-id="758a1-188">Gets a value that indicates whether the item is a draft.</span></span> <span data-ttu-id="758a1-189">Элемент является черновиком, когда он еще не был отправлен.</span><span class="sxs-lookup"><span data-stu-id="758a1-189">An item is a draft when it has not yet been sent.</span></span></summary>
+        <value><span data-ttu-id="758a1-190">Значение true, если этот элемент является черновиком; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-190">True if this item is a draft; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1165,18 +709,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-191">Получает значение, указывающее, был ли отправлен элемента для текущего пользователя, прошедшего проверку подлинности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-191">Gets a value that indicates whether the item has been sent by the current authenticated user.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-192">Значение true, если он передается текущего пользователя; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-192">True if the item is sent by the current authenticated user; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-191">Получает значение, указывающее, был ли элемент отправлен текущим пользователем, прошедшим проверку подлинности.</span><span class="sxs-lookup"><span data-stu-id="758a1-191">Gets a value that indicates whether the item has been sent by the current authenticated user.</span></span></summary>
+        <value><span data-ttu-id="758a1-192">Значение true, если элемент отправляется текущим прошедшим проверку подлинности пользователем; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-192">True if the item is sent by the current authenticated user; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1195,18 +729,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-193">Получает значение, указывающее, является ли этот объект элемента реальных хранилища или локальный объект, который еще не сохраняются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-193">Gets a value that indicates whether this object is a real store item or a local object that has yet to be saved.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-194">Значение true, если элемент не был сохранен; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-194">True if the item has not been saved; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-193">Получает значение, указывающее, является ли этот объект реальным элементом хранилища или локальным объектом, который еще не был сохранен.</span><span class="sxs-lookup"><span data-stu-id="758a1-193">Gets a value that indicates whether this object is a real store item or a local object that has yet to be saved.</span></span></summary>
+        <value><span data-ttu-id="758a1-194">Значение true, если элемент не был сохранен; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-194">True if the item has not been saved; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1225,18 +749,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-195">Получает или задает значение, указывающее, установлен ли напоминания для этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-195">Gets or sets a value that indicates whether a reminder is set for this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-196">Значение true, если значение напоминания; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-196">True if the reminder is set; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-195">Получает или задает значение, указывающее, задано ли для этого элемента напоминание.</span><span class="sxs-lookup"><span data-stu-id="758a1-195">Gets or sets a value that indicates whether a reminder is set for this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-196">Значение true, если напоминание задано; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-196">True if the reminder is set; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1255,18 +769,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-197">Получает значение, указывающее, является ли элемент отправить другого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-197">Gets a value that indicates whether the item is a resend of another item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-198">Значение true, если элемент отправить; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-198">True if the item is a resend; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-197">Получает значение, указывающее, является ли элемент повторной отправкой другого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-197">Gets a value that indicates whether the item is a resend of another item.</span></span></summary>
+        <value><span data-ttu-id="758a1-198">Значение true, если элемент является повторной отправкой; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-198">True if the item is a resend; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1285,18 +789,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-199">Получает значение, указывающее, отправил ли отправку сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-199">Gets a value that indicates whether the message has been submitted to be sent.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-200">Значение true, если элемент был отправлен; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-200">True if the item has been submitted; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-199">Получает значение, указывающее, отправлено ли сообщение для отправки.</span><span class="sxs-lookup"><span data-stu-id="758a1-199">Gets a value that indicates whether the message has been submitted to be sent.</span></span></summary>
+        <value><span data-ttu-id="758a1-200">Значение true, если элемент был отправлен; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-200">True if the item has been submitted; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1315,18 +809,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-201">Получает значение, указывающее, был ли элемент изменен после его создания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-201">Gets a value that indicates whether the item has been modified since it was created.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-202">Значение true, если элемент не был изменен; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-202">True if the item has not been modified; otherwise, false.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-201">Получает значение, указывающее, был ли элемент изменен с момента его создания.</span><span class="sxs-lookup"><span data-stu-id="758a1-201">Gets a value that indicates whether the item has been modified since it was created.</span></span></summary>
+        <value><span data-ttu-id="758a1-202">Значение true, если элемент не был изменен; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-202">True if the item has not been modified; otherwise, false.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1345,18 +829,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-203">Получает или задает имя настраиваемого класса этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-203">Gets or sets the custom class name of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-204">Строковое значение, указывающее имя настраиваемого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-204">A string value indicating the custom class name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-203">Получает или задает имя настраиваемого класса для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-203">Gets or sets the custom class name of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-204">Строковое значение, указывающее имя настраиваемого класса.</span><span class="sxs-lookup"><span data-stu-id="758a1-204">A string value indicating the custom class name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1375,18 +849,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-205">Получает имя пользователя, который последнего изменения этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-205">Gets the name of the user who last modified this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-206">Строковое значение, указывающее пользователя, который последним редактировал элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-206">A string value indicating the user who last modified the item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-205">Получает имя пользователя, который последним изменил этот элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-205">Gets the name of the user who last modified this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-206">Строковое значение, обозначающее пользователя, который последним изменил элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-206">A string value indicating the user who last modified the item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1405,18 +869,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-207">Получает дату и время последнего изменения этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-207">Gets the date and time that this item was last modified.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-208">Значение даты и времени, указывающее дату и время последнего изменения элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-208">A DateTime value indicating the date and time the item was last modified.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-207">Получает дату и время последнего изменения элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-207">Gets the date and time that this item was last modified.</span></span></summary>
+        <value><span data-ttu-id="758a1-208">Значение DateTime, указывающее дату и время последнего изменения элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-208">A DateTime value indicating the date and time the item was last modified.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1435,18 +889,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MimeContent</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-209">Получает MIME содержимое этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-209">Gets the MIME content of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-210">Объект MimeContent.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-210">A MimeContent object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-209">Получает MIME для данного элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-209">Gets the MIME content of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-210">Объект Сохранитьmimecontent.</span><span class="sxs-lookup"><span data-stu-id="758a1-210">A MimeContent object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1468,28 +912,9 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">
-          <span data-ttu-id="84f1d-211">Идентификатор папки, к которой необходимо переместить этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-211">The ID of the folder to which to move this item.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-212">Перемещает этот элемент в указанной папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-212">Moves this item to the specified folder.</span>
-          </span>
-          <span data-ttu-id="84f1d-213">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-213">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="84f1d-214">Объект Item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-214">An Item object.</span>
-          </span>
-        </returns>
+        <param name="destinationFolderId"><span data-ttu-id="758a1-211">Идентификатор папки, в которую необходимо переместить этот элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-211">The ID of the folder to which to move this item.</span></span></param>
+        <summary><span data-ttu-id="758a1-212">Перемещает этот элемент в указанную папку.</span><span class="sxs-lookup"><span data-stu-id="758a1-212">Moves this item to the specified folder.</span></span> <span data-ttu-id="758a1-213">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-213">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="758a1-214">Объект Item.</span><span class="sxs-lookup"><span data-stu-id="758a1-214">An Item object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1511,28 +936,9 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">
-          <span data-ttu-id="84f1d-215">Имя папки, к которой необходимо переместить этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-215">The name of the folder to which to move this item.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-216">Перемещает этот элемент в указанной папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-216">Moves this item to the specified folder.</span>
-          </span>
-          <span data-ttu-id="84f1d-217">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-217">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="84f1d-218">Объект Item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-218">An Item object.</span>
-          </span>
-        </returns>
+        <param name="destinationFolderName"><span data-ttu-id="758a1-215">Имя папки, в которую необходимо переместить этот элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-215">The name of the folder to which to move this item.</span></span></param>
+        <summary><span data-ttu-id="758a1-216">Перемещает этот элемент в указанную папку.</span><span class="sxs-lookup"><span data-stu-id="758a1-216">Moves this item to the specified folder.</span></span> <span data-ttu-id="758a1-217">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-217">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="758a1-218">Объект Item.</span><span class="sxs-lookup"><span data-stu-id="758a1-218">An Item object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1551,23 +957,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.NormalizedBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-219">Получает текст сообщения элемента, который был преобразован в нормализованного значения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-219">Gets the message body of an item that has been converted to a normalized value.</span>
-          </span>
-          <span data-ttu-id="84f1d-220">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-220">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-221">Нормализованный тело элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-221">The normalized body of the item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-219">Получает текст сообщения элемента, который был преобразован в нормализованное значение.</span><span class="sxs-lookup"><span data-stu-id="758a1-219">Gets the message body of an item that has been converted to a normalized value.</span></span>             <span data-ttu-id="758a1-220"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-220">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-221">Нормализованный текст элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-221">The normalized body of the item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1586,18 +977,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-222">Получает идентификатор родительской папки этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-222">Gets the ID of the parent folder of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-223">Объект FolderId.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-223">A FolderId object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-222">Получает идентификатор родительской папки этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-222">Gets the ID of the parent folder of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-223">Объект FolderId.</span><span class="sxs-lookup"><span data-stu-id="758a1-223">A FolderId object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1616,23 +997,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-224">Получает или задает значение политики хранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-224">Gets or sets the retention policy value.</span>
-          </span>
-          <span data-ttu-id="84f1d-225">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-225">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-226">Значение политики хранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-226">The retention policy value.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-224">Получает или задает значение политики хранения.</span><span class="sxs-lookup"><span data-stu-id="758a1-224">Gets or sets the retention policy value.</span></span>             <span data-ttu-id="758a1-225"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-225">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-226">Значение политики хранения.</span><span class="sxs-lookup"><span data-stu-id="758a1-226">The retention policy value.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1651,23 +1017,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-227">Получает предварительной версии элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-227">Gets the item preview.</span>
-          </span>
-          <span data-ttu-id="84f1d-228">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-228">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-229">Просмотр элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-229">The item preview.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-227">Получает предварительный просмотр элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-227">Gets the item preview.</span></span>             <span data-ttu-id="758a1-228"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-228">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-229">Предварительный просмотр элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-229">The item preview.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1686,18 +1037,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-230">Получает или задает дату и время, когда напоминание должно быть выполнено для этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-230">Gets or sets the date and time when the reminder is due for this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-231">Значение даты и времени, указывающее дату и время напоминания срок выполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-231">A DateTime value indicating the date and time the reminder is due.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-230">Получает или задает дату и время окончания срока напоминания для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-230">Gets or sets the date and time when the reminder is due for this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-231">Значение DateTime, указывающее дату и время, когда напоминание будет связано.</span><span class="sxs-lookup"><span data-stu-id="758a1-231">A DateTime value indicating the date and time the reminder is due.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1716,18 +1057,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-232">Получает или задает число минут перед началом этого элемента напоминания должна быть выполнена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-232">Gets or sets the number of minutes before the start of this item that the reminder should be triggered.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-233">Целое значение, указывающее количество минут.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-233">An integer value indicating the number of minutes.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-232">Получает или задает количество минут до начала этого элемента, которое должно вызываться напоминанием.</span><span class="sxs-lookup"><span data-stu-id="758a1-232">Gets or sets the number of minutes before the start of this item that the reminder should be triggered.</span></span></summary>
+        <value><span data-ttu-id="758a1-233">Целое значение, указывающее количество минут.</span><span class="sxs-lookup"><span data-stu-id="758a1-233">An integer value indicating the number of minutes.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1748,24 +1079,9 @@
         <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="extendedPropertyDefinition">
-          <span data-ttu-id="84f1d-234">Определение расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-234">The extended property definition.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-235">Удаляет расширенные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-235">Removes an extended property.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="84f1d-236">Значение true, если свойство был удален; в противном случае — false.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-236">True if the property was removed; otherwise, false.</span>
-          </span>
-        </returns>
+        <param name="extendedPropertyDefinition"><span data-ttu-id="758a1-234">Определение расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="758a1-234">The extended property definition.</span></span></param>
+        <summary><span data-ttu-id="758a1-235">Удаляет расширенное свойство.</span><span class="sxs-lookup"><span data-stu-id="758a1-235">Removes an extended property.</span></span></summary>
+        <returns><span data-ttu-id="758a1-236">Значение true, если свойство было удалено; в противном случае — false.</span><span class="sxs-lookup"><span data-stu-id="758a1-236">True if the property was removed; otherwise, false.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1784,23 +1100,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-237">Получает дату, до которой должен быть сохранен элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-237">Gets the date until which an item must be preserved.</span>
-          </span>
-          <span data-ttu-id="84f1d-238">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-238">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-239">Дата удержания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-239">The retention date.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-237">Получает дату, до которой должен быть сохранен элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-237">Gets the date until which an item must be preserved.</span></span>             <span data-ttu-id="758a1-238"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-238">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-239">Дата хранения.</span><span class="sxs-lookup"><span data-stu-id="758a1-239">The retention date.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1820,20 +1121,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-240">Сохраняет этот элемент в папке по умолчанию, в зависимости от типа элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-240">Saves this item in the default folder based on the item's type.</span>
-          </span>
-          <span data-ttu-id="84f1d-241">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-241">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
-          </span>
-          <span data-ttu-id="84f1d-242">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-242">Multiple calls to EWS might be made if attachments have been added.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="758a1-240">Сохраняет этот элемент в папке по умолчанию на основе типа элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-240">Saves this item in the default folder based on the item's type.</span></span> <span data-ttu-id="758a1-241">Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-241">Calling this method results in at least one call to Exchange Web Services (EWS).</span></span> <span data-ttu-id="758a1-242">Если добавлено вложение, можно выполнить несколько вызовов EWS.</span><span class="sxs-lookup"><span data-stu-id="758a1-242">Multiple calls to EWS might be made if attachments have been added.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1855,26 +1143,8 @@
         <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="parentFolderId">
-          <span data-ttu-id="84f1d-243">Идентификатор папку, в которой требуется сохранить этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-243">The ID of the folder in which to save this item.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-244">Сохраняет этот элемент в указанной папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-244">Saves this item in a specific folder.</span>
-          </span>
-          <span data-ttu-id="84f1d-245">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-245">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
-          </span>
-          <span data-ttu-id="84f1d-246">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-246">Multiple calls to EWS might be made if attachments have been added.</span>
-          </span>
-        </summary>
+        <param name="parentFolderId"><span data-ttu-id="758a1-243">Идентификатор папки, в которой необходимо сохранить этот элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-243">The ID of the folder in which to save this item.</span></span></param>
+        <summary><span data-ttu-id="758a1-244">Сохраняет этот элемент в определенной папке.</span><span class="sxs-lookup"><span data-stu-id="758a1-244">Saves this item in a specific folder.</span></span> <span data-ttu-id="758a1-245">Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-245">Calling this method results in at least one call to Exchange Web Services (EWS).</span></span> <span data-ttu-id="758a1-246">Если добавлено вложение, можно выполнить несколько вызовов EWS.</span><span class="sxs-lookup"><span data-stu-id="758a1-246">Multiple calls to EWS might be made if attachments have been added.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1896,26 +1166,8 @@
         <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="parentFolderName">
-          <span data-ttu-id="84f1d-247">Имя папки, в котором следует сохранить этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-247">The name of the folder in which to save this item.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-248">Сохраняет этот элемент в указанной папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-248">Saves this item in a specific folder.</span>
-          </span>
-          <span data-ttu-id="84f1d-249">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-249">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
-          </span>
-          <span data-ttu-id="84f1d-250">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-250">Multiple calls to EWS might be made if attachments have been added.</span>
-          </span>
-        </summary>
+        <param name="parentFolderName"><span data-ttu-id="758a1-247">Имя папки, в которой необходимо сохранить этот элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-247">The name of the folder in which to save this item.</span></span></param>
+        <summary><span data-ttu-id="758a1-248">Сохраняет этот элемент в определенной папке.</span><span class="sxs-lookup"><span data-stu-id="758a1-248">Saves this item in a specific folder.</span></span> <span data-ttu-id="758a1-249">Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-249">Calling this method results in at least one call to Exchange Web Services (EWS).</span></span> <span data-ttu-id="758a1-250">Если добавлено вложение, можно выполнить несколько вызовов EWS.</span><span class="sxs-lookup"><span data-stu-id="758a1-250">Multiple calls to EWS might be made if attachments have been added.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1934,18 +1186,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-251">Получает уровень конфиденциальности сообщения этому элементу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-251">Gets the sensitivity of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-252">Объект уровень конфиденциальности сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-252">A Sensitivity object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-251">Получает чувствительность этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-251">Gets the sensitivity of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-252">Объект чувствительности.</span><span class="sxs-lookup"><span data-stu-id="758a1-252">A Sensitivity object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1967,24 +1209,9 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="extendedPropertyDefinition">
-          <span data-ttu-id="84f1d-253">Расширенные свойства для установки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-253">The extended property to set.</span>
-          </span>
-        </param>
-        <param name="value">
-          <span data-ttu-id="84f1d-254">Значение, присваиваемое на к расширенному свойству.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-254">The value to set on the extended property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-255">Устанавливает для указанного расширенные свойства для указанного значения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-255">Sets the specified extended property to the specified value.</span>
-          </span>
-        </summary>
+        <param name="extendedPropertyDefinition"><span data-ttu-id="758a1-253">Расширенное свойство, которое необходимо задать.</span><span class="sxs-lookup"><span data-stu-id="758a1-253">The extended property to set.</span></span></param>
+        <param name="value"><span data-ttu-id="758a1-254">Значение, которое необходимо задать для расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="758a1-254">The value to set on the extended property.</span></span></param>
+        <summary><span data-ttu-id="758a1-255">Задает указанное значение для указанного расширенного свойства.</span><span class="sxs-lookup"><span data-stu-id="758a1-255">Sets the specified extended property to the specified value.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2003,18 +1230,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-256">Получает размер этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-256">Gets the size of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-257">Целое значение, указывающее размер элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-257">An integer value indicating the size of the item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-256">Получает размер этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-256">Gets the size of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-257">Целое значение, указывающее размер элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-257">An integer value indicating the size of the item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2033,23 +1250,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-258">Получает идентификатор записи хранилища, где размещается элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-258">Gets the entry ID of the store that hosts the item.</span>
-          </span>
-          <span data-ttu-id="84f1d-259">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-259">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-260">Запись с идентификатором хранилища.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-260">The store entry ID.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-258">Получает идентификатор хранилища, в котором размещается элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-258">Gets the entry ID of the store that hosts the item.</span></span>             <span data-ttu-id="758a1-259"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-259">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-260">Идентификатор записи хранилища.</span><span class="sxs-lookup"><span data-stu-id="758a1-260">The store entry ID.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2068,18 +1270,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-261">Получает или задает тему этого элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-261">Gets or sets the subject of this item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-262">Строковое значение, указывающее тему элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-262">A string value indicating the subject of the item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-261">Получает или задает тему этого элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-261">Gets or sets the subject of this item.</span></span></summary>
+        <value><span data-ttu-id="758a1-262">Строковое значение, указывающее тему элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-262">A string value indicating the subject of the item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2098,23 +1290,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-263">Получает текст элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-263">Gets the text body of the item.</span>
-          </span>
-          <span data-ttu-id="84f1d-264">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-264">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-265">Текста элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-265">The text body of the item.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-263">Получает текст элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-263">Gets the text body of the item.</span></span>             <span data-ttu-id="758a1-264"><see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="758a1-264">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="758a1-265">Текст текста элемента.</span><span class="sxs-lookup"><span data-stu-id="758a1-265">The text body of the item.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2133,18 +1310,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.UniqueBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-266">Получает часть текста, который является уникальным для беседы, этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-266">Gets the body part that is unique to the conversation that this item is part of.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-267">Объект UniqueBody.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-267">A UniqueBody object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="758a1-266">Возвращает часть тела, которая является уникальной для диалога, частью которого является данный элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-266">Gets the body part that is unique to the conversation that this item is part of.</span></span></summary>
+        <value><span data-ttu-id="758a1-267">Объект UniqueBody.</span><span class="sxs-lookup"><span data-stu-id="758a1-267">A UniqueBody object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2165,26 +1332,8 @@
         <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
       </Parameters>
       <Docs>
-        <param name="conflictResolutionMode">
-          <span data-ttu-id="84f1d-268">Режим разрешения конфликтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-268">The conflict resolution mode.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-269">Применяет локальные изменения, внесенные в этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-269">Applies the local changes that have been made to this item.</span>
-          </span>
-          <span data-ttu-id="84f1d-270">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-270">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
-          </span>
-          <span data-ttu-id="84f1d-271">Несколько вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-271">Multiple calls to EWS might be made if attachments have been added or removed.</span>
-          </span>
-        </summary>
+        <param name="conflictResolutionMode"><span data-ttu-id="758a1-268">Режим разрешения конфликтов.</span><span class="sxs-lookup"><span data-stu-id="758a1-268">The conflict resolution mode.</span></span></param>
+        <summary><span data-ttu-id="758a1-269">Применяет локальные изменения, внесенные в этот элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-269">Applies the local changes that have been made to this item.</span></span> <span data-ttu-id="758a1-270">Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="758a1-270">Calling this method results in at least one call to Exchange Web Services (EWS).</span></span> <span data-ttu-id="758a1-271">Несколько вызовов EWS можно выполнить при добавлении или удалении вложений.</span><span class="sxs-lookup"><span data-stu-id="758a1-271">Multiple calls to EWS might be made if attachments have been added or removed.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2206,34 +1355,9 @@
         <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="conflictResolutionMode">
-          <span data-ttu-id="84f1d-272">Режим разрешения конфликтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-272">The conflict resolution mode.</span>
-          </span>
-        </param>
-        <param name="suppressReadReceipts">
-          <span data-ttu-id="84f1d-273">
-            <b>значение true,</b> Если считывания квитанций не должен отправляться, если обновление элемента запросил прочтении; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-273">
-              <b>true</b> if read receipts should not be sent if the item being updated has requested a read receipt; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="84f1d-274">Применяет локальные изменения, внесенные в этот элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-274">Applies the local changes that have been made to this item.</span>
-          </span>
-          <span data-ttu-id="84f1d-275">При вызове этого метода приводит к по крайней мере один вызов веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-275">Calling this method results in at least one call to EWS.</span>
-          </span>
-          <span data-ttu-id="84f1d-276">Множественные вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-276">Mutliple calls to EWS might be made if attachments have been added or removed.</span>
-          </span>
-        </summary>
+        <param name="conflictResolutionMode"><span data-ttu-id="758a1-272">Режим разрешения конфликтов.</span><span class="sxs-lookup"><span data-stu-id="758a1-272">The conflict resolution mode.</span></span></param>
+        <param name="suppressReadReceipts"><span data-ttu-id="758a1-273"><b>имеет значение true</b> , если уведомления о прочтении не следует отправлять, если обновляемый элемент запросил уведомление о прочтении; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="758a1-273"><b>true</b> if read receipts should not be sent if the item being updated has requested a read receipt; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="758a1-274">Применяет локальные изменения, внесенные в этот элемент.</span><span class="sxs-lookup"><span data-stu-id="758a1-274">Applies the local changes that have been made to this item.</span></span> <span data-ttu-id="758a1-275">Вызов этого метода приводит к по крайней мере один вызов EWS.</span><span class="sxs-lookup"><span data-stu-id="758a1-275">Calling this method results in at least one call to EWS.</span></span> <span data-ttu-id="758a1-276">Вызовы мутлипле в EWS могут быть сделаны при добавлении или удалении вложений.</span><span class="sxs-lookup"><span data-stu-id="758a1-276">Mutliple calls to EWS might be made if attachments have been added or removed.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2252,30 +1376,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-277">Получает строку запроса, который может быть добавлен к Outlook Web App URL-адрес для открытия этого элемента в веб-браузере.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-277">Gets the query string that can be appended to the Outlook Web App URL to open this item in a web browser.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-278">Строковое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-278">A string value.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="84f1d-279">
-            <para>Это свойство применяется к Exchange 2010. Используйте сведения из <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> свойство откройте элемент черновик в Outlook Web App, а затем использовать пользовательский Интерфейс для редактирования элемента черновика.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-279">
-              <para>This property applies to Exchange 2010. Use the information from the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property to open a draft item in Outlook Web App and then use the UI to edit the draft item.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="758a1-277">Получает строку запроса, которую можно добавить к URL-адресу Outlook Web App, чтобы открыть этот элемент в веб-браузере.</span><span class="sxs-lookup"><span data-stu-id="758a1-277">Gets the query string that can be appended to the Outlook Web App URL to open this item in a web browser.</span></span></summary>
+        <value><span data-ttu-id="758a1-278">Строковое значение.</span><span class="sxs-lookup"><span data-stu-id="758a1-278">A string value.</span></span></value>
+        <remarks><span data-ttu-id="758a1-279"><para>Это свойство применяется к Exchange 2010. Используйте сведения из <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> свойства, чтобы открыть черновик элемента в Outlook Web App, а затем используйте пользовательский интерфейс для редактирования элемента черновика.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="758a1-279"><para>This property applies to Exchange 2010. Use the information from the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property to open a draft item in Outlook Web App and then use the UI to edit the draft item.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="WebClientReadFormQueryString">
@@ -2293,38 +1398,18 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="84f1d-280">Получает строку запроса, который должен быть добавлен к Exchange web client URL-адрес для открытия этого элемента с помощью соответствующие формы чтения в веб-браузере.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-280">Gets the query string that should be appended to the Exchange web client URL to open this item by using the appropriate read form in a web browser.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="84f1d-281">Строковое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-281">A string value.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="84f1d-282">
-            <para>Идентификатор элемента для URL-адрес Outlook Web App — это веб-служб Exchange идентификатор элемента. Можно закодировать URL-адрес веб-служб Exchange идентификатор элемента и добавить его в строку запроса, чтобы получить URL-адрес Outlook Web App для элемента.</para>
-            <para>Различия версий</para>
-            <para>Версии Exchange начиная с основной номер версии 15 и 15.00.775.009 не возвращает фрагмент строки правильный запрос в <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> свойство.</para>
-            <para>В версиях Exchange до 15 основной номер версии, идентификатор элемента для URL-адрес Outlook Web App — это идентификатор Outlook Web App. Если вы используете версия Exchange более ранних чем основной номер версии 15, необходимо использовать <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> метод, чтобы преобразовать идентификатор.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="84f1d-282">
-              <para>The item identifier for an Outlook Web App URL is the EWS identifier of the item. You can URL-encode the EWS item identifier and append it to the query string to get the Outlook Web App URL for an item.</para>
-              <para>Version differences</para>
-              <para>Versions of Exchange starting with major version 15 and ending with 15.00.775.009 do not return a correct query string fragment in the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property. </para>
-              <para>In versions of Exchange earlier than major version 15, the item identifier for the Outlook Web App URL is an Outlook Web App identifier. If you are targeting a version of Exchange earlier than major version 15, you have to use the <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> method to convert the identifier.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <code>    /// &amp;lt;summary&amp;gt;
+        <summary><span data-ttu-id="758a1-280">Получает строку запроса, которая должна быть добавлена в URL-адрес веб-клиента Exchange для открытия этого элемента с помощью соответствующей формы чтения в веб-браузере.</span><span class="sxs-lookup"><span data-stu-id="758a1-280">Gets the query string that should be appended to the Exchange web client URL to open this item by using the appropriate read form in a web browser.</span></span></summary>
+        <value><span data-ttu-id="758a1-281">Строковое значение.</span><span class="sxs-lookup"><span data-stu-id="758a1-281">A string value.</span></span></value>
+        <remarks><span data-ttu-id="758a1-282"><para>Идентификатор элемента для URL-адреса Outlook Web App — это идентификатор EWS элемента. Можно использовать URL-кодирование идентификатора элемента EWS и добавить его в строку запроса, чтобы получить URL-адрес Outlook Web App для элемента.</para> 
+          <para>Отличия</para>версий
+          <para>Exchange, начиная с основной версии 15 и заканчивая 15.00.775.009, не возвращают соответствующий фрагмент строки запроса в <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> свойстве.</para> 
+          <para>В более ранних версиях Exchange идентификатор элемента для URL-адреса Outlook Web App — это идентификатор Outlook Web App. Если вы нацелены на более раннюю версию Exchange, чем основная версия 15, необходимо использовать <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> метод для преобразования идентификатора.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="758a1-282"><para>The item identifier for an Outlook Web App URL is the EWS identifier of the item. You can URL-encode the EWS item identifier and append it to the query string to get the Outlook Web App URL for an item.</para>
+          <para>Version differences</para>
+          <para>Versions of Exchange starting with major version 15 and ending with 15.00.775.009 do not return a correct query string fragment in the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property. </para>
+          <para>In versions of Exchange earlier than major version 15, the item identifier for the Outlook Web App URL is an Outlook Web App identifier. If you are targeting a version of Exchange earlier than major version 15, you have to use the <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> method to convert the identifier.</para>
+          <para /></span></span></remarks>
+        <example><code>    /// &amp;lt;summary&amp;gt;
     /// Demonstrates how to open an item in Outlook Web App.
     /// &amp;lt;/summary&amp;gt;
     /// &amp;lt;param name="service"&amp;gt;An ExchangeService object that has already had credentials set and contains a valid service URL.&amp;lt;/param&amp;gt;
@@ -2382,8 +1467,7 @@
         Console.WriteLine(ex.Message);
         Console.WriteLine("ERRROR: Internet Explorer cannot be found.");
       }
-    }</code>
-        </example>
+    }</code></example>
       </Docs>
     </Member>
   </Members>

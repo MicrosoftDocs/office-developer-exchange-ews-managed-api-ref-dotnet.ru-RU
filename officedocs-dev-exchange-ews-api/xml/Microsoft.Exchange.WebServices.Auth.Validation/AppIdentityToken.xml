@@ -1,13 +1,5 @@
 <Type Name="AppIdentityToken" FullName="Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b70795483db70f8748ae2e9e111e746bdc4eaa2c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626960" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class AppIdentityToken : Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b70795483db70f8748ae2e9e111e746bdc4eaa2c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626960" /></Metadata><TypeSignature Language="C#" Value="public class AppIdentityToken : Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppIdentityToken extends Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" />
   <TypeSignature Language="VB.NET" Value="Public Class AppIdentityToken&#xA;Inherits AuthToken" />
@@ -21,29 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="6b45a-101">Определяет свойства и методы, которые необходимы для приложений-служб для чтения и проверки маркера удостоверения приложения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6b45a-101">Defines the properties and methods necessary for service applications to read and validate the application identity token.</span>
-      </span>
-      <span data-ttu-id="6b45a-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6b45a-102">The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="6b45a-103">
-        <para>Этот класс можно использовать в веб-службы для <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">проверки подлинности почтового приложения с помощью маркеров удостоверения Exchange</a></para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6b45a-103">
-          <para>This class can be used in a web service to <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">authenticate a mail app by using Exchange identity tokens</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="78788-101">Определяет свойства и методы, необходимые приложениям-службам для чтения и проверки маркера удостоверения приложения.</span><span class="sxs-lookup"><span data-stu-id="78788-101">Defines the properties and methods necessary for service applications to read and validate the application identity token.</span></span> <span data-ttu-id="78788-102"><see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78788-102">The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+    <remarks><span data-ttu-id="78788-103"><para>Этот класс можно использовать в веб-службе для <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">проверки подлинности почтового приложения с помощью маркеров удостоверений Exchange</a></para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="78788-103"><para>This class can be used in a web service to <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">authenticate a mail app by using Exchange identity tokens</a></para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Claims">
@@ -61,23 +34,8 @@
         <ReturnType>Microsoft.IdentityModel.Claims.ClaimsIdentityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6b45a-104">Получает коллекцию identity утверждений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-104">Gets the claims identity collection.</span>
-          </span>
-          <span data-ttu-id="6b45a-105">
-            <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-105">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6b45a-106">Коллекция identity утверждений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-106">The claims identity collection.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="78788-104">Получает коллекцию удостоверений утверждений.</span><span class="sxs-lookup"><span data-stu-id="78788-104">Gets the claims identity collection.</span></span> <span data-ttu-id="78788-105"><see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78788-105">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="78788-106">Коллекция удостоверений утверждений.</span><span class="sxs-lookup"><span data-stu-id="78788-106">The claims identity collection.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,23 +54,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6b45a-107">Возвращает дату срока действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-107">Gets the expiration date.</span>
-          </span>
-          <span data-ttu-id="6b45a-108">
-            <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-108">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6b45a-109">Дата окончания срока действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-109">The expiration date.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="78788-107">Получает дату окончания срока действия.</span><span class="sxs-lookup"><span data-stu-id="78788-107">Gets the expiration date.</span></span> <span data-ttu-id="78788-108"><see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78788-108">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="78788-109">Дата окончания срока действия.</span><span class="sxs-lookup"><span data-stu-id="78788-109">The expiration date.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -131,23 +74,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6b45a-110">Получает данные открытого ключа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-110">Gets the public key information.</span>
-          </span>
-          <span data-ttu-id="6b45a-111">
-            <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-111">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6b45a-112">Данные открытого ключа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-112">The public key information.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="78788-110">Получает сведения о открытом ключе.</span><span class="sxs-lookup"><span data-stu-id="78788-110">Gets the public key information.</span></span> <span data-ttu-id="78788-111"><see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78788-111">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="78788-112">Сведения о открытом ключе.</span><span class="sxs-lookup"><span data-stu-id="78788-112">The public key information.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -166,23 +94,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6b45a-113">Получает идентификатор пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-113">Gets the unique user identification.</span>
-          </span>
-          <span data-ttu-id="6b45a-114">
-            <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-114">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6b45a-115">Уникальная идентификация пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-115">The unique user identification.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="78788-113">Получает уникальный идентификатор пользователя.</span><span class="sxs-lookup"><span data-stu-id="78788-113">Gets the unique user identification.</span></span> <span data-ttu-id="78788-114"><see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78788-114">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="78788-115">Уникальный идентификатор пользователя.</span><span class="sxs-lookup"><span data-stu-id="78788-115">The unique user identification.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -204,23 +117,8 @@
         <Parameter Name="extensionServiceHost" Type="System.Uri" />
       </Parameters>
       <Docs>
-        <param name="extensionServiceHost">
-          <span data-ttu-id="6b45a-116">URI-адрес узла службы расширения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-116">The URI of the extension service host.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6b45a-117">Проверка маркера удостоверения приложения, с помощью открытого ключа в указанный универсальный код ресурса (URI).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-117">Validates the application identity token using the public key at the specified Uniform Resource Identifier (URI).</span>
-          </span>
-          <span data-ttu-id="6b45a-118">
-            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-118">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="extensionServiceHost"><span data-ttu-id="78788-116">Универсальный код ресурса (URI) узла службы расширений.</span><span class="sxs-lookup"><span data-stu-id="78788-116">The URI of the extension service host.</span></span></param>
+        <summary><span data-ttu-id="78788-117">Проверяет маркер удостоверения приложения с помощью открытого ключа по указанному универсальному идентификатору ресурса (URI).</span><span class="sxs-lookup"><span data-stu-id="78788-117">Validates the application identity token using the public key at the specified Uniform Resource Identifier (URI).</span></span> <span data-ttu-id="78788-118">Этот <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78788-118">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -243,29 +141,9 @@
         <Parameter Name="catchedKey" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="extensionServiceHost">
-          <span data-ttu-id="6b45a-119">URI-адрес узла службы расширения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-119">The URI of the extension service host.</span>
-          </span>
-        </param>
-        <param name="catchedKey">
-          <span data-ttu-id="6b45a-120">Кэшированные ключ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-120">The cached key.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6b45a-121">Проверка маркера удостоверения приложения кэширования, с помощью открытого ключа в указанный универсальный код ресурса (URI).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-121">Validates the cached application identity token using the public key at the specified Uniform Resource Identifier (URI).</span>
-          </span>
-          <span data-ttu-id="6b45a-122">
-            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-122">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="extensionServiceHost"><span data-ttu-id="78788-119">Универсальный код ресурса (URI) узла службы расширений.</span><span class="sxs-lookup"><span data-stu-id="78788-119">The URI of the extension service host.</span></span></param>
+        <param name="catchedKey"><span data-ttu-id="78788-120">Кэшированный ключ.</span><span class="sxs-lookup"><span data-stu-id="78788-120">The cached key.</span></span></param>
+        <summary><span data-ttu-id="78788-121">Проверяет кэшированный маркер удостоверения приложения с помощью открытого ключа по указанному универсальному идентификатору ресурса (URI).</span><span class="sxs-lookup"><span data-stu-id="78788-121">Validates the cached application identity token using the public key at the specified Uniform Resource Identifier (URI).</span></span> <span data-ttu-id="78788-122">Этот <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78788-122">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -284,23 +162,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6b45a-123">Получает версию утверждения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-123">Gets the claim version.</span>
-          </span>
-          <span data-ttu-id="6b45a-124">
-            <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-124">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6b45a-125">Строка версии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6b45a-125">The version string.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="78788-123">Получает версию утверждения.</span><span class="sxs-lookup"><span data-stu-id="78788-123">Gets the claim version.</span></span> <span data-ttu-id="78788-124"><see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78788-124">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="78788-125">Строка версии.</span><span class="sxs-lookup"><span data-stu-id="78788-125">The version string.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

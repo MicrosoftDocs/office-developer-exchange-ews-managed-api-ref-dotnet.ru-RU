@@ -1,13 +1,5 @@
 <Type Name="Mailbox" FullName="Microsoft.Exchange.WebServices.Data.Mailbox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="57d6fda2ee4df2ccfd1ce1a157bfaa805f9ddba0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626995" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Mailbox : Microsoft.Exchange.WebServices.Data.ComplexProperty, Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="57d6fda2ee4df2ccfd1ce1a157bfaa805f9ddba0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626995" /></Metadata><TypeSignature Language="C#" Value="public class Mailbox : Microsoft.Exchange.WebServices.Data.ComplexProperty, Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Mailbox extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Mailbox" />
   <TypeSignature Language="VB.NET" Value="Public Class Mailbox&#xA;Inherits ComplexProperty&#xA;Implements ISearchStringProvider" />
@@ -25,12 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-      <span data-ttu-id="44931-101">Представляет ссылку на почтовый ящик.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="44931-101">Represents a mailbox reference.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b1041-101">Представляет ссылку на почтовый ящик.</span><span class="sxs-lookup"><span data-stu-id="b1041-101">Represents a mailbox reference.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -47,12 +34,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44931-102">Инициализирует новый экземпляр класса почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-102">Initializes a new instance of the Mailbox class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b1041-102">Инициализирует новый экземпляр класса почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="b1041-102">Initializes a new instance of the Mailbox class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -71,18 +53,8 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">
-          <span data-ttu-id="44931-103">Основной SMTP-адрес почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-103">The primary SMTP address of the mailbox.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44931-104">Инициализирует новый экземпляр класса почтового ящика с SMTP-адрес почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-104">Initializes a new instance of the Mailbox class with the SMTP address of the mailbox.</span>
-          </span>
-        </summary>
+        <param name="smtpAddress"><span data-ttu-id="b1041-103">Основной SMTP-адрес почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b1041-103">The primary SMTP address of the mailbox.</span></span></param>
+        <summary><span data-ttu-id="b1041-104">Инициализирует новый экземпляр класса почтовых ящиков с SMTP-адресом почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b1041-104">Initializes a new instance of the Mailbox class with the SMTP address of the mailbox.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,24 +74,9 @@
         <Parameter Name="routingType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="address">
-          <span data-ttu-id="44931-105">Адрес, используемый для ссылки в почтовый ящик пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-105">The address used to reference the user mailbox.</span>
-          </span>
-        </param>
-        <param name="routingType">
-          <span data-ttu-id="44931-106">Тип маршрутизации адрес, используемый для ссылки в почтовый ящик пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-106">The routing type of the address used to reference the user mailbox.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44931-107">Инициализирует новый экземпляр класса почтовый ящик с адресом и типа маршрутизации почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-107">Initializes a new instance of the Mailbox class with the address and routing type of the mailbox.</span>
-          </span>
-        </summary>
+        <param name="address"><span data-ttu-id="b1041-105">Адрес, используемый для ссылки на почтовый ящик пользователя.</span><span class="sxs-lookup"><span data-stu-id="b1041-105">The address used to reference the user mailbox.</span></span></param>
+        <param name="routingType"><span data-ttu-id="b1041-106">Тип маршрутизации адреса, используемого для ссылки на почтовый ящик пользователя.</span><span class="sxs-lookup"><span data-stu-id="b1041-106">The routing type of the address used to reference the user mailbox.</span></span></param>
+        <summary><span data-ttu-id="b1041-107">Инициализирует новый экземпляр класса почтовых ящиков с адресом и типом маршрутизации почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b1041-107">Initializes a new instance of the Mailbox class with the address and routing type of the mailbox.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,18 +95,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44931-108">Получает или задает адрес, который используется для обращения к почтовому ящику пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-108">Gets or sets the address that is used to refer to the user mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="44931-109">Адрес электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-109">An e-mail address.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b1041-108">Получает или задает адрес, используемый для ссылки на почтовый ящик пользователя.</span><span class="sxs-lookup"><span data-stu-id="b1041-108">Gets or sets the address that is used to refer to the user mailbox.</span></span></summary>
+        <value><span data-ttu-id="b1041-109">Адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="b1041-109">An e-mail address.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -171,34 +118,11 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">
-          <span data-ttu-id="44931-110">Почтовый ящик, для сравнения текущего почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-110">The mailbox to compare to the current mailbox.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44931-111">Определяет, является ли указанный почтовый ящик равно текущей почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-111">Determines whether the specified mailbox is equal to the current mailbox.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="44931-112">
-            <b>значение true,</b> Если указанный почтовый ящик равно текущей почтовых ящиков; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-112">
-              <b>true</b> if the specified mailbox is equal to the current mailbox; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="obj"><span data-ttu-id="b1041-110">Почтовый ящик для сравнения с текущим почтовым ящиком.</span><span class="sxs-lookup"><span data-stu-id="b1041-110">The mailbox to compare to the current mailbox.</span></span></param>
+        <summary><span data-ttu-id="b1041-111">Определяет, равен ли указанный почтовый ящик текущему почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="b1041-111">Determines whether the specified mailbox is equal to the current mailbox.</span></span></summary>
+        <returns><span data-ttu-id="b1041-112"><b>значение true</b> , если указанный почтовый ящик равен текущему почтовому ящику; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b1041-112"><b>true</b> if the specified mailbox is equal to the current mailbox; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.NullReferenceException">
-          <span data-ttu-id="44931-113">
-            <paramref name="Obj" /> Параметр имеет значение null.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-113">The<paramref name="Obj" /> parameter is null.</span>
-          </span>
-        </exception>
+        <exception cref="T:System.NullReferenceException"><span data-ttu-id="b1041-113"><paramref name="Obj" /> Параметр имеет значение null.</span><span class="sxs-lookup"><span data-stu-id="b1041-113">The<paramref name="Obj" /> parameter is null.</span></span></exception>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -217,18 +141,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44931-114">Служит в качестве хэш-функции для определенного типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-114">Serves as a hash function for a particular type.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="44931-115">Хэш-код для текущего объекта почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-115">A hash code for the current Mailbox object.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="b1041-114">Служит в качестве хэш-функции для определенного типа.</span><span class="sxs-lookup"><span data-stu-id="b1041-114">Serves as a hash function for a particular type.</span></span></summary>
+        <returns><span data-ttu-id="b1041-115">Хэш-код для текущего объекта почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b1041-115">A hash code for the current Mailbox object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -247,20 +161,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44931-116">Указывает, является ли допустимый почтовый ящик.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-116">Indicates whether the mailbox is valid.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="44931-117">
-            <b>значение true,</b> Если данный экземпляр является допустимым; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-117">
-              <b>true</b> if this instance is valid; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b1041-116">Указывает, является ли почтовый ящик допустимым.</span><span class="sxs-lookup"><span data-stu-id="b1041-116">Indicates whether the mailbox is valid.</span></span></summary>
+        <value><span data-ttu-id="b1041-117"><b>значение true</b> , если этот экземпляр является допустимым; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="b1041-117"><b>true</b> if this instance is valid; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -283,23 +185,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44931-118">Возвращает строковое представление объекта для использования в поисковый фильтр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-118">Gets a string representation of this object for use in a search filter.</span>
-          </span>
-          <span data-ttu-id="44931-119">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.Mailbox.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-119">The <see cref="M:Microsoft.Exchange.WebServices.Data.Mailbox.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="44931-120">Строковое представление этого почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-120">A string representation of this mailbox.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="b1041-118">Возвращает строковое представление этого объекта для использования в фильтре поиска.</span><span class="sxs-lookup"><span data-stu-id="b1041-118">Gets a string representation of this object for use in a search filter.</span></span> <span data-ttu-id="b1041-119">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Mailbox.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b1041-119">The <see cref="M:Microsoft.Exchange.WebServices.Data.Mailbox.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="b1041-120">Строковое представление этого почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b1041-120">A string representation of this mailbox.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -321,24 +208,9 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">
-          <span data-ttu-id="44931-121">Преобразование в объект адрес электронной почты SMTP-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-121">The SMTP address to convert to an e-mail address object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44931-122">Определяет неявное преобразование между строку, представляющую SMTP-адреса и адрес электронной почты объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-122">Defines an implicit conversion between a string that represents an SMTP address and an e-mail address object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="44931-123">Почтовый ящик инициализирован с заданным адресом SMTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-123">A mailbox initialized with the specified SMTP address.</span>
-          </span>
-        </returns>
+        <param name="smtpAddress"><span data-ttu-id="b1041-121">Адрес SMTP для преобразования в объект адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="b1041-121">The SMTP address to convert to an e-mail address object.</span></span></param>
+        <summary><span data-ttu-id="b1041-122">Определяет неявное преобразование между строкой, которая представляет SMTP-адрес и объект адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="b1041-122">Defines an implicit conversion between a string that represents an SMTP address and an e-mail address object.</span></span></summary>
+        <returns><span data-ttu-id="b1041-123">Почтовый ящик, инициализированный с указанным SMTP-адресом.</span><span class="sxs-lookup"><span data-stu-id="b1041-123">A mailbox initialized with the specified SMTP address.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -357,18 +229,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44931-124">Получает или задает тип маршрутизации адрес, используемый для обращения к почтовому ящику пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-124">Gets or sets the routing type of the address that is used to refer to the user mailbox.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="44931-125">Тип маршрутизации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-125">A routing type.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="b1041-124">Получает или задает тип маршрутизации адреса, который используется для ссылки на почтовый ящик пользователя.</span><span class="sxs-lookup"><span data-stu-id="b1041-124">Gets or sets the routing type of the address that is used to refer to the user mailbox.</span></span></summary>
+        <value><span data-ttu-id="b1041-125">Тип маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="b1041-125">A routing type.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -388,18 +250,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44931-126">Возвращает строку, представляющую текущий объект почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-126">Returns a string that represents the current mailbox object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="44931-127">Строковое представление почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44931-127">A string representation of a mailbox.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="b1041-126">Возвращает строку, представляющую текущий объект почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b1041-126">Returns a string that represents the current mailbox object.</span></span></summary>
+        <returns><span data-ttu-id="b1041-127">Строковое представление почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b1041-127">A string representation of a mailbox.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

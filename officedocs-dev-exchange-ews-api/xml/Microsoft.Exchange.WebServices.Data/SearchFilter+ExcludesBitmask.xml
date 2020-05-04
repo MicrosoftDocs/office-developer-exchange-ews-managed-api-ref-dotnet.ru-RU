@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+ExcludesBitmask" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+ExcludesBitmask">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e94e88511ff1192ce62e35aafc1595f8217b8d6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627176" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.ExcludesBitmask : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e94e88511ff1192ce62e35aafc1595f8217b8d6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627176" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.ExcludesBitmask : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/ExcludesBitmask extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.ExcludesBitmask&#xA;Inherits SearchFilter.PropertyBasedFilter" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="25096-101">Представляет фильтр поиска исключения битовую маску.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="25096-101">Represents a bitmask exclusion search filter.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="6ea52-101">Представляет фильтр поиска для исключаемых битовых масок.</span><span class="sxs-lookup"><span data-stu-id="6ea52-101">Represents a bitmask exclusion search filter.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="25096-102">Инициализирует новый экземпляр класса SearchFilter.ExcludesBitmask.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25096-102">Initializes a new instance of the SearchFilter.ExcludesBitmask class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6ea52-102">Инициализирует новый экземпляр класса SearchFilter. Ексклудесбитмаск.</span><span class="sxs-lookup"><span data-stu-id="6ea52-102">Initializes a new instance of the SearchFilter.ExcludesBitmask class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,24 +50,9 @@
         <Parameter Name="bitmask" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">
-          <span data-ttu-id="25096-103">Определение свойств, который сравнивается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25096-103">The definition of the property that is being compared.</span>
-          </span>
-        </param>
-        <param name="bitmask">
-          <span data-ttu-id="25096-104">Битовая маска, чтобы сравнить с.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25096-104">The bitmask to compare with.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="25096-105">Инициализирует новый экземпляр класса SearchFilter.ExcludesBitmask определения указанного свойства и битовую маску.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25096-105">Initializes a new instance of the SearchFilter.ExcludesBitmask class with the specified property definition and bitmask.</span>
-          </span>
-        </summary>
+        <param name="propertyDefinition"><span data-ttu-id="6ea52-103">Определение сравниваемого свойства.</span><span class="sxs-lookup"><span data-stu-id="6ea52-103">The definition of the property that is being compared.</span></span></param>
+        <param name="bitmask"><span data-ttu-id="6ea52-104">Битовая маска для сравнения с.</span><span class="sxs-lookup"><span data-stu-id="6ea52-104">The bitmask to compare with.</span></span></param>
+        <summary><span data-ttu-id="6ea52-105">Инициализирует новый экземпляр класса SearchFilter. Ексклудесбитмаск, используя заданное определение свойства и битовую маску.</span><span class="sxs-lookup"><span data-stu-id="6ea52-105">Initializes a new instance of the SearchFilter.ExcludesBitmask class with the specified property definition and bitmask.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,18 +71,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25096-106">Получает или задает битовую маску для сравнения свойства с.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25096-106">Gets or sets the bitmask to compare the property with.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25096-107">Точечный рисунок для сравнения свойства с.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25096-107">The bitmap to compare the property with.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6ea52-106">Получает или задает битовую маску для сравнения свойства.</span><span class="sxs-lookup"><span data-stu-id="6ea52-106">Gets or sets the bitmask to compare the property with.</span></span></summary>
+        <value><span data-ttu-id="6ea52-107">Растровое изображение, с которым сравнивается свойство.</span><span class="sxs-lookup"><span data-stu-id="6ea52-107">The bitmap to compare the property with.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

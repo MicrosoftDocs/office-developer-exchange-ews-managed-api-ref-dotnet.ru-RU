@@ -1,13 +1,5 @@
 <Type Name="NonIndexableItemParameters" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="77df6f0a00ac58804240f4bc4a40d7d05c1c5f53" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627241" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class NonIndexableItemParameters" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="77df6f0a00ac58804240f4bc4a40d7d05c1c5f53" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627241" /></Metadata><TypeSignature Language="C#" Value="public abstract class NonIndexableItemParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit NonIndexableItemParameters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class NonIndexableItemParameters" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="86dc2-101">Объект, содержащий параметры, используемые в запроса сведений об элементах в папках, которые не могут быть индексированы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="86dc2-101">An object containing parameters used in requesting information about items in folders that cannot be indexed.</span>
-      </span>
-      <span data-ttu-id="86dc2-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="86dc2-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="0eb66-101">Объект, содержащий параметры, используемые при запросе сведений о элементах в папках, которые не удается индексировать.</span><span class="sxs-lookup"><span data-stu-id="0eb66-101">An object containing parameters used in requesting information about items in folders that cannot be indexed.</span></span> <span data-ttu-id="0eb66-102"><see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0eb66-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,17 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="86dc2-103">Создает экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="86dc2-103">Creates an instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> class.</span>
-          </span>
-          <span data-ttu-id="86dc2-104">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="86dc2-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0eb66-103">Создает экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> класса.</span><span class="sxs-lookup"><span data-stu-id="0eb66-103">Creates an instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> class.</span></span> <span data-ttu-id="0eb66-104"><see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0eb66-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,23 +49,8 @@
         <ReturnType>System.String[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="86dc2-105">Получает или задает список почтовых ящиков (в формате устаревшее различающееся имя).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="86dc2-105">Gets or sets a list of mailboxes (in legacy distinguished name format).</span>
-          </span>
-          <span data-ttu-id="86dc2-106">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="86dc2-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="86dc2-107">Список почтовых ящиков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="86dc2-107">A list of mailboxes.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0eb66-105">Получает или задает список почтовых ящиков (в формате традиционного различающегося имени).</span><span class="sxs-lookup"><span data-stu-id="0eb66-105">Gets or sets a list of mailboxes (in legacy distinguished name format).</span></span>            <span data-ttu-id="0eb66-106"><see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0eb66-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="0eb66-107">Список почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="0eb66-107">A list of mailboxes.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -112,25 +69,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="86dc2-108">Получает или задает, следует ли выполнять поиск только папки архива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="86dc2-108">Gets or sets whether to search archive folders only.</span>
-          </span>
-          <span data-ttu-id="86dc2-109">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="86dc2-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="86dc2-110">
-            <b>значение true,</b> если только архивные папки поиска; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="86dc2-110">
-              <b>true</b> if only archive folders are searched; otherwise <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0eb66-108">Получает или задает значение, указывающее, следует ли выполнять поиск только в архивных папках.</span><span class="sxs-lookup"><span data-stu-id="0eb66-108">Gets or sets whether to search archive folders only.</span></span>            <span data-ttu-id="0eb66-109"><see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0eb66-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="0eb66-110"><b>значение true</b> , если выполняется поиск только архивных папок; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="0eb66-110"><b>true</b> if only archive folders are searched; otherwise <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

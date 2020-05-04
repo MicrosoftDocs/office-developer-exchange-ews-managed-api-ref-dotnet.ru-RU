@@ -1,13 +1,5 @@
 <Type Name="MoveCopyItemResponse" FullName="Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6d150751e0212479b28e70cb88d9cbb32c3d10bd" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626757" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MoveCopyItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6d150751e0212479b28e70cb88d9cbb32c3d10bd" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626757" /></Metadata><TypeSignature Language="C#" Value="public sealed class MoveCopyItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MoveCopyItemResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MoveCopyItemResponse&#xA;Inherits ServiceResponse" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="21343-101">Представляет ответ на операцию перемещения или копирования.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="21343-101">Represents a response to a move or copy operation.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="bcd20-101">Представляет ответ на операцию перемещения или копирования.</span><span class="sxs-lookup"><span data-stu-id="bcd20-101">Represents a response to a move or copy operation.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,31 +32,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21343-102">Получает элемент копируемые или перемещения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21343-102">Gets the copied or moved item.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="21343-103">Объект Item, который содержит элемент копирования или перемещения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21343-103">An Item object that contains the moved or copied item.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="21343-104">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse.Item" /> Свойство является пустая ссылка (Nothing в Visual Basic), если операция копирования была между двумя почтовых ящиков или почтового ящика и общей папки.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21343-104">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse.Item" /> property is a null reference (Nothing in Visual Basic) if the copy operation was between two mailboxes or between a mailbox and a public folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="bcd20-102">Получает скопированный или перемещенный элемент.</span><span class="sxs-lookup"><span data-stu-id="bcd20-102">Gets the copied or moved item.</span></span></summary>
+        <value><span data-ttu-id="bcd20-103">Объект Item, который содержит перемещенный или скопированный элемент.</span><span class="sxs-lookup"><span data-stu-id="bcd20-103">An Item object that contains the moved or copied item.</span></span></value>
+        <remarks><span data-ttu-id="bcd20-104"><para><see cref="P:Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse.Item" /> Свойство является пустой ссылкой (Nothing в Visual Basic), если операция копирования находилась между двумя почтовыми ящиками или между почтовым ящиком и общедоступной папкой.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="bcd20-104"><para>The <see cref="P:Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse.Item" /> property is a null reference (Nothing in Visual Basic) if the copy operation was between two mailboxes or between a mailbox and a public folder.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

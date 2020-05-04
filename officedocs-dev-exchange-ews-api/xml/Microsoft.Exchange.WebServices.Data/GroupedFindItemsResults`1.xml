@@ -1,13 +1,5 @@
 <Type Name="GroupedFindItemsResults&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;TItem&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="74bd6cf860a2066270ff010547d5c93ae7f92ae0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627232" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GroupedFindItemsResults&lt;TItem&gt; : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.ItemGroup&lt;TItem&gt;&gt; where TItem : Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="74bd6cf860a2066270ff010547d5c93ae7f92ae0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627232" /></Metadata><TypeSignature Language="C#" Value="public sealed class GroupedFindItemsResults&lt;TItem&gt; : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.ItemGroup&lt;TItem&gt;&gt; where TItem : Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GroupedFindItemsResults`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.ItemGroup`1&lt;!TItem&gt;&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GroupedFindItemsResults(Of TItem)&#xA;Implements IEnumerable(Of ItemGroup(Of TItem))" />
@@ -32,18 +24,8 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <typeparam name="TItem">
-      <span data-ttu-id="d4c6d-101">Тип элемента, возвращенные операцией поиска.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d4c6d-101">The type of item that is returned by the search operation.</span>
-      </span>
-    </typeparam>
-    <summary>
-      <span data-ttu-id="d4c6d-102">Представляет коллекцию, содержащую результаты операции поиска элемента.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d4c6d-102">Represents the collection that contains the results of an item search operation.</span>
-      </span>
-    </summary>
+    <typeparam name="TItem"><span data-ttu-id="1a31e-101">Тип элемента, возвращаемого операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="1a31e-101">The type of item that is returned by the search operation.</span></span></typeparam>
+    <summary><span data-ttu-id="1a31e-102">Представляет коллекцию, содержащую результаты операции поиска элемента.</span><span class="sxs-lookup"><span data-stu-id="1a31e-102">Represents the collection that contains the results of an item search operation.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -66,18 +48,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d4c6d-103">Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-103">Returns an enumerator that enables you to iterate through the objects in the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d4c6d-104">Перечислитель, который можно использовать для итерации по объектов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-104">An enumerator that can be used to iterate through the objects in the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="1a31e-103">Возвращает перечислитель, который позволяет перебирать объекты в коллекции.</span><span class="sxs-lookup"><span data-stu-id="1a31e-103">Returns an enumerator that enables you to iterate through the objects in the collection.</span></span></summary>
+        <returns><span data-ttu-id="1a31e-104">Перечислитель, который можно использовать для выполнения итерации по объектам в коллекции.</span><span class="sxs-lookup"><span data-stu-id="1a31e-104">An enumerator that can be used to iterate through the objects in the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,18 +68,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.ItemGroup&lt;TItem&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d4c6d-105">Получает группы элементов, возвращенные операцией поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-105">Gets the item groups that are returned by the search operation.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d4c6d-106">Коллекция групп элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-106">A collection of the item groups.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1a31e-105">Получает группу элементов, возвращенных операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="1a31e-105">Gets the item groups that are returned by the search operation.</span></span></summary>
+        <value><span data-ttu-id="1a31e-106">Коллекция групп элементов.</span><span class="sxs-lookup"><span data-stu-id="1a31e-106">A collection of the item groups.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,20 +88,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d4c6d-107">Получает значение, указывающее, доступны ли другие элементы, соответствующие условиям поиска в папке, в которой выполняется поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-107">Gets a value that indicates whether more items that match the search criteria are available in the searched folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d4c6d-108">
-            <b>значение true,</b> Если число элементов, доступны; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-108">
-              <b>true</b> if more items are available; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1a31e-107">Получает значение, указывающее, доступны ли в папке поиска другие элементы, которые отвечают условиям поиска.</span><span class="sxs-lookup"><span data-stu-id="1a31e-107">Gets a value that indicates whether more items that match the search criteria are available in the searched folder.</span></span></summary>
+        <value><span data-ttu-id="1a31e-108"><b>значение true</b> , если доступны дополнительные элементы; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="1a31e-108"><b>true</b> if more items are available; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,19 +108,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d4c6d-109">Получает смещение, который следует использовать с помощью объекта <b>ItemView</b> для получения следующей страницы элементов в <b>FindItems</b> операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-109">Gets the offset that should be used with an <b>ItemView</b> object  to retrieve the next page of items in a <b>FindItems</b> operation.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d4c6d-110">
-            <b>Допускает значение NULL</b> значение, смещение на следующую страницу элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-110">A <b>nullable</b> value that is the offset to the next page of items.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1a31e-109">Получает смещение, которое должно использоваться с объектом <b>итемвиев</b> для получения следующей страницы элементов в операции <b>FindItems</b> .</span><span class="sxs-lookup"><span data-stu-id="1a31e-109">Gets the offset that should be used with an <b>ItemView</b> object  to retrieve the next page of items in a <b>FindItems</b> operation.</span></span></summary>
+        <value><span data-ttu-id="1a31e-110">Значение, <b>допускающее значение NULL</b> , которое является смещением к следующей странице элементов.</span><span class="sxs-lookup"><span data-stu-id="1a31e-110">A <b>nullable</b> value that is the offset to the next page of items.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -193,23 +132,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d4c6d-111">Возвращает перечислитель, который выполняет итерацию объектов в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-111">Returns an enumerator that iterates through the objects in the collection.</span>
-          </span>
-          <span data-ttu-id="d4c6d-112">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-112">The <see cref="M:Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d4c6d-113">Перечислитель, который можно использовать для итерации по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-113">An enumerator that can be used to iterate through the collection.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="1a31e-111">Возвращает перечислитель, который выполняет итерацию по объектам в коллекции.</span><span class="sxs-lookup"><span data-stu-id="1a31e-111">Returns an enumerator that iterates through the objects in the collection.</span></span> <span data-ttu-id="1a31e-112">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1a31e-112">The <see cref="M:Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="1a31e-113">Перечислитель, который можно использовать для итерации по коллекции.</span><span class="sxs-lookup"><span data-stu-id="1a31e-113">An enumerator that can be used to iterate through the collection.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -228,18 +152,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d4c6d-114">Возвращает общее число элементов, которые соответствуют условиям поиска, доступных в папке, в которой выполняется поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-114">Gets the total number of items that match the search criteria that are available in the searched folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d4c6d-115">Общее число элементов, которые соответствуют условиям поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d4c6d-115">The total number of items that match the search criteria.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1a31e-114">Получает общее количество элементов, которые удовлетворяют критериям поиска, доступным в папке, в которой выполняется поиск.</span><span class="sxs-lookup"><span data-stu-id="1a31e-114">Gets the total number of items that match the search criteria that are available in the searched folder.</span></span></summary>
+        <value><span data-ttu-id="1a31e-115">Общее количество элементов, которые удовлетворяют условиям поиска.</span><span class="sxs-lookup"><span data-stu-id="1a31e-115">The total number of items that match the search criteria.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

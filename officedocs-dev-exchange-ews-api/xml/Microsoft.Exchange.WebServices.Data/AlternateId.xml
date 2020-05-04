@@ -1,13 +1,5 @@
 <Type Name="AlternateId" FullName="Microsoft.Exchange.WebServices.Data.AlternateId">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8eb84c9da9e6afc49e95c01b57b6723f64f9861" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627210" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class AlternateId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d8eb84c9da9e6afc49e95c01b57b6723f64f9861" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627210" /></Metadata><TypeSignature Language="C#" Value="public class AlternateId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternateId extends Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternateId" />
   <TypeSignature Language="VB.NET" Value="Public Class AlternateId&#xA;Inherits AlternateIdBase" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="c2b55-101">Представляет идентификатор, выраженная в определенный формат.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c2b55-101">Represents an identifier expressed in a specific format.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="0d491-101">Представляет идентификатор, выраженный в определенном формате.</span><span class="sxs-lookup"><span data-stu-id="0d491-101">Represents an identifier expressed in a specific format.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="c2b55-102">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-102">Initializes a new instance of the  <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0d491-102">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса.</span><span class="sxs-lookup"><span data-stu-id="0d491-102">Initializes a new instance of the  <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,30 +51,10 @@
         <Parameter Name="mailbox" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="format">
-          <span data-ttu-id="c2b55-103">Формат идентификатора идентификатор для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-103">The identifier format of the identifier to convert.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="c2b55-104">Идентификатор для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-104">The identifier to convert.</span>
-          </span>
-        </param>
-        <param name="mailbox">
-          <span data-ttu-id="c2b55-105">SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-105">The SMTP address of the mailbox that contains the identifier to convert.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c2b55-106">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класс, используя заданный формат, идентификатор и почтовых ящиков SMTP-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> class by using the supplied format, identifier, and mailbox SMTP address.</span>
-          </span>
-        </summary>
+        <param name="format"><span data-ttu-id="0d491-103">Формат идентификатора для преобразования.</span><span class="sxs-lookup"><span data-stu-id="0d491-103">The identifier format of the identifier to convert.</span></span></param>
+        <param name="id"><span data-ttu-id="0d491-104">Преобразуемый идентификатор.</span><span class="sxs-lookup"><span data-stu-id="0d491-104">The identifier to convert.</span></span></param>
+        <param name="mailbox"><span data-ttu-id="0d491-105">SMTP-адрес почтового ящика, содержащего идентификатор для преобразования.</span><span class="sxs-lookup"><span data-stu-id="0d491-105">The SMTP address of the mailbox that contains the identifier to convert.</span></span></param>
+        <summary><span data-ttu-id="0d491-106">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса, используя предоставленный формат, идентификатор и SMTP-адрес почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="0d491-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> class by using the supplied format, identifier, and mailbox SMTP address.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,48 +76,14 @@
         <Parameter Name="isArchive" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="format">
-          <span data-ttu-id="c2b55-107">Формат идентификатора идентификатор для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-107">The identifier format of the identifier to convert.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="c2b55-108">Идентификатор для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-108">The identifier to convert.</span>
-          </span>
-        </param>
-        <param name="mailbox">
-          <span data-ttu-id="c2b55-109">SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-109">The SMTP address of the mailbox that contains the identifier to convert.</span>
-          </span>
-        </param>
-        <param name="isArchive">
-          <span data-ttu-id="c2b55-110">Флаг, указывающий, является ли идентификатор из архивных элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-110">A flag that indicates whether the identifier is from an archived item.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c2b55-111">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса, используя заданный формат, идентификатор, адрес почтового ящика SMTP и архивировать флаг идентификатор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-111">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> class by using the supplied format, identifier, mailbox SMTP address, and archive identifier flag.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="c2b55-112">
-            <para>Эта перегрузка используется для клиентов, предназначенных для версий Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-112">
-              <para>This overload is applicable to clients that target versions of Microsoft Exchange Server starting with Exchange Server 2010 Service Pack 1 (SP1).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="format"><span data-ttu-id="0d491-107">Формат идентификатора для преобразования.</span><span class="sxs-lookup"><span data-stu-id="0d491-107">The identifier format of the identifier to convert.</span></span></param>
+        <param name="id"><span data-ttu-id="0d491-108">Преобразуемый идентификатор.</span><span class="sxs-lookup"><span data-stu-id="0d491-108">The identifier to convert.</span></span></param>
+        <param name="mailbox"><span data-ttu-id="0d491-109">SMTP-адрес почтового ящика, содержащего идентификатор для преобразования.</span><span class="sxs-lookup"><span data-stu-id="0d491-109">The SMTP address of the mailbox that contains the identifier to convert.</span></span></param>
+        <param name="isArchive"><span data-ttu-id="0d491-110">Флаг, указывающий, находится ли идентификатор из архивного элемента.</span><span class="sxs-lookup"><span data-stu-id="0d491-110">A flag that indicates whether the identifier is from an archived item.</span></span></param>
+        <summary><span data-ttu-id="0d491-111">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса с помощью предоставленного формата, идентификатора, SMTP-адреса почтового ящика и флага архивного идентификатора.</span><span class="sxs-lookup"><span data-stu-id="0d491-111">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> class by using the supplied format, identifier, mailbox SMTP address, and archive identifier flag.</span></span></summary>
+        <remarks><span data-ttu-id="0d491-112"><para>Эта перегрузка применяется к клиентам, которые нацелены на версии Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0d491-112"><para>This overload is applicable to clients that target versions of Microsoft Exchange Server starting with Exchange Server 2010 Service Pack 1 (SP1).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsArchive">
@@ -173,32 +101,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c2b55-113">Получает или задает значение, указывающее, представляет ли идентификатор идентификатора элемента или папки архива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-113">Gets or sets a value that indicates whether the identifier represents an archive item or folder identifier.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c2b55-114">
-            <b>значение true,</b> Если идентификатор представляет элемент архива или папки; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-114">
-              <b>true</b> if the identifier represents an archive item or folder; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="c2b55-115">
-            <para>Это свойство используется для клиентов, предназначенных для версий Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-115">
-              <para>This property is applicable to clients that target versions of Microsoft Exchange Server starting with Exchange Server 2010 Service Pack 1 (SP1).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="0d491-113">Получает или задает значение, указывающее, представляет ли идентификатор элемент архива или идентификатор папки.</span><span class="sxs-lookup"><span data-stu-id="0d491-113">Gets or sets a value that indicates whether the identifier represents an archive item or folder identifier.</span></span></summary>
+        <value><span data-ttu-id="0d491-114"><b>значение true</b> , если идентификатор представляет архивный элемент или папку; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="0d491-114"><b>true</b> if the identifier represents an archive item or folder; otherwise, <b>false</b>.</span></span></value>
+        <remarks><span data-ttu-id="0d491-115"><para>Это свойство применяется к клиентам, которые нацелены на версии Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0d491-115"><para>This property is applicable to clients that target versions of Microsoft Exchange Server starting with Exchange Server 2010 Service Pack 1 (SP1).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mailbox">
@@ -216,18 +123,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c2b55-116">Получает или задает SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-116">Gets or sets the SMTP address of the mailbox that contains the identifier to convert.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c2b55-117">SMTP-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-117">A SMTP address.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0d491-116">Получает или задает SMTP-адрес почтового ящика, содержащего идентификатор для преобразования.</span><span class="sxs-lookup"><span data-stu-id="0d491-116">Gets or sets the SMTP address of the mailbox that contains the identifier to convert.</span></span></summary>
+        <value><span data-ttu-id="0d491-117">SMTP-адрес.</span><span class="sxs-lookup"><span data-stu-id="0d491-117">A SMTP address.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -246,18 +143,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c2b55-118">Получает или задает идентификатор для преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-118">Gets or sets the identifier to convert.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c2b55-119">Папки или идентификатор элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2b55-119">A folder or item identifier.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0d491-118">Получает или задает идентификатор для преобразования.</span><span class="sxs-lookup"><span data-stu-id="0d491-118">Gets or sets the identifier to convert.</span></span></summary>
+        <value><span data-ttu-id="0d491-119">Идентификатор папки или элемента.</span><span class="sxs-lookup"><span data-stu-id="0d491-119">A folder or item identifier.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

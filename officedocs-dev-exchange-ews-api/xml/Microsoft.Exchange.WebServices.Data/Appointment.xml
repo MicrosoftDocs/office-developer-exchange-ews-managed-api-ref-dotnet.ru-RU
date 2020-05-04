@@ -1,13 +1,5 @@
 <Type Name="Appointment" FullName="Microsoft.Exchange.WebServices.Data.Appointment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1e6e9d3d21281c21633fc0ea57a2916568b32bcf" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626750" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Appointment : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1e6e9d3d21281c21633fc0ea57a2916568b32bcf" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626750" /></Metadata><TypeSignature Language="C#" Value="public class Appointment : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Appointment extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Appointment" />
   <TypeSignature Language="VB.NET" Value="Public Class Appointment&#xA;Inherits Item" />
@@ -21,16 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="f6f16-101">Содержит свойства и методы, используемые для определения встречи или собрания.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f6f16-101">Contains the properties and methods used to define an appointment or a meeting.</span>
-      </span>
-      <span data-ttu-id="f6f16-102">Определенные свойства, доступные для встреч в <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> класса.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f6f16-102">Properties that are available on appointments are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> class.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2a7b9-101">Содержит свойства и методы, используемые для определения встречи или собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-101">Contains the properties and methods used to define an appointment or a meeting.</span></span> <span data-ttu-id="2a7b9-102">Свойства, доступные в встречах, определяются в <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> классе.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-102">Properties that are available on appointments are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> class.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,23 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="f6f16-103">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляра, к которому привязан этой встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-103">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> instance to which this appointment is bound.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-104">Инициализирует несохраненные локальный экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-104">Initializes an unsaved local instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> class.</span>
-          </span>
-          <span data-ttu-id="f6f16-105">Чтобы выполнить привязку к существующую встречу, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> метод вместо этого.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-105">To bind to an existing appointment, use the <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> method instead.</span>
-          </span>
-        </summary>
+        <param name="service"><span data-ttu-id="2a7b9-103"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, с которым связана эта встреча.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-103">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> instance to which this appointment is bound.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-104">Инициализирует несохраненный локальный экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> класса.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-104">Initializes an unsaved local instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> class.</span></span> <span data-ttu-id="2a7b9-105">Чтобы выполнить присоединение к существующей встрече, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> вместо этого метод.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-105">To bind to an existing appointment, use the <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> method instead.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,30 +58,9 @@
         <Parameter Name="sendResponse" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="sendResponse">
-          <span data-ttu-id="f6f16-106">
-            <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-106">
-              <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-107">Принимает приглашение на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-107">Accepts the meeting.</span>
-          </span>
-          <span data-ttu-id="f6f16-108">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-108">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-109">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-109">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
-          </span>
-        </returns>
+        <param name="sendResponse"><span data-ttu-id="2a7b9-106"><b>имеет значение true</b> , если отправку ответа организатору; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-106"><b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-107">Принимает приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-107">Accepts the meeting.</span></span> <span data-ttu-id="2a7b9-108">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-108">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-109"><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-109">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,30 +85,9 @@
         <Parameter Name="sendResponse" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="sendResponse">
-          <span data-ttu-id="f6f16-110">
-            <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-110">
-              <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-111">Предварительно принимает приглашение на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-111">Tentatively accepts the meeting.</span>
-          </span>
-          <span data-ttu-id="f6f16-112">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-112">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-113">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-113">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
-          </span>
-        </returns>
+        <param name="sendResponse"><span data-ttu-id="2a7b9-110"><b>имеет значение true</b> , если отправку ответа организатору; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-110"><b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-111">Принятие приглашения на собрание под вопросом.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-111">Tentatively accepts the meeting.</span></span> <span data-ttu-id="2a7b9-112">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-112">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-113"><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-113">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -180,18 +106,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-114">Получает число записей календаря, которые располагаются вплотную к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-114">Gets the number of calendar entries that are adjacent to the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-115">Количество записей календаря, которые располагаются вплотную к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-115">The number of calendar entries that are adjacent to the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-114">Получает число записей календаря, смежных с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-114">Gets the number of calendar entries that are adjacent to the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-115">Число записей календаря, смежных с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-115">The number of calendar entries that are adjacent to the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,18 +126,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-116">Получает список собрания, которые располагаются вплотную к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-116">Gets a list of meetings that are adjacent to the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-117">Коллекция собрания, которые располагаются вплотную к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-117">A collection of the meetings that are adjacent to the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-116">Получает список собраний, смежных с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-116">Gets a list of meetings that are adjacent to the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-117">Коллекция собраний, смежных с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-117">A collection of the meetings that are adjacent to the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -240,20 +146,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-118">Получает или задает участников может предложить новое время собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-118">Gets or sets whether attendees may propose a new time for the meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-119">
-            <b>значение true,</b> Если участники могут предложить новое время для собраний; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-119">
-              <b>true</b> if attendees may propose a new time for the meeting; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-118">Получает или задает значение, указывающее, могут ли участники предложить новое время собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-118">Gets or sets whether attendees may propose a new time for the meeting.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-119"><b>true</b> , если участники могут предложить другое время для собрания; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-119"><b>true</b> if attendees may propose a new time for the meeting; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -272,18 +166,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-120">Получает время участником дан ответ на запрос на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-120">Gets the time that an attendee replied to the meeting request.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-121">Время, участником дан ответ на запрос на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-121">The time that an attendee replied to the meeting request.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-120">Получает время ответа участника на приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-120">Gets the time that an attendee replied to the meeting request.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-121">Время ответа участника на приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-121">The time that an attendee replied to the meeting request.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -302,18 +186,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-122">Получает значение, указывающее, номер версии измененных встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-122">Gets a value that indicates the version number of a changed appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-123">Номер версии встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-123">The version number of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-122">Получает значение, указывающее номер версии измененной встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-122">Gets a value that indicates the version number of a changed appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-123">Номер версии встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-123">The version number of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -332,18 +206,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-124">Получает значение, указывающее, является ли связанный объект встречу, собрание, ответ на собрании или отмены собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-124">Gets a value that indicates whether the associated object is an appointment, a meeting, a response to a meeting, or a cancelled meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-125">Состояние встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-125">The state of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-124">Получает значение, указывающее, является ли связанный объект встречей, собранием, ответом на собрание или отмененным собранием.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-124">Gets a value that indicates whether the associated object is an appointment, a meeting, a response to a meeting, or a cancelled meeting.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-125">Состояние встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-125">The state of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -362,18 +226,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AppointmentType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-126">Получает значение, указывающее тип вхождение встречи; Например собрания, экземпляр повторяющееся собрание, исключение, повторяющееся собрание или элемент шаблона, который содержит собрания single шаблона повторения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-126">Gets a value that indicates the occurrence type of the appointment; for example, a single meeting, an instance of a recurring meeting, an exception to a recurring meeting, or a master item that contains a meeting recurrence pattern.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-127">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> значений перечисления, определяющее тип повторения встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-127">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> enumeration values that specifies the recurrence type of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-126">Получает значение, указывающее тип вхождения встречи; Например, одно собрание, экземпляр повторяющегося собрания, исключение из повторяющегося собрания или главный элемент, содержащий шаблон повторения собрания...</span><span class="sxs-lookup"><span data-stu-id="2a7b9-126">Gets a value that indicates the occurrence type of the appointment; for example, a single meeting, an instance of a recurring meeting, an exception to a recurring meeting, or a master item that contains a meeting recurrence pattern.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-127">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> перечисления, указывающее тип повторения встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-127">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> enumeration values that specifies the recurrence type of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -396,42 +250,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="f6f16-128">Служба должна использовать для привязки к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-128">The service to use to bind to the appointment.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="f6f16-129">Идентификатор элемента встречи для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-129">The identifier of the appointment to bind to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-130">Выполняет привязку к существующую встречу и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-130">Binds to an existing appointment and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="f6f16-131">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-131">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-132">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляра, который представляет встречи, соответствующий указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-132">An <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> instance that represents the appointment that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="2a7b9-128">Служба, используемая для связывания с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-128">The service to use to bind to the appointment.</span></span></param>
+        <param name="id"><span data-ttu-id="2a7b9-129">Идентификатор встречи, к которой требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-129">The identifier of the appointment to bind to.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-130">Выполняет присоединение к существующей встрече и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-130">Binds to an existing appointment and loads its first class properties.</span></span> <span data-ttu-id="2a7b9-131">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-131">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-132"><see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляр, представляющий встречу, которая соответствует УКАЗАНному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-132">An <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> instance that represents the appointment that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <span data-ttu-id="f6f16-133">В определенных сценариях, этот метод можно создать исключение, аналогичную following:System.ArgumentNullException: не может иметь значение null. Имя параметра: идентификатор в System.TimeZoneInfo.FindSystemTimeZoneById(String id)... Это может произойти, если выполняются все следующие условия: <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> переданного объекта <paramref name="service" /> параметр был создан со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> в <paramref name="requestedServerVersion" /> параметр. Атрибут<b>TimeZoneName</b><a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">MeetingTimeZone</a>. Если возникнет исключение, вы можете проверить отсутствие атрибута <b>TimeZoneName</b> , <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">Включение трассировки запросов и ответов</a>, чтобы обойти эту проблему, выполните одно из следующих действий: создание <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> или выше в <paramref name="requestedServerVersion" /> параметр. Укажите <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> объект, который не включает <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /> свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-133">In specific scenarios, this method can generate an exception similar to the following:System.ArgumentNullException: Value cannot be null.Parameter name: id    At System.TimeZoneInfo.FindSystemTimeZoneById(String id)...This can happen if all of the following are true:The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object passed in the <paramref name="service" /> parameter was created with a value of <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> in the <paramref name="requestedServerVersion" /> parameter.The <a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">MeetingTimeZone</a><b>TimeZoneName</b> attribute.If you encounter this exception, you can verify the absence of the <b>TimeZoneName</b> attribute by <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">enabling tracing requests and responses</a>To work around this problem, do one of the following:Create the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object with a value of <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> or higher in the <paramref name="requestedServerVersion" /> parameter.Specify a <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object that does not include the <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /> properties.</span>
-          </span>
-        </exception>
+        <exception cref="T:System.ArgumentNullException"><span data-ttu-id="2a7b9-133">В определенных сценариях этот метод может создать исключение, аналогичное следующему: System. ArgumentNullException: value не может иметь значение null. Имя параметра: ID в System. Тимезонеинфо. Финдсистемтимезонебид (String ID)... Это может произойти, если выполняются все из следующих условий <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> : объект, переданный в <paramref name="service" /> параметре, был создан со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> в <paramref name="requestedServerVersion" /> параметре. Атрибут <a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">митингтимезоне</a><b>тимезоненаме</b> . Если вы столкнулись с этим исключением, вы можете проверить отсутствие атрибута <b>тимезоненаме</b> , <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">разрешив обработку запросов и ответов трассировки</a>, чтобы обойти эту проблему, выполните одно из следующих действий <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> : Создайте объект со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> или более высоким значением <paramref name="requestedServerVersion" /> в параметре. Укажите <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> объект, не включающий свойства <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> или. <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /></span><span class="sxs-lookup"><span data-stu-id="2a7b9-133">In specific scenarios, this method can generate an exception similar to the following:System.ArgumentNullException: Value cannot be null.Parameter name: id    At System.TimeZoneInfo.FindSystemTimeZoneById(String id)...This can happen if all of the following are true:The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object passed in the <paramref name="service" /> parameter was created with a value of <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> in the <paramref name="requestedServerVersion" /> parameter.The <a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">MeetingTimeZone</a><b>TimeZoneName</b> attribute.If you encounter this exception, you can verify the absence of the <b>TimeZoneName</b> attribute by <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">enabling tracing requests and responses</a>To work around this problem, do one of the following:Create the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object with a value of <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> or higher in the <paramref name="requestedServerVersion" /> parameter.Specify a <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object that does not include the <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /> properties.</span></span></exception>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -453,48 +277,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="f6f16-134">Служба должна использовать для привязки к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-134">The service to use to bind to the appointment.</span>
-          </span>
-        </param>
-        <param name="id">
-          <span data-ttu-id="f6f16-135">Идентификатор элемента встречи для привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-135">The identifier of the appointment to bind to.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="f6f16-136">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-136">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-137">Выполняет привязку к существующую встречу и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-137">Binds to an existing appointment and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="f6f16-138">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-138">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-139">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляра, который представляет встречи, соответствующий указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-139">An <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> instance that represents the appointment that corresponds to the specified ID.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="2a7b9-134">Служба, используемая для связывания с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-134">The service to use to bind to the appointment.</span></span></param>
+        <param name="id"><span data-ttu-id="2a7b9-135">Идентификатор встречи, к которой требуется присоединиться.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-135">The identifier of the appointment to bind to.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="2a7b9-136">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-136">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-137">Выполняет присоединение к существующей встрече и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-137">Binds to an existing appointment and loads the specified set of properties.</span></span> <span data-ttu-id="2a7b9-138">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-138">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-139"><see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляр, представляющий встречу, которая соответствует УКАЗАНному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-139">An <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> instance that represents the appointment that corresponds to the specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <span data-ttu-id="f6f16-140">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-140">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
-          </span>
-        </exception>
+        <exception cref="T:System.ArgumentNullException"><span data-ttu-id="2a7b9-140">Подробнее об этом исключении можно узнать <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />в статье.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-140">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span></span></exception>
       </Docs>
     </Member>
     <Member MemberName="BindToOccurrence">
@@ -517,40 +306,11 @@
         <Parameter Name="occurenceIndex" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="f6f16-141">Служба должна использовать для привязки к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-141">The service to use to bind to the appointment.</span>
-          </span>
-        </param>
-        <param name="recurringMasterId">
-          <span data-ttu-id="f6f16-142">Идентификатор повторяющегося главных, представляющий индекс вхождения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-142">The identifier of the recurring master that the index represents an occurrence of.</span>
-          </span>
-        </param>
-        <param name="occurenceIndex">
-          <span data-ttu-id="f6f16-143">Индекс экземпляра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-143">The index of the occurrence.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-144">Выполняет привязку к существующей встречу и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-144">Binds to an occurrence of an existing appointment and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="f6f16-145">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-145">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-146">Копия встречи, соответствующий индекс указанного вхождения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-146">The appointment occurrence that corresponds to the specified occurrence index.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="2a7b9-141">Служба, используемая для связывания с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-141">The service to use to bind to the appointment.</span></span></param>
+        <param name="recurringMasterId"><span data-ttu-id="2a7b9-142">Идентификатор повторяющейся основной реплики, который представляет экземпляр индекса.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-142">The identifier of the recurring master that the index represents an occurrence of.</span></span></param>
+        <param name="occurenceIndex"><span data-ttu-id="2a7b9-143">Индекс экземпляра.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-143">The index of the occurrence.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-144">Выполняет присоединение к экземпляру существующей встречи и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-144">Binds to an occurrence of an existing appointment and loads its first class properties.</span></span> <span data-ttu-id="2a7b9-145">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-145">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-146">Экземпляр встречи, соответствующий указанному индексу вхождения.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-146">The appointment occurrence that corresponds to the specified occurrence index.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -574,46 +334,12 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="f6f16-147">Служба должна использовать для привязки к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-147">The service to use to bind to the appointment.</span>
-          </span>
-        </param>
-        <param name="recurringMasterId">
-          <span data-ttu-id="f6f16-148">Идентификатор повторяющегося главных, представляющий индекс вхождения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-148">The identifier of the recurring master that the index represents an occurrence of.</span>
-          </span>
-        </param>
-        <param name="occurenceIndex">
-          <span data-ttu-id="f6f16-149">Индекс экземпляра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-149">The index of the occurrence.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="f6f16-150">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-150">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-151">Выполняет привязку к существующей встречу и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-151">Binds to an occurrence of an existing appointment and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="f6f16-152">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-152">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-153">Копия встречи, соответствующий индекс указанного вхождения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-153">The appointment occurrence that corresponds to the specified occurrence index.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="2a7b9-147">Служба, используемая для связывания с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-147">The service to use to bind to the appointment.</span></span></param>
+        <param name="recurringMasterId"><span data-ttu-id="2a7b9-148">Идентификатор повторяющейся основной реплики, который представляет экземпляр индекса.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-148">The identifier of the recurring master that the index represents an occurrence of.</span></span></param>
+        <param name="occurenceIndex"><span data-ttu-id="2a7b9-149">Индекс экземпляра.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-149">The index of the occurrence.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="2a7b9-150">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-150">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-151">Выполняет присоединение к экземпляру существующей встречи и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-151">Binds to an occurrence of an existing appointment and loads the specified set of properties.</span></span> <span data-ttu-id="2a7b9-152">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-152">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-153">Экземпляр встречи, соответствующий указанному индексу вхождения.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-153">The appointment occurrence that corresponds to the specified occurrence index.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -636,34 +362,10 @@
         <Parameter Name="occurrenceId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="f6f16-154">Служба должна использовать для привязки к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-154">The service to use to bind to the appointment.</span>
-          </span>
-        </param>
-        <param name="occurrenceId">
-          <span data-ttu-id="f6f16-155">Идентификатор одного из них в серии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-155">The identifier of one of the occurrences in the series.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-156">Выполняет привязку Главная встреча ряда повторяющейся и загружает его свойства первого класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-156">Binds to the master appointment of a recurring series and loads its first class properties.</span>
-          </span>
-          <span data-ttu-id="f6f16-157">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-157">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-158">Главная встреча ряда повторяющейся, к которой принадлежит указанный вхождение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-158">The master appointment of the recurring series to which the specified occurrence belongs.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="2a7b9-154">Служба, используемая для связывания с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-154">The service to use to bind to the appointment.</span></span></param>
+        <param name="occurrenceId"><span data-ttu-id="2a7b9-155">Идентификатор одного из вхождений в ряду.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-155">The identifier of one of the occurrences in the series.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-156">Выполняет присоединение к главной встрече повторяющейся серии и загружает ее свойства первого класса.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-156">Binds to the master appointment of a recurring series and loads its first class properties.</span></span> <span data-ttu-id="2a7b9-157">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-157">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-158">Главная встреча из повторяющейся серии, к которой относится указанное вхождение.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-158">The master appointment of the recurring series to which the specified occurrence belongs.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -686,40 +388,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <span data-ttu-id="f6f16-159">Служба должна использовать для привязки к встрече.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-159">The service to use to bind to the appointment.</span>
-          </span>
-        </param>
-        <param name="occurrenceId">
-          <span data-ttu-id="f6f16-160">Идентификатор одного из них в серии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-160">The identifier of one of the occurrences in the series.</span>
-          </span>
-        </param>
-        <param name="propertySet">
-          <span data-ttu-id="f6f16-161">Набор свойств для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-161">The set of properties to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-162">Выполняет привязку Главная встреча ряда повторяющейся и загружает указанный набор свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-162">Binds to the master appointment of a recurring series and loads the specified set of properties.</span>
-          </span>
-          <span data-ttu-id="f6f16-163">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-163">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-164">Главная встреча ряда повторяющейся, к которой принадлежит указанный вхождение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-164">The master appointment of the recurring series to which the specified occurrence belongs.</span>
-          </span>
-        </returns>
+        <param name="service"><span data-ttu-id="2a7b9-159">Служба, используемая для связывания с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-159">The service to use to bind to the appointment.</span></span></param>
+        <param name="occurrenceId"><span data-ttu-id="2a7b9-160">Идентификатор одного из вхождений в ряду.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-160">The identifier of one of the occurrences in the series.</span></span></param>
+        <param name="propertySet"><span data-ttu-id="2a7b9-161">Набор свойств для загрузки.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-161">The set of properties to load.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-162">Выполняет присоединение к главной встрече повторяющейся серии и загружает заданный набор свойств.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-162">Binds to the master appointment of a recurring series and loads the specified set of properties.</span></span> <span data-ttu-id="2a7b9-163">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-163">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-164">Главная встреча из повторяющейся серии, к которой относится указанное вхождение.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-164">The master appointment of the recurring series to which the specified occurrence belongs.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -739,22 +412,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-165">Показано, как отменить собрание и отправляет сообщения отмены всех участников.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-165">Cancels the meeting and sends cancellation messages to all attendees.</span>
-          </span>
-          <span data-ttu-id="f6f16-166">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-166">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-167">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-167">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="2a7b9-165">Отменяет собрание и отправляет сообщения об отмене всем участникам.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-165">Cancels the meeting and sends cancellation messages to all attendees.</span></span> <span data-ttu-id="2a7b9-166">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-166">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-167"><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-167">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -776,28 +435,9 @@
         <Parameter Name="cancellationMessageText" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="cancellationMessageText">
-          <span data-ttu-id="f6f16-168">Отмена текст сообщения отправляются всем участникам.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-168">Cancellation message text sent to all attendees.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-169">Показано, как отменить собрание и отправляет сообщения отмены всех участников с помощью связанного текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-169">Cancels the meeting and sends cancellation messages to all attendees with the associated text.</span>
-          </span>
-          <span data-ttu-id="f6f16-170">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-170">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-171">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-171">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
-          </span>
-        </returns>
+        <param name="cancellationMessageText"><span data-ttu-id="2a7b9-168">Текст сообщения об отмене отправки всем участникам.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-168">Cancellation message text sent to all attendees.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-169">Отменяет собрание и отправляет сообщения об отмене всем участникам с помощью связанного текста.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-169">Cancels the meeting and sends cancellation messages to all attendees with the associated text.</span></span> <span data-ttu-id="2a7b9-170">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-170">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-171"><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-171">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -816,18 +456,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-172">Получает или задает тип конференц-связи, который будет использоваться во время собрания; Например видеоконференции, презентации или сеанс беседы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-172">Gets or sets the type of conferencing that will be used during the meeting; for example, a video conference, a presentation, or a chat session.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-173">Тип конференц-связи, который будет использоваться во время собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-173">The type of conferencing that will be used during the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-172">Получает или задает тип конференц-связи, который будет использоваться во время собрания; Например, видеоконференции, презентация или сеанс чата.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-172">Gets or sets the type of conferencing that will be used during the meeting; for example, a video conference, a presentation, or a chat session.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-173">Тип конференц-связи, который будет использоваться во время собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-173">The type of conferencing that will be used during the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -846,18 +476,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-174">Получает число записей календаря, конфликтующие с встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-174">Gets the number of calendar entries that conflict with the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-175">Число записей календаря, конфликтующие с встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-175">The number of calendar entries that conflict with the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-174">Получает количество записей календаря, которые конфликтуют с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-174">Gets the number of calendar entries that conflict with the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-175">Количество записей календаря, которые конфликтуют с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-175">The number of calendar entries that conflict with the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -876,18 +496,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-176">Получает список собраний, конфликтующие с встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-176">Gets a list of meetings that conflict with the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-177">Коллекция собраний, конфликтующие с встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-177">A collection of the meetings that conflict with the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-176">Получает список собраний, которые конфликтуют с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-176">Gets a list of meetings that conflict with the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-177">Коллекция собраний, которые конфликтуют с встречей.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-177">A collection of the meetings that conflict with the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -912,26 +522,9 @@
         <Parameter Name="tentative" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="tentative">
-          <span data-ttu-id="f6f16-178">
-            <b>значение true,</b> Если собрание будет принято под вопросом; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-178">
-              <b>true</b> if the meeting will be tentatively accepted; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-179">Создает локальный сообщение о принятии, могут быть настроены и отправляются на собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-179">Creates a local meeting acceptance message that can be customized and sent.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-180">Собрания сообщение о принятии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-180">The meeting acceptance message.</span>
-          </span>
-        </returns>
+        <param name="tentative"><span data-ttu-id="2a7b9-178"><b>значение true</b> , если собрание будет принято под вопросом; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-178"><b>true</b> if the meeting will be tentatively accepted; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-179">Создает локальное сообщение о принятии приглашения на собрание, которое может быть изменено и отправлено.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-179">Creates a local meeting acceptance message that can be customized and sent.</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-180">Сообщение о принятии приглашения на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-180">The meeting acceptance message.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -951,18 +544,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-181">Создает локальный отмены сообщение, могут быть настроены и отправляются на собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-181">Creates a local meeting cancellation message that can be customized and sent.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-182">Собрания отмены сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-182">The meeting cancellation message.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="2a7b9-181">Создает локальное сообщение об отмене собрания, которое может быть изменено и отправлено.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-181">Creates a local meeting cancellation message that can be customized and sent.</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-182">Сообщение об отмене собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-182">The meeting cancellation message.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -985,18 +568,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-183">Создает локальный сообщение отказ, могут быть настроены и отправляются на собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-183">Creates a local meeting declination message that can be customized and sent.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-184">Собрания отказ сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-184">The meeting declination message.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="2a7b9-183">Создает локальное сообщение об отклонении собрания, которое можно изменить и отправить.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-183">Creates a local meeting declination message that can be customized and sent.</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-184">Сообщение об отклонении собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-184">The meeting declination message.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1016,18 +589,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-185">Создает переслать сообщение из этой встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-185">Creates a forward message from this appointment.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-186">Прямого ответа, впоследствии можно изменить и отправлено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-186">The forward response that can subsequently be modified and sent.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="2a7b9-185">Создает сообщение переадресации из этой встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-185">Creates a forward message from this appointment.</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-186">Ответ переадресации, который впоследствии может быть изменен и отправлен.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-186">The forward response that can subsequently be modified and sent.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1049,26 +612,9 @@
         <Parameter Name="replyAll" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="replyAll">
-          <span data-ttu-id="f6f16-187">
-            <b>значение true,</b> чтобы указать отправку ответа для всех участников; <b>значение false,</b> чтобы указать отправку ответа организатору только.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-187">
-              <b>true</b> to indicate that the reply should be sent to all the attendees; <b>false</b> to indicate that the reply should be sent to the organizer only.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-188">Создает ответа ответ для организатора и/или список участников собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-188">Creates a reply response to the organizer and/or attendees of the meeting.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-189">Ответ ответ, впоследствии можно изменить и отправлено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-189">The reply response that can subsequently be modified and sent.</span>
-          </span>
-        </returns>
+        <param name="replyAll"><span data-ttu-id="2a7b9-187"><b>значение true</b> , чтобы указать, что ответ должен отправляться всем участникам; <b>значение false</b> , чтобы указать, что ответ должен отправляться только организатору.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-187"><b>true</b> to indicate that the reply should be sent to all the attendees; <b>false</b> to indicate that the reply should be sent to the organizer only.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-188">Создает ответ на ответ организатору и/или участникам собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-188">Creates a reply response to the organizer and/or attendees of the meeting.</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-189">Ответ на ответ, который впоследствии может быть изменен и отправлен.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-189">The reply response that can subsequently be modified and sent.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1093,30 +639,9 @@
         <Parameter Name="sendResponse" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="sendResponse">
-          <span data-ttu-id="f6f16-190">
-            <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-190">
-              <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-191">Из участников отклоняет приглашение на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-191">Declines the meeting invitation.</span>
-          </span>
-          <span data-ttu-id="f6f16-192">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-192">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f6f16-193">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-193">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span>
-          </span>
-        </returns>
+        <param name="sendResponse"><span data-ttu-id="2a7b9-190"><b>имеет значение true</b> , если отправку ответа организатору; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-190"><b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-191">Отклоняет приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-191">Declines the meeting invitation.</span></span> <span data-ttu-id="2a7b9-192">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-192">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
+        <returns><span data-ttu-id="2a7b9-193"><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-193">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1138,28 +663,9 @@
         <Parameter Name="sendCancellationsMode" Type="Microsoft.Exchange.WebServices.Data.SendCancellationsMode" />
       </Parameters>
       <Docs>
-        <param name="deleteMode">
-          <span data-ttu-id="f6f16-194">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> значений перечисления, определяющее режим удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-194">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> enumeration values that indicates the deletion mode.</span>
-          </span>
-        </param>
-        <param name="sendCancellationsMode">
-          <span data-ttu-id="f6f16-195">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> значений перечисления, указывающее определить, каким образом будут отправляться уведомления об отмене при этом встреча является собранием.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-195">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> enumeration values that indicates whether and how cancellations should be sent if this appointment is a meeting.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-196">Удаление этой встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-196">Deletes this appointment.</span>
-          </span>
-          <span data-ttu-id="f6f16-197">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-197">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
+        <param name="deleteMode"><span data-ttu-id="2a7b9-194">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> перечисления, указывающее режим удаления.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-194">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> enumeration values that indicates the deletion mode.</span></span></param>
+        <param name="sendCancellationsMode"><span data-ttu-id="2a7b9-195">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> перечисления, указывающее, следует ли отправлять уведомления об отмене, если эта встреча встречается.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-195">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> enumeration values that indicates whether and how cancellations should be sent if this appointment is a meeting.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-196">Удаление этой встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-196">Deletes this appointment.</span></span> <span data-ttu-id="2a7b9-197">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-197">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1178,18 +684,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-198">Возвращает список удаленных вхождений для повторяющиеся собрания или встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-198">Gets a list of deleted occurrences for a recurring meeting or appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-199">Коллекция удаленных вхождений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-199">A collection of the deleted occurrences.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-198">Получает список удаленных повторений для повторяющегося собрания или встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-198">Gets a list of deleted occurrences for a recurring meeting or appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-199">Коллекция удаленных вхождений.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-199">A collection of the deleted occurrences.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1208,18 +704,8 @@
         <ReturnType>System.TimeSpan</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-200">Получает время встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-200">Gets the duration of the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-201">Промежуток времени встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-201">The time span of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-200">Возвращает длительность встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-200">Gets the duration of the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-201">Интервал времени для встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-201">The time span of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1238,18 +724,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-202">Получает или задает время окончания встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-202">Gets or sets the end time of the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-203">Время окончания встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-203">The end time of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-202">Получает или задает время окончания встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-202">Gets or sets the end time of the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-203">Время окончания встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-203">The end time of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1268,18 +744,8 @@
         <ReturnType>System.TimeZoneInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-204">Получает или задает часовой пояс свойства окончания встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-204">Gets or sets the time zone of the end property of the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-205">Часовой пояс свойство окончания встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-205">The time zone of the end property of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-204">Получает или задает часовой пояс для свойства End встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-204">Gets or sets the time zone of the end property of the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-205">Часовой пояс для свойства End встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-205">The time zone of the end property of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1298,23 +764,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-206">Получает или задает дополнительные сведения о собрании или встрече расположении.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-206">Gets or sets additional meeting or appointment location information.</span>
-          </span>
-          <span data-ttu-id="f6f16-207">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-207">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-208">Объект усовершенствованные location.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-208">The enhanced location object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-206">Получает или задает дополнительные сведения о собрании или о расположении встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-206">Gets or sets additional meeting or appointment location information.</span></span> <span data-ttu-id="2a7b9-207"><see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-207">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-208">Объект расширенного расположения.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-208">The enhanced location object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1333,18 +784,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-209">Возвращает первого появления повторяющееся собрание или встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-209">Gets the first occurrence of a recurring meeting or appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-210">Первого появления повторяющееся собрание или встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-210">The first occurrence of a recurring meeting or appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-209">Получает первое вхождение повторяющегося собрания или встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-209">Gets the first occurrence of a recurring meeting or appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-210">Первое повторение повторяющегося собрания или встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-210">The first occurrence of a recurring meeting or appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1373,28 +814,9 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">
-          <span data-ttu-id="f6f16-211">Префикс для вставки в начале исходного текста сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-211">The prefix to prepend to the original body of the message.</span>
-          </span>
-        </param>
-        <param name="toRecipients">
-          <span data-ttu-id="f6f16-212">Получатели переадресация встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-212">The recipients to forward the appointment to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-213">Переадресует встречи в связанной массив получателей с сообщением, добавляемое перед исходный запрос на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-213">Forwards the appointment to the associated array of recipients with a message prepended to the original meeting request.</span>
-          </span>
-          <span data-ttu-id="f6f16-214">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-214">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
+        <param name="bodyPrefix"><span data-ttu-id="2a7b9-211">Префикс для добавления к исходному тексту сообщения.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-211">The prefix to prepend to the original body of the message.</span></span></param>
+        <param name="toRecipients"><span data-ttu-id="2a7b9-212">Получатели, на которые необходимо переадресовать встречу.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-212">The recipients to forward the appointment to.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-213">Перенаправляет встречу на связанный массив получателей с сообщением, добавленным к исходному приглашению на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-213">Forwards the appointment to the associated array of recipients with a message prepended to the original meeting request.</span></span> <span data-ttu-id="2a7b9-214">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-214">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1417,28 +839,9 @@
         <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">
-          <span data-ttu-id="f6f16-215">Префикс для вставки в начале исходного текста сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-215">The prefix to prepend to the original body of the message.</span>
-          </span>
-        </param>
-        <param name="toRecipients">
-          <span data-ttu-id="f6f16-216">Получатели переадресация встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-216">The recipients to forward the appointment to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-217">Переадресует встречи в соответствующую коллекцию получателей с сообщением, добавляемое перед исходный запрос на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-217">Forwards the appointment to the associated collection of recipients with a message prepended to the original meeting request.</span>
-          </span>
-          <span data-ttu-id="f6f16-218">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-218">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
+        <param name="bodyPrefix"><span data-ttu-id="2a7b9-215">Префикс для добавления к исходному тексту сообщения.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-215">The prefix to prepend to the original body of the message.</span></span></param>
+        <param name="toRecipients"><span data-ttu-id="2a7b9-216">Получатели, на которые необходимо переадресовать встречу.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-216">The recipients to forward the appointment to.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-217">Пересылка встречи в связанную коллекцию получателей с сообщением, добавленным к исходному приглашению на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-217">Forwards the appointment to the associated collection of recipients with a message prepended to the original meeting request.</span></span> <span data-ttu-id="2a7b9-218">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-218">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1457,18 +860,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-219">Получает iCalendar DateTimeStamp.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-219">Gets the iCalendar DateTimeStamp.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-220">ICalendar DateTimeStamp.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-220">The iCalendar DateTimeStamp.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-219">Возвращает Датетиместамп iCalendar.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-219">Gets the iCalendar DateTimeStamp.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-220">Датетиместамп iCalendar.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-220">The iCalendar DateTimeStamp.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1487,18 +880,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-221">Получает iCalendar RecurrenceId.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-221">Gets the iCalendar RecurrenceId.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-222">ICalendar RecurrenceId.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-222">The iCalendar RecurrenceId.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-221">Возвращает Рекурренцеид iCalendar.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-221">Gets the iCalendar RecurrenceId.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-222">Рекурренцеид iCalendar.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-222">The iCalendar RecurrenceId.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1517,18 +900,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-223">Получает или задает ИД пользователя iCalendar.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-223">Gets or sets the iCalendar Uid.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-224">ICalendar ИД пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-224">The iCalendar Uid.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-223">Получает или задает идентификатор iCalendar.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-223">Gets or sets the iCalendar Uid.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-224">Идентификатор iCalendar.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-224">The iCalendar Uid.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1547,20 +920,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-225">Получает или задает значение, указывающее, является ли встреча событием на целый день.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-225">Gets or sets whether the appointment is an all-day event.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-226">
-            <b>значение true,</b> Если встреча является событием на целый день; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-226">
-              <b>true</b> if the appointment is an all-day event; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-225">Получает или задает значение, указывающее, является ли встреча событием на целый день.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-225">Gets or sets whether the appointment is an all-day event.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-226"><b>значение true</b> , если встреча является событием на целый день; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-226"><b>true</b> if the appointment is an all-day event; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1579,20 +940,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-227">Возвращает ли отменена встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-227">Gets whether the appointment has been canceled.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-228">
-            <b>значение true,</b> Если встречи было отменено; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-228">
-              <b>true</b> if the appointment has been canceled; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-227">Получает значение, указывающее, была ли отменена встреча.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-227">Gets whether the appointment has been canceled.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-228"><b>значение true</b> , если встреча отменена; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-228"><b>true</b> if the appointment has been canceled; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1611,20 +960,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-229">Возвращает ли встреча является собранием.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-229">Gets whether the appointment is a meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-230">
-            <b>значение true,</b> Если встреча является собранием; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-230">
-              <b>true</b> if the appointment is a meeting; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-229">Получает значение, указывающее, является ли встреча собранием.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-229">Gets whether the appointment is a meeting.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-230"><b>значение true</b> , если встреча является собранием; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-230"><b>true</b> if the appointment is a meeting; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1643,20 +980,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-231">Получает или задает, является ли собрания собрания по сети.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-231">Gets or sets whether the meeting is an online meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-232">
-            <b>значение true,</b> Если собрание собрания по сети; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-232">
-              <b>true</b> if the meeting is an online meeting; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-231">Получает или задает значение, указывающее, является ли собрание онлайн-собранием.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-231">Gets or sets whether the meeting is an online meeting.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-232"><b>значение true</b> , если собрание является собранием по сети; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-232"><b>true</b> if the meeting is an online meeting; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1675,20 +1000,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-233">Возвращает ли является частью серии повторяющихся встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-233">Gets whether the appointment is part of a recurring series.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-234">
-            <b>значение true,</b> Если для повторяющейся встречи; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-234">
-              <b>true</b> if the appointment is recurring; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-233">Получает значение, указывающее, является ли встреча частью повторяющейся серии.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-233">Gets whether the appointment is part of a recurring series.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-234"><b>значение true</b> , если встреча повторяется; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-234"><b>true</b> if the appointment is recurring; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1707,20 +1020,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-235">Получает или задает ответы запрашиваются при отправке приглашения на собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-235">Gets or sets whether responses are requested when invitations are sent for the meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-236">
-            <b>значение true,</b> Если запрашиваются ответов; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-236">
-              <b>true</b> if responses are requested; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-235">Получает или задает значение, указывающее, запрашиваются ли ответы при отправке приглашений на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-235">Gets or sets whether responses are requested when invitations are sent for the meeting.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-236"><b>значение true</b> , если ответы запрашиваются; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-236"><b>true</b> if responses are requested; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1739,23 +1040,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-237">Получает URL-адрес для присоединения к собранию по сети.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-237">Gets the URL for joining an online meeting.</span>
-          </span>
-          <span data-ttu-id="f6f16-238">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-238">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-239">URL-адрес для присоединения к собранию по сети.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-239">The URL for joining an online meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-237">Получает URL-адрес для присоединения к собранию по сети.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-237">Gets the URL for joining an online meeting.</span></span>             <span data-ttu-id="2a7b9-238"><see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-238">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-239">URL-адрес для присоединения к собранию по сети.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-239">The URL for joining an online meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1774,18 +1060,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-240">Возвращает последнего вхождения серии повторяющихся.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-240">Gets the last occurrence of a recurring series.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-241">Последнего вхождения повторяющееся собрание или встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-241">The last occurrence of a recurring meeting or appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-240">Получает последнее вхождение повторяющегося ряда.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-240">Gets the last occurrence of a recurring series.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-241">Последнее повторение повторяющегося собрания или встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-241">The last occurrence of a recurring meeting or appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1804,18 +1080,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-242">Получает или задает значение, указывающее состояние занятости владельца встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-242">Gets or sets a value that indicates the free/busy status of the owner of the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-243">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> значений перечисления, указывающее состояние занятости владельца встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-243">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> enumeration values that specifies the free/busy status of the owner of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-242">Получает или задает значение, указывающее состояние занятости владельца встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-242">Gets or sets a value that indicates the free/busy status of the owner of the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-243">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> перечисления, указывающее состояние занятости владельца встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-243">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> enumeration values that specifies the free/busy status of the owner of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1834,18 +1100,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-244">Получает или задает расположение этой встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-244">Gets or sets the location of this appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-245">Место встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-245">The location of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-244">Получает или задает расположение этой встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-244">Gets or sets the location of this appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-245">Место встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-245">The location of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1864,20 +1120,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-246">Возвращает ли запрос на собрание было отправлено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-246">Gets whether the meeting request has been sent.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-247">
-            <b>значение true,</b> Если запрос на собрание было отправлено; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-247">
-              <b>true</b> if the meeting request has been sent; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-246">Получает значение, указывающее, было ли отправлено приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-246">Gets whether the meeting request has been sent.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-247"><b>имеет значение true</b> , если приглашение на собрание было отправлено; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-247"><b>true</b> if the meeting request has been sent; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1896,22 +1140,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-248">Получает или задает URL-адрес рабочей области для собраний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-248">Gets or sets the URL of the meeting workspace.</span>
-          </span>
-          <span data-ttu-id="f6f16-249">Рабочая область для собраний — это общий веб-узел для планирования собраний и отслеживания результатов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-249">A meeting workspace is a shared Web site for planning meetings and tracking results.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-250">URL-адрес рабочей области для собраний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-250">The URL of the meeting workspace.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-248">Получает или задает URL-адрес рабочей области для собраний.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-248">Gets or sets the URL of the meeting workspace.</span></span> <span data-ttu-id="2a7b9-249">Рабочая область для собраний — это общий веб-сайт для планирования собраний и отслеживания результатов.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-249">A meeting workspace is a shared Web site for planning meetings and tracking results.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-250">URL-адрес рабочей области для собраний.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-250">The URL of the meeting workspace.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1930,18 +1160,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-251">Получает список собрания или встречи в ряду, которые были изменены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-251">Gets a list of meetings or appointments in a recurring series that have been changed.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-252">Коллекция изменен собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-252">A collection changed meetings.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-251">Получает список собраний и встреч, которые были изменены в повторяющихся рядах.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-251">Gets a list of meetings or appointments in a recurring series that have been changed.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-252">Коллекция измененных собраний.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-252">A collection changed meetings.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1960,18 +1180,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponseType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-253">Получает пользователя последний ответ на запрос собрания; Например принять или отклонить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-253">Gets the user's last response to a meeting request; for example, accept or decline.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-254">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> значений перечисления, указывающее, ответа пользователя на собрание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-254">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> enumeration values indicating the user's response to a meeting request.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-253">Получает последний ответ пользователя на приглашение на собрание; Например, "принять" или "отклонить".</span><span class="sxs-lookup"><span data-stu-id="2a7b9-253">Gets the user's last response to a meeting request; for example, accept or decline.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-254">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> перечисления, указывающее ответ пользователя на приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-254">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> enumeration values indicating the user's response to a meeting request.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1990,18 +1200,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-255">Получает или задает URL-адрес собрания по сети Microsoft NetShow.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-255">Gets or sets the URL of the Microsoft NetShow online meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-256">URL-адрес собрания по сети Microsoft NetShow.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-256">The URL of the Microsoft NetShow online meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-255">Возвращает или задает URL-адрес собрания Microsoft NetShow.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-255">Gets or sets the URL of the Microsoft NetShow online meeting.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-256">URL-адрес собрания Microsoft NetShow Online.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-256">The URL of the Microsoft NetShow online meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2020,23 +1220,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-257">Получает набор параметров участников доступа для собрания по сети.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-257">Gets a set of participant access settings for an online meeting.</span>
-          </span>
-          <span data-ttu-id="f6f16-258">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-258">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-259">Параметры собрания по сети.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-259">The online meeting settings.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-257">Получает набор параметров доступа участников для собрания по сети.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-257">Gets a set of participant access settings for an online meeting.</span></span>             <span data-ttu-id="2a7b9-258"><see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-258">The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-259">Параметры собраний по сети.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-259">The online meeting settings.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2055,18 +1240,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-260">Получает список необязательных участников собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-260">Gets a list of optional attendees for the meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-261">Участникам собрания, которые не являются обязательными для собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-261">The attendees who are optional for the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-260">Получает список необязательных участников собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-260">Gets a list of optional attendees for the meeting.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-261">Участники, которые являются необязательными для собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-261">The attendees who are optional for the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2085,18 +1260,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-262">Получает адрес электронной почты организатора собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-262">Gets the email address of the meeting organizer.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-263">Адрес электронной почты организатора собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-263">The email address of the meeting organizer.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-262">Получает адрес электронной почты организатора собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-262">Gets the email address of the meeting organizer.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-263">Адрес электронной почты организатора собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-263">The email address of the meeting organizer.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2115,18 +1280,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-264">Получает исходное время начала встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-264">Gets the original start time of the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-265">Исходное время начала встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-265">The original start time of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-264">Получает исходное время начала встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-264">Gets the original start time of the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-265">Исходное время начала встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-265">The original start time of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2145,22 +1300,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-266">Получает или задает шаблон повторения для встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-266">Gets or sets the recurrence pattern for the appointment.</span>
-          </span>
-          <span data-ttu-id="f6f16-267">Классы шаблонов доступные повторения включают <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />, и <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-267">Available recurrence pattern classes include <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />, and <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-268">Шаблон повторения встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-268">The recurrence pattern of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-266">Получает или задает шаблон повторения для встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-266">Gets or sets the recurrence pattern for the appointment.</span></span> <span data-ttu-id="2a7b9-267">Доступные классы шаблона повторения включают <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />и <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-267">Available recurrence pattern classes include <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />, and <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-268">Шаблон повторения встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-268">The recurrence pattern of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2183,30 +1324,9 @@
         <Parameter Name="replyAll" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">
-          <span data-ttu-id="f6f16-269">Префикс, следует добавлять к основному тексту встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-269">The prefix to prepend to the body of the meeting.</span>
-          </span>
-        </param>
-        <param name="replyAll">
-          <span data-ttu-id="f6f16-270">
-            <b>значение true,</b> чтобы указать отправку ответа для всех участников; <b>значение false,</b> чтобы указать отправку ответа организатору только.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-270">
-              <b>true</b> to indicate that the reply should be sent to all the attendees; <b>false</b> to indicate that the reply should be sent to the organizer only.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-271">Ответы, которые организатора и/или список участников собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-271">Replies to the organizer and/or the attendees of the meeting.</span>
-          </span>
-          <span data-ttu-id="f6f16-272">Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-272">Calling this method results in a call to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
+        <param name="bodyPrefix"><span data-ttu-id="2a7b9-269">Префикс для добавления к тексту собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-269">The prefix to prepend to the body of the meeting.</span></span></param>
+        <param name="replyAll"><span data-ttu-id="2a7b9-270"><b>значение true</b> , чтобы указать, что ответ должен отправляться всем участникам; <b>значение false</b> , чтобы указать, что ответ должен отправляться только организатору.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-270"><b>true</b> to indicate that the reply should be sent to all the attendees; <b>false</b> to indicate that the reply should be sent to the organizer only.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-271">Ответы организатору или участникам собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-271">Replies to the organizer and/or the attendees of the meeting.</span></span> <span data-ttu-id="2a7b9-272">Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-272">Calling this method results in a call to Exchange Web Services (EWS).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2225,18 +1345,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-273">Получает список обязательных участников собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-273">Gets a list of required attendees for the meeting.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-274">Участникам собрания, которые необходимы для собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-274">The attendees who are required for the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-273">Получает список обязательных участников собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-273">Gets a list of required attendees for the meeting.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-274">Участники, которые необходимы для собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-274">The attendees who are required for the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2255,18 +1365,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-275">Получает список ресурсов для собраний, такие как аудиовизуальной оборудования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-275">Gets a list of resources for the meeting, such as audio-visual equipment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-276">Ресурсы для собрания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-276">The resources for the meeting.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-275">Получает список ресурсов собрания, таких как звуковое оборудование.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-275">Gets a list of resources for the meeting, such as audio-visual equipment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-276">Ресурсы для собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-276">The resources for the meeting.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2287,26 +1387,8 @@
         <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
       </Parameters>
       <Docs>
-        <param name="sendInvitationsMode">
-          <span data-ttu-id="f6f16-277">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, указывающее определить, каким образом следует отправлены приглашения, при этом встреча является собранием.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-277">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates whether and how invitations should be sent if this appointment is a meeting.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-278">Сохраняет эту встречу в папке календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-278">Saves this appointment in the Calendar folder.</span>
-          </span>
-          <span data-ttu-id="f6f16-279">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-279">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
-          </span>
-          <span data-ttu-id="f6f16-280">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-280">Multiple calls to EWS might be made if attachments have been added.</span>
-          </span>
-        </summary>
+        <param name="sendInvitationsMode"><span data-ttu-id="2a7b9-277">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> перечисления, которое указывает, следует ли отправлять приглашения и как они должны отправляться в случае собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-277">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates whether and how invitations should be sent if this appointment is a meeting.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-278">Сохранение этой встречи в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="2a7b9-278">Saves this appointment in the Calendar folder.</span></span> <span data-ttu-id="2a7b9-279">Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-279">Calling this method results in at least one call to Exchange Web Services (EWS).</span></span> <span data-ttu-id="2a7b9-280">Если добавлено вложение, можно выполнить несколько вызовов EWS.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-280">Multiple calls to EWS might be made if attachments have been added.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2328,32 +1410,9 @@
         <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">
-          <span data-ttu-id="f6f16-281">Идентификатор папки для сохранения этой встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-281">The identifier of the folder in which to save this appointment.</span>
-          </span>
-        </param>
-        <param name="sendInvitationsMode">
-          <span data-ttu-id="f6f16-282">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, которое указывает, если и как следует отправлены приглашения, при этом встреча является собранием.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-282">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates if and how invitations should be sent if this appointment is a meeting.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-283">Сохраняет эту встречу в указанной папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-283">Saves this appointment in the specified folder.</span>
-          </span>
-          <span data-ttu-id="f6f16-284">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-284">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
-          </span>
-          <span data-ttu-id="f6f16-285">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-285">Multiple calls to EWS might be made if attachments have been added.</span>
-          </span>
-        </summary>
+        <param name="destinationFolderId"><span data-ttu-id="2a7b9-281">Идентификатор папки, в которой нужно сохранить эту встречу.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-281">The identifier of the folder in which to save this appointment.</span></span></param>
+        <param name="sendInvitationsMode"><span data-ttu-id="2a7b9-282">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> перечисления, указывающее, следует ли отправлять приглашения и как они должны отправляться в случае собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-282">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates if and how invitations should be sent if this appointment is a meeting.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-283">Сохранение встречи в указанной папке.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-283">Saves this appointment in the specified folder.</span></span> <span data-ttu-id="2a7b9-284">Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-284">Calling this method results in at least one call to Exchange Web Services (EWS).</span></span> <span data-ttu-id="2a7b9-285">Если добавлено вложение, можно выполнить несколько вызовов EWS.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-285">Multiple calls to EWS might be made if attachments have been added.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2375,32 +1434,9 @@
         <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">
-          <span data-ttu-id="f6f16-286">Имя папки, в которой для сохранения этой встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-286">The name of the folder in which to save this appointment.</span>
-          </span>
-        </param>
-        <param name="sendInvitationsMode">
-          <span data-ttu-id="f6f16-287">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, указывающее определить, каким образом следует отправлены приглашения, при этом встреча является собранием.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-287">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates whether and how invitations should be sent if this appointment is a meeting.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-288">Сохраняет эту встречу в указанной папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-288">Saves this appointment in the specified folder.</span>
-          </span>
-          <span data-ttu-id="f6f16-289">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-289">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
-          </span>
-          <span data-ttu-id="f6f16-290">Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-290">Multiple calls to EWS might be made if attachments have been added.</span>
-          </span>
-        </summary>
+        <param name="destinationFolderName"><span data-ttu-id="2a7b9-286">Имя папки, в которой нужно сохранить эту встречу.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-286">The name of the folder in which to save this appointment.</span></span></param>
+        <param name="sendInvitationsMode"><span data-ttu-id="2a7b9-287">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> перечисления, которое указывает, следует ли отправлять приглашения и как они должны отправляться в случае собрания.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-287">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates whether and how invitations should be sent if this appointment is a meeting.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-288">Сохранение встречи в указанной папке.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-288">Saves this appointment in the specified folder.</span></span> <span data-ttu-id="2a7b9-289">Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-289">Calling this method results in at least one call to Exchange Web Services (EWS).</span></span> <span data-ttu-id="2a7b9-290">Если добавлено вложение, можно выполнить несколько вызовов EWS.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-290">Multiple calls to EWS might be made if attachments have been added.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2419,18 +1455,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-291">Получает или задает время начала встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-291">Gets or sets the start time of the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-292">Время начала встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-292">The start time of the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-291">Получает или задает время начала встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-291">Gets or sets the start time of the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-292">Время начала встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-292">The start time of the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2449,18 +1475,8 @@
         <ReturnType>System.TimeZoneInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-293">Получает или задает часовой пояс <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойства встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-293">Gets or sets the time zone of the <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> property of the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-294">Часовой пояс, <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-294">The time zone of the <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> property.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-293">Получает или задает часовой пояс для <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойства встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-293">Gets or sets the time zone of the <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> property of the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-294">Часовой пояс <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойства.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-294">The time zone of the <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> property.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2479,18 +1495,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-295">Получает часовой пояс, который указан для встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-295">Gets the time zone that is specified for the appointment.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-296">Часовой пояс, который указан для встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-296">The time zone that is specified for the appointment.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-295">Получает часовой пояс, заданный для встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-295">Gets the time zone that is specified for the appointment.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-296">Часовой пояс, заданный для встречи.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-296">The time zone that is specified for the appointment.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2512,32 +1518,9 @@
         <Parameter Name="sendInvitationsOrCancellationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
       </Parameters>
       <Docs>
-        <param name="conflictResolutionMode">
-          <span data-ttu-id="f6f16-297">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> значений перечисления, определяющее, как следует разрешать конфликты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-297">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> enumeration values that indicates how conflicts should be resolved.</span>
-          </span>
-        </param>
-        <param name="sendInvitationsOrCancellationsMode">
-          <span data-ttu-id="f6f16-298">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> значений перечисления, которое указывает, если и способ отправки приглашения и отмены при этом встреча является собранием.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-298">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> enumeration values that indicates if and how invitations or cancellations should be sent if this appointment is a meeting.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6f16-299">Применяет локальные изменения, внесенные в этом встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-299">Applies the local changes that have been made to this appointment.</span>
-          </span>
-          <span data-ttu-id="f6f16-300">При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-300">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
-          </span>
-          <span data-ttu-id="f6f16-301">Несколько вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-301">Multiple calls to EWS might be made if attachments have been added or removed.</span>
-          </span>
-        </summary>
+        <param name="conflictResolutionMode"><span data-ttu-id="2a7b9-297">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> перечисления, которое указывает, как следует разрешить конфликты.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-297">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> enumeration values that indicates how conflicts should be resolved.</span></span></param>
+        <param name="sendInvitationsOrCancellationsMode"><span data-ttu-id="2a7b9-298">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> перечисления, указывающее, следует ли отправлять приглашения или отмены, если эта встреча является собранием.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-298">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> enumeration values that indicates if and how invitations or cancellations should be sent if this appointment is a meeting.</span></span></param>
+        <summary><span data-ttu-id="2a7b9-299">Применение локальных изменений, внесенных в эту встречу.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-299">Applies the local changes that have been made to this appointment.</span></span> <span data-ttu-id="2a7b9-300">Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="2a7b9-300">Calling this method results in at least one call to Exchange Web Services (EWS).</span></span> <span data-ttu-id="2a7b9-301">Несколько вызовов EWS можно выполнить при добавлении или удалении вложений.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-301">Multiple calls to EWS might be made if attachments have been added or removed.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2556,22 +1539,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6f16-302">Получает текстовое значение, которое указывает, когда происходит встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-302">Gets a text value that indicates when the appointment occurs.</span>
-          </span>
-          <span data-ttu-id="f6f16-303">Текстовое значение локализуется с помощью языка и региональных параметров Exchange Server или с помощью языка и региональных параметров, указанных в <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> свойства <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект, связанный с этой встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-303">The text value is localized by using the Exchange Server culture or by using the culture specified in the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> property of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object that this appointment is bound to.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6f16-304">Текстовое значение, которое указывает, когда происходит встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6f16-304">A text value that indicates when the appointment occurs.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2a7b9-302">Получает текстовое значение, указывающее, когда встречается встреча.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-302">Gets a text value that indicates when the appointment occurs.</span></span> <span data-ttu-id="2a7b9-303">Текстовое значение локализуется с использованием языка и региональных параметров Exchange Server или с использованием языка и региональных параметров, <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> указанных в свойстве <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта, с которым связана эта встреча.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-303">The text value is localized by using the Exchange Server culture or by using the culture specified in the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> property of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object that this appointment is bound to.</span></span></summary>
+        <value><span data-ttu-id="2a7b9-304">Текстовое значение, указывающее, когда встречается встреча.</span><span class="sxs-lookup"><span data-stu-id="2a7b9-304">A text value that indicates when the appointment occurs.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

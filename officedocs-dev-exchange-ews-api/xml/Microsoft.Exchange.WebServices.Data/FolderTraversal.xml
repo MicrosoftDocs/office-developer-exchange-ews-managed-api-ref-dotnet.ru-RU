@@ -1,13 +1,5 @@
 <Type Name="FolderTraversal" FullName="Microsoft.Exchange.WebServices.Data.FolderTraversal">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f3a6ffd2f31ff427dbce80b0e8a8103690271936" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626747" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FolderTraversal" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f3a6ffd2f31ff427dbce80b0e8a8103690271936" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626747" /></Metadata><TypeSignature Language="C#" Value="public enum FolderTraversal" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FolderTraversal extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderTraversal" />
   <TypeSignature Language="VB.NET" Value="Public Enum FolderTraversal" />
@@ -20,25 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="66efb-101">Определяет область FindFolders операций.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="66efb-101">Defines the scope of FindFolders operations.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="66efb-102">
-        <para>
-          <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" /> Метод определяет запрос для поиска папок в почтовом ящике. Объект класса FolderTraversal определяет, как выполняется поиск.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="66efb-102">
-          <para>The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" /> method defines a request to find folders in a mailbox. The FolderTraversal class object defines how the search is performed.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="a9ec0-101">Определяет область действия Финдфолдерс.</span><span class="sxs-lookup"><span data-stu-id="a9ec0-101">Defines the scope of FindFolders operations.</span></span></summary>
+    <remarks><span data-ttu-id="a9ec0-102"><para><see cref="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" /> Метод определяет запрос на поиск папок в почтовом ящике. Объект класса Фолдертраверсал определяет способ выполнения поиска.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="a9ec0-102"><para>The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" /> method defines a request to find folders in a mailbox. The FolderTraversal class object defines how the search is performed.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Deep">
@@ -57,12 +34,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="66efb-103">При получении всей иерархии вложенных папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="66efb-103">The entire hierarchy of subfolders is retrieved.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a9ec0-103">Извлекается вся иерархия вложенных папок.</span><span class="sxs-lookup"><span data-stu-id="a9ec0-103">The entire hierarchy of subfolders is retrieved.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Shallow">
@@ -81,12 +53,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="66efb-104">Извлекаются только прямое вложенных папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="66efb-104">Only direct subfolders are retrieved.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a9ec0-104">Извлекаются только прямые подпапки.</span><span class="sxs-lookup"><span data-stu-id="a9ec0-104">Only direct subfolders are retrieved.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SoftDeleted">
@@ -105,12 +72,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="66efb-105">Извлекаются только удаленные папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="66efb-105">Only soft-deleted folders are retrieved.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a9ec0-105">Извлекаются только папки с обратимым удалением.</span><span class="sxs-lookup"><span data-stu-id="a9ec0-105">Only soft-deleted folders are retrieved.</span></span></summary>
       </Docs>
     </Member>
   </Members>

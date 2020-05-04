@@ -1,13 +1,5 @@
 <Type Name="RetentionTagBase" FullName="Microsoft.Exchange.WebServices.Data.RetentionTagBase">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d6c86e301d0182a9b0131e28288a9fad1c7e3b38" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626579" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class RetentionTagBase : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6c86e301d0182a9b0131e28288a9fad1c7e3b38" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626579" /></Metadata><TypeSignature Language="C#" Value="public class RetentionTagBase : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RetentionTagBase extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" />
   <TypeSignature Language="VB.NET" Value="Public Class RetentionTagBase&#xA;Inherits ComplexProperty" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="0543e-101">Определяет тега политики хранения, примененного к элементу.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0543e-101">Defines the retention policy tag applied to an item.</span>
-      </span>
-      <span data-ttu-id="0543e-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0543e-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="ca515-101">Определяет тег политики хранения, примененный к элементу.</span><span class="sxs-lookup"><span data-stu-id="ca515-101">Defines the retention policy tag applied to an item.</span></span>             <span data-ttu-id="ca515-102"><see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ca515-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,23 +32,8 @@
         <Parameter Name="xmlElementName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="xmlElementName">
-          <span data-ttu-id="0543e-103">Имя элемента XML.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-103">The XML element name.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="0543e-104">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> class.</span>
-          </span>
-          <span data-ttu-id="0543e-105">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-105">The <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="xmlElementName"><span data-ttu-id="ca515-103">Имя элемента XML.</span><span class="sxs-lookup"><span data-stu-id="ca515-103">The XML element name.</span></span></param>
+        <summary><span data-ttu-id="ca515-104">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> класса.</span><span class="sxs-lookup"><span data-stu-id="ca515-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> class.</span></span>   <span data-ttu-id="ca515-105"><see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.#ctor(System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ca515-105">The <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,25 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0543e-106">Получает или задает явно был применен тег политики хранения, связанный с элементом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-106">Gets or sets whether the retention policy tag associated with an item was explicitly applied.</span>
-          </span>
-          <span data-ttu-id="0543e-107">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.IsExplicit" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.IsExplicit" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0543e-108">
-            <b>значение true,</b> Если тег явные; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-108">
-              <b>true</b> if the tag is explicit; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ca515-106">Получает или задает значение, указывающее, был ли применен тег политики хранения, связанный с элементом.</span><span class="sxs-lookup"><span data-stu-id="ca515-106">Gets or sets whether the retention policy tag associated with an item was explicitly applied.</span></span>             <span data-ttu-id="ca515-107"><see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.IsExplicit" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ca515-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.IsExplicit" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ca515-108"><b>значение true</b> , если тег является явным; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="ca515-108"><b>true</b> if the tag is explicit; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -122,23 +72,8 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0543e-109">Получает или задает идентификатор тега политики хранения</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-109">Gets or sets the retention policy tag ID.</span>
-          </span>
-          <span data-ttu-id="0543e-110">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.RetentionId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.RetentionId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0543e-111">Политика хранения тега идентификатор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-111">The retention policy tag ID.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ca515-109">Получает или задает идентификатор тега политики хранения.</span><span class="sxs-lookup"><span data-stu-id="ca515-109">Gets or sets the retention policy tag ID.</span></span>             <span data-ttu-id="ca515-110"><see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.RetentionId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ca515-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.RetentionId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ca515-111">ИДЕНТИФИКАТОР тега политики хранения.</span><span class="sxs-lookup"><span data-stu-id="ca515-111">The retention policy tag ID.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,23 +93,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0543e-112">Возвращает строку, представляющую текущий объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-112">Returns a string that represents the current object.</span>
-          </span>
-          <span data-ttu-id="0543e-113">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.ToString" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.ToString" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0543e-114">Строка, представляющая текущий объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0543e-114">A string that represents the current object.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="ca515-112">Возвращает строку, представляющую текущий объект.</span><span class="sxs-lookup"><span data-stu-id="ca515-112">Returns a string that represents the current object.</span></span>    <span data-ttu-id="ca515-113">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.ToString" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ca515-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.ToString" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="ca515-114">Строка, представляющая текущий объект.</span><span class="sxs-lookup"><span data-stu-id="ca515-114">A string that represents the current object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

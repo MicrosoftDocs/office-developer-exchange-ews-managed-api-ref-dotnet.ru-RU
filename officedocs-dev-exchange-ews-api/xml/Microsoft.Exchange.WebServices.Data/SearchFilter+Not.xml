@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+Not" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+Not">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a6b71a78146fa6e44700e8ce8236965526d25dee" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626767" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.Not : Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a6b71a78146fa6e44700e8ce8236965526d25dee" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626767" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.Not : Microsoft.Exchange.WebServices.Data.SearchFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/Not extends Microsoft.Exchange.WebServices.Data.SearchFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.Not&#xA;Inherits SearchFilter" />
@@ -21,150 +13,136 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="73254-101">Представляет фильтр поиска, которое Boolean <b>не</b> применяется к другой фильтр поиска.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="73254-101">Represents search filter that applies a Boolean <b>NOT</b> to another search filter.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="73254-102">
-        <para>Приложения могут использовать <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> класса, чтобы определить условия, такие как <b>не</b>(другие фильтр).</para>
-        <para>Являются следующие классы фильтра поиска, которые можно использовать с <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> класс:</para>
-        <list type="bullet">
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
-            </description>
-          </item>
-          <item>
-            <description>
-              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
-            </description>
-          </item>
-        </list>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="73254-102">
-          <para>Applications can use the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> class to define conditions such as <b>NOT</b>(other filter).</para>
-          <para>The following are the search filter classes that can be used with the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> class: </para>
-          <list type="bullet">
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
-              </description>
-            </item>
-            <item>
-              <description>
-                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
-              </description>
-            </item>
-          </list>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="7fe25-101">Представляет фильтр поиска, который применяет логическое значение, а <b>не</b> другой фильтр поиска.</span><span class="sxs-lookup"><span data-stu-id="7fe25-101">Represents search filter that applies a Boolean <b>NOT</b> to another search filter.</span></span></summary>
+    <remarks><span data-ttu-id="7fe25-102"><para>Приложения могут использовать <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> класс для определения таких условий, как <b>Not</b>(другой фильтр).</para> 
+      <para>Ниже приведены классы фильтра поиска, которые можно использовать с <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> классом:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+          </description>
+        </item>
+      </list>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="7fe25-102"><para>Applications can use the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> class to define conditions such as <b>NOT</b>(other filter).</para>
+      <para>The following are the search filter classes that can be used with the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> class: </para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+          </description>
+        </item>
+      </list>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -180,12 +158,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="73254-103">Инициализирует новый экземпляр класса SearchFilter.Not.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="73254-103">Initializes a new instance of the SearchFilter.Not class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7fe25-103">Инициализирует новый экземпляр класса SearchFilter. not.</span><span class="sxs-lookup"><span data-stu-id="7fe25-103">Initializes a new instance of the SearchFilter.Not class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -203,18 +176,8 @@
         <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">
-          <span data-ttu-id="73254-104">Поисковый фильтр для устранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="73254-104">The search filter to negate.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="73254-105">Инициализирует новый экземпляр класса SearchFilter.Not с фильтром поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="73254-105">Initializes a new instance of the SearchFilter.Not class with the specified search filter.</span>
-          </span>
-        </summary>
+        <param name="searchFilter"><span data-ttu-id="7fe25-104">Фильтр поиска, который должен инвертироваться.</span><span class="sxs-lookup"><span data-stu-id="7fe25-104">The search filter to negate.</span></span></param>
+        <summary><span data-ttu-id="7fe25-105">Инициализирует новый экземпляр класса SearchFilter. not с указанным фильтром поиска.</span><span class="sxs-lookup"><span data-stu-id="7fe25-105">Initializes a new instance of the SearchFilter.Not class with the specified search filter.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,18 +196,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="73254-106">Получает или задает фильтр поиска для устранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="73254-106">Gets or sets the search filter to negate.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="73254-107">Поисковый фильтр для устранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="73254-107">The search filter to negate.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="7fe25-106">Получает или задает фильтр поиска, который требуется инвертировать.</span><span class="sxs-lookup"><span data-stu-id="7fe25-106">Gets or sets the search filter to negate.</span></span></summary>
+        <value><span data-ttu-id="7fe25-107">Фильтр поиска, который должен инвертироваться.</span><span class="sxs-lookup"><span data-stu-id="7fe25-107">The search filter to negate.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

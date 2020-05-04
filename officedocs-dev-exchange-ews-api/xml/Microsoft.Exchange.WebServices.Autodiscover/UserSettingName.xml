@@ -1,13 +1,5 @@
 <Type Name="UserSettingName" FullName="Microsoft.Exchange.WebServices.Autodiscover.UserSettingName">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8e9fe640d527b15368374c3b855135fa7ecc529d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627391" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum UserSettingName" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8e9fe640d527b15368374c3b855135fa7ecc529d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627391" /></Metadata><TypeSignature Language="C#" Value="public enum UserSettingName" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UserSettingName extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName" />
   <TypeSignature Language="VB.NET" Value="Public Enum UserSettingName" />
@@ -20,16 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="6868f-101">Определяет параметры пользователя, которого требуется получить в рамках одной операции автоматического обнаружения веб-служб Exchange (EWS).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6868f-101">Identifies the user settings to be returned in an Exchange Web Services (EWS) autodiscovery operation.</span>
-      </span>
-      <span data-ttu-id="6868f-102">Эти параметры возвращаемые <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> вызова метода.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6868f-102">These settings are returned by a <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" />  method call.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="70b80-101">Определяет параметры пользователя, возвращаемые в ходе операции автообнаружения веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="70b80-101">Identifies the user settings to be returned in an Exchange Web Services (EWS) autodiscovery operation.</span></span> <span data-ttu-id="70b80-102">Эти параметры возвращаются при вызове <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> метода.</span><span class="sxs-lookup"><span data-stu-id="70b80-102">These settings are returned by a <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" />  method call.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,12 +32,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-103">Имя сервера службы каталогов Active Directory (службы каталогов).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-103">The name of the Active Directory (directory service) server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-103">Имя сервера Active Directory (службы каталогов).</span><span class="sxs-lookup"><span data-stu-id="70b80-103">The name of the Active Directory (directory service) server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="AlternateMailboxes">
@@ -73,12 +51,7 @@
       </ReturnValue>
       <MemberValue>65</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-104">Коллекция альтернативного почтовые ящики.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-104">A collection of alternate mailboxes.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-104">Коллекция альтернативных почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="70b80-104">A collection of alternate mailboxes.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="AutoDiscoverSMTPAddress">
@@ -97,17 +70,7 @@
       </ReturnValue>
       <MemberValue>89</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-105">Адрес службы автообнаружения SMTP Simple Mail Transfer Protocol ().</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-105">The Autodiscover Simple Mail Transfer Protocol (SMTP) address.</span>
-          </span>
-          <span data-ttu-id="6868f-106">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-106">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-105">SMTP-адрес.</span><span class="sxs-lookup"><span data-stu-id="70b80-105">The Autodiscover Simple Mail Transfer Protocol (SMTP) address.</span></span> <span data-ttu-id="70b80-106">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-106">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="CasVersion">
@@ -126,12 +89,7 @@
       </ReturnValue>
       <MemberValue>66</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-107">Версия сервера клиентского доступа, обслуживающих указанного запроса (например, 14.XX. YYY. ZZZ).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-107">The version of the Client Access server that is serving the specified request (for example, 14.XX.YYY.ZZZ).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-107">Версия сервера клиентского доступа, обслуживающего указанный запрос (например, 14. XX). YYY. ZZZ).</span><span class="sxs-lookup"><span data-stu-id="70b80-107">The version of the Client Access server that is serving the specified request (for example, 14.XX.YYY.ZZZ).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="CertPrincipalName">
@@ -150,12 +108,7 @@
       </ReturnValue>
       <MemberValue>95</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-108">Имя сертификата SSL участника, который необходим для подключения к Exchange с помощью протокола SSL.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-108">The SSL certificate principal name that is required to connect to Exchange by using SSL.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-108">Имя субъекта сертификата SSL, необходимое для подключения к Exchange с помощью SSL.</span><span class="sxs-lookup"><span data-stu-id="70b80-108">The SSL certificate principal name that is required to connect to Exchange by using SSL.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="CrossOrganizationSharingEnabled">
@@ -174,12 +127,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-109">Значение, указывающее, что общий доступ к организации нескольких включен для указанного пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-109">A value indicating that cross-organization sharing is enabled for the specified user.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-109">Значение, указывающее, включено совместное использование нескольких организаций для указанного пользователя.</span><span class="sxs-lookup"><span data-stu-id="70b80-109">A value indicating that cross-organization sharing is enabled for the specified user.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="DocumentSharingLocations">
@@ -198,17 +146,7 @@
       </ReturnValue>
       <MemberValue>77</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-110">Содержит метаданные, связанные с веб-службы совместного использования документов и URL-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-110">Contains the URL and metadata associated with a document-sharing web service.</span>
-          </span>
-          <span data-ttu-id="6868f-111">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-111">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-110">Содержит URL-адрес и метаданные, связанные с веб-службой общего доступа к документам.</span><span class="sxs-lookup"><span data-stu-id="70b80-110">Contains the URL and metadata associated with a document-sharing web service.</span></span>            <span data-ttu-id="70b80-111">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-111">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpConnectUrlFragment">
@@ -227,17 +165,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-112">Подстроки URL-адрес для страницы панели управления Exchange, который управляет подписок социальных сетей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-112">The URL substring for the Exchange Control Panel page that manages social network subscriptions.</span>
-          </span>
-          <span data-ttu-id="6868f-113">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-113">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-112">Подстрока URL-адреса для страницы панели управления Exchange, которая управляет подписками на социальные сети.</span><span class="sxs-lookup"><span data-stu-id="70b80-112">The URL substring for the Exchange Control Panel page that manages social network subscriptions.</span></span>             <span data-ttu-id="70b80-113">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-113">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpDeliveryReportUrlFragment">
@@ -256,12 +184,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-114">Подстроки URL-адрес страницы панели управления Exchange для управления отчеты о доставке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-114">The URL substring of the Exchange Control Panel page for managing delivery reports.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-114">Подстрока URL-адреса страницы панели управления Exchange для управления отчетами о доставке.</span><span class="sxs-lookup"><span data-stu-id="70b80-114">The URL substring of the Exchange Control Panel page for managing delivery reports.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpEmailSubscriptionsUrlFragment">
@@ -280,12 +203,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-115">Подстроки URL-адрес страницы панели управления Exchange для подписок электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-115">The URL substring of the Exchange Control Panel page for email subscriptions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-115">Подстрока URL-адреса страницы панели управления Exchange для подписок на электронную почту.</span><span class="sxs-lookup"><span data-stu-id="70b80-115">The URL substring of the Exchange Control Panel page for email subscriptions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpExtensionInstallationUrlFragment">
@@ -304,17 +222,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-116">Подстроки URL-адрес страницы панели управления Exchange для установки расширений клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-116">The URL substring of the Exchange Control Panel page for installing client extensions.</span>
-          </span>
-          <span data-ttu-id="6868f-117">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-117">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-116">Подстрока URL-адреса страницы панели управления Exchange для установки добавочных номеров клиентов.</span><span class="sxs-lookup"><span data-stu-id="70b80-116">The URL substring of the Exchange Control Panel page for installing client extensions.</span></span>             <span data-ttu-id="70b80-117">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-117">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpPhotoUrlFragment">
@@ -333,17 +241,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-118">Подстроки URL-адрес страницы панели управления Exchange для управления фотографии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-118">The URL substring of the Exchange Control Panel page for managing photos.</span>
-          </span>
-          <span data-ttu-id="6868f-119">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-119">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-118">Подстрока URL-адреса страницы панели управления Exchange для управления фотографиями.</span><span class="sxs-lookup"><span data-stu-id="70b80-118">The URL substring of the Exchange Control Panel page for managing photos.</span></span>             <span data-ttu-id="70b80-119">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-119">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpPublishingUrlFragment">
@@ -362,12 +260,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-120">Подстроки URL-адрес страницы панели управления Exchange для публикации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-120">The URL substring of the Exchange Control Panel page for publishing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-120">Подстрока URL-адреса страницы панели управления Exchange для публикации.</span><span class="sxs-lookup"><span data-stu-id="70b80-120">The URL substring of the Exchange Control Panel page for publishing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpRetentionPolicyTagsUrlFragment">
@@ -386,12 +279,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-121">Подстроки URL-адрес страницы панели управления Exchange для управления теги политики хранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-121">The URL substring of the Exchange Control Panel page for managing retention policy tags.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-121">Подстрока URL-адреса страницы панели управления Exchange для управления тегами политики хранения.</span><span class="sxs-lookup"><span data-stu-id="70b80-121">The URL substring of the Exchange Control Panel page for managing retention policy tags.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpTeamMailboxCreatingUrlFragment">
@@ -410,17 +298,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-122">Подстроки URL-адрес страницы панели управления Exchange для создания почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-122">The URL substring of the Exchange Control Panel page for creating site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-123">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-123">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-122">Подстрока URL-адреса страницы панели управления Exchange для создания почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-122">The URL substring of the Exchange Control Panel page for creating site mailboxes.</span></span> <span data-ttu-id="70b80-123">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-123">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpTeamMailboxEditingUrlFragment">
@@ -439,17 +317,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-124">Подстрока URL-адрес страницы панели управления Exchange для редактирования почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-124">The URL substring of the Exchange Control Panel page for editing site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-125">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-125">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-124">Подстрока URL-адреса страницы панели управления Exchange для редактирования почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-124">The URL substring of the Exchange Control Panel page for editing site mailboxes.</span></span>             <span data-ttu-id="70b80-125">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-125">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpTeamMailboxUrlFragment">
@@ -468,17 +336,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-126">Подстроки URL-адрес страницы панели управления Exchange для управления почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-126">The URL substring of the Exchange Control Panel page for managing site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-127">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-127">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-126">Подстрока URL-адреса страницы панели управления Exchange для управления почтовыми ящиками сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-126">The URL substring of the Exchange Control Panel page for managing site mailboxes.</span></span>             <span data-ttu-id="70b80-127">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-127">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpTextMessagingUrlFragment">
@@ -497,12 +355,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-128">Подстроки URL-адрес страницы панели управления Exchange для обмена текстовыми сообщениями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-128">The URL substring of the Exchange Control Panel page for text messaging.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-128">Подстрока URL-адреса страницы панели управления Exchange для текстовых сообщений.</span><span class="sxs-lookup"><span data-stu-id="70b80-128">The URL substring of the Exchange Control Panel page for text messaging.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EcpVoicemailUrlFragment">
@@ -521,12 +374,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-129">Подстроки URL-адрес страницы панели управления Exchange для настройки голосовой почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-129">The URL substring of the Exchange Control Panel page for voice-mail customization.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-129">Подстрока URL-адреса страницы панели управления Exchange для настройки голосовой почты.</span><span class="sxs-lookup"><span data-stu-id="70b80-129">The URL substring of the Exchange Control Panel page for voice-mail customization.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EwsPartnerUrl">
@@ -545,17 +393,7 @@
       </ReturnValue>
       <MemberValue>94</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-130">URL-адрес веб-служб Exchange (EWS) партнера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-130">The Exchange Web Services (EWS) partner URL.</span>
-          </span>
-          <span data-ttu-id="6868f-131">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-131">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-130">URL-адрес партнера веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="70b80-130">The Exchange Web Services (EWS) partner URL.</span></span> <span data-ttu-id="70b80-131">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-131">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="EwsSupportedSchemas">
@@ -574,16 +412,7 @@
       </ReturnValue>
       <MemberValue>67</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-132">Разделенный запятыми список версий схемы, поддерживаемых веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-132">A comma-separated list of schema versions supported by EWS.</span>
-          </span>
-          <span data-ttu-id="6868f-133">Значения версии схемы такие же, как значения перечисления ExchangeVersion.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-133">The schema version values are the same as the values of the ExchangeVersion enumeration.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-132">Разделенный запятыми список версий схемы, поддерживаемых EWS.</span><span class="sxs-lookup"><span data-stu-id="70b80-132">A comma-separated list of schema versions supported by EWS.</span></span> <span data-ttu-id="70b80-133">Значения версии схемы совпадают со значениями перечисления Ексчанжеверсион.</span><span class="sxs-lookup"><span data-stu-id="70b80-133">The schema version values are the same as the values of the ExchangeVersion enumeration.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExchangeRpcUrl">
@@ -602,16 +431,7 @@
       </ReturnValue>
       <MemberValue>87</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-134">URL-адрес интерфейса удаленного вызова (RPC) для версий Exchange Server, начиная с Exchange Server 2010.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-134">The URL of the remote procedure call (RPC) interface to versions of Exchange Server starting with Exchange Server 2010.</span>
-          </span>
-          <span data-ttu-id="6868f-135">Этот URL-адрес внутреннего сервера и не должен использоваться клиентами.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-135">This URL is internal to the server and is not to be used by clients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-134">URL-адрес интерфейса удаленного вызова процедур (RPC) для версий Exchange Server, начиная с Exchange Server 2010.</span><span class="sxs-lookup"><span data-stu-id="70b80-134">The URL of the remote procedure call (RPC) interface to versions of Exchange Server starting with Exchange Server 2010.</span></span> <span data-ttu-id="70b80-135">Этот URL-адрес является внутренним для сервера и не используется клиентами.</span><span class="sxs-lookup"><span data-stu-id="70b80-135">This URL is internal to the server and is not to be used by clients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpConnectUrl">
@@ -630,17 +450,7 @@
       </ReturnValue>
       <MemberValue>52</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-136">Внешний URL-адрес страницы панели управления Exchange для управления подписками социальных сетей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-136">The external URL of the Exchange Control Panel page for managing social network subscriptions.</span>
-          </span>
-          <span data-ttu-id="6868f-137">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-137">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-136">Внешний URL-адрес страницы панели управления Exchange для управления подписками на социальные сети.</span><span class="sxs-lookup"><span data-stu-id="70b80-136">The external URL of the Exchange Control Panel page for managing social network subscriptions.</span></span>             <span data-ttu-id="70b80-137">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-137">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpDeliveryReportUrl">
@@ -659,12 +469,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-138">Внешний URL-адрес страницы панели управления Exchange для отчетов о доставке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-138">The external URL of the Exchange Control Panel page for delivery reports.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-138">Внешний URL-адрес страницы панели управления Exchange для отчетов о доставке.</span><span class="sxs-lookup"><span data-stu-id="70b80-138">The external URL of the Exchange Control Panel page for delivery reports.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpEmailSubscriptionsUrl">
@@ -683,12 +488,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-139">Внешний URL-адрес страницы панели управления Exchange для подписок электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-139">The external URL of the Exchange Control Panel page for email subscriptions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-139">Внешний URL-адрес страницы панели управления Exchange для подписок на электронную почту.</span><span class="sxs-lookup"><span data-stu-id="70b80-139">The external URL of the Exchange Control Panel page for email subscriptions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpExtensionInstallationUrl">
@@ -707,17 +507,7 @@
       </ReturnValue>
       <MemberValue>57</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-140">Внешний URL-адрес страницы панели управления Exchange для установки расширений клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-140">The external URL of the Exchange Control Panel page for installing client extensions.</span>
-          </span>
-          <span data-ttu-id="6868f-141">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-141">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-140">Внешний URL-адрес страницы панели управления Exchange для установки добавочных номеров клиентов.</span><span class="sxs-lookup"><span data-stu-id="70b80-140">The external URL of the Exchange Control Panel page for installing client extensions.</span></span>             <span data-ttu-id="70b80-141">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-141">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpPhotoUrl">
@@ -736,17 +526,7 @@
       </ReturnValue>
       <MemberValue>51</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-142">Внешний URL-адрес страницы панели управления Exchange для фотографии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-142">The external URL of the Exchange Control Panel page for photos.</span>
-          </span>
-          <span data-ttu-id="6868f-143">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-143">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-142">Внешний URL-адрес страницы панели управления Exchange для фотографий.</span><span class="sxs-lookup"><span data-stu-id="70b80-142">The external URL of the Exchange Control Panel page for photos.</span></span>             <span data-ttu-id="70b80-143">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-143">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpPublishingUrl">
@@ -765,12 +545,7 @@
       </ReturnValue>
       <MemberValue>50</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-144">Внешний URL-адрес страницы панели управления Exchange для публикации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-144">The external URL of the Exchange Control Panel page for publishing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-144">Внешний URL-адрес страницы панели управления Exchange для публикации.</span><span class="sxs-lookup"><span data-stu-id="70b80-144">The external URL of the Exchange Control Panel page for publishing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpRetentionPolicyTagsUrl">
@@ -789,12 +564,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-145">Внешний URL-адрес страницы панели управления Exchange для управления теги политики хранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-145">The external URL of the Exchange Control Panel page for managing retention policy tags.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-145">Внешний URL-адрес страницы панели управления Exchange для управления тегами политики хранения.</span><span class="sxs-lookup"><span data-stu-id="70b80-145">The external URL of the Exchange Control Panel page for managing retention policy tags.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpTeamMailboxCreatingUrl">
@@ -813,17 +583,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-146">Внешний URL-адрес страницы панели управления Exchange для создания почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-146">The external URL of the Exchange Control Panel page for creating site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-147">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-147">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-146">Внешний URL-адрес страницы панели управления Exchange для создания почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-146">The external URL of the Exchange Control Panel page for creating site mailboxes.</span></span>             <span data-ttu-id="70b80-147">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-147">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpTeamMailboxEditingUrl">
@@ -842,17 +602,7 @@
       </ReturnValue>
       <MemberValue>55</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-148">Внешний URL-адрес страницы панели управления Exchange для редактирования почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-148">The external URL of the Exchange Control Panel page for editing site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-149">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-149">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-148">Внешний URL-адрес страницы панели управления Exchange для изменения почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-148">The external URL of the Exchange Control Panel page for editing site mailboxes.</span></span>             <span data-ttu-id="70b80-149"><see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-149">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpTeamMailboxHidingUrl">
@@ -871,17 +621,7 @@
       </ReturnValue>
       <MemberValue>56</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-150">Внешний URL-адрес страницы панели управления Exchange для скрытия почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-150">The external URL of the Exchange Control Panel page for hiding site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-151">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-151">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-150">Внешний URL-адрес страницы панели управления Exchange для скрытия почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-150">The external URL of the Exchange Control Panel page for hiding site mailboxes.</span></span>             <span data-ttu-id="70b80-151">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-151">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpTeamMailboxUrl">
@@ -900,17 +640,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-152">Внешний URL-адрес страницы панели управления Exchange для управления почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-152">The external URL of the Exchange Control Panel page for managing site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-153">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-153">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-152">Внешний URL-адрес страницы панели управления Exchange для управления почтовыми ящиками сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-152">The external URL of the Exchange Control Panel page for managing site mailboxes.</span></span>             <span data-ttu-id="70b80-153">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-153">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpTextMessagingUrl">
@@ -929,12 +659,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-154">Внешний URL-адрес страницы панели управления Exchange для обмена текстовыми сообщениями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-154">The external URL of the Exchange Control Panel page for text messaging.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-154">Внешний URL-адрес страницы панели управления Exchange для текстовых сообщений.</span><span class="sxs-lookup"><span data-stu-id="70b80-154">The external URL of the Exchange Control Panel page for text messaging.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpUrl">
@@ -953,12 +678,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-155">Внешний URL-адрес панели управления Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-155">The external URL of the Exchange Control Panel.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-155">Внешний URL-адрес панели управления Exchange.</span><span class="sxs-lookup"><span data-stu-id="70b80-155">The external URL of the Exchange Control Panel.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEcpVoicemailUrl">
@@ -977,12 +697,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-156">Внешний URL-адрес страницы панели управления Exchange для настройки голосовой почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-156">The external URL of the Exchange Control Panel page for voice-mail customization.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-156">Внешний URL-адрес страницы панели управления Exchange для настройки голосовой почты.</span><span class="sxs-lookup"><span data-stu-id="70b80-156">The external URL of the Exchange Control Panel page for voice-mail customization.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEmwsUrl">
@@ -1001,17 +716,7 @@
       </ReturnValue>
       <MemberValue>59</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-157">Внешний URL-адрес веб-службы управления Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-157">The external URL of the Exchange Management Web Service.</span>
-          </span>
-          <span data-ttu-id="6868f-158">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-158">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-157">Внешний URL-адрес веб-службы управления Exchange.</span><span class="sxs-lookup"><span data-stu-id="70b80-157">The external URL of the Exchange Management Web Service.</span></span>             <span data-ttu-id="70b80-158">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-158">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEwsUrl">
@@ -1030,12 +735,7 @@
       </ReturnValue>
       <MemberValue>58</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-159">Внешний URL-адрес из Exchange Web Services (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-159">The external URL of Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-159">Внешний URL-адрес веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="70b80-159">The external URL of Exchange Web Services (EWS).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalEwsVersion">
@@ -1054,12 +754,7 @@
       </ReturnValue>
       <MemberValue>75</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-160">Версия внешнего сервера веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-160">The version of the external Exchange Web Services (EWS) server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-160">Версия внешнего сервера веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="70b80-160">The version of the external Exchange Web Services (EWS) server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalImap4Connections">
@@ -1078,12 +773,7 @@
       </ReturnValue>
       <MemberValue>71</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-161">Список параметров внешнего подключения для подключения к протокола IMAP4.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-161">The list of external connection settings for IMAP4 protocol connections.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-161">Список параметров внешнего подключения для подключений по протоколу IMAP4.</span><span class="sxs-lookup"><span data-stu-id="70b80-161">The list of external connection settings for IMAP4 protocol connections.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalMailboxServer">
@@ -1102,12 +792,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-162">Имя сервера внешнего почтового ящика RPC over HTTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-162">The name of the RPC-over-HTTP external mailbox server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-162">Имя внешнего сервера почтовых ящиков RPC-over-HTTP.</span><span class="sxs-lookup"><span data-stu-id="70b80-162">The name of the RPC-over-HTTP external mailbox server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalMailboxServerAuthenticationMethods">
@@ -1126,12 +811,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-163">Методы проверки подлинности, поддерживаемых приложением внешнего сервера RPC over HTTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-163">The authentication methods that are supported by the RPC-over-HTTP external server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-163">Методы проверки подлинности, поддерживаемые внешним сервером RPC-over-HTTP.</span><span class="sxs-lookup"><span data-stu-id="70b80-163">The authentication methods that are supported by the RPC-over-HTTP external server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalMailboxServerRequiresSSL">
@@ -1150,12 +830,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-164">Значение, которое указывает, требуется ли внешний сервер RPC через HTTP протокол Secure Sockets Layer (SSL).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-164">A value that indicates whether the RPC-over-HTTP external server requires the Secure Sockets Layer (SSL) protocol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-164">Значение, указывающее, требуется ли внешнему серверу RPC-over-HTTP протокол SSL.</span><span class="sxs-lookup"><span data-stu-id="70b80-164">A value that indicates whether the RPC-over-HTTP external server requires the Secure Sockets Layer (SSL) protocol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalOABUrl">
@@ -1174,12 +849,7 @@
       </ReturnValue>
       <MemberValue>60</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-165">Внешний URL-адрес автономной адресной книги (OAB).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-165">The external URL of the offline address book (OAB).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-165">Внешний URL-адрес автономной адресной книги (OAB).</span><span class="sxs-lookup"><span data-stu-id="70b80-165">The external URL of the offline address book (OAB).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalPhotosUrl">
@@ -1198,17 +868,7 @@
       </ReturnValue>
       <MemberValue>61</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-166">Внешний URL-адрес страницы для фотографии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-166">The external URL of the page for photos.</span>
-          </span>
-          <span data-ttu-id="6868f-167">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-167">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-166">Внешний URL-адрес страницы для фотографий.</span><span class="sxs-lookup"><span data-stu-id="70b80-166">The external URL of the page for photos.</span></span>             <span data-ttu-id="70b80-167">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-167">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalPop3Connections">
@@ -1227,12 +887,7 @@
       </ReturnValue>
       <MemberValue>69</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-168">Список параметров внешнего подключения для подключения к протокола POP3.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-168">The list of external connection settings for POP3 protocol connections.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-168">Список параметров внешних подключений для подключений по протоколу POP3.</span><span class="sxs-lookup"><span data-stu-id="70b80-168">The list of external connection settings for POP3 protocol connections.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalServerExclusiveConnect">
@@ -1251,17 +906,7 @@
       </ReturnValue>
       <MemberValue>86</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-169">Ссылка, используемый для подключения к серверу Exchange server за пределами организации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-169">A reference used to connect to an Exchange server from outside a user's organization.</span>
-          </span>
-          <span data-ttu-id="6868f-170">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-170">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-169">Ссылка, используемая для подключения к серверу Exchange Server извне из организации пользователя.</span><span class="sxs-lookup"><span data-stu-id="70b80-169">A reference used to connect to an Exchange server from outside a user's organization.</span></span> <span data-ttu-id="70b80-170">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-170">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalSmtpConnections">
@@ -1280,12 +925,7 @@
       </ReturnValue>
       <MemberValue>73</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-171">Список параметров внешнего подключения для подключения протокола SMTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-171">The list of external connection settings for SMTP protocol connections.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-171">Список параметров внешнего подключения для подключений по протоколу SMTP.</span><span class="sxs-lookup"><span data-stu-id="70b80-171">The list of external connection settings for SMTP protocol connections.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalUMUrl">
@@ -1304,12 +944,7 @@
       </ReturnValue>
       <MemberValue>62</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-172">Внешний URL-адрес службы единой системы обмена сообщениями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-172">The external URL of the Unified Messaging services.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-172">Внешний URL-адрес служб единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="70b80-172">The external URL of the Unified Messaging services.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ExternalWebClientUrls">
@@ -1328,12 +963,7 @@
       </ReturnValue>
       <MemberValue>63</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-173">Внешний URL-адресов Exchange веб-клиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-173">The external URLs of the Exchange Web client.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-173">Внешние URL-адреса веб-клиента Exchange.</span><span class="sxs-lookup"><span data-stu-id="70b80-173">The external URLs of the Exchange Web client.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="GroupingInformation">
@@ -1352,12 +982,7 @@
       </ReturnValue>
       <MemberValue>96</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-174">Значение группировки, который используется для группирования почтового ящика пользователя на обслуживание сходства, когда подписка на уведомления в нескольких почтовых ящиках.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-174">The grouping value that is used to group the user's mailbox to maintain affinity when subscribing to notifications across multiple mailboxes.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-174">Значение группирования, используемое для группировки почтового ящика пользователя при подписке на уведомления через несколько почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="70b80-174">The grouping value that is used to group the user's mailbox to maintain affinity when subscribing to notifications across multiple mailboxes.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpConnectUrl">
@@ -1376,17 +1001,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-175">Внутренний URL-адрес страницы панели управления Exchange для управления подписками социальных сетей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-175">The internal URL of the Exchange Control Panel page for managing social network subscriptions.</span>
-          </span>
-          <span data-ttu-id="6868f-176">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-176">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-175">Внутренний URL-адрес страницы панели управления Exchange для управления подписками на социальные сети.</span><span class="sxs-lookup"><span data-stu-id="70b80-175">The internal URL of the Exchange Control Panel page for managing social network subscriptions.</span></span>             <span data-ttu-id="70b80-176">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-176">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpDeliveryReportUrl">
@@ -1405,12 +1020,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-177">Внутренний URL-адрес страницы панели управления Exchange для отчетов о доставке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-177">The internal URL of the Exchange Control Panel page for delivery reports.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-177">Внутренний URL-адрес страницы панели управления Exchange для отчетов о доставке.</span><span class="sxs-lookup"><span data-stu-id="70b80-177">The internal URL of the Exchange Control Panel page for delivery reports.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpEmailSubscriptionsUrl">
@@ -1429,12 +1039,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-178">Внутренний URL-адрес страницы панели управления Exchange для подписок электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-178">The internal URL of the Exchange Control Panel page for email subscriptions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-178">Внутренний URL-адрес страницы панели управления Exchange для подписок на электронную почту.</span><span class="sxs-lookup"><span data-stu-id="70b80-178">The internal URL of the Exchange Control Panel page for email subscriptions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpExtensionInstallationUrl">
@@ -1453,17 +1058,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-179">Внутренний URL-адрес страницы панели управления Exchange для установки расширений клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-179">The internal URL of the Exchange Control Panel page for installing client extensions.</span>
-          </span>
-          <span data-ttu-id="6868f-180">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-180">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-179">Внутренний URL-адрес страницы панели управления Exchange для установки добавочных номеров клиентов.</span><span class="sxs-lookup"><span data-stu-id="70b80-179">The internal URL of the Exchange Control Panel page for installing client extensions.</span></span>             <span data-ttu-id="70b80-180">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-180">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpPhotoUrl">
@@ -1482,17 +1077,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-181">Внутренний URL-адрес страницы панели управления Exchange для фотографии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-181">The internal URL of the Exchange Control Panel page for photos.</span>
-          </span>
-          <span data-ttu-id="6868f-182">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-182">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-181">Внутренний URL-адрес страницы панели управления Exchange для фотографий.</span><span class="sxs-lookup"><span data-stu-id="70b80-181">The internal URL of the Exchange Control Panel page for photos.</span></span>             <span data-ttu-id="70b80-182">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-182">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpPublishingUrl">
@@ -1511,12 +1096,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-183">Внутренний URL-адрес страницы панели управления Exchange для публикации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-183">The internal URL of the Exchange Control Panel page for publishing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-183">Внутренний URL-адрес страницы панели управления Exchange для публикации.</span><span class="sxs-lookup"><span data-stu-id="70b80-183">The internal URL of the Exchange Control Panel page for publishing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpRetentionPolicyTagsUrl">
@@ -1535,12 +1115,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-184">Внутренний URL-адрес страницы панели управления Exchange для тегов политики хранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-184">The internal URL of the Exchange Control Panel page for retention policy tags.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-184">Внутренний URL-адрес страницы панели управления Exchange для тегов политики хранения.</span><span class="sxs-lookup"><span data-stu-id="70b80-184">The internal URL of the Exchange Control Panel page for retention policy tags.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpTeamMailboxCreatingUrl">
@@ -1559,17 +1134,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-185">Внутренний URL-адрес страницы панели управления Exchange для создания почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-185">The internal URL of the Exchange Control Panel page for creating site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-186">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-186">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-185">Внутренний URL-адрес страницы панели управления Exchange для создания почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-185">The internal URL of the Exchange Control Panel page for creating site mailboxes.</span></span>             <span data-ttu-id="70b80-186">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-186">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpTeamMailboxEditingUrl">
@@ -1588,17 +1153,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-187">Внутренний URL-адрес страницы панели управления Exchange для редактирования почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-187">The internal URL of the Exchange Control Panel page for editing site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-188">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-188">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-187">Внутренний URL-адрес страницы панели управления Exchange для изменения почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-187">The internal URL of the Exchange Control Panel page for editing site mailboxes.</span></span>             <span data-ttu-id="70b80-188">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-188">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpTeamMailboxHidingUrl">
@@ -1617,17 +1172,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-189">Внутренний URL-адрес страницы панели управления Exchange для скрытия почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-189">The internal URL of the Exchange Control Panel page for hiding site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-190">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-190">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-189">Внутренний URL-адрес страницы панели управления Exchange для скрытия почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-189">The internal URL of the Exchange Control Panel page for hiding site mailboxes.</span></span>             <span data-ttu-id="70b80-190">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-190">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpTeamMailboxUrl">
@@ -1646,17 +1191,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-191">Внутренний URL-адрес страницы панели управления Exchange для управления почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-191">The internal URL of the Exchange Control Panel page for managing site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-192">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-192">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-191">Внутренний URL-адрес страницы панели управления Exchange для управления почтовыми ящиками сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-191">The internal URL of the Exchange Control Panel page for managing site mailboxes.</span></span> <span data-ttu-id="70b80-192">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-192">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpTextMessagingUrl">
@@ -1675,12 +1210,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-193">Внутренний URL-адрес страницы панели управления Exchange для обмена текстовыми сообщениями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-193">The internal URL of the Exchange Control Panel page for text messaging.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-193">Внутренний URL-адрес страницы панели управления Exchange для текстовых сообщений.</span><span class="sxs-lookup"><span data-stu-id="70b80-193">The internal URL of the Exchange Control Panel page for text messaging.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpUrl">
@@ -1699,12 +1229,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-194">Внутренний URL-адрес панели управления Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-194">The internal URL of the Exchange Control Panel.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-194">Внутренний URL-адрес панели управления Exchange.</span><span class="sxs-lookup"><span data-stu-id="70b80-194">The internal URL of the Exchange Control Panel.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEcpVoicemailUrl">
@@ -1723,12 +1248,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-195">Внутренний URL-адрес страницы панели управления Exchange для настройки голосовой почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-195">The internal URL of the Exchange Control Panel page for voice-mail customization.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-195">Внутренний URL-адрес страницы панели управления Exchange для настройки голосовой почты.</span><span class="sxs-lookup"><span data-stu-id="70b80-195">The internal URL of the Exchange Control Panel page for voice-mail customization.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEmwsUrl">
@@ -1747,17 +1267,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-196">Внутренний URL-адрес веб-службы управления Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-196">The internal URL of the Exchange Management Web Service.</span>
-          </span>
-          <span data-ttu-id="6868f-197">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-197">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-196">Внутренний URL-адрес веб-службы управления Exchange.</span><span class="sxs-lookup"><span data-stu-id="70b80-196">The internal URL of the Exchange Management Web Service.</span></span>             <span data-ttu-id="70b80-197">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-197">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalEwsUrl">
@@ -1776,12 +1286,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-198">Внутренний URL-адрес из Exchange Web Services (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-198">The internal URL of Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-198">Внутренний URL-адрес веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="70b80-198">The internal URL of Exchange Web Services (EWS).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalImap4Connections">
@@ -1800,12 +1305,7 @@
       </ReturnValue>
       <MemberValue>70</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-199">Список параметров внутреннее соединение для подключения протокола IMAP4.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-199">The list of internal connection settings for IMAP4 protocol connections.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-199">Список параметров внутреннего подключения для подключений по протоколу IMAP4.</span><span class="sxs-lookup"><span data-stu-id="70b80-199">The list of internal connection settings for IMAP4 protocol connections.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalMailboxServer">
@@ -1824,12 +1324,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-200">Полное доменное имя (FQDN) сервера внутренний почтовых ящиков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-200">The fully qualified domain name (FQDN) of the internal mailbox server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-200">Полное доменное имя (FQDN) внутреннего сервера почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="70b80-200">The fully qualified domain name (FQDN) of the internal mailbox server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalMailboxServerAuthenticationMethods">
@@ -1848,17 +1343,7 @@
       </ReturnValue>
       <MemberValue>79</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-201">Методы проверки подлинности, поддерживаемые службой клиента RPC.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-201">The authentication methods supported by the RPC client service.</span>
-          </span>
-          <span data-ttu-id="6868f-202">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-202">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-201">Методы проверки подлинности, поддерживаемые клиентской службой RPC.</span><span class="sxs-lookup"><span data-stu-id="70b80-201">The authentication methods supported by the RPC client service.</span></span>             <span data-ttu-id="70b80-202">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-202">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalMailboxServerDN">
@@ -1877,12 +1362,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-203">Устаревшие различающееся имя сервера внутренний почтовых ящиков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-203">The legacy distinguished name of the internal mailbox server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-203">Устаревшее различающееся имя внутреннего сервера почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="70b80-203">The legacy distinguished name of the internal mailbox server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalOABUrl">
@@ -1901,12 +1381,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-204">Внутренний URL-адрес автономной адресной книги (OAB).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-204">The internal URL of the offline address book (OAB).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-204">Внутренний URL-адрес автономной адресной книги (OAB).</span><span class="sxs-lookup"><span data-stu-id="70b80-204">The internal URL of the offline address book (OAB).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalPhotosUrl">
@@ -1925,17 +1400,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-205">Внутренний URL-адрес службы фотографии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-205">The internal URL of the photos service.</span>
-          </span>
-          <span data-ttu-id="6868f-206">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-206">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-205">Внутренний URL-адрес службы фотографий.</span><span class="sxs-lookup"><span data-stu-id="70b80-205">The internal URL of the photos service.</span></span>             <span data-ttu-id="70b80-206">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-206">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalPop3Connections">
@@ -1954,12 +1419,7 @@
       </ReturnValue>
       <MemberValue>68</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-207">Список параметров внутреннее соединение для подключения протокола POP3.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-207">The list of internal connection settings for POP3 protocol connections.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-207">Список параметров внутреннего подключения для подключений по протоколу POP3.</span><span class="sxs-lookup"><span data-stu-id="70b80-207">The list of internal connection settings for POP3 protocol connections.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalRpcClientServer">
@@ -1978,12 +1438,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-208">Полное доменное имя (FQDN) сервера RPC клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-208">The fully qualified domain name (FQDN) of the RPC client server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-208">Полное доменное имя (FQDN) клиентского сервера RPC.</span><span class="sxs-lookup"><span data-stu-id="70b80-208">The fully qualified domain name (FQDN) of the RPC client server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalRpcHttpAuthenticationMethod">
@@ -2002,17 +1457,7 @@
       </ReturnValue>
       <MemberValue>85</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-209">Метод проверки подлинности, используемый для подключения к внутренней RPC/HTTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-209">The authentication method used for internal RPC/HTTP connectivity.</span>
-          </span>
-          <span data-ttu-id="6868f-210">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-210">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-209">Метод проверки подлинности, используемый для внутреннего подключения RPC/HTTP.</span><span class="sxs-lookup"><span data-stu-id="70b80-209">The authentication method used for internal RPC/HTTP connectivity.</span></span>             <span data-ttu-id="70b80-210">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-210">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalRpcHttpConnectivityRequiresSsl">
@@ -2031,17 +1476,7 @@
       </ReturnValue>
       <MemberValue>84</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-211">Указывает, является ли протокол SSL требуется для внутреннего подключения RPC/HTTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-211">Indicates whether SSL is required for internal RPC/HTTP connectivity.</span>
-          </span>
-          <span data-ttu-id="6868f-212">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-212">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-211">Указывает, требуется ли SSL для внутреннего подключения RPC/HTTP.</span><span class="sxs-lookup"><span data-stu-id="70b80-211">Indicates whether SSL is required for internal RPC/HTTP connectivity.</span></span>             <span data-ttu-id="70b80-212">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-212">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalRpcHttpServer">
@@ -2060,17 +1495,7 @@
       </ReturnValue>
       <MemberValue>83</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-213">Полное доменное имя сервера, используемого для подключения к внутренней RPC/HTTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-213">The fully qualified domain name of the server used for internal RPC/HTTP connectivity.</span>
-          </span>
-          <span data-ttu-id="6868f-214">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-214">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-213">Полное доменное имя сервера, используемого для внутреннего подключения RPC/HTTP.</span><span class="sxs-lookup"><span data-stu-id="70b80-213">The fully qualified domain name of the server used for internal RPC/HTTP connectivity.</span></span>          <span data-ttu-id="70b80-214">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-214">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalServerExclusiveConnect">
@@ -2089,17 +1514,7 @@
       </ReturnValue>
       <MemberValue>74</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-215">Ссылка, используемый для подключения к серверу Exchange в организации пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-215">A reference used to connect to an Exchange server from inside a user's organization.</span>
-          </span>
-          <span data-ttu-id="6868f-216">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-216">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-215">Ссылка, используемая для подключения к серверу Exchange Server в организации пользователя.</span><span class="sxs-lookup"><span data-stu-id="70b80-215">A reference used to connect to an Exchange server from inside a user's organization.</span></span> <span data-ttu-id="70b80-216">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-216">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalSmtpConnections">
@@ -2118,12 +1533,7 @@
       </ReturnValue>
       <MemberValue>72</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-217">Список параметров внутреннее соединение для подключения протокола SMTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-217">The list of internal connection settings for SMTP protocol connections.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-217">Список параметров внутреннего подключения для подключений по протоколу SMTP.</span><span class="sxs-lookup"><span data-stu-id="70b80-217">The list of internal connection settings for SMTP protocol connections.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalUMUrl">
@@ -2142,12 +1552,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-218">Внутренний URL-адрес службы единой системы обмена сообщениями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-218">The internal URL of the Unified Messaging services.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-218">Внутренний URL-адрес служб единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="70b80-218">The internal URL of the Unified Messaging services.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InternalWebClientUrls">
@@ -2166,12 +1571,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-219">Набор внутренних URL-адресов Exchange веб-клиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-219">A collection of the internal URLs of the Exchange Web client.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-219">Коллекция внутренних URL-адресов веб-клиента Exchange.</span><span class="sxs-lookup"><span data-stu-id="70b80-219">A collection of the internal URLs of the Exchange Web client.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InteropExternalEwsUrl">
@@ -2190,17 +1590,7 @@
       </ReturnValue>
       <MemberValue>90</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-220">Взаимодействие внешних веб-служб Exchange (EWS) URL-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-220">The interoperability external Exchange Web Services (EWS) URL.</span>
-          </span>
-          <span data-ttu-id="6868f-221">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-221">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-220">Взаимодействие внешнего URL-адреса веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="70b80-220">The interoperability external Exchange Web Services (EWS) URL.</span></span> <span data-ttu-id="70b80-221">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-221">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InteropExternalEwsVersion">
@@ -2219,17 +1609,7 @@
       </ReturnValue>
       <MemberValue>91</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-222">Версия взаимодействия внешних веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-222">The interoperability external Exchange Web Services version.</span>
-          </span>
-          <span data-ttu-id="6868f-223">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-223">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-222">Взаимодействие внешней версии веб-служб Exchange.</span><span class="sxs-lookup"><span data-stu-id="70b80-222">The interoperability external Exchange Web Services version.</span></span> <span data-ttu-id="70b80-223">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-223">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MailboxDN">
@@ -2248,12 +1628,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-224">Различающееся имя базы данных почтовых ящиков из почтового ящика пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-224">The distinguished name of the mailbox database of the user's mailbox.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-224">Различающееся имя базы данных почтовых ящиков в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="70b80-224">The distinguished name of the mailbox database of the user's mailbox.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MailboxVersion">
@@ -2272,17 +1647,7 @@
       </ReturnValue>
       <MemberValue>80</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-225">Версия Exchange server, размещение почтового ящика пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-225">The version of the Exchange server hosting the user's mailbox.</span>
-          </span>
-          <span data-ttu-id="6868f-226">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-226">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-225">Версия сервера Exchange Server, на котором размещен почтовый ящик пользователя.</span><span class="sxs-lookup"><span data-stu-id="70b80-225">The version of the Exchange server hosting the user's mailbox.</span></span>             <span data-ttu-id="70b80-226">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-226">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MobileMailboxPolicy">
@@ -2301,12 +1666,7 @@
       </ReturnValue>
       <MemberValue>76</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-227">Параметры политики почтовых ящиков мобильных устройств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-227">The Mobile Mailbox policy settings.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-227">Параметры политики почтовых ящиков мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="70b80-227">The Mobile Mailbox policy settings.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="PublicFolderInformation">
@@ -2325,17 +1685,7 @@
       </ReturnValue>
       <MemberValue>92</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-228">Данные из общей папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-228">The public folder information.</span>
-          </span>
-          <span data-ttu-id="6868f-229">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-229">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-228">Сведения о общедоступной папке.</span><span class="sxs-lookup"><span data-stu-id="70b80-228">The public folder information.</span></span> <span data-ttu-id="70b80-229">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-229">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="PublicFolderServer">
@@ -2354,12 +1704,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-230">Имя сервера общих папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-230">The name of the public folder server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-230">Имя сервера общедоступных папок.</span><span class="sxs-lookup"><span data-stu-id="70b80-230">The name of the public folder server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="RedirectUrl">
@@ -2378,17 +1723,7 @@
       </ReturnValue>
       <MemberValue>93</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-231">URL-адрес перенаправления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-231">The redirection URL.</span>
-          </span>
-          <span data-ttu-id="6868f-232">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-232">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-231">URL-адрес перенаправления.</span><span class="sxs-lookup"><span data-stu-id="70b80-231">The redirection URL.</span></span> <span data-ttu-id="70b80-232">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-232">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ShowGalAsDefaultView">
@@ -2407,17 +1742,7 @@
       </ReturnValue>
       <MemberValue>88</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-233">Глобальный список адресов (GAL) используется как представление по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-233">The global address list (GAL) is used as the default view.</span>
-          </span>
-          <span data-ttu-id="6868f-234">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-234">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-233">В качестве представления по умолчанию используется глобальный список адресов (GAL).</span><span class="sxs-lookup"><span data-stu-id="70b80-233">The global address list (GAL) is used as the default view.</span></span> <span data-ttu-id="70b80-234">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-234">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SiteMailboxCreationURL">
@@ -2436,17 +1761,7 @@
       </ReturnValue>
       <MemberValue>82</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-235">URL-адрес для создания почтовых ящиков сайта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-235">The URL for creating site mailboxes.</span>
-          </span>
-          <span data-ttu-id="6868f-236">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-236">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-235">URL-адрес для создания почтовых ящиков сайта.</span><span class="sxs-lookup"><span data-stu-id="70b80-235">The URL for creating site mailboxes.</span></span> <span data-ttu-id="70b80-236">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-236">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SPMySiteHostURL">
@@ -2465,17 +1780,7 @@
       </ReturnValue>
       <MemberValue>81</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-237">URL-адрес узла личных сайтов личных сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-237">The host URL for a My Site personal site.</span>
-          </span>
-          <span data-ttu-id="6868f-238">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-238">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-237">URL-адрес узла личного сайта личных сайтов.</span><span class="sxs-lookup"><span data-stu-id="70b80-237">The host URL for a My Site personal site.</span></span>             <span data-ttu-id="70b80-238">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-238">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="UserDeploymentId">
@@ -2494,12 +1799,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-239">Идентификатор пользователя развертывания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-239">The user's deployment identifier.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-239">Идентификатор развертывания пользователя.</span><span class="sxs-lookup"><span data-stu-id="70b80-239">The user's deployment identifier.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="UserDisplayName">
@@ -2518,12 +1818,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-240">Отображаемое имя пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-240">The user's display name.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-240">Отображаемое имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="70b80-240">The user's display name.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="UserDN">
@@ -2542,12 +1837,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-241">Устаревшее различающееся имя пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-241">The user's legacy distinguished name.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-241">Устаревшее различающееся имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="70b80-241">The user's legacy distinguished name.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="UserMSOnline">
@@ -2566,17 +1856,7 @@
       </ReturnValue>
       <MemberValue>78</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6868f-242">Указывает, является ли учетная запись является учетной записью Интернет-служб.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-242">Indicates whether the user account is an Online Services account.</span>
-          </span>
-          <span data-ttu-id="6868f-243">
-            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6868f-243">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="70b80-242">Указывает, является ли учетная запись пользователя учетной записью веб-служб.</span><span class="sxs-lookup"><span data-stu-id="70b80-242">Indicates whether the user account is an Online Services account.</span></span>             <span data-ttu-id="70b80-243">Это <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="70b80-243">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

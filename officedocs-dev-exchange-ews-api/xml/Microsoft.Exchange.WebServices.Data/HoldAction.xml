@@ -1,13 +1,5 @@
 <Type Name="HoldAction" FullName="Microsoft.Exchange.WebServices.Data.HoldAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8cf290713ec310bae44ec4b6826e88b821af02d5" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627468" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum HoldAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8cf290713ec310bae44ec4b6826e88b821af02d5" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627468" /></Metadata><TypeSignature Language="C#" Value="public enum HoldAction" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed HoldAction extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.HoldAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum HoldAction" />
@@ -20,17 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="44cff-101">Определяет действие, которое влияет на сохранение элементов в почтовом ящике для обнаружения электронных данных.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="44cff-101">Defines an action that affects the preservation of items in a mailbox for the purpose of eDiscovery.</span>
-      </span>
-      <span data-ttu-id="44cff-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.HoldAction" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="44cff-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.HoldAction" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="6f9a7-101">Определяет действие, влияющее на сохранение элементов в почтовом ящике в целях обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="6f9a7-101">Defines an action that affects the preservation of items in a mailbox for the purpose of eDiscovery.</span></span>             <span data-ttu-id="6f9a7-102"><see cref="T:Microsoft.Exchange.WebServices.Data.HoldAction" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6f9a7-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.HoldAction" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,16 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44cff-103">Удержание в почтовые ящики целевой для обнаружения электронных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44cff-103">A hold initiated on the target mailboxes for the purpose of eDiscovery.</span>
-          </span>
-          <span data-ttu-id="44cff-104">Создать поле используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44cff-104">The Create field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6f9a7-103">Удержание, инициированное для целевых почтовых ящиков и предназначенное для обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="6f9a7-103">A hold initiated on the target mailboxes for the purpose of eDiscovery.</span></span>             <span data-ttu-id="6f9a7-104">Поле Create (создать) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6f9a7-104">The Create field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -78,16 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44cff-105">Выпуск на удержание, размещенного на почтовые ящики целевой для обнаружения электронных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44cff-105">A release on a hold that was placed on the target mailboxes for the purpose of eDiscovery.</span>
-          </span>
-          <span data-ttu-id="44cff-106">Удаление поля используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44cff-106">The Remove field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6f9a7-105">Выпуск на удержании, который был включен в целевые почтовые ящики в целях обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="6f9a7-105">A release on a hold that was placed on the target mailboxes for the purpose of eDiscovery.</span></span>             <span data-ttu-id="6f9a7-106">Поле Remove (удалить) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6f9a7-106">The Remove field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -106,16 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44cff-107">Обновление на запрос, связанный с удержания на почтовые ящики целевой для обнаружения электронных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44cff-107">An update on a query associated with a hold on the target mailboxes for the purpose of eDiscovery.</span>
-          </span>
-          <span data-ttu-id="44cff-108">Поле обновления используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44cff-108">The Update field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6f9a7-107">Обновление запроса, связанного с удержанием в целевых почтовых ящиках, для целей обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="6f9a7-107">An update on a query associated with a hold on the target mailboxes for the purpose of eDiscovery.</span></span>             <span data-ttu-id="6f9a7-108">Поле обновление подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6f9a7-108">The Update field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

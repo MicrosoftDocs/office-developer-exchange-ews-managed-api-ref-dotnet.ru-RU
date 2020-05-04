@@ -1,13 +1,5 @@
 <Type Name="GroupMember" FullName="Microsoft.Exchange.WebServices.Data.GroupMember">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="202b304ca91f303821e22cb519da99bfe414d2a0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626588" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class GroupMember : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="202b304ca91f303821e22cb519da99bfe414d2a0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626588" /></Metadata><TypeSignature Language="C#" Value="public class GroupMember : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GroupMember extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GroupMember" />
   <TypeSignature Language="VB.NET" Value="Public Class GroupMember&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="b8535-101">Представляет участника группы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b8535-101">Represents a member of a group.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1d110-101">Представляет члена группы.</span><span class="sxs-lookup"><span data-stu-id="1d110-101">Represents a member of a group.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,12 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b8535-102">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1d110-102">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса.</span><span class="sxs-lookup"><span data-stu-id="1d110-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,18 +49,8 @@
         <Parameter Name="addressInformation" Type="Microsoft.Exchange.WebServices.Data.EmailAddress" />
       </Parameters>
       <Docs>
-        <param name="addressInformation">
-          <span data-ttu-id="b8535-103">Адрес электронной почты участника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-103">The e-mail address of the member.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-104">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с указанным адресом электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from the specified e-mail address.</span>
-          </span>
-        </summary>
+        <param name="addressInformation"><span data-ttu-id="1d110-103">Адрес электронной почты участника.</span><span class="sxs-lookup"><span data-stu-id="1d110-103">The e-mail address of the member.</span></span></param>
+        <summary><span data-ttu-id="1d110-104">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса из указанного адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="1d110-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from the specified e-mail address.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,18 +69,8 @@
         <Parameter Name="contactGroupId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="contactGroupId">
-          <span data-ttu-id="b8535-105">Идентификатор группы контактов для связывания члена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-105">The identifier of the contact group to link the member to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-106">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class.</span>
-          </span>
-        </summary>
+        <param name="contactGroupId"><span data-ttu-id="1d110-105">Идентификатор группы контактов, с которой необходимо связать участника.</span><span class="sxs-lookup"><span data-stu-id="1d110-105">The identifier of the contact group to link the member to.</span></span></param>
+        <summary><span data-ttu-id="1d110-106">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса.</span><span class="sxs-lookup"><span data-stu-id="1d110-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,18 +89,8 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">
-          <span data-ttu-id="b8535-107">Адрес электронной почты SMTP участника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-107">The SMTP e-mail address of the member.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-108">nitializes новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с указанным адресом электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-108">nitializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified e-mail address.</span>
-          </span>
-        </summary>
+        <param name="smtpAddress"><span data-ttu-id="1d110-107">SMTP-адрес электронной почты участника.</span><span class="sxs-lookup"><span data-stu-id="1d110-107">The SMTP e-mail address of the member.</span></span></param>
+        <summary><span data-ttu-id="1d110-108">нитиализес новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным адресом электронной почты.</span><span class="sxs-lookup"><span data-stu-id="1d110-108">nitializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified e-mail address.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,24 +109,9 @@
         <Parameter Name="emailAddressKey" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
       </Parameters>
       <Docs>
-        <param name="contact">
-          <span data-ttu-id="b8535-109">Контакт для связи с.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-109">The contact to link to.</span>
-          </span>
-        </param>
-        <param name="emailAddressKey">
-          <span data-ttu-id="b8535-110">Адрес электронной почты контакта для связывания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-110">The contact's e-mail address to link to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-111">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса из <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> экземпляр, в котором индексируются с указанным адресом электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-111">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> instance that is indexed by the specified e-mail address.</span>
-          </span>
-        </summary>
+        <param name="contact"><span data-ttu-id="1d110-109">Контакт для ссылки.</span><span class="sxs-lookup"><span data-stu-id="1d110-109">The contact to link to.</span></span></param>
+        <param name="emailAddressKey"><span data-ttu-id="1d110-110">Адрес электронной почты контакта для ссылки.</span><span class="sxs-lookup"><span data-stu-id="1d110-110">The contact's e-mail address to link to.</span></span></param>
+        <summary><span data-ttu-id="1d110-111">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса из <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> экземпляра, индексируемого по указанному адресу электронной почты.</span><span class="sxs-lookup"><span data-stu-id="1d110-111">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> instance that is indexed by the specified e-mail address.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -194,24 +131,9 @@
         <Parameter Name="addressToLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contactId">
-          <span data-ttu-id="b8535-112">Идентификатор элемента контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-112">The identifier of the contact member.</span>
-          </span>
-        </param>
-        <param name="addressToLink">
-          <span data-ttu-id="b8535-113">Адрес электронной почты контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-113">The e-mail address of the contact.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-114">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с указанным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-114">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from the specified identifier.</span>
-          </span>
-        </summary>
+        <param name="contactId"><span data-ttu-id="1d110-112">Идентификатор участника контакта.</span><span class="sxs-lookup"><span data-stu-id="1d110-112">The identifier of the contact member.</span></span></param>
+        <param name="addressToLink"><span data-ttu-id="1d110-113">Адрес электронной почты контакта.</span><span class="sxs-lookup"><span data-stu-id="1d110-113">The e-mail address of the contact.</span></span></param>
+        <summary><span data-ttu-id="1d110-114">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса по указанному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="1d110-114">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from the specified identifier.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -230,24 +152,9 @@
         <Parameter Name="mailboxType" Type="Microsoft.Exchange.WebServices.Data.MailboxType" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">
-          <span data-ttu-id="b8535-115">SMTP-адрес элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-115">The SMTP address of the member.</span>
-          </span>
-        </param>
-        <param name="mailboxType">
-          <span data-ttu-id="b8535-116">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> значений перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-116">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> enumeration values.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-117">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс, имеющий по указанному адресу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-117">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified address.</span>
-          </span>
-        </summary>
+        <param name="smtpAddress"><span data-ttu-id="1d110-115">SMTP-адрес члена.</span><span class="sxs-lookup"><span data-stu-id="1d110-115">The SMTP address of the member.</span></span></param>
+        <param name="mailboxType"><span data-ttu-id="1d110-116">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="1d110-116">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> enumeration values.</span></span></param>
+        <summary><span data-ttu-id="1d110-117">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным адресом.</span><span class="sxs-lookup"><span data-stu-id="1d110-117">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified address.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -267,24 +174,9 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <span data-ttu-id="b8535-118">Имя участника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-118">The name of the member.</span>
-          </span>
-        </param>
-        <param name="smtpAddress">
-          <span data-ttu-id="b8535-119">SMTP-адрес элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-119">The SMTP address of the member.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-120">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс, имеющий указанного имя и адрес электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-120">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified name and e-mail address.</span>
-          </span>
-        </summary>
+        <param name="name"><span data-ttu-id="1d110-118">Имя элемента.</span><span class="sxs-lookup"><span data-stu-id="1d110-118">The name of the member.</span></span></param>
+        <param name="smtpAddress"><span data-ttu-id="1d110-119">SMTP-адрес члена.</span><span class="sxs-lookup"><span data-stu-id="1d110-119">The SMTP address of the member.</span></span></param>
+        <summary><span data-ttu-id="1d110-120">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным именем и адресом электронной почты.</span><span class="sxs-lookup"><span data-stu-id="1d110-120">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified name and e-mail address.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -304,30 +196,10 @@
         <Parameter Name="mailboxType" Type="Microsoft.Exchange.WebServices.Data.MailboxType" />
       </Parameters>
       <Docs>
-        <param name="address">
-          <span data-ttu-id="b8535-121">Адрес электронной почты участника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-121">The e-mail address of the member.</span>
-          </span>
-        </param>
-        <param name="routingType">
-          <span data-ttu-id="b8535-122">Тип маршрутизации адреса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-122">The routing type of the address.</span>
-          </span>
-        </param>
-        <param name="mailboxType">
-          <span data-ttu-id="b8535-123">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> значений перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-123">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> enumeration values.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-124">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с заданным адресом, маршрутизации и тип почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-124">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified address, routing, and mailbox type.</span>
-          </span>
-        </summary>
+        <param name="address"><span data-ttu-id="1d110-121">Адрес электронной почты участника.</span><span class="sxs-lookup"><span data-stu-id="1d110-121">The e-mail address of the member.</span></span></param>
+        <param name="routingType"><span data-ttu-id="1d110-122">Тип маршрутизации для адреса.</span><span class="sxs-lookup"><span data-stu-id="1d110-122">The routing type of the address.</span></span></param>
+        <param name="mailboxType"><span data-ttu-id="1d110-123">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="1d110-123">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> enumeration values.</span></span></param>
+        <summary><span data-ttu-id="1d110-124">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным адресом, маршрутизацией и типом почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="1d110-124">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified address, routing, and mailbox type.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -348,30 +220,10 @@
         <Parameter Name="routingType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <span data-ttu-id="b8535-125">Имя члена группы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-125">The name of the group member.</span>
-          </span>
-        </param>
-        <param name="address">
-          <span data-ttu-id="b8535-126">Адрес электронной почты членам группы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-126">The e-mail address of the group member.</span>
-          </span>
-        </param>
-        <param name="routingType">
-          <span data-ttu-id="b8535-127">Тип маршрутизации для адреса электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-127">The routing type for the e-mail address.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b8535-128">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с указанным именем, адрес электронной почты и типа маршрутизации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-128">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class with the specified name, e-mail address, and routing type.</span>
-          </span>
-        </summary>
+        <param name="name"><span data-ttu-id="1d110-125">Имя члена группы.</span><span class="sxs-lookup"><span data-stu-id="1d110-125">The name of the group member.</span></span></param>
+        <param name="address"><span data-ttu-id="1d110-126">Адрес электронной почты участника группы.</span><span class="sxs-lookup"><span data-stu-id="1d110-126">The e-mail address of the group member.</span></span></param>
+        <param name="routingType"><span data-ttu-id="1d110-127">Тип маршрутизации для адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="1d110-127">The routing type for the e-mail address.</span></span></param>
+        <summary><span data-ttu-id="1d110-128">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным именем, адресом электронной почты и типом маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="1d110-128">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class with the specified name, e-mail address, and routing type.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -390,18 +242,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b8535-129">Получает адрес электронной почты членам группы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-129">Gets the e-mail address of the group member.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b8535-130">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> объект, содержащий адрес электронной почты членам группы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-130">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" /> property is an <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> object that contains the e-mail address of the group member.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1d110-129">Получает адрес электронной почты участника группы.</span><span class="sxs-lookup"><span data-stu-id="1d110-129">Gets the e-mail address of the group member.</span></span></summary>
+        <value><span data-ttu-id="1d110-130">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" /> свойства — это <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> объект, который содержит адрес электронной почты участника группы.</span><span class="sxs-lookup"><span data-stu-id="1d110-130">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" /> property is an <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> object that contains the e-mail address of the group member.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -420,18 +262,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b8535-131">Возвращает ключевое поле для члена группы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-131">Gets the key field for the group member.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b8535-132">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" /> ключевое поле для члена группы — это свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-132">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" /> property is the key field for the group member.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1d110-131">Получает ключевое поле для члена группы.</span><span class="sxs-lookup"><span data-stu-id="1d110-131">Gets the key field for the group member.</span></span></summary>
+        <value><span data-ttu-id="1d110-132">Значением <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" /> свойства является ключевое поле для члена группы.</span><span class="sxs-lookup"><span data-stu-id="1d110-132">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" /> property is the key field for the group member.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -450,18 +282,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MemberStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b8535-133">Получает состояние члена группы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-133">Gets the status of the group member.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b8535-134">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" /> свойства — это один из <see cref="T:Microsoft.Exchange.WebServices.Data.MemberStatus" /> значений перечисления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b8535-134">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" /> property is one of the <see cref="T:Microsoft.Exchange.WebServices.Data.MemberStatus" /> enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1d110-133">Получает состояние члена группы.</span><span class="sxs-lookup"><span data-stu-id="1d110-133">Gets the status of the group member.</span></span></summary>
+        <value><span data-ttu-id="1d110-134">Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" /> свойства является одним из значений <see cref="T:Microsoft.Exchange.WebServices.Data.MemberStatus" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="1d110-134">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" /> property is one of the <see cref="T:Microsoft.Exchange.WebServices.Data.MemberStatus" /> enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

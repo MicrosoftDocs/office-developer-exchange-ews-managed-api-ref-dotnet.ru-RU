@@ -1,13 +1,5 @@
 <Type Name="FindConversationResults" FullName="Microsoft.Exchange.WebServices.Data.FindConversationResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9fcdbd02816ebfcc8a32b13a9a1f32bdcb99c391" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627322" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FindConversationResults" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9fcdbd02816ebfcc8a32b13a9a1f32bdcb99c391" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627322" /></Metadata><TypeSignature Language="C#" Value="public sealed class FindConversationResults" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindConversationResults extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindConversationResults" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="5e67e-101">Содержит результаты при попытке выполнить поиск бесед в папке.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5e67e-101">Contains the results of an attempt to find conversations in a folder.</span>
-      </span>
-      <span data-ttu-id="5e67e-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5e67e-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c11c8-101">Содержит результаты попытки поиска бесед в папке.</span><span class="sxs-lookup"><span data-stu-id="c11c8-101">Contains the results of an attempt to find conversations in a folder.</span></span>             <span data-ttu-id="c11c8-102"><see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c11c8-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,23 +32,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conversation&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5e67e-103">Получает бесед, найти, операции поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-103">Gets the conversations found by the search operation.</span>
-          </span>
-          <span data-ttu-id="5e67e-104">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="5e67e-105">Бесед, найти, операции поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-105">The conversations found by the search operation.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c11c8-103">Возвращает беседы, обнаруженные в ходе операции поиска.</span><span class="sxs-lookup"><span data-stu-id="c11c8-103">Gets the conversations found by the search operation.</span></span>             <span data-ttu-id="c11c8-104"><see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c11c8-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="c11c8-105">Беседы, обнаруженные операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="c11c8-105">The conversations found by the search operation.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,23 +52,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5e67e-106">Получает выделенный термины, возвращенные операцией поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-106">Gets the highlighted terms returned by the search operation.</span>
-          </span>
-          <span data-ttu-id="5e67e-107">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="5e67e-108">Выделенный условия, возвращенные операцией поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-108">The highlighted terms returned by the search operation.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c11c8-106">Получает выделенные термины, возвращенные операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="c11c8-106">Gets the highlighted terms returned by the search operation.</span></span>  <span data-ttu-id="c11c8-107"><see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c11c8-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="c11c8-108">Выделенные термины, возвращенные операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="c11c8-108">The highlighted terms returned by the search operation.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,23 +72,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5e67e-109">Возвращает индексированный смещение первого беседы, возвращенные операцией поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-109">Gets the indexed offset of the first conversation returned by the search operation.</span>
-          </span>
-          <span data-ttu-id="5e67e-110">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="5e67e-111">Индексированные смещение первого беседы, возвращенные операцией поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-111">The indexed offset of the first conversation returned by the search operation.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c11c8-109">Получает индексированное смещение первой беседы, возвращенной операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="c11c8-109">Gets the indexed offset of the first conversation returned by the search operation.</span></span>       <span data-ttu-id="c11c8-110"><see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c11c8-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="c11c8-111">Индексированное смещение первого диалога, возвращенного операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="c11c8-111">The indexed offset of the first conversation returned by the search operation.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,23 +92,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5e67e-112">Получает количество бесед, возвращенные операцией поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-112">Gets the number of conversations returned by the search operation.</span>
-          </span>
-          <span data-ttu-id="5e67e-113">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="5e67e-114">Общее количество бесед в представлении.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5e67e-114">The total count of conversations in view.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c11c8-112">Получает количество бесед, возвращенных операцией поиска.</span><span class="sxs-lookup"><span data-stu-id="c11c8-112">Gets the number of conversations returned by the search operation.</span></span>             <span data-ttu-id="c11c8-113"><see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c11c8-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="c11c8-114">Общее количество бесед в представлении.</span><span class="sxs-lookup"><span data-stu-id="c11c8-114">The total count of conversations in view.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

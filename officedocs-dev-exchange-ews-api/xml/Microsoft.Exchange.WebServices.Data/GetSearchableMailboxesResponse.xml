@@ -1,13 +1,5 @@
 <Type Name="GetSearchableMailboxesResponse" FullName="Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d26a160b5442b264f79474a7663544f2b391ef2b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627161" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetSearchableMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d26a160b5442b264f79474a7663544f2b391ef2b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627161" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetSearchableMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetSearchableMailboxesResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetSearchableMailboxesResponse&#xA;Inherits ServiceResponse" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="285cf-101">Содержит два списка почтовых ящиков: список почтовых ящиков, которые можно искать и список почтовых ящиков, которые не удалось выполнить поиск для обнаружения электронных данных.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="285cf-101">Contains two lists of mailboxes: a list of mailboxes that could be searched and a list of mailboxes that could not be searched for the purpose of eDiscovery.</span>
-      </span>
-      <span data-ttu-id="285cf-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="285cf-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2e30f-101">Содержит два списка почтовых ящиков: список почтовых ящиков, в которых можно выполнять поиск, и список почтовых ящиков, для которых не удалось выполнить поиск для обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="2e30f-101">Contains two lists of mailboxes: a list of mailboxes that could be searched and a list of mailboxes that could not be searched for the purpose of eDiscovery.</span></span>             <span data-ttu-id="2e30f-102"><see cref="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2e30f-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,23 +32,9 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="285cf-103">Получает или задает список почтовых ящиков, входят в целевую запроса на обнаружение электронных данных, который не удалось выполнить поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="285cf-103">Gets or sets a list of mailboxes targeted by an eDiscovery query that could not be searched.</span>
-          </span>
-          <span data-ttu-id="285cf-104">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="285cf-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="285cf-105">Почтовые ящики, которые не удалось выполнить поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="285cf-105">The mailboxes that could not be searched.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2e30f-103">Получает или задает список почтовых ящиков, для которых предназначен запрос eDiscovery, поиск которых невозможен.</span><span class="sxs-lookup"><span data-stu-id="2e30f-103">Gets or sets a list of mailboxes targeted by an eDiscovery query that could not be searched.</span></span>
+<span data-ttu-id="2e30f-104"><see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2e30f-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="2e30f-105">Почтовые ящики, поиск которых невозможен.</span><span class="sxs-lookup"><span data-stu-id="2e30f-105">The mailboxes that could not be searched.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,23 +53,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchableMailbox[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="285cf-106">Получает почтовых ящиков или групп рассылки, которые соответствуют запроса на обнаружение электронных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="285cf-106">Gets the mailboxes or distribution groups that match an eDiscovery query.</span>
-          </span>
-          <span data-ttu-id="285cf-107">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="285cf-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="285cf-108">Массив, для поиска почтовых ящиков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="285cf-108">An array of searchable mailboxes.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="2e30f-106">Получает почтовые ящики или группы рассылки, которые совпадают с запросом обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="2e30f-106">Gets the mailboxes or distribution groups that match an eDiscovery query.</span></span>             <span data-ttu-id="2e30f-107"><see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2e30f-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="2e30f-108">Массив почтовых ящиков с возможностью поиска.</span><span class="sxs-lookup"><span data-stu-id="2e30f-108">An array of searchable mailboxes.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

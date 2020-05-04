@@ -1,13 +1,5 @@
 <Type Name="PersonaPostalAddress" FullName="Microsoft.Exchange.WebServices.Data.PersonaPostalAddress">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="08e648eb11e3ae569db5f4e7de6d02d06934081b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626621" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PersonaPostalAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="08e648eb11e3ae569db5f4e7de6d02d06934081b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626621" /></Metadata><TypeSignature Language="C#" Value="public sealed class PersonaPostalAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PersonaPostalAddress extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PersonaPostalAddress&#xA;Inherits ComplexProperty" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="6aaf2-101">Содержит сведения контакта почтовый адрес, связанный с пользователя.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6aaf2-101">Contains contact postal address information associated with a persona.</span>
-      </span>
-      <span data-ttu-id="6aaf2-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6aaf2-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="ed10f-101">Содержит сведения о почтовом адресе контакта, связанном с пользователем.</span><span class="sxs-lookup"><span data-stu-id="ed10f-101">Contains contact postal address information associated with a persona.</span></span> <span data-ttu-id="ed10f-102"><see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -62,101 +44,21 @@
         <Parameter Name="altitudeAccuracy" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="street">
-          <span data-ttu-id="6aaf2-103">Почтовый адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-103">The street address.</span>
-          </span>
-        </param>
-        <param name="city">
-          <span data-ttu-id="6aaf2-104">Значение города.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-104">The city value.</span>
-          </span>
-        </param>
-        <param name="state">
-          <span data-ttu-id="6aaf2-105">Значение состояния.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-105">The state value.</span>
-          </span>
-        </param>
-        <param name="country">
-          <span data-ttu-id="6aaf2-106">Значение страны или региона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-106">The country/region value.</span>
-          </span>
-        </param>
-        <param name="postalCode">
-          <span data-ttu-id="6aaf2-107">Значение почтовый индекс.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-107">The postal code value.</span>
-          </span>
-        </param>
-        <param name="postOfficeBox">
-          <span data-ttu-id="6aaf2-108">Почтовый ящик.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-108">The post office box.</span>
-          </span>
-        </param>
-        <param name="locationSource">
-          <span data-ttu-id="6aaf2-109">Расположение источника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-109">The location source.</span>
-          </span>
-        </param>
-        <param name="locationUri">
-          <span data-ttu-id="6aaf2-110">Расположение универсальный код ресурса (URI).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-110">The location Uniform Resource Identifier (URI).</span>
-          </span>
-        </param>
-        <param name="formattedAddress">
-          <span data-ttu-id="6aaf2-111">Почтовый адрес для отображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-111">The street address to be displayed.</span>
-          </span>
-        </param>
-        <param name="latitude">
-          <span data-ttu-id="6aaf2-112">Широта расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-112">The location latitude.</span>
-          </span>
-        </param>
-        <param name="longitude">
-          <span data-ttu-id="6aaf2-113">Долгота расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-113">The location longitude.</span>
-          </span>
-        </param>
-        <param name="accuracy">
-          <span data-ttu-id="6aaf2-114">Точность расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-114">The location accuracy.</span>
-          </span>
-        </param>
-        <param name="altitude">
-          <span data-ttu-id="6aaf2-115">Высота местоположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-115">The location altitude.</span>
-          </span>
-        </param>
-        <param name="altitudeAccuracy">
-          <span data-ttu-id="6aaf2-116">Точность высота расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-116">The location altitude accuracy.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6aaf2-117">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-117">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> class.</span>
-          </span>
-          <span data-ttu-id="6aaf2-118">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-118">The <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="street"><span data-ttu-id="ed10f-103">Адрес в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="ed10f-103">The street address.</span></span></param>
+        <param name="city"><span data-ttu-id="ed10f-104">Значение City.</span><span class="sxs-lookup"><span data-stu-id="ed10f-104">The city value.</span></span></param>
+        <param name="state"><span data-ttu-id="ed10f-105">Значение состояния.</span><span class="sxs-lookup"><span data-stu-id="ed10f-105">The state value.</span></span></param>
+        <param name="country"><span data-ttu-id="ed10f-106">Значение страны или региона.</span><span class="sxs-lookup"><span data-stu-id="ed10f-106">The country/region value.</span></span></param>
+        <param name="postalCode"><span data-ttu-id="ed10f-107">Значение почтовых индексов.</span><span class="sxs-lookup"><span data-stu-id="ed10f-107">The postal code value.</span></span></param>
+        <param name="postOfficeBox"><span data-ttu-id="ed10f-108">Почтовые ящики.</span><span class="sxs-lookup"><span data-stu-id="ed10f-108">The post office box.</span></span></param>
+        <param name="locationSource"><span data-ttu-id="ed10f-109">Источник расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-109">The location source.</span></span></param>
+        <param name="locationUri"><span data-ttu-id="ed10f-110">Универсальный код ресурса (URI) расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-110">The location Uniform Resource Identifier (URI).</span></span></param>
+        <param name="formattedAddress"><span data-ttu-id="ed10f-111">Отображаемый почтовый адрес.</span><span class="sxs-lookup"><span data-stu-id="ed10f-111">The street address to be displayed.</span></span></param>
+        <param name="latitude"><span data-ttu-id="ed10f-112">Местоположение в широте.</span><span class="sxs-lookup"><span data-stu-id="ed10f-112">The location latitude.</span></span></param>
+        <param name="longitude"><span data-ttu-id="ed10f-113">Долгота расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-113">The location longitude.</span></span></param>
+        <param name="accuracy"><span data-ttu-id="ed10f-114">Точность расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-114">The location accuracy.</span></span></param>
+        <param name="altitude"><span data-ttu-id="ed10f-115">Высота расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-115">The location altitude.</span></span></param>
+        <param name="altitudeAccuracy"><span data-ttu-id="ed10f-116">Точность высоты расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-116">The location altitude accuracy.</span></span></param>
+        <summary><span data-ttu-id="ed10f-117">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> класса.</span><span class="sxs-lookup"><span data-stu-id="ed10f-117">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> class.</span></span>             <span data-ttu-id="ed10f-118"><see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-118">The <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -175,23 +77,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-119">Получает или задает значение, указывающее степень точности Широта и долгота.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-119">Gets or sets a value specifying the degree of accuracy of the latitude and longitude.</span>
-          </span>
-          <span data-ttu-id="6aaf2-120">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-120">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-121">Точность расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-121">The location accuracy.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-119">Получает или задает значение, задающее степень точности широты и долготы.</span><span class="sxs-lookup"><span data-stu-id="ed10f-119">Gets or sets a value specifying the degree of accuracy of the latitude and longitude.</span></span>             <span data-ttu-id="ed10f-120"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-120">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-121">Точность расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-121">The location accuracy.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,23 +97,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-122">Получает или задает расположение высота.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-122">Gets or sets the location altitude.</span>
-          </span>
-          <span data-ttu-id="6aaf2-123">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-123">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-124">Высота местоположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-124">The location altitude.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-122">Получает или задает высоту расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-122">Gets or sets the location altitude.</span></span>             <span data-ttu-id="ed10f-123"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-123">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-124">Высота расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-124">The location altitude.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -245,23 +117,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-125">Получает или задает значение, указывающее степень точности высота.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-125">Gets or sets the a value specifying the degree of accuracy of the altitude.</span>
-          </span>
-          <span data-ttu-id="6aaf2-126">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-126">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-127">Точность высота расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-127">The location altitude accuracy.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-125">Получает или задает значение, задающее степень точности высоты.</span><span class="sxs-lookup"><span data-stu-id="ed10f-125">Gets or sets the a value specifying the degree of accuracy of the altitude.</span></span>             <span data-ttu-id="ed10f-126"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-126">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-127">Точность высоты расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-127">The location altitude accuracy.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -280,23 +137,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-128">Получает или задает название города.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-128">Gets or sets the city.</span>
-          </span>
-          <span data-ttu-id="6aaf2-129">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-129">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-130">Название города.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-130">The city name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-128">Получает или задает город.</span><span class="sxs-lookup"><span data-stu-id="ed10f-128">Gets or sets the city.</span></span>             <span data-ttu-id="ed10f-129"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-129">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-130">Название города.</span><span class="sxs-lookup"><span data-stu-id="ed10f-130">The city name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -315,23 +157,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-131">Получает или задает страну или регион.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-131">Gets or sets the country/region.</span>
-          </span>
-          <span data-ttu-id="6aaf2-132">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-132">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-133">Название страны/региона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-133">The country/region name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-131">Получает или задает страну или регион.</span><span class="sxs-lookup"><span data-stu-id="ed10f-131">Gets or sets the country/region.</span></span>             <span data-ttu-id="ed10f-132"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-132">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-133">Название страны или региона.</span><span class="sxs-lookup"><span data-stu-id="ed10f-133">The country/region name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -350,23 +177,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-134">Получает или задает почтовый адрес для отображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-134">Gets or sets the street address to be displayed.</span>
-          </span>
-          <span data-ttu-id="6aaf2-135">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-135">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-136">Почтовый адрес для отображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-136">The street address to be displayed.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-134">Получает или задает отображаемый адрес.</span><span class="sxs-lookup"><span data-stu-id="ed10f-134">Gets or sets the street address to be displayed.</span></span>             <span data-ttu-id="ed10f-135"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-135">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-136">Отображаемый почтовый адрес.</span><span class="sxs-lookup"><span data-stu-id="ed10f-136">The street address to be displayed.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -385,23 +197,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-137">Получает или задает значение, указывающее, Широта расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-137">Gets or sets a value that indicates the location latitude.</span>
-          </span>
-          <span data-ttu-id="6aaf2-138">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-138">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-139">Значение, указывающее, Широта расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-139">A value indicating the location latitude.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-137">Получает или задает значение, указывающее расположение широты.</span><span class="sxs-lookup"><span data-stu-id="ed10f-137">Gets or sets a value that indicates the location latitude.</span></span> <span data-ttu-id="ed10f-138"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-138">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-139">Значение, указывающее расположение широты.</span><span class="sxs-lookup"><span data-stu-id="ed10f-139">A value indicating the location latitude.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -420,23 +217,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-140">Получает или задает значение, указывающее, Долгота расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-140">Gets or sets a value indicating the location longitude.</span>
-          </span>
-          <span data-ttu-id="6aaf2-141">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-141">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-142">Значение, указывающее, Долгота расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-142">A value indicating the location longitude.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-140">Получает или задает значение, указывающее долготу расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-140">Gets or sets a value indicating the location longitude.</span></span>             <span data-ttu-id="ed10f-141"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-141">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-142">Значение, указывающее долготу расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-142">A value indicating the location longitude.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -455,23 +237,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-143">Получает или задает почтовый индекс.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-143">Gets or sets the postal code.</span>
-          </span>
-          <span data-ttu-id="6aaf2-144">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-144">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-145">Почтовый индекс.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-145">The postal code.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-143">Получает или задает почтовый индекс.</span><span class="sxs-lookup"><span data-stu-id="ed10f-143">Gets or sets the postal code.</span></span>             <span data-ttu-id="ed10f-144"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-144">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-145">Почтовый индекс.</span><span class="sxs-lookup"><span data-stu-id="ed10f-145">The postal code.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -490,23 +257,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-146">Получает или задает номер абонентского ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-146">Gets or sets the post office box number.</span>
-          </span>
-          <span data-ttu-id="6aaf2-147">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-147">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-148">Номер абонентского ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-148">The post office box number.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-146">Получает или задает номер почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="ed10f-146">Gets or sets the post office box number.</span></span>             <span data-ttu-id="ed10f-147"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-147">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-148">Номер почтового ящика в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="ed10f-148">The post office box number.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -525,23 +277,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-149">Получает или задает источник почтовый адрес пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-149">Gets or sets the origin of the persona postal address.</span>
-          </span>
-          <span data-ttu-id="6aaf2-150">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-150">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-151">Исходный почтовый адрес пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-151">The persona postal address source.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-149">Получает или задает источник почтового адреса пользователя.</span><span class="sxs-lookup"><span data-stu-id="ed10f-149">Gets or sets the origin of the persona postal address.</span></span>             <span data-ttu-id="ed10f-150"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-150">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-151">Источник почтового адреса пользователя.</span><span class="sxs-lookup"><span data-stu-id="ed10f-151">The persona postal address source.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -560,23 +297,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-152">Получает или задает состояние.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-152">Gets or sets the state.</span>
-          </span>
-          <span data-ttu-id="6aaf2-153">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-153">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-154">Имя состояния.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-154">The state name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-152">Получает или задает состояние.</span><span class="sxs-lookup"><span data-stu-id="ed10f-152">Gets or sets the state.</span></span>             <span data-ttu-id="ed10f-153"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-153">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-154">Имя состояния.</span><span class="sxs-lookup"><span data-stu-id="ed10f-154">The state name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -595,23 +317,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-155">Получает или задает название улицы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-155">Gets or sets the street name.</span>
-          </span>
-          <span data-ttu-id="6aaf2-156">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-156">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-157">Название улицы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-157">The street name.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-155">Получает или задает название улицы.</span><span class="sxs-lookup"><span data-stu-id="ed10f-155">Gets or sets the street name.</span></span>             <span data-ttu-id="ed10f-156"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-156">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-157">Название улицы.</span><span class="sxs-lookup"><span data-stu-id="ed10f-157">The street name.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -630,27 +337,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-158">Получает или задает тип почтовый адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-158">Gets or sets the postal address type.</span>
-          </span>
-          <span data-ttu-id="6aaf2-159">Например дома или на работе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-159">For example, home or business.</span>
-          </span>
-          <span data-ttu-id="6aaf2-160">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-160">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-161">Тип почтовый адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-161">The type of postal address.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-158">Получает или задает тип почтового адреса.</span><span class="sxs-lookup"><span data-stu-id="ed10f-158">Gets or sets the postal address type.</span></span> <span data-ttu-id="ed10f-159">Например, "домашний" или "Бизнес".</span><span class="sxs-lookup"><span data-stu-id="ed10f-159">For example, home or business.</span></span>             <span data-ttu-id="ed10f-160"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-160">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-161">Тип почтового адреса.</span><span class="sxs-lookup"><span data-stu-id="ed10f-161">The type of postal address.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -669,23 +357,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6aaf2-162">Получает или задает расположение универсальный код ресурса (URI).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-162">Gets or sets the location Uniform Resource Identifier (URI).</span>
-          </span>
-          <span data-ttu-id="6aaf2-163">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-163">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6aaf2-164">URI расположения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6aaf2-164">The location URI.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="ed10f-162">Получает или задает идентификатор URI.</span><span class="sxs-lookup"><span data-stu-id="ed10f-162">Gets or sets the location Uniform Resource Identifier (URI).</span></span>             <span data-ttu-id="ed10f-163"><see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed10f-163">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="ed10f-164">URI расположения.</span><span class="sxs-lookup"><span data-stu-id="ed10f-164">The location URI.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

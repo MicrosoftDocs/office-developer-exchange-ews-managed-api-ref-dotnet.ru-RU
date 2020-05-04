@@ -1,13 +1,5 @@
 <Type Name="ManagedFolderInformation" FullName="Microsoft.Exchange.WebServices.Data.ManagedFolderInformation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ebf44e74fac14ba45a75a4bfa6bcdc83d0cd743f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626524" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ManagedFolderInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ebf44e74fac14ba45a75a4bfa6bcdc83d0cd743f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626524" /></Metadata><TypeSignature Language="C#" Value="public sealed class ManagedFolderInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ManagedFolderInformation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ManagedFolderInformation&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="f09eb-101">Представляет данные для управляемых папок.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f09eb-101">Represents information for a managed folder.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c7c93-101">Представляет сведения для управляемой папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-101">Represents information for a managed folder.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,20 +32,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-102">Получает значение, указывающее, является ли пользователь может удалять объекты в папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-102">Gets a value that indicates whether the user can delete objects in the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-103">
-            <b>значение true,</b> Если можно удалить объекты в папке; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-103">
-              <b>true</b> if the objects in the folder can be deleted; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-102">Получает значение, указывающее, может ли пользователь удалять объекты из папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-102">Gets a value that indicates whether the user can delete objects in the folder.</span></span></summary>
+        <value><span data-ttu-id="c7c93-103"><b>значение true</b> , если объекты в папке можно удалить; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="c7c93-103"><b>true</b> if the objects in the folder can be deleted; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,20 +52,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-104">Получает значение, указывающее, может ли пользователь переименование или перемещение объектов в папке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-104">Gets a value that indicates whether the user can rename or move objects in the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-105">
-            <b>значение true,</b> Если объекты в папке можно переименованным или перемещенным; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-105">
-              <b>true</b> if the objects in the folder can be renamed or moved; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-104">Получает значение, указывающее, может ли пользователь переименовывать или перемещать объекты в папке.</span><span class="sxs-lookup"><span data-stu-id="c7c93-104">Gets a value that indicates whether the user can rename or move objects in the folder.</span></span></summary>
+        <value><span data-ttu-id="c7c93-105"><b>значение true</b> , если объекты в папке могут быть переименованы или перемещены; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="c7c93-105"><b>true</b> if the objects in the folder can be renamed or moved; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -109,18 +72,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-106">Возвращает комментарий, связанный с управляемой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-106">Gets the comment that is associated with the managed folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-107">Примечание, связанное с управляемой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-107">The comment that is associated with the managed folder.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-106">Получает комментарий, связанный с управляемой папкой.</span><span class="sxs-lookup"><span data-stu-id="c7c93-106">Gets the comment that is associated with the managed folder.</span></span></summary>
+        <value><span data-ttu-id="c7c93-107">Комментарий, связанный с управляемой папкой.</span><span class="sxs-lookup"><span data-stu-id="c7c93-107">The comment that is associated with the managed folder.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -139,18 +92,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-108">Получает общий размер все содержимое управляемых папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-108">Gets the total size of all the contents of the managed folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-109">Размер содержимого из управляемых папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-109">The size of the contents of the managed folder.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-108">Получает общий размер всего содержимого управляемой папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-108">Gets the total size of all the contents of the managed folder.</span></span></summary>
+        <value><span data-ttu-id="c7c93-109">Размер содержимого управляемой папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-109">The size of the contents of the managed folder.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -169,20 +112,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-110">Получает значение, указывающее, имеет ли папка квоту.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-110">Gets a value that indicates whether the folder has a quota.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-111">
-            <b>значение true,</b> Если для папки квот; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-111">
-              <b>true</b> if the folder has a quota; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-110">Получает значение, указывающее, есть ли у папки квота.</span><span class="sxs-lookup"><span data-stu-id="c7c93-110">Gets a value that indicates whether the folder has a quota.</span></span></summary>
+        <value><span data-ttu-id="c7c93-111"><b>значение true</b> , если у папки есть квота; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="c7c93-111"><b>true</b> if the folder has a quota; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -201,18 +132,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-112">Получает URL-адрес, который будет по умолчанию домашнюю страницу для управляемых папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-112">Gets the URL that will be the default home page for the managed folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-113">URL-адрес домашней страницы по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-113">The default home page URL.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-112">Получает URL-адрес, который будет домашней страницей по умолчанию для управляемой папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-112">Gets the URL that will be the default home page for the managed folder.</span></span></summary>
+        <value><span data-ttu-id="c7c93-113">URL-адрес домашней страницы по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="c7c93-113">The default home page URL.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -231,20 +152,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-114">Получает значение, указывающее, является ли папка является корневым каталогом иерархия управляемых папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-114">Gets a value that indicates whether the folder is the root of the managed folder hierarchy.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-115">
-            <b>значение true,</b> Если папка является корневой папки; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-115">
-              <b>true</b> if the folder is a root folder; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-114">Получает значение, указывающее, является ли папка корневой папкой иерархии управляемых папок.</span><span class="sxs-lookup"><span data-stu-id="c7c93-114">Gets a value that indicates whether the folder is the root of the managed folder hierarchy.</span></span></summary>
+        <value><span data-ttu-id="c7c93-115"><b>значение true</b> , если папка является корневой папкой; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="c7c93-115"><b>true</b> if the folder is a root folder; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -263,18 +172,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-116">Получает идентификатор управляемой папки папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-116">Gets the managed folder ID of the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-117">Идентификатор управляемой папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-117">The managed folder ID.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-116">Возвращает идентификатор управляемой папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-116">Gets the managed folder ID of the folder.</span></span></summary>
+        <value><span data-ttu-id="c7c93-117">Идентификатор управляемой папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-117">The managed folder ID.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -293,20 +192,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-118">Получает значение, указывающее, необходимо ли отображать клиентское приложение свойство комментарий для пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-118">Gets a value that indicates whether the client application must display the Comment property to the user.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-119">
-            <b>значение true,</b> Если необходимо отображать клиентское приложение свойство комментарий для пользователя; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-119">
-              <b>true</b> if the client application must display the Comment property to the user; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-118">Получает значение, указывающее, должно ли клиентское приложение отображать свойство Comment для пользователя.</span><span class="sxs-lookup"><span data-stu-id="c7c93-118">Gets a value that indicates whether the client application must display the Comment property to the user.</span></span></summary>
+        <value><span data-ttu-id="c7c93-119"><b>значение true</b> , если клиентское приложение должно отображать свойство Comment для пользователя; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="c7c93-119"><b>true</b> if the client application must display the Comment property to the user; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -325,18 +212,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f09eb-120">Получает квота хранилища папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-120">Gets the storage quota of the folder.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f09eb-121">Ограничение размера хранилища для управляемых папок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f09eb-121">The storage size limit for the managed folder.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="c7c93-120">Получает квоту хранилища папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-120">Gets the storage quota of the folder.</span></span></summary>
+        <value><span data-ttu-id="c7c93-121">Предельный размер хранилища для управляемой папки.</span><span class="sxs-lookup"><span data-stu-id="c7c93-121">The storage size limit for the managed folder.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

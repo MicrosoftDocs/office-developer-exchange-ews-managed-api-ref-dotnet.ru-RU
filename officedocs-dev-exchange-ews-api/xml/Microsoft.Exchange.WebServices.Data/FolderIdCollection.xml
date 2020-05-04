@@ -1,13 +1,5 @@
 <Type Name="FolderIdCollection" FullName="Microsoft.Exchange.WebServices.Data.FolderIdCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="94f520fa0d5bb491cc199a46e9afb1f90eb5fb4a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627157" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FolderIdCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.FolderId&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="94f520fa0d5bb491cc199a46e9afb1f90eb5fb4a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627157" /></Metadata><TypeSignature Language="C#" Value="public sealed class FolderIdCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.FolderId&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderIdCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.FolderId&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderIdCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderIdCollection&#xA;Inherits ComplexPropertyCollection(Of FolderId)" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="16e66-101">Представляет коллекцию папок идентификаторы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="16e66-101">Represents a collection of folder IDs.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="fc702-101">Представляет коллекцию идентификаторов папок.</span><span class="sxs-lookup"><span data-stu-id="fc702-101">Represents a collection of folder IDs.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -55,18 +42,8 @@
         <Parameter Name="folderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="folderId">
-          <span data-ttu-id="16e66-102">Идентификатор папки для добавления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-102">The folder ID to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="16e66-103">Добавляет в коллекцию идентификатор папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-103">Adds a folder ID to the collection.</span>
-          </span>
-        </summary>
+        <param name="folderId"><span data-ttu-id="fc702-102">ИДЕНТИФИКАТОР добавляемой папки.</span><span class="sxs-lookup"><span data-stu-id="fc702-102">The folder ID to add.</span></span></param>
+        <summary><span data-ttu-id="fc702-103">Добавляет идентификатор папки в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="fc702-103">Adds a folder ID to the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,24 +65,9 @@
         <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="folderName">
-          <span data-ttu-id="16e66-104">Хорошо известные папки для добавления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-104">The well-known folder to add.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="16e66-105">Добавляет в коллекцию известных папки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-105">Adds a well-known folder to the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="16e66-106">Указанный идентификатор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-106">The specified ID.</span>
-          </span>
-        </returns>
+        <param name="folderName"><span data-ttu-id="fc702-104">Хорошо известная папка для добавления.</span><span class="sxs-lookup"><span data-stu-id="fc702-104">The well-known folder to add.</span></span></param>
+        <summary><span data-ttu-id="fc702-105">Добавляет хорошо известную папку в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="fc702-105">Adds a well-known folder to the collection.</span></span></summary>
+        <returns><span data-ttu-id="fc702-106">Указанный идентификатор.</span><span class="sxs-lookup"><span data-stu-id="fc702-106">The specified ID.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,12 +87,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="16e66-107">Очищает коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-107">Clears the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fc702-107">Очищает коллекцию.</span><span class="sxs-lookup"><span data-stu-id="fc702-107">Clears the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,26 +108,9 @@
         <Parameter Name="folderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="folderId">
-          <span data-ttu-id="16e66-108">Идентификатор папки для удаления из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-108">The folder ID to remove from the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="16e66-109">Удаляет указанную папку ID из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-109">Removes the specified folder ID from the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="16e66-110">
-            <b>значение true,</b> Если идентификатор папки был успешно удален из коллекции. в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-110">
-              <b>true</b> if the folder ID was successfully removed from the collection; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="folderId"><span data-ttu-id="fc702-108">Идентификатор папки, который необходимо удалить из коллекции.</span><span class="sxs-lookup"><span data-stu-id="fc702-108">The folder ID to remove from the collection.</span></span></param>
+        <summary><span data-ttu-id="fc702-109">Удаляет указанный идентификатор папки из коллекции.</span><span class="sxs-lookup"><span data-stu-id="fc702-109">Removes the specified folder ID from the collection.</span></span></summary>
+        <returns><span data-ttu-id="fc702-110"><b>значение true</b> , если идентификатор папки был успешно удален из коллекции; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="fc702-110"><b>true</b> if the folder ID was successfully removed from the collection; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -192,26 +132,9 @@
         <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="folderName">
-          <span data-ttu-id="16e66-111">Хорошо известные папки для удаления из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-111">The well-known folder to remove from the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="16e66-112">Удаляет указанную папку известных из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-112">Removes the specified well-known folder from the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="16e66-113">
-            <b>значение true,</b> Если хорошо известных папок успешно удалена из коллекции. в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-113">
-              <b>true</b> if the well-known folder was successfully removed from the collection; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="folderName"><span data-ttu-id="fc702-111">Хорошо известная папка, которую необходимо удалить из коллекции.</span><span class="sxs-lookup"><span data-stu-id="fc702-111">The well-known folder to remove from the collection.</span></span></param>
+        <summary><span data-ttu-id="fc702-112">Удаляет указанную известную папку из коллекции.</span><span class="sxs-lookup"><span data-stu-id="fc702-112">Removes the specified well-known folder from the collection.</span></span></summary>
+        <returns><span data-ttu-id="fc702-113"><b>значение true</b> , если хорошо известная папка успешно удалена из коллекции; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="fc702-113"><b>true</b> if the well-known folder was successfully removed from the collection; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,18 +156,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">
-          <span data-ttu-id="16e66-114">Отсчитываемый от нуля индекс идентификатор папки для удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-114">The zero-based index of the folder ID to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="16e66-115">Удаляет идентификатор папки по указанному индексу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="16e66-115">Removes the folder ID at the specified index.</span>
-          </span>
-        </summary>
+        <param name="index"><span data-ttu-id="fc702-114">Отсчитываемый от нуля индекс удаляемого идентификатора папки.</span><span class="sxs-lookup"><span data-stu-id="fc702-114">The zero-based index of the folder ID to remove.</span></span></param>
+        <summary><span data-ttu-id="fc702-115">Удаляет идентификатор папки по указанному индексу.</span><span class="sxs-lookup"><span data-stu-id="fc702-115">Removes the folder ID at the specified index.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

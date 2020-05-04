@@ -1,13 +1,5 @@
 <Type Name="ContainmentMode" FullName="Microsoft.Exchange.WebServices.Data.ContainmentMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0c9fd99a60a0ef9b6fe59616c20755632e946f26" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627264" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ContainmentMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0c9fd99a60a0ef9b6fe59616c20755632e946f26" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627264" /></Metadata><TypeSignature Language="C#" Value="public enum ContainmentMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContainmentMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContainmentMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContainmentMode" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="bccb0-101">Определяет режим вложенности для фильтров поиска Contains.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bccb0-101">Defines the containment mode for Contains search filters.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="15148-101">Определяет режим включения для фильтров поиска.</span><span class="sxs-lookup"><span data-stu-id="15148-101">Defines the containment mode for Contains search filters.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bccb0-102">Точной фразы в строке сравнивается константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bccb0-102">The comparison is between an exact phrase in the string and the constant.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="15148-102">Точная фраза в строке и константа сравнивается.</span><span class="sxs-lookup"><span data-stu-id="15148-102">The comparison is between an exact phrase in the string and the constant.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="FullString">
@@ -69,16 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bccb0-103">Полной строки сравнивается константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bccb0-103">The comparison is between the full string and the constant.</span>
-          </span>
-          <span data-ttu-id="bccb0-104">Значение свойства и указанная константа идентичны.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bccb0-104">The property value and the supplied constant are exactly the same.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="15148-103">Между полной строкой и константой выполняется сравнение.</span><span class="sxs-lookup"><span data-stu-id="15148-103">The comparison is between the full string and the constant.</span></span> <span data-ttu-id="15148-104">Значение свойства и заданная константа в точности совпадают.</span><span class="sxs-lookup"><span data-stu-id="15148-104">The property value and the supplied constant are exactly the same.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Prefixed">
@@ -97,12 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bccb0-105">Префикс строки сравнивается константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bccb0-105">The comparison is between the string prefix and the constant.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="15148-105">Сравнение между префиксом строки и константой.</span><span class="sxs-lookup"><span data-stu-id="15148-105">The comparison is between the string prefix and the constant.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="PrefixOnWords">
@@ -121,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bccb0-106">Префикс на отдельные слова в строке сравнивается константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bccb0-106">The comparison is between a prefix on individual words in the string and the constant.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="15148-106">В качестве префикса для отдельных слов в строке и константы используется сравнение.</span><span class="sxs-lookup"><span data-stu-id="15148-106">The comparison is between a prefix on individual words in the string and the constant.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Substring">
@@ -145,12 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bccb0-107">Подстрока строки сравнивается константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bccb0-107">The comparison is between a substring of the string and the constant.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="15148-107">Сравнение между подстрокой строки и константой.</span><span class="sxs-lookup"><span data-stu-id="15148-107">The comparison is between a substring of the string and the constant.</span></span></summary>
       </Docs>
     </Member>
   </Members>

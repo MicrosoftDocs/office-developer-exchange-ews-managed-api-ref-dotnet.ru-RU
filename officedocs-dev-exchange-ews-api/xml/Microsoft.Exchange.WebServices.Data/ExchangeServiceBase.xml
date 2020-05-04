@@ -1,13 +1,5 @@
 <Type Name="ExchangeServiceBase" FullName="Microsoft.Exchange.WebServices.Data.ExchangeServiceBase">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="63d0d68023245176fa907a3b57644b570a105ebe" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626892" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ExchangeServiceBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="63d0d68023245176fa907a3b57644b570a105ebe" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626892" /></Metadata><TypeSignature Language="C#" Value="public abstract class ExchangeServiceBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExchangeServiceBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExchangeServiceBase" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="ea320-101">Представляет абстрактный привязку к службе Exchange.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ea320-101">Represents an abstract binding to an Exchange service.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="d46a0-101">Представляет абстрактную привязку к службе Exchange.</span><span class="sxs-lookup"><span data-stu-id="d46a0-101">Represents an abstract binding to an Exchange service.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,32 +32,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-102">Получает или задает значение, указывающее, должны быть приняты кодирования сжатия GZip.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-102">Gets or sets a value that indicates whether GZip compression encoding should be accepted.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-103">
-            <b>значение true,</b> Если кодирования сжатия GZip должны приниматься; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-103">
-              <b>true</b> if GZip compression encoding should be accepted; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="ea320-104">
-            <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" /> значение свойства указывает на сервер ли клиент может обрабатывать кодирования сжатия GZip. Сервер будет отправлять сжатия GZip контент только в том случае, если он был настроен для этого.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-104">
-              <para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" /> property value indicates to the server whether the client can handle GZip compression encoding. The server will only send GZip-compressed content if it has been configured to do so.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="d46a0-102">Получает или задает значение, указывающее, следует ли принимать кодирование сжатия GZip.</span><span class="sxs-lookup"><span data-stu-id="d46a0-102">Gets or sets a value that indicates whether GZip compression encoding should be accepted.</span></span></summary>
+        <value><span data-ttu-id="d46a0-103"><b>значение true</b> , если кодировка сжатия Gzip должна быть принята; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="d46a0-103"><b>true</b> if GZip compression encoding should be accepted; otherwise, <b>false</b>.</span></span></value>
+        <remarks><span data-ttu-id="d46a0-104"><para>Задание значения <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" /> свойства указывает серверу, может ли клиент обрабатывать кодирование сжатия Gzip. Сервер будет отправлять только сжатое содержимое GZip, если оно было настроено.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="d46a0-104"><para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" /> property value indicates to the server whether the client can handle GZip compression encoding. The server will only send GZip-compressed content if it has been configured to do so.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClientRequestId">
@@ -88,23 +54,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-105">Получает или задает код запроса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-105">Gets or sets the request ID.</span>
-          </span>
-          <span data-ttu-id="ea320-106">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-107">Код запроса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-107">The request ID.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-105">Получает или задает идентификатор запроса.</span><span class="sxs-lookup"><span data-stu-id="d46a0-105">Gets or sets the request ID.</span></span>             <span data-ttu-id="d46a0-106"><see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d46a0-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="d46a0-107">Идентификатор запроса.</span><span class="sxs-lookup"><span data-stu-id="d46a0-107">The request ID.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,23 +74,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-108">Получает или задает имя группы подключения для запроса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-108">Gets or sets the name of the connection group for the request.</span>
-          </span>
-          <span data-ttu-id="ea320-109">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-110">Имя группы подключений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-110">The name of the connection group.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-108">Получает или задает имя группы подключения для запроса.</span><span class="sxs-lookup"><span data-stu-id="d46a0-108">Gets or sets the name of the connection group for the request.</span></span>              <span data-ttu-id="d46a0-109"><see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d46a0-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="d46a0-110">Имя группы подключения.</span><span class="sxs-lookup"><span data-stu-id="d46a0-110">The name of the connection group.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,18 +94,8 @@
         <ReturnType>System.Net.CookieContainer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-111">Получает или задает контейнер файл cookie.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-111">Gets or sets the cookie container.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-112">A <see cref="T:System.Net.CookieContainer" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-112">A <see cref="T:System.Net.CookieContainer" /> object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-111">Получает или задает контейнер файлов cookie.</span><span class="sxs-lookup"><span data-stu-id="d46a0-111">Gets or sets the cookie container.</span></span></summary>
+        <value><span data-ttu-id="d46a0-112">Объект <see cref="T:System.Net.CookieContainer" />.</span><span class="sxs-lookup"><span data-stu-id="d46a0-112">A <see cref="T:System.Net.CookieContainer" /> object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -188,34 +114,15 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeCredentials</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-113">Получает или задает учетные данные, используемые для проверки подлинности с помощью веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-113">Gets or sets the credentials that are used to authenticate with Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-114">Учетные данные, используемые для проверки подлинности для веб-служб Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-114">The credentials that are used to authenticate with EWS.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="ea320-115">
-            <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> автоматически устанавливает свойство <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> значение <b>false</b>.</para>
-            <para>
-              <b>Осторожность</b>: не следует изменять <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство после <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект привязан к веб-службе. Изменение учетных данных приводят к сбою последующих операций веб-службы. Чтобы изменить <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство на <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объектов, необходимо создать новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта с использованием учетных данных, которые будут. Нельзя использовать учетные данные пользователя, вошедшего в систему, если почтовый ящик пользователя размещается в Exchange Online или Exchange Online в составе Office 365. Учетные данные пользователя должен быть в пользовательской формы имя участника (UPN) для Exchange Online.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-115">
-              <para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property automatically sets the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> property to <b>false</b>.</para>
-              <para>
-                <b>Caution</b>: Be careful not to change the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property after the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object has been bound to the Web service. Changing the credentials will cause subsequent Web service operations to fail. To change the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property on the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object, you must create a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object with the credentials that you want.You cannot use the default credentials of the logged on user if the user’s mailbox is hosted in Exchange Online or Exchange Online as part of Office 365. The user’s credentials must be in user principal name (UPN) form for Exchange Online.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="d46a0-113">Получает или задает учетные данные, используемые для проверки подлинности с помощью веб-служб Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="d46a0-113">Gets or sets the credentials that are used to authenticate with Exchange Web Services (EWS).</span></span></summary>
+        <value><span data-ttu-id="d46a0-114">Учетные данные, используемые для проверки подлинности с помощью EWS.</span><span class="sxs-lookup"><span data-stu-id="d46a0-114">The credentials that are used to authenticate with EWS.</span></span></value>
+        <remarks><span data-ttu-id="d46a0-115"><para>При установке <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойства для <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> свойства автоматически задается <b>значение false</b>.</para> 
+          <para> 
+            <b>Внимание!</b>Будьте внимательны: не изменяйте <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> после привязки объекта к веб-службе. Изменение учетных данных приведет к сбою последующих операций веб-службы. Чтобы изменить <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта, необходимо создать новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта с нужными учетными данными. Вы не можете использовать учетные данные пользователя, выполнившего вход в систему, если почтовый ящик пользователя размещен в Exchange Online или Exchange Online в составе Office 365. Учетные данные пользователя должны быть указаны в форме имени участника-пользователя (UPN) для Exchange Online.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="d46a0-115"><para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property automatically sets the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> property to <b>false</b>.</para>
+          <para>
+            <b>Caution</b>: Be careful not to change the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property after the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object has been bound to the Web service. Changing the credentials will cause subsequent Web service operations to fail. To change the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property on the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object, you must create a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object with the credentials that you want.You cannot use the default credentials of the logged on user if the user’s mailbox is hosted in Exchange Online or Exchange Online as part of Office 365. The user’s credentials must be in user principal name (UPN) form for Exchange Online.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="HttpHeaders">
@@ -233,18 +140,8 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-116">Получает список заголовки HTTP, связанные с запросами для веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-116">Gets a list of HTTP headers associated with requests to Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-117">Список HTTP-заголовков, связанные с запросами, организованы в виде пар "ключ значение".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-117">The list of HTTP headers associated with requests, organized as key/value pairs.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-116">Получает список заголовков HTTP, связанных с запросами к веб-службам Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="d46a0-116">Gets a list of HTTP headers associated with requests to Exchange Web Services (EWS).</span></span></summary>
+        <value><span data-ttu-id="d46a0-117">Список HTTP-заголовков, связанных с запросами, организованных в виде пар "ключ-значение".</span><span class="sxs-lookup"><span data-stu-id="d46a0-117">The list of HTTP headers associated with requests, organized as key/value pairs.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -263,23 +160,8 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-118">Получает коллекцию заголовки HTTP от последнего ответа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-118">Gets a collection of HTTP headers from the last response.</span>
-          </span>
-          <span data-ttu-id="ea320-119">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-120">Коллекция заголовки HTTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-120">A collection of HTTP headers.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-118">Возвращает коллекцию заголовков HTTP из последнего ответа.</span><span class="sxs-lookup"><span data-stu-id="d46a0-118">Gets a collection of HTTP headers from the last response.</span></span>             <span data-ttu-id="d46a0-119"><see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d46a0-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="d46a0-120">Коллекция заголовков HTTP.</span><span class="sxs-lookup"><span data-stu-id="d46a0-120">A collection of HTTP headers.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -298,25 +180,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-121">Получает или задает ли запрос должен содержать активности заголовка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-121">Gets or sets whether a request should contain a Keep-alive header.</span>
-          </span>
-          <span data-ttu-id="ea320-122">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-123">
-            <b>значение true,</b> Если запрос должен содержать активности заголовок; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-123">
-              <b>true</b> if the request should contain a Keep-alive header; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-121">Получает или задает значение, указывающее, должен ли запрос содержать заголовок Keep — Alive.</span><span class="sxs-lookup"><span data-stu-id="d46a0-121">Gets or sets whether a request should contain a Keep-alive header.</span></span>             <span data-ttu-id="d46a0-122"><see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d46a0-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="d46a0-123"><b>значение true</b> , если запрос должен содержать заголовок Keep — Alive; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="d46a0-123"><b>true</b> if the request should contain a Keep-alive header; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -335,17 +200,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-124">Вызовы <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" /> обработчик.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-124">Calls the <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" /> handler.</span>
-          </span>
-          <span data-ttu-id="ea320-125">
-            <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" /> Событий можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-125">The <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" /> event is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d46a0-124">Вызывает <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" /> обработчик.</span><span class="sxs-lookup"><span data-stu-id="d46a0-124">Calls the <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" /> handler.</span></span>             <span data-ttu-id="d46a0-125">Это <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" /> событие применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d46a0-125">The <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" /> event is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -364,12 +219,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-126">Представляет событие, вызываемое Включение приложений для создания пользовательских заголовков SOAP в запросах, отправленных в Microsoft Exchange Server.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-126">Represents the event that is called to enable applications to emit custom SOAP headers in requests that are sent to Microsoft Exchange Server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d46a0-126">Представляет событие, которое вызывается, чтобы позволить приложениям создавать настраиваемые заголовки SOAP в запросах, которые отправляются в Microsoft Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="d46a0-126">Represents the event that is called to enable applications to emit custom SOAP headers in requests that are sent to Microsoft Exchange Server.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -388,20 +238,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-127">Получает или задает значение, указывающее, следует ли выполнять предварительную проверку подлинности HTTP.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-127">Gets or sets a value that indicates whether HTTP pre-authentication should be performed.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-128">
-            <b>значение true,</b> если следует выполнять предварительную проверку подлинности HTTP; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-128">
-              <b>true</b> if HTTP pre-authentication should be performed; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-127">Получает или задает значение, указывающее, следует ли выполнять предварительную проверку подлинности HTTP.</span><span class="sxs-lookup"><span data-stu-id="d46a0-127">Gets or sets a value that indicates whether HTTP pre-authentication should be performed.</span></span></summary>
+        <value><span data-ttu-id="d46a0-128"><b>значение true</b> , если необходимо выполнить предварительную проверку подлинности HTTP; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="d46a0-128"><b>true</b> if HTTP pre-authentication should be performed; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -420,19 +258,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-129">Получает версию запрошенный сервер.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-129">Gets the requested server version.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-130">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Перечисление объектов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-130">An  <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> enumeration object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-129">Получает запрошенную версию сервера.</span><span class="sxs-lookup"><span data-stu-id="d46a0-129">Gets the requested server version.</span></span></summary>
+        <value><span data-ttu-id="d46a0-130">Объект <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> перечисления.</span><span class="sxs-lookup"><span data-stu-id="d46a0-130">An  <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> enumeration object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -451,25 +278,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-131">Получает или задает флаг, указывающий, что клиент требуется ответы для включения код запроса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-131">Gets or sets a flag indicating that a client requires responses to include the request ID.</span>
-          </span>
-          <span data-ttu-id="ea320-132">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-132">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-133">
-            <b>значение true,</b> Если клиент требует ответов для включения код запроса; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-133">
-              <b>true</b> if the client requires responses to include the request ID; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-131">Получает или задает флаг, указывающий, что клиенту требуются ответы для включения идентификатора запроса.</span><span class="sxs-lookup"><span data-stu-id="d46a0-131">Gets or sets a flag indicating that a client requires responses to include the request ID.</span></span>             <span data-ttu-id="d46a0-132"><see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d46a0-132">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="d46a0-133"><b>значение true</b> , если клиенту требуются ответы для включения идентификатора запроса; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="d46a0-133"><b>true</b> if the client requires responses to include the request ID; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -488,25 +298,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-134">Получает или задает сведения о задержке клиента необходимо отправленный клиентом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-134">Gets or sets whether client latency information must be sent by the client.</span>
-          </span>
-          <span data-ttu-id="ea320-135">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-135">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-136">
-            <b>значение true,</b> Если сведения о клиенте задержка не требуется; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-136">
-              <b>true</b> if client latency information is required; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-134">Получает или задает значение, указывающее, следует ли отправлять клиенту сведения о задержке клиента.</span><span class="sxs-lookup"><span data-stu-id="d46a0-134">Gets or sets whether client latency information must be sent by the client.</span></span>             <span data-ttu-id="d46a0-135"><see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d46a0-135">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="d46a0-136"><b>значение true</b> , если требуются сведения о задержке клиента; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="d46a0-136"><b>true</b> if client latency information is required; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -525,31 +318,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeServerInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-137">Получает сведения, связанные с сервером, на обработку запроса на последнюю.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-137">Gets information that is associated with the server that processed the most recent request.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-138">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" /> Объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-138">An <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" /> object.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="ea320-139">
-            <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" /> свойства — это пустая ссылка (Nothing в Visual Basic), если запросы не были обработаны.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-139">
-              <para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" /> property is a null reference (Nothing in Visual Basic) if no requests have been processed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="d46a0-137">Получает сведения, связанные с сервером, который обработал самый последний запрос.</span><span class="sxs-lookup"><span data-stu-id="d46a0-137">Gets information that is associated with the server that processed the most recent request.</span></span></summary>
+        <value><span data-ttu-id="d46a0-138"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" /> Объект.</span><span class="sxs-lookup"><span data-stu-id="d46a0-138">An <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" /> object.</span></span></value>
+        <remarks><span data-ttu-id="d46a0-139"><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" /> свойства — пустая ссылка (Nothing в Visual Basic), если запросы не были обработаны.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="d46a0-139"><para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" /> property is a null reference (Nothing in Visual Basic) if no requests have been processed.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Timeout">
@@ -567,30 +340,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-140">Получает или задает время ожидания, используемый при запросе отправляющим HTTP и при получении ответов HTTP, в миллисекундах.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-140">Gets or sets the timeout that is used when sending HTTP requests and when receiving HTTP responses, in milliseconds.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-141">Время для HTTP-запросов и ответов на них, в миллисекундах.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-141">The time for HTTP requests and responses, in milliseconds.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="ea320-142">
-            <para>Значение по умолчанию <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" /> свойство является 100000.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-142">
-              <para>The default value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" /> property is 100000.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="d46a0-140">Получает или задает значение времени ожидания, используемое при отправке запросов HTTP и при получении HTTP-ответов (в миллисекундах).</span><span class="sxs-lookup"><span data-stu-id="d46a0-140">Gets or sets the timeout that is used when sending HTTP requests and when receiving HTTP responses, in milliseconds.</span></span></summary>
+        <value><span data-ttu-id="d46a0-141">Время для HTTP-запросов и ответов (в миллисекундах).</span><span class="sxs-lookup"><span data-stu-id="d46a0-141">The time for HTTP requests and responses, in milliseconds.</span></span></value>
+        <remarks><span data-ttu-id="d46a0-142"><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" /> свойства по умолчанию — 100000.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="d46a0-142"><para>The default value of the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" /> property is 100000.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="TraceEnabled">
@@ -608,20 +362,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-143">Получает или задает значение, указывающее, включена ли трассировка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-143">Gets or sets a value that indicates whether tracing is enabled.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-144">
-            <b>значение true,</b> Если трассировка включена; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-144">
-              <b>true</b> if tracing is enabled; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-143">Получает или задает значение, указывающее, включена ли трассировка.</span><span class="sxs-lookup"><span data-stu-id="d46a0-143">Gets or sets a value that indicates whether tracing is enabled.</span></span></summary>
+        <value><span data-ttu-id="d46a0-144"><b>значение true</b> , если трассировка включена; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="d46a0-144"><b>true</b> if tracing is enabled; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -640,18 +382,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-145">Получает или задает флаги трассировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-145">Gets or sets the trace flags.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-146">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" /> значения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-146">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" /> values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-145">Получает или задает флаги трассировки.</span><span class="sxs-lookup"><span data-stu-id="d46a0-145">Gets or sets the trace flags.</span></span></summary>
+        <value><span data-ttu-id="d46a0-146">Одно из <see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" /> значений.</span><span class="sxs-lookup"><span data-stu-id="d46a0-146">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" /> values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -670,19 +402,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ITraceListener</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-147">Получает или задает прослушиватель трассировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-147">Gets or sets the trace listener.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-148">
-            <see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" /> Объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-148">An <see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" /> object.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-147">Получает или задает прослушиватель трассировки.</span><span class="sxs-lookup"><span data-stu-id="d46a0-147">Gets or sets the trace listener.</span></span></summary>
+        <value><span data-ttu-id="d46a0-148"><see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" /> Объект.</span><span class="sxs-lookup"><span data-stu-id="d46a0-148">An <see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" /> object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -701,32 +422,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-149">Получает или задает значение, указывающее, следует ли использовать учетные данные пользователя, который выполнил вход в систему в Windows для проверки подлинности с помощью веб-служб Exchange (EWS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-149">Gets or sets a value that indicates whether the credentials of the user who is currently logged on to Windows should be used to authenticate with Exchange Web Services (EWS).</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-150">
-            <b>значение true,</b> Если необходимо использовать учетные данные текущего пользователя; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-150">
-              <b>true</b> if the credentials of the currently logged-on user should be used; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="ea320-151">
-            <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> значение <b>true</b> автоматически устанавливает <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство пустая ссылка (Nothing в Visual Basic).</para> Если почтовый ящик пользователя нельзя использовать учетные данные пользователя, выполнившего вход 
-          <para>размещаются в Exchange Online или Exchange Online в составе Office 365. Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство, чтобы задать учетные данные пользователя. Учетные данные пользователя должен быть в пользовательской формы имя участника (UPN) для Exchange Online.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-151">
-              <para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> property to <b>true</b> automatically sets the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property to a null reference (Nothing in Visual Basic).</para>
-              <para>You cannot use the default credentials of the logged on user if the user’s mailbox is hosted in Exchange Online or Exchange Online as part of Office 365. Instead, use the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property to set the user’s credentials. The user’s credentials must be in user principal name (UPN) form for Exchange Online.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="d46a0-149">Получает или задает значение, указывающее, следует ли использовать для проверки подлинности учетные данные пользователя, вошедшего в систему Windows, в веб-службах Exchange (EWS).</span><span class="sxs-lookup"><span data-stu-id="d46a0-149">Gets or sets a value that indicates whether the credentials of the user who is currently logged on to Windows should be used to authenticate with Exchange Web Services (EWS).</span></span></summary>
+        <value><span data-ttu-id="d46a0-150"><b>значение true</b> , если необходимо использовать учетные данные пользователя, выполнившего вход в систему; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="d46a0-150"><b>true</b> if the credentials of the currently logged-on user should be used; otherwise, <b>false</b>.</span></span></value>
+        <remarks><span data-ttu-id="d46a0-151"><para>Если задать <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> для свойства <b>значение true</b> , <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойству будет автоматически присвоена пустая ссылка (Nothing в Visual Basic).</para> 
+          <para>Вы не можете использовать учетные данные пользователя, выполнившего вход в систему, если почтовый ящик пользователя размещен в Exchange Online или Exchange Online в составе Office 365. Вместо этого используйте <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство, чтобы задать учетные данные пользователя. Учетные данные пользователя должны быть указаны в форме имени участника-пользователя (UPN) для Exchange Online.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="d46a0-151"><para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> property to <b>true</b> automatically sets the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property to a null reference (Nothing in Visual Basic).</para>
+          <para>You cannot use the default credentials of the logged on user if the user’s mailbox is hosted in Exchange Online or Exchange Online as part of Office 365. Instead, use the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> property to set the user’s credentials. The user’s credentials must be in user principal name (UPN) form for Exchange Online.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserAgent">
@@ -744,18 +446,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-152">Получает или задает агент пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-152">Gets or sets the user agent.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-153">A <see cref="T:System.String" /> объект, который представляет агент пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-153">A  <see cref="T:System.String" /> object that represents the user agent.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-152">Получает или задает агента пользователя.</span><span class="sxs-lookup"><span data-stu-id="d46a0-152">Gets or sets the user agent.</span></span></summary>
+        <value><span data-ttu-id="d46a0-153"><see cref="T:System.String" /> Объект, представляющий агент пользователя.</span><span class="sxs-lookup"><span data-stu-id="d46a0-153">A  <see cref="T:System.String" /> object that represents the user agent.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -774,18 +466,8 @@
         <ReturnType>System.Net.IWebProxy</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea320-154">Получает или задает прокси-сервера веб-сервере, который обрабатывает запросы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-154">Gets or sets the Web proxy server that handles requests.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea320-155">Веб-прокси-сервер, который обрабатывает запросы, отправленные на сервере Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea320-155">The Web proxy server that handles requests that are sent to the Exchange server.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d46a0-154">Получает или задает сервер веб-прокси, который обрабатывает запросы.</span><span class="sxs-lookup"><span data-stu-id="d46a0-154">Gets or sets the Web proxy server that handles requests.</span></span></summary>
+        <value><span data-ttu-id="d46a0-155">Сервер веб-прокси, который обрабатывает запросы, отправляемые на сервер Exchange.</span><span class="sxs-lookup"><span data-stu-id="d46a0-155">The Web proxy server that handles requests that are sent to the Exchange server.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

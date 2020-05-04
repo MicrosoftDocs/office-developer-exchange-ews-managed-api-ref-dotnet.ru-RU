@@ -1,13 +1,5 @@
 <Type Name="EmailPosition" FullName="Microsoft.Exchange.WebServices.Data.EmailPosition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="27bd8cdf8137afb4dea4bcad02f4e884110f30c2" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627126" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum EmailPosition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="27bd8cdf8137afb4dea4bcad02f4e884110f30c2" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627126" /></Metadata><TypeSignature Language="C#" Value="public enum EmailPosition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EmailPosition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailPosition" />
   <TypeSignature Language="VB.NET" Value="Public Enum EmailPosition" />
@@ -20,17 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="90ff9-101">Определяет положение, где был найден извлеченный объект в сообщение.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="90ff9-101">Defines the position where an extracted entity was found in a message.</span>
-      </span>
-      <span data-ttu-id="90ff9-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.EmailPosition" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="90ff9-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.EmailPosition" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="6007e-101">Определяет позицию, в которой обнаружен извлеченный объект в сообщении.</span><span class="sxs-lookup"><span data-stu-id="6007e-101">Defines the position where an extracted entity was found in a message.</span></span>             <span data-ttu-id="6007e-102"><see cref="T:Microsoft.Exchange.WebServices.Data.EmailPosition" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6007e-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.EmailPosition" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,16 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90ff9-103">Указывает положение на последние ответ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90ff9-103">The position points to the latest reply.</span>
-          </span>
-          <span data-ttu-id="90ff9-104">В поле LatestReply используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90ff9-104">The LatestReply field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6007e-103">Позиция указывает на последний ответ.</span><span class="sxs-lookup"><span data-stu-id="6007e-103">The position points to the latest reply.</span></span>             <span data-ttu-id="6007e-104">Поле Латестрепли применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6007e-104">The LatestReply field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Other">
@@ -78,16 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90ff9-105">Указывает позицию в списке нет позицию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90ff9-105">The position points to an unlisted position.</span>
-          </span>
-          <span data-ttu-id="90ff9-106">Другие поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90ff9-106">The Other field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6007e-105">Позиция указывает на нечисленную позицию.</span><span class="sxs-lookup"><span data-stu-id="6007e-105">The position points to an unlisted position.</span></span>             <span data-ttu-id="6007e-106">Другое поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6007e-106">The Other field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Signature">
@@ -106,16 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90ff9-107">Положение указывает подпись сообщения электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90ff9-107">The position points to the signature of an email.</span>
-          </span>
-          <span data-ttu-id="90ff9-108">В поле подписи можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90ff9-108">The Signature field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6007e-107">Позиция указывает на подпись сообщения электронной почты.</span><span class="sxs-lookup"><span data-stu-id="6007e-107">The position points to the signature of an email.</span></span>             <span data-ttu-id="6007e-108">Поле Signature подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6007e-108">The Signature field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -134,16 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90ff9-109">Положение указывает тему сообщения электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90ff9-109">The position points to the subject of an email.</span>
-          </span>
-          <span data-ttu-id="90ff9-110">В поле Тема используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90ff9-110">The Subject field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6007e-109">Позиция указывает на тему сообщения электронной почты.</span><span class="sxs-lookup"><span data-stu-id="6007e-109">The position points to the subject of an email.</span></span>             <span data-ttu-id="6007e-110">Поле subject подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6007e-110">The Subject field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
       </Docs>
     </Member>
   </Members>

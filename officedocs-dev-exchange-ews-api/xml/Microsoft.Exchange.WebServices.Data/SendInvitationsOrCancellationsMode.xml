@@ -1,13 +1,5 @@
 <Type Name="SendInvitationsOrCancellationsMode" FullName="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e8dc661359af3015b2e1b7731c0616cef24fe6b2" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627299" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SendInvitationsOrCancellationsMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e8dc661359af3015b2e1b7731c0616cef24fe6b2" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627299" /></Metadata><TypeSignature Language="C#" Value="public enum SendInvitationsOrCancellationsMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendInvitationsOrCancellationsMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum SendInvitationsOrCancellationsMode" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="f19c9-101">Определяет константы, которые определяют, приглашения на собрания или отмены обработки при обновлении собрания.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f19c9-101">Specifies constants that define how meeting invitations or cancellations are handled when a meeting is updated.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8ac2e-101">Задает константы, определяющие, как будут обрабатываться приглашения на собрания или отмены при обновлении собрания.</span><span class="sxs-lookup"><span data-stu-id="8ac2e-101">Specifies constants that define how meeting invitations or cancellations are handled when a meeting is updated.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f19c9-102">Отправка приглашения на собрания и отмены всех участников; не сохранять копию приглашение или отмены собрания в папке "Отправленные" организатора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f19c9-102">Send meeting invitations/cancellations to all attendees; do not save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ac2e-102">Отправлять приглашения на собрания и их отмены всем участникам; не сохраняйте копию приглашения на собрание или отмены в папке "Отправленные" организатора.</span><span class="sxs-lookup"><span data-stu-id="8ac2e-102">Send meeting invitations/cancellations to all attendees; do not save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SendOnlyToChanged">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f19c9-103">Отправка приглашений на собрания и отмены только участникам, которые были добавлены или изменены; не сохранять копию приглашение или отмены собрания в папке "Отправленные" организатора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f19c9-103">Send meeting invitations/cancellations only to attendees that have been added or modified; do not save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ac2e-103">Отправлять приглашения на собрания и отмены только участникам, которые были добавлены или изменены; не сохраняйте копию приглашения на собрание или отмены в папке "Отправленные" организатора.</span><span class="sxs-lookup"><span data-stu-id="8ac2e-103">Send meeting invitations/cancellations only to attendees that have been added or modified; do not save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SendToAllAndSaveCopy">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f19c9-104">Отправка приглашения на собрания и отмены всех участников и сохранить копию приглашение или отмены собрания в папке "Отправленные" организатора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f19c9-104">Send meeting invitations/cancellations to all attendees and save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ac2e-104">Отправлять приглашения на собрания и отмены всем участникам и сохранять копию приглашения на собрание или отмены в папке "Отправленные" организатора.</span><span class="sxs-lookup"><span data-stu-id="8ac2e-104">Send meeting invitations/cancellations to all attendees and save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SendToChangedAndSaveCopy">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f19c9-105">Отправка приглашений на собрания и отмены только участникам, которые были добавлены или изменены и сохранить копию приглашение на собрание и отмене в папке "Отправленные" Организатор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f19c9-105">Send meeting invitations/cancellations only to attendees that have been added or modified and save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ac2e-105">Отправлять приглашения на собрания или отмены только участникам, которые были добавлены или изменены, а также сохранены в папке "Отправленные" организатора.</span><span class="sxs-lookup"><span data-stu-id="8ac2e-105">Send meeting invitations/cancellations only to attendees that have been added or modified and save a copy of the meeting invitation/cancellation in the organizer's Sent Items folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="SendToNone">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f19c9-106">Не отправлять приглашения на собрания и отмены.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f19c9-106">Do not send meeting invitations/cancellations.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ac2e-106">Не отправляйте приглашения на собрания и их отмену.</span><span class="sxs-lookup"><span data-stu-id="8ac2e-106">Do not send meeting invitations/cancellations.</span></span></summary>
       </Docs>
     </Member>
   </Members>

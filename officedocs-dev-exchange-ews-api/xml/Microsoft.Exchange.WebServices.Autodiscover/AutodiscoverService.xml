@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverService" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c88de3f7ba47d96a430bc477dffe70a72760b23a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627366" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AutodiscoverService : Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c88de3f7ba47d96a430bc477dffe70a72760b23a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627366" /></Metadata><TypeSignature Language="C#" Value="public sealed class AutodiscoverService : Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AutodiscoverService extends Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AutodiscoverService&#xA;Inherits ExchangeServiceBase" />
@@ -21,24 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="2bf3e-101">Представляет привязку к службе автообнаружения Exchange.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2bf3e-101">Represents a binding to the Exchange Autodiscover service.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="2bf3e-102">
-        <para>В управляемый API веб-служб Exchange (EWS) <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> класс содержит методы и свойства, используемые для задать учетные данные пользователя, определение конечных точек веб-служб Exchange, отправки и получения сообщений SOAP и настройка подключений к веб-служб Exchange. Для выполнения операции с помощью управляемого интерфейса API веб-служб Exchange, необходимо сначала настроить <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> класса.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2bf3e-102">
-          <para>In the Exchange Web Services (EWS) Managed API, the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class contains the methods and properties that are used to set user credentials, identify EWS endpoints, send and receive SOAP messages, and configure connections to EWS. To perform an operation by using the EWS Managed API, you must first set up the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="622ea-101">Представляет привязку к службе автообнаружения Exchange.</span><span class="sxs-lookup"><span data-stu-id="622ea-101">Represents a binding to the Exchange Autodiscover service.</span></span></summary>
+    <remarks><span data-ttu-id="622ea-102"><para>В управляемом API веб-служб Exchange (EWS) <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> класс содержит методы и свойства, которые используются для задания учетных данных пользователя, определения конечных точек EWS, отправки и получения сообщений SOAP, а также для настройки подключений к EWS. Чтобы выполнить операцию с помощью управляемого API EWS, необходимо сначала настроить <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> класс.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="622ea-102"><para>In the Exchange Web Services (EWS) Managed API, the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class contains the methods and properties that are used to set user credentials, identify EWS endpoints, send and receive SOAP messages, and configure connections to EWS. To perform an operation by using the EWS Managed API, you must first set up the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -54,12 +32,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf3e-103">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="622ea-103">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класса.</span><span class="sxs-lookup"><span data-stu-id="622ea-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,18 +51,8 @@
         <Parameter Name="requestedServerVersion" Type="Microsoft.Exchange.WebServices.Data.ExchangeVersion" />
       </Parameters>
       <Docs>
-        <param name="requestedServerVersion">
-          <span data-ttu-id="2bf3e-104">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> значений перечисления, определяющее версия сервера, которое будет использоваться для запросов на операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-104">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration values that specifies the server version to be used for operation requests.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-105">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класс, имеющий версии сервера, указанного идентификатором <paramref name="requestedServerVersion" /> параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-105">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span>
-          </span>
-        </summary>
+        <param name="requestedServerVersion"><span data-ttu-id="622ea-104">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> перечисления, задающее версию сервера, которая будет использоваться для запросов операций.</span><span class="sxs-lookup"><span data-stu-id="622ea-104">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration values that specifies the server version to be used for operation requests.</span></span></param>
+        <summary><span data-ttu-id="622ea-105">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класса с версией сервера, заданной <paramref name="requestedServerVersion" /> параметром.</span><span class="sxs-lookup"><span data-stu-id="622ea-105">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -108,18 +71,8 @@
         <Parameter Name="domain" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="domain">
-          <span data-ttu-id="2bf3e-106">Домен, который будет использоваться для определения URL-адрес службы автообнаружения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-106">The domain that will be used to determine the URL of the Autodiscover service.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-107">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класс, имеющий домену, указанному с <paramref name="domain" /> параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the domain specified by the <paramref name="domain" /> parameter.</span>
-          </span>
-        </summary>
+        <param name="domain"><span data-ttu-id="622ea-106">Домен, который будет использоваться для определения URL-адреса службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="622ea-106">The domain that will be used to determine the URL of the Autodiscover service.</span></span></param>
+        <summary><span data-ttu-id="622ea-107">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класса с доменом, указанным <paramref name="domain" /> параметром.</span><span class="sxs-lookup"><span data-stu-id="622ea-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the domain specified by the <paramref name="domain" /> parameter.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,18 +91,8 @@
         <Parameter Name="url" Type="System.Uri" />
       </Parameters>
       <Docs>
-        <param name="url">
-          <span data-ttu-id="2bf3e-108">URL-адрес службы автообнаружения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-108">The URL of the Autodiscover service.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-109">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класс, имеющий автообнаружения службы URL-адрес, указанный с <paramref name="url" /> параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-109">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the Autodiscover service URL specified by the <paramref name="url" /> parameter.</span>
-          </span>
-        </summary>
+        <param name="url"><span data-ttu-id="622ea-108">URL-адрес службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="622ea-108">The URL of the Autodiscover service.</span></span></param>
+        <summary><span data-ttu-id="622ea-109">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класса, который содержит URL-адрес службы автообнаружения, заданный <paramref name="url" /> параметром.</span><span class="sxs-lookup"><span data-stu-id="622ea-109">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the Autodiscover service URL specified by the <paramref name="url" /> parameter.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -169,24 +112,9 @@
         <Parameter Name="requestedServerVersion" Type="Microsoft.Exchange.WebServices.Data.ExchangeVersion" />
       </Parameters>
       <Docs>
-        <param name="domain">
-          <span data-ttu-id="2bf3e-110">Домен, который будет использоваться для определения URL-адрес службы автообнаружения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-110">The domain that will be used to determine the URL of the Autodiscover service.</span>
-          </span>
-        </param>
-        <param name="requestedServerVersion">
-          <span data-ttu-id="2bf3e-111">Одно из значений перечисления, определяющее версия сервера, используемого для операции запросов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-111">One of the  enumeration values that specifies the server version to use for operation requests.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-112">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класс, имеющий домену, указанному с <paramref name="domain" /> параметр и версия сервера, указанного идентификатором <paramref name="requestedServerVersion" /> параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the domain specified by the <paramref name="domain" /> parameter and the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span>
-          </span>
-        </summary>
+        <param name="domain"><span data-ttu-id="622ea-110">Домен, который будет использоваться для определения URL-адреса службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="622ea-110">The domain that will be used to determine the URL of the Autodiscover service.</span></span></param>
+        <param name="requestedServerVersion"><span data-ttu-id="622ea-111">Одно из значений перечисления, задающее версию сервера, используемую для запросов операций.</span><span class="sxs-lookup"><span data-stu-id="622ea-111">One of the  enumeration values that specifies the server version to use for operation requests.</span></span></param>
+        <summary><span data-ttu-id="622ea-112">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класса с доменом, указанным <paramref name="domain" /> параметром, и версией сервера, указанной <paramref name="requestedServerVersion" /> параметром.</span><span class="sxs-lookup"><span data-stu-id="622ea-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the domain specified by the <paramref name="domain" /> parameter and the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -206,24 +134,9 @@
         <Parameter Name="requestedServerVersion" Type="Microsoft.Exchange.WebServices.Data.ExchangeVersion" />
       </Parameters>
       <Docs>
-        <param name="url">
-          <span data-ttu-id="2bf3e-113">URL-адрес службы автообнаружения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-113">The URL of the Autodiscover service.</span>
-          </span>
-        </param>
-        <param name="requestedServerVersion">
-          <span data-ttu-id="2bf3e-114">Одно из значений перечисления, определяющее версия сервера, которое будет использоваться для запросов на операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-114">One of the enumeration values that specifies the server version to be used for operation requests.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-115">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класс, имеющий автообнаружения службы URL-адрес, указанный с <paramref name="url" /> параметр и версия сервера, указанного идентификатором <paramref name="requestedServerVersion" /> параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-115">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the Autodiscover service URL specified by the <paramref name="url" /> parameter and the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span>
-          </span>
-        </summary>
+        <param name="url"><span data-ttu-id="622ea-113">URL-адрес службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="622ea-113">The URL of the Autodiscover service.</span></span></param>
+        <param name="requestedServerVersion"><span data-ttu-id="622ea-114">Одно из значений перечисления, задающее версию сервера, которая будет использоваться для запросов операций.</span><span class="sxs-lookup"><span data-stu-id="622ea-114">One of the enumeration values that specifies the server version to be used for operation requests.</span></span></param>
+        <summary><span data-ttu-id="622ea-115">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> класса, который содержит URL-адрес службы автообнаружения, заданный <paramref name="url" /> параметром, и версией сервера, указанной <paramref name="requestedServerVersion" /> параметром.</span><span class="sxs-lookup"><span data-stu-id="622ea-115">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the Autodiscover service URL specified by the <paramref name="url" /> parameter and the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -242,30 +155,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf3e-116">Получает или задает домен, к которому привязан указанной службы автообнаружения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-116">Gets or sets the domain that the specified Autodiscover service is bound to.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="2bf3e-117">Имя домена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-117">The domain name.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="2bf3e-118">
-            <para>При <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> создается экземпляр класса с именем домена этого имени домена используется для определения URL-адрес службы автообнаружения автоматически.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-118">
-              <para>When the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class is instantiated with a domain name, that domain name is used to determine the Autodiscover service URL automatically.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="622ea-116">Получает или задает домен, к которому привязана указанная служба автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="622ea-116">Gets or sets the domain that the specified Autodiscover service is bound to.</span></span></summary>
+        <value><span data-ttu-id="622ea-117">Доменное имя.</span><span class="sxs-lookup"><span data-stu-id="622ea-117">The domain name.</span></span></value>
+        <remarks><span data-ttu-id="622ea-118"><para>При создании <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> экземпляра класса с доменным именем это имя домена используется для автоматической проверки URL-адреса службы автообнаружения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="622ea-118"><para>When the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class is instantiated with a domain name, that domain name is used to determine the Autodiscover service URL automatically.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableScpLookup">
@@ -283,20 +177,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf3e-119">Получает или задает ли <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> экземпляр должен выполнять поиск точки подключения службы (SCP), при определении URL-адрес службы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-119">Gets or sets whether the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> instance should perform a Service Connection Point (SCP) lookup when determining the service URL.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="2bf3e-120">
-            <b>значение true,</b> Если <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> экземпляра следует выполнять в SCP просмотра; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-120">
-              <b>true</b> if the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> instance should perform an SCP lookup; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="622ea-119">Получает или задает значение <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> , указывающее, должен ли экземпляр выполнять поиск точки подключения службы (SCP) при определении URL-адреса службы.</span><span class="sxs-lookup"><span data-stu-id="622ea-119">Gets or sets whether the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> instance should perform a Service Connection Point (SCP) lookup when determining the service URL.</span></span></summary>
+        <value><span data-ttu-id="622ea-120"><b>значение true</b> , <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> если экземпляр должен выполнять поиск SCP; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="622ea-120"><b>true</b> if the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> instance should perform an SCP lookup; otherwise, <b>false</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -326,48 +208,14 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="domains">
-          <span data-ttu-id="2bf3e-121">SMTP-адреса доменов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-121">The SMTP addresses of the domains.</span>
-          </span>
-        </param>
-        <param name="requestedVersion">
-          <span data-ttu-id="2bf3e-122">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> значений перечисления, определяющее версия сервера, которое будет использоваться для запросов на операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-122">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration values that specifies the server version to be used for operation requests.</span>
-          </span>
-        </param>
-        <param name="domainSettingNames">
-          <span data-ttu-id="2bf3e-123">Настройка доменных имен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-123">The domain setting names.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-124">Извлекает указанный параметры для набора доменов с указанного URL-адреса с версией указанного сервера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-124">Retrieves the specified settings for a set of domains at the specified URLs with the specified server version.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="2bf3e-125">Коллекция, содержащая ответы для каждого отдельного домена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-125">A collection that contains the responses for each individual domain.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="2bf3e-126">
-            <para>Возвращаемый <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection" /> объект содержит параметры для доменов.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-126">
-              <para>The returned <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection" /> object contains the settings for the domains.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="domains"><span data-ttu-id="622ea-121">SMTP-адреса доменов.</span><span class="sxs-lookup"><span data-stu-id="622ea-121">The SMTP addresses of the domains.</span></span></param>
+        <param name="requestedVersion"><span data-ttu-id="622ea-122">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> перечисления, задающее версию сервера, которая будет использоваться для запросов операций.</span><span class="sxs-lookup"><span data-stu-id="622ea-122">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration values that specifies the server version to be used for operation requests.</span></span></param>
+        <param name="domainSettingNames"><span data-ttu-id="622ea-123">Имена параметров домена.</span><span class="sxs-lookup"><span data-stu-id="622ea-123">The domain setting names.</span></span></param>
+        <summary><span data-ttu-id="622ea-124">Получает заданные параметры для набора доменов по заданным URL-адресам с указанной версией сервера.</span><span class="sxs-lookup"><span data-stu-id="622ea-124">Retrieves the specified settings for a set of domains at the specified URLs with the specified server version.</span></span></summary>
+        <returns><span data-ttu-id="622ea-125">Коллекция, содержащая ответы для каждого отдельного домена.</span><span class="sxs-lookup"><span data-stu-id="622ea-125">A collection that contains the responses for each individual domain.</span></span></returns>
+        <remarks><span data-ttu-id="622ea-126"><para>Возвращаемый <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection" /> объект содержит параметры для доменов.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="622ea-126"><para>The returned <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection" /> object contains the settings for the domains.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDomainSettings">
@@ -396,37 +244,11 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="domain">
-          <span data-ttu-id="2bf3e-127">SMTP-адрес домена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-127">The SMTP address of the domain.</span>
-          </span>
-        </param>
-        <param name="requestedVersion">
-          <span data-ttu-id="2bf3e-128">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> значение перечисления, указывающее, версия сервера, которое будет использоваться для запросов на операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-128">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration value that specifies the server version to be used for operation requests.</span>
-          </span>
-        </param>
-        <param name="domainSettingNames">
-          <span data-ttu-id="2bf3e-129">Настройка доменных имен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-129">The domain setting names.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-130">Извлекает указанный параметры для домена с версией указанного сервера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-130">Retrieves the specified settings for a domain with the specified server version.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="2bf3e-131">
-            <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" /> Экземпляр, в котором содержатся параметры для конкретного домена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-131">The <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" /> instance that contains the settings for the specified domain.</span>
-          </span>
-        </returns>
+        <param name="domain"><span data-ttu-id="622ea-127">SMTP-адрес домена.</span><span class="sxs-lookup"><span data-stu-id="622ea-127">The SMTP address of the domain.</span></span></param>
+        <param name="requestedVersion"><span data-ttu-id="622ea-128">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> перечисления, указывающее версию сервера, которая будет использоваться для запросов операций.</span><span class="sxs-lookup"><span data-stu-id="622ea-128">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration value that specifies the server version to be used for operation requests.</span></span></param>
+        <param name="domainSettingNames"><span data-ttu-id="622ea-129">Имена параметров домена.</span><span class="sxs-lookup"><span data-stu-id="622ea-129">The domain setting names.</span></span></param>
+        <summary><span data-ttu-id="622ea-130">Получает указанные параметры для домена с указанной версией сервера.</span><span class="sxs-lookup"><span data-stu-id="622ea-130">Retrieves the specified settings for a domain with the specified server version.</span></span></summary>
+        <returns><span data-ttu-id="622ea-131"><see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" /> Экземпляр, который содержит параметры для указанного домена.</span><span class="sxs-lookup"><span data-stu-id="622ea-131">The <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" /> instance that contains the settings for the specified domain.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -445,18 +267,8 @@
         <ReturnType>System.Func&lt;System.String,System.Collections.Generic.ICollection&lt;System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf3e-132">Получает или задает делегат, используемый для разрешения URL-адреса точки подключения службы автообнаружения (SCP) для указанного домена. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetScpUrlsForDomainCallback" /> Свойство применимо к клиентам, предназначенных для версии Exchange, начиная с Exchange Server 2013, включая Exchange Online.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-132">Gets or sets the delegate used to resolve Autodiscover Service Connection Point (SCP) URLs for a specified domain.The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetScpUrlsForDomainCallback" /> property is applicable to clients that target versions of Exchange starting with Exchange Server 2013, including Exchange Online.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="2bf3e-133">Делегат, используемый для разрешения URL-адреса точки подключения службы автообнаружения для указанного домена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-133">The delegate used to resolve Autodiscover SCP URLs for a specified domain.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="622ea-132">Получает или задает делегат, используемый для разрешения URL-адресов точки подключения службы автообнаружения для указанного домена. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetScpUrlsForDomainCallback" /> Свойство применяется к клиентам, для которых предназначены версии Exchange, начиная с exchange Server 2013, включая Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="622ea-132">Gets or sets the delegate used to resolve Autodiscover Service Connection Point (SCP) URLs for a specified domain.The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetScpUrlsForDomainCallback" /> property is applicable to clients that target versions of Exchange starting with Exchange Server 2013, including Exchange Online.</span></span></summary>
+        <value><span data-ttu-id="622ea-133">Делегат, используемый для разрешения URL-адресов SCP службы автообнаружения для указанного домена.</span><span class="sxs-lookup"><span data-stu-id="622ea-133">The delegate used to resolve Autodiscover SCP URLs for a specified domain.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -485,47 +297,15 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="userSmtpAddress">
-          <span data-ttu-id="2bf3e-134">SMTP-адрес пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-134">The SMTP address of the user.</span>
-          </span>
-        </param>
-        <param name="userSettingNames">
-          <span data-ttu-id="2bf3e-135">Параметр имена пользователей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-135">The user setting names.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-136">Получение параметров указанного пользователя для SMTP-адреса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-136">Retrieves the specified user settings for an SMTP address.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="2bf3e-137">Запрошенный параметры для указанного пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-137">The requested settings for the specified user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="2bf3e-138">
-            <para>
-              <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> Метод не соответствует адресов и URL-адрес перенаправления. Извлекаются только параметры запрошенного пользователя, если они существуют.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-138">
-              <para>The <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method does not follow address and URL redirections. Only the requested user settings are retrieved, if they exist.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="2bf3e-139">
-            <para>В следующем примере кода показано, как использовать <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> для извлечения <b>UserDisplayName</b>, <b>CasVersion</b>и другие пользовательские параметры, запрашиваемый в <paramref name="userSettingNames" /> параметр. Параметр имя пользователя и значения отображаются.</para>
-            <code>public static GetUserSettingsResponse GetUserSettings(
+        <param name="userSmtpAddress"><span data-ttu-id="622ea-134">SMTP-адрес пользователя.</span><span class="sxs-lookup"><span data-stu-id="622ea-134">The SMTP address of the user.</span></span></param>
+        <param name="userSettingNames"><span data-ttu-id="622ea-135">Имена параметров пользователя.</span><span class="sxs-lookup"><span data-stu-id="622ea-135">The user setting names.</span></span></param>
+        <summary><span data-ttu-id="622ea-136">Извлекает указанные параметры пользователя для SMTP-адреса.</span><span class="sxs-lookup"><span data-stu-id="622ea-136">Retrieves the specified user settings for an SMTP address.</span></span></summary>
+        <returns><span data-ttu-id="622ea-137">Запрошенные параметры для указанного пользователя.</span><span class="sxs-lookup"><span data-stu-id="622ea-137">The requested settings for the specified user.</span></span></returns>
+        <remarks><span data-ttu-id="622ea-138"><para>Этот <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> метод не следит за перенаправлениями адресов и URL-адресов. Извлекаются только запрошенные параметры пользователя, если они существуют.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="622ea-138"><para>The <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method does not follow address and URL redirections. Only the requested user settings are retrieved, if they exist.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="622ea-139"><para>В приведенном ниже примере кода показано, как <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> использовать метод для получения параметров <b>UserDisplayName</b>, <b>касверсион</b>и других пользовательских параметров, запрошенных <paramref name="userSettingNames" /> в параметре. Отображаются имя и значение параметра пользователя.</para>
+          <code>public static GetUserSettingsResponse GetUserSettings(
      AutodiscoverService service,
      string emailAddress,
      int maxHops,
@@ -557,12 +337,8 @@
 
          throw new Exception("No suitable Autodiscover endpoint was found.");
      }
-</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-139">
-              <para>The following code example shows how to use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method to retrieve the <b>UserDisplayName</b>, <b>CasVersion</b>, and other user settings requested in the <paramref name="userSettingNames" /> parameter. The user setting name and value are displayed.</para>
-              <code>public static GetUserSettingsResponse GetUserSettings(
+</code></span><span class="sxs-lookup"><span data-stu-id="622ea-139"><para>The following code example shows how to use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method to retrieve the <b>UserDisplayName</b>, <b>CasVersion</b>, and other user settings requested in the <paramref name="userSettingNames" /> parameter. The user setting name and value are displayed.</para>
+          <code>public static GetUserSettingsResponse GetUserSettings(
      AutodiscoverService service,
      string emailAddress,
      int maxHops,
@@ -594,10 +370,7 @@
 
          throw new Exception("No suitable Autodiscover endpoint was found.");
      }
-</code>
-            </span>
-          </span>
-        </example>
+</code></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="GetUsersSettings">
@@ -625,42 +398,13 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="userSmtpAddresses">
-          <span data-ttu-id="2bf3e-140">SMTP-адреса пользователей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-140">The SMTP addresses of the users.</span>
-          </span>
-        </param>
-        <param name="userSettingNames">
-          <span data-ttu-id="2bf3e-141">Параметр имена пользователей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-141">The user setting names.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-142">Извлекает указанный параметры для группы пользователей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-142">Retrieves the specified settings for a set of users.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="2bf3e-143">Ответы для каждого пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-143">The responses for each individual user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="2bf3e-144">
-            <para>Этот метод применяется к версии Exchange, начиная с Exchange 2010, включая Exchange Online. Использование <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> метод, если вы используете почтовому ящику Exchange 2007.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-144">
-              <para>This method applies to versions of Exchange starting with Exchange 2010, including Exchange Online. Use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method if you are targeting an Exchange 2007 mailbox. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="userSmtpAddresses"><span data-ttu-id="622ea-140">SMTP-адреса пользователей.</span><span class="sxs-lookup"><span data-stu-id="622ea-140">The SMTP addresses of the users.</span></span></param>
+        <param name="userSettingNames"><span data-ttu-id="622ea-141">Имена параметров пользователя.</span><span class="sxs-lookup"><span data-stu-id="622ea-141">The user setting names.</span></span></param>
+        <summary><span data-ttu-id="622ea-142">Получает заданные параметры для набора пользователей.</span><span class="sxs-lookup"><span data-stu-id="622ea-142">Retrieves the specified settings for a set of users.</span></span></summary>
+        <returns><span data-ttu-id="622ea-143">Ответы для каждого отдельного пользователя.</span><span class="sxs-lookup"><span data-stu-id="622ea-143">The responses for each individual user.</span></span></returns>
+        <remarks><span data-ttu-id="622ea-144"><para>Этот метод применяется к версиям Exchange, начиная с Exchange 2010, включая Exchange Online. Используйте этот <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> метод, если вы нацелены на почтовый ящик Exchange 2007.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="622ea-144"><para>This method applies to versions of Exchange starting with Exchange 2010, including Exchange Online. Use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method if you are targeting an Exchange 2007 mailbox. </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsExternal">
@@ -678,33 +422,11 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf3e-145">Получает или задает значение, указывающее, является ли служба автообнаружения, которая указывает URL-адрес (внутри корпоративной сети) внутренних или внешних (за пределами корпоративной сети).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-145">Gets or sets a value that indicates whether the Autodiscover service that the URL points to is internal (inside the corporate network) or external (outside the corporate network).</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="2bf3e-146">
-            <b>значение true,</b> Если домен внутренней; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-146">
-              <b>true</b> if the domain is internal; otherwise, <b>false</b>.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="2bf3e-147">
-            <para>
-              <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.IsExternal" /> Свойство — это пустая ссылка (Nothing в Visual Basic), если был создан этот экземпляр имя домена, а не метод был вызван или, если URL-адрес был создан этот экземпляр.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-147">
-              <para>The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.IsExternal" /> property is a null reference (Nothing in Visual Basic) if this instance has been created with a domain name and no method has been called, or if this instance has been created with a URL.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="622ea-145">Получает или задает значение, указывающее, является ли служба автообнаружения, на которую указывает URL-адрес, внутренней (внутри корпоративной сети) или внешней (за пределами корпоративной сети).</span><span class="sxs-lookup"><span data-stu-id="622ea-145">Gets or sets a value that indicates whether the Autodiscover service that the URL points to is internal (inside the corporate network) or external (outside the corporate network).</span></span></summary>
+        <value><span data-ttu-id="622ea-146"><b>значение true</b> , если домен является внутренним; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="622ea-146"><b>true</b> if the domain is internal; otherwise, <b>false</b>.</span></span></value>
+        <remarks><span data-ttu-id="622ea-147"><para><see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.IsExternal" /> Свойство является пустой ссылкой (Nothing в Visual Basic), если этот экземпляр был создан с доменным именем, а метод не был вызван, или если этот экземпляр был создан с помощью URL-адреса.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="622ea-147"><para>The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.IsExternal" /> property is a null reference (Nothing in Visual Basic) if this instance has been created with a domain name and no method has been called, or if this instance has been created with a URL.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="RedirectionUrlValidationCallback">
@@ -722,18 +444,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRedirectionUrlValidationCallback</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf3e-148">Получает или задает обратного вызова проверки URL-адрес перенаправления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-148">Gets or sets the redirection URL validation callback.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="2bf3e-149">Обратный вызов проверки URL-адрес перенаправления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-149">The redirection URL validation callback.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="622ea-148">Получает или задает обратный вызов проверки URL-адреса перенаправления.</span><span class="sxs-lookup"><span data-stu-id="622ea-148">Gets or sets the redirection URL validation callback.</span></span></summary>
+        <value><span data-ttu-id="622ea-149">Обратный вызов проверки URL-адреса перенаправления.</span><span class="sxs-lookup"><span data-stu-id="622ea-149">The redirection URL validation callback.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -757,38 +469,11 @@
         <Parameter Name="targetTenantAutodiscoverUrl" Type="System.Uri&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="targetTenantDomain">
-          <span data-ttu-id="2bf3e-150">Доменом или пользователем адрес электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-150">The target domain or user email address.</span>
-          </span>
-        </param>
-        <param name="partnerAccessCredentials">
-          <span data-ttu-id="2bf3e-151">Доступ к учетным данным партнера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-151">The partner access credentials.</span>
-          </span>
-        </param>
-        <param name="targetTenantAutodiscoverUrl">
-          <span data-ttu-id="2bf3e-152">URL-адрес службы автообнаружения для указанного клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-152">The Autodiscover URL for the specified tenant.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bf3e-153">Пытается получить сведения о доступе партнера для указанного клиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-153">Attempts to retrieve the partner access information for the specified tenant.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="2bf3e-154">
-            <b>значение true,</b> Если партнера доступ к данным было извлечено; в противном случае — <b>false</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-154">
-              <b>true</b> if the partner access information was retrieved; otherwise, <b>false</b>.</span>
-          </span>
-        </returns>
+        <param name="targetTenantDomain"><span data-ttu-id="622ea-150">Конечный домен или адрес электронной почты пользователя.</span><span class="sxs-lookup"><span data-stu-id="622ea-150">The target domain or user email address.</span></span></param>
+        <param name="partnerAccessCredentials"><span data-ttu-id="622ea-151">Учетные данные доступа для партнера.</span><span class="sxs-lookup"><span data-stu-id="622ea-151">The partner access credentials.</span></span></param>
+        <param name="targetTenantAutodiscoverUrl"><span data-ttu-id="622ea-152">URL-адрес автообнаружения для указанного клиента.</span><span class="sxs-lookup"><span data-stu-id="622ea-152">The Autodiscover URL for the specified tenant.</span></span></param>
+        <summary><span data-ttu-id="622ea-153">Пытается получить сведения о доступе к партнеру для указанного клиента.</span><span class="sxs-lookup"><span data-stu-id="622ea-153">Attempts to retrieve the partner access information for the specified tenant.</span></span></summary>
+        <returns><span data-ttu-id="622ea-154"><b>имеет значение true</b> , если информация о партнере была получена; в противном случае — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="622ea-154"><b>true</b> if the partner access information was retrieved; otherwise, <b>false</b>.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -807,30 +492,11 @@
         <ReturnType>System.Uri</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2bf3e-155">Получает или задает URL-адрес службы автообнаружения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-155">Gets or sets the URL of the Autodiscover service.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="2bf3e-156">URL-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-156">The URL.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="2bf3e-157">
-            <para>При <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> создается экземпляр класса с именем домена этого имени домена используется для определения URL-адрес службы автообнаружения автоматически.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bf3e-157">
-              <para>When the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class is instantiated with a domain name, that domain name is used to determine the Autodiscover service URL automatically.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="622ea-155">Получает или задает URL-адрес службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="622ea-155">Gets or sets the URL of the Autodiscover service.</span></span></summary>
+        <value><span data-ttu-id="622ea-156">URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="622ea-156">The URL.</span></span></value>
+        <remarks><span data-ttu-id="622ea-157"><para>При создании <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> экземпляра класса с доменным именем это имя домена используется для автоматической проверки URL-адреса службы автообнаружения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="622ea-157"><para>When the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class is instantiated with a domain name, that domain name is used to determine the Autodiscover service URL automatically.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="PreviewItemResponseShape" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0e487e723d798a0374218e146d9d70c1f8e28d09" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626961" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PreviewItemResponseShape" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0e487e723d798a0374218e146d9d70c1f8e28d09" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626961" /></Metadata><TypeSignature Language="C#" Value="public sealed class PreviewItemResponseShape" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreviewItemResponseShape extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewItemResponseShape" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="a2e3f-101">Содержит элемент предварительного просмотра и коллекцию имен расширенных свойств.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a2e3f-101">Contains the preview item and a collection of extended property names.</span>
-      </span>
-      <span data-ttu-id="a2e3f-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a2e3f-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1d9bc-101">Содержит элемент Preview и коллекцию имен расширенных свойств.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-101">Contains the preview item and a collection of extended property names.</span></span>             <span data-ttu-id="1d9bc-102"><see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,17 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="a2e3f-103">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> класса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class.</span>
-          </span>
-          <span data-ttu-id="a2e3f-104">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1d9bc-103">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> класса.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class.</span></span>             <span data-ttu-id="1d9bc-104"><see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,29 +50,9 @@
         <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[]" />
       </Parameters>
       <Docs>
-        <param name="baseShape">
-          <span data-ttu-id="a2e3f-105">Фигура предварительного просмотра базового элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-105">The preview item base shape.</span>
-          </span>
-        </param>
-        <param name="additionalProperties">
-          <span data-ttu-id="a2e3f-106">Дополнительные свойства (должен быть в формате расширенные свойства).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-106">The additional properties (must be in the form of extended properties).</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a2e3f-107">Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> класс с семейством имен расширенных свойств и соответствующую коллекцию определения расширенных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class with a collection of extended property names and an associated collection of extended property definitions.</span>
-          </span>
-          <span data-ttu-id="a2e3f-108">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-108">The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
+        <param name="baseShape"><span data-ttu-id="1d9bc-105">Базовая фигура для предварительной версии элемента.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-105">The preview item base shape.</span></span></param>
+        <param name="additionalProperties"><span data-ttu-id="1d9bc-106">Дополнительные свойства (должны быть в виде расширенных свойств).</span><span class="sxs-lookup"><span data-stu-id="1d9bc-106">The additional properties (must be in the form of extended properties).</span></span></param>
+        <summary><span data-ttu-id="1d9bc-107">Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> класса, используя коллекцию имен расширенных свойств и связанную с ней коллекцию определений расширенных свойств.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class with a collection of extended property names and an associated collection of extended property definitions.</span></span>             <span data-ttu-id="1d9bc-108"><see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-108">The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,23 +71,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a2e3f-109">Получает или задает коллекцию имен расширенных свойств.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-109">Gets or sets the collection of extended property names.</span>
-          </span>
-          <span data-ttu-id="a2e3f-110">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a2e3f-111">Дополнительные свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-111">The additional properties.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1d9bc-109">Получает или задает коллекцию имен расширенных свойств.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-109">Gets or sets the collection of extended property names.</span></span>             <span data-ttu-id="1d9bc-110"><see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="1d9bc-111">Дополнительные свойства.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-111">The additional properties.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -154,23 +91,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a2e3f-112">Получает или задает идентификатор почтового ящика, содержащий элемент предварительного просмотра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-112">Gets or sets the ID of the mailbox containing the preview item.</span>
-          </span>
-          <span data-ttu-id="a2e3f-113">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a2e3f-114">Идентификатор почтового ящика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a2e3f-114">The mailbox ID.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1d9bc-112">Получает или задает идентификатор почтового ящика, содержащего элемент предварительного просмотра.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-112">Gets or sets the ID of the mailbox containing the preview item.</span></span>             <span data-ttu-id="1d9bc-113"><see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="1d9bc-114">Идентификатор почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="1d9bc-114">The mailbox ID.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

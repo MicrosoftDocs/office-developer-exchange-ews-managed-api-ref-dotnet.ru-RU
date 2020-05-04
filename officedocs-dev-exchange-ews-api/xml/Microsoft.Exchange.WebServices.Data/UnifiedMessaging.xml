@@ -1,13 +1,5 @@
 <Type Name="UnifiedMessaging" FullName="Microsoft.Exchange.WebServices.Data.UnifiedMessaging">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8d106484ce0306cce48de2b6955eccf3c5ad5df5" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627331" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class UnifiedMessaging" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8d106484ce0306cce48de2b6955eccf3c5ad5df5" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627331" /></Metadata><TypeSignature Language="C#" Value="public sealed class UnifiedMessaging" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UnifiedMessaging extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UnifiedMessaging" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UnifiedMessaging" />
@@ -21,24 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="611db-101">Представляет функциональные возможности единой системы обмена сообщениями.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="611db-101">Represents the Unified Messaging functionality.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="611db-102">
-        <para>Возвращаемый объект единой системы обмена сообщениями <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.UnifiedMessaging" /> свойства <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="611db-102">
-          <para>A UnifiedMessaging object is returned by the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.UnifiedMessaging" /> property of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="b3465-101">Представляет функцию единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="b3465-101">Represents the Unified Messaging functionality.</span></span></summary>
+    <remarks><span data-ttu-id="b3465-102"><para>Объект UnifiedMessaging возвращается <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.UnifiedMessaging" /> свойством <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="b3465-102"><para>A UnifiedMessaging object is returned by the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.UnifiedMessaging" /> property of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="PlayOnPhone">
@@ -59,30 +37,10 @@
         <Parameter Name="dialString" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="itemId">
-          <span data-ttu-id="611db-103">Идентификатор элемента для воспроизведения на телефонный звонок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="611db-103">The item identifier to play on the phone call.</span>
-          </span>
-        </param>
-        <param name="dialString">
-          <span data-ttu-id="611db-104">Полный телефонным строку, используемую для вызова на телефоне.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="611db-104">The full dial string used to call the phone.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="611db-105">Вызывает номер телефона и воспроизводить элемент почтовых ящиков на телефонный звонок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="611db-105">Calls a phone number and plays a mailbox item on the phone call.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="611db-106">Объект телефонного звонка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="611db-106">A phone call object.</span>
-          </span>
-        </returns>
+        <param name="itemId"><span data-ttu-id="b3465-103">Идентификатор элемента, который необходимо прослушать при вызове по телефону.</span><span class="sxs-lookup"><span data-stu-id="b3465-103">The item identifier to play on the phone call.</span></span></param>
+        <param name="dialString"><span data-ttu-id="b3465-104">Полная строка набора номера, используемая для звонка по телефону.</span><span class="sxs-lookup"><span data-stu-id="b3465-104">The full dial string used to call the phone.</span></span></param>
+        <summary><span data-ttu-id="b3465-105">Вызов номера телефона и воспроизведение элемента почтового ящика в телефонном звонке.</span><span class="sxs-lookup"><span data-stu-id="b3465-105">Calls a phone number and plays a mailbox item on the phone call.</span></span></summary>
+        <returns><span data-ttu-id="b3465-106">Объект звонка по телефону.</span><span class="sxs-lookup"><span data-stu-id="b3465-106">A phone call object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

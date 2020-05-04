@@ -1,13 +1,5 @@
 <Type Name="SearchMailboxesResponse" FullName="Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4feb2175b10c03d8508d6cb20e90091b07d967f8" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626917" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4feb2175b10c03d8508d6cb20e90091b07d967f8" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626917" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchMailboxesResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchMailboxesResponse&#xA;Inherits ServiceResponse" />
@@ -21,17 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="04d60-101">Содержит результат поиска, возвращенные операцией SearchMailboxes.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="04d60-101">Contains the search result returned by a SearchMailboxes operation.</span>
-      </span>
-      <span data-ttu-id="04d60-102">
-        <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="04d60-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a3995-101">Содержит результаты поиска, возвращенные операцией SearchMailboxes.</span><span class="sxs-lookup"><span data-stu-id="a3995-101">Contains the search result returned by a SearchMailboxes operation.</span></span>             <span data-ttu-id="a3995-102"><see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a3995-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,23 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchMailboxesResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="04d60-103">Возвращает результат поиска почтовых ящиков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04d60-103">Gets the search mailboxes result.</span>
-          </span>
-          <span data-ttu-id="04d60-104">
-            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse.SearchResult" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04d60-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse.SearchResult" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="04d60-105">В результате поиска почтовых ящиков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="04d60-105">The result of the search of the mailboxes.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a3995-103">Получает результат поиска почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="a3995-103">Gets the search mailboxes result.</span></span>             <span data-ttu-id="a3995-104"><see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse.SearchResult" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a3995-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResponse.SearchResult" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <value><span data-ttu-id="a3995-105">Результат поиска в почтовых ящиках.</span><span class="sxs-lookup"><span data-stu-id="a3995-105">The result of the search of the mailboxes.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

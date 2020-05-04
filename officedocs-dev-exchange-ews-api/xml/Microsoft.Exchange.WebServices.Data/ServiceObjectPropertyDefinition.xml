@@ -1,13 +1,5 @@
 <Type Name="ServiceObjectPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="31ff4fa15dcae87b38e65ca80146c5c05a2f07ef" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626989" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ServiceObjectPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="31ff4fa15dcae87b38e65ca80146c5c05a2f07ef" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626989" /></Metadata><TypeSignature Language="C#" Value="public abstract class ServiceObjectPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceObjectPropertyDefinition extends Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceObjectPropertyDefinition&#xA;Inherits PropertyDefinitionBase" />
@@ -21,12 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-      <span data-ttu-id="a5f55-101">Представляет определение свойства для объекта службы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a5f55-101">Represents a property definition for a service object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="12a0d-101">Представляет определение свойства для объекта Service.</span><span class="sxs-lookup"><span data-stu-id="12a0d-101">Represents a property definition for a service object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -46,23 +33,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="a5f55-102">Получает тип переменной JavaScript Object Notation (JSON) связанного свойства, например <b>string</b>, <b>номер</b>, <b>объект</b>, <b>массива</b>или <b>типа Boolean</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5f55-102">Gets the JavaScript Object Notation (JSON) variable type of the associated property, for example, <b>string</b>, <b>number</b>, <b>object</b>, <b>array</b>, or <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="a5f55-103">
-            <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition.GetJsonType" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5f55-103">The <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition.GetJsonType" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="a5f55-104">Тип переменной JSON.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5f55-104">The JSON variable type.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="12a0d-102">Получает тип переменной JSON (Notation объектов JavaScript) связанного свойства, например <b>String</b>, <b>Number</b>, <b>Object</b>, <b>Array</b>или <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="12a0d-102">Gets the JavaScript Object Notation (JSON) variable type of the associated property, for example, <b>string</b>, <b>number</b>, <b>object</b>, <b>array</b>, or <b>Boolean</b>.</span></span>             <span data-ttu-id="12a0d-103">Этот <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition.GetJsonType" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="12a0d-103">The <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition.GetJsonType" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span></summary>
+        <returns><span data-ttu-id="12a0d-104">Тип переменной JSON.</span><span class="sxs-lookup"><span data-stu-id="12a0d-104">The JSON variable type.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,18 +53,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a5f55-105">Получает Минимальная версия Exchange, который поддерживает это свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5f55-105">Gets the minimum Exchange version that supports this property.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a5f55-106">Одно из значений перечисления ExchangeVersion.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a5f55-106">One of the ExchangeVersion enumeration values.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="12a0d-105">Возвращает минимальную версию Exchange, поддерживающую это свойство.</span><span class="sxs-lookup"><span data-stu-id="12a0d-105">Gets the minimum Exchange version that supports this property.</span></span></summary>
+        <value><span data-ttu-id="12a0d-106">Одно из значений перечисления Ексчанжеверсион.</span><span class="sxs-lookup"><span data-stu-id="12a0d-106">One of the ExchangeVersion enumeration values.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
