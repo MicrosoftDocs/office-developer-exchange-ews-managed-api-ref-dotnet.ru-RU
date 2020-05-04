@@ -1,13 +1,5 @@
 <Type Name="RulePredicates" FullName="Microsoft.Exchange.WebServices.Data.RulePredicates">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="36486a84f08191f9825b249cd872da7776b1953d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626606" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class RulePredicates : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="36486a84f08191f9825b249cd872da7776b1953d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626606" /></Metadata><TypeSignature Language="C#" Value="public sealed class RulePredicates : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicates extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicates&#xA;Inherits ComplexProperty" />
@@ -40,13 +32,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает категории, которые входящее сообщение помечается в порядке для условие или исключение для применения.</summary>
-        <value>Категории, которые связаны с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает категории, с которыми будет подписано входящее сообщение, чтобы применялось условие или исключение.</summary>
+        <value>Категории, связанные с сообщением.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsBodyStrings">
@@ -64,13 +54,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строк, которые отображаются в теле входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Строки текста, связанные с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает строки, которые отображаются в теле входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>Строки основного текста, связанные с сообщением.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsHeaderStrings">
@@ -88,13 +76,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строк, которые отображаются в заголовках входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Заголовки строк, связанные с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает строки, которые отображаются в заголовках входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>Строки заголовков, связанные с сообщением.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsRecipientStrings">
@@ -112,13 +98,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строк, которые отображаются в окне Свойства ToRecipients или CcRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Строки получателей, которые связаны с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает строки, которые отображаются в свойствах ToRecipients или CcRecipients входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>Строки получателей, связанные с сообщением.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsSenderStrings">
@@ -136,13 +120,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает строки, отображается в свойстве From входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Строки отправителя, связанных с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает строки, которые отображаются в свойстве From входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>Строки отправителя, связанные с сообщением.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsSubjectOrBodyStrings">
@@ -160,13 +142,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строк, которые отображаются в тексте или теме входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Строки темы или текста, связанных с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает строки, которые отображаются в тексте или теме входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>Строки темы или текста текста, связанные с сообщением.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ContainsSubjectStrings">
@@ -184,13 +164,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строк, которые отображаются в теме входящих сообщений в порядке для условие или исключение для применения.</summary>
+        <summary>Получает строки, которые отображаются в теме входящих сообщений, чтобы применить условие или исключение.</summary>
         <value>Строки темы, связанные с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlaggedForAction">
@@ -208,13 +186,11 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает флаг, для которого действию задано значение, которое отображается на входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Значение свойства FlaggedForAction.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />можно отключить, назначить этому свойству значение null.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает значение флага, которое отображается в входящих сообщениях, чтобы применить условие или исключение.</summary>
+        <value>Значение свойства Флагжедфорактион.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />можно отключить, присвоив этому свойству значение null.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromAddresses">
@@ -232,13 +208,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает адреса электронной почты отправителей входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Коллекция адреса электронной почты.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает адреса электронной почты отправителя входящих сообщений, чтобы применялось условие или исключение.</summary>
+        <value>Коллекция адресов электронной почты.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromConnectedAccounts">
@@ -256,13 +230,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имена учетных записей, с которых входящих сообщений должен были сводный в порядке для условие или исключение для применения сообщения электронной почты.</summary>
+        <summary>Получает имена учетных записей электронной почты, из которых должны быть объединены входящие сообщения, чтобы применялось условие или исключение.</summary>
         <value>Имена учетных записей электронной почты, связанные с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachments">
@@ -280,8 +252,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли входящих сообщений должен быть вложений для условие или исключение для применения.</summary>
-        <value>значение true, если входящих сообщений должен быть вложений в форме условия или исключения для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения содержать вложения, чтобы применялось условие или исключение.</summary>
+        <value>значение true, если входящие сообщения должны иметь вложения, чтобы применялось условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -300,13 +272,11 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает важности, записывается во входящих сообщениях в порядке для условие или исключение для применения.</summary>
+        <summary>Получает или задает степень важности, которая отмечается для входящих сообщений, чтобы применить условие или исключение.</summary>
         <value>Значение свойства важности.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />можно отключить, назначить этому свойству значение null.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />можно отключить, присвоив этому свойству значение null.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsApprovalRequest">
@@ -324,8 +294,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли входящих сообщений в порядке для условие или исключение для применения запросов на утверждение.</summary>
-        <value>значение true, если входящих сообщений должен быть запросов на утверждение в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения быть запросами на утверждение, чтобы применялось условие или исключение.</summary>
+        <value>имеет значение true, если входящие сообщения должны быть запросами на утверждение, чтобы применить условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -344,8 +314,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли автоматическая переадресация в порядке для условие или исключение для применения при входящих сообщений.</summary>
-        <value>значение true, если входящих сообщений должен быть автоматическая переадресация в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения быть автоматически пересылаться, чтобы применялось условие или исключение.</summary>
+        <value>имеет значение true, если входящие сообщения должны быть автоматически пересылаться, чтобы применялось условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -364,8 +334,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли автоматические ответы, чтобы условие или исключение можно применить при входящих сообщений.</summary>
-        <value>значение true, если входящих сообщений должен быть автоматических ответов в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения быть автоматическими ответами, чтобы применить условие или исключение.</summary>
+        <value>имеет значение true, если входящие сообщения должны быть автоматическими ответами, чтобы применить условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -384,8 +354,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли входящих сообщений должен быть зашифрован в порядке для условие или исключение для применения S/MIME.</summary>
-        <value>значение true, если входящих сообщений должен быть S/MIME зашифрован условия или исключения для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения шифроваться с помощью шифрования S/MIME, чтобы применялось условие или исключение.</summary>
+        <value>значение true, если входящие сообщения должны быть зашифрованы по протоколу S/MIME для применения условия или исключения; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -404,8 +374,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли входящих сообщений должны быть приглашений на собрания в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если входящие сообщения должны быть приглашений на собрания в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения быть приглашениями на собрание, чтобы применялось условие или исключение.</summary>
+        <value>имеет значение true, если входящие сообщения должны быть приглашениями на собрание, чтобы применялось условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -424,8 +394,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должно ли собрания ответы в порядке для условие или исключение для применения входящих сообщений.</summary>
-        <value>значение true, если входящих сообщений должен пустые ответы в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения отвечать на приглашения на собрания, чтобы применялось условие или исключение.</summary>
+        <value>имеет значение true, если входящие сообщения должны отвечать на приглашения на собрания, чтобы применялось условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -444,8 +414,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли отчеты о недоставке (NDR) при входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если входящие сообщения должны быть отчеты о недоставке (NDR) в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения относиться к отчетам о недоставке, чтобы применялось условие или исключение.</summary>
+        <value>имеет значение true, если входящие сообщения должны быть отчетами о недоставке, чтобы применить условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -464,8 +434,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, входящих сообщений должен ли разрешение управляются (защищенные RMS) в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если входящих сообщений должно быть разрешение управляются (защищенные RMS) в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения управляться разрешениями (RMS protected), чтобы применить условие или исключение.</summary>
+        <value>имеет значение true, если для входящих сообщений должно выполняться управление разрешениями (RMS protected), чтобы применить условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -484,8 +454,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли входящих сообщений должны прочитать поступлений в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если входящие сообщения должны быть прочтении в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения принимать уведомления о прочтении для того, чтобы применялось условие или исключение.</summary>
+        <value>имеет значение true, если для входящих сообщений должны быть прочитаны уведомления о прочтении, чтобы применить условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -504,8 +474,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли входящих сообщений в порядке для условие или исключение для применения подписью S/MIME.</summary>
-        <value>значение true, если входящих сообщений должен быть S/MIME подпись для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения быть подписаны с помощью S/MIME, чтобы применялось условие или исключение.</summary>
+        <value>имеет значение true, если входящие сообщения должны быть подписаны на S/MIME, чтобы применялось условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -524,8 +494,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли входящих сообщений голосовой почты в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если входящих сообщений должен быть сообщения голосовой почты в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должны ли входящие сообщения быть голосовой почтой, чтобы применялось условие или исключение.</summary>
+        <value>значение true, если входящие сообщения должны быть голосовой почтой, чтобы применялось условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -544,13 +514,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает классов элементов, которые необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если классы элемента необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает классы элементов, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>имеет значение true, если классы элементов должны быть помечены для входящих сообщений, чтобы применялось условие или исключение; в противном случае — false.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClassifications">
@@ -568,13 +536,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает классификации сообщений, которые необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Классификации сообщений, связанных с сообщением.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает классификации сообщений, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>Классификации сообщений, связанные с сообщением.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotSentToMe">
@@ -592,8 +558,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли владелец почтового ящика не должна быть в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если владелец почтового ящика не должна быть получателя кому входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должно ли владелец почтового ящика отсутствовать в свойстве ToRecipients входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>true, если владелец почтового ящика не должен быть получателем входящих сообщений для применения условия или исключения; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -612,13 +578,11 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Sensitivity&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает уровень конфиденциальности сообщения, который должен быть отметка для входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Со значением свойства.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />можно отключить, назначить этому свойству значение null.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает чувствительность, которая должна быть помечена для входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>Значение свойства чувствительности.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />можно отключить, присвоив этому свойству значение null.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentCcMe">
@@ -636,8 +600,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве CcRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если владелец почтового ящика должен быть копия входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должен ли владелец почтового ящика быть указан в свойстве CcRecipients входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>значение true, если владелец почтового ящика должен быть получателем копии входящих сообщений, чтобы применить условие или исключение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -656,8 +620,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли владелец почтового ящика должен быть только один в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если владелец почтового ящика должен быть единственным получателю входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должен ли владелец почтового ящика быть единственным в свойстве ToRecipients входящих сообщений, чтобы применялось условие или исключение.</summary>
+        <value>значение true, если владелец почтового ящика должен быть единственным получателем входящих сообщений для применения условия или исключения; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -676,13 +640,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает адреса электронной почты, отправленных входящих сообщений необходимо чтобы предоставить условие или исключение для применения.</summary>
-        <value>Коллекция адреса электронной почты.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />можно отключить, установив это свойство в пустой список.</para>
-          <para />
-        </remarks>
+        <summary>Получает адреса электронной почты, на которые должны быть отправлены входящие сообщения, чтобы применялось условие или исключение.</summary>
+        <value>Коллекция адресов электронной почты.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />можно отключить, присвоив этому свойству пустой список.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentToMe">
@@ -700,8 +662,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве ToRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если владелец почтового ящика должен быть получателя кому входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должен ли владелец почтового ящика быть указан в свойстве ToRecipients входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>значение true, если владелец почтового ящика должен быть получателем входящих сообщений для применения условия или исключения; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -720,8 +682,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должен ли владельца почтового ящика в свойстве ToRecipients или CcRecipients входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>значение true, если владелец почтового ящика необходимо быть получателя Кому или копия получателя входящих сообщений в порядке для условие или исключение для применения; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, должен ли владелец почтового ящика быть указан в свойстве ToRecipients или CcRecipients входящих сообщений, чтобы применить условие или исключение.</summary>
+        <value>true, если владелец почтового ящика должен быть получателем или получателем получателей входящих сообщений для применения условия или исключения; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -740,13 +702,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateDateRange</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает диапазон дат, в течение которого входящих сообщений должны были получены в порядке для условие или исключение для применения.</summary>
+        <summary>Получает диапазон дат, в течение которого должны быть получены входящие сообщения, чтобы применялось условие или исключение.</summary>
         <value>Даты начала и окончания.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />можно отключить, установив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> свойств значение null.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />можно отключить, присвоив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> свойству <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> и свойствам значение null.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="WithinSizeRange">
@@ -764,13 +724,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает минимальный и максимальный размеры, которые должны иметь входящих сообщений в порядке для условие или исключение для применения.</summary>
-        <value>Минимальный размер и максимальный размер.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />можно отключить, установив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> свойств значение null.</para>
-          <para />
-        </remarks>
+        <summary>Получает минимальный и максимальный размеры для входящих сообщений, которые должны быть применены для того, чтобы применялось условие или исключение.</summary>
+        <value>Значения минимального и максимального размера.</value>
+        <remarks><para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />можно отключить, присвоив <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> свойству <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> и свойствам значение null.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

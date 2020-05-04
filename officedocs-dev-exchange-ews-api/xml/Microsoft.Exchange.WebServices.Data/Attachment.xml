@@ -1,13 +1,5 @@
 <Type Name="Attachment" FullName="Microsoft.Exchange.WebServices.Data.Attachment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7ea717ec62ce1f199fc5adb5a33e2a43a0f6d815" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627154" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class Attachment : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7ea717ec62ce1f199fc5adb5a33e2a43a0f6d815" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627154" /></Metadata><TypeSignature Language="C#" Value="public abstract class Attachment : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Attachment extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Attachment" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Attachment&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет вложение элемента.</summary>
+    <summary>Представляет вложение для элемента.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор содержимого вложения. ContentId можно использовать в качестве настраиваемого способ определения вложения для ссылки на него из в тело элемента, к которой принадлежит вложение.</summary>
-        <value>Идентификатор содержимого вложения.</value>
+        <summary>Получает или задает идентификатор содержимого вложения. Идентификатор ContentId можно использовать в качестве настраиваемого способа определения вложения, чтобы ссылаться на него из тела элемента, к которому относится вложение.</summary>
+        <value>ИДЕНТИФИКАТОР содержимого вложения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расположение содержимого вложения. ContentLocation можно использовать для связи вложения с URL-адрес, который определяет его расположение в Интернете.</summary>
-        <value>Расположение файла вложения.</value>
+        <summary>Получает или задает расположение содержимого вложения. ContentLocation можно использовать для связи вложения с URL-адресом, определяющим его расположение в Интернете.</summary>
+        <value>Расположение вложения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,7 +72,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тип содержимого вложения.</summary>
+        <summary>Получает или задает тип контента вложения.</summary>
         <value>Тип контента этого вложения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -120,9 +112,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли встроенным.</summary>
-        <value>
-          <b>значение true,</b> Если вложение является внедренным вложением; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли это встроенным вложением.</summary>
+        <value><b>значение true</b> , если вложение является встроенным вложением; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -162,7 +153,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Загружает вложения. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <summary>Загружает вложение. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -202,7 +193,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает размер вложения.</summary>
-        <value>Размер в байтах, вложения.</value>
+        <value>Размер вложения в байтах.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

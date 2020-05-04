@@ -1,13 +1,5 @@
 <Type Name="PropertyDefinitionBase" FullName="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ad75e65d512ec7db789beb5c146d7a724a4b6307" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626998" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class PropertyDefinitionBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ad75e65d512ec7db789beb5c146d7a724a4b6307" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626998" /></Metadata><TypeSignature Language="C#" Value="public abstract class PropertyDefinitionBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit PropertyDefinitionBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class PropertyDefinitionBase" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет базовый класс для определения свойств.</summary>
+    <summary>Определяет базовый класс для определений свойств.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -41,7 +33,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает тип переменной JavaScript Object Notation (JSON) связанного свойства, например <b>string</b>, <b>номер</b>, <b>объект</b>, <b>массива</b>или <b>типа Boolean</b>.             <see cref="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.GetJsonType" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает тип переменной JSON (Notation объектов JavaScript) связанного свойства, например <b>String</b>, <b>Number</b>, <b>Object</b>, <b>Array</b>или <b>Boolean</b>.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.GetJsonType" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <returns>Тип переменной JSON.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -62,8 +54,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает <see cref="T:System.String" /> , который представляет текущего <see cref="T:System.Object" />.</summary>
-        <returns>A <see cref="T:System.String" /> , который представляет текущего <see cref="T:System.Object" />.</returns>
+        <summary>Возвращает объект <see cref="T:System.String" /> , представляющий текущую <see cref="T:System.Object" />.</summary>
+        <returns>A <see cref="T:System.String" /> , представляющий текущее <see cref="T:System.Object" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,8 +94,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает Минимальная версия Exchange, который поддерживает это свойство.</summary>
-        <value>Одно из значений перечисления ExchangeVersion.</value>
+        <summary>Возвращает минимальную версию Exchange, поддерживающую это свойство.</summary>
+        <value>Одно из значений перечисления Ексчанжеверсион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

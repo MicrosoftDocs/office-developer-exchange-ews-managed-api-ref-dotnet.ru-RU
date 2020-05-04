@@ -1,13 +1,5 @@
 <Type Name="PreviewItemResponseShape" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0e487e723d798a0374218e146d9d70c1f8e28d09" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626961" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PreviewItemResponseShape" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0e487e723d798a0374218e146d9d70c1f8e28d09" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626961" /></Metadata><TypeSignature Language="C#" Value="public sealed class PreviewItemResponseShape" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreviewItemResponseShape extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewItemResponseShape" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит элемент предварительного просмотра и коллекцию имен расширенных свойств.             <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит элемент Preview и коллекцию имен расширенных свойств.             <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,9 +50,9 @@
         <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[]" />
       </Parameters>
       <Docs>
-        <param name="baseShape">Фигура предварительного просмотра базового элемента.</param>
-        <param name="additionalProperties">Дополнительные свойства (должен быть в формате расширенные свойства).</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> класс с семейством имен расширенных свойств и соответствующую коллекцию определения расширенных свойств.             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="baseShape">Базовая фигура для предварительной версии элемента.</param>
+        <param name="additionalProperties">Дополнительные свойства (должны быть в виде расширенных свойств).</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> класса, используя коллекцию имен расширенных свойств и связанную с ней коллекцию определений расширенных свойств.             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,7 +71,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает коллекцию имен расширенных свойств.             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает коллекцию имен расширенных свойств.             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Дополнительные свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -99,7 +91,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор почтового ящика, содержащий элемент предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор почтового ящика, содержащего элемент предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор почтового ящика.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="SeekToConditionItemView" FullName="Microsoft.Exchange.WebServices.Data.SeekToConditionItemView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="73a2185cf0fbf717f4260616c40a8225164d3174" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626546" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SeekToConditionItemView : Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="73a2185cf0fbf717f4260616c40a8225164d3174" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626546" /></Metadata><TypeSignature Language="C#" Value="public sealed class SeekToConditionItemView : Microsoft.Exchange.WebServices.Data.ViewBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SeekToConditionItemView extends Microsoft.Exchange.WebServices.Data.ViewBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SeekToConditionItemView&#xA;Inherits ViewBase" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет параметры представления в операцию поиска папок.             <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет параметры представления в операции поиска папки.             <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -41,9 +33,9 @@
         <Parameter Name="pageSize" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="condition">Условия для использования при выполнении поиска.</param>
-        <param name="pageSize">Максимальное число элементов, которые должен возвращать операции поиска.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> класс с фильтром поиска и размер страницы.             <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="condition">Условие, которое должно использоваться при поиске.</param>
+        <param name="pageSize">Максимальное количество элементов, возвращаемых операцией поиска.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> класса с фильтром поиска и размером страницы.             <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,10 +55,10 @@
         <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
       </Parameters>
       <Docs>
-        <param name="condition">Условия для использования при выполнении поиска.</param>
-        <param name="pageSize">Максимальное число элементов, которые должен возвращать операции поиска.</param>
-        <param name="offsetBasePoint">Позиция в представление элементов, из которого необходимо оценить с учетом смещения.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> класса с поисковый фильтр, размер страницы и отправной точки для смещения.             <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="condition">Условие, которое должно использоваться при поиске.</param>
+        <param name="pageSize">Максимальное количество элементов, возвращаемых операцией поиска.</param>
+        <param name="offsetBasePoint">Позиция в представлении элемента, из которой необходимо оценить смещение.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" /> класса с помощью фильтра поиска, размера страницы и базовой точки для смещения.             <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,12 +77,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает фильтр поиска для поиска. <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает фильтр поиска для поиска. <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Условие поиска.</value>
-        <remarks>
-          <para>Классы фильтра поиска включают SearchFilter.IsEqualTo, SearchFilter.ContainsSubstring и SearchFilter.SearchFilterCollection. Если SearchFilter является пустая ссылка (Nothing в Visual Basic), не фильтры поиска не применяются.</para>
-          <para />
-        </remarks>
+        <remarks><para>Доступные классы фильтра поиска включают SearchFilter. Исекуалто, SearchFilter. Контаинссубстринг и SearchFilter. SearchFilterCollection. Если SearchFilter — пустая ссылка (Nothing в Visual Basic), фильтры поиска не применяются.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="OffsetBasePoint">
@@ -108,8 +98,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OffsetBasePoint</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает позицию в отчет с которого для измерения смещением. Базовый точка находится в начале или конце представлением элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Базовый точка смещение.</value>
+        <summary>Получает или задает положение в представлении элемента, из которого необходимо измерять смещение. Базовая точка — либо начало, либо конец представления элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Базовая точка смещения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,8 +118,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает свойства, от которых должны быть упорядочены возвращаемых элементов. <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Свойства, от которых должны быть упорядочены возвращаемых элементов.</value>
+        <summary>Получает свойства, по которым должны упорядочиваться возвращенные элементы. <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Свойства, по которым должны упорядочиваться возвращенные элементы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,8 +138,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает максимальное количество элементов или папок, которые должен возвращать операции поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Максимальное число элементов или папок, которые должен возвращать операции поиска.</value>
+        <summary>Получает или задает максимальное количество элементов или папок, которые должна возвращать операция поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Максимальное число элементов или папок, которые должна возвращать операция поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -168,7 +158,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemTraversal</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает режим обхода поиска. Значение по умолчанию: <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает режим обхода поиска. Значение по умолчанию: <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />.             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Режим обхода поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>

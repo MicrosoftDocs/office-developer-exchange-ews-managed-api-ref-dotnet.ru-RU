@@ -1,13 +1,5 @@
 <Type Name="UserConfigurationDictionary" FullName="Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b95d7b5132df53cc66e22f1942b95d43a347809a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626940" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class UserConfigurationDictionary : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b95d7b5132df53cc66e22f1942b95d43a347809a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626940" /></Metadata><TypeSignature Language="C#" Value="public sealed class UserConfigurationDictionary : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UserConfigurationDictionary extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UserConfigurationDictionary&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable" />
@@ -53,9 +45,9 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="key">Объект для использования в качестве ключ записи.</param>
-        <param name="value">Объект для использования в качестве значение параметра.</param>
-        <summary>Добавляет запись с указанным ключом и значением пользовательский словарь конфигурации.</summary>
+        <param name="key">Объект, используемый в качестве ключа записи.</param>
+        <param name="value">Объект, используемый в качестве значения записи.</param>
+        <summary>Добавляет запись с предоставленным ключом и значением в словарь конфигурации пользователя.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,10 +89,9 @@
         <Parameter Name="key" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ для поиска в словаре конфигурации пользователя.</param>
-        <summary>Показывает, содержит ли пользовательский словарь конфигурации запись с указанным ключом.</summary>
-        <returns>
-          <b>значение true,</b> Если пользовательский словарь конфигурации содержит запись с ключом; в противном случае — <b>false</b>.</returns>
+        <param name="key">Ключ, который требуется разместить в словаре конфигурации пользователя.</param>
+        <summary>Указывает, содержит ли словарь конфигурации пользователя запись с указанным ключом.</summary>
+        <returns><b>имеет значение true</b> , если словарь конфигурации пользователя содержит запись с ключом; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,7 +111,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает число записей в словаре конфигурации пользователя.</summary>
-        <value>Число записей.</value>
+        <value>Количество записей.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,7 +139,7 @@
       <Docs>
         <param name="jsonCollection">Коллекция JSON.</param>
         <param name="service">Объект службы Exchange.</param>
-        <summary>Создание словаря конфигурации из коллекции объектов JavaScript Object Notation (JSON).             <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Создает словарь конфигурации из коллекции объектов JavaScript Object Notation (JSON).             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -171,8 +162,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель для настройки пользовательского словаря.</summary>
-        <returns>Перечислитель для настройки пользовательского словаря.</returns>
+        <summary>Возвращает перечислитель для словаря конфигурации пользователя.</summary>
+        <returns>Перечислитель для словаря конфигурации пользователя.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -194,7 +185,7 @@
         <Parameter Name="key" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ записи.</param>
+        <param name="key">Клавиша записи.</param>
         <summary>Получает или задает запись с указанным ключом.</summary>
         <value>Запись с указанным ключом.</value>
         <remarks>To be added.</remarks>
@@ -218,10 +209,9 @@
         <Parameter Name="key" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ записи, которую требуется удалить.</param>
+        <param name="key">Ключ записи, которую необходимо удалить.</param>
         <summary>Удаляет запись с указанным ключом из словаря конфигурации пользователя.</summary>
-        <returns>
-          <b>значение true,</b> Если операция успешно удалено; в противном случае — <b>false</b>.</returns>
+        <returns><b>значение true</b> , если запись успешно удалена; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -244,11 +234,10 @@
         <Parameter Name="value" Type="System.Object&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ записи словаря по конфигурации пользователя.</param>
-        <param name="value">Если ключ найден, значение, которая связана с указанным ключом; в противном случае — значение NULL (Nothing в Visual Basic).</param>
+        <param name="key">Клавиша записи словаря конфигурации пользователя.</param>
+        <param name="value">Если ключ найден, значение, связанное с указанным ключом; в противном случае — пустая ссылка (Nothing в Visual Basic).</param>
         <summary>Получает значение, связанное с указанным ключом.</summary>
-        <returns>
-          <b>значение true,</b> Если пользовательский словарь конфигурации содержит ключ; в противном случае — <b>false</b>.</returns>
+        <returns><b>имеет значение true</b> , если словарь конфигурации пользователя содержит ключ; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -276,7 +265,7 @@
       <Docs>
         <param name="jsonCollection">Коллекция JSON.</param>
         <param name="service">Объект службы Exchange.</param>
-        <summary>Обновляет существующий словарь конфигурации с помощью коллекцию объектов JavaScript Object Notation (JSON).             <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Обновляет существующий словарь конфигурации, используя коллекцию объектов JavaScript Object Notation (JSON).             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

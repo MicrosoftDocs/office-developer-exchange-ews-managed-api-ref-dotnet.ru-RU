@@ -1,13 +1,5 @@
 <Type Name="ConnectionFailureCause" FullName="Microsoft.Exchange.WebServices.Data.ConnectionFailureCause">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="187953b3b84b89b85539ccdaead3589fc29cf31b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626861" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ConnectionFailureCause" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="187953b3b84b89b85539ccdaead3589fc29cf31b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626861" /></Metadata><TypeSignature Language="C#" Value="public enum ConnectionFailureCause" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConnectionFailureCause extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConnectionFailureCause" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConnectionFailureCause" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Телефон не был получен ответ.</summary>
+        <summary>Телефон не ответил.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Ошибка без подключения.</summary>
+        <summary>Нет ошибок подключения.</summary>
       </Docs>
     </Member>
     <Member MemberName="Other">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Сбой подключения по неизвестным причинам.</summary>
+        <summary>Не удалось выполнить подключение по неизвестной причине.</summary>
       </Docs>
     </Member>
     <Member MemberName="Unavailable">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Пользователь является недоступной.</summary>
+        <summary>Пользователь недоступен.</summary>
       </Docs>
     </Member>
     <Member MemberName="UserBusy">

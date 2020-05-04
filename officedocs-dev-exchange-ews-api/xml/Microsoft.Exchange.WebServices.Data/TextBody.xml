@@ -1,13 +1,5 @@
 <Type Name="TextBody" FullName="Microsoft.Exchange.WebServices.Data.TextBody">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="973b685ede9a3f83e640627181517ce3d14d408d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627329" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class TextBody : Microsoft.Exchange.WebServices.Data.MessageBody" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="973b685ede9a3f83e640627181517ce3d14d408d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627329" /></Metadata><TypeSignature Language="C#" Value="public sealed class TextBody : Microsoft.Exchange.WebServices.Data.MessageBody" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TextBody extends Microsoft.Exchange.WebServices.Data.MessageBody" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TextBody" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TextBody&#xA;Inherits MessageBody" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит основного текста сообщения.             <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит текст сообщения.             <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <Parameter Name="text" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="text">Текст сообщения.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> класс с текстом, равное переданное значение. <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="text">Текст текста сообщения.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> класса с текстом, равным переданному значению. <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,9 +71,9 @@
         <Parameter Name="textBody" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="textBody">Строка для преобразования в <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> объекта. Предполагается, что строке source в формате HTML.</param>
-        <summary>Определяет неявное преобразование между строку и основного текста сообщения.             <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" /> Оператор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> инициализирован с указанной строки.</returns>
+        <param name="textBody">Строка, преобразуемая в <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> объект. Предполагается, что исходная строка имеет формат HTML.</param>
+        <summary>Определяет неявное преобразование между строкой и текстом сообщения.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" /> оператор подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" /> Инициализация с указанной строкой.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

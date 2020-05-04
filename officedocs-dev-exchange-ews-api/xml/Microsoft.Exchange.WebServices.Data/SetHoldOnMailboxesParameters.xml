@@ -1,13 +1,5 @@
 <Type Name="SetHoldOnMailboxesParameters" FullName="Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="558b8094506d3b74cbb8ddc4869582ee6803902f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627403" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SetHoldOnMailboxesParameters" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="558b8094506d3b74cbb8ddc4869582ee6803902f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627403" /></Metadata><TypeSignature Language="C#" Value="public sealed class SetHoldOnMailboxesParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetHoldOnMailboxesParameters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetHoldOnMailboxesParameters" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет параметры, <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.SetHoldOnMailboxes(Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters)" /> вызова метода. <see cref="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет параметры для вызова <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.SetHoldOnMailboxes(Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters)" /> метода. <see cref="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters" /> класса.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,7 +69,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентификатор удержания для eDiscovery нажмите и удерживайте действие.</summary>
+        <summary>Идентификатор удержания для действия удержания обнаружения электронных данных.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -97,7 +89,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентификатор, который ссылается на удержание на месте (сохраняет все содержимое почтовых ящиков).</summary>
+        <summary>Идентификатор, ссылающийся на удержание на месте (сохраняет все содержимое почтового ящика).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,7 +109,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Язык, используемый для поискового запроса в <see cref="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.Query" /> свойство.</summary>
+        <summary>Язык, используемый для поискового запроса в <see cref="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.Query" /> свойстве.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,7 +129,7 @@
         <ReturnType>System.String[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Список почтовых ящиков, влияет на удержание.</summary>
+        <summary>Список почтовых ящиков, на которые повлияет удержание.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -157,7 +149,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Запрос поиска для удержания.</summary>
+        <summary>Поисковый запрос для удержания.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

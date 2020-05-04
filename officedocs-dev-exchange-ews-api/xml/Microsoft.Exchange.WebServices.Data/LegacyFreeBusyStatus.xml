@@ -1,13 +1,5 @@
 <Type Name="LegacyFreeBusyStatus" FullName="Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89565fef288fb2415401f5a60d71c30e6cffbe1f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627288" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum LegacyFreeBusyStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="89565fef288fb2415401f5a60d71c30e6cffbe1f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627288" /></Metadata><TypeSignature Language="C#" Value="public enum LegacyFreeBusyStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LegacyFreeBusyStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum LegacyFreeBusyStatus" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет константы, которые определяют устаревшего состояния занятости, который связан с встречи.</summary>
+    <summary>Определяет константы, определяющие устаревшее состояние занятости, связанное с встречей.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Промежуток времени, который связан с встречи отображается «занят».</summary>
+        <summary>Временной интервал, связанный с встречей, отображается как занятый.</summary>
       </Docs>
     </Member>
     <Member MemberName="Free">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Промежуток времени, который связан с встречи отображается как свободные.</summary>
+        <summary>Временной интервал, связанный с встречей, отображается как бесплатный.</summary>
       </Docs>
     </Member>
     <Member MemberName="NoData">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Нет сведений о занятости связан со встречей.</summary>
+        <summary>Нет сведений о доступности, связанных с встречей.</summary>
       </Docs>
     </Member>
     <Member MemberName="OOF">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Промежуток времени, который связан с встречи отображается как нет на месте (OOF).</summary>
+        <summary>Временной интервал, связанный с встречей, отображается как "нет на месте" (отсутствие на работе).</summary>
       </Docs>
     </Member>
     <Member MemberName="Tentative">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Промежуток времени, который связан с встречи отображается как под вопросом.</summary>
+        <summary>Временной интервал, связанный с встречей, отображается как "под вопросом".</summary>
       </Docs>
     </Member>
     <Member MemberName="WorkingElsewhere">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Промежуток времени, связанные с встречи отображается как работа в другом месте.            <see cref="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.WorkingElsewhere" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Временной интервал, связанный с встречей, отображается как работа в другом месте.            Это <see cref="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.WorkingElsewhere" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

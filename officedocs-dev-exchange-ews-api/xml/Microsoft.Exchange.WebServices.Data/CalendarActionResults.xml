@@ -1,13 +1,5 @@
 <Type Name="CalendarActionResults" FullName="Microsoft.Exchange.WebServices.Data.CalendarActionResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4baede30c5f25e6f2a0a98ef508d35dd1693819" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626759" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class CalendarActionResults" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4baede30c5f25e6f2a0a98ef508d35dd1693819" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626759" /></Metadata><TypeSignature Language="C#" Value="public sealed class CalendarActionResults" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarActionResults extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarActionResults" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет результаты действие, которое выполняется на календаря элемента или собрания сообщение запроса, таких как принятие, под вопросом принятия или отклонения приглашения на собрание.</summary>
+    <summary>Представляет результаты действия, выполняемого для элемента календаря или сообщения приглашения на собрание, например принятия, принятия под вопросом или отклонения приглашения на собрание.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает собрание, которое было принято, под вопросом или отклонено.</summary>
+        <summary>Возвращает приглашение на собрание, которое было принято, принято под вопросом или отклонено.</summary>
         <value>Объект встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -60,8 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingCancellation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сообщение копию отмены собрания, отправленные с организатором участникам собрания при отмене собрания.</summary>
-        <value>Объект MeetingCancellation.</value>
+        <summary>Получает копию сообщения об отмене собрания, отправляемого организатором участникам собрания при отмене собрания.</summary>
+        <value>Объект Митингканцеллатион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequest</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает запрос на собрание, который был перемещен в папку удаленных элементов из-за участником принятие, под вопросом принятия или отклонения приглашения на собрание. Если принятия приглашения на собрание под вопросом принято или отклонено из папки "Удаленные", она удаляется без возможности восстановления, и свойство MeetingRequest — это пустая ссылка (Nothing в Visual Basic).</summary>
-        <value>Объект MeetingRequest.</value>
+        <summary>Получает приглашение на собрание, которое было перемещено в папку "Удаленные" в результате принятия участника, принятия под вопросом или отклонения приглашения на собрание. Если приглашение на собрание принято, принято под вопросом или отклонено из папки "Удаленные", оно удаляется без возможности восстановления, а свойство свойство meetingrequest является пустой ссылкой (Nothing в Visual Basic).</summary>
+        <value>Объект свойство meetingrequest.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,8 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponse</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает копию ответа, которое отправляется организатора собрания при принятии, под вопросом или отклонено с участниками собрания. Свойство MeetingResponse является пустая ссылка (Nothing в Visual Basic), если участником решено не отправлять ответ.</summary>
-        <value>Объект MeetingResponse.</value>
+        <summary>Получает копию ответа, которая отправляется организатору собрания, когда собрание принято, принято под вопросом или отклонено участником. Свойство Митингреспонсе — пустая ссылка (Nothing в Visual Basic), если участник не отправил ответ.</summary>
+        <value>Объект Митингреспонсе.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

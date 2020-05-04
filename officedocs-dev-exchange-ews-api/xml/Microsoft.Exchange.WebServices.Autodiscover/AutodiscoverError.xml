@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverError" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0e46d10098d2ef304c2a4a0a56b33e0fa3dc16e3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627201" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AutodiscoverError" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0e46d10098d2ef304c2a4a0a56b33e0fa3dc16e3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627201" /></Metadata><TypeSignature Language="C#" Value="public sealed class AutodiscoverError" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit AutodiscoverError extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AutodiscoverError" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет ошибку, который возвращается службой автообнаружения.</summary>
+    <summary>Представляет ошибку, возвращаемую службой автообнаружения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -47,10 +39,8 @@
       <Docs>
         <summary>Получает данные отладки.</summary>
         <value>Данные отладки.</value>
-        <remarks>
-          <para>Это свойство представляет Дополнительные сведения о сбое, которые могут помочь системный администратор отладки источником проблемы.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство представляет дополнительные сведения об ошибке, которые могут помочь системному администратору отладить источник проблемы.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ErrorCode">
@@ -68,7 +58,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает код ошибки, указывающий причину ошибки.</summary>
+        <summary>Получает код ошибки, указывающий на причину ошибки.</summary>
         <value>Код ошибки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -88,8 +78,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает хэш-имя компьютера, на котором выполняется Microsoft Exchange Server.</summary>
-        <value>Имя хэш-функции.</value>
+        <summary>Возвращает хэш имени компьютера, на котором работает Microsoft Exchange Server.</summary>
+        <value>Имя хэша.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,7 +118,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает время, когда была возвращена ошибка.</summary>
+        <summary>Получает время, когда была возвращена ошибка.</summary>
         <value>Время ошибки.</value>
         <remarks>To be added.</remarks>
       </Docs>

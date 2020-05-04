@@ -1,13 +1,5 @@
 <Type Name="ItemChange" FullName="Microsoft.Exchange.WebServices.Data.ItemChange">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="13013e890079a5bcfd43d2f02c5f249b424fabbc" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626532" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ItemChange : Microsoft.Exchange.WebServices.Data.Change" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="13013e890079a5bcfd43d2f02c5f249b424fabbc" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626532" /></Metadata><TypeSignature Language="C#" Value="public sealed class ItemChange : Microsoft.Exchange.WebServices.Data.Change" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemChange extends Microsoft.Exchange.WebServices.Data.Change" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemChange" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemChange&#xA;Inherits Change" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет изменение элемента в виде, возвращаемом с помощью операции синхронизации.</summary>
+    <summary>Представляет изменение элемента, возвращенное операцией синхронизации.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, имеет ли чтение элемента, к которому применяется изменение. IsRead допустимо только в случае, если свойство ChangeType равно <b>ChangeType.ReadFlagChange</b>.</summary>
-        <value>
-          <b>значение true,</b> Если элемент, который применяется для считывания; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли элемент, к которому применяется изменение, прочитанным. Значение Read считается допустимым только тогда, когда свойство ChangeType равно <b>ChangeType. реадфлагчанже</b>.</summary>
+        <value><b>значение true</b> , если элемент, к которому применяется изменение, был прочитан; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,12 +52,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает элемент, который применяется к.</summary>
-        <value>Элемент, который применяется к.</value>
-        <remarks>
-          <para>Элемент — это пустая ссылка (Nothing в Visual Basic) при <see cref="P:Microsoft.Exchange.WebServices.Data.Change.ChangeType" /> свойство имеет значение <b>ChangeType.Delete</b> или <b>ChangeType.ReadFlagChange</b>. В любом из этих случаев использования <see cref="P:Microsoft.Exchange.WebServices.Data.ItemChange.ItemId" /> свойства, чтобы получить идентификатор элемента, который был удален или для которого <see cref="P:Microsoft.Exchange.WebServices.Data.ItemChange.IsRead" /> свойство было изменено.</para>
-          <para />
-        </remarks>
+        <summary>Получает элемент, к которому применяется изменение.</summary>
+        <value>Элемент, к которому применяется изменение.</value>
+        <remarks><para>Item — пустая ссылка (Nothing в Visual Basic), если <see cref="P:Microsoft.Exchange.WebServices.Data.Change.ChangeType" /> свойство имеет значение <b>ChangeType. Delete</b> или <b>ChangeType. реадфлагчанже</b>. В любом из этих случаев используйте <see cref="P:Microsoft.Exchange.WebServices.Data.ItemChange.ItemId" /> свойство, чтобы получить идентификатор элемента, который был удален или для которого было изменено <see cref="P:Microsoft.Exchange.WebServices.Data.ItemChange.IsRead" /> свойство.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemId">

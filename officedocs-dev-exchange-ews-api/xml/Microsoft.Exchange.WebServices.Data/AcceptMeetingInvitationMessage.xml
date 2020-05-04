@@ -1,13 +1,5 @@
 <Type Name="AcceptMeetingInvitationMessage" FullName="Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1feda35c9e9584ae6bbb30a3147a7fcbde5719a0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626833" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AcceptMeetingInvitationMessage : Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1feda35c9e9584ae6bbb30a3147a7fcbde5719a0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626833" /></Metadata><TypeSignature Language="C#" Value="public sealed class AcceptMeetingInvitationMessage : Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AcceptMeetingInvitationMessage extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1&lt;class Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AcceptMeetingInvitationMessage&#xA;Inherits CalendarResponseMessage(Of MeetingResponse)" />
@@ -24,7 +16,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет собрания сообщение о принятии.</summary>
+    <summary>Представляет сообщение о принятии приглашения на собрание.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,9 +35,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, ли вопросом соответствующего приглашения.</summary>
-        <value>
-          <b>значение true,</b> Если связанные собрания вопросом; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, принято ли сопоставленное собрание под вопросом.</summary>
+        <value><b>значение true</b> , если сопоставленное собрание принимается под вопросом; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

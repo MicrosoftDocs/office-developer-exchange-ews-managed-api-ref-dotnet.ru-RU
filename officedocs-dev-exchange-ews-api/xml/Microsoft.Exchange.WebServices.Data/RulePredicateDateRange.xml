@@ -1,13 +1,5 @@
 <Type Name="RulePredicateDateRange" FullName="Microsoft.Exchange.WebServices.Data.RulePredicateDateRange">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d92e6ab5bf5a147153e5eae764193203f1df390b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626959" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class RulePredicateDateRange : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d92e6ab5bf5a147153e5eae764193203f1df390b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626959" /></Metadata><TypeSignature Language="C#" Value="public sealed class RulePredicateDateRange : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicateDateRange extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicateDateRange&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет диапазон дат и времени, в течение которого полученных сообщений.</summary>
-    <remarks>
-      <para>
-        <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" /> Свойство проверяет это <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> свойства.</para>
-      <para />
-    </remarks>
+    <summary>Представляет диапазон дат и времени, в течение которого получены сообщения.</summary>
+    <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" /> Свойство проверяет это свойство <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> его свойства.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="End">
@@ -44,12 +33,10 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает диапазон Дата и время окончания.</summary>
+        <summary>Получает или задает дату и время окончания диапазона.</summary>
         <value>Конец диапазона дат.</value>
-        <remarks>
-          <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> задано значение null, без end date применяется.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> свойству присвоено значение null, Дата окончания не применяется.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Start">
@@ -67,12 +54,10 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает диапазон дату и время начала.</summary>
+        <summary>Получает или задает значение даты и времени начала диапазона.</summary>
         <value>Начало диапазона дат.</value>
-        <remarks>
-          <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> свойство имеет значение null, Дата начала не применяется.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> свойству присвоено значение null, Дата начала не применяется.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

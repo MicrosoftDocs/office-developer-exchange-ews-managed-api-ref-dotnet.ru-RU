@@ -1,13 +1,5 @@
 <Type Name="ContactSource" FullName="Microsoft.Exchange.WebServices.Data.ContactSource">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4763c73f929b50b0a216102cecccb2886c5be0a0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627119" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ContactSource" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4763c73f929b50b0a216102cecccb2886c5be0a0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627119" /></Metadata><TypeSignature Language="C#" Value="public enum ContactSource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactSource extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactSource" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContactSource" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает источник списка рассылки или контактов.</summary>
+    <summary>Указывает источник контакта или списка рассылки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Список рассылки или контактов хранятся в глобальном списке адресов (GAL).</summary>
+        <summary>Контакт или список рассылки хранятся в глобальном списке адресов (GAL).</summary>
       </Docs>
     </Member>
     <Member MemberName="Store">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Список рассылки или контактов хранится в Exchange.</summary>
+        <summary>Контакт или список рассылки хранятся в Exchange.</summary>
       </Docs>
     </Member>
   </Members>

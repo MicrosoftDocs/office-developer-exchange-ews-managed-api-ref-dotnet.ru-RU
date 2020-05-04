@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+RelationalFilter" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+RelationalFilter">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8688e548c5946b7d5ac8c5151c974d8993be2c65" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626983" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class SearchFilter.RelationalFilter : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8688e548c5946b7d5ac8c5151c974d8993be2c65" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626983" /></Metadata><TypeSignature Language="C#" Value="public abstract class SearchFilter.RelationalFilter : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit SearchFilter/RelationalFilter extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class SearchFilter.RelationalFilter&#xA;Inherits SearchFilter.PropertyBasedFilter" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет базовый класс для реляционных фильтров (например, выражение IsEqualTo, IsGreaterThan или IsLessThanOrEqualTo).</summary>
+    <summary>Представляет базовый класс для реляционных фильтров (например, Исекуалто, Исгреатерсан или Ислесссанорекуалто).</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +37,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает определение свойства свойства для сравнения.</summary>
-        <value>Объект PropertyDefinitionBase к определению свойства для сравнения.</value>
-        <remarks>
-          <para>Свойство определения доступны как статические члены из классов схемы (например, <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.Subject" />, <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Start" />, или <see cref="F:Microsoft.Exchange.WebServices.Data.ContactSchema.GivenName" />.) OtherPropertyDefinition и <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.Value" /> свойства являются взаимоисключающими; один параметр сбрасывает другое пустая ссылка (Nothing в Visual Basic).</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает свойство, которое требуется сравнить.</summary>
+        <value>Объект Пропертидефинитионбасе с определением свойства, которое необходимо сравнить.</value>
+        <remarks><para>Определения свойств доступны в виде статических элементов из классов схемы ( <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.Subject" /> <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Start" />например,, или <see cref="F:Microsoft.Exchange.WebServices.Data.ContactSchema.GivenName" />.) Осерпропертидефинитион и <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.Value" /> свойства являются взаимоисключающими; При задании значения для параметра other задается пустая ссылка (Nothing в Visual Basic).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -68,12 +58,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение свойства для сравнения.</summary>
-        <value>Объект с значение для сравнения.</value>
-        <remarks>
-          <para>Значение и <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.OtherPropertyDefinition" /> свойства являются взаимоисключающими; один параметр сбрасывает другое пустая ссылка (Nothing в Visual Basic).</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает значение свойства, которое требуется сравнить.</summary>
+        <value>Объект со значением, которое необходимо сравнить.</value>
+        <remarks><para>Значение и <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter.OtherPropertyDefinition" /> свойства являются взаимоисключающими; При задании значения для параметра other задается пустая ссылка (Nothing в Visual Basic).</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="NameResolutionCollection" FullName="Microsoft.Exchange.WebServices.Data.NameResolutionCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6011c24dbc517489605deb6c5bf5194a69be692f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626795" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class NameResolutionCollection : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.NameResolution&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6011c24dbc517489605deb6c5bf5194a69be692f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626795" /></Metadata><TypeSignature Language="C#" Value="public sealed class NameResolutionCollection : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.NameResolution&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NameResolutionCollection extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.NameResolution&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NameResolutionCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NameResolutionCollection&#xA;Implements IEnumerable(Of NameResolution)" />
@@ -25,7 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Представляет список предлагаемое имя решения.</summary>
+    <summary>Представляет список предлагаемых разрешений имен.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,8 +36,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число объектов действия по определению адресов.</summary>
-        <value>Число объектов действия по определению адресов.</value>
+        <summary>Получает общее число объектов NameResolution.</summary>
+        <value>Число объектов NameResolution.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,8 +60,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет итерацию по коллекции объектов действия по определению адресов.</summary>
-        <returns>Коллекция объектов действия по определению адресов.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию по коллекции объектов NameResolution.</summary>
+        <returns>Коллекция объектов NameResolution.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,14 +80,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, доступно ли дополнительные рекомендации по их устранению.</summary>
-        <value>
-          <b>значение true,</b> Если существует более чем 100 соответствующих разрешений; в противном случае — <b>false</b>.</value>
-        <remarks>
-          <para>
-            <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.ResolveName(System.String)" /> Метод возвращает не более 100 разрешения имен. Когда <b>IncludesAllResolutions</b> имеет <b>значение false</b>, не более 100 совпадающих имен. Чтобы сузить поиск, предоставить более точное имя для <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.ResolveName(System.String)" />.</para>
-          <para />
-        </remarks>
+        <summary>Получает значение, указывающее, доступны ли другие предлагаемые разрешения.</summary>
+        <value><b>значение true</b> , если существует более 100 совпадений; в противном случае — <b>false</b>.</value>
+        <remarks><para><see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.ResolveName(System.String)" /> Метод возвращает не более 100 разрешений имен. Если <b>инклудесаллресолутионс</b> имеет <b>значение false</b>, то обнаружено более 100 совпадений имен. Чтобы сузить область поиска, введите более точное имя <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.ResolveName(System.String)" />.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -141,8 +129,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет итерацию по коллекции <see cref="T:Microsoft.Exchange.WebServices.Data.NameResolution" /> объектов. <see cref="M:Microsoft.Exchange.WebServices.Data.NameResolutionCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Коллекцию <see cref="T:Microsoft.Exchange.WebServices.Data.NameResolution" /> объектов.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию по коллекции <see cref="T:Microsoft.Exchange.WebServices.Data.NameResolution" /> объектов. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.NameResolutionCollection.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Коллекция <see cref="T:Microsoft.Exchange.WebServices.Data.NameResolution" /> объектов.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

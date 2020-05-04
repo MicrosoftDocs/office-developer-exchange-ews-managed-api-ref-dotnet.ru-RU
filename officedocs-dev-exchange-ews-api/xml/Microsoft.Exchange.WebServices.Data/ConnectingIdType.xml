@@ -1,13 +1,5 @@
 <Type Name="ConnectingIdType" FullName="Microsoft.Exchange.WebServices.Data.ConnectingIdType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c2d0afab9cf97fe7b717fee823d5e3cfde69c14a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627269" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ConnectingIdType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c2d0afab9cf97fe7b717fee823d5e3cfde69c14a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627269" /></Metadata><TypeSignature Language="C#" Value="public enum ConnectingIdType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConnectingIdType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConnectingIdType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConnectingIdType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает тип идентификатор, который используется для подключения.</summary>
+    <summary>Определяет тип идентификатора, используемого для создания подключения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Идентификатор — это имя участника.</summary>
+        <summary>Идентификатор — это имя принципа.</summary>
       </Docs>
     </Member>
     <Member MemberName="SID">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Идентификатор — это идентификатор безопасности.</summary>
+        <summary>Идентификатор — SID.</summary>
       </Docs>
     </Member>
     <Member MemberName="SmtpAddress">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Идентификатор является адресом электронной почты SMTP.</summary>
+        <summary>Идентификатор — это адрес электронной почты SMTP.</summary>
       </Docs>
     </Member>
   </Members>

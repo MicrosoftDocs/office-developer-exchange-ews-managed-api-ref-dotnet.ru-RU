@@ -1,13 +1,5 @@
 <Type Name="ItemCollection&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.ItemCollection&lt;TItem&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="773b4423c1b7eac9b42a0eae9b7e6aaa70e677f0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627291" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ItemCollection&lt;TItem&gt; : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;TItem&gt; where TItem : Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="773b4423c1b7eac9b42a0eae9b7e6aaa70e677f0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627291" /></Metadata><TypeSignature Language="C#" Value="public sealed class ItemCollection&lt;TItem&gt; : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;TItem&gt; where TItem : Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemCollection`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;!TItem&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemCollection(Of TItem)&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of TItem)" />
@@ -37,7 +29,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <typeparam name="TItem">Тип элемента, который содержится в коллекции.</typeparam>
+    <typeparam name="TItem">Тип элемента, содержащегося в коллекции.</typeparam>
     <summary>Представляет коллекцию элементов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -57,8 +49,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число элементов в коллекции.</summary>
-        <value>Возвращает <see cref="T:System.Int32" />.</value>
+        <summary>Получает общее число элементов в коллекции.</summary>
+        <value>Возвращает <see cref="T:System.Int32" />значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,8 +73,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.</summary>
-        <returns>Объект IEnumerator для семейства сайтов.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.</summary>
+        <returns>IEnumerator для коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,7 +96,7 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс элемента для получения.</param>
+        <param name="index">Отсчитываемый от нуля индекс элемента, который требуется получить.</param>
         <summary>Получает элемент по указанному индексу.</summary>
         <value>Элемент по указанному индексу.</value>
         <remarks>To be added.</remarks>
@@ -129,8 +121,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.            <see cref="M:Microsoft.Exchange.WebServices.Data.ItemCollection`1.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.            Этот <see cref="M:Microsoft.Exchange.WebServices.Data.ItemCollection`1.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="GroupMember" FullName="Microsoft.Exchange.WebServices.Data.GroupMember">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="202b304ca91f303821e22cb519da99bfe414d2a0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626588" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class GroupMember : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="202b304ca91f303821e22cb519da99bfe414d2a0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626588" /></Metadata><TypeSignature Language="C#" Value="public class GroupMember : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GroupMember extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GroupMember" />
   <TypeSignature Language="VB.NET" Value="Public Class GroupMember&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет участника группы.</summary>
+    <summary>Представляет члена группы.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,7 +50,7 @@
       </Parameters>
       <Docs>
         <param name="addressInformation">Адрес электронной почты участника.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с указанным адресом электронной почты.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса из указанного адреса электронной почты.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <Parameter Name="contactGroupId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="contactGroupId">Идентификатор группы контактов для связывания члена.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса.</summary>
+        <param name="contactGroupId">Идентификатор группы контактов, с которой необходимо связать участника.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,8 +89,8 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">Адрес электронной почты SMTP участника.</param>
-        <summary>nitializes новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с указанным адресом электронной почты.</summary>
+        <param name="smtpAddress">SMTP-адрес электронной почты участника.</param>
+        <summary>нитиализес новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным адресом электронной почты.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,9 +109,9 @@
         <Parameter Name="emailAddressKey" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
       </Parameters>
       <Docs>
-        <param name="contact">Контакт для связи с.</param>
-        <param name="emailAddressKey">Адрес электронной почты контакта для связывания.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса из <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> экземпляр, в котором индексируются с указанным адресом электронной почты.</summary>
+        <param name="contact">Контакт для ссылки.</param>
+        <param name="emailAddressKey">Адрес электронной почты контакта для ссылки.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса из <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> экземпляра, индексируемого по указанному адресу электронной почты.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -139,9 +131,9 @@
         <Parameter Name="addressToLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contactId">Идентификатор элемента контакта.</param>
+        <param name="contactId">Идентификатор участника контакта.</param>
         <param name="addressToLink">Адрес электронной почты контакта.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с указанным идентификатором.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса по указанному идентификатору.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -160,9 +152,9 @@
         <Parameter Name="mailboxType" Type="Microsoft.Exchange.WebServices.Data.MailboxType" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">SMTP-адрес элемента.</param>
-        <param name="mailboxType">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> значений перечисления.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс, имеющий по указанному адресу.</summary>
+        <param name="smtpAddress">SMTP-адрес члена.</param>
+        <param name="mailboxType">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> перечисления.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным адресом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,9 +174,9 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">Имя участника.</param>
-        <param name="smtpAddress">SMTP-адрес элемента.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс, имеющий указанного имя и адрес электронной почты.</summary>
+        <param name="name">Имя элемента.</param>
+        <param name="smtpAddress">SMTP-адрес члена.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным именем и адресом электронной почты.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -205,9 +197,9 @@
       </Parameters>
       <Docs>
         <param name="address">Адрес электронной почты участника.</param>
-        <param name="routingType">Тип маршрутизации адреса.</param>
-        <param name="mailboxType">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> значений перечисления.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с заданным адресом, маршрутизации и тип почтового ящика.</summary>
+        <param name="routingType">Тип маршрутизации для адреса.</param>
+        <param name="mailboxType">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> перечисления.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным адресом, маршрутизацией и типом почтового ящика.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -229,9 +221,9 @@
       </Parameters>
       <Docs>
         <param name="name">Имя члена группы.</param>
-        <param name="address">Адрес электронной почты членам группы.</param>
+        <param name="address">Адрес электронной почты участника группы.</param>
         <param name="routingType">Тип маршрутизации для адреса электронной почты.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класс с указанным именем, адрес электронной почты и типа маршрутизации.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> класса с указанным именем, адресом электронной почты и типом маршрутизации.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -250,8 +242,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает адрес электронной почты членам группы.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> объект, содержащий адрес электронной почты членам группы.</value>
+        <summary>Получает адрес электронной почты участника группы.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" /> свойства — это <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> объект, который содержит адрес электронной почты участника группы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -270,8 +262,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ключевое поле для члена группы.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" /> ключевое поле для члена группы — это свойство.</value>
+        <summary>Получает ключевое поле для члена группы.</summary>
+        <value>Значением <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" /> свойства является ключевое поле для члена группы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -291,7 +283,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает состояние члена группы.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" /> свойства — это один из <see cref="T:Microsoft.Exchange.WebServices.Data.MemberStatus" /> значений перечисления.</value>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" /> свойства является одним из значений <see cref="T:Microsoft.Exchange.WebServices.Data.MemberStatus" /> перечисления.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

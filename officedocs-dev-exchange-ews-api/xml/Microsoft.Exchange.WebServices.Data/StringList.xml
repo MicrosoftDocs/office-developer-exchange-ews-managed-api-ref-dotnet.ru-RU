@@ -1,13 +1,5 @@
 <Type Name="StringList" FullName="Microsoft.Exchange.WebServices.Data.StringList">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f48251e8a53566193507ccbe2dcd39a1be67c48d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626932" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class StringList : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;string&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f48251e8a53566193507ccbe2dcd39a1be67c48d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626932" /></Metadata><TypeSignature Language="C#" Value="public sealed class StringList : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;string&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StringList extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;string&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StringList" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StringList&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of String)" />
@@ -42,7 +34,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.StringList.</summary>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. Стринглист.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,8 +53,8 @@
         <Parameter Name="strings" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="strings">Коллекция строк IEnumerable, который используется для создания объекта основная система.</param>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.StringList.</summary>
+        <param name="strings">Коллекция строк IEnumerable, используемая для создания объекта Стринглист.</param>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. Стринглист.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,8 +76,8 @@
         <Parameter Name="s" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="s">Строку, которую нужно добавить в список.</param>
-        <summary>Добавляет строку в списке.</summary>
+        <param name="s">Строка, которую необходимо добавить в список.</param>
+        <summary>Добавляет строку в список.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -107,8 +99,8 @@
         <Parameter Name="strings" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="strings">Строки, которые следует добавить в список.</param>
-        <summary>Добавление нескольких строк в список.</summary>
+        <param name="strings">Строки, которые необходимо добавить в список.</param>
+        <summary>Добавляет несколько строк в список.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,7 +120,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет список.</summary>
+        <summary>Очищает список.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -150,9 +142,9 @@
         <Parameter Name="s" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="s">Строка, чтобы проверить наличие.</param>
+        <param name="s">Строка для проверки присутствия.</param>
         <summary>Определяет, содержит ли список определенную строку.</summary>
-        <returns>Значение true, если s присутствует в списке выберите значение false в противном случае.</returns>
+        <returns>Значение true, если s присутствует в списке, в противном случае — значение false.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -171,7 +163,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число строк в списке.</summary>
+        <summary>Получает количество строк в списке.</summary>
         <value>Целое число.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,9 +186,9 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">Объект, который используется для сравнения объект основная система.</param>
-        <summary>Определяет, является ли указанный System.Object равное текущей System.Object.</summary>
-        <returns>Значение true, если указанный System.Object равное текущей System.Object; в противном случае — false.</returns>
+        <param name="obj">Объект, используемый для сравнения с объектом Стринглист.</param>
+        <summary>Определяет, равен ли указанный объект System. Object текущему System. Object.</summary>
+        <returns>Значение true, если указанный System. Object равен текущему System. Object; в противном случае — false.</returns>
         <remarks>To be added.</remarks>
         <exception cref="System.NullReferenceException">Параметр obj имеет значение null.</exception>
       </Docs>
@@ -220,8 +212,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.</summary>
-        <returns>Объект IEnumerator для семейства сайтов.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.</summary>
+        <returns>IEnumerator для коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -242,7 +234,7 @@
       <Parameters />
       <Docs>
         <summary>Служит в качестве хэш-функции для определенного типа.</summary>
-        <returns>Хэш-код для текущей System.Object.</returns>
+        <returns>Хэш-код для текущего System. Object.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -264,7 +256,7 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Индекс строки, позволяющее получить или задать.</param>
+        <param name="index">Индекс строки, которую требуется возвратить или задать.</param>
         <summary>Получает или задает строку по указанному индексу.</summary>
         <value>Строка по указанному индексу.</value>
         <remarks>To be added.</remarks>
@@ -288,9 +280,9 @@
         <Parameter Name="s" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="s">Строку, которую нужно удалить.</param>
+        <param name="s">Строка, которую требуется удалить.</param>
         <summary>Удаляет строку из списка.</summary>
-        <returns>S был удален, значение false в противном случае — значение true.</returns>
+        <returns>Значение true — s был удален; в противном случае — false.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -312,8 +304,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Индекс строку, которую нужно удалить.</param>
-        <summary>Удаляет строку в заданной позиции в списке.</summary>
+        <param name="index">Индекс удаляемой строки.</param>
+        <summary>Удаляет строку из списка в указанном положении.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -336,8 +328,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.             <see cref="M:Microsoft.Exchange.WebServices.Data.StringList.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.StringList.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -357,8 +349,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Создает строковое представление всех элементов в списке.</summary>
-        <returns>Разделенный запятыми список строк, присутствует в списке.</returns>
+        <summary>Создает строковое представление всех элементов списка.</summary>
+        <returns>Разделенный запятыми список строк, присутствующих в списке.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

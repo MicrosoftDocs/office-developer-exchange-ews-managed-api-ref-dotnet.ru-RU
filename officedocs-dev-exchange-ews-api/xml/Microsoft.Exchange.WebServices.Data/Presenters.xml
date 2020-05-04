@@ -1,13 +1,5 @@
 <Type Name="Presenters" FullName="Microsoft.Exchange.WebServices.Data.Presenters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="19ee899d00c14b09186b8882c6ed1eaabefd77b4" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627067" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum Presenters" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="19ee899d00c14b09186b8882c6ed1eaabefd77b4" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627067" /></Metadata><TypeSignature Language="C#" Value="public enum Presenters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Presenters extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Presenters" />
   <TypeSignature Language="VB.NET" Value="Public Enum Presenters" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет, какие участники собрания по сети можно назначать привилегии âûñòóïàþùåãî. <see cref="T:Microsoft.Exchange.WebServices.Data.Presenters" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет, какие участники собрания по сети могут предоставлять права докладчика. <see cref="T:Microsoft.Exchange.WebServices.Data.Presenters" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Только организатор собрания.             <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Disabled" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Только организатор собрания.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Disabled" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Everyone">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Всем участникам.             <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Everyone" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Все участники.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Everyone" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Internal">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Участники в пределах одной организации.             <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Internal" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Участники одной и той же организации.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Internal" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

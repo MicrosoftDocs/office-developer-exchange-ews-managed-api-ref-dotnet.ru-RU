@@ -1,13 +1,5 @@
 <Type Name="ClientExtensionProvidedTo" FullName="Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a3a747d44b2071d7283909f50f5ccbe980e70229" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626568" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ClientExtensionProvidedTo" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a3a747d44b2071d7283909f50f5ccbe980e70229" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626568" /></Metadata><TypeSignature Language="C#" Value="public enum ClientExtensionProvidedTo" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClientExtensionProvidedTo extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo" />
   <TypeSignature Language="VB.NET" Value="Public Enum ClientExtensionProvidedTo" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает пользователей, для которых предоставляется клиентское расширение.            <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Указывает пользователей, для которых предоставляется расширение клиента.            <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Группа «все» в глобальном списке адресов.             Все поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Группа "все" в глобальном списке адресов.             Поле "все" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SpecificUsers">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Набор пользователей, указанных в глобальном списке адресов.             В поле SpecificUsers используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Набор пользователей, указанных в глобальном списке адресов.             Поле СпеЦификусерс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

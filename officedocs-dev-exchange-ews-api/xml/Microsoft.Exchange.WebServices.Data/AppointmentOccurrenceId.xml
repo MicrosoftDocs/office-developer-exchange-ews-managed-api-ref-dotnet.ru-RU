@@ -1,13 +1,5 @@
 <Type Name="AppointmentOccurrenceId" FullName="Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5c79a880bfceff2d8fc45ec51ce305f4ae7b9430" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626733" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AppointmentOccurrenceId : Microsoft.Exchange.WebServices.Data.ItemId" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5c79a880bfceff2d8fc45ec51ce305f4ae7b9430" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626733" /></Metadata><TypeSignature Language="C#" Value="public sealed class AppointmentOccurrenceId : Microsoft.Exchange.WebServices.Data.ItemId" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AppointmentOccurrenceId extends Microsoft.Exchange.WebServices.Data.ItemId" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AppointmentOccurrenceId&#xA;Inherits ItemId" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет идентификатор вхождения повторяющейся встречи.</summary>
+    <summary>Представляет идентификатор экземпляра повторяющейся встречи.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -41,9 +33,9 @@
         <Parameter Name="occurrenceIndex" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="recurringMasterUniqueId">Идентификатор главной повторяющихся встреч, соответствующий копия встречи.</param>
-        <param name="occurrenceIndex">Индекс вхождения встречи.</param>
-        <summary>Инициализирует новый экземпляр класса AppointmentOccurrenceId.</summary>
+        <param name="recurringMasterUniqueId">Идентификатор повторяющейся основной встречи, которая соответствует экземпляру встречи.</param>
+        <param name="occurrenceIndex">Индекс экземпляра встречи.</param>
+        <summary>Инициализирует новый экземпляр класса Аппоинтментоккурренцеид.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,7 +55,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает индекс экземпляра встречи. Индекс вхождения начинается с единицы.</summary>
-        <value>Индекс вхождения встречи.</value>
+        <value>Индекс экземпляра встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

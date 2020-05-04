@@ -1,13 +1,5 @@
 <Type Name="NormalizedBody" FullName="Microsoft.Exchange.WebServices.Data.NormalizedBody">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5768ff2e98993be5216bd6a7a4012b3b854a92a6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626589" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class NormalizedBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5768ff2e98993be5216bd6a7a4012b3b854a92a6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626589" /></Metadata><TypeSignature Language="C#" Value="public sealed class NormalizedBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NormalizedBody extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NormalizedBody" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NormalizedBody&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет текст, который был преобразован в нормализованного значения.             <see cref="T:Microsoft.Exchange.WebServices.Data.NormalizedBody" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет текст сообщения, преобразованный в нормализованное значение.             <see cref="T:Microsoft.Exchange.WebServices.Data.NormalizedBody" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.BodyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли основного текста сообщения в формате HTML или текст.             <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.BodyType" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Тип нормализованный основного текста.</value>
+        <summary>Получает значение, указывающее, находится ли текст сообщения в формате HTML или текстовом формате.             <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.BodyType" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Тип нормализованного основного текста.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,9 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, усекается ли текст в теле сообщения.             <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.IsTruncated" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если текст усекается; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, обрезается ли текст в тексте сообщения.             <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.IsTruncated" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если текст усекается; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,9 +75,9 @@
         <Parameter Name="messageBody" Type="Microsoft.Exchange.WebServices.Data.NormalizedBody" />
       </Parameters>
       <Docs>
-        <param name="messageBody">Объект NormalizedBody, который требуется преобразовать.</param>
-        <summary>Определяет неявное преобразование из <see cref="T:Microsoft.Exchange.WebServices.Data.NormalizedBody" /> объект в строку. <see cref="M:Microsoft.Exchange.WebServices.Data.NormalizedBody.op_Implicit(Microsoft.Exchange.WebServices.Data.NormalizedBody)~System.String" /> Оператор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Текст сообщения.</returns>
+        <param name="messageBody">Объект Нормализедбоди, который требуется преобразовать.</param>
+        <summary>Определяет неявное преобразование <see cref="T:Microsoft.Exchange.WebServices.Data.NormalizedBody" /> объекта в строку. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.NormalizedBody.op_Implicit(Microsoft.Exchange.WebServices.Data.NormalizedBody)~System.String" /> оператор подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Текст основного текста.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,8 +96,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает текст текст сообщения. <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.Text" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Текст нормализованный body.</value>
+        <summary>Получает текст текста сообщения. <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.Text" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Текст нормализованного текста.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,7 +117,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Преобразует текущий объект в строковое значение. <see cref="M:Microsoft.Exchange.WebServices.Data.NormalizedBody.ToString" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Преобразует текущий объект в строковое значение. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.NormalizedBody.ToString" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <returns>Строка, представляющая текущий объект.</returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="ElcFolderType" FullName="Microsoft.Exchange.WebServices.Data.ElcFolderType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7f4f9f51a1283bae3f43b297ec66e159c11c222b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626591" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ElcFolderType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7f4f9f51a1283bae3f43b297ec66e159c11c222b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626591" /></Metadata><TypeSignature Language="C#" Value="public enum ElcFolderType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ElcFolderType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ElcFolderType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Перечисление папок, которые принимают политики (MRM) управления записями сообщений.             <see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Перечисляет папки, принимающие политики управления записями сообщений (управления ЗАПИСЯМИ сообщений).             <see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется ко всем папкам, не связанные с указанной политики.             Все поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется ко всем папкам, для которых не указана политика.             Поле все подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Calendar">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке календаря.             В поле календарь используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "Календарь".             Поле "Календарь" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Contacts">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке «Контакты».             Поле контакты можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "Контакты".             Поле Contacts подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConversationHistory">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке журнала бесед по умолчанию. Эта папка используется в архив беседы службы обмена мгновенными Сообщениями конференц-связи. В поле ConversationHistory используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке журнала бесед по умолчанию. Эта папка используется для архивации бесед в службе конференц-связи с IM. Поле ConversationHistory применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="DeletedItems">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Применяет политику хранения для папки "Удаленные".             В поле DeletedItems используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "Удаленные".             Поле DeletedItems применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Drafts">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке "Черновики".             В поле «черновики» используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "Черновики".             Поле черновики подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Inbox">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке "Входящие".             В поле папки «Входящие» используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "Входящие".             Поле "Входящие" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Journal">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке журнала.             В поле журнала можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке журнала.             Поле журнала подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="JunkEmail">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется в папку нежелательной почты.             В поле JunkEmail используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке нежелательной почты.             Поле Жункемаил применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="ManagedCustomFolder">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к настраиваемые управляемые папки.             В поле ManagedCustomFolder используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к настраиваемым управляемым папкам.             Поле Манажедкустомфолдер применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="NonIpmRoot">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке не электронной почты — это поддерево обмена мгновенными сообщениями.             В поле NonIpmRoot используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке поддерева, в котором не используется межпользовательская система обмена сообщениями.             Поле Нонипмрут применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Notes">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папка «заметки».             В поле заметки можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке Notes.             Поле Notes (заметки) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Outbox">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке «Исходящие».             В поле "Исходящие" используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "Исходящие".             Поле "Исходящие" применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Personal">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к личной папки, созданные пользователем.             Личные поля используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к личным папкам, созданным пользователями.             Личное поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="RecoverableItems">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке элементов для восстановления.             В поле RecoverableItems используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "элементы с возможностью восстановления".             Поле RecoverableItems применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="RssSubscriptions">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке RSS-канал.             В поле RssSubscriptions используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке RSS.             Поле Рсссубскриптионс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SentItems">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к этой папке.             В поле папки "Отправленные" используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "Отправленные".             Поле SentItems применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SyncIssues">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к ошибки синхронизации папки по умолчанию.             В поле SyncIssues используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "ошибки синхронизации по умолчанию".             Поле СинЦиссуес применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Tasks">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Политика хранения применяется к папке задачи.             Поля задач можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Политика хранения применяется к папке "задачи".             Поле Tasks (задачи) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

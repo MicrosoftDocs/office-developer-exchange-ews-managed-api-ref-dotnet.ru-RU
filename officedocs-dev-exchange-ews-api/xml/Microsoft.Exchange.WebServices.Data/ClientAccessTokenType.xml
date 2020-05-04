@@ -1,13 +1,5 @@
 <Type Name="ClientAccessTokenType" FullName="Microsoft.Exchange.WebServices.Data.ClientAccessTokenType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b3bac386cf2559c587d23eaba339f5c18b024ba9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626877" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ClientAccessTokenType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b3bac386cf2559c587d23eaba339f5c18b024ba9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626877" /></Metadata><TypeSignature Language="C#" Value="public enum ClientAccessTokenType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClientAccessTokenType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ClientAccessTokenType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает тип маркера доступа клиентов.             <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет тип маркера клиентского доступа.             <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Идентификатор звонящего.             В поле CallerIdentity используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Идентификатор вызывающего абонента.             Поле Каллеридентити применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExtensionCallback">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Ссылка на обратного вызова расширения клиента тип маркера доступа.             В поле ExtensionCallback используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Ссылка на обратный вызов расширения типа маркера клиентского доступа.             Поле Екстенсионкаллбакк применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="ScopedToken">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Маркер доступа с ограниченной областью, предоставления доступа только для элементов, указанных в <see cref="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.Scope" /> свойство. В поле ScopedToken используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 2013SP1 Exchange Server.</summary>
+        <summary>Маркер доступа с ограниченной областью, предоставляя доступ только к элементам, указанным в <see cref="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.Scope" /> свойстве. Поле Скопедтокен применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013SP1.</summary>
       </Docs>
     </Member>
   </Members>

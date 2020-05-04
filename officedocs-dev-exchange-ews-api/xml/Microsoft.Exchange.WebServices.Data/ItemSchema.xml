@@ -1,13 +1,5 @@
 <Type Name="ItemSchema" FullName="Microsoft.Exchange.WebServices.Data.ItemSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d1044d72b26d9025666e633a9188e13d6587a15c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627284" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ItemSchema : Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d1044d72b26d9025666e633a9188e13d6587a15c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627284" /></Metadata><TypeSignature Language="C#" Value="public class ItemSchema : Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ItemSchema extends Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemSchema" />
   <TypeSignature Language="VB.NET" Value="Public Class ItemSchema&#xA;Inherits ServiceObjectSchema" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет схему для стандартных элементов.</summary>
+    <summary>Представляет схему для универсальных элементов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.ArchiveTag" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.ArchiveTag" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -287,7 +279,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.EntityExtractionResult" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.EntityExtractionResult" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -306,7 +298,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.Flag" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.Flag" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -344,7 +336,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> свойство. <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.IconIndex" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> свойство. Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.IconIndex" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -420,7 +412,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.InstanceKey" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.InstanceKey" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -667,7 +659,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.NormalizedBody" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.NormalizedBody" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -705,7 +697,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.PolicyTag" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.PolicyTag" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -724,7 +716,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.Preview" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.Preview" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -781,7 +773,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.RetentionDate" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.RetentionDate" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -876,7 +868,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.TextBody" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ItemSchema.TextBody" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

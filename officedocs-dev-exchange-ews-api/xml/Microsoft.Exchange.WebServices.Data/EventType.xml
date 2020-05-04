@@ -1,13 +1,5 @@
 <Type Name="EventType" FullName="Microsoft.Exchange.WebServices.Data.EventType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="05e1b670b7454f8c91c297dc1562877355313e07" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627469" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum EventType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="05e1b670b7454f8c91c297dc1562877355313e07" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627469" /></Metadata><TypeSignature Language="C#" Value="public enum EventType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EventType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EventType" />
   <TypeSignature Language="VB.NET" Value="Public Enum EventType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет тип события, возвращенное подписки на уведомления.</summary>
+    <summary>Определяет тип события, возвращаемого подписками на уведомления.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Был скопирован элемент или папку.</summary>
+        <summary>Скопирован элемент или папка.</summary>
       </Docs>
     </Member>
     <Member MemberName="Created">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Был создан элемента или папки.</summary>
+        <summary>Создан элемент или папка.</summary>
       </Docs>
     </Member>
     <Member MemberName="Deleted">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Элемент или папка была удалена.</summary>
+        <summary>Удален элемент или папка.</summary>
       </Docs>
     </Member>
     <Member MemberName="FreeBusyChanged">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Указывает, что сведения о доступности был изменен.</summary>
+        <summary>Указывает, что сведения о занятости изменились.</summary>
       </Docs>
     </Member>
     <Member MemberName="Modified">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Элемент или папка была изменена.</summary>
+        <summary>Изменен элемент или папка.</summary>
       </Docs>
     </Member>
     <Member MemberName="Moved">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Была перемещена элемента или папки.</summary>
+        <summary>Элемент или папка перемещены.</summary>
       </Docs>
     </Member>
     <Member MemberName="NewMail">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Создать сообщение было получено.</summary>
+        <summary>Получено новое почтовое сообщение.</summary>
       </Docs>
     </Member>
     <Member MemberName="Status">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Подписки на уведомления о push активен.</summary>
+        <summary>Подписка на push-уведомления остается в состоянии.</summary>
       </Docs>
     </Member>
   </Members>

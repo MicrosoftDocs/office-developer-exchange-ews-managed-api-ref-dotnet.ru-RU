@@ -1,13 +1,5 @@
 <Type Name="ProtocolConnectionCollection" FullName="Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnectionCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a5318d0577ba3cb815fb50805a4e101e2bc797ab" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627208" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ProtocolConnectionCollection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a5318d0577ba3cb815fb50805a4e101e2bc797ab" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627208" /></Metadata><TypeSignature Language="C#" Value="public sealed class ProtocolConnectionCollection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ProtocolConnectionCollection extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnectionCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ProtocolConnectionCollection" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Пользователь, то есть параметр коллекцию протокол подключения.</summary>
+    <summary>Параметр пользователя, который является коллекцией подключений протокола.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список протокол подключения.</summary>
-        <value>Список, содержащий протокол подключения.</value>
+        <summary>Получает список подключений к пользовательским протоколам.</summary>
+        <value>Список, содержащий подключения по протоколу пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

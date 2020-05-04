@@ -1,13 +1,5 @@
 <Type Name="ViewBase" FullName="Microsoft.Exchange.WebServices.Data.ViewBase">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f152bbfa8d62bb48f8b1b2cf3489d7faa9714a9d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626728" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ViewBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f152bbfa8d62bb48f8b1b2cf3489d7faa9714a9d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626728" /></Metadata><TypeSignature Language="C#" Value="public abstract class ViewBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ViewBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ViewBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ViewBase" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет класс базового представления для операций поиска.</summary>
+    <summary>Представляет базовый класс представления для операций поиска.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +37,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает набор свойств. Это свойство определяет, какие свойства будут загружаться на найденных элементов. Если это свойство является пустая ссылка (Nothing в Visual Basic), все свойства первого класса загружаются на найденных элементов.</summary>
-        <value>Набор свойств, которые будут загружаться на элементы, возвращенные операцией поиска.</value>
-        <remarks>
-          <para>Свойство PropertySet определяет свойства элемента, которые будут возвращены с элементами, найденные в результате поиска. Если PropertySet является пустая ссылка (Nothing в Visual Basic), с найденных элементов возвращаются все свойства первого класса.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает набор свойств. Это свойство определяет, какие свойства будут загружаться для найденных элементов. Если это свойство является пустой ссылкой (Nothing в Visual Basic), все свойства первого класса загружаются в найденных элементах.</summary>
+        <value>Набор свойств, которые будут загружаться для элементов, возвращаемых службой поиска.</value>
+        <remarks><para>Свойство Property определяет свойства элемента, которые будут возвращены с элементами, найденными при поиске. Если свойство Property имеет пустую ссылку (Nothing в Visual Basic), все свойства первого класса возвращаются с найденными элементами.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

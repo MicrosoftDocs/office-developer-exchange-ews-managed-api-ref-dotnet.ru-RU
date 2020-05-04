@@ -1,13 +1,5 @@
 <Type Name="AlternateId" FullName="Microsoft.Exchange.WebServices.Data.AlternateId">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8eb84c9da9e6afc49e95c01b57b6723f64f9861" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627210" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class AlternateId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d8eb84c9da9e6afc49e95c01b57b6723f64f9861" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627210" /></Metadata><TypeSignature Language="C#" Value="public class AlternateId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternateId extends Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternateId" />
   <TypeSignature Language="VB.NET" Value="Public Class AlternateId&#xA;Inherits AlternateIdBase" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет идентификатор, выраженная в определенный формат.</summary>
+    <summary>Представляет идентификатор, выраженный в определенном формате.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,10 +51,10 @@
         <Parameter Name="mailbox" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="format">Формат идентификатора идентификатор для преобразования.</param>
-        <param name="id">Идентификатор для преобразования.</param>
-        <param name="mailbox">SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класс, используя заданный формат, идентификатор и почтовых ящиков SMTP-адрес.</summary>
+        <param name="format">Формат идентификатора для преобразования.</param>
+        <param name="id">Преобразуемый идентификатор.</param>
+        <param name="mailbox">SMTP-адрес почтового ящика, содержащего идентификатор для преобразования.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса, используя предоставленный формат, идентификатор и SMTP-адрес почтового ящика.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,15 +76,13 @@
         <Parameter Name="isArchive" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="format">Формат идентификатора идентификатор для преобразования.</param>
-        <param name="id">Идентификатор для преобразования.</param>
-        <param name="mailbox">SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</param>
-        <param name="isArchive">Флаг, указывающий, является ли идентификатор из архивных элемента.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса, используя заданный формат, идентификатор, адрес почтового ящика SMTP и архивировать флаг идентификатор.</summary>
-        <remarks>
-          <para>Эта перегрузка используется для клиентов, предназначенных для версий Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
-          <para />
-        </remarks>
+        <param name="format">Формат идентификатора для преобразования.</param>
+        <param name="id">Преобразуемый идентификатор.</param>
+        <param name="mailbox">SMTP-адрес почтового ящика, содержащего идентификатор для преобразования.</param>
+        <param name="isArchive">Флаг, указывающий, находится ли идентификатор из архивного элемента.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> класса с помощью предоставленного формата, идентификатора, SMTP-адреса почтового ящика и флага архивного идентификатора.</summary>
+        <remarks><para>Эта перегрузка применяется к клиентам, которые нацелены на версии Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsArchive">
@@ -110,13 +100,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, представляет ли идентификатор идентификатора элемента или папки архива.</summary>
-        <value>
-          <b>значение true,</b> Если идентификатор представляет элемент архива или папки; в противном случае — <b>false</b>.</value>
-        <remarks>
-          <para>Это свойство используется для клиентов, предназначенных для версий Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает значение, указывающее, представляет ли идентификатор элемент архива или идентификатор папки.</summary>
+        <value><b>значение true</b> , если идентификатор представляет архивный элемент или папку; в противном случае — <b>false</b>.</value>
+        <remarks><para>Это свойство применяется к клиентам, которые нацелены на версии Microsoft Exchange Server, начиная с Exchange Server 2010 с пакетом обновления 1 (SP1).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mailbox">
@@ -134,7 +121,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает SMTP-адрес почтового ящика, содержащее идентификатор для преобразования.</summary>
+        <summary>Получает или задает SMTP-адрес почтового ящика, содержащего идентификатор для преобразования.</summary>
         <value>SMTP-адрес.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -155,7 +142,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает идентификатор для преобразования.</summary>
-        <value>Папки или идентификатор элемента.</value>
+        <value>Идентификатор папки или элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

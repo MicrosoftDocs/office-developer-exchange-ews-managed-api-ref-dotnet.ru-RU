@@ -1,13 +1,5 @@
 <Type Name="VotingOptionData" FullName="Microsoft.Exchange.WebServices.Data.VotingOptionData">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b4b36859aba4934dafb7a6bfc0f4d600909f610" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626511" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class VotingOptionData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8b4b36859aba4934dafb7a6bfc0f4d600909f610" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626511" /></Metadata><TypeSignature Language="C#" Value="public sealed class VotingOptionData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit VotingOptionData extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.VotingOptionData" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class VotingOptionData&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет выбор голосования в сообщение, содержащее кнопки голосования. <see cref="T:Microsoft.Exchange.WebServices.Data.VotingOptionData" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет вариант голосования в сообщении, содержащем кнопки голосования. <see cref="T:Microsoft.Exchange.WebServices.Data.VotingOptionData" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает отображаемое имя для голосования выбора.</summary>
+        <summary>Получает отображаемое имя для выбора голосования.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -60,7 +52,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее поведения запроса, когда пользователь выбирает этот выбор голосования.</summary>
+        <summary>Получает значение, указывающее поведение приглашения, когда пользователь выбирает этот вариант голосования.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

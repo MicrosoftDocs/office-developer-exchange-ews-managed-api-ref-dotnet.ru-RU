@@ -1,13 +1,5 @@
 <Type Name="MeetingMessage" FullName="Microsoft.Exchange.WebServices.Data.MeetingMessage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b01951979b25480e41f181e306c5e45438736a35" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627278" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MeetingMessage : Microsoft.Exchange.WebServices.Data.EmailMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b01951979b25480e41f181e306c5e45438736a35" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627278" /></Metadata><TypeSignature Language="C#" Value="public class MeetingMessage : Microsoft.Exchange.WebServices.Data.EmailMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingMessage extends Microsoft.Exchange.WebServices.Data.EmailMessage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="VB.NET" Value="Public Class MeetingMessage&#xA;Inherits EmailMessage" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет сообщение, относящихся к собранию. Свойства, доступные на собрания сообщений определены в классе MeetingMessageSchema.</summary>
+    <summary>Представляет сообщение, связанное с собранием. Свойства, доступные в сообщениях о собраниях, определяются в классе Митингмессажесчема.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,8 +37,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор элемента встречи, который связан с сообщением собрания.</summary>
-        <value>Идентификатор встречи, которая связана с сообщением собрания.</value>
+        <summary>Получает идентификатор встречи, связанной с сообщением о собрании.</summary>
+        <value>Идентификатор встречи, связанной с сообщением о собрании.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,10 +61,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к сообщению собрания.</param>
-        <param name="id">Идентификатор сообщения собрания для привязки.</param>
-        <summary>Выполняет привязку к сообщению существующих собраний и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр класса MeetingMessage, который представляет сообщение о собрании, соответствующий с указанным идентификатором.</returns>
+        <param name="service">Служба, используемая для связывания с сообщением о собрании.</param>
+        <param name="id">Идентификатор сообщения о собрании, к которому необходимо присоединиться.</param>
+        <summary>Применяет к существующему сообщению о собрании и загружает его свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр класса Митингмессаже, представляющий сообщение о собрании, которое соответствует указанному идентификатору.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -95,11 +87,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к сообщению собрания.</param>
-        <param name="id">Идентификатор сообщения собрания для привязки.</param>
+        <param name="service">Служба, используемая для связывания с сообщением о собрании.</param>
+        <param name="id">Идентификатор сообщения о собрании, к которому необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к сообщению существующих собраний и загружает указанный набор свойств. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр класса MeetingMessage, который представляет сообщение о собрании, соответствующий с указанным идентификатором.</returns>
+        <summary>Выполняет присоединение к существующему сообщению о собрании и загружает заданный набор свойств. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр класса Митингмессаже, представляющий сообщение о собрании, которое соответствует указанному идентификатору.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,9 +110,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли сообщение о собрании обработки сервером Exchange Server (то есть, является ли Exchange отмеченный поступления приглашения на собрание и создал связанной встречи в календаре).</summary>
-        <value>
-          <b>значение true,</b> Если сообщение о собрании были обработаны Exchange; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, было ли сообщение о собрании обработано сервером Exchange (то есть было ли Exchange отправлено на приглашение на собрание и создан соответствующий элемент собрания в календаре).</summary>
+        <value><b>имеет значение true</b> , если сообщение о собрании было обработано Exchange; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -139,8 +130,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает свойство DateTimeStamp iCalendar.</summary>
-        <value>Свойство DateTimeStamp iCalendar.</value>
+        <summary>Получает свойство iCalendar Датетиместамп.</summary>
+        <value>Свойство iCalendar Датетиместамп.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,8 +150,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает свойство RecurrenceId iCalendar.</summary>
-        <value>Свойство RecurrenceId iCalendar.</value>
+        <summary>Получает свойство iCalendar Рекурренцеид.</summary>
+        <value>Свойство iCalendar Рекурренцеид.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -179,8 +170,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает iCalendar ИД пользователя.</summary>
-        <value>ICalendar ИД пользователя.</value>
+        <summary>Получает идентификатор iCalendar.</summary>
+        <value>Идентификатор iCalendar.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -199,9 +190,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, делегирования ли сообщение о собрании.</summary>
-        <value>
-          <b>значение true,</b> Если сообщение о собрании делегированной; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, делегировано ли сообщение о собрании.</summary>
+        <value><b>значение true</b> , если сообщение о собрании делегировано; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -220,9 +210,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли отправитель сообщения является организатором собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.IsOrganizer" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если отправитель сообщения является организатором собрания; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли отправитель сообщения организатором собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.IsOrganizer" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если отправитель сообщения является организатором собрания; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -241,9 +230,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли сообщение собрания устаревший.</summary>
-        <value>
-          <b>значение true,</b> Если сообщение о собрании — устаревший; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли сообщение о собрании устаревшим.</summary>
+        <value><b>значение true</b> , если сообщение о собрании устарело; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -262,8 +250,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponseType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип ответа, который представляет сообщение о собрании.</summary>
-        <value>Одно из значений перечисления MeetingResponseType, который указывает тип ответа, который представляет сообщение о собрании.</value>
+        <summary>Получает тип ответа, представленного сообщением о собрании.</summary>
+        <value>Одно из значений перечисления Митингреспонсетипе, указывающее тип ответа, представленного сообщением о собрании.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

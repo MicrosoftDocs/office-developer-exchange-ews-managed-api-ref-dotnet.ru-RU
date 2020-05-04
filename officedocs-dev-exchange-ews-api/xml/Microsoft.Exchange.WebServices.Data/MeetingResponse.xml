@@ -1,13 +1,5 @@
 <Type Name="MeetingResponse" FullName="Microsoft.Exchange.WebServices.Data.MeetingResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b351ec80a7315a6707e56c2c55926db24aa9de31" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627051" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MeetingResponse : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b351ec80a7315a6707e56c2c55926db24aa9de31" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627051" /></Metadata><TypeSignature Language="C#" Value="public class MeetingResponse : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingResponse extends Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingResponse" />
   <TypeSignature Language="VB.NET" Value="Public Class MeetingResponse&#xA;Inherits MeetingMessage" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ответ на приглашения на собрание.</summary>
+    <summary>Представляет ответ на приглашение на собрание.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,10 +36,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использоваться для привязки приглашения на собрание.</param>
-        <param name="id">Идентификатор приглашения на собрание для привязки.</param>
-        <summary>Выполняет привязку к существующей приглашения на собрание и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр класса MeetingResponse, представляющий приглашения на собрание, соответствующий с указанным идентификатором.</returns>
+        <param name="service">Служба, используемая для связывания с ответом на приглашение на собрание.</param>
+        <param name="id">Идентификатор ответа на приглашение на собрание, к которому необходимо присоединиться.</param>
+        <summary>Применяет к существующему ответу на приглашение на собрание и загружает его свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр класса Митингреспонсе, представляющий ответ на приглашение на собрание, соответствующий указанному идентификатору.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -70,11 +62,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использоваться для привязки приглашения на собрание.</param>
-        <param name="id">Идентификатор приглашения на собрание для привязки.</param>
+        <param name="service">Служба, используемая для связывания с ответом на приглашение на собрание.</param>
+        <param name="id">Идентификатор ответа на приглашение на собрание, к которому необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей приглашения на собрание и загружает указанный набор свойств. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр класса MeetingResponse, представляющий приглашения на собрание, соответствующий с указанным идентификатором.</returns>
+        <summary>Выполняет присоединение к существующему ответу на приглашение на собрание и загружает указанный набор свойств. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр класса Митингреспонсе, представляющий ответ на приглашение на собрание, соответствующий указанному идентификатору.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,7 +85,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время окончания собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.End" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает время окончания собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.End" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Время окончания собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,8 +105,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сведения о расположении для собраний, таким как название местоположения, адрес и дополнительные примечания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.EnhancedLocation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Сведения о дополнительных расположении.</value>
+        <summary>Получает сведения о расположении для собрания, такие как имя расположения, адрес и дополнительные примечания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.EnhancedLocation" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Дополнительные сведения о расположении.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -133,8 +125,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает место собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Location" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Место собрания.</value>
+        <summary>Получает место собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Location" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Место проведения собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,8 +145,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время окончания предложенного собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedEnd" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Время окончания предложенного собрания.</value>
+        <summary>Получает предложенное время окончания собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedEnd" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Предложенное время окончания собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -173,8 +165,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время начала предложенного собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedStart" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Время начала предложенного собрания.</value>
+        <summary>Получает предложенное время начала собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.ProposedStart" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Предложенное время начала собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -193,7 +185,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает шаблон повторения для этого приглашения на собрание.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Recurrence" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает шаблон повторения для этого приглашения на собрание.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Recurrence" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Шаблон повторения для этого приглашения на собрание.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,7 +205,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время начала собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Start" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает время начала собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingResponse.Start" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Время начала собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>

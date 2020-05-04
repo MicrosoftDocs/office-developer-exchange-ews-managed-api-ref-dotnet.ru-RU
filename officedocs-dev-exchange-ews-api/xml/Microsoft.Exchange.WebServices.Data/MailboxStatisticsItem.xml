@@ -1,13 +1,5 @@
 <Type Name="MailboxStatisticsItem" FullName="Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c5e051f654ec2136abc9571e493b5d1d410a45ea" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627060" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MailboxStatisticsItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c5e051f654ec2136abc9571e493b5d1d410a45ea" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627060" /></Metadata><TypeSignature Language="C#" Value="public sealed class MailboxStatisticsItem" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxStatisticsItem extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxStatisticsItem" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения о почтовом ящике, который является целевым для поиска методом электронного обнаружения.             <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения о почтовом ящике, который является целью поиска с обнаружением электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Создает новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Создает новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя целевого почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.DisplayName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает имя целевого почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.DisplayName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Отображаемое имя.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,8 +69,8 @@
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает число элементов в целевой почтовый ящик.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.ItemCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Число элементов.</value>
+        <summary>Получает или задает количество элементов в целевом почтовом ящике.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.ItemCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Количество элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,7 +89,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.MailboxId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.MailboxId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор почтового ящика.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -122,7 +114,7 @@
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает общий размер в байтах всех элементов в почтовом ящике.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.Size" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает общий размер всех элементов в почтовом ящике (в байтах).             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.Size" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Общий размер.</value>
         <remarks>To be added.</remarks>
       </Docs>

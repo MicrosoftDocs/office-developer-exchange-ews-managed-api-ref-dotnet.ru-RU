@@ -1,13 +1,5 @@
 <Type Name="PhoneNumberDictionary" FullName="Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ecebd79910ede1d8b6c9a051eac917c3e9875c77" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626706" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PhoneNumberDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.PhoneNumberKey,Microsoft.Exchange.WebServices.Data.PhoneNumberEntry&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ecebd79910ede1d8b6c9a051eac917c3e9875c77" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626706" /></Metadata><TypeSignature Language="C#" Value="public sealed class PhoneNumberDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.PhoneNumberKey,Microsoft.Exchange.WebServices.Data.PhoneNumberEntry&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhoneNumberDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.PhoneNumberKey, class Microsoft.Exchange.WebServices.Data.PhoneNumberEntry&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhoneNumberDictionary&#xA;Inherits DictionaryProperty(Of PhoneNumberKey, PhoneNumberEntry)" />
@@ -47,7 +39,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса PhoneNumberDictionary.</summary>
+        <summary>Инициализирует новый экземпляр класса Фоненумбердиктионари.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,9 +61,9 @@
         <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.PhoneNumberKey" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ, соответствующий номер телефона, позволяющее получить или задать.</param>
-        <summary>Получает или задает номер телефона, соответствующий указанный ключ.</summary>
-        <value>Телефонный номер, соответствующий указанный ключ.</value>
+        <param name="key">Ключ, соответствующий номеру телефона, который требуется получить или задать.</param>
+        <summary>Получает или задает номер телефона, соответствующий заданному ключу.</summary>
+        <value>Номер телефона, соответствующий заданному ключу.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -95,10 +87,9 @@
       </Parameters>
       <Docs>
         <param name="key">Ключ, связанный с номером телефона.</param>
-        <param name="phoneNumber">Если указанный ключ найден, содержит номер телефона, связанного с указанным ключом; в противном случае — значение NULL (Nothing в Visual Basic). Этот параметр передается неинициализированную переменную.</param>
-        <summary>Пытается получить номер телефона, связанного с указанным ключом.</summary>
-        <returns>
-          <b>значение true,</b> Если словарь содержит номер телефона, связанного с указанным ключом; в противном случае — <b>false</b>.</returns>
+        <param name="phoneNumber">Если указанный ключ найден, содержит номер телефона, связанный с указанным ключом; в противном случае — пустая ссылка (Nothing в Visual Basic). Этот параметр передается неинициализированным.</param>
+        <summary>Пытается получить номер телефона, связанный с указанным ключом.</summary>
+        <returns><b>значение true</b> , если словарь содержит номер телефона, связанный с указанным ключом; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

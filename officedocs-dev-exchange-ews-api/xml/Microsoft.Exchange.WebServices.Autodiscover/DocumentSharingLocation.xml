@@ -1,13 +1,5 @@
 <Type Name="DocumentSharingLocation" FullName="Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c25254c8371336f418073386c200a37d7f4fd84a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627361" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DocumentSharingLocation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c25254c8371336f418073386c200a37d7f4fd84a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627361" /></Metadata><TypeSignature Language="C#" Value="public sealed class DocumentSharingLocation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DocumentSharingLocation extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DocumentSharingLocation" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит метаданные, связанные с документом, общий доступ к веб-службе и местоположение (URL-адрес).             <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит расположение (URL-адрес) и метаданные, связанные с веб-службой общего доступа к документам.             <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли анонимные пользователи могут получить доступ к общих документов.             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если анонимные пользователи могут получить доступ к общих документов; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает, могут ли анонимные пользователи получать доступ к общим документам.             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>имеет значение true</b> , если анонимные пользователи могут получать доступ к общим документам; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,9 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает ли пользователь может изменить разрешения для общего доступа к расположение документа. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если пользователь может изменять параметры разрешений; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, может ли пользователь изменять разрешения для расположения общего доступа к документу. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>имеет значение true</b> , если пользователь может изменять параметры разрешений; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,8 +72,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя документа, отображаемое для пользователя, расположение для обмена.   <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Имя документа, общий доступ к расположения.</value>
+        <summary>Получает имя общего ресурса, отображаемого для пользователя.   <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Имя расположения для общего доступа к документу.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,9 +92,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли пользователям за пределами организации можно просмотреть общие документы. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если внешние пользователи могут просматривать документы; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, могут ли пользователи, не входящие в организацию, просматривать общие документы. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>имеет значение true</b> , если внешние пользователи могут просматривать документы; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,9 +112,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли в этом документе, общий доступ к расположение — это расположение по умолчанию пользователя. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если этот сайт является пользователя по умолчанию; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли расположение общего доступа к документу расположением пользователя по умолчанию. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если этот сайт является значением по умолчанию для пользователя; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -144,7 +132,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает URL-адрес документа, общий доступ к расположения.             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает URL-адрес расположения для общего доступа к документу.             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>URL-адрес сайта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -164,7 +152,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает URL-адрес веб-службы, который управляет общих документов.       <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает URL-адрес веб-службы, которая управляет общими документами.       <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>URL-адрес веб-службы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,12 +172,10 @@
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список расширений файлов, который определяет, какие типы файлов, которые могут храниться на документ, расположение для обмена.             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Список поддерживаемых расширений имени файла.</value>
-        <remarks>
-          <para>Пример списка поддерживаемые типы документов: «xlsx pptx docx».</para>
-          <para />
-        </remarks>
+        <summary>Получает список расширений файлов, которые определяют, какие типы файлов могут храниться в расположении общего доступа к документу.             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Список поддерживаемых расширений файлов.</value>
+        <remarks><para>Пример списка поддерживаемых типов документов: "docx PPTX xlsx".</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

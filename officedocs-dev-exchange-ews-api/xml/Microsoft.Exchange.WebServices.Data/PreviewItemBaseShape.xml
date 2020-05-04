@@ -1,13 +1,5 @@
 <Type Name="PreviewItemBaseShape" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="aa9c24126b7cd0ebfe708c50db4d00a249b5298d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627120" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum PreviewItemBaseShape" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="aa9c24126b7cd0ebfe708c50db4d00a249b5298d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627120" /></Metadata><TypeSignature Language="C#" Value="public enum PreviewItemBaseShape" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreviewItemBaseShape extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" />
   <TypeSignature Language="VB.NET" Value="Public Enum PreviewItemBaseShape" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет, можно просматривать элемента в почтовом ящике с его свойства или сжат ее представления.             <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет, можно ли выполнить предварительный просмотр элемента в почтовом ящике со всеми его свойствами или его представлением.             <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Можно просматривать только набор основных свойств, связанный с элементом.             <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Можно просматривать только набор основных свойств, связанных с элементом.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Default">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Можно просмотреть все свойства, связанные с элементом.             <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Можно просматривать все свойства, связанные с элементом.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

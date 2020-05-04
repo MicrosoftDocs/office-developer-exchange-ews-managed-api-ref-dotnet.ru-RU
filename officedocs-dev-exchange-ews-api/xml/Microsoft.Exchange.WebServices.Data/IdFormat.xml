@@ -1,13 +1,5 @@
 <Type Name="IdFormat" FullName="Microsoft.Exchange.WebServices.Data.IdFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f2d4e08bd076823154fb6be4119c94b0a8faf3b9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626947" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum IdFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f2d4e08bd076823154fb6be4119c94b0a8faf3b9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626947" /></Metadata><TypeSignature Language="C#" Value="public enum IdFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IdFormat extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IdFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum IdFormat" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет идентификатор поддерживаемые форматы для операций преобразования идентификатор.</summary>
+    <summary>Определяет поддерживаемые форматы идентификаторов для операций преобразования идентификатора.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Свойство PR_ENTRYID кодировке base64.</summary>
+        <summary>Свойство PR_ENTRYID в кодировке Base64.</summary>
       </Docs>
     </Member>
     <Member MemberName="EwsId">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Формат идентификатора веб-служб Exchange, который используется в Exchange 2007 с пакетом обновления 1 (SP1) и более поздних версий Exchange Server.</summary>
+        <summary>Формат идентификатора EWS, используемый в Exchange 2007 с пакетом обновления 1 (SP1) и более поздних версий Exchange Server.</summary>
       </Docs>
     </Member>
     <Member MemberName="EwsLegacyId">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Формат идентификатора веб-служб Exchange (EWS), который используется в первоначальной версии Exchange Server 2007.</summary>
+        <summary>Формат идентификатора веб-служб Exchange (EWS), используемый в первой версии Exchange Server 2007.</summary>
       </Docs>
     </Member>
     <Member MemberName="HexEntryId">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Шестнадцатеричное представление свойство PR_ENTRYID.</summary>
+        <summary>Шестнадцатеричное представление свойства PR_ENTRYID.</summary>
       </Docs>
     </Member>
     <Member MemberName="OwaId">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Формат идентификатора Outlook Web App. Это значение относится к Exchange 2007 и Exchange 2010.</summary>
+        <summary>Формат идентификатора Outlook Web App. Это значение применяется к Exchange 2007 и Exchange 2010.</summary>
       </Docs>
     </Member>
     <Member MemberName="StoreId">

@@ -1,13 +1,5 @@
 <Type Name="DateTimePrecision" FullName="Microsoft.Exchange.WebServices.Data.DateTimePrecision">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d1bbb02b23af79fc8f32259e24d9c74f4609f571" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626570" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum DateTimePrecision" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d1bbb02b23af79fc8f32259e24d9c74f4609f571" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626570" /></Metadata><TypeSignature Language="C#" Value="public enum DateTimePrecision" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DateTimePrecision extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DateTimePrecision" />
   <TypeSignature Language="VB.NET" Value="Public Enum DateTimePrecision" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет точность объекты DateTime, передаются в клиент.</summary>
+    <summary>Определяет точность объектов DateTime, которые будут переданы клиенту.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Значение точности не отправляются клиенту.</summary>
+        <summary>Клиенту не отправляется значение точности.</summary>
       </Docs>
     </Member>
     <Member MemberName="Milliseconds">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Точность устанавливается в миллисекундах.</summary>
+        <summary>Для точности задано значение миллисекунд.</summary>
       </Docs>
     </Member>
     <Member MemberName="Seconds">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Точность присвоено значение секунд.</summary>
+        <summary>Для точности задано значение секунды.</summary>
       </Docs>
     </Member>
   </Members>

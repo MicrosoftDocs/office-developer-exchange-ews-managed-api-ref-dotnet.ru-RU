@@ -1,13 +1,5 @@
 <Type Name="SendPrompt" FullName="Microsoft.Exchange.WebServices.Data.SendPrompt">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f2e348dcbc8ad018a55212569b136fa0bcf4d1db" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627465" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SendPrompt" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f2e348dcbc8ad018a55212569b136fa0bcf4d1db" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627465" /></Metadata><TypeSignature Language="C#" Value="public enum SendPrompt" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendPrompt extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendPrompt" />
   <TypeSignature Language="VB.NET" Value="Public Enum SendPrompt" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает поведения запроса, связанного с голосования параметр. <see cref="T:Microsoft.Exchange.WebServices.Data.SendPrompt" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Указывает поведение приглашения, связанное с параметром голосования. <see cref="T:Microsoft.Exchange.WebServices.Data.SendPrompt" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Не предлагать поведение не задано.</summary>
+        <summary>Поведение приглашения не задано.</summary>
       </Docs>
     </Member>
     <Member MemberName="Send">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Ответ направляются непосредственно при выборе пользователем голосования вариант с это значение в <see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" /> свойство.</summary>
+        <summary>Ответ должен быть отправлен немедленно, когда пользователь выбирает параметр голосования в <see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" /> свойстве.</summary>
       </Docs>
     </Member>
     <Member MemberName="VotingOption">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Пользователь должен появится запрос на подтверждение выбранного до отправки ответа при выборе голосования вариант с это значение в <see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" /> свойство.</summary>
+        <summary>Пользователю должно быть предложено подтвердить выбор перед отправкой ответа при выборе параметра голосования в <see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" /> свойстве.</summary>
       </Docs>
     </Member>
   </Members>

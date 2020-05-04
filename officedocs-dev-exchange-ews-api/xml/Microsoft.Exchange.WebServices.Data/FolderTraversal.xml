@@ -1,13 +1,5 @@
 <Type Name="FolderTraversal" FullName="Microsoft.Exchange.WebServices.Data.FolderTraversal">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f3a6ffd2f31ff427dbce80b0e8a8103690271936" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626747" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FolderTraversal" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f3a6ffd2f31ff427dbce80b0e8a8103690271936" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626747" /></Metadata><TypeSignature Language="C#" Value="public enum FolderTraversal" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FolderTraversal extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderTraversal" />
   <TypeSignature Language="VB.NET" Value="Public Enum FolderTraversal" />
@@ -20,12 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет область FindFolders операций.</summary>
-    <remarks>
-      <para>
-        <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" /> Метод определяет запрос для поиска папок в почтовом ящике. Объект класса FolderTraversal определяет, как выполняется поиск.</para>
-      <para />
-    </remarks>
+    <summary>Определяет область действия Финдфолдерс.</summary>
+    <remarks><para><see cref="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" /> Метод определяет запрос на поиск папок в почтовом ящике. Объект класса Фолдертраверсал определяет способ выполнения поиска.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Deep">
@@ -44,7 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>При получении всей иерархии вложенных папок.</summary>
+        <summary>Извлекается вся иерархия вложенных папок.</summary>
       </Docs>
     </Member>
     <Member MemberName="Shallow">
@@ -63,7 +52,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Извлекаются только прямое вложенных папок.</summary>
+        <summary>Извлекаются только прямые подпапки.</summary>
       </Docs>
     </Member>
     <Member MemberName="SoftDeleted">
@@ -82,7 +71,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Извлекаются только удаленные папки.</summary>
+        <summary>Извлекаются только папки с обратимым удалением.</summary>
       </Docs>
     </Member>
   </Members>

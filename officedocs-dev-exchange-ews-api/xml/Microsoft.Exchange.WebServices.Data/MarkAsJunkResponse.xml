@@ -1,13 +1,5 @@
 <Type Name="MarkAsJunkResponse" FullName="Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3674657af4dd1f452f7bad165c2ff8a9a0aa6cc2" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627387" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MarkAsJunkResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3674657af4dd1f452f7bad165c2ff8a9a0aa6cc2" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627387" /></Metadata><TypeSignature Language="C#" Value="public class MarkAsJunkResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MarkAsJunkResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse" />
   <TypeSignature Language="VB.NET" Value="Public Class MarkAsJunkResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит идентификатор сообщения, который был перемещен в папку нежелательной почты в ответ на него помеченные как нежелательная почта.             <see cref="T:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит идентификатор сообщения, которое было перемещено в папку "Нежелательная почта" в ответ на то, что оно помечено как нежелательная почта.             <see cref="T:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор сообщения, помеченные как нежелательная почта.             <see cref="P:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse.MovedItemId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Идентификатор перемещенной элемента.</value>
+        <summary>Получает идентификатор элемента сообщения, помеченного как нежелательная почта.             <see cref="P:Microsoft.Exchange.WebServices.Data.MarkAsJunkResponse.MovedItemId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор перемещенного элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

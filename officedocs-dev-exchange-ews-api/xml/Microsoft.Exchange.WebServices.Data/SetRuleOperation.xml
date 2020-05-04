@@ -1,13 +1,5 @@
 <Type Name="SetRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.SetRuleOperation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0d0e443d67b3d140804bb8b2ba78919c13491dd3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626545" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SetRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0d0e443d67b3d140804bb8b2ba78919c13491dd3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626545" /></Metadata><TypeSignature Language="C#" Value="public sealed class SetRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetRuleOperation&#xA;Inherits RuleOperation" />
@@ -21,15 +13,12 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет операцию, чтобы обновить правила папки «Входящие».</summary>
-    <remarks>
-      <para>Этот класс можно использовать для обновления условия и действия существующего правила.</para>
-      <para>Этот класс является производным от <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> класса.</para>
-      <para>При создании правила, он хранится на сервере Exchange. При поступлении сообщения на сервере Exchange оценивает сообщение и определяет ли он выполнил любые условия правила. Этот класс позволяет изменять условия или действия правила.</para>
-      <para />
-    </remarks>
-    <example>
-      <para>В следующем примере выполняется поиск <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> класс для поиска существующего правила с именем «MoveInterestingToJunk» из почтового ящика пользователя. Если существует правило, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> изменить свойства. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> Свойство удаляется существующий фильтр строку темы и применяет новые <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> свойство, которое указывает, что каждый раз, когда сообщение электронной почты поступает, который имеет строка «Эту является нежелательной» в теме сообщения, Exchange server для использования существующего действия. Правило загружается на сервер при службу. Строка UpdateInboxRules (new RuleOperation [] {setRuleOperation} значение true) выполняется.</para>
+    <summary>Представляет операцию обновления правила для папки "Входящие".</summary>
+    <remarks><para>Вы можете использовать этот класс, чтобы обновить условия и действия существующего правила.</para> 
+      <para>Этот класс является производным от <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> класса.</para> 
+      <para>При создании правила оно хранится на сервере Exchange. Когда сообщение приступит, сервер Exchange Server оценивает сообщение и определяет, выполнил ли он какие – либо условия правил. Этот класс позволяет изменять условия или действия правила.</para>
+      <para /></remarks>
+    <example><para>В следующем примере в <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> классе выполняется поиск существующего правила с именем "мовеинтерестингтожунк" из почтового ящика пользователя. Если правило существует, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> свойства изменяются. <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> Свойство удаляет существующий фильтр строк темы и применяет новое <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> свойство, которое указывает, что при поступлении сообщения электронной почты, в теме которого есть строка "это нежелательная", сервер Exchange должен выполнить существующие действия. Правило отправляется на сервер, когда служба. Выполняется строка UpdateInboxRules (New Рулеоператион [] {Сетрулеоператион}, true).</para>
       <code>// Modify the "MoveInterestingToJunk" rule, if it exists.
 // Get the RuleCollection.
 RuleCollection ruleCollection = service.GetInboxRules("User1@Contoso.com");
@@ -42,8 +31,7 @@ foreach (Rule ruleinCollection in ruleCollection)
         SetRuleOperation setRuleOperation = new SetRuleOperation(ruleinCollection);
         service.UpdateInboxRules(new RuleOperation[] { setRuleOperation }, true);
     }
-}</code>
-    </example>
+}</code></example>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -59,11 +47,9 @@ foreach (Rule ruleinCollection in ruleCollection)
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса SetRuleOperation.</summary>
-        <remarks>
-          <para>Обновляет правила в определенного почтового ящика.</para>
-          <para />
-        </remarks>
+        <summary>Инициализирует новый экземпляр класса Сетрулеоператион.</summary>
+        <remarks><para>Обновляет правило в определенном почтовом ящике.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -80,8 +66,8 @@ foreach (Rule ruleinCollection in ruleCollection)
         <Parameter Name="rule" Type="Microsoft.Exchange.WebServices.Data.Rule" />
       </Parameters>
       <Docs>
-        <param name="rule">Правило будет обновляться и отправляются на сервер обмена сообщениями.</param>
-        <summary>Инициализирует новый экземпляр класса SetRuleOperation с данным правилом.</summary>
+        <param name="rule">Правило, которое необходимо обновить и отправить на сервер обмена сообщениями.</param>
+        <summary>Инициализирует новый экземпляр класса Сетрулеоператион с указанным правилом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,12 +86,10 @@ foreach (Rule ruleinCollection in ruleCollection)
         <ReturnType>Microsoft.Exchange.WebServices.Data.Rule</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает правило, который требуется обновить.</summary>
-        <value>Правила, который требуется обновить.</value>
-        <remarks>
-          <para>Правило содержит условия и действия, предпринимаемые при поступлении сообщения электронной почты в почтовом ящике.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает правило, которое необходимо обновить.</summary>
+        <value>Правило, которое необходимо обновить.</value>
+        <remarks><para>Правило содержит условия и действия, которые необходимо предпринять при поступлении сообщения электронной почты в почтовый ящик.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

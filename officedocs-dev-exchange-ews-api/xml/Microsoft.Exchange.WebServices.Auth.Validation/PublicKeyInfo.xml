@@ -1,13 +1,5 @@
 <Type Name="PublicKeyInfo" FullName="Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1244cd54ea7a5191bdd55962b23fad1a7136d941" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626945" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class PublicKeyInfo" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1244cd54ea7a5191bdd55962b23fad1a7136d941" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626945" /></Metadata><TypeSignature Language="C#" Value="public class PublicKeyInfo" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublicKeyInfo extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class PublicKeyInfo" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит имя и значение шифрование открытого ключа. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит имя и значение общедоступного ключа шифрования. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Имя открытого ключа. <see cref="F:Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo.Key" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Имя открытого ключа. Это <see cref="F:Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo.Key" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,7 +51,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Значение, связанное с помощью открытого ключа. <see cref="F:Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo.Value" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значение, связанное с открытым ключом. Это <see cref="F:Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo.Value" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="GetNonIndexableItemStatisticsResponse" FullName="Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5f152618a92073847d7a76f32c8283535b929c48" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626763" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemStatisticsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5f152618a92073847d7a76f32c8283535b929c48" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626763" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemStatisticsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetNonIndexableItemStatisticsResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetNonIndexableItemStatisticsResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит результат запроса статистические сведения об элементах в почтовый ящик, не будет индексироваться. <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит результат запроса на статистическую информацию об элементах в почтовом ящике, которые не удалось индексировать. <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает статистику об элементах в почтовый ящик, не будет индексироваться.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse.NonIndexableStatistics" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Статистические данные об элементах, которые не удалось проиндексировать.</value>
+        <summary>Получает статистику по элементам почтового ящика, которые не удалось индексировать.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse.NonIndexableStatistics" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Статистика по элементам, которые не удалось индексировать.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="MimeContent" FullName="Microsoft.Exchange.WebServices.Data.MimeContent">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="45881ab2b5eb526782f81ffb1efb628057f85139" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626897" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MimeContent : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="45881ab2b5eb526782f81ffb1efb628057f85139" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626897" /></Metadata><TypeSignature Language="C#" Value="public sealed class MimeContent : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MimeContent extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MimeContent" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MimeContent&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет MIME-содержимое элемента.</summary>
+    <summary>Представляет содержимое MIME элемента.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.MimeContent.</summary>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. Сохранитьmimecontent.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,9 +50,9 @@
         <Parameter Name="content" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="characterSet">Набор символов содержимого.</param>
+        <param name="characterSet">Кодировка контента.</param>
         <param name="content">Содержимое.</param>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.MimeContent.</summary>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. Сохранитьmimecontent.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,7 +71,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает кодировку содержимого.</summary>
+        <summary>Получает или задает набор символов для контента.</summary>
         <value>Строковое значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -100,7 +92,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает содержимое.</summary>
-        <value>Значение типа byte.</value>
+        <value>Значение типа Byte.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,8 +112,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает System.String, который представляет текущего System.Object.</summary>
-        <returns>System.String, который представляет текущего System.Object.</returns>
+        <summary>Возвращает System. String, представляющий текущий System. Object.</summary>
+        <returns>System. String, представляющий текущий System. Object.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

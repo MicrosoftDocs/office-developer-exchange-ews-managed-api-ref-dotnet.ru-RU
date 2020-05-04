@@ -1,13 +1,5 @@
 <Type Name="IconIndex" FullName="Microsoft.Exchange.WebServices.Data.IconIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fdd08812f82db24d8956bf6457cb4ec91d260c84" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626713" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum IconIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fdd08812f82db24d8956bf6457cb4ec91d260c84" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626713" /></Metadata><TypeSignature Language="C#" Value="public enum IconIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IconIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IconIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum IconIndex" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, какие значка для отображения. <see cref="T:Microsoft.Exchange.WebServices.Data.IconIndex" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Задает отображаемый значок. <see cref="T:Microsoft.Exchange.WebServices.Data.IconIndex" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Значок элемента встречи. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentItem" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок элемента встречи. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentItem" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentMeet">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Значок собрания. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeet" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок собрания. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeet" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentMeetCancel">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Значок собрания отменено. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetCancel" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок отмененного собрания. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetCancel" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentMeetInfo">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>Собрания значок информации. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetInfo" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок сведений о собрании. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetInfo" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentMeetMaybe">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Значок может быть ответа. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetMaybe" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Может появиться значок ответа. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetMaybe" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentMeetNo">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>Значок ответа не участвует. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetNo" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок ответа "не участвует". Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetNo" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentMeetNY">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Значок под вопросом ответа. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetNY" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок ответа с приглашением на собрание. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetNY" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentMeetRecur">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>Повторяющееся собрание значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetRecur" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок повторяющегося собрания. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetRecur" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentMeetYes">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>Значок принять ответа. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetYes" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок принятия ответа. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentMeetYes" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="AppointmentRecur">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Значок повторяющейся встречи. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentRecur" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок повторяющейся встречи. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.AppointmentRecur" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Default">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Значок по умолчанию. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.Default" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок по умолчанию. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.Default" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailEncrypted">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Значок зашифрованных сообщений. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailEncrypted" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Зашифрованный значок электронной почты. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailEncrypted" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailEncryptedForwarded">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Зашифрованных сообщений переадресовываться значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailEncryptedForwarded" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок переадресованной шифрованной почты. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailEncryptedForwarded" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailEncryptedRead">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Значок прочтения зашифрованных сообщений. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailEncryptedRead" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок чтения зашифрованной почты. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailEncryptedRead" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailEncryptedReplied">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Значок ответ зашифрованных сообщений. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailEncryptedReplied" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок ответа зашифрованной почты. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailEncryptedReplied" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailForwarded">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Значок пересылки почты. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailForwarded" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок переадресованной почты. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailForwarded" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailIrm">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Значок защищенного управления IRM почты. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailIrm" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок электронной почты, защищенный службой управления правами на доступ к данным (IRM). Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailIrm" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailIrmForwarded">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Значок пересылки почты управления правами на доступ к данным (IRM). <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailIrmForwarded" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок переадресованной почты управления правами на доступ к данным (IRM). Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailIrmForwarded" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailIrmReplied">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Значок ответ почты управления правами на доступ к данным (IRM). <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailIrmReplied" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок ответа для почты управления правами на доступ к данным (IRM). Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailIrmReplied" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailRead">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Значок чтения почты. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailRead" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок "сообщение прочитано". Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailRead" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailReplied">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Почта ответ значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailReplied" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок "почта ответил". Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailReplied" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailSmimeSigned">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Почта — значок подписью безопасные многоцелевые расширения почтового стандарта Интернета (S/MIME). <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailSmimeSigned" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Почта является значком подписанных почтовых расширений Интернета (S/MIME). Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailSmimeSigned" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailSmimeSignedForwarded">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Почта — безопасные многоцелевые расширения почтового стандарта Интернета (S/MIME) подписи и пересылку значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailSmimeSignedForwarded" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Почта — это значок подписанного и переадресованного почтовых расширений (S/MIME) в Интернете. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailSmimeSignedForwarded" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailSmimeSignedRead">
@@ -477,7 +469,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Почта — безопасные многоцелевые расширения почтового стандарта Интернета (S/MIME) подписи и чтение значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailSmimeSignedRead" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Почта — значок подписанных и прочтенных почтовых расширений Интернета (S/MIME). Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailSmimeSignedRead" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailSmimeSignedReplied">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Почта — безопасные многоцелевые расширения почтового стандарта Интернета (S/MIME) подписи и ответах на значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailSmimeSignedReplied" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Почта — это значок подписанных и ответных расширений почты в Интернете (S/MIME). Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailSmimeSignedReplied" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MailUnread">
@@ -515,7 +507,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Почта не равно read значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailUnread" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок "почта не прочитан". Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.MailUnread" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="OutlookDefaultForContacts">
@@ -534,7 +526,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Значок Outlook по умолчанию для контактов. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.OutlookDefaultForContacts" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок Outlook по умолчанию для контактов. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.OutlookDefaultForContacts" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="PostItem">
@@ -553,7 +545,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Значок для элемента записи. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.PostItem" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок элемента POST. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.PostItem" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SmsDelivered">
@@ -572,7 +564,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Службы коротких сообщений (SMS) доставкой значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.SmsDelivered" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок доставки в службе коротких сообщений (SMS). Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.SmsDelivered" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SmsRoutedToDeliveryPoint">
@@ -591,7 +583,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Службы коротких сообщений (SMS) перенаправляется в значок точки доставки. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.SmsRoutedToDeliveryPoint" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Служба коротких сообщений (SMS) направляется на значок точки доставки. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.SmsRoutedToDeliveryPoint" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SmsRoutedToExternalMessagingSystem">
@@ -610,7 +602,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Отображение службы коротких сообщений (SMS) перенаправляется в значок внешние системы обмена сообщениями. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.SmsRoutedToExternalMessagingSystem" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Отображаемая служба коротких сообщений (SMS) направляется на значок внешней системы обмена сообщениями. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.SmsRoutedToExternalMessagingSystem" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SmsSubmitted">
@@ -629,7 +621,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Службы коротких сообщений (SMS) — значок "Отправленные". <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.SmsSubmitted" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок отправляются в виде короткой службы сообщений (SMS). Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.SmsSubmitted" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TaskDelegated">
@@ -648,7 +640,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>Задача — делегированные значок. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.TaskDelegated" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок задачи — делегировано. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.TaskDelegated" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TaskItem">
@@ -667,7 +659,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Значок элемента задачи. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.TaskItem" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок элемента задачи. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.TaskItem" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TaskOwned">
@@ -686,7 +678,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>Значок собственные задачи. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.TaskOwned" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок принадлежащей задачи. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.TaskOwned" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TaskRecur">
@@ -705,7 +697,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>Значок повторяющейся задачи. <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.TaskRecur" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Значок повторяющейся задачи. Это <see cref="F:Microsoft.Exchange.WebServices.Data.IconIndex.TaskRecur" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

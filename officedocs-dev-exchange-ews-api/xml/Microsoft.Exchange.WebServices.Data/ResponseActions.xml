@@ -1,13 +1,5 @@
 <Type Name="ResponseActions" FullName="Microsoft.Exchange.WebServices.Data.ResponseActions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b3c37ffa8164f5d86780ff5c0691d3b786e5cf5a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626703" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ResponseActions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b3c37ffa8164f5d86780ff5c0691d3b786e5cf5a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626703" /></Metadata><TypeSignature Language="C#" Value="public enum ResponseActions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResponseActions extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseActions" />
   <TypeSignature Language="VB.NET" Value="Public Enum ResponseActions" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Определяет константы, которые определяют действия ответа, которые могут быть выполнены элемента.</summary>
+    <summary>Задает константы, определяющие действия ответа, которые можно предпринять для элемента.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Можно принять элемента.</summary>
+        <summary>Элемент можно принять.</summary>
       </Docs>
     </Member>
     <Member MemberName="Cancel">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>Элемент может быть отменена.</summary>
+        <summary>Элемент может быть отменен.</summary>
       </Docs>
     </Member>
     <Member MemberName="Decline">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Элемент может быть отклонено.</summary>
+        <summary>Элемент можно отклонить.</summary>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Можно переадресовывать элемента.</summary>
+        <summary>Элемент можно переадресовать.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Можно ли переводить никаких действий.</summary>
+        <summary>Действие не может быть выполнено.</summary>
       </Docs>
     </Member>
     <Member MemberName="PostReply">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>512</MemberValue>
       <Docs>
-        <summary>Можно отправить ее в ответ на элемент.</summary>
+        <summary>Можно отправить ответ на элемент.</summary>
       </Docs>
     </Member>
     <Member MemberName="RemoveFromCalendar">
@@ -159,7 +151,7 @@
       </ReturnValue>
       <MemberValue>128</MemberValue>
       <Docs>
-        <summary>Можно удалить элемент из календаря.</summary>
+        <summary>Элемент можно удалить из календаря.</summary>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -178,7 +170,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Элемент может быть ответ.</summary>
+        <summary>К элементу может быть дан ответ.</summary>
       </Docs>
     </Member>
     <Member MemberName="ReplyAll">
@@ -197,7 +189,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Элемент может быть ответ.</summary>
+        <summary>К элементу может быть дан ответ.</summary>
       </Docs>
     </Member>
     <Member MemberName="SuppressReadReceipt">
@@ -216,7 +208,7 @@
       </ReturnValue>
       <MemberValue>256</MemberValue>
       <Docs>
-        <summary>Можно было отменено прочтении элемента.</summary>
+        <summary>Уведомление о прочтении элемента можно отключить.</summary>
       </Docs>
     </Member>
     <Member MemberName="TentativelyAccept">
@@ -235,7 +227,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Элемент может быть под вопросом.</summary>
+        <summary>Элемент можно принять под вопросом.</summary>
       </Docs>
     </Member>
   </Members>

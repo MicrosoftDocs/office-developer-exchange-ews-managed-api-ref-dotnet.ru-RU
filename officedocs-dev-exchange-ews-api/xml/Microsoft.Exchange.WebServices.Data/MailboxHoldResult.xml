@@ -1,13 +1,5 @@
 <Type Name="MailboxHoldResult" FullName="Microsoft.Exchange.WebServices.Data.MailboxHoldResult">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bcd03132e47f8d9815921b321502d64435462231" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626566" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MailboxHoldResult" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bcd03132e47f8d9815921b321502d64435462231" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626566" /></Metadata><TypeSignature Language="C#" Value="public sealed class MailboxHoldResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxHoldResult extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxHoldResult" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxHoldResult" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит результат eDiscovery удержание действие, включая код удержания, запрос, используемый для определения, какой папкам и элементам требуется хранение eDiscovery и коллекцию состояние для всех почтовых ящиков целевой.             <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldResult" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит результат действия обнаружения электронных данных, включая идентификатор удержания, запрос, используемый для определения папок и элементов, для которых требуется удержание eDiscovery, и коллекцию состояний для всех целевых почтовых ящиков.             <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldResult" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldResult" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldResult" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ИД удержания для действия удержание электронных данных.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.HoldId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>С идентификатором удержания.</value>
+        <summary>Получает или задает идентификатор удержания для действия удержания обнаружения электронных данных.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.HoldId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор удержания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,7 +69,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает запрос, используемый для определения, какой папкам и элементам требуют удержание электронных данных.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.Query" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает запрос, используемый для определения папок и элементов, для которых требуется удержание eDiscovery.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.Query" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Запрос.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -97,8 +89,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxHoldStatus[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает состояние коллекцию, содержащую успешное или неудачное действие удержания, помещенные на почтовые ящики целевой.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.Statuses" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Коллекция статусов почтового ящика.</value>
+        <summary>Получает или задает коллекцию состояний, содержащую сведения об успешном или неуспешном выполнении действия при удержании, включенном в целевые почтовые ящики.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.Statuses" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Коллекция состояний почтовых ящиков.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

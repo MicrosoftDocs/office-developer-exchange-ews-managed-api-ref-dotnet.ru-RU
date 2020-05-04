@@ -1,13 +1,5 @@
 <Type Name="Grouping" FullName="Microsoft.Exchange.WebServices.Data.Grouping">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dfbc3ea8ced3614a4d204217efa8d458654d13c6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626569" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Grouping" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dfbc3ea8ced3614a4d204217efa8d458654d13c6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626569" /></Metadata><TypeSignature Language="C#" Value="public sealed class Grouping" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Grouping extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Grouping" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Grouping" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет объединение параметров в операции поиска элемента.</summary>
+    <summary>Представляет параметры группировки в операциях поиска элементов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса группировки.</summary>
+        <summary>Инициализирует новый экземпляр класса Group.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,11 +51,11 @@
         <Parameter Name="aggregateType" Type="Microsoft.Exchange.WebServices.Data.AggregateType" />
       </Parameters>
       <Docs>
-        <param name="groupOn">Свойства группы после.</param>
+        <param name="groupOn">Свойство, по которому выполняется группировка.</param>
         <param name="sortDirection">Направление сортировки.</param>
-        <param name="aggregateOn">Свойство к сбору статистических данных по.</param>
-        <param name="aggregateType">Тип выполняется статистическая обработка для вычисления.</param>
-        <summary>Инициализирует новый экземпляр класса группировки, который связан с указанным <paramref name="groupOn" /> параметр.</summary>
+        <param name="aggregateOn">Свойство, по которому выполняется статистическое вычисление.</param>
+        <param name="aggregateType">Тип агрегата для вычисления.</param>
+        <summary>Инициализирует новый экземпляр класса группирования, связанного с указанным <paramref name="groupOn" /> параметром.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,8 +74,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает для свойства значение статистической обработки после.</summary>
-        <value>Свойство к сбору статистических данных по.</value>
+        <summary>Получает или задает свойство, по которому выполняется статистическое вычисление.</summary>
+        <value>Свойство, по которому выполняется статистическое вычисление.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,8 +94,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AggregateType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает типы выполняется статистическая обработка для вычисления.</summary>
-        <value>Одно из значений перечисления AggregateType, чтобы указать, будет ли значения пример свойства используется для упорядочения элементов в группе.</value>
+        <summary>Получает или задает типы статистических вычислений, которые требуется вычислить.</summary>
+        <value>Одно из значений перечисления Аггрегатетипе, которое определяет, используется ли максимальное или минимальное значение свойства-представителя для упорядочивания элементов в группе.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -122,8 +114,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает свойства группы после.</summary>
-        <value>Объект класса PropertyDefinitionBase с помощью свойства группы после.</value>
+        <summary>Получает или задает свойство, по которому выполняется группировка.</summary>
+        <value>Объект класса Пропертидефинитионбасе со свойством, по которому выполняется группировка.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,7 +135,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает направление сортировки.</summary>
-        <value>Одно из значений перечисления направления сортировки, которые определяют порядок сортировки для данных, который возвращается службой поиска.</value>
+        <value>Одно из значений перечисления SortDirection, определяющее порядок сортировки данных, возвращаемых службой поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="FreeBusyViewType" FullName="Microsoft.Exchange.WebServices.Data.FreeBusyViewType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cd38ff1c874eedcb0966dab94a62fd62bf6df459" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626753" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FreeBusyViewType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cd38ff1c874eedcb0966dab94a62fd62bf6df459" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626753" /></Metadata><TypeSignature Language="C#" Value="public enum FreeBusyViewType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FreeBusyViewType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" />
   <TypeSignature Language="VB.NET" Value="Public Enum FreeBusyViewType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает тип сведений о доступности, который возвращается <a href="http://go.microsoft.com/fwlink/?LinkID=163422">операция GetUserAvailability</a></summary>
+    <summary>Определяет тип сведений о занятости, возвращаемых <a href="http://go.microsoft.com/fwlink/?LinkID=163422">операцией GetUserAvailability</a></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,9 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Представляет сведения о состоянии прежних версий: бесплатная, «занят», под вопросом и OOF; время начала и окончания встречи; различные свойства и встречи, такие как тему, местоположение и важности.
-В этом требуемого представления возвращает максимальный объем сведений, для которого является привилегированной запрашивающего пользователя.
-Если объединенные сведения о доступности только доступна как с запросом информации для пользователей в лесу, Microsoft Exchange Server 2003, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> будут возвращены. В противном случае <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> будут возвращены.</summary>
+        <summary>Представляет устаревшие сведения о состоянии: Free, Busy, под вопросом и отсутствие на работе; время начала и окончания встреч; и различные свойства встречи, такие как тема, расположение и важность.
+В этом запрошенном представлении возвращается максимальное количество сведений, для которых пользователь запрашивает привилегированный доступ.
+Если доступны объединенные сведения о доступности, то при запросе сведений для пользователей в лесу Microsoft Exchange Server 2003 <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> будет возвращено. <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> В противном случае <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> возвращается.</summary>
       </Docs>
     </Member>
     <Member MemberName="DetailedMerged">
@@ -61,7 +53,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Представляет все свойства в <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> с потока данных объединенные доступность сведений о доступности. Если доступен объединенные сведения о доступности, например, если почтовый ящик существует на компьютере, на котором работает Exchange 2003 только <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> будут возвращены. В противном случае <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusyMerged" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.DetailedMerged" /> будут возвращены.</summary>
+        <summary>Представляет все свойства в <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> потоке Объединенных сведений о доступности сведений о занятости. Если доступны только объединенные сведения о доступности, например, если почтовый ящик существует на компьютере с Exchange 2003, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> будет возвращено. <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusyMerged" /> В противном случае <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.DetailedMerged" /> возвращается.</summary>
       </Docs>
     </Member>
     <Member MemberName="FreeBusy">
@@ -80,7 +72,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Представляет сведения о состоянии прежних версий: бесплатная, «занят», под вопросом и нет на месте (OOF). Это также включает в себя времени начала или окончания встречи. В этом представлении функционального предоставляются не прежних версий занятости представления, так как отдельные собрания начала и окончания раз вместо поток объединенные обмен сведениями о доступности.</summary>
+        <summary>Представляет устаревшую информацию о состоянии: свободен, занят, под вопросом и нет на работе (отсутствие на работе). Сюда также входят время начала и окончания встреч. Это представление более широкое, чем устаревшее представление сведений о доступности, так как начальное и конечное время собрания предоставляется вместо сводного потока занятости.</summary>
       </Docs>
     </Member>
     <Member MemberName="FreeBusyMerged">
@@ -99,7 +91,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Представляет все свойства в <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> с потока данных объединенные доступность сведений о доступности.</summary>
+        <summary>Представляет все свойства в <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> потоке Объединенных сведений о доступности сведений о занятости.</summary>
       </Docs>
     </Member>
     <Member MemberName="MergedOnly">
@@ -118,7 +110,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Представляет поток объединенные обмен сведениями о доступности. В сценариях между лесами, в которых конечного пользователя в одном лесу не использовать службу доступности настроен службу доступности инициатор запроса получает сведения о доступности конечного пользователя из занятости общих папок. Так как общие папки только хранить сведения о доступности в объединенные формы <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> доступны только данные.</summary>
+        <summary>Представляет объединенный поток занятости. В сценариях перекрестного леса, в которых целевой пользователь в одном лесу не настроена служба доступности, служба доступности инициатора запроса получает сведения о доступности конечного пользователя из общедоступной папки "сведения о доступности". Так как в общедоступных папках хранятся только сведения о доступности <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> в объединенной форме, единственным доступным является информация.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -137,7 +129,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Представляет не сведения о доступности.</summary>
+        <summary>Представляет сведения о занятости.</summary>
       </Docs>
     </Member>
   </Members>

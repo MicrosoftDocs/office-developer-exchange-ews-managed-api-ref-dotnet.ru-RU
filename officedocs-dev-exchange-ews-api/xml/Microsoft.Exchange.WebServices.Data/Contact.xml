@@ -1,13 +1,5 @@
 <Type Name="Contact" FullName="Microsoft.Exchange.WebServices.Data.Contact">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a62fe19ef88507a054692710d224b9a99d55f9f2" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627153" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Contact : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a62fe19ef88507a054692710d224b9a99d55f9f2" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627153" /></Metadata><TypeSignature Language="C#" Value="public class Contact : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Contact extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Contact" />
   <TypeSignature Language="VB.NET" Value="Public Class Contact&#xA;Inherits Item" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет контакт. Свойства, доступные на контакты определены в класс ContactSchema.</summary>
+    <summary>Представляет контакт. Свойства, доступные в контактах, определяются классом Контактсчема.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">Объект ExchangeServiceBase, к которому будет привязан контакт.</param>
-        <summary>Инициализирует несохраненные локальный экземпляр класса контакта. Чтобы связать существующий контакт, используйте метод привязки.</summary>
+        <param name="service">Объект Ексчанжесервицебасе, с которым будет связан контакт.</param>
+        <summary>Инициализирует несохраненный локальный экземпляр класса Contact. Чтобы присоединиться к существующему контакту, вместо этого используйте метод Bind.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,7 +52,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает псевдоним контакта. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Возвращает псевдоним контакта. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <value>Псевдоним контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -104,10 +96,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к контакту.</param>
-        <param name="id">Идентификатор контакта для привязки.</param>
-        <summary>Выполняет привязку существующего контакта и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Контакта, который соответствует указанным идентификатором.</returns>
+        <param name="service">Служба, используемая для связывания с контактом.</param>
+        <param name="id">ИДЕНТИФИКАТОР контакта, к которому требуется присоединиться.</param>
+        <summary>Выполняет присоединение к существующему контакту и загружает его свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Контакт, соответствующий указанному ИДЕНТИФИКАТОРу.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -130,11 +122,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к контакту.</param>
-        <param name="id">Идентификатор контакта для привязки.</param>
+        <param name="service">Служба, используемая для связывания с контактом.</param>
+        <param name="id">ИДЕНТИФИКАТОР контакта, к которому требуется присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку существующего контакта и загружает указанный набор свойств. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Контакта, который соответствует указанным идентификатором.</returns>
+        <summary>Выполняет присоединение к существующему контакту и загружает заданный набор свойств. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Контакт, соответствующий указанному ИДЕНТИФИКАТОРу.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -173,7 +165,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает домашней странице бизнес контакта.</summary>
+        <summary>Получает или задает домашнюю страницу контакта.</summary>
         <value>Домашняя страница контакта (рабочая).</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -193,8 +185,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список дочерних элементов для этого контакта.</summary>
-        <value>Список дочерних элементов для этого контакта.</value>
+        <summary>Получает или задает список дочерних элементов для контакта.</summary>
+        <value>Список дочерних элементов для контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -213,8 +205,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список компаний, для этого контакта.</summary>
-        <value>Список компаний для этого контакта.</value>
+        <summary>Получает или задает список компаний для контакта.</summary>
+        <value>Список компаний для контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,8 +225,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя компании контакта.</summary>
-        <value>Имя компании контакта.</value>
+        <summary>Получает или задает название компании контакта.</summary>
+        <value>Название компании контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -313,8 +305,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор каталогов контакта. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
-        <value>Идентификатор каталогов контакта.</value>
+        <summary>Получает идентификатор каталога контакта. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
+        <value>Идентификатор каталога контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -333,8 +325,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает фотографии контакта. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
-        <value>Фотографии контакта.</value>
+        <summary>Получает фотографию контакта. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
+        <value>Фотография контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -353,8 +345,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает контакта прямые отчеты. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
-        <value>Коллекция адреса электронной почты, которые представляют подчиненные контакта.</value>
+        <summary>Получает непосредственные отчеты о контакте. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
+        <value>Коллекция адресов электронной почты, представляющих прямые отчеты контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -393,13 +385,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает индексированным списком адресов электронной почты для контакта.</summary>
-        <value>Индексированным списком адресов электронной почты для контакта.</value>
+        <summary>Получает индексированный список адресов электронной почты контакта.</summary>
+        <value>Индексированный список адресов электронной почты контакта.</value>
         <remarks>To be added.</remarks>
-        <example>
-          <para>Следующем примере показано, как установить первый адрес электронной почты контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
-          <code>contact.EmailAddresses[EmailAddressKey.EmailAddress1] = "test@contoso.com";</code>
-        </example>
+        <example><para>В приведенном ниже примере показано, как задать первый адрес электронной почты контакта, где Contact представляет <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объект.</para>
+          <code>contact.EmailAddresses[EmailAddressKey.EmailAddress1] = "test@contoso.com";</code></example>
       </Docs>
     </Member>
     <Member MemberName="FileAs">
@@ -417,8 +407,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя, под которым оформлена этого контакта. Это свойство можно задать вручную или автоматически рассчитывается на основе значения свойства FileAsMapping.</summary>
-        <value>Имя, под которым оформлена контакт.</value>
+        <summary>Получает или задает имя для хранения контакта. Это свойство можно задать вручную или можно автоматически расрассчитывать на основе значения свойства Филеасмаппинг.</summary>
+        <value>Имя, в котором будет храниться контакт.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -437,8 +427,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, как FileAs свойство рассчитываться автоматически.</summary>
-        <value>Одно из значений перечисления FileAsMapping, определяет как свойство FileAs рассчитываться автоматически.</value>
+        <summary>Получает или задает значение, указывающее, как следует автоматически рассчитывать свойство свойств fileas.</summary>
+        <value>Одно из значений перечисления Филеасмаппинг, задающее способ автоматического вычисления свойства свойств fileas.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -457,7 +447,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает создания контакта.</summary>
+        <summary>Возвращает или задает создание контакта.</summary>
         <value>Создание контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -478,8 +468,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает вложенный файл, который содержит изображение контакта.</summary>
-        <returns>Вложение файла, который содержит изображение контакта.</returns>
+        <summary>Возвращает вложенный файл, содержащий изображение контакта.</summary>
+        <returns>Вложенный файл, содержащий изображение контакта.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -498,8 +488,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя контакта.</summary>
-        <value>Имя контакта.</value>
+        <summary>Получает или задает заданное имя контакта.</summary>
+        <value>Заданное имя контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -518,9 +508,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, имеет ли контакт изображения.</summary>
-        <value>
-          <b>значение true,</b> Если контакт находится изображение; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, имеет ли контакт изображение.</summary>
+        <value><b>true</b> , если контакт имеет изображение; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -539,13 +528,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ImAddressDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает индексированным списком адресов мгновенного обмена мгновенными сообщениями для этого контакта.</summary>
-        <value>Индексированным списком адресов обмен мгновенными сообщениями (IM) для этого контакта.</value>
+        <summary>Получает индексированный список адресов обмена мгновенными сообщениями для контакта.</summary>
+        <value>Индексированный список адресов обмена мгновенными сообщениями для контакта.</value>
         <remarks>To be added.</remarks>
-        <example>
-          <para>Следующем примере показано, как установить первый адрес обмена мгновенными Сообщениями для контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
-          <code>contact.ImAddresses[ImAddressKey.ImAddress1] = "test@contoso.com";</code>
-        </example>
+        <example><para>В приведенном ниже примере показано, как задать первый адрес для обмена мгновенными сообщениями для контакта <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> , где Contact представляет объект.</para>
+          <code>contact.ImAddresses[ImAddressKey.ImAddress1] = "test@contoso.com";</code></example>
       </Docs>
     </Member>
     <Member MemberName="Initials">
@@ -583,7 +570,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает название должности контакта.</summary>
+        <summary>Получает или задает должность контакта.</summary>
         <value>Название должности контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -603,7 +590,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя менеджера контакта.</summary>
+        <summary>Получает или задает имя руководителя контакта.</summary>
         <value>Имя руководителя контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -623,8 +610,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает адрес электронной почты контакта прямой руководитель. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
-        <value>Адрес электронной почты диспетчера контактов.</value>
+        <summary>Получает адрес электронной почты прямого менеджера контакта. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
+        <value>Адрес электронной почты руководителя контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -664,7 +651,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает расстояние для контакта.</summary>
-        <value>Расстояние для этого контакта.</value>
+        <value>Расстояние для контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -683,7 +670,7 @@
         <ReturnType>System.Byte[][]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает массив двоичных кодирования сертификат контакта Microsoft Exchange. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Получает двоичный массив для кодирования сертификата Microsoft Exchange контакта. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <value>Сертификат Microsoft Exchange.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -703,7 +690,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает понятное имя контакта.</summary>
+        <summary>Получает или задает псевдоним контакта.</summary>
         <value>Псевдоним контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -723,8 +710,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает свойства notes контакта. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
-        <value>Заметки о сведения о контакте.</value>
+        <summary>Получает свойство Notes контакта. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
+        <value>Сведения о заметках о контакте.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -743,7 +730,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расположение контакта office.</summary>
+        <summary>Получает или задает расположение офиса контакта.</summary>
         <value>Расположение офиса контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -763,13 +750,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает индексированным списком телефонных номеров контакта.</summary>
-        <value>Индексированным списком телефонных номеров контакта.</value>
+        <summary>Получает индексированный список номеров телефонов для контакта.</summary>
+        <value>Индексированный список номеров телефонов контакта.</value>
         <remarks>To be added.</remarks>
-        <example>
-          <para>Следующем примере показано, как задать номер домашнего телефона контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объекта.</para>
-          <code>contact.PhoneNumbers[PhoneNumberKey.HomePhone] = "111-111-1111";</code>
-        </example>
+        <example><para>В приведенном ниже примере показано, как задать номер домашнего телефона контакта, где Contact представляет <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объект.</para>
+          <code>contact.PhoneNumbers[PhoneNumberKey.HomePhone] = "111-111-1111";</code></example>
       </Docs>
     </Member>
     <Member MemberName="PhoneticFirstName">
@@ -787,7 +772,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя контакта с помощью алфавита фонетическая запись. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Получает имя контакта с использованием фонетического алфавита. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <value>Фонетическое имя контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -807,8 +792,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает полное имя, включая сначала и последней, с помощью алфавита фонетическая запись контакта. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
-        <value>Фонетическое полное имя контакта.</value>
+        <summary>Получает полное имя контакта, включая имя и фамилию, с использованием фонетического алфавита. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
+        <value>Полное фонетическое имя контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -827,8 +812,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает фамилию контакта с помощью алфавита фонетическая запись. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
-        <value>Фонетическая фамилия контакта.</value>
+        <summary>Получает фамилию контакта с использованием фонетического алфавита. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
+        <value>Фонетическое фамилию контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -847,13 +832,11 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает индексированным списком физических адресов для контакта.</summary>
-        <value>Индексированные список физических адресов для контакта.</value>
+        <summary>Получает индексированный список физических адресов для контакта.</summary>
+        <value>Индексированный список физических адресов для контакта.</value>
         <remarks>To be added.</remarks>
-        <example>
-          <para>Следующем примере показано, как задать рабочий адрес контакта, где представляет контакт <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> представляет объект и businessAddress <see cref="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" /> объектов.</para>
-          <code>contact.PhysicalAddresses[PhysicalAddressKey.Business] = businessAddress;</code>
-        </example>
+        <example><para>В приведенном ниже примере показано, как задать рабочий адрес контакта, где Contact представляет <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> объект, а бусинессаддресс представляет <see cref="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" /> объект.</para>
+          <code>contact.PhysicalAddresses[PhysicalAddressKey.Business] = businessAddress;</code></example>
       </Docs>
     </Member>
     <Member MemberName="PostalAddressIndex">
@@ -871,8 +854,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressIndex&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает индекс почтовый адрес контакта. Если параметр PostalAddressIndex ссылается на запись в списке индексированные свойства PhysicalAddresses.</summary>
-        <value>Индекс почтовый адрес контакта в списке индексированные свойства PhysicalAddresses.</value>
+        <summary>Получает или задает индекс почтового адреса контакта. Если задано значение, Посталаддрессиндекс ссылается на запись в индексированном списке свойства Фисикаладдрессес.</summary>
+        <value>Индекс почтового адреса контакта в индексированном списке свойства Фисикаладдрессес.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -891,8 +874,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает род занятий контакта.</summary>
-        <value>Род занятий контакта.</value>
+        <summary>Получает или задает профессия контакта.</summary>
+        <value>Профессия контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -912,7 +895,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет на изображение контакта.</summary>
+        <summary>Удаляет изображение контакта.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -934,8 +917,8 @@
         <Parameter Name="content" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="content">Байт, которые делают изображение.</param>
-        <summary>Задает на изображение контакта с помощью указанного массива байтов.</summary>
+        <param name="content">Байты, которые делают изображение.</param>
+        <summary>Задает рисунок контакта, используя указанный массив байтов.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -957,8 +940,8 @@
         <Parameter Name="contentStream" Type="System.IO.Stream" />
       </Parameters>
       <Docs>
-        <param name="contentStream">Поток, который содержит изображение контакта.</param>
-        <summary>Задает на изображение контакта с помощью указанного потока.</summary>
+        <param name="contentStream">Поток, содержащий изображение контакта.</param>
+        <summary>Задает изображение контакта с помощью указанного потока.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -981,7 +964,7 @@
       </Parameters>
       <Docs>
         <param name="fileName">Имя файла, содержащего изображение контакта.</param>
-        <summary>Задает на изображение контакта с помощью указанного файла.</summary>
+        <summary>Задает рисунок контакта, используя указанный файл.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1000,7 +983,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя контакта супруга/партнера.</summary>
+        <summary>Получает или задает имя супруга/партнера контакта.</summary>
         <value>Имя супруга или супруги контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1040,7 +1023,7 @@
         <ReturnType>System.Byte[][]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает массив двоичных кодирования сертификат SMIME контакта. Это свойство появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Возвращает двоичный массив для кодирования сертификата SMIME контакта. Это свойство было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <value>Сертификат SMIME.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1060,8 +1043,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату Годовщина свадьбы контакта.</summary>
-        <value>Дата Годовщина свадьбы контакта.</value>
+        <summary>Получает или задает дату юбилея свадьбы контакта.</summary>
+        <value>Дата юбилея свадьбы контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

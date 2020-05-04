@@ -1,13 +1,5 @@
 <Type Name="TokenValidationException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dcffcb64d5fd9b7c023dd930c59d169ad83f248" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627357" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class TokenValidationException : Exception" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6dcffcb64d5fd9b7c023dd930c59d169ad83f248" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627357" /></Metadata><TypeSignature Language="C#" Value="public abstract class TokenValidationException : Exception" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TokenValidationException extends System.Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TokenValidationException&#xA;Inherits Exception" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет базовый класс для всех исключений проверки маркеров удостоверения клиента. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет базовый класс для всех исключений проверки маркера удостоверения клиента. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />класса. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />класса. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">Сообщение с описанием исключения.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> класс с заданным сообщением об ошибке. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="message">Сообщение, описывающее исключение.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> класса с указанным сообщением с описанием ошибки. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor(System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,9 +70,9 @@
         <Parameter Name="innerException" Type="System.Exception" />
       </Parameters>
       <Docs>
-        <param name="message">Сообщение с описанием исключения.</param>
+        <param name="message">Сообщение, описывающее исключение.</param>
         <param name="innerException">Внутреннее исключение, которое вызвало текущее исключение.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> класс с заданным сообщением с описанием ошибки и ссылка на исключение, вызвавшей ошибку. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor(System.String,System.Exception)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> класса с указанным сообщением, описывающим ошибку, и ссылкой на исключение, которое вызвало ошибку. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor(System.String,System.Exception)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

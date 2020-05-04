@@ -1,13 +1,5 @@
 <Type Name="ItemAttachment&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.ItemAttachment&lt;TItem&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="454644f3955f946d1016f05cfebe86411bfa2df3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626693" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ItemAttachment&lt;TItem&gt; : Microsoft.Exchange.WebServices.Data.ItemAttachment where TItem : Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="454644f3955f946d1016f05cfebe86411bfa2df3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626693" /></Metadata><TypeSignature Language="C#" Value="public sealed class ItemAttachment&lt;TItem&gt; : Microsoft.Exchange.WebServices.Data.ItemAttachment where TItem : Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemAttachment`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends Microsoft.Exchange.WebServices.Data.ItemAttachment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemAttachment`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemAttachment(Of TItem)&#xA;Inherits ItemAttachment" />
@@ -29,7 +21,7 @@
   <Interfaces />
   <Docs>
     <typeparam name="TItem">Тип элемента.</typeparam>
-    <summary>Представляет подключение к строго типизированный элемент.</summary>
+    <summary>Представляет строго типизированный вложенный элемент.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,8 +40,8 @@
         <ReturnType>TItem</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает элемент, который связан с вложением.</summary>
-        <value>Элемент, который связан с вложением.</value>
+        <summary>Получает элемент, связанный с вложением.</summary>
+        <value>Элемент, связанный с вложением.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

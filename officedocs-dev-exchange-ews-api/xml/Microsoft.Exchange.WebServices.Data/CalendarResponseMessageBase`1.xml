@@ -1,13 +1,5 @@
 <Type Name="CalendarResponseMessageBase&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;TMessage&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="25981c0845d8600f1de58491768b035c0ef137d3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626749" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class CalendarResponseMessageBase&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.ResponseObject&lt;TMessage&gt; where TMessage : EmailMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="25981c0845d8600f1de58491768b035c0ef137d3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626749" /></Metadata><TypeSignature Language="C#" Value="public abstract class CalendarResponseMessageBase&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.ResponseObject&lt;TMessage&gt; where TMessage : EmailMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CalendarResponseMessageBase`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.ResponseObject`1&lt;!TMessage&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class CalendarResponseMessageBase(Of TMessage)&#xA;Inherits ResponseObject(Of TMessage)" />
@@ -37,7 +29,7 @@
   </Attributes>
   <Docs>
     <typeparam name="TMessage"></typeparam>
-    <summary>Представляет базовый класс для всех ответов, связанные с календарем.</summary>
+    <summary>Представляет базовый класс для всех ответов, относящихся к календарю.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,8 +49,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Сохранение календаря ответное сообщение в папке "Черновики". Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Объект CalendarActionResults, который содержит элементы, которые были созданы или изменены.</returns>
+        <summary>Сохраняет ответное сообщение календаря в папке "Черновики". Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Объект Календарактионресултс, содержащий элементы, которые были созданы или изменены.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,9 +72,9 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки для сохранения ответа.</param>
-        <summary>Сохраняет сообщение ответа календаря в указанной папке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Объект CalendarActionResults, который содержит элементы, которые были созданы или изменены.</returns>
+        <param name="destinationFolderId">Идентификатор папки, в которую необходимо сохранить ответ.</param>
+        <summary>Сохраняет ответное сообщение календаря в указанную папку. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Объект Календарактионресултс, содержащий элементы, которые были созданы или изменены.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,9 +96,9 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, в которой следует сохранить ответ.</param>
-        <summary>Сохраняет сообщение ответа календаря в указанной папке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Объект CalendarActionResults, который содержит элементы, которые были созданы или изменены.</returns>
+        <param name="destinationFolderName">Имя папки, в которой нужно сохранить ответ.</param>
+        <summary>Сохраняет ответное сообщение календаря в указанную папку. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Объект Календарактионресултс, содержащий элементы, которые были созданы или изменены.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,8 +118,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отправляет сообщение ответа календаря без сохранения копии. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Объект CalendarActionResults, который содержит элементы, которые были созданы или изменены.</returns>
+        <summary>Отправляет данное ответное сообщение календаря без сохранения копии. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Объект Календарактионресултс, содержащий элементы, которые были созданы или изменены.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -147,8 +139,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отправляет сообщение ответа календаря и сохранение копии в папке «Отправленные». Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Объект CalendarActionResults, который содержит элементы, которые были созданы или изменены.</returns>
+        <summary>Отправляет данное ответное сообщение календаря и сохраняет копию в папке "Отправленные". Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Объект Календарактионресултс, содержащий элементы, которые были созданы или изменены.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -170,9 +162,9 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки, в которой будет храниться копия сообщения ответа календаря.</param>
-        <summary>Отправляет сообщение ответа календаря и сохраняет копию в указанной папке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Объект CalendarActionResults, который содержит элементы, которые были созданы или изменены.</returns>
+        <param name="destinationFolderId">Идентификатор папки, в которой хранится копия ответного сообщения календаря.</param>
+        <summary>Отправляет данное ответное сообщение календаря и сохраняет копию в указанную папку. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Объект Календарактионресултс, содержащий элементы, которые были созданы или изменены.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -194,9 +186,9 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, в которой будет храниться копия сообщения ответа календаря.</param>
-        <summary>Отправляет сообщение ответа календаря и сохраняет копию в указанной папке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Объект CalendarActionResults, который содержит элементы, которые были созданы или изменены.</returns>
+        <param name="destinationFolderName">Имя папки, в которой будет храниться копия ответного сообщения календаря.</param>
+        <summary>Отправляет данное ответное сообщение календаря и сохраняет копию в указанную папку. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Объект Календарактионресултс, содержащий элементы, которые были созданы или изменены.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

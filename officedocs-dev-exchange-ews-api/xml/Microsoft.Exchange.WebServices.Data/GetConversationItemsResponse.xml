@@ -1,13 +1,5 @@
 <Type Name="GetConversationItemsResponse" FullName="Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ad1349c076045a6d7dc696b663b710911d7fbfea" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626799" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetConversationItemsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ad1349c076045a6d7dc696b663b710911d7fbfea" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626799" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetConversationItemsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetConversationItemsResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetConversationItemsResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит результаты при попытке получить содержимое беседы в почтовый ящик.             <see cref="T:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит результаты попытки вернуть содержимое беседы в почтовом ящике.             <see cref="T:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationResponse</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> объекта.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse.Conversation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Беседы.</value>
+        <summary>Получает или задает <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> объект.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse.Conversation" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Беседа.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

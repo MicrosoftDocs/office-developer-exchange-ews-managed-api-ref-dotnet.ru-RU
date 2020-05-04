@@ -1,13 +1,5 @@
 <Type Name="MoveCopyFolderResponse" FullName="Microsoft.Exchange.WebServices.Data.MoveCopyFolderResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="072083da8451c56da64b73575ec67f53cdc3d255" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626561" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MoveCopyFolderResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="072083da8451c56da64b73575ec67f53cdc3d255" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626561" /></Metadata><TypeSignature Language="C#" Value="public sealed class MoveCopyFolderResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MoveCopyFolderResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MoveCopyFolderResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MoveCopyFolderResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет базовый ответа класс для перемещения отдельных папок и операции копирования папки.</summary>
+    <summary>Представляет базовый класс ответа для операций перемещения и копирования папок отдельных папок.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает новую папку (перемещенный или скопированный).</summary>
-        <value>Новую папку.</value>
+        <summary>Получает новую (перемещенную или скопированную) папку.</summary>
+        <value>Новая папка.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="ExpandGroupResults" FullName="Microsoft.Exchange.WebServices.Data.ExpandGroupResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f1af6d4df34df52a2d1bf49da85e36b9709c4b0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627144" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ExpandGroupResults : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f1af6d4df34df52a2d1bf49da85e36b9709c4b0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627144" /></Metadata><TypeSignature Language="C#" Value="public sealed class ExpandGroupResults : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExpandGroupResults extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.EmailAddress&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExpandGroupResults" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExpandGroupResults&#xA;Implements IEnumerable(Of EmailAddress)" />
@@ -25,7 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Результаты <see cref="Overload:Microsoft.Exchange.WebServices.Data.ExchangeService.ExpandGroup" /> метод.</summary>
+    <summary>Результаты <see cref="Overload:Microsoft.Exchange.WebServices.Data.ExchangeService.ExpandGroup" /> метода.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,13 +36,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число элементов, которые возвращаются.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.Count" /> свойства — это число элементов, которые возвращаются.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.Count" /> Свойство может быть меньше, чем общее число членов группы. В данном случае значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.IncludesAllMembers" /> свойство имеет <b>значение false</b>.</para>
-          <para />
-        </remarks>
+        <summary>Получает число возвращаемых членов.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.Count" /> свойства — количество возвращаемых элементов.</value>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.Count" /> Свойство может быть меньше, чем общее число участников группы. В этом случае значением <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.IncludesAllMembers" /> свойства является <b>false</b>.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -72,9 +61,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет членов группы.</summary>
-        <returns>
-          <see cref="M:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.GetEnumerator" /> Метод возвращает <a href="http://go.microsoft.com/fwlink/?LinkID=162947">T:System.Collections.Generic.IEnumerator'1</a></returns>
+        <summary>Получает перечислитель, который выполняет итерацию по членам группы.</summary>
+        <returns><see cref="M:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.GetEnumerator" /> Метод возвращает объект <a href="http://go.microsoft.com/fwlink/?LinkID=162947">т:систем.коллектионс.женерик.иенумератор ' 1</a></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,8 +81,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, которое указывает, был ли возвращаться всей группы.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.IncludesAllMembers" /> свойство имеет <b>значение true</b> , если были возвращены все члены группы; в противном случае — значение <b>false</b>.</value>
+        <summary>Получает значение, указывающее, была ли возвращена вся группа.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.IncludesAllMembers" /> свойства равно <b>true</b> , если были возвращены все члены группы; в противном случае — значение <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,8 +101,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает членов расширенной группы.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.Members" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162659">T:System.Collections.ObjectModel.Collection'1</a></value>
+        <summary>Получает список членов развернутой группы.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.Members" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162659">т:систем.коллектионс.обжектмодел.коллектион ' 1</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,8 +125,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет членов группы. <see cref="M:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Экземпляр перечислителя, который выполняет итерацию членов группы.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию по членам группы. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.ExpandGroupResults.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Экземпляр перечислителя, который выполняет итерацию по членам группы.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

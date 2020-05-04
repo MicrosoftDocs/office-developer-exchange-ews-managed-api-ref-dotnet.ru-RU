@@ -1,13 +1,5 @@
 <Type Name="VotingInformation" FullName="Microsoft.Exchange.WebServices.Data.VotingInformation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="27d434c846d26da0886898356dd212889384eb60" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627012" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class VotingInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="27d434c846d26da0886898356dd212889384eb60" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627012" /></Metadata><TypeSignature Language="C#" Value="public sealed class VotingInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit VotingInformation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.VotingInformation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class VotingInformation&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет голосования сведения о сообщениях, включая кнопки голосования или голосования сообщения ответа. <see cref="T:Microsoft.Exchange.WebServices.Data.VotingInformation" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет сведения голосования о сообщениях, включающих кнопки голосования и сообщения ответа на голосование. <see cref="T:Microsoft.Exchange.WebServices.Data.VotingInformation" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,12 +32,10 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.VotingOptionData&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список Параметры голосования.</summary>
+        <summary>Получает список параметров голосования.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Это свойство будет содержать данные на сообщения, содержащие кнопки голосования или сообщения запроса на утверждение. Оно будет пустым на голосования сообщения ответа.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство будет содержать данные для сообщений, содержащих кнопки голосования или запросы на утверждение. В сообщениях ответа на голосование он будет пустым.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="VotingResponse">
@@ -63,12 +53,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает ответ голосование.</summary>
+        <summary>Получает отклик на голосование.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Это свойство будет содержать данные голосования сообщения ответа. Оно будет пустым на сообщения, содержащие кнопки голосования и сообщения запроса на утверждение.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство будет содержать данные в сообщениях ответа на голосование. Он будет пустым в сообщениях, содержащих кнопки голосования и сообщения запроса на утверждение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

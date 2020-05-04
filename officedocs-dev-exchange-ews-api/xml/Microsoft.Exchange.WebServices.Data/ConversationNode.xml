@@ -1,13 +1,5 @@
 <Type Name="ConversationNode" FullName="Microsoft.Exchange.WebServices.Data.ConversationNode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d4d7479349ec08e84854fb1954407a89e77f5126" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626736" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ConversationNode : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d4d7479349ec08e84854fb1954407a89e77f5126" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626736" /></Metadata><TypeSignature Language="C#" Value="public sealed class ConversationNode : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationNode extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationNode" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationNode&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Задает ответ для разговора узел в наборе сообщений, связанных с ними электронной почты.             <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет ответ на один узел беседы в набор связанных сообщений электронной почты.             <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор сообщения Интернета узла связанного беседы. <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.InternetMessageId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор связанного узла беседы. <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.InternetMessageId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор сообщения Интернета.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -60,7 +52,7 @@
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает элементы в узле беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.Items" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает элементы в узле беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.Items" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Список элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +72,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор сообщения родительского узла связанного беседы. <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.ParentInternetMessageId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор родительского сообщения для связанного узла беседы. <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.ParentInternetMessageId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор родительского сообщения.</value>
         <remarks>To be added.</remarks>
       </Docs>

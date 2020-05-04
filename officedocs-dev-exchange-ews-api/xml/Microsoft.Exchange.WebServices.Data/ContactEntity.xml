@@ -1,13 +1,5 @@
 <Type Name="ContactEntity" FullName="Microsoft.Exchange.WebServices.Data.ContactEntity">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8a956e92635ccb6f58424dc385beba2ba1c3959b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626777" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ContactEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8a956e92635ccb6f58424dc385beba2ba1c3959b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626777" /></Metadata><TypeSignature Language="C#" Value="public sealed class ContactEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ContactEntity extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactEntity" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ContactEntity&#xA;Inherits ExtractedEntity" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет объект контакта сущности.             <see cref="T:Microsoft.Exchange.WebServices.Data.ContactEntity" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет объект сущности Contact.             <see cref="T:Microsoft.Exchange.WebServices.Data.ContactEntity" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает адреса контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Addresses" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Адреса контакта сущности.</value>
+        <summary>Получает адреса объекта Contact.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Addresses" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Адреса объекта Contact.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает название предприятия контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.BusinessName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Business имя, связанное с контактных объектов.</value>
+        <summary>Получает бизнес-имя объекта контакта.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.BusinessName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Название организации, связанное с объектом Contact.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает отображаемое имя объекта контакта.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.ContactString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Отображаемое имя контакта сущности.</value>
+        <summary>Получает отображаемое имя объекта Contact.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.ContactString" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Отображаемое имя сущности контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,8 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает адреса электронной почты контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.EmailAddresses" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Адреса электронной почты, связанные с контактных объектов.</value>
+        <summary>Получает адреса электронной почты объекта Contact.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.EmailAddresses" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Адреса электронной почты, связанные с сущностью Contact.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,8 +112,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя человека, для контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PersonName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Имя пользователя, связанное с контактных объектов.</value>
+        <summary>Получает имя пользователя для объекта Contact.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PersonName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Имя пользователя, связанное с объектом Contact.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -140,8 +132,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает номера телефона для контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PhoneNumbers" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Номера телефонов, связанные с контактных объектов.</value>
+        <summary>Получает номера телефонов для объекта Contact.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PhoneNumbers" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Номера телефонов, связанные с контактным лицом.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -160,8 +152,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает URL-адреса контактного лица.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Urls" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>URL-адреса контакта сущности.</value>
+        <summary>Получает URL-адреса объекта Contact.             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Urls" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>URL-адреса сущности контакта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

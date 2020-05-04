@@ -1,13 +1,5 @@
 <Type Name="InternetMessageHeader" FullName="Microsoft.Exchange.WebServices.Data.InternetMessageHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="40baa7e83707715b72a065d28403cf657fca7298" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626528" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class InternetMessageHeader : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="40baa7e83707715b72a065d28403cf657fca7298" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626528" /></Metadata><TypeSignature Language="C#" Value="public sealed class InternetMessageHeader : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit InternetMessageHeader extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeader" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class InternetMessageHeader&#xA;Inherits ComplexProperty" />
@@ -21,14 +13,12 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет заголовок сообщения Интернета. Чтобы получить вся коллекция заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS.</summary>
-    <remarks>
-      <para>Ниже приводится определение PR_TRANSPORT_MESSAGE_HEADERS расширенные свойства.</para>
-      <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
-      <para>Можно добавить определение свойств к <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> для получения заголовков сообщений Интернета.</para>
-      <para>Дополнительные сведения о веб-служб Exchange и Интернет заголовки сообщений, посвященной «Приступая к Интернету заголовки сообщений» в <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">веб-служб Exchange, MIME и отсутствующие заголовков сообщений Интернета</a></para>
-      <para />
-    </remarks>
+    <summary>Представляет заголовок сообщения Интернета. Чтобы получить всю коллекцию заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS.</summary>
+    <remarks><para>Ниже приведено определение расширенного свойства PR_TRANSPORT_MESSAGE_HEADERS.</para> 
+      <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code> 
+      <para>Вы можете добавить это определение свойства в <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> объект, чтобы получить заголовки сообщений Интернета.</para> 
+      <para>Дополнительные сведения о службах EWS и заголовках сообщений в Интернете приведены в разделе "извлечение заголовков сообщений Интернета" в <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME и отсутствующих заголовках сообщений в Интернете</a> </para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Name">
@@ -67,7 +57,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает строку заголовка.</summary>
+        <summary>Получает строковое представление заголовка.</summary>
         <returns>Строковое представление заголовка.</returns>
         <remarks>To be added.</remarks>
       </Docs>

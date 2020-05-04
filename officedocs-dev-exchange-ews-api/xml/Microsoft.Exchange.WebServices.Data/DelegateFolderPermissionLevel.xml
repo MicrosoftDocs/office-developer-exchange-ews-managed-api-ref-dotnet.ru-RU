@@ -1,13 +1,5 @@
 <Type Name="DelegateFolderPermissionLevel" FullName="Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5d7dd1ccddee84186ecd3feeb912d3e42c55b8f9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626740" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum DelegateFolderPermissionLevel" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5d7dd1ccddee84186ecd3feeb912d3e42c55b8f9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626740" /></Metadata><TypeSignature Language="C#" Value="public enum DelegateFolderPermissionLevel" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DelegateFolderPermissionLevel extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel" />
   <TypeSignature Language="VB.NET" Value="Public Enum DelegateFolderPermissionLevel" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет уровень разрешений пользователя делегат на указанной папки.</summary>
+    <summary>Определяет уровень разрешений делегированного пользователя в определенной папке.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Делегат имеет разрешения разработчика.</summary>
+        <summary>Представитель имеет разрешения автора.</summary>
       </Docs>
     </Member>
     <Member MemberName="Custom">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Делегат имеет настраиваемые разрешения.</summary>
+        <summary>Представитель обладает пользовательскими разрешениями.</summary>
       </Docs>
     </Member>
     <Member MemberName="Editor">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Делегат имеет права доступа редактор.</summary>
+        <summary>Представитель обладает разрешениями редактора.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Делегат не имеет разрешения.</summary>
+        <summary>Делегат не имеет разрешений.</summary>
       </Docs>
     </Member>
     <Member MemberName="Reviewer">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Делегат имеет разрешения.</summary>
+        <summary>У делегата есть разрешения рецензента.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverResponseCollection&lt;TResponse&gt;" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection&lt;TResponse&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bc0e633563f95ffe1d14f66be73b0f849146eb1b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626729" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class AutodiscoverResponseCollection&lt;TResponse&gt; : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse, System.Collections.Generic.IEnumerable&lt;TResponse&gt; where TResponse : AutodiscoverResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bc0e633563f95ffe1d14f66be73b0f849146eb1b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626729" /></Metadata><TypeSignature Language="C#" Value="public abstract class AutodiscoverResponseCollection&lt;TResponse&gt; : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse, System.Collections.Generic.IEnumerable&lt;TResponse&gt; where TResponse : AutodiscoverResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AutodiscoverResponseCollection`1&lt;(class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse) TResponse&gt; extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse implements class System.Collections.Generic.IEnumerable`1&lt;!TResponse&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class AutodiscoverResponseCollection(Of TResponse)&#xA;Inherits AutodiscoverResponse&#xA;Implements IEnumerable(Of TResponse)" />
@@ -33,7 +25,7 @@
   </Interfaces>
   <Docs>
     <typeparam name="TResponse">Тип ответов в коллекции.</typeparam>
-    <summary>Содержит коллекцию ответов на вызов для службы автообнаружения.</summary>
+    <summary>Содержит коллекцию ответов на вызов службы автообнаружения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,8 +44,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает количество ответов в коллекции.</summary>
-        <value>Число объектов ответа в коллекции.</value>
+        <summary>Получает число ответов в коллекции.</summary>
+        <value>Число объектов Response в коллекции.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -76,7 +68,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции.</summary>
+        <summary>Возвращает перечислитель, который позволяет перебирать объекты в коллекции.</summary>
         <returns>Перечислитель, который можно использовать для итерации по коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -99,13 +91,11 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс возвращаемого объекта ответа.</param>
+        <param name="index">Отсчитываемый от нуля индекс получаемого объекта ответа.</param>
         <summary>Получает ответ по указанному индексу в коллекции.</summary>
-        <value>Ответ по указанному индексу в коллекции.</value>
-        <remarks>
-          <para>Свойство Item(System.Int32) позволяет получить определенный <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" /> в коллекции. Если вы хотите перечисления коллекции, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" /> метод обычным способом.</para>
-          <para />
-        </remarks>
+        <value>Отклик по указанному индексу в коллекции.</value>
+        <remarks><para>Свойство Item (System. Int32) позволяет получить конкретное <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" /> значение в коллекции. Если вы хотите перечислить коллекцию, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" /> метод стандартным способом.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
@@ -127,7 +117,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции. <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Возвращает перечислитель, который позволяет перебирать объекты в коллекции. Этот <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <returns>Перечислитель, который можно использовать для итерации по коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>

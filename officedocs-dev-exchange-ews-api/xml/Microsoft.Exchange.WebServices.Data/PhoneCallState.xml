@@ -1,13 +1,5 @@
 <Type Name="PhoneCallState" FullName="Microsoft.Exchange.WebServices.Data.PhoneCallState">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="67573d58bc11e7bdb6f7ccff03ef57475f28ae88" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627001" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum PhoneCallState" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="67573d58bc11e7bdb6f7ccff03ef57475f28ae88" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627001" /></Metadata><TypeSignature Language="C#" Value="public enum PhoneCallState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PhoneCallState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneCallState" />
   <TypeSignature Language="VB.NET" Value="Public Enum PhoneCallState" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает состояние телефонного звонка.</summary>
+    <summary>Указывает состояние звонка.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Получение телефона были оповещения.</summary>
+        <summary>Получатель получил оповещение.</summary>
       </Docs>
     </Member>
     <Member MemberName="Connected">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Подключение телефонного звонка.</summary>
+        <summary>Телефонный звонок подключен.</summary>
       </Docs>
     </Member>
     <Member MemberName="Connecting">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Подключение телефонного звонка.</summary>
+        <summary>Телефонный звонок подключается.</summary>
       </Docs>
     </Member>
     <Member MemberName="Disconnected">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Телефонный звонок отключен.</summary>
+        <summary>Телефонный звонок отключается.</summary>
       </Docs>
     </Member>
     <Member MemberName="Forwarding">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Переадресация звонка телефона.</summary>
+        <summary>Выполняется переадресация телефонного звонка.</summary>
       </Docs>
     </Member>
     <Member MemberName="Idle">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Телефонный звонок не используется.</summary>
+        <summary>Телефонный звонок находится в режиме простоя.</summary>
       </Docs>
     </Member>
     <Member MemberName="Incoming">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Входящий телефонный звонок.</summary>
+        <summary>Телефонный звонок является входящим.</summary>
       </Docs>
     </Member>
     <Member MemberName="Transferring">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Телефонный звонок переключается.</summary>
+        <summary>Телефонный звонок передается.</summary>
       </Docs>
     </Member>
   </Members>

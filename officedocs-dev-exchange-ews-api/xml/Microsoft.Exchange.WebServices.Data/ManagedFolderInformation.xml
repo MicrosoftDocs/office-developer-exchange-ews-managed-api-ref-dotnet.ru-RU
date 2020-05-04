@@ -1,13 +1,5 @@
 <Type Name="ManagedFolderInformation" FullName="Microsoft.Exchange.WebServices.Data.ManagedFolderInformation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ebf44e74fac14ba45a75a4bfa6bcdc83d0cd743f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626524" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ManagedFolderInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ebf44e74fac14ba45a75a4bfa6bcdc83d0cd743f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626524" /></Metadata><TypeSignature Language="C#" Value="public sealed class ManagedFolderInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ManagedFolderInformation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ManagedFolderInformation&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет данные для управляемых папок.</summary>
+    <summary>Представляет сведения для управляемой папки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли пользователь может удалять объекты в папке.</summary>
-        <value>
-          <b>значение true,</b> Если можно удалить объекты в папке; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, может ли пользователь удалять объекты из папки.</summary>
+        <value><b>значение true</b> , если объекты в папке можно удалить; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,9 +52,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, может ли пользователь переименование или перемещение объектов в папке.</summary>
-        <value>
-          <b>значение true,</b> Если объекты в папке можно переименованным или перемещенным; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, может ли пользователь переименовывать или перемещать объекты в папке.</summary>
+        <value><b>значение true</b> , если объекты в папке могут быть переименованы или перемещены; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,8 +72,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает комментарий, связанный с управляемой папки.</summary>
-        <value>Примечание, связанное с управляемой папки.</value>
+        <summary>Получает комментарий, связанный с управляемой папкой.</summary>
+        <value>Комментарий, связанный с управляемой папкой.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,8 +92,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает общий размер все содержимое управляемых папок.</summary>
-        <value>Размер содержимого из управляемых папок.</value>
+        <summary>Получает общий размер всего содержимого управляемой папки.</summary>
+        <value>Размер содержимого управляемой папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -122,9 +112,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, имеет ли папка квоту.</summary>
-        <value>
-          <b>значение true,</b> Если для папки квот; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, есть ли у папки квота.</summary>
+        <value><b>значение true</b> , если у папки есть квота; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,7 +132,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает URL-адрес, который будет по умолчанию домашнюю страницу для управляемых папок.</summary>
+        <summary>Получает URL-адрес, который будет домашней страницей по умолчанию для управляемой папки.</summary>
         <value>URL-адрес домашней страницы по умолчанию.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,9 +152,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли папка является корневым каталогом иерархия управляемых папок.</summary>
-        <value>
-          <b>значение true,</b> Если папка является корневой папки; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли папка корневой папкой иерархии управляемых папок.</summary>
+        <value><b>значение true</b> , если папка является корневой папкой; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -184,7 +172,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор управляемой папки папки.</summary>
+        <summary>Возвращает идентификатор управляемой папки.</summary>
         <value>Идентификатор управляемой папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,9 +192,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, необходимо ли отображать клиентское приложение свойство комментарий для пользователя.</summary>
-        <value>
-          <b>значение true,</b> Если необходимо отображать клиентское приложение свойство комментарий для пользователя; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, должно ли клиентское приложение отображать свойство Comment для пользователя.</summary>
+        <value><b>значение true</b> , если клиентское приложение должно отображать свойство Comment для пользователя; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,8 +212,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает квота хранилища папки.</summary>
-        <value>Ограничение размера хранилища для управляемых папок.</value>
+        <summary>Получает квоту хранилища папки.</summary>
+        <value>Предельный размер хранилища для управляемой папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

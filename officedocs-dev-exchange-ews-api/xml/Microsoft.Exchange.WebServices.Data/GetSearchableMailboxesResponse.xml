@@ -1,13 +1,5 @@
 <Type Name="GetSearchableMailboxesResponse" FullName="Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d26a160b5442b264f79474a7663544f2b391ef2b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627161" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetSearchableMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d26a160b5442b264f79474a7663544f2b391ef2b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627161" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetSearchableMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetSearchableMailboxesResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetSearchableMailboxesResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит два списка почтовых ящиков: список почтовых ящиков, которые можно искать и список почтовых ящиков, которые не удалось выполнить поиск для обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит два списка почтовых ящиков: список почтовых ящиков, в которых можно выполнять поиск, и список почтовых ящиков, для которых не удалось выполнить поиск для обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,9 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список почтовых ящиков, входят в целевую запроса на обнаружение электронных данных, который не удалось выполнить поиск.
-<see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Почтовые ящики, которые не удалось выполнить поиск.</value>
+        <summary>Получает или задает список почтовых ящиков, для которых предназначен запрос eDiscovery, поиск которых невозможен.
+<see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Почтовые ящики, поиск которых невозможен.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,8 +53,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchableMailbox[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает почтовых ящиков или групп рассылки, которые соответствуют запроса на обнаружение электронных данных.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Массив, для поиска почтовых ящиков.</value>
+        <summary>Получает почтовые ящики или группы рассылки, которые совпадают с запросом обнаружения электронных данных.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Массив почтовых ящиков с возможностью поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="ArchiveItemResponse" FullName="Microsoft.Exchange.WebServices.Data.ArchiveItemResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="222dfcec996a467e7a35d9204f9ce774ce16fad3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627213" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ArchiveItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="222dfcec996a467e7a35d9204f9ce774ce16fad3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627213" /></Metadata><TypeSignature Language="C#" Value="public sealed class ArchiveItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ArchiveItemResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ArchiveItemResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ArchiveItemResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет ответ на операцию для копирования или перемещения элемента.             <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveItemResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет ответ на операцию копирования или перемещения элемента.             <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveItemResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает элемент копируемые или перемещения.             <see cref="P:Microsoft.Exchange.WebServices.Data.ArchiveItemResponse.Item" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Копируемые или перемещения элемента.</value>
+        <summary>Получает скопированный или перемещенный элемент.             <see cref="P:Microsoft.Exchange.WebServices.Data.ArchiveItemResponse.Item" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Скопированный или перемещенный элемент.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

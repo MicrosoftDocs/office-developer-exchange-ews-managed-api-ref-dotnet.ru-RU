@@ -1,13 +1,5 @@
 <Type Name="ServiceResponse" FullName="Microsoft.Exchange.WebServices.Data.ServiceResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9bb8d66bae46fd92ce96b727fbed2f8ab9734108" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627075" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9bb8d66bae46fd92ce96b727fbed2f8ab9734108" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627075" /></Metadata><TypeSignature Language="C#" Value="public class ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServiceResponse extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="VB.NET" Value="Public Class ServiceResponse" />
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает код ошибки, связанный с этим ответом.</summary>
-        <value>Одно из значений перечисления ServiceError.</value>
+        <summary>Получает код ошибки, связанный с этим ответом.</summary>
+        <value>Одно из значений перечисления Сервицееррор.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,12 +52,10 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сведения об ошибках, связанных с запросом.</summary>
-        <value>Словарь подробные сведения об ошибке.</value>
-        <remarks>
-          <para>Если результата Success, ErrorDetailsDictionary возвращает значение null. Дополнительные сведения об ошибке будут доступны только для некоторых ошибок. Например при ErrorRecurrenceHasNoOccurrence, код ошибки ErrorDetailsDictionary будет содержать ключи для EffectiveStartDate и EffectiveEndDate.</para>
-          <para />
-        </remarks>
+        <summary>Получает сведения об ошибке, связанные с ответом.</summary>
+        <value>Словарь подробных сведений об ошибках.</value>
+        <remarks><para>Если для Result задано значение Success, Еррордетаилсдиктионари возвращает значение null. Сведения об ошибках будут доступны только для некоторых кодов ошибок. Например, если код ошибки — Ерроррекурренцехаснуккурренце, Еррордетаилсдиктионари будет содержать ключи для Еффективестартдате и Еффективинддате.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ErrorMessage">
@@ -83,12 +73,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает подробное сообщение об ошибке связанных с запросом.</summary>
+        <summary>Получает подробное сообщение об ошибке, связанное с ответом.</summary>
         <value>Строковое значение, содержащее сообщение об ошибке.</value>
-        <remarks>
-          <para>Если результата Success, сообщение об ошибке возвращает значение null. Сообщение об ошибке локализуется согласно свойство PreferredCulture объекта ExchangeService, который использовался для вызова метода, создавшего ответ.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если для Result задано значение Success, ErrorMessage возвращает null. ErrorMessage локализуется в соответствии со свойством Преферредкултуре объекта ExchangeService, который использовался для вызова метода, создавшего ответ.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ErrorProperties">
@@ -106,12 +94,10 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сведения об ошибках свойства, связанные с ответом.</summary>
-        <value>Список свойств ошибок.</value>
-        <remarks>
-          <para>Если результата Success, ErrorProperties возвращает значение null. ErrorProperties доступна только для некоторых ошибок. К примеру Если код ошибки ErrorInvalidPropertyForOperation, ErrorProperties будет содержать определения свойства, которое было недопустимым для запроса.</para>
-          <para />
-        </remarks>
+        <summary>Получает сведения об ошибках свойств, связанных с откликом.</summary>
+        <value>Список свойств ошибки.</value>
+        <remarks><para>Если для Result задано значение Success, Еррорпропертиес возвращает значение null. Еррорпропертиес доступен только для некоторых кодов ошибок. Например, если код ошибки — Ерроринвалидпропертифороператион, Еррорпропертиес будет содержать определение свойства, которое было недопустимым для запроса.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Result">
@@ -129,8 +115,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает результат, связанный с этим ответом.</summary>
-        <value>Одно из значений перечисления ServiceResult.</value>
+        <summary>Получает результат, связанный с этим ответом.</summary>
+        <value>Одно из значений перечисления Сервицересулт.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

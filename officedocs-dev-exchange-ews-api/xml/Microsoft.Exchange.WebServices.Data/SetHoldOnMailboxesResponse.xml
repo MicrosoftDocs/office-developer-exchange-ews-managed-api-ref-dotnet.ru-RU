@@ -1,13 +1,5 @@
 <Type Name="SetHoldOnMailboxesResponse" FullName="Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1a45e18c7c6f1521f6eba93abdaf39f7c149ded6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626919" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SetHoldOnMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1a45e18c7c6f1521f6eba93abdaf39f7c149ded6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626919" /></Metadata><TypeSignature Language="C#" Value="public sealed class SetHoldOnMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetHoldOnMailboxesResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetHoldOnMailboxesResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит результатов запроса для помещения удержание электронных данных на наборе почтовых ящиков.             <see cref="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит результат запроса на помещение удержания обнаружения электронных данных на набор почтовых ящиков.             <see cref="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxHoldResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает результат удержания почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesResponse.HoldResult" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>В результате удержания почтового ящика.</value>
+        <summary>Получает результат удержания почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesResponse.HoldResult" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Результат удержания почтового ящика.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

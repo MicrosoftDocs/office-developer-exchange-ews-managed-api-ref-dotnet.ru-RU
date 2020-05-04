@@ -1,13 +1,5 @@
 <Type Name="UpdateInboxRulesException" FullName="Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="10f27db7ce1ad5e198fd434ae41381f7a5264223" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627249" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class UpdateInboxRulesException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10f27db7ce1ad5e198fd434ae41381f7a5264223" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627249" /></Metadata><TypeSignature Language="C#" Value="public sealed class UpdateInboxRulesException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit UpdateInboxRulesException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UpdateInboxRulesException" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UpdateInboxRulesException&#xA;Inherits ServiceRemoteException" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет исключение, порождаемое, если возникает ошибка в результате вызова операции UpdateInboxRules.</summary>
+    <summary>Представляет исключение, которое выдается при возникновении ошибки в результате вызова операции UpdateInboxRules.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает код ошибки службы, который связан с операцией правила.</summary>
-        <value>Значение перечисления ServiceError, который содержит код ошибки для службы.</value>
+        <summary>Получает код ошибки службы, связанной с операцией с правилом.</summary>
+        <value>Значение перечисления Сервицееррор, содержащее код ошибки службы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сообщение об ошибке службы, который связан с операцией правила.</summary>
-        <value>Сообщение об ошибке, которое отображается при сбое проверки операции правила.</value>
+        <summary>Получает сообщение об ошибке службы, связанное с операцией с правилом.</summary>
+        <value>Сообщение об ошибке, отображаемое при сбое проверки операции правила.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RuleOperationErrorCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию ошибок, которые описываются причины правило проверки не удалось выполнить операцию.</summary>
-        <value>Коллекция объектов ошибок на операции правило, не прошедших проверку.</value>
+        <summary>Получает коллекцию ошибок, подробно описывающих причины сбоя при проверке операции правила.</summary>
+        <value>Коллекция объектов Error в операции правила, не прошедших проверку.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,8 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceResponse</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает ServiceResponse исключения.</summary>
-        <value>Стандартный ответ на операцию правила.</value>
+        <summary>Получает Сервицереспонсе для исключения.</summary>
+        <value>Стандартный ответ на операцию Rule.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

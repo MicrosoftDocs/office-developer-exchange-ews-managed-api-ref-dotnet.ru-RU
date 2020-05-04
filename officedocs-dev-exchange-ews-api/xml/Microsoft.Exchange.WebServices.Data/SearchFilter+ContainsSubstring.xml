@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+ContainsSubstring" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+ContainsSubstring">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a7f4cde27e07f374065fa2420b56e6d18c7755e6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626714" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.ContainsSubstring : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a7f4cde27e07f374065fa2420b56e6d18c7755e6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626714" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.ContainsSubstring : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/ContainsSubstring extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.ContainsSubstring&#xA;Inherits SearchFilter.PropertyBasedFilter" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Фильтр поиска, которое проверяет наличие подстроки в свойстве text.</summary>
+    <summary>Фильтр поиска, который проверяет наличие подстроки в свойстве Text.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.ContainsSubstring.</summary>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. Контаинссубстринг.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,9 +50,9 @@
         <Parameter Name="value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">Определение свойств, который сравнивается.</param>
-        <param name="value">Значение для сравнения.</param>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.ContainsSubstring определения указанного свойства и строка для сравнения.</summary>
+        <param name="propertyDefinition">Определение сравниваемого свойства.</param>
+        <param name="value">Значение, с которым будет сравниваться.</param>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. Контаинссубстринг с указанным определением свойства и строкой для сравнения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,11 +73,11 @@
         <Parameter Name="comparisonMode" Type="Microsoft.Exchange.WebServices.Data.ComparisonMode" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">Определение свойств, который сравнивается.</param>
-        <param name="value">Значение для сравнения.</param>
-        <param name="containmentMode">Одно из значений перечисления ContainmentMode.</param>
-        <param name="comparisonMode">Одно из значений перечисления ComparisonMode.</param>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.ContainsSubstring определения указанного свойства и строка для сравнения и режимы сравнения и включения.</summary>
+        <param name="propertyDefinition">Определение сравниваемого свойства.</param>
+        <param name="value">Значение, с которым будет сравниваться.</param>
+        <param name="containmentMode">Одно из значений перечисления Контаинментмоде.</param>
+        <param name="comparisonMode">Одно из значений перечисления Компарисонмоде.</param>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. Контаинссубстринг с указанным определением свойства и строкой для сравнения и сравнения и режимов хранения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,8 +97,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает режим сравнения.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ComparisonMode" /> Значение перечисления, который используется для сравнения.</value>
+        <value>Значение<see cref="T:Microsoft.Exchange.WebServices.Data.ComparisonMode" /> перечисления, используемое для сравнения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,9 +116,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ContainmentMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает режим вложенности для сравнения.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ContainmentMode" /> Значение перечисления, который используется для сравнения.</value>
+        <summary>Получает или задает режим хранения для сравнения.</summary>
+        <value>Значение<see cref="T:Microsoft.Exchange.WebServices.Data.ContainmentMode" /> перечисления, используемое для сравнения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -146,7 +136,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение для сравнения с указанного свойства.</summary>
+        <summary>Получает или задает значение, с которым сравнивается указанное свойство.</summary>
         <value>Значение для сравнения.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="TimeWindow" FullName="Microsoft.Exchange.WebServices.Data.TimeWindow">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c090c3cbbd51ed6e1de89edffe7efe2720f1de59" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626935" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class TimeWindow" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c090c3cbbd51ed6e1de89edffe7efe2720f1de59" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626935" /></Metadata><TypeSignature Language="C#" Value="public sealed class TimeWindow" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TimeWindow extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TimeWindow" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TimeWindow" />
@@ -41,9 +33,9 @@
         <Parameter Name="endTime" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="startTime">Дата начала и время промежуток времени.</param>
-        <param name="endTime">Дата и время окончания для периода времени.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> класса.</summary>
+        <param name="startTime">Дата и время начала интервала времени.</param>
+        <param name="endTime">Дата и время окончания периода времени.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -62,8 +54,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату и время промежуток времени.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeWindow.EndTime" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></value>
+        <summary>Получает или задает дату и время окончания периода времени.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeWindow.EndTime" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,8 +74,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату и время начала из промежуток времени.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeWindow.StartTime" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></value>
+        <summary>Получает или задает начальную дату и время для интервала времени.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.TimeWindow.StartTime" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

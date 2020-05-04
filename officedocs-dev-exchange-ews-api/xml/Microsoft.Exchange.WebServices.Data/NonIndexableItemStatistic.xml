@@ -1,13 +1,5 @@
 <Type Name="NonIndexableItemStatistic" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="81057df9d88397a5ccea28f6f355ff7ac8788501" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627115" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class NonIndexableItemStatistic" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="81057df9d88397a5ccea28f6f355ff7ac8788501" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627115" /></Metadata><TypeSignature Language="C#" Value="public sealed class NonIndexableItemStatistic" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItemStatistic extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItemStatistic" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит статистические сведения об элементе в почтовом ящике, где индекса не удалось.             <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит статистические сведения об элементе в почтовом ящике, для которого не удалось выполнить индексирование.             <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.#ctor" /> Конструктора, которые применяются для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.#ctor" /> Конструктор подходит для клиентов, которые ориентирован на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает сообщение об ошибке, связанные с неудачной попытки для индексирования элемента.       <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.ErrorMessage" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает сообщение об ошибке, связанное с неудачной попыткой индексировать элемент.       <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.ErrorMessage" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Сообщение об ошибке.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,8 +69,8 @@
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает число элементов в почтовом ящике, где индекса не удалось.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.ItemCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Число элементов.</value>
+        <summary>Возвращает или задает количество элементов в почтовом ящике, для которых не удалось выполнить индексирование.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.ItemCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Количество элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,7 +89,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает почтовый ящик на какие индексирования сбоя. <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.Mailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает почтовый ящик, для которого не удалось выполнить индексирование. <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic.Mailbox" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Почтовый ящик.</value>
         <remarks>To be added.</remarks>
       </Docs>

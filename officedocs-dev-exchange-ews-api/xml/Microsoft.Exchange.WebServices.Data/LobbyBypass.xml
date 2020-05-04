@@ -1,13 +1,5 @@
 <Type Name="LobbyBypass" FullName="Microsoft.Exchange.WebServices.Data.LobbyBypass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d9a53b56606d7f25fa5fa495e06fb64f70c870c0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626527" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum LobbyBypass" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d9a53b56606d7f25fa5fa495e06fb64f70c870c0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626527" /></Metadata><TypeSignature Language="C#" Value="public enum LobbyBypass" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LobbyBypass extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.LobbyBypass" />
   <TypeSignature Language="VB.NET" Value="Public Enum LobbyBypass" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет, будет ли телефона участники должны ждать online промежуточной области при присоединении к собранию по сети.             <see cref="T:Microsoft.Exchange.WebServices.Data.LobbyBypass" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет, должны ли участники телефонной сети ждать в промежуточной области размещения при присоединении к собранию по сети.             <see cref="T:Microsoft.Exchange.WebServices.Data.LobbyBypass" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Подождите, пока участники телефона.             <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.Disabled" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Ожидание телефонных участников.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.Disabled" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="EnabledForGatewayParticipants">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Шлюз участники могли присоединяться к собраниях по сети напрямую.             <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.EnabledForGatewayParticipants" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Участники шлюза могут присоединяться к собранию по сети напрямую.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.EnabledForGatewayParticipants" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

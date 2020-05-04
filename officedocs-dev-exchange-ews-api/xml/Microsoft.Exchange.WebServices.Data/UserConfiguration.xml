@@ -1,13 +1,5 @@
 <Type Name="UserConfiguration" FullName="Microsoft.Exchange.WebServices.Data.UserConfiguration">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fcd20e4229fcedad2f9dcff4e9037d3b7f2113d7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627251" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class UserConfiguration" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fcd20e4229fcedad2f9dcff4e9037d3b7f2113d7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627251" /></Metadata><TypeSignature Language="C#" Value="public class UserConfiguration" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UserConfiguration extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfiguration" />
   <TypeSignature Language="VB.NET" Value="Public Class UserConfiguration" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Создает и получает доступ к пользовательской настройки.</summary>
+    <summary>Создает пользовательские параметры конфигурации и получает к ним доступ.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">Объект, который выполняет привязку к серверу Exchange.</param>
-        <summary>Инициализирует новый экземпляр класса <b>UserConfiguration</b> с объектом службы.</summary>
+        <param name="service">Объект, привязанный к серверу Exchange Server.</param>
+        <summary>Инициализирует новый экземпляр класса <b>усерконфигуратион</b> с объектом Service.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,16 +78,14 @@
         <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
       </Parameters>
       <Docs>
-        <param name="service">Служба, к которому привязывается Конфигурация пользователя.</param>
+        <param name="service">Служба, к которой привязана Конфигурация пользователя.</param>
         <param name="name">Имя конфигурации пользователя.</param>
-        <param name="parentFolderId">Идентификатор папки, содержащей Конфигурация пользователя.</param>
+        <param name="parentFolderId">Идентификатор папки, содержащей конфигурацию пользователя.</param>
         <param name="properties">Свойства для загрузки.</param>
-        <summary>Выполняет привязку к существующей конфигурации пользователя, на основе имени конфигурации пользователя, идентификатор папки и свойства конфигурации для указанного пользователя.</summary>
+        <summary>Выполняет присоединение к существующей конфигурации пользователя в соответствии с именем конфигурации пользователя, идентификатором папки и заданными свойствами конфигурации пользователя.</summary>
         <returns>Экземпляр конфигурации пользователя.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -119,16 +109,14 @@
         <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
       </Parameters>
       <Docs>
-        <param name="service">Служба, к которому привязывается Конфигурация пользователя.</param>
+        <param name="service">Служба, к которой привязана Конфигурация пользователя.</param>
         <param name="name">Имя конфигурации пользователя.</param>
-        <param name="parentFolderName">Идентификатор папки, содержащей Конфигурация пользователя.</param>
+        <param name="parentFolderName">Идентификатор папки, содержащей конфигурацию пользователя.</param>
         <param name="properties">Свойства для загрузки.</param>
-        <summary>Выполняет привязку к существующей конфигурации пользователя на основе имени пользователя конфигурации, имя папки и свойства конфигурации для указанного пользователя.</summary>
+        <summary>Выполняет присоединение к существующей конфигурации пользователя на основе имени конфигурации пользователя, имени папки и указанных свойств конфигурации пользователя.</summary>
         <returns>Экземпляр конфигурации пользователя.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -147,11 +135,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаление конфигурации пользователя.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS). A <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> уведомления о событии почтового ящика можно инициировать, вызывающий этот метод, поскольку удален Конфигурация пользователя, элементы перемещаются в корзину.</para>
-          <para />
-        </remarks>
+        <summary>Удаляет конфигурацию пользователя.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS). Уведомление <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> о событии почтового ящика может быть вызвано вызовом этого метода, потому что удаленные элементы конфигурации пользователя перемещаются в корзину.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dictionary">
@@ -169,7 +155,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает словарь Конфигурация пользователя.</summary>
+        <summary>Получает словарь конфигурации пользователя.</summary>
         <value>Словарь конфигурации пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -189,9 +175,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, были ли изменены объект конфигурации пользователя.</summary>
-        <value>
-          <b>значение true,</b> Если был изменен объект конфигурации пользователя; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, был ли изменен объект конфигурации пользователя.</summary>
+        <value><b>значение true</b> , если объект конфигурации пользователя изменен; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,12 +218,10 @@
         <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
       </Parameters>
       <Docs>
-        <param name="properties">Свойства конфигурации пользователя для загрузки.</param>
-        <summary>Загружает свойства конфигурации для указанного пользователя.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="properties">Свойства конфигурации пользователя, которые необходимо загрузить.</param>
+        <summary>Загружает указанные свойства конфигурации пользователя.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -276,7 +259,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор папки, содержащей Конфигурация пользователя.</summary>
+        <summary>Получает идентификатор папки, содержащей конфигурацию пользователя.</summary>
         <value>Идентификатор папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -301,12 +284,10 @@
       </Parameters>
       <Docs>
         <param name="name">Имя объекта конфигурации пользователя.</param>
-        <param name="parentFolderId">Идентификатор папки, определяющий папки, которая будет содержать объект конфигурации сохраненного пользователя.</param>
-        <summary>Сохраняет Конфигурация пользователя, задав имя конфигурации пользователя и идентификатор папки папку, содержащую Конфигурация пользователя.</summary>
-        <remarks>
-          <para>Вызов метода результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="parentFolderId">Идентификатор папки, указывающий папку, которая будет содержать сохраненный объект конфигурации пользователя.</param>
+        <summary>Сохранение конфигурации пользователя путем задания имени конфигурации пользователя и идентификатора папки, содержащей конфигурацию пользователя.</summary>
+        <remarks><para>Вызов метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -329,12 +310,10 @@
       </Parameters>
       <Docs>
         <param name="name">Имя объекта конфигурации пользователя.</param>
-        <param name="parentFolderName">— Хорошо известных папки имя папки, которая будет содержать объект конфигурации сохраненного пользователя.</param>
-        <summary>Сохраняет Конфигурация пользователя, задав имя конфигурации пользователя и имя известных папки папку, содержащую Конфигурация пользователя.</summary>
-        <remarks>
-          <para>Вызов метода результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="parentFolderName">Известное имя папки, определяющее папку, которая будет содержать сохраненный объект конфигурации пользователя.</param>
+        <summary>Сохранение конфигурации пользователя путем задания имени конфигурации пользователя и имени известной папки для папки, содержащей конфигурацию пользователя.</summary>
+        <remarks><para>Вызов метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -354,10 +333,8 @@
       <Parameters />
       <Docs>
         <summary>Обновляет объект конфигурации пользователя на сервере.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="XmlData">
@@ -376,7 +353,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает XML-данные конфигурации пользователя.</summary>
-        <value>Массив байтов, XML-данных.</value>
+        <value>Массив байтов XML-данных.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

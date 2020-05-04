@@ -1,13 +1,5 @@
 <Type Name="GetClientExtensionResponse" FullName="Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4c56fa739e8ac0de6728fcf0df672d5f777a5f48" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626534" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetClientExtensionResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4c56fa739e8ac0de6728fcf0df672d5f777a5f48" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626534" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetClientExtensionResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetClientExtensionResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetClientExtensionResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит ответ на операцию <b>GetClientExtension</b> .            <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит ответ на операцию <b>жетклиентекстенсион</b> .            <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.ClientExtension&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает возвращаются все расширения клиента.            <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse.ClientExtensions" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Возвращает все возвращенные клиентские расширения.            <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse.ClientExtensions" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Коллекция ссылок на объекты расширения клиента.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает главная таблица организации в формате необработанные XML.     <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse.RawMasterTableXml" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Главная таблица организации.</value>
+        <summary>Возвращает главную таблицу Организации в формате RAW XML.     <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse.RawMasterTableXml" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Главная таблица Организации.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

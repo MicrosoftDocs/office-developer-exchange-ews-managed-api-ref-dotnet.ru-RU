@@ -1,13 +1,5 @@
 <Type Name="Recurrence+YearlyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+YearlyPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="271fbf9a2c1f60f2970c892a025e3cace0256d68" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626538" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Recurrence.YearlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="271fbf9a2c1f60f2970c892a025e3cace0256d68" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626538" /></Metadata><TypeSignature Language="C#" Value="public sealed class Recurrence.YearlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/YearlyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.YearlyPattern&#xA;Inherits Recurrence" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет шаблон повторения, где каждый происходит в определенный день каждый год.</summary>
+    <summary>Представляет расписание повторения, в котором каждое событие происходит в определенный день каждого года.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern.</summary>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Еарлипаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,9 +51,9 @@
       </Parameters>
       <Docs>
         <param name="startDate">Дата и время начала повторения.</param>
-        <param name="month">Происходит каждый месяц года.</param>
-        <param name="dayOfMonth">Происходит каждый день месяца.</param>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern.</summary>
+        <param name="month">Месяц года, в котором происходит каждое событие.</param>
+        <param name="dayOfMonth">День месяца, в котором происходит каждое событие.</param>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Еарлипаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,12 +72,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает день месяца, когда происходит каждого повтора.</summary>
+        <summary>Получает или задает день месяца, когда происходит каждое событие.</summary>
         <value>Целое число.</value>
-        <remarks>
-          <para>День месяца должен быть от 1 до 31.</para>
-          <para />
-        </remarks>
+        <remarks><para>DayOfMonth должен находиться в пределах от 1 до 31.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Month">
@@ -103,8 +93,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает месяц года, когда происходит каждого повтора.</summary>
-        <value>Одно из значений перечисления месяца.</value>
+        <summary>Получает или задает месяц года, когда происходит каждое из этих вхождений.</summary>
+        <value>Одно из значений перечисления month.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

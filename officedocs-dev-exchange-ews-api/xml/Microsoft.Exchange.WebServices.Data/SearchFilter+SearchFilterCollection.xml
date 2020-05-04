@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+SearchFilterCollection" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+SearchFilterCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="72d4206dbb588dfe019d690d71d745c91fe11198" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626592" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.SearchFilterCollection : Microsoft.Exchange.WebServices.Data.SearchFilter, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="72d4206dbb588dfe019d690d71d745c91fe11198" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626592" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.SearchFilterCollection : Microsoft.Exchange.WebServices.Data.SearchFilter, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/SearchFilterCollection extends Microsoft.Exchange.WebServices.Data.SearchFilter implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.SearchFilter&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.SearchFilterCollection&#xA;Inherits SearchFilter&#xA;Implements IEnumerable(Of SearchFilter)" />
@@ -25,11 +17,9 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Представляет коллекцию поисковых фильтров, которые связаны с логический оператор.</summary>
-    <remarks>
-      <para>Можно использовать <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса, чтобы определить сложных поисковых фильтров, такие как «Условие2 <b>AND</b> Условие1».</para>
-      <para />
-    </remarks>
+    <summary>Представляет коллекцию фильтров поиска, связанных логическим оператором.</summary>
+    <remarks><para>С помощью <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса можно определять сложные фильтры поиска, например "condition1 <b>и</b> Condition2".</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -45,11 +35,9 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса.</summary>
-        <remarks>
-          <para>После инициализации <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.LogicalOperator" /> свойству <see cref="F:Microsoft.Exchange.WebServices.Data.LogicalOperator.And" />.</para>
-          <para />
-        </remarks>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса.</summary>
+        <remarks><para>После инициализации для <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.LogicalOperator" /> <see cref="F:Microsoft.Exchange.WebServices.Data.LogicalOperator.And" />свойства задается значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -66,8 +54,8 @@
         <Parameter Name="logicalOperator" Type="Microsoft.Exchange.WebServices.Data.LogicalOperator" />
       </Parameters>
       <Docs>
-        <param name="logicalOperator">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> значений перечисления.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класс с указанным логического оператора.</summary>
+        <param name="logicalOperator">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> перечисления.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса с указанным логическим оператором.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -92,9 +80,9 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="logicalOperator">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> значений перечисления.</param>
-        <param name="searchFilters">Фильтры поиска для добавления в коллекцию.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класс с указанного логического оператора и поиска фильтры.</summary>
+        <param name="logicalOperator">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> перечисления.</param>
+        <param name="searchFilters">Фильтры поиска, добавляемые в коллекцию.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса с указанным логическим оператором и фильтрами поиска.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,9 +101,9 @@
         <Parameter Name="searchFilters" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
       </Parameters>
       <Docs>
-        <param name="logicalOperator">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> значений перечисления.</param>
-        <param name="searchFilters">Фильтры поиска для добавления в коллекцию.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класс с указанного логического оператора и поиска фильтры.</summary>
+        <param name="logicalOperator">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> перечисления.</param>
+        <param name="searchFilters">Фильтры поиска, добавляемые в коллекцию.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> класса с указанным логическим оператором и фильтрами поиска.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -136,10 +124,9 @@
         <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">Добавить фильтр поиска.</param>
-        <summary>Добавляет в коллекцию поисковый фильтр любого типа.</summary>
-        <remarks>
-          <para>Ниже приведены классы фильтра поиска.</para>
+        <param name="searchFilter">Фильтр поиска, который требуется добавить.</param>
+        <summary>Добавляет в коллекцию фильтр поиска любого типа.</summary>
+        <remarks><para>Доступны следующие классы фильтра поиска:</para>
           <list type="bullet">
             <item>
               <description>
@@ -202,8 +189,7 @@
               </description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddRange">
@@ -225,9 +211,8 @@
       </Parameters>
       <Docs>
         <param name="searchFilters">Фильтры поиска для добавления.</param>
-        <summary>Добавляет в коллекцию один или несколько фильтров поиска.</summary>
-        <remarks>
-          <para>Ниже приведены классы фильтра поиска.</para>
+        <summary>Добавляет один или несколько фильтров поиска в коллекцию.</summary>
+        <remarks><para>Доступны следующие классы фильтра поиска:</para>
           <list type="bullet">
             <item>
               <description>
@@ -290,8 +275,7 @@
               </description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -310,7 +294,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет коллекцию фильтры поиска.</summary>
+        <summary>Очищает коллекцию фильтров поиска.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -331,10 +315,9 @@
         <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">Поисковый фильтр для поиска в коллекции.</param>
-        <summary>Определяет, является ли фильтр поиска в семействе сайтов.</summary>
-        <returns>
-          <b>значение true,</b> Если фильтр поиска в семействе сайтов; в противном случае — <b>false</b>.</returns>
+        <param name="searchFilter">Фильтр поиска, который требуется найти в коллекции.</param>
+        <summary>Определяет, находится ли определенный фильтр поиска в коллекции.</summary>
+        <returns><b>значение true</b> , если фильтр поиска включен в коллекцию; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -353,8 +336,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число поисковых фильтров в коллекции.</summary>
-        <value>Число поисковых фильтров в коллекции.</value>
+        <summary>Получает общее количество фильтров поиска в коллекции.</summary>
+        <value>Число фильтров поиска в коллекции.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -377,7 +360,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.</summary>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.</summary>
         <returns>Перечислитель для коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -400,9 +383,9 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс поисковый фильтр, чтобы получить или задать.</param>
+        <param name="index">Отсчитываемый от нуля индекс фильтра поиска, который требуется получить или задать.</param>
         <summary>Получает или задает фильтр поиска по указанному индексу.</summary>
-        <value>Поисковый фильтр по указанному индексу.</value>
+        <value>Фильтр поиска по указанному индексу.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -421,8 +404,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.LogicalOperator</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает логический оператор, который поисковых фильтров для ссылки в этом семействе.</summary>
-        <value>Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> значений перечисления.</value>
+        <summary>Получает или задает логический оператор, который связывает фильтры поиска в этой коллекции.</summary>
+        <value>Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> перечисления.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -443,7 +426,7 @@
         <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">Поисковый фильтр для удаления.</param>
+        <param name="searchFilter">Фильтр поиска, который требуется удалить.</param>
         <summary>Удаляет указанный фильтр поиска из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -466,7 +449,7 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс поисковый фильтр для удаления.</param>
+        <param name="index">Отсчитываемый от нуля индекс фильтра поиска, который требуется удалить.</param>
         <summary>Удаляет фильтр поиска по указанному индексу из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -490,8 +473,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.             <see cref="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

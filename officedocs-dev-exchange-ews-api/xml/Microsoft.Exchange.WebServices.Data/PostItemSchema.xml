@@ -1,13 +1,5 @@
 <Type Name="PostItemSchema" FullName="Microsoft.Exchange.WebServices.Data.PostItemSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="eb7f45d0aa102671ea7210e80c90962eab08486b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627388" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PostItemSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eb7f45d0aa102671ea7210e80c90962eab08486b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627388" /></Metadata><TypeSignature Language="C#" Value="public sealed class PostItemSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PostItemSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PostItemSchema" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PostItemSchema&#xA;Inherits ItemSchema" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет схему для элементов post.</summary>
-    <remarks>
-      <para>Класс PostItemSchema используется для идентификации свойств элемента post для операций поиска, фильтрации и загрузки свойства элементов post.</para>
-      <para />
-    </remarks>
+    <summary>Представляет схему для элементов POST.</summary>
+    <remarks><para>Класс Поститемсчема используется для определения свойств элемента POST для поиска, фильтрации и загрузки свойств для элементов POST.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="ConversationIndex">
@@ -81,7 +71,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойства From.</summary>
+        <summary>Определяет свойство From.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,7 +109,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство IsRead.</summary>
+        <summary>Определяет свойство-Read.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,7 +128,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство PostedTime.</summary>
+        <summary>Определяет свойство Постедтиме.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,7 +147,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство ссылки.</summary>
+        <summary>Определяет свойство References.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -176,7 +166,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство отправителя.</summary>
+        <summary>Определяет свойство sender.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

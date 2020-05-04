@@ -1,13 +1,5 @@
 <Type Name="GroupedFindItemsResults&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;TItem&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="74bd6cf860a2066270ff010547d5c93ae7f92ae0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627232" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GroupedFindItemsResults&lt;TItem&gt; : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.ItemGroup&lt;TItem&gt;&gt; where TItem : Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="74bd6cf860a2066270ff010547d5c93ae7f92ae0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627232" /></Metadata><TypeSignature Language="C#" Value="public sealed class GroupedFindItemsResults&lt;TItem&gt; : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.ItemGroup&lt;TItem&gt;&gt; where TItem : Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GroupedFindItemsResults`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.ItemGroup`1&lt;!TItem&gt;&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GroupedFindItemsResults(Of TItem)&#xA;Implements IEnumerable(Of ItemGroup(Of TItem))" />
@@ -32,7 +24,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <typeparam name="TItem">Тип элемента, возвращенные операцией поиска.</typeparam>
+    <typeparam name="TItem">Тип элемента, возвращаемого операцией поиска.</typeparam>
     <summary>Представляет коллекцию, содержащую результаты операции поиска элемента.</summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -56,8 +48,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции.</summary>
-        <returns>Перечислитель, который можно использовать для итерации по объектов в коллекции.</returns>
+        <summary>Возвращает перечислитель, который позволяет перебирать объекты в коллекции.</summary>
+        <returns>Перечислитель, который можно использовать для выполнения итерации по объектам в коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -76,7 +68,7 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.ItemGroup&lt;TItem&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает группы элементов, возвращенные операцией поиска.</summary>
+        <summary>Получает группу элементов, возвращенных операцией поиска.</summary>
         <value>Коллекция групп элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -96,9 +88,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, доступны ли другие элементы, соответствующие условиям поиска в папке, в которой выполняется поиск.</summary>
-        <value>
-          <b>значение true,</b> Если число элементов, доступны; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, доступны ли в папке поиска другие элементы, которые отвечают условиям поиска.</summary>
+        <value><b>значение true</b> , если доступны дополнительные элементы; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,9 +108,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает смещение, который следует использовать с помощью объекта <b>ItemView</b> для получения следующей страницы элементов в <b>FindItems</b> операции.</summary>
-        <value>
-          <b>Допускает значение NULL</b> значение, смещение на следующую страницу элементов.</value>
+        <summary>Получает смещение, которое должно использоваться с объектом <b>итемвиев</b> для получения следующей страницы элементов в операции <b>FindItems</b> .</summary>
+        <value>Значение, <b>допускающее значение NULL</b> , которое является смещением к следующей странице элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -142,7 +132,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, который выполняет итерацию объектов в коллекции. <see cref="M:Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Возвращает перечислитель, который выполняет итерацию по объектам в коллекции. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <returns>Перечислитель, который можно использовать для итерации по коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -162,8 +152,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число элементов, которые соответствуют условиям поиска, доступных в папке, в которой выполняется поиск.</summary>
-        <value>Общее число элементов, которые соответствуют условиям поиска.</value>
+        <summary>Получает общее количество элементов, которые удовлетворяют критериям поиска, доступным в папке, в которой выполняется поиск.</summary>
+        <value>Общее количество элементов, которые удовлетворяют условиям поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

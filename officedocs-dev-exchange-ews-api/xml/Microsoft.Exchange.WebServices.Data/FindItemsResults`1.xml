@@ -1,13 +1,5 @@
 <Type Name="FindItemsResults&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;TItem&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c3e4cdb71a1ebda99e8002eec1a433278efa81c2" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627113" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FindItemsResults&lt;TItem&gt; : System.Collections.Generic.IEnumerable&lt;TItem&gt; where TItem : Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c3e4cdb71a1ebda99e8002eec1a433278efa81c2" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627113" /></Metadata><TypeSignature Language="C#" Value="public sealed class FindItemsResults&lt;TItem&gt; : System.Collections.Generic.IEnumerable&lt;TItem&gt; where TItem : Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindItemsResults`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;!TItem&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindItemsResults`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindItemsResults(Of TItem)&#xA;Implements IEnumerable(Of TItem)" />
@@ -32,7 +24,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <typeparam name="TItem">Тип элемента, возвращенные операцией поиска.</typeparam>
+    <typeparam name="TItem">Тип элемента, возвращаемого операцией поиска.</typeparam>
     <summary>Представляет результаты операции поиска элемента.</summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -56,7 +48,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель для итерации по коллекции.</summary>
+        <summary>Возвращает перечислитель, позволяющий выполнять итерацию по коллекции.</summary>
         <returns>Перечислитель, который можно использовать для итерации по коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -76,8 +68,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию выделенный термины, которые были найдены операцией поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.HighlightTerms" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Коллекция выделенных термины, которые были найдены операцией поиска.</value>
+        <summary>Получает коллекцию выделенных терминов, обнаруженных в ходе операции поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.HighlightTerms" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Коллекция выделенных терминов, обнаруженных в ходе операции поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,8 +88,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;TItem&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию, содержащую элементы, которые были найдены операцией поиска.</summary>
-        <value>Коллекция, содержащая элементы, которые были найдены операцией поиска.</value>
+        <summary>Получает коллекцию, содержащую элементы, обнаруженные в ходе операции поиска.</summary>
+        <value>Коллекция, содержащая элементы, обнаруженные операцией поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,9 +108,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, доступны ли другие элементы, соответствующие условиям поиска в папке, в которой выполняется поиск.</summary>
-        <value>
-          <b>значение true,</b> Если не все элементы, соответствующие критериям поиска; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, доступны ли в папке поиска другие элементы, которые отвечают условиям поиска.</summary>
+        <value><b>значение true</b> , если имеются другие элементы, которые совпадают с условиями поиска; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,9 +128,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает смещение, который следует использовать с помощью объекта ItemView для получения следующей страницы элементов в рамках одной операции ItemView.</summary>
-        <value>
-          <b>Допускает значение NULL</b> целое значение, представляющее смещение на следующую страницу элементов.</value>
+        <summary>Получает смещение, которое должно использоваться с объектом Итемвиев для получения следующей страницы элементов в операции Итемвиев.</summary>
+        <value>Целое значение, <b>допускающее значение NULL</b> , которое является смещением к следующей странице элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -162,8 +152,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.             <see cref="M:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,8 +172,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число элементов, которые соответствуют условиям поиска, доступных в папке, в которой выполняется поиск.</summary>
-        <value>Целое значение, указывающее общее число элементов, которые соответствуют условиям поиска.</value>
+        <summary>Получает общее количество элементов, которые удовлетворяют критериям поиска, доступным в папке, в которой выполняется поиск.</summary>
+        <value>Целое значение, указывающее общее количество элементов, которые отвечают условиям поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

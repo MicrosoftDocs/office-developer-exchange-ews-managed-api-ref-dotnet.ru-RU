@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverRemoteException" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRemoteException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cd1bf6722ab97c258cfa59d407d1c44d238adfe6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627199" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class AutodiscoverRemoteException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cd1bf6722ab97c258cfa59d407d1c44d238adfe6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627199" /></Metadata><TypeSignature Language="C#" Value="public class AutodiscoverRemoteException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AutodiscoverRemoteException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRemoteException" />
   <TypeSignature Language="VB.NET" Value="Public Class AutodiscoverRemoteException&#xA;Inherits ServiceRemoteException" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет исключение, порождаемое, если службы автообнаружения, возвращается ошибка.</summary>
+    <summary>Представляет исключение, которое выдается, когда служба автообнаружения возвращает ошибку.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="error" Type="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError" />
       </Parameters>
       <Docs>
-        <param name="error">Ошибка, которая связана с исключением.</param>
-        <summary>Инициализирует новый экземпляр класса AutodiscoverRemoteException.</summary>
+        <param name="error">Ошибка, связанная с исключением.</param>
+        <summary>Инициализирует новый экземпляр класса Аутодисковерремотиксцептион.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,9 +53,9 @@
         <Parameter Name="error" Type="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError" />
       </Parameters>
       <Docs>
-        <param name="message">Строка, которая указывает причину данного исключения.</param>
-        <param name="error">Ошибка, которая связана с исключением.</param>
-        <summary>Инициализирует новый экземпляр класса AutodiscoverRemoteException со строкой сообщения, задайте для данного сообщения.</summary>
+        <param name="message">Строка, указывающая причину возникновения этого исключения.</param>
+        <param name="error">Ошибка, связанная с исключением.</param>
+        <summary>Инициализирует новый экземпляр класса Аутодисковерремотиксцептион с заданным сообщением, заданным для строки сообщения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,10 +76,10 @@
         <Parameter Name="innerException" Type="System.Exception" />
       </Parameters>
       <Docs>
-        <param name="message">Строка, которая указывает причину данного исключения.</param>
-        <param name="error">Ошибка, которая связана с исключением.</param>
+        <param name="message">Строка, указывающая причину возникновения этого исключения.</param>
+        <param name="error">Ошибка, связанная с исключением.</param>
         <param name="innerException">Исключение, которое является причиной текущего исключения.</param>
-        <summary>Инициализирует новый экземпляр класса AutodiscoverRemoteException с набором строки сообщения с заданным сообщением и ссылку на внутреннее исключение, которое является причиной данного исключения.</summary>
+        <summary>Инициализирует новый экземпляр класса Аутодисковерремотиксцептион с заданным сообщением для строки сообщения и ссылкой на внутреннее исключение, которое является причиной этого исключения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -106,8 +98,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ошибку, возвращенный службой автообнаружения и для которого было вызвано исключение.</summary>
-        <value>Ошибка, которая связана с исключением.</value>
+        <summary>Получает ошибку, возвращенную службой автообнаружения и для которой было создано исключение.</summary>
+        <value>Ошибка, связанная с исключением.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

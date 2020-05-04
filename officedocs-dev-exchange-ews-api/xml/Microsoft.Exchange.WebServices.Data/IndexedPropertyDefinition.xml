@@ -1,13 +1,5 @@
 <Type Name="IndexedPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="deaa9353119f4b7b262ebd1c007549dbbd6d7dab" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627164" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class IndexedPropertyDefinition : Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="deaa9353119f4b7b262ebd1c007549dbbd6d7dab" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627164" /></Metadata><TypeSignature Language="C#" Value="public sealed class IndexedPropertyDefinition : Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit IndexedPropertyDefinition extends Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class IndexedPropertyDefinition&#xA;Inherits ServiceObjectPropertyDefinition" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет определение индексированные свойства.</summary>
+    <summary>Представляет определение индексированного свойства.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,9 +36,8 @@
       </Parameters>
       <Docs>
         <param name="obj">Объект для проверки на равенство.</param>
-        <summary>Определяет, является ли определение данного индексированные свойства равно этим определением индексированные свойства.</summary>
-        <returns>
-          <b>значение true,</b> Если свойства в определениях же индексированные свойства; в противном случае — <b>false</b>.</returns>
+        <summary>Определяет, совпадает ли данное определение индексированного свойства с этим определением индексированного свойства.</summary>
+        <returns><b>значение true</b> , если определения свойств определяют одно и то же индексированное свойство; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -131,11 +122,10 @@
         <Parameter Name="idxPropDef2" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="idxPropDef1">Первое определение индексированные свойства.</param>
-        <param name="idxPropDef2">Второй определение индексированные свойства.</param>
-        <summary>Определяет, равны ли два указанных экземпляра IndexedPropertyDefinition.</summary>
-        <returns>
-          <b>значение true,</b> Если определения индексированных свойство равны; в противном случае — <b>false</b>.</returns>
+        <param name="idxPropDef1">Определение первого индексированного свойства.</param>
+        <param name="idxPropDef2">Второе определение индексированного свойства.</param>
+        <summary>Определяет, равны ли два указанных экземпляра Индекседпропертидефинитион.</summary>
+        <returns><b>значение true</b> , если определения индексированных свойств равны; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,11 +148,10 @@
         <Parameter Name="idxPropDef2" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="idxPropDef1">Первое определение индексированные свойства.</param>
-        <param name="idxPropDef2">Второй определение индексированные свойства.</param>
-        <summary>Определяет, будет ли два указанных экземпляра IndexedPropertyDefinition не равны.</summary>
-        <returns>
-          <b>значение true,</b> Если определения индексированных свойство равны; в противном случае — <b>false</b>.</returns>
+        <param name="idxPropDef1">Определение первого индексированного свойства.</param>
+        <param name="idxPropDef2">Второе определение индексированного свойства.</param>
+        <summary>Определяет, являются ли два указанных экземпляра Индекседпропертидефинитион неравными.</summary>
+        <returns><b>значение true</b> , если определения индексированных свойств равны; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

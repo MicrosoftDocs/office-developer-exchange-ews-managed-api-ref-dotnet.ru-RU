@@ -1,13 +1,5 @@
 <Type Name="FolderPermission" FullName="Microsoft.Exchange.WebServices.Data.FolderPermission">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="14c2d7c0e48d1b4bf73c00467b09344ee4ba9cdd" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626793" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FolderPermission : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="14c2d7c0e48d1b4bf73c00467b09344ee4ba9cdd" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626793" /></Metadata><TypeSignature Language="C#" Value="public sealed class FolderPermission : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderPermission extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderPermission" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderPermission&#xA;Inherits ComplexProperty" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет разрешения на папку.</summary>
-    <remarks>
-      <para>При настройке Exchange Online, Exchange Online как часть Office 365 и локальной версии Exchange, начиная с Exchange 2013 разрешения папок не возвращаются в <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> набором свойств. Для получения разрешений для папки, добавить <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> свойство, чтобы свойство при привязке к папке.</para>
-      <para />
-    </remarks>
+    <summary>Представляет разрешение для папки.</summary>
+    <remarks><para>При использовании Exchange Online, Exchange Online в составе Office 365 и локальных версиях Exchange, начиная с Exchange 2013, разрешения для папок не возвращаются в наборе <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> свойств. Чтобы получить разрешения для папки, добавьте <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> свойство к набору свойств при привязке к папке.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -41,7 +31,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса FolderPermission.</summary>
+        <summary>Инициализирует новый экземпляр класса Фолдерпермиссион.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,9 +50,9 @@
         <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
       </Parameters>
       <Docs>
-        <param name="standardUser">Обычного пользователя, который применяется к.</param>
-        <param name="permissionLevel">Уровень разрешений.</param>
-        <summary>Инициализирует новый экземпляр класса FolderPermission для указанного обычного пользователя с уровнем указанное разрешение.</summary>
+        <param name="standardUser">Стандартный пользователь, к которому применяется разрешение.</param>
+        <param name="permissionLevel">Уровень разрешения.</param>
+        <summary>Инициализирует новый экземпляр класса Фолдерпермиссион для указанного стандартного пользователя с указанным уровнем разрешений.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,9 +71,9 @@
         <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
       </Parameters>
       <Docs>
-        <param name="userId">Идентификатор пользователя, который применяется к.</param>
-        <param name="permissionLevel">Уровень разрешений.</param>
-        <summary>Инициализирует новый экземпляр класса FolderPermission для указанного пользователя с уровнем указанное разрешение.</summary>
+        <param name="userId">Идентификатор пользователя, к которому применяется разрешение.</param>
+        <param name="permissionLevel">Уровень разрешения.</param>
+        <summary>Инициализирует новый экземпляр класса Фолдерпермиссион для указанного пользователя с указанным уровнем разрешений.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -103,9 +93,9 @@
         <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
       </Parameters>
       <Docs>
-        <param name="primarySmtpAddress">Применяет основной SMTP-адрес пользователя, разрешения.</param>
-        <param name="permissionLevel">Уровень разрешений.</param>
-        <summary>Инициализирует новый экземпляр класса FolderPermission для указанный адрес электронной почты с уровнем указанное разрешение.</summary>
+        <param name="primarySmtpAddress">Основной SMTP-адрес пользователя, к которому относится разрешение.</param>
+        <param name="permissionLevel">Уровень разрешения.</param>
+        <summary>Инициализирует новый экземпляр класса Фолдерпермиссион для указанного адреса электронной почты с указанным уровнем разрешений.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,9 +114,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли пользователь может создавать новые элементы.</summary>
-        <value>
-          <b>значение true,</b> Если пользователь может создавать новые элементы; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, может ли пользователь создавать новые элементы.</summary>
+        <value><b>имеет значение true</b> , если пользователь может создавать новые элементы; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -145,9 +134,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли пользователь может создавать вложенные папки.</summary>
-        <value>
-          <b>значение true,</b> Если пользователь может создавать новые элементы; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, может ли пользователь создавать вложенные папки.</summary>
+        <value><b>имеет значение true</b> , если пользователь может создавать новые элементы; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -166,9 +154,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PermissionScope</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли пользователь может удалить существующие элементы.</summary>
-        <value>
-          <b>значение true,</b> Если пользователь может удалять существующих элементов; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, может ли пользователь удалять существующие элементы.</summary>
+        <value><b>значение true</b> , если пользователь может удалять существующие элементы; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -188,7 +175,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает уровень разрешений, который будет отображаться в Microsoft Outlook для этого разрешения папки.</summary>
-        <value>Уровень разрешений, который отображает Outlook для этого разрешения папки.</value>
+        <value>Уровень разрешений, отображаемый в Outlook для этого разрешения для папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -207,9 +194,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PermissionScope</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, может ли пользователь изменять существующие элементы.</summary>
-        <value>
-          <b>значение true,</b> Если пользователь может изменять существующие элементы; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, может ли пользователь редактировать существующие элементы.</summary>
+        <value><b>имеет значение true</b> , если пользователь может редактировать существующие элементы; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -228,9 +214,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли пользователь контакта для папки.</summary>
-        <value>
-          <b>значение true,</b> Если пользователь является контактом для папки; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли пользователь контактом для папки.</summary>
+        <value><b>значение true</b> , если пользователь является контактом для папки; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -249,9 +234,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли пользователь, которому принадлежит папка.</summary>
-        <value>
-          <b>значение true,</b> Если пользователь является владельцем папки; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, владеет ли пользователь папкой.</summary>
+        <value><b>значение true</b> , если пользователь владеет папкой; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -270,9 +254,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, которое указывает, видима ли папка пользователя.</summary>
-        <value>
-          <b>значение true,</b> Если папка является видимым. в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, отображается ли папка для пользователя.</summary>
+        <value><b>значение true</b> , если папка видима; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -311,8 +294,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает разрешение на доступ для чтения элементов.</summary>
-        <value>Чтение элементов доступ к разрешений.</value>
+        <summary>Получает или задает разрешение на чтение элементов.</summary>
+        <value>Разрешение на чтение элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -331,8 +314,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.UserId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор пользователя, который применяется к.</summary>
-        <value>Идентификатор пользователя, который применяется к.</value>
+        <summary>Получает идентификатор пользователя, к которому применяется разрешение.</summary>
+        <value>Идентификатор пользователя, к которому применяется разрешение.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

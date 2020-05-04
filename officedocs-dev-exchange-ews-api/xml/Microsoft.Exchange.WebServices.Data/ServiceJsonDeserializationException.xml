@@ -1,13 +1,5 @@
 <Type Name="ServiceJsonDeserializationException" FullName="Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e709384c2eefb4646563d17df96730c69e87c60a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627242" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ServiceJsonDeserializationException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e709384c2eefb4646563d17df96730c69e87c60a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627242" /></Metadata><TypeSignature Language="C#" Value="public sealed class ServiceJsonDeserializationException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit ServiceJsonDeserializationException extends Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceJsonDeserializationException&#xA;Inherits ServiceLocalException" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ошибку, которая происходит, когда не удается десериализации XML-код ответа.             <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет ошибку, которая возникает, если не удается десериализовать XML для ответа.             <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,7 +50,7 @@
       </Parameters>
       <Docs>
         <param name="message">Текст сообщения об ошибке.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> класс с сообщением об ошибке для исключения.             <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> класса с сообщением об ошибке для исключения.             <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,8 +71,8 @@
       </Parameters>
       <Docs>
         <param name="message">Текст сообщения об ошибке.</param>
-        <param name="innerException">Исключение, вызвавшей ошибку десериализации.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> класс с сообщение об ошибке и исключений, вызвавшей ошибку десериализации.             <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String,System.Exception)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="innerException">Исключение, вызванное ошибкой десериализации.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> класса с сообщением об ошибке и исключением, вызвавшим ошибку десериализации.             <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String,System.Exception)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="DayOfTheWeek" FullName="Microsoft.Exchange.WebServices.Data.DayOfTheWeek">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7b8f9038ce6575dc8da4088849e6e25d7f6a5220" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626781" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum DayOfTheWeek" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b8f9038ce6575dc8da4088849e6e25d7f6a5220" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626781" /></Metadata><TypeSignature Language="C#" Value="public enum DayOfTheWeek" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DayOfTheWeek extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />
   <TypeSignature Language="VB.NET" Value="Public Enum DayOfTheWeek" />
@@ -21,11 +13,8 @@
   </Base>
   <Docs>
     <summary>Задает день недели.</summary>
-    <remarks>
-      <para>
-        <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> Значение перечисления совпадает с <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a><see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" /> через <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />). Эти значения могут быть безопасно приведен между двумя перечисления. Особые дни недели (<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />, <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />, и <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />), используемых для повторения ежемесячно и ежегодно и нельзя привести к <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a></para>
-      <para />
-    </remarks>
+    <remarks><para>Значение <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> перечисления это то же, что и <a href="http://go.microsoft.com/fwlink/?LinkId=163123">т:систем.дайофвик</a> <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" /> <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />. Эти значения могут быть безопасно приведены между этими двумя перечислениями. Особые дни недели<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />(, <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />и <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />) используются для ежемесячных и ежегодных повторений и не могут быть приведены к <a href="http://go.microsoft.com/fwlink/?LinkId=163123">т:систем.дайофвик</a> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Day">
@@ -63,7 +52,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Пятница.</summary>
+        <summary>Пятницам.</summary>
       </Docs>
     </Member>
     <Member MemberName="Monday">
@@ -82,7 +71,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Понедельник.</summary>
+        <summary>Вторник.</summary>
       </Docs>
     </Member>
     <Member MemberName="Saturday">
@@ -101,7 +90,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Суббота.</summary>
+        <summary>Субботу.</summary>
       </Docs>
     </Member>
     <Member MemberName="Sunday">
@@ -120,7 +109,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Воскресенье.</summary>
+        <summary>Воскресеньям.</summary>
       </Docs>
     </Member>
     <Member MemberName="Thursday">
@@ -139,7 +128,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Четверг.</summary>
+        <summary>Пятница.</summary>
       </Docs>
     </Member>
     <Member MemberName="Tuesday">
@@ -158,7 +147,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Вторник.</summary>
+        <summary>Во.</summary>
       </Docs>
     </Member>
     <Member MemberName="Wednesday">
@@ -177,7 +166,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Среда.</summary>
+        <summary>Четверг.</summary>
       </Docs>
     </Member>
     <Member MemberName="Weekday">
@@ -196,7 +185,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Любой день недели обычной коммерческой деятельности (понедельника по пятницу).</summary>
+        <summary>Любой день обычной рабочей недели (с понедельника по пятницу).</summary>
       </Docs>
     </Member>
     <Member MemberName="WeekendDay">

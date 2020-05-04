@@ -1,13 +1,5 @@
 <Type Name="GetFolderResponse" FullName="Microsoft.Exchange.WebServices.Data.GetFolderResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9aecb8c1eaa5e2e6ec33c59f1e7ecd3464ed8b94" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626798" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetFolderResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9aecb8c1eaa5e2e6ec33c59f1e7ecd3464ed8b94" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626798" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetFolderResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetFolderResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetFolderResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetFolderResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ответ на операцию извлечения отдельной папки.</summary>
+    <summary>Представляет ответ на операцию извлечения отдельных папок.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает папку, было извлечено.</summary>
-        <value>Папка, было извлечено.</value>
+        <summary>Получает извлекаемую папку.</summary>
+        <value>Извлеченная папка.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="EmailAddressCollection" FullName="Microsoft.Exchange.WebServices.Data.EmailAddressCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="93441034feb24760b3ca4961d13de3ae93afb5da" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626783" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class EmailAddressCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="93441034feb24760b3ca4961d13de3ae93afb5da" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626783" /></Metadata><TypeSignature Language="C#" Value="public sealed class EmailAddressCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailAddressCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailAddressCollection&#xA;Inherits ComplexPropertyCollection(Of EmailAddress)" />
@@ -45,7 +37,7 @@
         <Parameter Name="emailAddress" Type="Microsoft.Exchange.WebServices.Data.EmailAddress" />
       </Parameters>
       <Docs>
-        <param name="emailAddress">Адрес электронной почты, чтобы добавить.</param>
+        <param name="emailAddress">Адрес электронной почты, который требуется добавить.</param>
         <summary>Добавляет адрес электронной почты в коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -68,9 +60,9 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">SMTP-адрес, который используется для инициализации адрес электронной почты.</param>
+        <param name="smtpAddress">SMTP-адрес, используемый для инициализации адреса электронной почты.</param>
         <summary>Добавляет адрес электронной почты в коллекцию.</summary>
-        <returns>Объект EmailAddress, созданный из предоставленного SMTP-адрес.</returns>
+        <returns>Объект EmailAddress, созданный на основе предоставленного SMTP-адреса.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +85,10 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">Имя, используемое для инициализации адрес электронной почты.</param>
-        <param name="smtpAddress">SMTP-адрес, который используется для инициализации адрес электронной почты.</param>
+        <param name="name">Имя, используемое для инициализации адреса электронной почты.</param>
+        <param name="smtpAddress">SMTP-адрес, используемый для инициализации адреса электронной почты.</param>
         <summary>Добавляет адрес электронной почты в коллекцию.</summary>
-        <returns>Объект EmailAddress, инициализирован с указанным SMTP-адрес и имя.</returns>
+        <returns>Объект EmailAddress, инициализируемый с помощью предоставленного SMTP-адреса и имени.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,8 +110,8 @@
         <Parameter Name="emailAddresses" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
       </Parameters>
       <Docs>
-        <param name="emailAddresses">Добавление адресов электронной почты.</param>
-        <summary>Добавляет в коллекцию один или несколько адресов электронной почты.</summary>
+        <param name="emailAddresses">Адреса электронной почты, которые требуется добавить.</param>
+        <summary>Добавляет один или несколько адресов электронной почты в коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -141,8 +133,8 @@
         <Parameter Name="smtpAddresses" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="smtpAddresses">SMTP-адреса, которые используются для инициализации адреса электронной почты.</param>
-        <summary>Добавляет один или несколько адресов электронной почты, которые идентифицируются по SMTP-адрес в коллекцию.</summary>
+        <param name="smtpAddresses">SMTP-адреса, используемые для инициализации адресов электронной почты.</param>
+        <summary>Добавляет один или несколько адресов электронной почты, идентифицируемых адресом SMTP в коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,10 +175,9 @@
         <Parameter Name="emailAddress" Type="Microsoft.Exchange.WebServices.Data.EmailAddress" />
       </Parameters>
       <Docs>
-        <param name="emailAddress">Адрес электронной почты для удаления.</param>
+        <param name="emailAddress">Адрес электронной почты, который требуется удалить.</param>
         <summary>Удаляет указанный адрес электронной почты из коллекции.</summary>
-        <returns>
-          <b>значение true,</b> Если адрес электронной почты был успешно удален из коллекции. в противном случае — <b>false</b>.</returns>
+        <returns><b>значение true</b> , если адрес электронной почты был успешно удален из коллекции; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -208,7 +199,7 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Индекс адрес электронной почты для удаления.</param>
+        <param name="index">Индекс адреса электронной почты, который требуется удалить.</param>
         <summary>Удаляет адрес электронной почты из коллекции по указанному индексу.</summary>
         <remarks>To be added.</remarks>
       </Docs>

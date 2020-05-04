@@ -1,13 +1,5 @@
 <Type Name="ImAddressDictionary" FullName="Microsoft.Exchange.WebServices.Data.ImAddressDictionary">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3f3a1830ea06e571529cc158e3b36b2dfe63c3ec" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626533" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ImAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.ImAddressKey,Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3f3a1830ea06e571529cc158e3b36b2dfe63c3ec" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626533" /></Metadata><TypeSignature Language="C#" Value="public sealed class ImAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.ImAddressKey,Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ImAddressDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.ImAddressKey, class Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ImAddressDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImAddressDictionary&#xA;Inherits DictionaryProperty(Of ImAddressKey, ImAddressEntry)" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет словарь адресов мгновенного обмена мгновенными сообщениями.</summary>
+    <summary>Представляет словарь адресов обмена мгновенными сообщениями.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -47,7 +39,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса ImAddressDictionary.</summary>
+        <summary>Инициализирует новый экземпляр класса Имаддрессдиктионари.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,9 +61,9 @@
         <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.ImAddressKey" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ, соответствующий адрес обмена мгновенными Сообщениями, чтобы получить или задать.</param>
-        <summary>Получает или задает обмена мгновенными сообщениями адрес обмена Мгновенными сообщениями с указанным ключом.</summary>
-        <value>Адрес обмена мгновенными Сообщениями с указанным ключом.</value>
+        <param name="key">Ключ, соответствующий адресу для обмена мгновенными сообщениями, которое требуется получить или задать.</param>
+        <summary>Возвращает или задает адрес обмена мгновенными сообщениями с указанным ключом.</summary>
+        <value>Адрес для обмена мгновенными сообщениями с указанным ключом.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,11 +86,10 @@
         <Parameter Name="imAddress" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ, соответствующий адрес обмена мгновенными Сообщениями.</param>
-        <param name="imAddress">Когда этот метод возвращает, содержит адрес обмена мгновенными Сообщениями, связанный с указанным ключом, если он найден; в противном случае — значение NULL (Nothing в Visual Basic). Этот параметр передается неинициализированную переменную.</param>
-        <summary>Пытается получить обмена мгновенными сообщениями адрес обмена Мгновенными сообщениями, связанной с указанным ключом.</summary>
-        <returns>
-          <b>значение true,</b> Если словарь содержит адрес обмена мгновенными Сообщениями, связанный с указанным ключом; в противном случае — <b>false</b>.</returns>
+        <param name="key">Ключ, соответствующий адресу для обмена мгновенными сообщениями.</param>
+        <param name="imAddress">При возвращении этого метода содержит адрес для обмена мгновенными сообщениями, связанный с заданным ключом, если ключ найден; в противном случае — пустая ссылка (Nothing в Visual Basic). Этот параметр передается неинициализированным.</param>
+        <summary>Пытается получить адрес обмена мгновенными сообщениями, соответствующий заданному ключу.</summary>
+        <returns><b>значение true</b> , если словарь содержит адрес для обмена мгновенными сообщениями, связанный с указанным ключом; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

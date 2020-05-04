@@ -1,13 +1,5 @@
 <Type Name="RuleProperty" FullName="Microsoft.Exchange.WebServices.Data.RuleProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d181ce972a9f39cc05086697b31e3a2a1144cdf9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627143" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum RuleProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d181ce972a9f39cc05086697b31e3a2a1144cdf9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627143" /></Metadata><TypeSignature Language="C#" Value="public enum RuleProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RuleProperty extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleProperty" />
   <TypeSignature Language="VB.NET" Value="Public Enum RuleProperty" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет свойства, доступные в правиле.</summary>
+    <summary>Определяет свойства, доступные для правила.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>74</MemberValue>
       <Docs>
-        <summary>Свойство категорий в правиле set действий.</summary>
+        <summary>Свойство Categories в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionCopyToFolder">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>75</MemberValue>
       <Docs>
-        <summary>Свойство CopyToFolder в правиле set действий.</summary>
+        <summary>Свойство CopyToFolder в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionDelete">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>76</MemberValue>
       <Docs>
-        <summary>Свойство Delete в правиле set действий.</summary>
+        <summary>Свойство DELETE в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionForwardAsAttachmentToRecipients">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>77</MemberValue>
       <Docs>
-        <summary>Свойство ForwardAsAttachmentToRecipients в правиле set действий.</summary>
+        <summary>Свойство ФорвардасаттачменттореЦипиентс в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionForwardToRecipients">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>78</MemberValue>
       <Docs>
-        <summary>Свойство ForwardToRecipients в правиле set действий.</summary>
+        <summary>Свойство ФорвардтореЦипиентс в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionImportance">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>79</MemberValue>
       <Docs>
-        <summary>Свойство важности в правиле set действий.</summary>
+        <summary>Свойство важности в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionMarkAsRead">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>80</MemberValue>
       <Docs>
-        <summary>Свойство MarkAsRead в правиле set действий.</summary>
+        <summary>Свойство Маркасреад в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionMoveToFolder">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>81</MemberValue>
       <Docs>
-        <summary>Свойство MoveToFolder в правиле set действий.</summary>
+        <summary>Свойство MoveToFolder в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionPermanentDelete">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>82</MemberValue>
       <Docs>
-        <summary>Свойство PermanentDelete в правиле set действий.</summary>
+        <summary>Свойство Перманентделете в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionRedirectToRecipients">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>83</MemberValue>
       <Docs>
-        <summary>Свойство RedirectToRecipients в правиле set действий.</summary>
+        <summary>Свойство RedirectToRecipients в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="Actions">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Свойство действия правила.</summary>
+        <summary>Свойство Actions правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionSendSMSAlertToRecipients">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>84</MemberValue>
       <Docs>
-        <summary>Свойство SendSMSAlertToRecipients в правиле set действий.</summary>
+        <summary>Свойство СендсмсалерттореЦипиентс в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionServerReplyWithMessage">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>85</MemberValue>
       <Docs>
-        <summary>Свойство ServerReplyWithMessage в правиле set действий.</summary>
+        <summary>Свойство Серверрепливисмессаже в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ActionStopProcessingRules">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>86</MemberValue>
       <Docs>
-        <summary>Свойство StopProcessingRules в правиле set действий.</summary>
+        <summary>Свойство StopProcessingRules в наборе действий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionCategories">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Свойства Categories правила набор условий.</summary>
+        <summary>Свойство Categories набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionContainsBodyStrings">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Свойство ContainsBodyStrings правила набор условий.</summary>
+        <summary>Свойство Контаинсбодистрингс набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionContainsHeaderStrings">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Свойство ContainsHeaderStrings правила набор условий.</summary>
+        <summary>Свойство Контаиншеадерстрингс набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionContainsRecipientStrings">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Свойство ContainsRecipientStrings правила набор условий.</summary>
+        <summary>Свойство КонтаинсреЦипиентстрингс набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionContainsSenderStrings">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Свойство ContainsSenderStrings правила набор условий.</summary>
+        <summary>Свойство Контаинссендерстрингс набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionContainsSubjectOrBodyStrings">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Свойство ContainsSubjectOrBodyStrings правила набор условий.</summary>
+        <summary>Свойство Контаинссубжекторбодистрингс набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionContainsSubjectStrings">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Свойство ContainsSubjectStrings правила набор условий.</summary>
+        <summary>Свойство Контаинссубжектстрингс набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionFlaggedForAction">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Свойство FlaggedForAction правила набор условий.</summary>
+        <summary>Свойство Флагжедфорактион набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionFromAddresses">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Свойство FromAddresses правила набор условий.</summary>
+        <summary>Свойство Фромаддрессес набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionFromConnectedAccounts">
@@ -477,7 +469,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Свойство FromConnectedAccounts правила набор условий.</summary>
+        <summary>Свойство Фромконнектедаккаунтс набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionHasAttachments">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Свойство HasAttachments правила набор условий.</summary>
+        <summary>Свойство HasAttachments набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionImportance">
@@ -515,7 +507,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Свойство важности правила набор условий.</summary>
+        <summary>Свойство важности набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsApprovalRequest">
@@ -534,7 +526,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Свойство IsApprovalRequest правила набор условий.</summary>
+        <summary>Свойство Исаппровалрекуест набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsAutomaticForward">
@@ -553,7 +545,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Свойство IsAutomaticForward правила набор условий.</summary>
+        <summary>Свойство Исаутоматикфорвард набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsAutomaticReply">
@@ -572,7 +564,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Свойство IsAutomaticReply правила набор условий.</summary>
+        <summary>Свойство Исаутоматикрепли набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsEncrypted">
@@ -591,7 +583,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Свойство IsEncrypted правила набор условий.</summary>
+        <summary>Свойство "с шифрованием" набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsMeetingRequest">
@@ -610,7 +602,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Свойство IsMeetingRequest правила набор условий.</summary>
+        <summary>Свойство Исмитингрекуест набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsMeetingResponse">
@@ -629,7 +621,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Свойство IsMeetingResponse правила набор условий.</summary>
+        <summary>Свойство Исмитингреспонсе набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsNonDeliveryReport">
@@ -648,7 +640,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Свойство IsNonDeliveryReport правила набор условий.</summary>
+        <summary>Свойство Иснонделиверирепорт набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsPermissionControlled">
@@ -667,7 +659,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Свойство IsPermissionControlled правила набор условий.</summary>
+        <summary>Свойство Испермиссионконтроллед набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsRead">
@@ -686,7 +678,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>Свойство IsRead правила набор условий.</summary>
+        <summary>Свойство Read набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsReadReceipt">
@@ -705,7 +697,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>Свойство IsReadReceipt правила набор условий.</summary>
+        <summary>Свойство Исреадрецеипт набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsSigned">
@@ -724,7 +716,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Свойство IsSigned правила набор условий.</summary>
+        <summary>Свойство с подписью для набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionIsVoicemail">
@@ -743,7 +735,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>Свойство IsVoicemail правила набор условий.</summary>
+        <summary>Свойство в наборе условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionItemClasses">
@@ -762,7 +754,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Свойство ItemClasses правила набор условий.</summary>
+        <summary>Свойство Итемклассес набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionMessageClassifications">
@@ -781,7 +773,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Свойство MessageClassifications правила набор условий.</summary>
+        <summary>Свойство Мессажеклассификатионс набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionNotSentToMe">
@@ -800,7 +792,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>Свойство NotSentToMe правила набор условий.</summary>
+        <summary>Свойство Нотсенттоме набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="Conditions">
@@ -819,7 +811,7 @@
       </ReturnValue>
       <MemberValue>89</MemberValue>
       <Docs>
-        <summary>Свойство условия правила. В этом поле содержит все условия правила.</summary>
+        <summary>Свойство Conditions правила. В этом поле содержатся все условия правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionSensitivity">
@@ -838,7 +830,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>Свойство чувствительность правила набор условий.</summary>
+        <summary>Свойство "чувствительность" набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionSentCcMe">
@@ -857,7 +849,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Свойство SentCcMe правила набор условий.</summary>
+        <summary>Свойство Сентккме набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionSentOnlyToMe">
@@ -876,7 +868,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>Свойство SentOnlyToMe правила набор условий.</summary>
+        <summary>Свойство Сентонлитоме набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionSentToAddresses">
@@ -895,7 +887,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>Свойство SentToAddresses правила набор условий.</summary>
+        <summary>Свойство Сенттоаддрессес набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionSentToMe">
@@ -914,7 +906,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>Свойство SentToMe правила набор условий.</summary>
+        <summary>Свойство Сенттоме набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionSentToOrCcMe">
@@ -933,7 +925,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>Свойство SentToOrCcMe правила набор условий.</summary>
+        <summary>Свойство Сенттурккме набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionWithinDateRange">
@@ -952,7 +944,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>Свойство WithinDateRange правила набор условий.</summary>
+        <summary>Свойство Висиндатеранже набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ConditionWithinSizeRange">
@@ -971,7 +963,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>Свойство WithinSizeRange правила набор условий.</summary>
+        <summary>Свойство Висинсизеранже набора условий правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -990,7 +982,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Свойство DisplayName правило.</summary>
+        <summary>Свойство DisplayName правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionCategories">
@@ -1009,7 +1001,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>Свойства Categories правила set исключений.</summary>
+        <summary>Свойство Categories набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionContainsBodyStrings">
@@ -1028,7 +1020,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>Свойство ContainsBodyStrings правила set исключений.</summary>
+        <summary>Свойство Контаинсбодистрингс набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionContainsHeaderStrings">
@@ -1047,7 +1039,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>Свойство ContainsHeaderStrings правила set исключений.</summary>
+        <summary>Свойство Контаиншеадерстрингс набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionContainsRecipientStrings">
@@ -1066,7 +1058,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>Свойство ContainsRecipientStrings правила set исключений.</summary>
+        <summary>Свойство КонтаинсреЦипиентстрингс набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionContainsSenderStrings">
@@ -1085,7 +1077,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>Свойство ContainsSenderStrings правила set исключений.</summary>
+        <summary>Свойство Контаинссендерстрингс набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionContainsSubjectOrBodyStrings">
@@ -1104,7 +1096,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>Свойство ContainsSubjectOrBodyStrings правила set исключений.</summary>
+        <summary>Свойство Контаинссубжекторбодистрингс набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionContainsSubjectStrings">
@@ -1123,7 +1115,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>Свойство ContainsSubjectStrings правила set исключений.</summary>
+        <summary>Свойство Контаинссубжектстрингс набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionFlaggedForAction">
@@ -1142,7 +1134,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>Свойство FlaggedForAction правила set исключений.</summary>
+        <summary>Свойство Флагжедфорактион набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionFromAddresses">
@@ -1161,7 +1153,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>Свойство FromAddresses правила набор erxceptions.</summary>
+        <summary>Свойство Фромаддрессес набора ерксцептионс правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionFromConnectedAccounts">
@@ -1180,7 +1172,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>Свойство FromConnectedAccounts правила set исключений.</summary>
+        <summary>Свойство Фромконнектедаккаунтс набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionHasAttachments">
@@ -1199,7 +1191,7 @@
       </ReturnValue>
       <MemberValue>50</MemberValue>
       <Docs>
-        <summary>Свойство HasAttachments правила set исключений.</summary>
+        <summary>Свойство HasAttachments набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionImportance">
@@ -1218,7 +1210,7 @@
       </ReturnValue>
       <MemberValue>51</MemberValue>
       <Docs>
-        <summary>Свойство важности правила set исключений.</summary>
+        <summary>Свойство важности набора исключений правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsApprovalRequest">
@@ -1237,7 +1229,7 @@
       </ReturnValue>
       <MemberValue>52</MemberValue>
       <Docs>
-        <summary>Свойство IsApprovalRequest правила set исключений.</summary>
+        <summary>Свойство Исаппровалрекуест набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsAutomaticForward">
@@ -1256,7 +1248,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>Свойство IsAutomaticForward правила set исключений.</summary>
+        <summary>Свойство Исаутоматикфорвард набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsAutomaticReply">
@@ -1275,7 +1267,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>Свойство IsAutomaticReply правила set исключений.</summary>
+        <summary>Свойство Исаутоматикрепли набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsEncrypted">
@@ -1294,7 +1286,7 @@
       </ReturnValue>
       <MemberValue>55</MemberValue>
       <Docs>
-        <summary>Свойство IsEncrypted правила set исключений.</summary>
+        <summary>Свойство "с шифрованием" набора исключений правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsMeetingRequest">
@@ -1313,7 +1305,7 @@
       </ReturnValue>
       <MemberValue>56</MemberValue>
       <Docs>
-        <summary>Свойство IsMeetingRequest правила set исключений.</summary>
+        <summary>Свойство Исмитингрекуест набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsMeetingResponse">
@@ -1332,7 +1324,7 @@
       </ReturnValue>
       <MemberValue>57</MemberValue>
       <Docs>
-        <summary>Свойство IsMeetingResponse правила set исключений.</summary>
+        <summary>Свойство Исмитингреспонсе набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsNonDeliveryReport">
@@ -1351,7 +1343,7 @@
       </ReturnValue>
       <MemberValue>58</MemberValue>
       <Docs>
-        <summary>Свойство IsNonDeliveryReport правила set исключений.</summary>
+        <summary>Свойство Иснонделиверирепорт набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsPermissionControlled">
@@ -1370,7 +1362,7 @@
       </ReturnValue>
       <MemberValue>59</MemberValue>
       <Docs>
-        <summary>Свойство IsPermissionControlled правила set исключений.</summary>
+        <summary>Свойство Испермиссионконтроллед набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsRead">
@@ -1389,7 +1381,7 @@
       </ReturnValue>
       <MemberValue>60</MemberValue>
       <Docs>
-        <summary>Свойство IsRead правила set исключений.</summary>
+        <summary>Свойство Read набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsSigned">
@@ -1408,7 +1400,7 @@
       </ReturnValue>
       <MemberValue>61</MemberValue>
       <Docs>
-        <summary>Свойство IsSigned правила set исключений.</summary>
+        <summary>Свойство с подписыванием набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionIsVoicemail">
@@ -1427,7 +1419,7 @@
       </ReturnValue>
       <MemberValue>62</MemberValue>
       <Docs>
-        <summary>Свойство IsVoicemail правила set исключений.</summary>
+        <summary>Свойство в наборе исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionItemClasses">
@@ -1446,7 +1438,7 @@
       </ReturnValue>
       <MemberValue>63</MemberValue>
       <Docs>
-        <summary>Свойство ItemClasses правила set исключений.</summary>
+        <summary>Свойство Итемклассес набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionMessageClassifications">
@@ -1465,7 +1457,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>Свойство MessageClassifications правила set исключений.</summary>
+        <summary>Свойство Мессажеклассификатионс набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionNotSentToMe">
@@ -1484,7 +1476,7 @@
       </ReturnValue>
       <MemberValue>65</MemberValue>
       <Docs>
-        <summary>Свойство NotSentToMe правила set исключений.</summary>
+        <summary>Свойство Нотсенттоме набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -1503,7 +1495,7 @@
       </ReturnValue>
       <MemberValue>90</MemberValue>
       <Docs>
-        <summary>Свойство исключения правила. В этом поле содержит все исключения для правила.</summary>
+        <summary>Свойство Exceptions правила. В этом поле содержатся все исключения для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionSensitivity">
@@ -1522,7 +1514,7 @@
       </ReturnValue>
       <MemberValue>71</MemberValue>
       <Docs>
-        <summary>Свойство чувствительность правила set исключений.</summary>
+        <summary>Свойство "чувствительность" набора исключений правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionSentCcMe">
@@ -1541,7 +1533,7 @@
       </ReturnValue>
       <MemberValue>66</MemberValue>
       <Docs>
-        <summary>Свойство SentCcMe правила set исключений.</summary>
+        <summary>Свойство Сентккме набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionSentOnlyToMe">
@@ -1560,7 +1552,7 @@
       </ReturnValue>
       <MemberValue>67</MemberValue>
       <Docs>
-        <summary>Свойство SentOnlyToMe правила set исключений.</summary>
+        <summary>Свойство Сентонлитоме набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionSentToAddresses">
@@ -1579,7 +1571,7 @@
       </ReturnValue>
       <MemberValue>68</MemberValue>
       <Docs>
-        <summary>Свойство SentToAddresses правила set исключений.</summary>
+        <summary>Свойство Сенттоаддрессес набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionSentToMe">
@@ -1598,7 +1590,7 @@
       </ReturnValue>
       <MemberValue>69</MemberValue>
       <Docs>
-        <summary>Свойство SentToMe правила set исключений.</summary>
+        <summary>Свойство Сенттоме набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionSentToOrCcMe">
@@ -1617,7 +1609,7 @@
       </ReturnValue>
       <MemberValue>70</MemberValue>
       <Docs>
-        <summary>Свойство SentToOrCcMe правила set исключений.</summary>
+        <summary>Свойство Сенттурккме набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionWithinDateRange">
@@ -1636,7 +1628,7 @@
       </ReturnValue>
       <MemberValue>72</MemberValue>
       <Docs>
-        <summary>Свойство WithinDateRange правила set исключений.</summary>
+        <summary>Свойство Висиндатеранже набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="ExceptionWithinSizeRange">
@@ -1655,7 +1647,7 @@
       </ReturnValue>
       <MemberValue>73</MemberValue>
       <Docs>
-        <summary>Свойство WithinSizeRange правила set исключений.</summary>
+        <summary>Свойство Висинсизеранже набора исключений для правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="IsEnabled">
@@ -1674,7 +1666,7 @@
       </ReturnValue>
       <MemberValue>87</MemberValue>
       <Docs>
-        <summary>Свойство IsEnabled правило, которое указывает, включено ли правило.</summary>
+        <summary>Свойство "включено" правила, которое указывает, включено ли правило.</summary>
       </Docs>
     </Member>
     <Member MemberName="IsInError">
@@ -1693,7 +1685,7 @@
       </ReturnValue>
       <MemberValue>88</MemberValue>
       <Docs>
-        <summary>Свойство IsInError правило, которое указывает, является ли правило ошибки.</summary>
+        <summary>Свойство Исинеррор правила, которое указывает, является ли правило ошибкой.</summary>
       </Docs>
     </Member>
     <Member MemberName="IsNotSupported">
@@ -1712,7 +1704,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Свойство IsNotSupported правила.</summary>
+        <summary>Свойство Иснотсуппортед правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="Priority">
@@ -1731,7 +1723,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Свойство приоритет правила.</summary>
+        <summary>Свойство Priority правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="RuleId">
@@ -1750,7 +1742,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Свойство Id правила.</summary>
+        <summary>Свойство ID правила.</summary>
       </Docs>
     </Member>
   </Members>

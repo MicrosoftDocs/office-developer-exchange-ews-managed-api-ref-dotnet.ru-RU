@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+Exists" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+Exists">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="df7b64de4d2b5ea8cf311a7088122d18f462599c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626522" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.Exists : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="df7b64de4d2b5ea8cf311a7088122d18f462599c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626522" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.Exists : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/Exists extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.Exists&#xA;Inherits SearchFilter.PropertyBasedFilter" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет поисковый фильтр, который определяет, установил ли определенное свойство.</summary>
-    <remarks>
-      <para>Этот фильтр поиска можно использовать для определения того, содержит ли сообщения электронной почты <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> свойство. Это позволит вам для создания семейства сайтов сообщений электронной почты, которые имеют задать определенное свойство.</para>
-      <para />
-    </remarks>
+    <summary>Представляет фильтр поиска, определяющий, задано ли определенное свойство.</summary>
+    <remarks><para>Вы можете использовать этот фильтр поиска, чтобы определить, содержит ли сообщение электронной <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> почты свойство. Это позволит вам создать коллекцию сообщений электронной почты с определенным набором свойств.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -41,7 +31,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.Exists.</summary>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. Exists.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +50,8 @@
         <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">Определение свойства для проверки.</param>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.Exists с определением указанного свойства.</summary>
+        <param name="propertyDefinition">Определение свойства, которое требуется проверить.</param>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. Exists с указанным определением свойства.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

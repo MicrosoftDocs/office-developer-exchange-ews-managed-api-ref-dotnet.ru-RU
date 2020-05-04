@@ -1,13 +1,5 @@
 <Type Name="FolderView" FullName="Microsoft.Exchange.WebServices.Data.FolderView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="922b20f82974ad9fd6478f8c5ab40f05fadc04be" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626796" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FolderView : Microsoft.Exchange.WebServices.Data.PagedView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="922b20f82974ad9fd6478f8c5ab40f05fadc04be" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626796" /></Metadata><TypeSignature Language="C#" Value="public sealed class FolderView : Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderView extends Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderView" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderView&#xA;Inherits PagedView" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет параметры представления в операцию поиска папок.</summary>
+    <summary>Представляет параметры представления в операции поиска папки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="pageSize" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное число папок, которые возвращает операции поиска.</param>
-        <summary>Инициализирует новый экземпляр класса FolderView с максимальное число возвращаемых указанной папки.</summary>
+        <param name="pageSize">Максимальное число папок, возвращаемых операцией поиска.</param>
+        <summary>Инициализирует новый экземпляр класса FolderView с указанием максимального количества возвращаемых папок.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,9 +53,9 @@
         <Parameter Name="offset" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное число папок, которые возвращает операции поиска.</param>
+        <param name="pageSize">Максимальное число папок, возвращаемых операцией поиска.</param>
         <param name="offset">Смещение представления от базовой точки.</param>
-        <summary>Инициализирует новый экземпляр класса FolderView максимальное число возвращаемых указанной папки и с указанным смещением от базовой точки.</summary>
+        <summary>Инициализирует новый экземпляр класса FolderView с указанием максимального количества возвращаемых папок и указанного смещения от базовой точки.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,10 +75,10 @@
         <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное число папок, которые возвращает операции поиска.</param>
+        <param name="pageSize">Максимальное число папок, возвращаемых операцией поиска.</param>
         <param name="offset">Смещение представления от базовой точки.</param>
-        <param name="offsetBasePoint">Базовый точка смещение.</param>
-        <summary>Инициализирует новый экземпляр класса FolderView максимальное число возвращаемых указанной папки, с указанным смещением от базовой точки и смещение базовой точки.</summary>
+        <param name="offsetBasePoint">Базовая точка смещения.</param>
+        <summary>Инициализирует новый экземпляр класса FolderView с максимальным количеством возвращенных папок, указанным смещением от базовой точки и смещением базовой точки.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -107,10 +99,8 @@
       <Docs>
         <summary>Получает или задает режим обхода поиска.</summary>
         <value>Значение, указывающее, как выполняется поиск.</value>
-        <remarks>
-          <para>Данное свойство принимает значение <see cref="F:Microsoft.Exchange.WebServices.Data.FolderTraversal.Shallow" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>По умолчанию этому свойству присвоено <see cref="F:Microsoft.Exchange.WebServices.Data.FolderTraversal.Shallow" />значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

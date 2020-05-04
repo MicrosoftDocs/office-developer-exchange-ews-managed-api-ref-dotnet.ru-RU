@@ -1,13 +1,5 @@
 <Type Name="MailboxSearchScope" FullName="Microsoft.Exchange.WebServices.Data.MailboxSearchScope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b0014a81b92a11b8612e576adce5b26f4a1e4d97" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627173" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MailboxSearchScope" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b0014a81b92a11b8612e576adce5b26f4a1e4d97" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627173" /></Metadata><TypeSignature Language="C#" Value="public sealed class MailboxSearchScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxSearchScope extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxSearchScope" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxSearchScope" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет объект область поиска почтовых ящиков.             <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxSearchScope" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет объект области поиска почтовых ящиков.             <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxSearchScope" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,7 +35,7 @@
       <Docs>
         <param name="mailbox">Почтовый ящик.</param>
         <param name="searchScope">Область поиска.</param>
-        <summary>Создает новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxSearchScope" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxSearchScope.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchLocation)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Создает новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxSearchScope" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxSearchScope.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchLocation)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,7 +74,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает почтовый ящик. <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxSearchScope.Mailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает почтовый ящик. <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxSearchScope.Mailbox" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Почтовый ящик.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -102,7 +94,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает набор почтовые ящики для поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxSearchScope.SearchScope" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает набор почтовых ящиков для поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxSearchScope.SearchScope" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Область поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>

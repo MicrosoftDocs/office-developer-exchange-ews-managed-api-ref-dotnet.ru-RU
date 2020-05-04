@@ -1,13 +1,5 @@
 <Type Name="OofReply" FullName="Microsoft.Exchange.WebServices.Data.OofReply">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="238f06b470bfdc9cdcbbdf466eeb08b58bfa3c72" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627243" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class OofReply" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="238f06b470bfdc9cdcbbdf466eeb08b58bfa3c72" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627243" /></Metadata><TypeSignature Language="C#" Value="public sealed class OofReply" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OofReply extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OofReply" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OofReply" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет сообщение об отсутствии.</summary>
+    <summary>Представляет сообщение об отсутствии на работе.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> класса.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,7 +50,7 @@
       </Parameters>
       <Docs>
         <param name="message">Ответное сообщение.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> класс с заданным сообщением.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> класса с указанным сообщением.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает язык и региональные параметры ответа.</summary>
-        <value>Строка, содержащая язык и региональные параметры ответа.</value>
+        <summary>Получает или задает язык и региональные параметры для ответа.</summary>
+        <value>Строка, содержащая культуру ответа.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,8 +89,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает отсутствии ответ.</summary>
-        <value>Содержимое сообщения отсутствии ответа.</value>
+        <summary>Получает или задает ответное сообщение об отсутствии на работе.</summary>
+        <value>Содержимое ответного сообщения об отсутствии на работе.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,9 +111,8 @@
         <Parameter Name="oofReply" Type="Microsoft.Exchange.WebServices.Data.OofReply" />
       </Parameters>
       <Docs>
-        <param name="oofReply">
-          <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> Объект, который требуется преобразовать в строку.</param>
-        <summary>Определяет неявное преобразование между <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> объектов и строка.</summary>
+        <param name="oofReply"><see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> Объект, преобразуемый в строку.</param>
+        <summary>Определяет неявное преобразование между <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> объектом и строкой.</summary>
         <returns>Строка, содержащая сообщение указанного <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> объекта.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,10 +135,9 @@
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">Сообщение, чтобы преобразовать в <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> объекта.</param>
-        <summary>Определяет неявное преобразование между строку и <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> объекта.</summary>
-        <returns>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> Объект инициализирован с заданным сообщением.</returns>
+        <param name="message">Сообщение, которое необходимо преобразовать в <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> объект.</param>
+        <summary>Определяет неявное преобразование между строкой и <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> объектом.</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> Объект, инициализируемый с указанным сообщением.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

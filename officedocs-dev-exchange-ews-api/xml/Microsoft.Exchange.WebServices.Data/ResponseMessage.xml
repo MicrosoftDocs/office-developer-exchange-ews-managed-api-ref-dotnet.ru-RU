@@ -1,13 +1,5 @@
 <Type Name="ResponseMessage" FullName="Microsoft.Exchange.WebServices.Data.ResponseMessage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9c9e1c27f0efa2a96df9f13bb2d14df76a704d6c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627057" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ResponseMessage : Microsoft.Exchange.WebServices.Data.ResponseObject&lt;Microsoft.Exchange.WebServices.Data.EmailMessage&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9c9e1c27f0efa2a96df9f13bb2d14df76a704d6c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627057" /></Metadata><TypeSignature Language="C#" Value="public sealed class ResponseMessage : Microsoft.Exchange.WebServices.Data.ResponseObject&lt;Microsoft.Exchange.WebServices.Data.EmailMessage&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ResponseMessage extends Microsoft.Exchange.WebServices.Data.ResponseObject`1&lt;class Microsoft.Exchange.WebServices.Data.EmailMessage&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseMessage" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ResponseMessage&#xA;Inherits ResponseObject(Of EmailMessage)" />
@@ -24,7 +16,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет базовый класс для электронной почты связанных с ними ответы (ответить, ответить всем или переслать).</summary>
+    <summary>Представляет базовый класс для откликов, связанных с электронной почтой (ответ, ответ все и переадресация).</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,8 +35,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список получателей в этом будет отправлен ответ, в качестве скрытой копии.</summary>
-        <value>Объект EmailAddressCollection.</value>
+        <summary>Получает список получателей, которым отправляется этот ответ в виде скрытой копии.</summary>
+        <value>Объект Емаиладдрессколлектион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,8 +55,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает основного текста ответа.</summary>
-        <value>Объект MessageBody.</value>
+        <summary>Получает или задает текст отклика.</summary>
+        <value>Объект Мессажебоди.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,8 +75,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает текст префикса данного ответа. Текст префикса будут добавляться в начало текста исходного сообщения при ответе.</summary>
-        <value>Объект MessageBody.</value>
+        <summary>Получает или задает префикс текста для этого ответа. При создании ответа префикс основного текста будет добавлен в начале текста исходного сообщения.</summary>
+        <value>Объект Мессажебоди.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -103,8 +95,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список получателей, который будет отправлен ответ для как «копия».</summary>
-        <value>Объект EmailAddressCollection.</value>
+        <summary>Получает список получателей, которым будет отправлен ответ в качестве CC.</summary>
+        <value>Объект Емаиладдрессколлектион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,8 +115,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessageType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее тип ответа, представляемого объектом.</summary>
-        <value>Объект ResponseMessageType.</value>
+        <summary>Получает значение, указывающее тип ответа, который представляет этот объект.</summary>
+        <value>Объект Респонсемессажетипе.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,8 +135,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тему этот ответ.</summary>
-        <value>Строковое значение, содержащее темы.</value>
+        <summary>Получает или задает тему этого ответа.</summary>
+        <value>Строковое значение, содержащее тему.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -163,8 +155,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список получателей, который будет отправлен ответ.</summary>
-        <value>Объект EmailAddressCollection.</value>
+        <summary>Получает список получателей, в которые будет отправлен ответ.</summary>
+        <value>Объект Емаиладдрессколлектион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

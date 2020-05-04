@@ -1,13 +1,5 @@
 <Type Name="MoveCopyItemResponse" FullName="Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6d150751e0212479b28e70cb88d9cbb32c3d10bd" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626757" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MoveCopyItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6d150751e0212479b28e70cb88d9cbb32c3d10bd" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626757" /></Metadata><TypeSignature Language="C#" Value="public sealed class MoveCopyItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MoveCopyItemResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MoveCopyItemResponse&#xA;Inherits ServiceResponse" />
@@ -40,13 +32,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает элемент копируемые или перемещения.</summary>
-        <value>Объект Item, который содержит элемент копирования или перемещения.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse.Item" /> Свойство является пустая ссылка (Nothing в Visual Basic), если операция копирования была между двумя почтовых ящиков или почтового ящика и общей папки.</para>
-          <para />
-        </remarks>
+        <summary>Получает скопированный или перемещенный элемент.</summary>
+        <value>Объект Item, который содержит перемещенный или скопированный элемент.</value>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.MoveCopyItemResponse.Item" /> Свойство является пустой ссылкой (Nothing в Visual Basic), если операция копирования находилась между двумя почтовыми ящиками или между почтовым ящиком и общедоступной папкой.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

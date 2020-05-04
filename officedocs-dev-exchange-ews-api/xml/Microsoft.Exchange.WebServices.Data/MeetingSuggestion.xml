@@ -1,13 +1,5 @@
 <Type Name="MeetingSuggestion" FullName="Microsoft.Exchange.WebServices.Data.MeetingSuggestion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0b9d86415fee65d1420f821b997e0f439c9559f9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626578" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class MeetingSuggestion : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0b9d86415fee65d1420f821b997e0f439c9559f9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626578" /></Metadata><TypeSignature Language="C#" Value="public sealed class MeetingSuggestion : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MeetingSuggestion extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MeetingSuggestion&#xA;Inherits ExtractedEntity" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения о приглашения на собрание с предложенного собрания.             <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения о ответе на приглашение с предложенным временем собрания.             <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestion" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает участников собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает участников собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Attendees" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Участники.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -60,7 +52,7 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время, когда будет окончания собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает время завершения собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.EndTime" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Время окончания.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +72,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает место собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает место собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Location" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Расположение.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -100,7 +92,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает имя собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.MeetingString" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Имя собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -120,7 +112,7 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время начала собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает время начала собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.StartTime" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Время начала.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,8 +133,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает строку темы собрания.</summary>
-        <value>
-          <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" /> Свойство используется для клиентов, относящихся к Exchange Online и subject предложения.</value>
+        <value><see cref="P:Microsoft.Exchange.WebServices.Data.MeetingSuggestion.Subject" /> Свойство применяется для клиентов, которые предназначены для Exchange Online и темы предложения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

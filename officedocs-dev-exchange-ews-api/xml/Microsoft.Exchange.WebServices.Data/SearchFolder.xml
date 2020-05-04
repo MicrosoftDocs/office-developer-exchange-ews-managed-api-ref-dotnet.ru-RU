@@ -1,13 +1,5 @@
 <Type Name="SearchFolder" FullName="Microsoft.Exchange.WebServices.Data.SearchFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="16d9695954e13afba13d183c5a75cb85ac3af9df" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626554" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class SearchFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="16d9695954e13afba13d183c5a75cb85ac3af9df" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626554" /></Metadata><TypeSignature Language="C#" Value="public class SearchFolder : Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFolder" />
   <TypeSignature Language="VB.NET" Value="Public Class SearchFolder&#xA;Inherits Folder" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет папку поиска, содержащее указанный набор элементов и свойств, связанных с ними.</summary>
+    <summary>Представляет папку поиска, содержащую заданный набор элементов и свойства, связанные с этими элементами.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,12 +32,10 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">Exchange веб-службы, к которому будет привязан папки поиска.</param>
-        <summary>Инициализирует несохраненные локальный экземпляр папки поиска.</summary>
-        <remarks>
-          <para>Чтобы привязать к существующей папки поиска, используйте <see cref="Overload:Microsoft.Exchange.WebServices.Data.SearchFolder.Bind" /> метод вместо этого.</para>
-          <para />
-        </remarks>
+        <param name="service">Веб-служба Exchange, к которой будет привязана папка поиска.</param>
+        <summary>Инициализирует несохраненный локальный экземпляр папки поиска.</summary>
+        <remarks><para>Чтобы выполнить присоединение к существующей папке поиска, используйте <see cref="Overload:Microsoft.Exchange.WebServices.Data.SearchFolder.Bind" /> вместо этого метод.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -67,14 +57,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке поиска.</param>
-        <param name="id">Идентификатор папки поиска для привязки.</param>
-        <summary>Выполняет привязку к существующей папке поиска и загружает его свойства первого класса.</summary>
-        <returns>Папки поиска, который соответствует идентификатору, содержащий свойства первого класса элемента.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="service">Служба, используемая для связывания с папкой поиска.</param>
+        <param name="id">Идентификатор папки поиска, к которой необходимо присоединиться.</param>
+        <summary>Выполняет присоединение к существующей папке поиска и загружает ее свойства первого класса.</summary>
+        <returns>Папка поиска, соответствующая указанному идентификатору, который содержит свойства элемента первого класса.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -96,14 +84,12 @@
         <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке поиска.</param>
-        <param name="name">Имя папки поиска для привязки.</param>
-        <summary>Выполняет привязку к существующей папке поиска и загружает его свойства первого класса.</summary>
-        <returns>Папки поиска с указанным именем, содержащий свойства элемента первого класса.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="service">Служба, используемая для связывания с папкой поиска.</param>
+        <param name="name">Имя папки поиска, к которой необходимо присоединиться.</param>
+        <summary>Выполняет присоединение к существующей папке поиска и загружает ее свойства первого класса.</summary>
+        <returns>Папка поиска с указанным именем, которая содержит свойства элемента первого класса.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -125,15 +111,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке поиска.</param>
-        <param name="id">Идентификатор папки поиска для привязки.</param>
+        <param name="service">Служба, используемая для связывания с папкой поиска.</param>
+        <param name="id">Идентификатор папки поиска, к которой необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей папке поиска и загружает указанный набор свойств.</summary>
-        <returns>Папки поиска, соответствующий указанный идентификатор, который содержит определенные свойства.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Выполняет присоединение к существующей папке поиска и загружает заданный набор свойств.</summary>
+        <returns>Папка поиска, соответствующая указанному идентификатору, который содержит указанные свойства.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -155,15 +139,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке поиска.</param>
-        <param name="name">Имя папки поиска для привязки.</param>
+        <param name="service">Служба, используемая для связывания с папкой поиска.</param>
+        <param name="name">Имя папки поиска, к которой необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей папке поиска и загружает указанный набор свойств.</summary>
-        <returns>Папки поиска с указанным именем, который содержит определенные свойства.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Выполняет присоединение к существующей папке поиска и загружает заданный набор свойств.</summary>
+        <returns>Папка поиска с указанным именем, которая содержит указанные свойства.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SearchParameters">
@@ -181,7 +163,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFolderParameters</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает параметры поиска, связанных с папки поиска.</summary>
+        <summary>Получает или задает параметры поиска, связанные с папкой поиска.</summary>
         <value>Параметры поиска, определяющие элементы в папке поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>

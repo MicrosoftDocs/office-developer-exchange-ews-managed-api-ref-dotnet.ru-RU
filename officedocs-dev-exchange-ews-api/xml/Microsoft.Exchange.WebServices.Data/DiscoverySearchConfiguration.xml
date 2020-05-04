@@ -1,13 +1,5 @@
 <Type Name="DiscoverySearchConfiguration" FullName="Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bb8b91c9b8af648bf097eec9ca68d2cacce437d4" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626508" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DiscoverySearchConfiguration" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bb8b91c9b8af648bf097eec9ca68d2cacce437d4" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626508" /></Metadata><TypeSignature Language="C#" Value="public sealed class DiscoverySearchConfiguration" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DiscoverySearchConfiguration extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DiscoverySearchConfiguration" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет запрос объект почтового ящика.             <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет объект запроса к почтовому ящику.             <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Хранение на месте удостоверений</summary>
+        <summary>Удостоверение хранения на месте</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,7 +69,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает язык, используемый в запросах в <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> свойство.</summary>
+        <summary>Получает или задает язык, используемый в запросе в <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> свойстве.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -97,7 +89,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Управляет организации</summary>
+        <summary>Управляется Организацией</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,8 +109,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchableMailbox[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список доступен для поиска почтовых ящиков.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Для поиска почтовых ящиков.</value>
+        <summary>Получает или задает список почтовых ящиков с возможностью поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Почтовые ящики с возможностью поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,8 +129,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>С идентификатором поиска.</value>
+        <summary>Получает или задает идентификатор поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>ИДЕНТИФИКАТОР поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,8 +149,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает поисковый запрос.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Поисковые запросы.</value>
+        <summary>Получает или задает поисковый запрос.             <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Поисковый запрос.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

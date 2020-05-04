@@ -1,13 +1,5 @@
 <Type Name="Flag" FullName="Microsoft.Exchange.WebServices.Data.Flag">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="13035548b5b9e97bf9cae8892b053cff73cfdcfe" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626586" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Flag : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="13035548b5b9e97bf9cae8892b053cff73cfdcfe" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626586" /></Metadata><TypeSignature Language="C#" Value="public sealed class Flag : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Flag extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Flag" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Flag&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет объект флаг. <see cref="T:Microsoft.Exchange.WebServices.Data.Flag" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет объект Flag. <see cref="T:Microsoft.Exchange.WebServices.Data.Flag" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.Flag" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.Flag.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.Flag" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.Flag.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,7 +49,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату завершения.             <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.CompleteDate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает дату завершения.             <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.CompleteDate" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Дата завершения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,8 +69,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату завершения.             <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.DueDate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Дата завершения.</value>
+        <summary>Получает или задает срок выполнения.             <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.DueDate" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Дата выполнения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,8 +89,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemFlagStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает состояние отметки.             <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.FlagStatus" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Состояние отметки.</value>
+        <summary>Получает или задает состояние флага.             <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.FlagStatus" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Состояние флажка.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,7 +109,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату начала.             <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.StartDate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает начальную дату.             <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.StartDate" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Дата начала.</value>
         <remarks>To be added.</remarks>
       </Docs>

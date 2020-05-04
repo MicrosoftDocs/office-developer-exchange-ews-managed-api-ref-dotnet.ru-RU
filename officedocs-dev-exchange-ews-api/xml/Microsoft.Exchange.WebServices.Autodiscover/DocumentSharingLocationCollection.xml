@@ -1,13 +1,5 @@
 <Type Name="DocumentSharingLocationCollection" FullName="Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ea893a8ec862f2db8f489d4bc90f852b8970ccbc" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627209" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DocumentSharingLocationCollection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ea893a8ec862f2db8f489d4bc90f852b8970ccbc" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627209" /></Metadata><TypeSignature Language="C#" Value="public sealed class DocumentSharingLocationCollection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DocumentSharingLocationCollection extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DocumentSharingLocationCollection" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит коллекцию расположения общих документов. <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит коллекцию расположений общего доступа к документам. <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию расположений общего доступа к документам.             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection.Entries" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Набор документов, общий доступ к URL-адреса.</value>
+        <summary>Получает коллекцию расположений общего доступа к документам.             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection.Entries" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Коллекция URL-адресов для общего доступа к документам.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

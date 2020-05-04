@@ -1,13 +1,5 @@
 <Type Name="ConversationRequest" FullName="Microsoft.Exchange.WebServices.Data.ConversationRequest">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ac06c387e2963522cc7ef2b291064f4e3a4c0650" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627149" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ConversationRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ac06c387e2963522cc7ef2b291064f4e3a4c0650" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627149" /></Metadata><TypeSignature Language="C#" Value="public sealed class ConversationRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationRequest extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationRequest&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет запрос беседы, обозначенный беседы идентификатор и синхронизация состояний. <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет запрос беседы, определяемый ИДЕНТИФИКАТОРом диалога и состоянием синхронизации. <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> класса.    <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> класса.    <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,9 +49,9 @@
         <Parameter Name="syncState" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="conversationId">Идентификатор беседы.</param>
+        <param name="conversationId">ИДЕНТИФИКАТОР беседы.</param>
         <param name="syncState">Состояние синхронизации.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> класс с помощью указанного беседы идентификатор и синхронизация состояний.   <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor(Microsoft.Exchange.WebServices.Data.ConversationId,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> класса с помощью указанного идентификатора диалога и состояния синхронизации.   <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor(Microsoft.Exchange.WebServices.Data.ConversationId,System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,8 +70,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.ConversationId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Идентификатор беседы.</value>
+        <summary>Получает или задает идентификатор беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.ConversationId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>ИДЕНТИФИКАТОР беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -98,8 +90,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает текущее состояние беседы в целях синхронизации.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.SyncState" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Текущее состояние беседы в целях синхронизации.</value>
+        <summary>Получает или задает текущее состояние диалога в целях синхронизации.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.SyncState" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Текущее состояние диалога в целях синхронизации.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="ServiceObjectSchema" FullName="Microsoft.Exchange.WebServices.Data.ServiceObjectSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="03a2f23374590c822f581d5b15daa501febf73bc" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626921" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ServiceObjectSchema : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinition&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="03a2f23374590c822f581d5b15daa501febf73bc" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626921" /></Metadata><TypeSignature Language="C#" Value="public abstract class ServiceObjectSchema : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinition&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceObjectSchema extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinition&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceObjectSchema&#xA;Implements IEnumerable(Of PropertyDefinition)" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет базовый класс для всех элементов, папок и схемы беседы.</summary>
+    <summary>Представляет базовый класс для всех схем элемента, папки и беседы.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,7 +41,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство ExtendedProperties.</summary>
+        <summary>Определяет свойство Екстендедпропертиес.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,8 +88,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет свойств в схеме. <see cref="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, предназначенных для Exchange Server 2013 и версии Exchange, начиная с Exchange Online.</summary>
-        <returns>Экземпляр перечислителя, который выполняет итерацию свойств в схеме.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию по свойствам в схеме. <see cref="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод применяется для клиентов, которые ориентированы на exchange Server 2013 и версии Exchange, начиная с Exchange Online.</summary>
+        <returns>Экземпляр перечислителя, который выполняет итерацию по свойствам в схеме.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

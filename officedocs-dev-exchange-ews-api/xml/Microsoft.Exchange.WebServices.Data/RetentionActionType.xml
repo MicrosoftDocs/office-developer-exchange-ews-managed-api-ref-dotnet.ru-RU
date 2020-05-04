@@ -1,13 +1,5 @@
 <Type Name="RetentionActionType" FullName="Microsoft.Exchange.WebServices.Data.RetentionActionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="af0b27caa106fb12f27c8f4767bbfa00c350642f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626700" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum RetentionActionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="af0b27caa106fb12f27c8f4767bbfa00c350642f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626700" /></Metadata><TypeSignature Language="C#" Value="public enum RetentionActionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RetentionActionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionActionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum RetentionActionType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет набор действия политики хранения для элементов с истекшим сроком действия.             <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionActionType" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет набор действий политики хранения для просроченных элементов.             <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionActionType" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Просроченные элементы будут удалены Мягкая.             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.DeleteAndAllowRecovery" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Просроченные элементы будут удаляться с возможностью восстановления.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.DeleteAndAllowRecovery" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MarkAsPastRetentionLimit">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Просроченных элементов будет помечен как срока действия.             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MarkAsPastRetentionLimit" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Просроченные элементы будут отмечены как истекшие.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MarkAsPastRetentionLimit" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MoveToArchive">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Просроченные элементы будут перемещены в архив.             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToArchive" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Элементы с истекшим сроком действия будут перемещены в архив.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToArchive" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MoveToDeletedItems">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Просроченные элементы будут перемещены в папку «Удаленные».             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToDeletedItems" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Элементы с истекшим сроком действия будут перемещены в папку "Удаленные".             Это <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToDeletedItems" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="MoveToFolder">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Просроченные элементы будут перемещены в конечную папку.             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToFolder" /> Член используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Элементы с истекшим сроком действия будут перемещены в целевую папку.             Этот <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToFolder" /> член применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Действие не указано.             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.None" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Действие не указано.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.None" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="PermanentlyDelete">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Просроченные элементы будут удалены серьезный.             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.PermanentlyDelete" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Просроченные элементы будут окончательно удалены.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.PermanentlyDelete" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

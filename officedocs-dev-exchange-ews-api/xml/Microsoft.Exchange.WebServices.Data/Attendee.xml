@@ -1,13 +1,5 @@
 <Type Name="Attendee" FullName="Microsoft.Exchange.WebServices.Data.Attendee">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4a12d64c0ab181cfdd31cc29965402956839f66" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626832" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Attendee : Microsoft.Exchange.WebServices.Data.EmailAddress" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4a12d64c0ab181cfdd31cc29965402956839f66" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626832" /></Metadata><TypeSignature Language="C#" Value="public sealed class Attendee : Microsoft.Exchange.WebServices.Data.EmailAddress" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Attendee extends Microsoft.Exchange.WebServices.Data.EmailAddress" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Attendee" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Attendee&#xA;Inherits EmailAddress" />
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса Attendee.</summary>
+        <summary>Инициализирует новый экземпляр класса участника.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <Parameter Name="mailbox" Type="Microsoft.Exchange.WebServices.Data.EmailAddress" />
       </Parameters>
       <Docs>
-        <param name="mailbox">Почтовый ящик, соответствующий участник.</param>
-        <summary>Инициализирует новый экземпляр класса Attendee.</summary>
+        <param name="mailbox">Почтовый ящик, соответствующий участнику.</param>
+        <summary>Инициализирует новый экземпляр класса участника.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">SMTP-адрес, соответствующий участник.</param>
-        <summary>Инициализирует новый экземпляр класса Attendee.</summary>
+        <param name="smtpAddress">SMTP-адрес, соответствующий участнику.</param>
+        <summary>Инициализирует новый экземпляр класса участника.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -98,9 +90,9 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">Имя, которое соответствует участника.</param>
-        <param name="smtpAddress">SMTP-адрес, соответствующий участник.</param>
-        <summary>Инициализирует новый экземпляр класса Attendee.</summary>
+        <param name="name">Имя, соответствующее участнику.</param>
+        <param name="smtpAddress">SMTP-адрес, соответствующий участнику.</param>
+        <summary>Инициализирует новый экземпляр класса участника.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,10 +113,10 @@
         <Parameter Name="routingType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">Имя, которое соответствует участника.</param>
-        <param name="smtpAddress">SMTP-адрес, соответствующий участник.</param>
-        <param name="routingType">Тип маршрутизации, соответствующий участник.</param>
-        <summary>Инициализирует новый экземпляр класса Attendee.</summary>
+        <param name="name">Имя, соответствующее участнику.</param>
+        <param name="smtpAddress">SMTP-адрес, соответствующий участнику.</param>
+        <param name="routingType">Тип маршрутизации, соответствующий участнику.</param>
+        <summary>Инициализирует новый экземпляр класса участника.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,8 +135,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время, когда участником последнего ответа на приглашение на собрание или обновления.</summary>
-        <value>Дата и время, когда участником последнего ответа на приглашение на собрание или обновления.</value>
+        <summary>Получает дату и время последнего ответа участника на приглашение на собрание или на обновление.</summary>
+        <value>Дата и время последнего ответа участника на приглашение на собрание или обновление.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -163,8 +155,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.MeetingResponseType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип ответа, участником предоставили к приглашения на собрание.</summary>
-        <value>Тип ответа, участником предоставили к приглашения на собрание.</value>
+        <summary>Получает тип ответа, который участник предоставил в приглашение на собрание.</summary>
+        <value>Тип ответа, который участник предоставил в приглашение на собрание.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

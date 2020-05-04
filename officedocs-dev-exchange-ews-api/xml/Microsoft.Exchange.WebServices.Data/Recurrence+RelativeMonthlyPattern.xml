@@ -1,13 +1,5 @@
 <Type Name="Recurrence+RelativeMonthlyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+RelativeMonthlyPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3fce0ab724d3accf8f3673736e96deecbc3ff4c1" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626549" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Recurrence.RelativeMonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3fce0ab724d3accf8f3673736e96deecbc3ff4c1" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626549" /></Metadata><TypeSignature Language="C#" Value="public sealed class Recurrence.RelativeMonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/RelativeMonthlyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.RelativeMonthlyPattern&#xA;Inherits Recurrence.IntervalPattern" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет шаблон повторения, где каждый происходит относительный день указанное число месяцев после предыдущей команды.</summary>
+    <summary>Представляет шаблон повторения, в котором каждое событие происходит в относительный день определенного количества месяцев после предыдущего.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern.</summary>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Релативемонслипаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,11 +51,11 @@
         <Parameter Name="dayOfTheWeekIndex" Type="Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex" />
       </Parameters>
       <Docs>
-        <param name="startDate">Дата начала повторения.</param>
-        <param name="interval">Интервал между вхождений.</param>
-        <param name="dayOfTheWeek">Одно из значений перечисления DayOfTheWeek, указывает на какой день недели событие повторяется.</param>
-        <param name="dayOfTheWeekIndex">Одно из значений перечисления DayOfTheWeekIndex, которое указывает, какие недели, месяца событие повторяется.</param>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern с заданными параметрами.</summary>
+        <param name="startDate">Дата начала расписания повторения.</param>
+        <param name="interval">Интервал между повторениями.</param>
+        <param name="dayOfTheWeek">Одно из значений перечисления Дайофсевик, которое указывает, на какой день недели событие повторяется.</param>
+        <param name="dayOfTheWeekIndex">Одно из значений перечисления Дайофсевикиндекс, которое указывает, в какой неделе месяца повторяется событие.</param>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. Релативемонслипаттерн. с указанными параметрами.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,8 +74,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает день недели, на котором событие повторяется.</summary>
-        <value>Одно из значений перечисления DayOfTheWeek.</value>
+        <summary>Получает или задает день недели, в течение которого событие повторяется.</summary>
+        <value>Одно из значений перечисления Дайофсевик.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,8 +94,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает недели, месяца, на котором событие повторяется.</summary>
-        <value>Одно из значений перечисления DayOfTheWeekIndex.</value>
+        <summary>Получает или задает значение недели месяца, в котором повторяется событие.</summary>
+        <value>Одно из значений перечисления Дайофсевикиндекс.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

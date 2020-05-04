@@ -1,13 +1,5 @@
 <Type Name="Recurrence+WeeklyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+WeeklyPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a59d8350b941f58ba1177b1b9f80cb90ccda6477" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627367" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Recurrence.WeeklyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a59d8350b941f58ba1177b1b9f80cb90ccda6477" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627367" /></Metadata><TypeSignature Language="C#" Value="public sealed class Recurrence.WeeklyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/WeeklyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.WeeklyPattern&#xA;Inherits Recurrence.IntervalPattern" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет шаблон повторения, в котором каждый происходит на конкретные дни определенного количества недель после предыдущей команды.</summary>
+    <summary>Представляет шаблон повторения, в котором каждое событие происходит в определенные дни в течение определенного количества недель после предыдущего.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса RelativeYearlyPattern.</summary>
+        <summary>Инициализирует новый экземпляр класса Релативэйеарлипаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -65,10 +57,10 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="startDate">Дата начала повторения.</param>
-        <param name="interval">Интервал между вхождений.</param>
-        <param name="daysOfTheWeek">Массив DayOfTheWeek значений перечисления, которые указывают на какие дни недели событие повторяется.</param>
-        <summary>Инициализирует новый экземпляр класса RelativeYearlyPattern с указанными значениями.</summary>
+        <param name="startDate">Дата начала расписания повторения.</param>
+        <param name="interval">Интервал между повторениями.</param>
+        <param name="daysOfTheWeek">Массив значений перечисления Дайофсевик, указывающий, на какие дни недели повторяется событие.</param>
+        <summary>Инициализирует новый экземпляр класса Релативэйеарлипаттерн с указанными значениями.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -87,8 +79,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дни недели, на котором событие повторяется.</summary>
-        <value>Объект DayOfTheWeekCollection, который содержит дни недели, на котором событие повторяется.</value>
+        <summary>Возвращает дни недели, в которые повторяется событие.</summary>
+        <value>Объект Дайофсевикколлектион, содержащий дни недели, в которые повторяется событие.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -107,8 +99,8 @@
         <ReturnType>System.DayOfWeek</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает первый день недели для этой.</summary>
-        <value>Одно из значений перечисления DayOfTheWeek.</value>
+        <summary>Получает первый день недели для этого повторения.</summary>
+        <value>Одно из значений перечисления Дайофсевик.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

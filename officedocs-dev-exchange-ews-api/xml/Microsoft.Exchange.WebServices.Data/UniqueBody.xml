@@ -1,13 +1,5 @@
 <Type Name="UniqueBody" FullName="Microsoft.Exchange.WebServices.Data.UniqueBody">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82207ffe098120a675aefce963bd2b3f016a0734" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627406" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class UniqueBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="82207ffe098120a675aefce963bd2b3f016a0734" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627406" /></Metadata><TypeSignature Language="C#" Value="public sealed class UniqueBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UniqueBody extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UniqueBody" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UniqueBody&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет тело элемента, который является уникальным для бесед, элемент является частью.</summary>
+    <summary>Представляет основной текст элемента, который является уникальным для диалога, частью которого является элемент.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.BodyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип уникальный основной текст.</summary>
-        <value>Одно из значений перечисления типа текста сообщения.</value>
+        <summary>Получает тип уникального текста основного текста.</summary>
+        <value>Одно из значений перечисления BodyType.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,9 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли уникальный текст усекается.             <see cref="P:Microsoft.Exchange.WebServices.Data.UniqueBody.IsTruncated" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если уникальный текст усекается; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, был ли усечен уникальный текст.             <see cref="P:Microsoft.Exchange.WebServices.Data.UniqueBody.IsTruncated" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если уникальный текст усекается; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,7 +77,7 @@
       <Docs>
         <param name="messageBody">UniqueBody для преобразования в строку.</param>
         <summary>Определяет неявное преобразование UniqueBody в строку.</summary>
-        <returns>Строка, содержащая текст UniqueBody.</returns>
+        <returns>Строка, содержащая текст объекта UniqueBody.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,7 +96,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает текст уникальный body.</summary>
+        <summary>Получает текст уникального основного текста.</summary>
         <value>Строковое значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -126,8 +117,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает System.String, который представляет текущего System.Object.</summary>
-        <returns>System.String, который представляет текущего System.Object.</returns>
+        <summary>Возвращает System. String, представляющий текущий System. Object.</summary>
+        <returns>System. String, представляющий текущий System. Object.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

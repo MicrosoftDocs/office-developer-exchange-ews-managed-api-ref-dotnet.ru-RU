@@ -1,13 +1,5 @@
 <Type Name="CalendarView" FullName="Microsoft.Exchange.WebServices.Data.CalendarView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4d9ab340fbd953b5898b0880ff099c4c4172dbca" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626950" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class CalendarView : Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4d9ab340fbd953b5898b0880ff099c4c4172dbca" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626950" /></Metadata><TypeSignature Language="C#" Value="public sealed class CalendarView : Microsoft.Exchange.WebServices.Data.ViewBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarView extends Microsoft.Exchange.WebServices.Data.ViewBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarView" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarView&#xA;Inherits ViewBase" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет представление диапазон даты встреч в операции поиска папки календаря.</summary>
+    <summary>Представляет представление дат в календарных операциях поиска папок.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,7 +35,7 @@
       <Docs>
         <param name="startDate">Дата начала.</param>
         <param name="endDate">Дата окончания.</param>
-        <summary>Инициализирует новый экземпляр класса представления календаря с заданными датами начала и окончания.</summary>
+        <summary>Инициализирует новый экземпляр класса CalendarView с заданными датами начала и окончания.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -66,8 +58,8 @@
       <Docs>
         <param name="startDate">Дата начала.</param>
         <param name="endDate">Дата окончания.</param>
-        <param name="maxItemsReturned">Максимальное число элементов, которые возвращаются операции поиска.</param>
-        <summary>Инициализирует новый экземпляр класса представления календаря с заданными датами начала и окончания, который будет содержать заданного максимального количества элементов или меньше.</summary>
+        <param name="maxItemsReturned">Максимальное количество элементов, возвращаемых операцией поиска.</param>
+        <summary>Инициализирует новый экземпляр класса CalendarView с заданными датами начала и окончания, который будет содержать указанное максимальное число элементов или меньше.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,8 +78,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату окончания.</summary>
-        <value>Объект даты и времени. Дата окончания.</value>
+        <summary>Получает или задает конечную дату.</summary>
+        <value>Объект DateTime. Дата окончания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -106,8 +98,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает максимальное число элементов, которые возвращаются операции поиска.</summary>
-        <value>Объект <b>допускает значение NULL</b> . Указанное максимальное число элементов.</value>
+        <summary>Получает или задает максимальное количество элементов, возвращаемых операцией поиска.</summary>
+        <value>Объект, <b>допускающий значение NULL</b> . Пароль максимальное число элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,8 +118,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату начала.</summary>
-        <value>Объект даты и времени. Дата начала.</value>
+        <summary>Получает или задает начальную дату.</summary>
+        <value>Объект DateTime. Дата начала.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -147,7 +139,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает режим обхода поиска.</summary>
-        <value>Объект ItemTraversal. Значение по умолчанию — ItemTraversal.Shallow.</value>
+        <value>Объект Итемтраверсал. Значение по умолчанию — итемтраверсал. un.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

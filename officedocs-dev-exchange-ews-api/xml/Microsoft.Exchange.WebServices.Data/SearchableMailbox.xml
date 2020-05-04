@@ -1,13 +1,5 @@
 <Type Name="SearchableMailbox" FullName="Microsoft.Exchange.WebServices.Data.SearchableMailbox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8162c32391574af0a59694adda4e65fc47453286" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627412" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchableMailbox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8162c32391574af0a59694adda4e65fc47453286" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627412" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchableMailbox" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchableMailbox extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchableMailbox" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет объект доступен для поиска почтовых ящиков.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет объект почтового ящика, который вы ищете.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.  <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.  <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,15 +55,13 @@
       </Parameters>
       <Docs>
         <param name="guid">Идентификатор почтового ящика.</param>
-        <param name="smtpAddress">Адрес Simple Mail Transfer Protocol (SMTP) почтового ящика.</param>
-        <param name="isExternalMailbox">
-          <b>значение true,</b> Если почтовый ящик относится внешнего почтового ящика; в противном случае — <b>false</b>.</param>
-        <param name="externalEmailAddress">Внешний адрес электронной почты для почтового ящика.</param>
+        <param name="smtpAddress">SMTP-адрес почтового ящика.</param>
+        <param name="isExternalMailbox"><b>значение true</b> , если почтовый ящик является внешним почтовым ящиком; в противном случае — <b>false</b>.</param>
+        <param name="externalEmailAddress">Внешний адрес электронной почты почтового ящика.</param>
         <param name="displayName">Имя почтового ящика.</param>
-        <param name="isMembershipGroup">
-          <b>значение true,</b> Если данный является списком рассылки; в противном случае — <b>false</b>.</param>
-        <param name="referenceId">Справочник по идентификатор почтового ящика.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="isMembershipGroup"><b>значение true</b> , если это список рассылки; в противном случае — <b>false</b>.</param>
+        <param name="referenceId">Идентификатор ссылки для почтового ящика.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,7 +80,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает отображаемое имя почтового ящика для поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает отображаемое имя почтового ящика, в котором выполняется поиск.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Отображаемое имя.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,8 +100,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает внешний адрес электронной почты для почтового ящика.
-<see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает внешний адрес электронной почты почтового ящика.
+<see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Внешний адрес электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -131,8 +121,8 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Идентификатор GUID.</value>
+        <summary>Получает или задает идентификатор почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>GUID.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,10 +141,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли внешнего почтового ящика.
-<see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если внешнего почтового ящика; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли этот почтовый ящик внешним.
+<see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если внешний почтовый ящик; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -173,9 +162,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает, является ли связанный SMTP-адрес почтового ящика или списку рассылки.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если связанные SMTP-адрес является списком рассылки; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли связанный SMTP-адрес почтовым ящиком или списком рассылки.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>true</b> , если связанный SMTP-адрес является списком рассылки; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -194,7 +182,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор ссылку почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор ссылки для почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор ссылки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -214,7 +202,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает адрес Simple Mail Transfer Protocol (SMTP) почтового ящика для поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает SMTP-адрес почтового ящика, в котором выполняется поиск.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>SMTP-адрес.</value>
         <remarks>To be added.</remarks>
       </Docs>

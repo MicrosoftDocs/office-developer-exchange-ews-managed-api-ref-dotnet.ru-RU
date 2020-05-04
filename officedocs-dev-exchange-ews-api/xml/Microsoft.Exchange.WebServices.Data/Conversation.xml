@@ -1,13 +1,5 @@
 <Type Name="Conversation" FullName="Microsoft.Exchange.WebServices.Data.Conversation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="22d5bd88ef39fe662d62391f299aa71ba81fdbca" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626629" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Conversation : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="22d5bd88ef39fe662d62391f299aa71ba81fdbca" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626629" /></Metadata><TypeSignature Language="C#" Value="public class Conversation : Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Conversation extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Conversation" />
   <TypeSignature Language="VB.NET" Value="Public Class Conversation&#xA;Inherits ServiceObject" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет беседы.</summary>
-    <remarks>
-      <para>Возвращается коллекция объектов беседы <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" /> метод для <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> класса. Определения свойств для класса беседы определены в <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" /> класса.</para>
-      <para />
-    </remarks>
+    <summary>Представляет беседу.</summary>
+    <remarks><para>Коллекция объектов CONVERSATION возвращается <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" /> методом для <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> класса. Определения свойств для класса CONVERSATION определены в <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" /> классе.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Categories">
@@ -43,12 +33,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список категорий для элементов беседы в текущую папку.</summary>
+        <summary>Получает список категорий для элементов бесед в текущей папке.</summary>
         <value>Список категорий.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> свойство, позволяющее получить список категорий для всех элементов беседы в почтовом ящике.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> свойство, чтобы получить список категорий для всех элементов бесед в почтовом ящике.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearItemFlags">
@@ -69,12 +57,10 @@
         <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки которого элементы будут без отметки. Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), снят флаги для элементами в беседах по всему почтовому ящику.</param>
-        <summary>Очищает отмеченного состояния на элементы в связанной беседы.       <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="contextFolderId">Идентификатор папки, элементы которой будут отмечаться. Если значение <paramref name="contextFolderId" /> параметра является пустой ссылкой (Nothing в Visual Basic), то флажки для элементов в беседах во всем почтовом ящике очищаются.</param>
+        <summary>Очищает состояние помеченных элементов в связанной беседе.       Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="CopyItemsInConversation">
@@ -96,13 +82,11 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки папку, содержащую элементов беседы для копирования. Если этот аргумент пустая ссылка (Nothing в Visual Basic), все элементы в беседе по всему почтовому ящику, копируются в конечную папку.</param>
-        <param name="destinationFolderId">Идентификатор папки назначения папки, которая будет содержать копируемые элементы.</param>
-        <summary>Элементы копируются в окне беседы в указанную папку.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="contextFolderId">Идентификатор папки, содержащей элементы беседы, которые требуется скопировать. Если для этого аргумента задана пустая ссылка (Nothing в Visual Basic), все элементы в беседе во всем почтовом ящике копируются в целевую папку.</param>
+        <param name="destinationFolderId">Конечный идентификатор папки, в которой будут содержаться скопированные элементы.</param>
+        <summary>Копирует элементы беседы в указанную папку.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteItems">
@@ -123,13 +107,11 @@
         <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки папку, содержащую элементов беседы для удаления. Если этот аргумент пустая ссылка (Nothing в Visual Basic), будут удалены все элементы в беседе по всему почтовому ящику.</param>
+        <param name="contextFolderId">Идентификатор папки, содержащей элементы беседы, которые требуется удалить. Если для этого аргумента задана пустая ссылка (Nothing в Visual Basic), удаляются все элементы в беседе во всем почтовом ящике.</param>
         <param name="deleteMode">Режим удаления.</param>
-        <summary>Удаляет элементы в окне беседы.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Удаляет элементы в беседе.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisableAlwaysCategorizeItems">
@@ -150,13 +132,10 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="processSynchronously">
-          <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после завершенных категоризации отключение и удаление категории из существующих элементов в окне беседы; <b>значение false,</b> если методом является для возврата немедленно.</param>
-        <summary>Отключает автоматическую классификации элементов в беседе.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="processSynchronously"><b>значение true</b> , чтобы указать, должен ли метод возвращаться после завершения отключения классификации и удаления категорий из существующих элементов в беседе; <b>false</b> , если метод должен возвратить немедленно.</param>
+        <summary>Отключает автоматическую категоризацию элементов в беседе.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisableAlwaysDeleteItems">
@@ -177,13 +156,10 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="processSynchronously">
-          <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после его завершения отключение автоматического перемещения элементов в беседе для папки «Удаленные» и восстановлен удаленных элементов в исходные папки; <b>значение false,</b> если методом является для возврата немедленно.</param>
-        <summary>Отключает автоматическое перемещение элементов в беседе для папки «Удаленные».</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="processSynchronously"><b>значение true</b> указывает, должен ли метод возвращаться после завершения отключения автоматического перемещения элементов в беседе в папку "Удаленные" и восстановления удаленных элементов в исходных папках; <b>false</b> , если метод должен возвратить немедленно.</param>
+        <summary>Отключает автоматическое перемещение элементов в беседе в папку "Удаленные".</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisableAlwaysMoveItemsInConversation">
@@ -204,13 +180,10 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="processSynchronously">
-          <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после его завершения отключение автоматического перемещение элементов в беседе в целевой папке; <b>значение false,</b> если методом является для возврата немедленно.</param>
-        <summary>Отключает автоматическое перемещение элементов в беседе в целевой папке.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="processSynchronously"><b>значение true</b> , чтобы указать, должен ли метод возвращаться после завершения отключения автоматического перемещения элементов в беседе в целевую папку; <b>false</b> , если метод должен возвратить немедленно.</param>
+        <summary>Отключает автоматическое перемещение элементов в беседе в целевую папку.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DraftItemIds">
@@ -228,7 +201,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию идентификаторов элемента черновика для элементов, которые еще не были отправлены.</summary>
+        <summary>Получает коллекцию идентификаторов элементов черновиков элементов, которые еще не были отправлены.</summary>
         <value>Возвращает коллекцию идентификаторов элементов черновиков.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -252,14 +225,11 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="categories">Категории автоматически применяется к элементам в беседе.</param>
-        <param name="processSynchronously">
-          <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после завершенных Включение категоризации и добавления категории в существующих элементов в окне беседы; <b>значение false,</b> если методом является для возврата немедленно.</param>
-        <summary>Включение автоматического классификации элементов в беседе.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="categories">Категории, которые будут автоматически применены к элементам в беседе.</param>
+        <param name="processSynchronously"><b>значение true</b> указывает, должен ли метод возвращаться после завершения включения классификации и добавления категорий к существующим элементам в беседе; <b>false</b> , если метод должен возвратить немедленно.</param>
+        <summary>Включает автоматическую категоризацию элементов в беседе.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableAlwaysDeleteItems">
@@ -280,13 +250,10 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="processSynchronously">
-          <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после его завершения Включение автоматическое перемещение элементов в беседе для папки «Удаленные» и был перемещен существующих элементов в беседе для папки "Удаленные"; <b>значение false,</b> если методом является для возврата немедленно.</param>
-        <summary>Включает автоматическое перемещение элементов в беседе для папки «Удаленные».</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="processSynchronously"><b>значение true</b> указывает, должен ли метод возвращаться после завершения включения автоматического перемещения элементов в беседе в папку "Удаленные" и перемещения существующих элементов в беседу в папку "Удаленные". <b>false</b> , если метод должен возвратить немедленно.</param>
+        <summary>Включает автоматическое перемещение элементов в беседе в папку "Удаленные".</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableAlwaysMoveItems">
@@ -308,14 +275,11 @@
         <Parameter Name="processSynchronously" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки, какую беседу, перемещение элементов.</param>
-        <param name="processSynchronously">
-          <b>значение true,</b> чтобы указать, будет ли метод должен возвращать после его завершения Включение автоматическое перемещение элементов в беседе в целевой папке и перемещен существующих элементов беседы в целевой папке; <b>значение false,</b> если методом является для возврата немедленно.</param>
-        <summary>Включает автоматическое перемещение новых и существующих элементов в беседе в целевой папке.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="destinationFolderId">Идентификатор папки, в которую перемещаются элементы беседы.</param>
+        <param name="processSynchronously"><b>значение true</b> указывает, должен ли метод возвращаться после завершения включения автоматического перемещения элементов в беседе в целевую папку и перемещения существующих элементов беседы в целевую папку; <b>false</b> , если метод должен возвратить немедленно.</param>
+        <summary>Включает автоматическое перемещение новых и существующих элементов в беседе в целевую папку.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagItems">
@@ -338,14 +302,12 @@
         <Parameter Name="dueDate" Type="System.Nullable&lt;System.DateTime&gt;" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки, отмечаемых, элементы. Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), отмеченные элементы в связанной беседы по всему почтовому ящику.</param>
-        <param name="startDate">Дата начала (может быть пустая ссылка (Nothing в Visual Basic)).</param>
-        <param name="dueDate">Срок (может быть пустая ссылка (Nothing в Visual Basic)).</param>
-        <summary>Задает отмеченного состояния для элементов в связанной беседы.          <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="contextFolderId">Идентификатор папки, элементы которой будут помечены. Если значение <paramref name="contextFolderId" /> параметра является пустой ссылкой (Nothing в Visual Basic), элементы связанного диалога помечаются во всем почтовом ящике.</param>
+        <param name="startDate">Дата начала (может быть пустой ссылкой (Nothing в Visual Basic)).</param>
+        <param name="dueDate">Дата выполнения (может быть пустой ссылкой (Nothing в Visual Basic)).</param>
+        <summary>Задает помеченное состояние для элементов в связанной беседе.          Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagItemsComplete">
@@ -367,13 +329,11 @@
         <Parameter Name="completeDate" Type="System.Nullable&lt;System.DateTime&gt;" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки, элементы которого будут помечены как завершенные. Если значение <paramref name="contextFolderId" /> параметр пустая ссылка (Nothing в Visual Basic), а элементы в беседе по всему почтовому ящику помечены как завершенные.</param>
-        <param name="completeDate">Дата завершения (может быть пустая ссылка (Nothing в Visual Basic)).</param>
-        <summary>Изменяет отмеченного состояния элементов в связанной беседы для выполнения.            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="contextFolderId">Идентификатор папки, элементы которой будут помечены как завершенные. Если значение <paramref name="contextFolderId" /> параметра является пустой ссылкой (Nothing в Visual Basic), элементы в беседе во всем почтовом ящике помечаются как завершенные.</param>
+        <param name="completeDate">Полная дата (может быть пустой ссылкой (Nothing в Visual Basic)).</param>
+        <summary>Изменяет состояние помеченных элементов в сопоставленной беседе на "завершено".            Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagStatus">
@@ -391,12 +351,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationFlagStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает состояние флага сводный для элементов беседы в текущую папку.</summary>
-        <value>Состояние отметки.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> свойство, чтобы получить сведения о состоянии сводный флаг для всех элементов беседы в почтовом ящике.</para>
-          <para />
-        </remarks>
+        <summary>Получает сводный статус флага для элементов беседы в текущей папке.</summary>
+        <value>Состояние флага.</value>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> свойство, чтобы получить сводное состояние флага для всех элементов бесед в почтовом ящике.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalCategories">
@@ -414,12 +372,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список категорий для всех элементов беседы в почтовом ящике.</summary>
+        <summary>Получает список категорий для всех элементов бесед в почтовом ящике.</summary>
         <value>Список категорий.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> свойство, позволяющее получить список категорий для элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> свойство, чтобы получить список категорий для элементов беседы в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalFlagStatus">
@@ -437,12 +393,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationFlagStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает состояние флага сводный для всех элементов беседы в почтовом ящике.</summary>
-        <value>Состояние отметки.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> свойство, чтобы получить сведения о состоянии сводный флаг для всех элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <summary>Получает суммарный статус флага для всех элементов бесед в почтовом ящике.</summary>
+        <value>Состояние флага.</value>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> свойство, чтобы получить сводный статус флага для всех элементов бесед в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalHasAttachments">
@@ -460,9 +414,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее на наличие по крайней мере один беседы элемента в почтовом ящике вложения.</summary>
-        <value>
-          <b>значение true,</b> Если хотя бы один беседы элемента в почтовом ящике с вложением; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, имеет ли хотя бы один элемент в почтовом ящике вложение.</summary>
+        <value>имеет <b>значение true</b> , если по крайней мере один элемент беседы в почтовом ящике содержит вложение; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -481,9 +434,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли беседы по крайней мере один элемент в любой папке в почтовый ящик был защищен службой управления правами на доступ к данным (IRM). <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
-        <value>
-          <b>значение true,</b> Если хотя бы один беседы элемента в почтовом ящике защищен IRM; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, защищен ли по крайней мере один элемент беседы в любой папке почтового ящика службой управления правами на доступ к данным (IRM). <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
+        <value><b>имеет значение true</b> , если по крайней мере один элемент беседы в почтовом ящике защищен IRM; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -502,8 +454,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает индекс глобального значок. <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Индекс глобального значок.</value>
+        <summary>Получает глобальный индекс значка. <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Глобальный индекс значка.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -522,12 +474,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объединенные важности для всех элементов беседы в почтовом ящике.</summary>
-        <value>Глобальные важность беседы.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> свойство, позволяющее получить сводный важности для всех элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <summary>Получает совокупную важность для всех элементов бесед в почтовом ящике.</summary>
+        <value>Глобальная важность беседы.</value>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> свойство, чтобы получить совокупную важность для всех элементов бесед в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalItemClasses">
@@ -545,12 +495,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список классов элементов, представляющий все классы элементов беседы элементов в почтовом ящике.</summary>
+        <summary>Получает список классов элементов, которые представляют все классы элементов бесед в почтовом ящике.</summary>
         <value>Список классов элементов.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> свойство, позволяющее получить классов элементов из всех элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> свойство, чтобы получить классы элементов для всех элементов беседы в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalItemIds">
@@ -568,12 +516,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию идентификаторов элементов для всех элементов беседы в почтовом ящике.</summary>
-        <value>Коллекция идентификаторов элемента.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> свойство, позволяющее получить идентификаторы элементов для всех элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <summary>Получает коллекцию идентификаторов элементов для всех элементов бесед в почтовом ящике.</summary>
+        <value>Коллекция идентификаторов элементов.</value>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> свойство, чтобы получить идентификаторы элементов для всех элементов бесед в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalLastDeliveryTime">
@@ -591,12 +537,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время доставки сообщений, который был получен последний беседы во всех папках в почтовом ящике.</summary>
+        <summary>Возвращает время доставки сообщения, которое было последний раз получено в данной беседе, во всех папках почтового ящика..</summary>
         <value>Время доставки последнего элемента беседы.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> свойство, позволяющее получить время доставки запись о беседе, Дата и время последнего полученного в текущую папку.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> свойство, чтобы получить время доставки элемента диалога, полученного последним в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalMessageCount">
@@ -614,12 +558,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число элементов беседы в почтовом ящике.</summary>
+        <summary>Получает общее число элементов беседы в почтовом ящике.</summary>
         <value>Количество элементов беседы.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> свойство, позволяющее получить общее число элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> свойство, чтобы получить общее количество элементов беседы в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalSize">
@@ -637,12 +579,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает размер беседы, вычисляемых из размер всех элементов беседы в почтовом ящике.</summary>
-        <value>Размер беседу в статьи базы знаний.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> свойство, позволяющее получить размер беседы рассчитывается размер всех элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <summary>Получает размер диалога, рассчитанный на основе размера всех элементов бесед в почтовом ящике.</summary>
+        <value>Размер беседы в КБ.</value>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> свойство, чтобы получить размер диалога, рассчитанный на основе размера всех элементов бесед в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalUniqueRecipients">
@@ -660,12 +600,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список всех людей, полученных сообщений в беседе всех папок в почтовом ящике.</summary>
+        <summary>Получает список всех пользователей, получивших сообщения в этой беседе во всех папках почтового ящика.</summary>
         <value>Список получателей.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> свойство, чтобы получить список всех получателей элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> свойство, чтобы получить список всех получателей бесед в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalUniqueSenders">
@@ -683,12 +621,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список всех отправителей беседы элементов в почтовом ящике.</summary>
+        <summary>Получает список всех отправителей элементов беседы в почтовом ящике.</summary>
         <value>Список отправителей.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> свойство, чтобы получить список всех отправителей элементов беседы в текущую папку.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> свойство, чтобы получить список всех отправителей элементов беседы в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalUniqueUnreadSenders">
@@ -706,12 +642,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список всех людей, отправленные сообщения, в настоящее время непрочитанные сообщения в беседе для всех папок в почтовом ящике.</summary>
+        <summary>Получает список всех пользователей, которые отправили сообщение, непрочитанное в данный момент во всех папках почтового ящика.</summary>
         <value>Список отправителей.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> свойство, позволяющее получить список всех отправителей беседы непрочитанные элементы в текущей папке.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> свойство, чтобы получить список всех отправителей непрочитанных элементов беседы в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GlobalUnreadCount">
@@ -729,12 +663,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число всех элементов непрочитанных сообщений в почтовом ящике.</summary>
+        <summary>Получает количество всех непрочтенных элементов беседы в почтовом ящике.</summary>
         <value>Количество непрочитанных элементов.</value>
-        <remarks>
-          <para>Использование <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> свойство, позволяющее получить число всех элементов непрочитанных сообщений в текущей папке.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> свойство, чтобы получить количество всех непрочтенных элементов беседы в текущей папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachments">
@@ -752,9 +684,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, имеет ли беседы по крайней мере один элемент в текущей папке вложения.</summary>
-        <value>
-          <b>значение true,</b> Если беседы по крайней мере один элемент в текущей папке имеет вложение; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, есть ли вложение по крайней мере для одного элемента беседы в текущей папке.</summary>
+        <value>имеет <b>значение true</b> , если по крайней мере один элемент беседы в текущей папке содержит вложение; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -773,9 +704,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли беседы по крайней мере один элемент в текущей папке был защищен службой управления правами на доступ к данным (IRM). <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
-        <value>
-          <b>значение true,</b> Если беседы по крайней мере один элемент в текущей папке защищен IRM; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, защищен ли по крайней мере один элемент беседы в текущей папке службой управления правами на доступ к данным (IRM). <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
+        <value><b>имеет значение true</b> , если по крайней мере один элемент беседы в текущей папке защищен IRM; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -794,7 +724,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает индекс значка. <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает индекс значка. <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Индекс значка.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -834,7 +764,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объединенные важности для всех элементов беседы в текущую папку.</summary>
+        <summary>Получает совокупную важность для всех элементов бесед в текущей папке.</summary>
         <value>Важность беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -854,7 +784,7 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ключ экземпляра беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает ключ экземпляра беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Ключ экземпляра беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -874,7 +804,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список классов элементов, представляющий все классы элементов из элементов беседы в текущей папке.</summary>
+        <summary>Получает список классов элементов, которые представляют все классы элементов для элементов беседы в текущей папке.</summary>
         <value>Список классов элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -894,8 +824,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию идентификаторов элементов для всех элементов беседы в текущую папку.</summary>
-        <value>Коллекция идентификаторов элемента.</value>
+        <summary>Получает коллекцию идентификаторов элементов для всех элементов бесед в текущей папке.</summary>
+        <value>Коллекция идентификаторов элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -914,7 +844,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время доставки сообщений, который был получен последний в эту беседу в текущую папку.</summary>
+        <summary>Возвращает время доставки сообщения, которое было последний раз получено в этой беседе в текущей папке.</summary>
         <value>Время доставки последнего элемента беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -934,8 +864,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время последнего изменения эту беседу.             <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Дата и время последнего изменения эту беседу.</value>
+        <summary>Получает дату и время последнего изменения этой беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Дата и время последнего изменения этой беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -954,7 +884,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число элементов беседы в текущую папку.</summary>
+        <summary>Получает общее число элементов беседы в текущей папке.</summary>
         <value>Количество элементов беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -978,13 +908,11 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки папку, содержащую элементов беседы для перемещения. Если этот аргумент пустая ссылка (Nothing в Visual Basic), все элементы в беседе по всему почтовому ящику перемещаются в папку.</param>
-        <param name="destinationFolderId">Идентификатор папки назначения папки, которая будет содержать перемещаемых элементов.</param>
-        <summary>Перемещает элементы в беседе в целевую папку.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="contextFolderId">Идентификатор папки, содержащей элементы беседы, которые требуется переместить. Если для этого аргумента задана пустая ссылка (Nothing в Visual Basic), все элементы в беседе во всем почтовом ящике перемещаются в целевую папку.</param>
+        <param name="destinationFolderId">Конечный идентификатор папки, в которой будут содержаться перемещенные элементы.</param>
+        <summary>Перемещает элементы в беседе в папку назначения.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Preview">
@@ -1002,8 +930,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает preview беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Предварительный просмотр беседы.</value>
+        <summary>Получает предварительный просмотр беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Просмотр беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1026,14 +954,11 @@
         <Parameter Name="isRead" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки, элементы которого будут иметь свои чтения состояние обновления. Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), будут обновлены состояние чтения всех элементов в связанной беседы по всему почтовому ящику.</param>
-        <param name="isRead">
-          <b>значение true</b> , если элементов беседы помечены как чтение; в противном случае — <b>false</b>.</param>
-        <summary>Задает состояние чтения элементов в беседе. <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="contextFolderId">Идентификатор папки, элементы которой будут обновлены с состоянием "чтение". Если значение <paramref name="contextFolderId" /> параметра является пустой ссылкой (Nothing в Visual Basic), будет обновлено состояние чтения всех элементов в связанном диалоговом окне во всем почтовом ящике.</param>
+        <param name="isRead"><b>значение true</b> , если элементы беседы помечаются как прочтенные; в противном случае — <b>false</b>.</param>
+        <summary>Задает состояние чтения элементов в беседе. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetReadStateForItemsInConversation">
@@ -1056,16 +981,12 @@
         <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки, элементы которого будут иметь свои чтения состояние обновления. Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), задайте просмотра состояния элементов по всему почтовому ящику.</param>
-        <param name="isRead">
-          <b>значение true</b>, если элементы беседы, помечаются как чтение; в противном случае — <b>false</b>.</param>
-        <param name="suppressReadReceipts">
-          <b>значение true,</b> Если чтение квитанций отключено; в противном случае — <b>false</b>.</param>
-        <summary>Задает состояние чтения элементов в указанном беседы.            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="contextFolderId">Идентификатор папки, элементы которой будут обновлены с состоянием "чтение". Если значение <paramref name="contextFolderId" /> параметра представляет собой пустую ссылку (Nothing в Visual Basic), задаются состояния считывания элементов во всем почтовом ящике.</param>
+        <param name="isRead"><b>значение true</b>, если элементы беседы помечаются как прочтенные; в противном случае — <b>false</b>.</param>
+        <param name="suppressReadReceipts"><b>значение true</b> , если уведомления о прочтении подавляются; в противном случае — <b>false</b>.</param>
+        <summary>Задает состояние чтения элементов в указанной беседе.            Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetRetentionPolicyForItemsInConversation">
@@ -1088,14 +1009,12 @@
         <Parameter Name="retentionPolicyTagId" Type="System.Nullable&lt;System.Guid&gt;" />
       </Parameters>
       <Docs>
-        <param name="contextFolderId">Идентификатор папки, элементы будут иметь свои задать политику хранения. Если значение <paramref name="contextFolderId" /> параметр — это пустая ссылка (Nothing в Visual Basic), задать политику хранения элементов по всему почтовому ящику.</param>
-        <param name="retentionPolicyType">Значение, указывающее, является ли объект с тегами для архивации или удаления.</param>
-        <param name="retentionPolicyTagId">Идентификатор тега политики хранения. A пустая ссылка (Nothing в Visual Basic) значение будет очистить политику.</param>
-        <summary>Задает политику хранения элементов в указанном беседы.            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="contextFolderId">Идентификатор папки, элементы которой будут иметь набор политик хранения. Если значение <paramref name="contextFolderId" /> параметра представляет собой пустую ссылку (Nothing в Visual Basic), устанавливается политика хранения элементов во всем почтовом ящике.</param>
+        <param name="retentionPolicyType">Значение, указывающее, следует ли архивировать или удалять помеченный объект.</param>
+        <param name="retentionPolicyTagId">Идентификатор тега политики хранения. При значении NULL ссылки (Nothing в Visual Basic) политика будет сброшена.</param>
+        <summary>Задает политику хранения элементов в указанной беседе.            Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -1113,8 +1032,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает размер беседы, вычисляемых из размер всех элементов беседы в текущую папку.</summary>
-        <value>Размер беседу в статьи базы знаний.</value>
+        <summary>Получает размер диалога, рассчитанный на основе размера всех элементов бесед в текущей папке.</summary>
+        <value>Размер беседы в КБ.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1134,7 +1053,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает тему беседы.</summary>
-        <value>Предметам.</value>
+        <value>Тема беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1153,7 +1072,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список всех людей, полученных сообщений в беседе для сообщений в текущей папке.</summary>
+        <summary>Получает список всех пользователей, получивших сообщения в этой беседе для сообщений в текущей папке.</summary>
         <value>Список получателей.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1173,7 +1092,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список всех отправителей элементов беседы в текущую папку.</summary>
+        <summary>Получает список всех отправителей элементов беседы в текущей папке.</summary>
         <value>Список отправителей.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1193,7 +1112,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список всех людей, отправленные сообщения, которые в настоящее время непрочитанные сообщения в эту беседу в текущую папку.</summary>
+        <summary>Получает список всех пользователей, которые отправили сообщения, которые в настоящее время не прочитаны в текущей папке.</summary>
         <value>Список отправителей.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1213,7 +1132,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число всех элементов непрочитанных сообщений в текущей папке.</summary>
+        <summary>Получает количество всех непрочитанных элементов беседы в текущей папке.</summary>
         <value>Количество непрочитанных элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>

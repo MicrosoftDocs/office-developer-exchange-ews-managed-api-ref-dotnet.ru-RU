@@ -1,13 +1,5 @@
 <Type Name="GetClientAccessTokenResponse" FullName="Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7b570204e2798f2a040adba4c5fc930ed2265d38" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626801" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetClientAccessTokenResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b570204e2798f2a040adba4c5fc930ed2265d38" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626801" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetClientAccessTokenResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetClientAccessTokenResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetClientAccessTokenResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения о маркера доступа клиента.             <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения о маркере клиентского доступа.             <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает клиенту маркера доступа к идентификатору.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Идентификатор.</value>
+        <summary>Получает идентификатор маркера клиентского доступа.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>ИДЕНТИФИКАТОР.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип маркера, который включает в себя удостоверения и расширение обратного вызова сведения о.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Тип маркера.</value>
+        <summary>Получает тип маркера, который включает в себя сведения об удостоверении звонящего и обратного вызова расширения.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Тип токена.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,7 +72,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает маркер значение закодированного клиентского доступа.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает значение закодированного маркера доступа клиента.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Значение маркера.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -100,7 +92,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число минут до истечения срока действия маркера доступа клиентов.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает количество минут до истечения срока действия маркера клиентского доступа.             <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Значение TTL в минутах.</value>
         <remarks>To be added.</remarks>
       </Docs>

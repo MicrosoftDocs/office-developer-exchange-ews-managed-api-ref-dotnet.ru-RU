@@ -1,13 +1,5 @@
 <Type Name="ContactSchema" FullName="Microsoft.Exchange.WebServices.Data.ContactSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f0e216c6854ffa720b93d7b5810b0d4140674a32" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627270" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ContactSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f0e216c6854ffa720b93d7b5810b0d4140674a32" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627270" /></Metadata><TypeSignature Language="C#" Value="public class ContactSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactSchema" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactSchema&#xA;Inherits ItemSchema" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет схему для контактов.</summary>
+    <summary>Представляет схему контактов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство псевдоним. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Alias. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,7 +70,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство AssistantPhone.</summary>
+        <summary>Определяет свойство Ассистантфоне.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,7 +89,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство день рождения.</summary>
+        <summary>Определяет свойство "день рождения".</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,7 +108,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство BusinessAddressCity.</summary>
+        <summary>Определяет свойство БусинессаддрессЦити.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -135,7 +127,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство BusinessAddressCountryOrRegion.</summary>
+        <summary>Определяет свойство Бусинессаддресскаунтрйоррегион.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -154,7 +146,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство BusinessAddressPostalCode.</summary>
+        <summary>Определяет свойство Бусинессаддресспосталкоде.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -173,7 +165,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство BusinessAddressState.</summary>
+        <summary>Определяет свойство Бусинессаддрессстате.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -192,7 +184,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство BusinessAddressStreet.</summary>
+        <summary>Определяет свойство Бусинессаддрессстрит.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -211,7 +203,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство рабочий.</summary>
+        <summary>Определяет свойство Бусинессфакс.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -230,7 +222,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство BusinessHomePage.</summary>
+        <summary>Определяет свойство Бусинесшомепаже.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -249,7 +241,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство BusinessPhone.</summary>
+        <summary>Определяет свойство Бусинессфоне.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -306,7 +298,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство Автомобильный телефон.</summary>
+        <summary>Определяет свойство Карфоне.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -325,7 +317,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство дочерних элементов.</summary>
+        <summary>Определяет свойство Children.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -363,7 +355,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство CompanyMainPhone.</summary>
+        <summary>Определяет свойство Компанимаинфоне.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -401,7 +393,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство CompleteName.</summary>
+        <summary>Определяет свойство Комплетенаме.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -420,7 +412,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство ContactSource.</summary>
+        <summary>Определяет свойство Контактсаурце.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -439,7 +431,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство отдела.</summary>
+        <summary>Определяет свойство Department.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -458,7 +450,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство DirectoryId. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Директорид. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -477,7 +469,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство DirectReports. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство DirectReports. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -591,7 +583,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство FileAs.</summary>
+        <summary>Определяет свойство свойств fileas.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -610,7 +602,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство FileAsMapping.</summary>
+        <summary>Определяет свойство Филеасмаппинг.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -629,7 +621,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство поколения.</summary>
+        <summary>Определяет свойство Generation.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -667,7 +659,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство HasPicture.</summary>
+        <summary>Определяет свойство Хаспиктуре.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -686,7 +678,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство HomeAddressCity.</summary>
+        <summary>Определяет свойство ХомеаддрессЦити.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -705,7 +697,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство HomeAddressCountryOrRegion.</summary>
+        <summary>Определяет свойство Хомеаддресскаунтрйоррегион.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -724,7 +716,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство HomeAddressPostalCode.</summary>
+        <summary>Определяет свойство Хомеаддресспосталкоде.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -743,7 +735,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство HomeAddressState.</summary>
+        <summary>Определяет свойство Хомеаддрессстате.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -762,7 +754,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство HomeAddressStreet.</summary>
+        <summary>Определяет свойство Хомеаддрессстрит.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -781,7 +773,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство Домашний факс.</summary>
+        <summary>Определяет свойство Хомефакс.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -895,7 +887,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство ImAddresses.</summary>
+        <summary>Определяет свойство Addressing.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -914,7 +906,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство инициалы.</summary>
+        <summary>Определяет свойство Initials.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -933,7 +925,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство Isdn.</summary>
+        <summary>Определяет свойство ISDN.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -952,7 +944,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство название должности.</summary>
+        <summary>Определяет свойство JobTitle.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -971,7 +963,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Задает свойства диспетчера.</summary>
+        <summary>Определяет свойство Manager.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -990,7 +982,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство ManagerMailbox. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Манажермаилбокс. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1009,7 +1001,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство отчество.</summary>
+        <summary>Определяет свойство Миддленаме.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1028,7 +1020,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство расстояние.</summary>
+        <summary>Определяет свойство километраж.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1066,7 +1058,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство MSExchangeCertificate. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Мсексчанжецертификате. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1085,7 +1077,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство псевдонимов.</summary>
+        <summary>Определяет свойство псевдонима.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1104,7 +1096,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство заметки. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Notes. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1123,7 +1115,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство расположение компании.</summary>
+        <summary>Определяет свойство OfficeLocation.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1142,7 +1134,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство OtherAddressCity.</summary>
+        <summary>Определяет свойство ОсераддрессЦити.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1161,7 +1153,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство OtherAddressCountryOrRegion.</summary>
+        <summary>Определяет свойство Осераддресскаунтрйоррегион.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1180,7 +1172,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство OtherAddressPostalCode.</summary>
+        <summary>Определяет свойство Осераддресспосталкоде.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1199,7 +1191,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство OtherAddressState.</summary>
+        <summary>Определяет свойство Осераддрессстате.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1218,7 +1210,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство OtherAddressStreet.</summary>
+        <summary>Определяет свойство Осераддрессстрит.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1313,7 +1305,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство PhoneticFirstName. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Фонетикфирстнаме. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1332,7 +1324,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство PhoneticFullName. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Фонетикфуллнаме. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1351,7 +1343,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство PhoneticLastName. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Фонетикластнаме. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1370,7 +1362,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство фотографий. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство Photo. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1389,7 +1381,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство PhysicalAddresses.</summary>
+        <summary>Определяет свойство Фисикаладдрессес.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1408,7 +1400,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство PostalAddressIndex.</summary>
+        <summary>Определяет свойство Посталаддрессиндекс.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1427,7 +1419,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство PrimaryPhone.</summary>
+        <summary>Определяет свойство Примарифоне.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1446,7 +1438,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство род занятий.</summary>
+        <summary>Определяет свойство профессия.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1465,7 +1457,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство RadioPhone.</summary>
+        <summary>Определяет свойство Радиофоне.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1484,7 +1476,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство SpouseName.</summary>
+        <summary>Определяет свойство Спаусенаме.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1503,7 +1495,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство Фамилия.</summary>
+        <summary>Определяет свойство фамилия.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1541,7 +1533,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство TtyTddPhone.</summary>
+        <summary>Определяет свойство Ттитддфоне.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1560,7 +1552,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство UserSMIMECertificate. Это значение появился в Exchange Server 2010 с пакетом обновления 2 и Web служб Exchange (EWS) управляемого интерфейса API 1.2.</summary>
+        <summary>Определяет свойство UserSMIMECertificate. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2) и управляемый API веб-служб Exchange (EWS) 1,2.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1579,7 +1571,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет свойство WeddingAnniversary.</summary>
+        <summary>Определяет свойство Веддинганниверсари.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

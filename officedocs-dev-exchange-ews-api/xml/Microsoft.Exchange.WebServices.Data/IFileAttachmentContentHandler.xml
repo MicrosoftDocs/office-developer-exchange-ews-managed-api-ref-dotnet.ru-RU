@@ -1,13 +1,5 @@
 <Type Name="IFileAttachmentContentHandler" FullName="Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fb8f51c1d46d175817990bb2b93727a08f70d642" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626544" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IFileAttachmentContentHandler" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fb8f51c1d46d175817990bb2b93727a08f70d642" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626544" /></Metadata><TypeSignature Language="C#" Value="public interface IFileAttachmentContentHandler" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileAttachmentContentHandler" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFileAttachmentContentHandler" />
@@ -18,7 +10,7 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>Определяет обработчик содержимого файла вложения. Приложения можно реализовать IFileAttachmentContentHandler для предоставления потока, к которому требуется записать содержимое файла вложения.</summary>
+    <summary>Определяет обработчик контента вложенного файла. Приложение может реализовать Ифилеаттачментконтенсандлер, чтобы предоставить поток, в который необходимо записать содержимое вложенного файла.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,9 @@
         <Parameter Name="attachmentId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="attachmentId">Идентификатор вложения, которое загружается.</param>
-        <summary>Предоставляет поток, в который будут записываться содержимого вложения с указанным идентификатором.</summary>
-        <returns>Поток, в котором будет записан содержимого вложения.</returns>
+        <param name="attachmentId">Идентификатор загружаемого вложения.</param>
+        <summary>Предоставляет поток, в который необходимо записать содержимое вложения с указанным идентификатором.</summary>
+        <returns>Поток, в который будет записано содержимое вложения.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

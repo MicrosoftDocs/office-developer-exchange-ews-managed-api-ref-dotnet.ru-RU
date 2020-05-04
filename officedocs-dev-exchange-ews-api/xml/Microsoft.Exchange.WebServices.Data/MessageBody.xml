@@ -1,13 +1,5 @@
 <Type Name="MessageBody" FullName="Microsoft.Exchange.WebServices.Data.MessageBody">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6ad40967432a5bf3df01ff5f0ee0aeb81a6745dc" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627274" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MessageBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6ad40967432a5bf3df01ff5f0ee0aeb81a6745dc" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627274" /></Metadata><TypeSignature Language="C#" Value="public class MessageBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MessageBody extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MessageBody" />
   <TypeSignature Language="VB.NET" Value="Public Class MessageBody&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет основного текста сообщения.</summary>
+    <summary>Представляет текст сообщения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса MessageBody.</summary>
+        <summary>Инициализирует новый экземпляр класса Мессажебоди.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <Parameter Name="text" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="text">Текст тело сообщения, которое оценивается в формате HTML.</param>
-        <summary>Инициализирует новый экземпляр класса MessageBody с основной текст сообщения.</summary>
+        <param name="text">Текст текста сообщения, который предполагается использовать в формате HTML.</param>
+        <summary>Инициализирует новый экземпляр класса Мессажебоди, используя основной текст сообщения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,8 +70,8 @@
       </Parameters>
       <Docs>
         <param name="bodyType">Тип текста сообщения.</param>
-        <param name="text">Текст сообщения.</param>
-        <summary>Инициализирует новый экземпляр класса MessageBody тип текста сообщения и основной текст сообщения.</summary>
+        <param name="text">Текст текста сообщения.</param>
+        <summary>Инициализирует новый экземпляр класса Мессажебоди, используя тип текста сообщения и текст основного сообщения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -99,7 +91,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает тип текста сообщения.</summary>
-        <value>Тип текста.</value>
+        <value>Тип основного текста.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,9 +112,9 @@
         <Parameter Name="messageBody" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
       </Parameters>
       <Docs>
-        <param name="messageBody">Текст сообщения для преобразования в строку.</param>
+        <param name="messageBody">Текст сообщения, который необходимо преобразовать в строку.</param>
         <summary>Определяет неявное преобразование текста сообщения в строку.</summary>
-        <returns>Строка, содержащая текст сообщения.</returns>
+        <returns>Строка, содержащая текст текста сообщения.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -144,9 +136,9 @@
         <Parameter Name="textBody" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="textBody">Строка для преобразования в текст сообщения.</param>
+        <param name="textBody">Строка, которая будет преобразована в текст сообщения.</param>
         <summary>Определяет неявное преобразование строки в текст сообщения.</summary>
-        <returns>Текст сообщения, инициализирован с указанной строки.</returns>
+        <returns>Текст сообщения, инициализируемый указанной строкой.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -186,7 +178,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает строку, представляющую текущий объект тело сообщения.</summary>
+        <summary>Возвращает строку, представляющую текущий объект Body сообщения.</summary>
         <returns>Строковое представление текста сообщения.</returns>
         <remarks>To be added.</remarks>
       </Docs>

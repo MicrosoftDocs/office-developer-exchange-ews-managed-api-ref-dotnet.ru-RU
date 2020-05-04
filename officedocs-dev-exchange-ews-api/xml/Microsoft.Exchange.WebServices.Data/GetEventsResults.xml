@@ -1,13 +1,5 @@
 <Type Name="GetEventsResults" FullName="Microsoft.Exchange.WebServices.Data.GetEventsResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="38b2607904a6d1b4de5367427d35eb69653c2957" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626521" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetEventsResults" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="38b2607904a6d1b4de5367427d35eb69653c2957" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626521" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetEventsResults" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetEventsResults extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetEventsResults" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetEventsResults" />
@@ -41,7 +33,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает коллекцию всех событий.</summary>
-        <value>Объект коллекции, который содержит события уведомления.</value>
+        <value>Объект Collection, который содержит события уведомления.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,7 +52,7 @@
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.FolderEvent&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию папок.</summary>
+        <summary>Получает коллекцию событий папки.</summary>
         <value>Объект IEnumerable, который выполняет итерацию всех событий папки в коллекции.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +72,7 @@
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.ItemEvent&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию событий элементов.</summary>
+        <summary>Получает коллекцию событий элемента.</summary>
         <value>Объект IEnumerable, который выполняет итерацию всех событий элемента в коллекции.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="MeetingCancellation" FullName="Microsoft.Exchange.WebServices.Data.MeetingCancellation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="52134ba584822c3a6e88f13f3a249233076f9256" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627058" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MeetingCancellation : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="52134ba584822c3a6e88f13f3a249233076f9256" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627058" /></Metadata><TypeSignature Language="C#" Value="public class MeetingCancellation : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingCancellation extends Microsoft.Exchange.WebServices.Data.MeetingMessage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingCancellation" />
   <TypeSignature Language="VB.NET" Value="Public Class MeetingCancellation&#xA;Inherits MeetingMessage" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет собрания отмены сообщения. Свойства, доступные на собрания сообщений определены в классе MeetingMessageSchema.</summary>
+    <summary>Представляет сообщение об отмене собрания. Свойства, доступные в сообщениях о собраниях, определяются в классе Митингмессажесчема.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,14 +36,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Службы использовать для привязки к собранию отмены сообщения.</param>
-        <param name="id">Идентификатор элемента отмены собрания сообщений для привязки.</param>
-        <summary>Привязки к существующей отмены собрания сообщений и загружает его свойства первого класса.</summary>
-        <returns>Экземпляр класса MeetingCancellation, который представляет отмены собрания сообщений в соответствии с указанным идентификатором.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="service">Служба, используемая для связывания с сообщением об отмене собрания.</param>
+        <param name="id">Идентификатор сообщения об отмене собрания, к которому необходимо присоединиться.</param>
+        <summary>Выполняет присоединение к существующему сообщению об отмене собрания и загружает его свойства первого класса.</summary>
+        <returns>Экземпляр класса Митингканцеллатион, представляющий сообщение об отмене собрания, соответствующее указанному идентификатору.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -73,15 +63,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Службы использовать для привязки к собранию отмены сообщения.</param>
-        <param name="id">Идентификатор элемента отмены собрания сообщений для привязки.</param>
+        <param name="service">Служба, используемая для связывания с сообщением об отмене собрания.</param>
+        <param name="id">Идентификатор сообщения об отмене собрания, к которому необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Привязки к существующей отмены собрания сообщений и загружает указанный набор свойств.</summary>
-        <returns>Экземпляр класса MeetingCancellation, который представляет отмены собрания сообщений в соответствии с указанным идентификатором.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Выполняет присоединение к существующему сообщению об отмене собрания и загружает заданный набор свойств.</summary>
+        <returns>Экземпляр класса Митингканцеллатион, представляющий сообщение об отмене собрания, соответствующее указанному идентификатору.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="End">
@@ -99,7 +87,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время окончания встречи отменено.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Возвращает время окончания отмененной встречи.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Время окончания встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -119,8 +107,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает Дополнительные сведения о расположении отмененные собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Объект, содержащий дополнительные сведения о расположении отмененные собрания.</value>
+        <summary>Получает дополнительные сведения о расположении отмененного собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Объект, содержащий дополнительные сведения о расположении отмененного собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -139,8 +127,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает место встречи отменено.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Расположение Отмененные встречи.</value>
+        <summary>Получает местоположение отмененной встречи.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Местоположение отмененной встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,7 +147,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает шаблон повторения встречи, которому принадлежит этот Отмененные встречи.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает шаблон повторения для ряда, к которому относится отмененная встреча.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Объект шаблона повторения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -180,8 +168,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаление собрания, связанный с сообщением отмены из календаря пользователя.</summary>
-        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объекта.</returns>
+        <summary>Удаляет собрание, связанное с сообщением об отмене, из календаря пользователя.</summary>
+        <returns>Объект <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -200,7 +188,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время начала Отмененные встречи.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает время начала отмененной встречи.             <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Время начала встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>

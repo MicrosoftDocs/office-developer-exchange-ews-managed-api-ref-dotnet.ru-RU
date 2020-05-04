@@ -1,13 +1,5 @@
 <Type Name="DelegateInformation" FullName="Microsoft.Exchange.WebServices.Data.DelegateInformation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a18e3f7a6f63db34fbdeac5c82c0121cb768b0dd" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627272" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DelegateInformation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a18e3f7a6f63db34fbdeac5c82c0121cb768b0dd" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627272" /></Metadata><TypeSignature Language="C#" Value="public sealed class DelegateInformation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegateInformation extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegateInformation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegateInformation" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет результаты операции, которое возвращает делегат пользователей почтовых ящиков.</summary>
+    <summary>Представляет результаты операции, возвращающей пользователя делегата почтовых ящиков.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.DelegateUserResponse&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список ответов для каждого из них делегата пользователи, участвующие в операции.</summary>
-        <value>Коллекция объектов ответа, которые содержат сведения о пользователях делегата, участвующие в операции.</value>
+        <summary>Получает список ответов для каждого делегированного пользователя, участвующего в операции.</summary>
+        <value>Коллекция объектов Response, содержащая сведения о делегированных пользователях, участвующих в операции.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, доставляются ли приглашений на собрание делегатам.</summary>
-        <value>Одно из значений перечисления MeetingRequestsDeliveryScope, которые указывают, является ли делегаты получать приглашения на собрания.</value>
+        <summary>Получает значение, указывающее, будут ли и как приглашения на собрания доставляются в делегаты.</summary>
+        <value>Одно из значений перечисления Митингрекуестсделиверископе, которое указывает, будут ли представители получать приглашения на собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

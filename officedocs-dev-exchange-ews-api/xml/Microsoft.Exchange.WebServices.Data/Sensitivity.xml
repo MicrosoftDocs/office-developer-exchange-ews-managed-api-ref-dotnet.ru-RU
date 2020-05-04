@@ -1,13 +1,5 @@
 <Type Name="Sensitivity" FullName="Microsoft.Exchange.WebServices.Data.Sensitivity">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0ccd034561aec8eb612716d04babdafbf68a9556" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626756" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum Sensitivity" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0ccd034561aec8eb612716d04babdafbf68a9556" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626756" /></Metadata><TypeSignature Language="C#" Value="public enum Sensitivity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Sensitivity extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Sensitivity" />
   <TypeSignature Language="VB.NET" Value="Public Enum Sensitivity" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет уровень конфиденциальности сообщения элемента.</summary>
+    <summary>Определяет чувствительность элемента.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Элемент confidential.</summary>
+        <summary>Элемент конфиденциальный.</summary>
       </Docs>
     </Member>
     <Member MemberName="Normal">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>У элемента есть обычный уровень конфиденциальности сообщения.</summary>
+        <summary>Элемент имеет обычную чувствительность.</summary>
       </Docs>
     </Member>
     <Member MemberName="Personal">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Элемент личные.</summary>
+        <summary>Элемент является персональным.</summary>
       </Docs>
     </Member>
     <Member MemberName="Private">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Элемент закрытый.</summary>
+        <summary>Элемент является частным.</summary>
       </Docs>
     </Member>
   </Members>

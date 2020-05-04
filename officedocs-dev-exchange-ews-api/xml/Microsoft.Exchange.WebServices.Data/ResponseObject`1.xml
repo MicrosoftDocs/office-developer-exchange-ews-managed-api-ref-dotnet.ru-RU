@@ -1,13 +1,5 @@
 <Type Name="ResponseObject&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.ResponseObject&lt;TMessage&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f1e12974fef9cb8f2d2e7228a6ed5d1bef41d5e" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626715" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ResponseObject&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.ServiceObject where TMessage : EmailMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f1e12974fef9cb8f2d2e7228a6ed5d1bef41d5e" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626715" /></Metadata><TypeSignature Language="C#" Value="public abstract class ResponseObject&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.ServiceObject where TMessage : EmailMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ResponseObject`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseObject`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ResponseObject(Of TMessage)&#xA;Inherits ServiceObject" />
@@ -34,7 +26,7 @@
   </Attributes>
   <Docs>
     <typeparam name="TMessage">Объект EmailMessage.</typeparam>
-    <summary>Представляет базовый класс для всех ответов, которые могут быть отправлены.</summary>
+    <summary>Представляет базовый класс для всех откликов, которые могут быть отправлены.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,7 +46,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее, следует ли отправлять уведомления о доставке отправителю.</summary>
-        <value>Значение true, если доставка уведомлений будет запрашиваться; в противном случае — false.</value>
+        <value>Значение true, если будут запрашиваться уведомления о доставке; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -73,8 +65,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает значение, указывающее, является ли уведомления о прочтении будет запрашиваться от получателей этот ответ.</summary>
-        <value>Значение true, если на чтение будет запрашиваться квитанций; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, будут ли запрашиваться уведомления о прочтении от получателей этого ответа.</summary>
+        <value>Значение true, если будут запрашиваться уведомления о прочтении; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,8 +86,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Сохранение ответа в папке "Черновики". Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
-        <returns>TMessage, представляющий ответ.</returns>
+        <summary>Сохраняет ответ в папке "Черновики". Вызов этого метода приводит к вызову EWS.</summary>
+        <returns>Объект Тмессаже, представляющий ответ.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,9 +109,9 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки, в которой следует сохранить ответ.</param>
-        <summary>Сохранение ответа в указанной папке. Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
-        <returns>TMessage, представляющий ответ.</returns>
+        <param name="destinationFolderId">Идентификатор папки, в которой нужно сохранить ответ.</param>
+        <summary>Сохраняет ответ в указанной папке. Вызов этого метода приводит к вызову EWS.</summary>
+        <returns>Объект Тмессаже, представляющий ответ.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -141,9 +133,9 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, в которой следует сохранить ответ.</param>
-        <summary>Сохранение ответа в указанной папке. Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
-        <returns>TMessage, представляющий ответ.</returns>
+        <param name="destinationFolderName">Имя папки, в которой нужно сохранить ответ.</param>
+        <summary>Сохраняет ответ в указанной папке. Вызов этого метода приводит к вызову EWS.</summary>
+        <returns>Объект Тмессаже, представляющий ответ.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -163,7 +155,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отправляет ответ без сохранения копии. Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
+        <summary>Отправляет этот ответ без сохранения копии. Вызов этого метода приводит к вызову EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,7 +175,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отправляет ответ и сохранение копии в папке «Отправленные». Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
+        <summary>Отправляет этот ответ и сохраняет копию в папке "Отправленные". Вызов этого метода приводит к вызову EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -205,8 +197,8 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки для сохранения копии сообщения.</param>
-        <summary>Отправляет этот ans ответа Сохранение копии в указанной папке. Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
+        <param name="destinationFolderId">Идентификатор папки, в которой необходимо сохранить копию сообщения.</param>
+        <summary>Отправляет этот запрос ANS для сохранения копии в указанной папке. Вызов этого метода приводит к вызову EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -228,8 +220,8 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, в которой для сохранения копии сообщения.</param>
-        <summary>Отправляет ответ и сохранение копии в указанной папке. Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
+        <param name="destinationFolderName">Имя папки, в которой необходимо сохранить копию сообщения.</param>
+        <summary>Отправляет этот ответ и сохраняет копию в указанной папке. Вызов этого метода приводит к вызову EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

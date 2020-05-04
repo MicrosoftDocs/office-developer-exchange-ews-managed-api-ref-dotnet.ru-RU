@@ -1,13 +1,5 @@
 <Type Name="FileAsMapping" FullName="Microsoft.Exchange.WebServices.Data.FileAsMapping">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6eb506ae22d0cdf3f37aec8deb590390dc267b4c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626893" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FileAsMapping" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6eb506ae22d0cdf3f37aec8deb590390dc267b4c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626893" /></Metadata><TypeSignature Language="C#" Value="public enum FileAsMapping" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FileAsMapping extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FileAsMapping" />
   <TypeSignature Language="VB.NET" Value="Public Enum FileAsMapping" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет, как автоматически форматируется свойство FileAs контакта.</summary>
+    <summary>Определяет, как автоматически форматируется свойство свойств fileas контакта.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Компания</summary>
+        <summary>Company</summary>
       </Docs>
     </Member>
     <Member MemberName="CompanySurnameCommaGivenName">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Компании (SurnameGivenName)</summary>
+        <summary>Организация (Сурнамегивеннаме)</summary>
       </Docs>
     </Member>
     <Member MemberName="CompanySurnameSpaceGivenName">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Организация (Фамилия GivenName)</summary>
+        <summary>Организация (фамилия GivenName)</summary>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Surname</summary>
+        <summary>ФИО</summary>
       </Docs>
     </Member>
     <Member MemberName="SurnameCommaGivenName">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Фамилия, GivenNameCompany</summary>
+        <summary>Фамилия, Гивеннамекомпани</summary>
       </Docs>
     </Member>
     <Member MemberName="SurnameGivenName">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>SurnameGivenName</summary>
+        <summary>сурнамегивеннаме</summary>
       </Docs>
     </Member>
     <Member MemberName="SurnameGivenNameCompany">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>SurnameGivenNameCompany</summary>
+        <summary>сурнамегивеннамекомпани</summary>
       </Docs>
     </Member>
     <Member MemberName="SurnameGivenNameMiddleSuffix">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>SurnameGivenNameMiddleSuffix</summary>
+        <summary>сурнамегивеннамемиддлесуффикс</summary>
       </Docs>
     </Member>
     <Member MemberName="SurnameGivenNameSuffix">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>SurnameGivenNameSuffix</summary>
+        <summary>сурнамегивеннамесуффикс</summary>
       </Docs>
     </Member>
     <Member MemberName="SurnameSpaceGivenName">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Фамилия GivenNameCompany</summary>
+        <summary>Фамилия Гивеннамекомпани</summary>
       </Docs>
     </Member>
   </Members>

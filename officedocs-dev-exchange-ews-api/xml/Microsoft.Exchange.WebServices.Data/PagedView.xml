@@ -1,13 +1,5 @@
 <Type Name="PagedView" FullName="Microsoft.Exchange.WebServices.Data.PagedView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="23077efb12f56714e8c8926dc4b8d72622aebb6d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626696" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class PagedView : Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="23077efb12f56714e8c8926dc4b8d72622aebb6d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626696" /></Metadata><TypeSignature Language="C#" Value="public abstract class PagedView : Microsoft.Exchange.WebServices.Data.ViewBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit PagedView extends Microsoft.Exchange.WebServices.Data.ViewBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class PagedView&#xA;Inherits ViewBase" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет параметр отображения, который поддерживает разбиение по страницам в операции поиска.</summary>
+    <summary>Представляет параметр представления, который поддерживает разбиение по страницам в операции поиска.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -46,7 +38,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает смещение.</summary>
-        <value>Количество элементов из базового точки.</value>
+        <value>Количество элементов из базовой точки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -65,8 +57,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OffsetBasePoint</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает базовый точка смещение.</summary>
-        <value>Базовый точку для возвращаемых offset.</value>
+        <summary>Получает или задает базовую точку смещения.</summary>
+        <value>Базовая точка для возвращенного смещения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,7 +77,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает максимальное количество элементов или папки, которые должен возвращать операции поиска.</summary>
+        <summary>Получает или задает максимальное количество элементов или папок, возвращаемых операцией поиска.</summary>
         <value>Максимальное число элементов или папок в результатах поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>

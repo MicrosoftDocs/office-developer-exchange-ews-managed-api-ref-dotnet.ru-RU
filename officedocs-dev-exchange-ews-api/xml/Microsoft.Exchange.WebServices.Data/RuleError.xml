@@ -1,13 +1,5 @@
 <Type Name="RuleError" FullName="Microsoft.Exchange.WebServices.Data.RuleError">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9964aeae30d9d54aa4f965bb260a447e0f36aed7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627389" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class RuleError : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9964aeae30d9d54aa4f965bb260a447e0f36aed7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627389" /></Metadata><TypeSignature Language="C#" Value="public sealed class RuleError : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleError extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleError" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleError&#xA;Inherits ComplexProperty" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ошибки, возникшей в результате выполнения операции правила.</summary>
-    <remarks>
-      <para>Этот класс представляет ошибка для правила, ошибка правила проверки.</para>
-      <para />
-    </remarks>
+    <summary>Представляет ошибку, которая возникла в результате выполнения операции с правилом.</summary>
+    <remarks><para>Этот класс представляет ошибку для правила с неудачной проверкой правил.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="ErrorCode">
@@ -43,13 +33,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает код ошибки проверки.</summary>
-        <value>Значение перечисления RuleErrorCode, связанный с ошибкой.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorCode" /> Свойство указывает ошибка правила проверки кода, когда <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> метод не удается выполнить проверку.</para>
-          <para />
-        </remarks>
+        <summary>Получает код ошибки проверки.</summary>
+        <value>Значение перечисления Рулирроркоде, связанное с ошибкой.</value>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorCode" /> Свойство указывает код ошибки проверки правила, когда <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> метод не проходит проверку.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ErrorMessage">
@@ -69,11 +56,8 @@
       <Docs>
         <summary>Получает сообщение об ошибке, связанное с ошибкой.</summary>
         <value>Сообщение об ошибке, связанное с ошибкой.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorMessage" /> Свойство показывает ошибки проверки правил сообщение <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> метод не удается выполнить проверку.</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorMessage" /> Свойство указывает сообщение об ошибке проверки правила, когда <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> метод не проходит проверку.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="RuleProperty">
@@ -91,8 +75,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает свойство, которое не прошел проверку.</summary>
-        <value>Значение перечисления RuleProperty указывает свойство, вызвавшей ошибку.</value>
+        <summary>Получает свойство, не прошедшего проверку.</summary>
+        <value>Значение перечисления Рулепроперти, указывающее свойство, которое вызвало ошибку.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,13 +95,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение свойства, которое не прошел проверку.</summary>
-        <value>Значение свойства, которое не прошел проверку.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.Value" /> Свойство не может иметь значение null.</para>
-          <para />
-        </remarks>
+        <summary>Получает значение свойства, которое не прошло проверку.</summary>
+        <value>Значение свойства, не прошедшего проверку.</value>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.Value" /> Свойство не может иметь значение null.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

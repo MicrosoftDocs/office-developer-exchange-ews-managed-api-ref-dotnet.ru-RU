@@ -1,13 +1,5 @@
 <Type Name="AlternatePublicFolderItemId" FullName="Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="07f1b193ad73ba2fdf78feaefa28dc83165b5c26" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627102" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class AlternatePublicFolderItemId : Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="07f1b193ad73ba2fdf78feaefa28dc83165b5c26" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627102" /></Metadata><TypeSignature Language="C#" Value="public class AlternatePublicFolderItemId : Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternatePublicFolderItemId extends Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId" />
   <TypeSignature Language="VB.NET" Value="Public Class AlternatePublicFolderItemId&#xA;Inherits AlternatePublicFolderId" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет идентификатор элемента общей папки, выраженная в определенный формат.</summary>
+    <summary>Представляет идентификатор элемента общедоступной папки, выраженный в определенном формате.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса AlternatePublicFolderItemId.</summary>
+        <summary>Инициализирует новый экземпляр класса Алтернатепубликфолдеритемид.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,10 +51,10 @@
         <Parameter Name="itemId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="format">Идентификатор формата элемента общей папки.</param>
-        <param name="folderId">Идентификатор общей папки родительского элемента целевой общей папки.</param>
-        <param name="itemId">Идентификатор элемента общей папки.</param>
-        <summary>Инициализирует новый экземпляр класса AlternatePublicFolderItemId, используя предоставленный идентификатор формата, идентификатор родительского общих папок и идентификатор целевого элемента общей папки.</summary>
+        <param name="format">Идентификатор формата элемента общедоступной папки.</param>
+        <param name="folderId">Идентификатор родительской общедоступной папки для целевого элемента общедоступной папки.</param>
+        <param name="itemId">Идентификатор элемента общедоступной папки.</param>
+        <summary>Инициализирует новый экземпляр класса Алтернатепубликфолдеритемид, используя указанный формат идентификатора, идентификатор родительской общедоступной папки и идентификатор целевого элемента общедоступной папки.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,7 +73,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор элемента общей папки.</summary>
+        <summary>Получает или задает идентификатор элемента общедоступной папки.</summary>
         <value>Идентификатор элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>

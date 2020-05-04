@@ -1,13 +1,5 @@
 <Type Name="HighlightTerm" FullName="Microsoft.Exchange.WebServices.Data.HighlightTerm">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b87265463050ab2d6ed83c72b30c9281f60cd9ba" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626699" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class HighlightTerm : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b87265463050ab2d6ed83c72b30c9281f60cd9ba" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626699" /></Metadata><TypeSignature Language="C#" Value="public sealed class HighlightTerm : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit HighlightTerm extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.HighlightTerm" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class HighlightTerm&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения, которые может быть перенесено на внимания получателя сообщения, например, что изменилось место собрания.              <see cref="T:Microsoft.Exchange.WebServices.Data.HighlightTerm" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения, которые могут быть внесены в сообщение о том, что место проведения собрания изменилось.              <see cref="T:Microsoft.Exchange.WebServices.Data.HighlightTerm" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает область поиска запроса расширенный синтаксис запроса (AQS).             <see cref="P:Microsoft.Exchange.WebServices.Data.HighlightTerm.Scope" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Область условия.</value>
+        <summary>Получает область поиска запроса расширенного синтаксиса запросов (AQS).             <see cref="P:Microsoft.Exchange.WebServices.Data.HighlightTerm.Scope" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Область действия термина.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение выделенный терминов.             <see cref="P:Microsoft.Exchange.WebServices.Data.HighlightTerm.Value" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Значение терминов.</value>
+        <summary>Получает значение выделенного термина.             <see cref="P:Microsoft.Exchange.WebServices.Data.HighlightTerm.Value" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение термина.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

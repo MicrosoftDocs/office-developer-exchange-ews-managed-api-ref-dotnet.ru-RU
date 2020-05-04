@@ -1,13 +1,5 @@
 <Type Name="ChangeHighlights" FullName="Microsoft.Exchange.WebServices.Data.ChangeHighlights">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7eccdf7d4ce3c663ac83c66483b56c7348a7386f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626587" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ChangeHighlights : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7eccdf7d4ce3c663ac83c66483b56c7348a7386f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626587" /></Metadata><TypeSignature Language="C#" Value="public sealed class ChangeHighlights : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ChangeHighlights extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ChangeHighlights&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения об изменениях приглашения на собрание.             <see cref="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Инкапсулирует сведения об изменениях в приглашении на собрание.             <see cref="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает старый Дата и время окончания собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Старый Дата и время окончания собрания.</value>
+        <summary>Получает старую дату и время окончания собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Старые Дата и время окончания собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,9 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Проверяет, изменился ли время окончания собрания. <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если изменилось время начала; в противном случае — <b>false</b>.</value>
+        <summary>Проверяет, изменилось ли время окончания собрания. <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если время начала изменилось; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,9 +72,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Проверяет, находятся ли изменения расположения для собрания. <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если изменилось расположение; в противном случае — <b>false</b>.</value>
+        <summary>Проверяет, изменилось ли место проведения собрания. <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если расположение было изменено; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,9 +92,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Проверяет, изменился ли время начала собрания. <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если изменилось время начала; в противном случае — <b>false</b>.</value>
+        <summary>Проверяет, изменилось ли время начала собрания. <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если время начала изменилось; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,8 +112,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает старый место собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Старый расположение для собрания.</value>
+        <summary>Получает старое расположение собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Старое место проведения собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,8 +132,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает старый Дата начала и время собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Старый Дата начала и время собрания.</value>
+        <summary>Получает старую дату и время начала собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Старая Дата и время начала собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="CancelMeetingMessage" FullName="Microsoft.Exchange.WebServices.Data.CancelMeetingMessage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="df8d6e2e1b8755827859e2ab47e7efc43bcec8ab" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626739" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class CancelMeetingMessage : Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;Microsoft.Exchange.WebServices.Data.MeetingCancellation&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="df8d6e2e1b8755827859e2ab47e7efc43bcec8ab" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626739" /></Metadata><TypeSignature Language="C#" Value="public sealed class CancelMeetingMessage : Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;Microsoft.Exchange.WebServices.Data.MeetingCancellation&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CancelMeetingMessage extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1&lt;class Microsoft.Exchange.WebServices.Data.MeetingCancellation&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CancelMeetingMessage" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CancelMeetingMessage&#xA;Inherits CalendarResponseMessageBase(Of MeetingCancellation)" />
@@ -24,7 +16,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет собрания отмены сообщения.</summary>
+    <summary>Представляет сообщение об отмене собрания.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,8 +35,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает основного текста ответа.</summary>
-        <value>Основного текста ответа.</value>
+        <summary>Получает или задает текст отклика.</summary>
+        <value>Текст отклика.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

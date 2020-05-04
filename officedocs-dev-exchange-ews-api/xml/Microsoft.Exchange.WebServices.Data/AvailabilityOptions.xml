@@ -1,13 +1,5 @@
 <Type Name="AvailabilityOptions" FullName="Microsoft.Exchange.WebServices.Data.AvailabilityOptions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="df9a6d8c671ff4f4d48feb796e79338abeba86a8" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627310" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AvailabilityOptions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="df9a6d8c671ff4f4d48feb796e79338abeba86a8" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627310" /></Metadata><TypeSignature Language="C#" Value="public sealed class AvailabilityOptions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AvailabilityOptions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AvailabilityOptions" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет параметры для запроса доступности.</summary>
+    <summary>Представляет параметры запроса доступности.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" /> класса.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает время начала собрания для обновления с временем предложенного собрания.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162789">T:System.Nullable'1</a></value>
+        <summary>Получает или задает время начала собрания, которое необходимо обновить с учетом предложенного времени проведения собрания.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162789">т:систем.нуллабле ' 1</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TimeWindow</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Свойство получает или задает период времени, для которого возвращается подробные сведения о времени предложенного собрания.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> объект класса.</value>
+        <summary>Свойство получает или задает период времени, для которого возвращаются подробные сведения о предложенном времени проведения собрания.</summary>
+        <value>Значением <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" /> свойства является объект <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> Class.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,8 +89,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает глобальный идентификатор собрание, которую нужно изменить, возвращаемые данные.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
+        <summary>Получает или задает глобальный идентификатор собрания, который необходимо изменить с помощью возвращенных данных.</summary>
+        <value><see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" /> Свойство имеет значение <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,8 +109,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает процент участников, которые необходимо открыть для периода времени, в рамках программы как хороший предложенного собрания период времени.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <summary>Получает или задает процент участников, которые должны иметь период времени, который должен быть указан в качестве приемлемого времени проведения собрания.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,8 +129,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает количество времени, которые должны предложенных за пределами обычных рабочих часов в день.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <summary>Получает или задает количество времени собрания, которое должно быть предложено за преработкой нестандартных рабочих часов в день.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,8 +149,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает максимальное количество попыток собрания, которые должны быть предложенных в день.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <summary>Получает или задает максимальное количество времени собрания, которое должно быть предложено в день.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -177,8 +169,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает длительность, в минутах, собрания, для которого необходимо получить предложения.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <summary>Получает или задает продолжительность собрания в минутах, для которого требуется получить предложения.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -197,8 +189,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает разницу между двумя последовательными совещаний объединенное представление сведений о доступности.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <summary>Получает или задает разное время между двумя последовательными временами собраний в объединенном представлении сведений о доступности.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -217,8 +209,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает минимальное качество предложений для возврата.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> значение перечисления. Значение по умолчанию — <see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />.</value>
+        <summary>Получает или задает минимальное качество возвращаемых предложений.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" /> свойства является значением <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> перечисления. Значение по умолчанию — <see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -237,8 +229,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает запрашиваемый тип представления сведений о доступности.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> значение перечисления. Значение по умолчанию — <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />.</value>
+        <summary>Получает или задает запрошенный тип представления сведений о доступности.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" /> свойства является значением <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> перечисления. Значение по умолчанию — <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

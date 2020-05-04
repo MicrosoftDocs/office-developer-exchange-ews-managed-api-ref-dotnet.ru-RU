@@ -1,13 +1,5 @@
 <Type Name="NotificationEvent" FullName="Microsoft.Exchange.WebServices.Data.NotificationEvent">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="45e1276875ebddfc45db7ea891e6ac8cba8bbf13" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626898" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class NotificationEvent" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="45e1276875ebddfc45db7ea891e6ac8cba8bbf13" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626898" /></Metadata><TypeSignature Language="C#" Value="public abstract class NotificationEvent" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit NotificationEvent extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NotificationEvent" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class NotificationEvent" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет событие, которая предоставляется и извещающих уведомлений.</summary>
+    <summary>Представляет событие, которое предоставляется с помощью уведомлений push и Pull.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,13 +52,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор старый родительской папки, элемента или папки, к которому применяется данное событие.</summary>
-        <value>FolderId объект, который определяет старый родительской папки, элемента или папки, к которому применяется данное событие.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.OldParentFolderId" /> Свойство применяется только тогда, когда <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" /> свойство установлено значение <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Copied" />. Для всех остальных типов событий это свойство соответствует пустая ссылка (Nothing в Visual Basic).</para>
-          <para />
-        </remarks>
+        <summary>Получает идентификатор старой родительской папки элемента или папки, к которой применяется это событие.</summary>
+        <value>Объект FolderId, определяющий старую родительскую папку элемента или папки, к которой применяется это событие.</value>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.OldParentFolderId" /> Свойство имеет смысл только в том случае <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" /> , если для свойства задано значение <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Copied" />. Для всех остальных типов событий это свойство является пустой ссылкой (Nothing в Visual Basic).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ParentFolderId">
@@ -84,8 +73,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает родительский папки идентификатор родительской папки, элемента или папки, к которому применяется это событие.</summary>
-        <value>Объект FolderId, который содержит идентификатор родительской папки для родительской папки, элемента или папки, к которому применяется данное событие.</value>
+        <summary>Получает идентификатор родительской папки для родительской папки элемента или папки, к которой применяется это событие.</summary>
+        <value>Объект FolderId, который содержит идентификатор родительской папки для родительской папки элемента или папки, к которой применяется это событие.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,7 +94,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает отметку времени для события.</summary>
-        <value>Значение даты и времени, который содержит дату и время возникновения события.</value>
+        <value>Значение DateTime, которое содержит дату и время возникновения события.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverLocalException" FullName="Microsoft.Exchange.WebServices.Data.AutodiscoverLocalException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="23e821cd841f2c4bbe75a1c693c36e47a54a5d49" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627035" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class AutodiscoverLocalException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="23e821cd841f2c4bbe75a1c693c36e47a54a5d49" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627035" /></Metadata><TypeSignature Language="C#" Value="public class AutodiscoverLocalException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AutodiscoverLocalException extends Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AutodiscoverLocalException" />
   <TypeSignature Language="VB.NET" Value="Public Class AutodiscoverLocalException&#xA;Inherits ServiceLocalException" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет исключение, порождаемое, если не удалось подключиться к службе автообнаружения.</summary>
+    <summary>Представляет исключение, которое выдается, когда не удается связаться со службой автообнаружения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,11 +30,9 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса AutodiscoverLocalException.</summary>
-        <remarks>
-          <para>Конструктор по умолчанию инициализирует все поля значениями по умолчанию.</para>
-          <para />
-        </remarks>
+        <summary>Инициализирует новый экземпляр класса Аутодисковерлокалексцептион.</summary>
+        <remarks><para>Конструктор по умолчанию инициализирует все поля значениями по умолчанию.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -60,8 +50,8 @@
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">Строка, которая указывает причину данного исключения.</param>
-        <summary>Инициализирует новый экземпляр класса AutodiscoverLocalException со строкой сообщения, задайте для данного сообщения.</summary>
+        <param name="message">Строка, указывающая причину возникновения этого исключения.</param>
+        <summary>Инициализирует новый экземпляр класса Аутодисковерлокалексцептион с заданным сообщением, заданным для строки сообщения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,9 +71,9 @@
         <Parameter Name="innerException" Type="System.Exception" />
       </Parameters>
       <Docs>
-        <param name="message">Строка, которая указывает причину данного исключения.</param>
+        <param name="message">Строка, указывающая причину возникновения этого исключения.</param>
         <param name="innerException">Исключение, которое является причиной текущего исключения.</param>
-        <summary>Инициализирует новый экземпляр класса AutodiscoverLocalException со ссылкой на внутреннее исключение, которое является причиной данного исключения.</summary>
+        <summary>Инициализирует новый экземпляр класса Аутодисковерлокалексцептион со ссылкой на внутреннее исключение, которое является причиной возникновения этого исключения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

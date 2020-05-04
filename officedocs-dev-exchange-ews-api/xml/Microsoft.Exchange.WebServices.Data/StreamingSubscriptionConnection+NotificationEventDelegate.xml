@@ -1,13 +1,5 @@
 <Type Name="StreamingSubscriptionConnection+NotificationEventDelegate" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+NotificationEventDelegate">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="eaa5d4548252af7ef76514329860d85e567083df" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626517" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void StreamingSubscriptionConnection.NotificationEventDelegate(object sender, NotificationEventArgs args);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eaa5d4548252af7ef76514329860d85e567083df" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626517" /></Metadata><TypeSignature Language="C#" Value="public delegate void StreamingSubscriptionConnection.NotificationEventDelegate(object sender, NotificationEventArgs args);" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed StreamingSubscriptionConnection/NotificationEventDelegate extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection.NotificationEventDelegate" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub StreamingSubscriptionConnection.NotificationEventDelegate(sender As Object, args As NotificationEventArgs)" />
@@ -27,9 +19,9 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="sender">Экземпляр StreamingSubscriptionConnection, полученных событий.</param>
+    <param name="sender">Экземпляр StreamingSubscriptionConnection, который получил события.</param>
     <param name="args">Данные события.</param>
-    <summary>Представляет делегата, который вызывается при получении уведомления с сервера.</summary>
+    <summary>Представляет делегат, вызываемый при получении уведомлений от сервера.</summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

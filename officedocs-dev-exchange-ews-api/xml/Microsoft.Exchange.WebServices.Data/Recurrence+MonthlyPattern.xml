@@ -1,13 +1,5 @@
 <Type Name="Recurrence+MonthlyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+MonthlyPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bccbfec5b8cc5be888af2512804155d9ebb7f961" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626707" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Recurrence.MonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bccbfec5b8cc5be888af2512804155d9ebb7f961" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626707" /></Metadata><TypeSignature Language="C#" Value="public sealed class Recurrence.MonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/MonthlyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.MonthlyPattern&#xA;Inherits Recurrence.IntervalPattern" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет шаблон повторения, где каждый происходит в определенный день указанное число месяцев после предыдущей команды.</summary>
+    <summary>Представляет шаблон повторения, в котором каждое событие происходит в определенный день в определенное количество месяцев после предыдущего.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern.</summary>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Монслипаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,9 +52,9 @@
       </Parameters>
       <Docs>
         <param name="startDate">Дата и время начала повторения.</param>
-        <param name="interval">Число месяцев между каждого повтора.</param>
-        <param name="dayOfMonth">День месяца, когда происходит каждого повтора.</param>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern.</summary>
+        <param name="interval">Число месяцев между повторениями.</param>
+        <param name="dayOfMonth">День месяца, когда происходит каждое событие.</param>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Монслипаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,12 +73,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает день месяца, когда происходит каждого повтора.</summary>
+        <summary>Получает или задает день месяца, когда происходит каждое событие.</summary>
         <value>Целое число.</value>
-        <remarks>
-          <para>День месяца должен быть от 1 до 31.</para>
-          <para />
-        </remarks>
+        <remarks><para>DayOfMonth должен находиться в пределах от 1 до 31.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

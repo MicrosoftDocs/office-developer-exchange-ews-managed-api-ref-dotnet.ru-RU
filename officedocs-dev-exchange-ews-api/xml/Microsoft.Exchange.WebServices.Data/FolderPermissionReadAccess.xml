@@ -1,13 +1,5 @@
 <Type Name="FolderPermissionReadAccess" FullName="Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c585dc6e4449b474d86e76eb8c170dc94fc7c3b8" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626765" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FolderPermissionReadAccess" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c585dc6e4449b474d86e76eb8c170dc94fc7c3b8" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626765" /></Metadata><TypeSignature Language="C#" Value="public enum FolderPermissionReadAccess" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FolderPermissionReadAccess extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess" />
   <TypeSignature Language="VB.NET" Value="Public Enum FolderPermissionReadAccess" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет пользователя разрешение на чтение для элементов в папке календаря, отличного от.</summary>
+    <summary>Определяет разрешение на чтение для элементов в папке, не относящейся к календарю.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Пользователь имеет доступ к полные сведения элементов.</summary>
+        <summary>У пользователя есть доступ к полным сведениям об элементах.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Пользователь имеет доступ на чтение для элементов в папке.</summary>
+        <summary>У пользователя нет прав на чтение элементов в папке.</summary>
       </Docs>
     </Member>
     <Member MemberName="TimeAndSubjectAndLocation">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Пользователь может читать начальная и конечная даты и время, тему и место встречи. (Может применяться только к папкам календаря).</summary>
+        <summary>Пользователь может читать дату и время начала и окончания, тему и место встречи. (Можно применять только к папкам календаря).</summary>
       </Docs>
     </Member>
     <Member MemberName="TimeOnly">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Пользователь может читать начальная и конечная даты и времени встречи. (Может применяться только к папкам календаря).</summary>
+        <summary>Пользователь может считывать дату и время начала и окончания встреч. (Можно применять только к папкам календаря).</summary>
       </Docs>
     </Member>
   </Members>

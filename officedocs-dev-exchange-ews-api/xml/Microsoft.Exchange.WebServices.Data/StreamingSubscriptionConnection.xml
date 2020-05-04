@@ -1,13 +1,5 @@
 <Type Name="StreamingSubscriptionConnection" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e9da615d5ab3c567c9b50f777e7e045855d28108" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626812" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class StreamingSubscriptionConnection : IDisposable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e9da615d5ab3c567c9b50f777e7e045855d28108" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626812" /></Metadata><TypeSignature Language="C#" Value="public sealed class StreamingSubscriptionConnection : IDisposable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StreamingSubscriptionConnection extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StreamingSubscriptionConnection&#xA;Implements IDisposable" />
@@ -25,7 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Представляет подключение для текущего потока событий.</summary>
+    <summary>Представляет подключение к текущему потоку событий.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,8 +37,7 @@
         <Parameter Name="lifetime" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, который использует это подключение для подключения к серверу.</param>
+        <param name="service"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, который используется этим подключением для подключения к серверу.</param>
         <param name="lifetime">To be added.</param>
         <summary>Инициализирует новый экземпляр класса StreamingSubscriptionConnection.</summary>
         <remarks>To be added.</remarks>
@@ -69,9 +60,8 @@
         <Parameter Name="lifetime" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, который использует это подключение для подключения к серверу.</param>
-        <param name="subscriptions">A <see cref="T:Microsoft.Exchange.WebServices.Data.StreamingSubscription" /> объекта.</param>
+        <param name="service"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, который используется этим подключением для подключения к серверу.</param>
+        <param name="subscriptions">Объект <see cref="T:Microsoft.Exchange.WebServices.Data.StreamingSubscription" />.</param>
         <param name="lifetime">To be added.</param>
         <summary>Инициализирует новый экземпляр класса StreamingSubscriptionConnection.</summary>
         <remarks>To be added.</remarks>
@@ -95,10 +85,10 @@
         <Parameter Name="subscription" Type="Microsoft.Exchange.WebServices.Data.StreamingSubscription" />
       </Parameters>
       <Docs>
-        <param name="subscription">Подписки для добавления.</param>
-        <summary>Добавляет подписку на это подключение.</summary>
+        <param name="subscription">Добавляемая подписка.</param>
+        <summary>Добавляет подписку к этому подключению.</summary>
         <remarks>To be added.</remarks>
-        <exception cref="System.InvalidOperationException">Возникает при вызове AddSubscription во время подключения.</exception>
+        <exception cref="System.InvalidOperationException">Вызывается при вызове Addsubscriptionhttp при подключении.</exception>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -117,11 +107,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Закрывает это подключение таким образом останавливается, получение событий с сервера.</summary>
-        <remarks>
-          <para>Это завершение работы долгосрочную звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Закрывает это подключение, чтобы оно прекратило получать события от сервера.</summary>
+        <remarks><para>Это завершает долгосрочный вызов веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentSubscriptions">
@@ -139,7 +127,7 @@
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.StreamingSubscription&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает текущий подписок данного подключения.</summary>
+        <summary>Получает текущие подписки в данном подключении.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,7 +151,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Освобождает ресурсы, которые связаны с этой StreamingSubscriptionConnection.</summary>
+        <summary>Освобождает ресурсы, связанные с этим StreamingSubscriptionConnection.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -202,9 +190,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, открыт ли это подключение.</summary>
-        <value>
-          <b>значение true,</b> Если подключение открыто; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, открыто ли это подключение.</summary>
+        <value><b>значение true</b> , если подключение открыто; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -223,7 +210,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+SubscriptionErrorDelegate</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит, когда потоковой передачи подписки соединения с сервера.</summary>
+        <summary>Происходит, когда подключение к потоковой подписке отключается от сервера.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -242,7 +229,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+NotificationEventDelegate</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит, когда происходит получение уведомлений с сервера.</summary>
+        <summary>Возникает при получении уведомлений от сервера.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -261,7 +248,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+SubscriptionErrorDelegate</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит, когда подписка возникает ошибка.</summary>
+        <summary>Возникает, когда в подписке возникает ошибка.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -281,9 +268,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Открывает это подключение начинается для получения событий на сервере.</summary>
+        <summary>Открывает это подключение, чтобы оно начинало получать события с сервера.</summary>
         <remarks>To be added.</remarks>
-        <exception cref="System.InvalidOperationException">Возникает при вызове открыть во время подключения.</exception>
+        <exception cref="System.InvalidOperationException">Вызывается, когда вызывается метод Open при подключении.</exception>
       </Docs>
     </Member>
     <Member MemberName="RemoveSubscription">
@@ -304,10 +291,10 @@
         <Parameter Name="subscription" Type="Microsoft.Exchange.WebServices.Data.StreamingSubscription" />
       </Parameters>
       <Docs>
-        <param name="subscription">Подписки, которую необходимо удалить.</param>
-        <summary>Удаление указанной подписки потоковой передачи из подключения.</summary>
+        <param name="subscription">Подписку, которую необходимо удалить.</param>
+        <summary>Удаляет указанную потоковую подписку из подключения.</summary>
         <remarks>To be added.</remarks>
-        <exception cref="System.InvalidOperationException">Возникает при вызове RemoveSubscription во время подключения.</exception>
+        <exception cref="System.InvalidOperationException">Вызывается при вызове Ремовесубскриптион при подключении.</exception>
       </Docs>
     </Member>
   </Members>

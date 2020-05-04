@@ -1,13 +1,5 @@
 <Type Name="Item" FullName="Microsoft.Exchange.WebServices.Data.Item">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627081" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627081" /></Metadata><TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Item extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="VB.NET" Value="Public Class Item&#xA;Inherits ServiceObject" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет универсальный элемент. Свойства, доступные на элементы определены в <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> класса. <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> Типа используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет общий элемент. Свойства, доступные для элементов, определяются в <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> классе. <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> Тип применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseActions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, разрешенные действия ответа по этому элементу. Примеры действий ответа, ответить или переслать.</summary>
-        <value>Значение перечисления ResponseActions.</value>
+        <summary>Получает значение, указывающее, какие действия отклика разрешены для данного элемента. Примерами действий ответа являются ответ и пересылка.</summary>
+        <value>Значение перечисления Респонсеактионс.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,7 +52,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тег архива.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает Тег архива.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Тег архива.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,8 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список вложений для данного элемента.</summary>
-        <value>Объект AttachmentCollection.</value>
+        <summary>Получает список вложений для этого элемента.</summary>
+        <value>Объект Аттачментколлектион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,12 +96,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к элементу.</param>
-        <param name="id">Идентификатор элемента для привязки.</param>
-        <summary>Выполняет привязку к существующему элементу, независимо от его фактический тип и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр элемента, представляющий элемент, который соответствует с указанным идентификатором.</returns>
+        <param name="service">Служба, используемая для связывания с элементом.</param>
+        <param name="id">Идентификатор элемента, к которому необходимо присоединиться.</param>
+        <summary>Применяет к существующему элементу, независимо от его фактического типа, и загружает свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр элемента, представляющий элемент, соответствующий указанному ИДЕНТИФИКАТОРу.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</exception>
+        <exception cref="T:System.ArgumentNullException">Подробнее об этом исключении можно узнать <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />в статье.</exception>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -131,13 +123,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к элементу.</param>
-        <param name="id">Идентификатор элемента для привязки.</param>
+        <param name="service">Служба, используемая для связывания с элементом.</param>
+        <param name="id">Идентификатор элемента, к которому необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующему элементу, независимо от его фактический тип и загружает указанный набор свойств.</summary>
-        <returns>Экземпляр элемента, представляющий элемент, в соответствии с указанным идентификатором.</returns>
+        <summary>Применяет к существующему элементу, независимо от его фактического типа, и загружает указанный набор свойств.</summary>
+        <returns>Экземпляр элемента, представляющий элемент, соответствующий указанному ИДЕНТИФИКАТОРу.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</exception>
+        <exception cref="T:System.ArgumentNullException">Подробнее об этом исключении можно узнать <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />в статье.</exception>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -155,8 +147,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тело этого элемента.</summary>
-        <value>Объект MessageBody.</value>
+        <summary>Получает или задает основной текст этого элемента.</summary>
+        <value>Объект Мессажебоди.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -175,8 +167,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список категорий, которые связаны с этим элементом.</summary>
-        <value>Объект основная система.</value>
+        <summary>Получает или задает список категорий, связанных с этим элементом.</summary>
+        <value>Объект Стринглист.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -195,7 +187,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор беседы, этот элемент.</summary>
+        <summary>Получает идентификатор диалога, в состав которого входит этот элемент.</summary>
         <value>Объект ConversationId.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -218,8 +210,8 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки, в котором необходимо создать копию этого элемента.</param>
-        <summary>Создает копию этого элемента в указанной папке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="destinationFolderId">Идентификатор папки, в которой будет создана копия этого элемента.</param>
+        <summary>Создает копию этого элемента в указанной папке. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <returns>Объект Item.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -242,8 +234,8 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, в котором необходимо создать копию этого элемента.</param>
-        <summary>Создает копию этого элемента в указанной папке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="destinationFolderName">Имя папки, в которой будет создана копия этого элемента.</param>
+        <summary>Создает копию этого элемента в указанной папке. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <returns>Объект Item.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -263,8 +255,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает язык и региональные параметры, связанный с этим элементом.</summary>
-        <value>String, указывающее язык и региональные параметры элемента.</value>
+        <summary>Получает или задает язык и региональные параметры, связанные с этим элементом.</summary>
+        <value>Строка, указывающая язык и региональные параметры элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -283,8 +275,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время, в которой был создан этот элемент.</summary>
-        <value>Значение даты и времени, указывающее дату и время создания элемента.</value>
+        <summary>Получает дату и время создания элемента.</summary>
+        <value>Значение DateTime, указывающее дату и время создания элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -303,8 +295,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает время, когда этот элемент был получен.</summary>
-        <value>Значение даты и времени, указывающее дату и время получения элемента.</value>
+        <summary>Получает время получения этого элемента.</summary>
+        <value>Значение DateTime, указывающее дату и время получения элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -323,8 +315,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время отправки этому элементу.</summary>
-        <value>Значение даты и времени, указывающее дату и время отправки элемента.</value>
+        <summary>Получает дату и время отправки элемента.</summary>
+        <value>Значение DateTime, указывающее дату и время отправки элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -346,7 +338,7 @@
       </Parameters>
       <Docs>
         <param name="deleteMode">Режим удаления.</param>
-        <summary>Удаляет элемент. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <summary>Удаляет элемент. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -369,9 +361,8 @@
       </Parameters>
       <Docs>
         <param name="deleteMode">Режим удаления.</param>
-        <param name="suppressReadReceipts">
-          <b>значение true,</b> Если считывания квитанций не должен отправляться, если элемент удаляется запросил прочтении; в противном случае — <b>false</b>.</param>
-        <summary>Удаляет элемент. Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
+        <param name="suppressReadReceipts"><b>имеет значение true</b> , если уведомления о прочтении не следует отправлять, если удаляемый элемент запросил уведомление о прочтении; в противном случае — <b>false</b>.</param>
+        <summary>Удаляет элемент. Вызов этого метода приводит к вызову EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -390,7 +381,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строку текста, в котором приведены получателей копии этого элемента.</summary>
+        <summary>Получает текстовую строку, в которой перечисляются получатели копии этого элемента.</summary>
         <value>Строковое значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -410,7 +401,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строку текста, в котором приведены получателей для этого элемента.</summary>
+        <summary>Получает текстовую строку, в которой перечислены получатели этого элемента.</summary>
         <value>Строковое значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -430,8 +421,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, действующих прав, для которых есть текущего прошедшего проверку подлинности пользователя по этому элементу.</summary>
-        <value>Значение перечисления EffectiveRights.</value>
+        <summary>Получает значение, указывающее действующие права, которые текущий пользователь, прошедший проверку подлинности, имеет для этого элемента.</summary>
+        <value>Значение перечисления Еффективеригхтс.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -450,8 +441,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EntityExtractionResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сведения о извлечение сущностей для элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Извлеченные сущностей.</value>
+        <summary>Получает сведения об извлечении сущностей для элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Извлеченные объекты.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -470,8 +461,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список расширенные свойства, которые определены по этому элементу.</summary>
-        <value>Объект ExtendedPropertyCollection.</value>
+        <summary>Получает список расширенных свойств, определенных для этого элемента.</summary>
+        <value>Объект Екстендедпропертиколлектион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -490,7 +481,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Flag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение флага, указывающее состояние, Дата начала, Дата завершения или Дата завершения для элемента.   <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает значение флага, которое указывает состояние, дату начала, дату выполнения или дату завершения для элемента.   <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Значение флага для этого элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -510,8 +501,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли элемент содержит вложения.</summary>
-        <value>Значение true, если элемент содержит вложения; в противном случае — false.</value>
+        <summary>Получает значение, указывающее, есть ли у элемента вложения.</summary>
+        <value>Значение true, если элемент имеет вложения; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -530,7 +521,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает индекс значка. <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает индекс значка. <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Индекс значка.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -550,7 +541,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор данного элемента.</summary>
+        <summary>Получает идентификатор этого элемента.</summary>
         <value>Объект ItemId.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -570,8 +561,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает важности для данного элемента.</summary>
-        <value>Важность значение перечисления, указывающее, важности элемента.</value>
+        <summary>Получает или задает важность этого элемента.</summary>
+        <value>Значение перечисления важности, указывающее важность элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -590,7 +581,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ссылку на ответ для этого элемента.</summary>
+        <summary>Получает или задает ссылку на ссылку для этого элемента.</summary>
         <value>Строковое значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -610,7 +601,7 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ключ экземпляра элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает ключ экземпляра элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Ключ экземпляра элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -630,16 +621,13 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список заголовков Интернета для этого элемента. Чтобы получить вся коллекция заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> Объекта.</value>
-        <remarks>
-          <para>Ниже приводится определение PR_TRANSPORT_MESSAGE_HEADERS расширенные свойства.</para>
-          <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
-          <para>Можно добавить определение свойств к <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> для получения заголовков сообщений Интернета.</para>
-          <para>Дополнительные сведения о веб-служб Exchange и Интернет заголовки сообщений, посвященной «Приступая к Интернету заголовки сообщений» в <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">веб-служб Exchange, MIME и отсутствующие заголовков сообщений Интернета</a></para>
-          <para />
-        </remarks>
+        <summary>Получает список заголовков Интернета для этого элемента. Чтобы получить всю коллекцию заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS.</summary>
+        <value><see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> Объект.</value>
+        <remarks><para>Ниже приведено определение расширенного свойства PR_TRANSPORT_MESSAGE_HEADERS.</para> 
+          <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code> 
+          <para>Вы можете добавить это определение свойства в <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> объект, чтобы получить заголовки сообщений Интернета.</para> 
+          <para>Дополнительные сведения о службах EWS и заголовках сообщений в Интернете приведены в разделе "извлечение заголовков сообщений Интернета" в <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME и отсутствующих заголовках сообщений в Интернете</a> </para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsAssociated">
@@ -657,8 +645,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли связанный элемент.</summary>
-        <value>Значение true, если связанный элемент; в противном случае — false.</value>
+        <summary>Получает значение, указывающее, является ли это значение связанным элементом.</summary>
+        <value>Значение true, если это связанный элемент; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -677,8 +665,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли элемент вложение.</summary>
-        <value>Значение true, если элемент содержит вложение; в противном случае — false.</value>
+        <summary>Получает значение, указывающее, является ли элемент вложенным.</summary>
+        <value>Значение true, если элемент имеет вложение; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -697,7 +685,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли элемент черновик. Элемент является черновиком, когда он не был отправлен.</summary>
+        <summary>Получает значение, указывающее, является ли элемент черновиком. Элемент является черновиком, когда он еще не был отправлен.</summary>
         <value>Значение true, если этот элемент является черновиком; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -717,8 +705,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, был ли отправлен элемента для текущего пользователя, прошедшего проверку подлинности.</summary>
-        <value>Значение true, если он передается текущего пользователя; в противном случае — false.</value>
+        <summary>Получает значение, указывающее, был ли элемент отправлен текущим пользователем, прошедшим проверку подлинности.</summary>
+        <value>Значение true, если элемент отправляется текущим прошедшим проверку подлинности пользователем; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -737,7 +725,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли этот объект элемента реальных хранилища или локальный объект, который еще не сохраняются.</summary>
+        <summary>Получает значение, указывающее, является ли этот объект реальным элементом хранилища или локальным объектом, который еще не был сохранен.</summary>
         <value>Значение true, если элемент не был сохранен; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -757,8 +745,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, установлен ли напоминания для этого элемента.</summary>
-        <value>Значение true, если значение напоминания; в противном случае — false.</value>
+        <summary>Получает или задает значение, указывающее, задано ли для этого элемента напоминание.</summary>
+        <value>Значение true, если напоминание задано; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -777,8 +765,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли элемент отправить другого элемента.</summary>
-        <value>Значение true, если элемент отправить; в противном случае — false.</value>
+        <summary>Получает значение, указывающее, является ли элемент повторной отправкой другого элемента.</summary>
+        <value>Значение true, если элемент является повторной отправкой; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -797,7 +785,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, отправил ли отправку сообщения.</summary>
+        <summary>Получает значение, указывающее, отправлено ли сообщение для отправки.</summary>
         <value>Значение true, если элемент был отправлен; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -817,7 +805,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, был ли элемент изменен после его создания.</summary>
+        <summary>Получает значение, указывающее, был ли элемент изменен с момента его создания.</summary>
         <value>Значение true, если элемент не был изменен; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -837,7 +825,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя настраиваемого класса этого элемента.</summary>
+        <summary>Получает или задает имя настраиваемого класса для этого элемента.</summary>
         <value>Строковое значение, указывающее имя настраиваемого класса.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -857,8 +845,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя пользователя, который последнего изменения этого элемента.</summary>
-        <value>Строковое значение, указывающее пользователя, который последним редактировал элемент.</value>
+        <summary>Получает имя пользователя, который последним изменил этот элемент.</summary>
+        <value>Строковое значение, обозначающее пользователя, который последним изменил элемент.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -877,8 +865,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время последнего изменения этого элемента.</summary>
-        <value>Значение даты и времени, указывающее дату и время последнего изменения элемента.</value>
+        <summary>Получает дату и время последнего изменения элемента.</summary>
+        <value>Значение DateTime, указывающее дату и время последнего изменения элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -897,8 +885,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MimeContent</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает MIME содержимое этого элемента.</summary>
-        <value>Объект MimeContent.</value>
+        <summary>Получает MIME для данного элемента.</summary>
+        <value>Объект Сохранитьmimecontent.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -920,8 +908,8 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки, к которой необходимо переместить этот элемент.</param>
-        <summary>Перемещает этот элемент в указанной папке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="destinationFolderId">Идентификатор папки, в которую необходимо переместить этот элемент.</param>
+        <summary>Перемещает этот элемент в указанную папку. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <returns>Объект Item.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -944,8 +932,8 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, к которой необходимо переместить этот элемент.</param>
-        <summary>Перемещает этот элемент в указанной папке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="destinationFolderName">Имя папки, в которую необходимо переместить этот элемент.</param>
+        <summary>Перемещает этот элемент в указанную папку. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <returns>Объект Item.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -965,8 +953,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.NormalizedBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает текст сообщения элемента, который был преобразован в нормализованного значения.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Нормализованный тело элемента.</value>
+        <summary>Получает текст сообщения элемента, который был преобразован в нормализованное значение.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Нормализованный текст элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1005,7 +993,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение политики хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает значение политики хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Значение политики хранения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1025,8 +1013,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает предварительной версии элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Просмотр элемента.</value>
+        <summary>Получает предварительный просмотр элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Предварительный просмотр элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1045,8 +1033,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату и время, когда напоминание должно быть выполнено для этого элемента.</summary>
-        <value>Значение даты и времени, указывающее дату и время напоминания срок выполнения.</value>
+        <summary>Получает или задает дату и время окончания срока напоминания для этого элемента.</summary>
+        <value>Значение DateTime, указывающее дату и время, когда напоминание будет связано.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1065,7 +1053,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает число минут перед началом этого элемента напоминания должна быть выполнена.</summary>
+        <summary>Получает или задает количество минут до начала этого элемента, которое должно вызываться напоминанием.</summary>
         <value>Целое значение, указывающее количество минут.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1087,9 +1075,9 @@
         <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="extendedPropertyDefinition">Определение расширенные свойства.</param>
-        <summary>Удаляет расширенные свойства.</summary>
-        <returns>Значение true, если свойство был удален; в противном случае — false.</returns>
+        <param name="extendedPropertyDefinition">Определение расширенного свойства.</param>
+        <summary>Удаляет расширенное свойство.</summary>
+        <returns>Значение true, если свойство было удалено; в противном случае — false.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1108,8 +1096,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату, до которой должен быть сохранен элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Дата удержания.</value>
+        <summary>Получает дату, до которой должен быть сохранен элемент.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Дата хранения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1129,7 +1117,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Сохраняет этот элемент в папке по умолчанию, в зависимости от типа элемента. При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS). Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</summary>
+        <summary>Сохраняет этот элемент в папке по умолчанию на основе типа элемента. Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS). Если добавлено вложение, можно выполнить несколько вызовов EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1151,8 +1139,8 @@
         <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="parentFolderId">Идентификатор папку, в которой требуется сохранить этот элемент.</param>
-        <summary>Сохраняет этот элемент в указанной папки. При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS). Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</summary>
+        <param name="parentFolderId">Идентификатор папки, в которой необходимо сохранить этот элемент.</param>
+        <summary>Сохраняет этот элемент в определенной папке. Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS). Если добавлено вложение, можно выполнить несколько вызовов EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1174,8 +1162,8 @@
         <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="parentFolderName">Имя папки, в котором следует сохранить этот элемент.</param>
-        <summary>Сохраняет этот элемент в указанной папки. При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS). Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</summary>
+        <param name="parentFolderName">Имя папки, в которой необходимо сохранить этот элемент.</param>
+        <summary>Сохраняет этот элемент в определенной папке. Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS). Если добавлено вложение, можно выполнить несколько вызовов EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1194,8 +1182,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает уровень конфиденциальности сообщения этому элементу.</summary>
-        <value>Объект уровень конфиденциальности сообщения.</value>
+        <summary>Получает чувствительность этого элемента.</summary>
+        <value>Объект чувствительности.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1217,9 +1205,9 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="extendedPropertyDefinition">Расширенные свойства для установки.</param>
-        <param name="value">Значение, присваиваемое на к расширенному свойству.</param>
-        <summary>Устанавливает для указанного расширенные свойства для указанного значения.</summary>
+        <param name="extendedPropertyDefinition">Расширенное свойство, которое необходимо задать.</param>
+        <param name="value">Значение, которое необходимо задать для расширенного свойства.</param>
+        <summary>Задает указанное значение для указанного расширенного свойства.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1258,8 +1246,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор записи хранилища, где размещается элемент.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Запись с идентификатором хранилища.</value>
+        <summary>Получает идентификатор хранилища, в котором размещается элемент.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор записи хранилища.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1298,8 +1286,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает текст элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Текста элемента.</value>
+        <summary>Получает текст элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Текст текста элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1318,7 +1306,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.UniqueBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает часть текста, который является уникальным для беседы, этот элемент.</summary>
+        <summary>Возвращает часть тела, которая является уникальной для диалога, частью которого является данный элемент.</summary>
         <value>Объект UniqueBody.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1341,7 +1329,7 @@
       </Parameters>
       <Docs>
         <param name="conflictResolutionMode">Режим разрешения конфликтов.</param>
-        <summary>Применяет локальные изменения, внесенные в этот элемент. При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS). Несколько вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</summary>
+        <summary>Применяет локальные изменения, внесенные в этот элемент. Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS). Несколько вызовов EWS можно выполнить при добавлении или удалении вложений.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1364,9 +1352,8 @@
       </Parameters>
       <Docs>
         <param name="conflictResolutionMode">Режим разрешения конфликтов.</param>
-        <param name="suppressReadReceipts">
-          <b>значение true,</b> Если считывания квитанций не должен отправляться, если обновление элемента запросил прочтении; в противном случае — <b>false</b>.</param>
-        <summary>Применяет локальные изменения, внесенные в этот элемент. При вызове этого метода приводит к по крайней мере один вызов веб-служб Exchange. Множественные вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</summary>
+        <param name="suppressReadReceipts"><b>имеет значение true</b> , если уведомления о прочтении не следует отправлять, если обновляемый элемент запросил уведомление о прочтении; в противном случае — <b>false</b>.</param>
+        <summary>Применяет локальные изменения, внесенные в этот элемент. Вызов этого метода приводит к по крайней мере один вызов EWS. Вызовы мутлипле в EWS могут быть сделаны при добавлении или удалении вложений.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1385,12 +1372,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строку запроса, который может быть добавлен к Outlook Web App URL-адрес для открытия этого элемента в веб-браузере.</summary>
+        <summary>Получает строку запроса, которую можно добавить к URL-адресу Outlook Web App, чтобы открыть этот элемент в веб-браузере.</summary>
         <value>Строковое значение.</value>
-        <remarks>
-          <para>Это свойство применяется к Exchange 2010. Используйте сведения из <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> свойство откройте элемент черновик в Outlook Web App, а затем использовать пользовательский Интерфейс для редактирования элемента черновика.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство применяется к Exchange 2010. Используйте сведения из <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> свойства, чтобы открыть черновик элемента в Outlook Web App, а затем используйте пользовательский интерфейс для редактирования элемента черновика.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="WebClientReadFormQueryString">
@@ -1408,17 +1393,14 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строку запроса, который должен быть добавлен к Exchange web client URL-адрес для открытия этого элемента с помощью соответствующие формы чтения в веб-браузере.</summary>
+        <summary>Получает строку запроса, которая должна быть добавлена в URL-адрес веб-клиента Exchange для открытия этого элемента с помощью соответствующей формы чтения в веб-браузере.</summary>
         <value>Строковое значение.</value>
-        <remarks>
-          <para>Идентификатор элемента для URL-адрес Outlook Web App — это веб-служб Exchange идентификатор элемента. Можно закодировать URL-адрес веб-служб Exchange идентификатор элемента и добавить его в строку запроса, чтобы получить URL-адрес Outlook Web App для элемента.</para>
-          <para>Различия версий</para>
-          <para>Версии Exchange начиная с основной номер версии 15 и 15.00.775.009 не возвращает фрагмент строки правильный запрос в <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> свойство.</para>
-          <para>В версиях Exchange до 15 основной номер версии, идентификатор элемента для URL-адрес Outlook Web App — это идентификатор Outlook Web App. Если вы используете версия Exchange более ранних чем основной номер версии 15, необходимо использовать <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> метод, чтобы преобразовать идентификатор.</para>
-          <para />
-        </remarks>
-        <example>
-          <code>    /// &amp;lt;summary&amp;gt;
+        <remarks><para>Идентификатор элемента для URL-адреса Outlook Web App — это идентификатор EWS элемента. Можно использовать URL-кодирование идентификатора элемента EWS и добавить его в строку запроса, чтобы получить URL-адрес Outlook Web App для элемента.</para> 
+          <para>Отличия</para>версий
+          <para>Exchange, начиная с основной версии 15 и заканчивая 15.00.775.009, не возвращают соответствующий фрагмент строки запроса в <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> свойстве.</para> 
+          <para>В более ранних версиях Exchange идентификатор элемента для URL-адреса Outlook Web App — это идентификатор Outlook Web App. Если вы нацелены на более раннюю версию Exchange, чем основная версия 15, необходимо использовать <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> метод для преобразования идентификатора.</para>
+          <para /></remarks>
+        <example><code>    /// &amp;lt;summary&amp;gt;
     /// Demonstrates how to open an item in Outlook Web App.
     /// &amp;lt;/summary&amp;gt;
     /// &amp;lt;param name="service"&amp;gt;An ExchangeService object that has already had credentials set and contains a valid service URL.&amp;lt;/param&amp;gt;
@@ -1476,8 +1458,7 @@
         Console.WriteLine(ex.Message);
         Console.WriteLine("ERRROR: Internet Explorer cannot be found.");
       }
-    }</code>
-        </example>
+    }</code></example>
       </Docs>
     </Member>
   </Members>

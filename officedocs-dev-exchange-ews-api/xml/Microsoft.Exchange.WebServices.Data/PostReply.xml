@@ -1,13 +1,5 @@
 <Type Name="PostReply" FullName="Microsoft.Exchange.WebServices.Data.PostReply">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="197031b17f33ca1bfb0875c1479314402aff0603" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627175" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PostReply : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="197031b17f33ca1bfb0875c1479314402aff0603" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627175" /></Metadata><TypeSignature Language="C#" Value="public sealed class PostReply : Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PostReply extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PostReply" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PostReply&#xA;Inherits ServiceObject" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ответ для элемента записи.</summary>
+    <summary>Представляет ответ на элемент POST.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает текст ответа на post.</summary>
-        <value>Основной текст сообщения элемента post.</value>
+        <summary>Получает или задает основной текст ответа POST.</summary>
+        <value>Текст сообщения элемента POST.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает текст префикса, которая вставляется тело исходного элемента записи.</summary>
-        <value>Начале стоит символ сообщения в теле сообщения элемента.</value>
+        <summary>Получает или задает префикс основного текста, добавляемый в начало тела элемента POST.</summary>
+        <value>Сообщение в начале сообщения элемента POST.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,12 +73,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Сохраняет поместить элемент ответ в ту же папку исходного элемента записи.</summary>
-        <returns>Элемент post, представляющий размещенное ответное сообщение.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Сохраняет ответ элемента POST в той же папке, что и исходный элемент POST.</summary>
+        <returns>Элемент POST, представляющий отправленный ответ.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -107,13 +97,11 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки папку назначения для сохранения поместить элемент ответ.</param>
-        <summary>Сохраняет поместить элемент ответ в указанной папке.</summary>
-        <returns>Элемент post, представляющий размещенное ответное сообщение.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="destinationFolderId">Идентификатор папки целевой папки, в которой нужно сохранить ответ элемента POST.</param>
+        <summary>Сохраняет ответ элемента POST в указанной папке.</summary>
+        <returns>Элемент POST, представляющий отправленный ответ.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -134,9 +122,9 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки папку назначения для сохранения поместить элемент ответ.</param>
-        <summary>Сохраняет поместить элемент ответ в указанной папке известных.</summary>
-        <returns>Элемент post, представляющий размещенное ответное сообщение.</returns>
+        <param name="destinationFolderName">Имя папки целевой папки, в которой нужно сохранить ответ элемента POST.</param>
+        <summary>Сохраняет ответ элемента POST в указанной надежной папке.</summary>
+        <returns>Элемент POST, представляющий отправленный ответ.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,8 +143,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тему поместить элемент ответ.</summary>
-        <value>Тема элемента записи.</value>
+        <summary>Получает или задает тему ответа элемента POST.</summary>
+        <value>Тема элемента POST.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

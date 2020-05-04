@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverErrorCode" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="743311a15bc3e0bff8793355c2b09fcbb19de6d4" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627355" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum AutodiscoverErrorCode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="743311a15bc3e0bff8793355c2b09fcbb19de6d4" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627355" /></Metadata><TypeSignature Language="C#" Value="public enum AutodiscoverErrorCode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AutodiscoverErrorCode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode" />
   <TypeSignature Language="VB.NET" Value="Public Enum AutodiscoverErrorCode" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет коды ошибок, которые могут быть возвращены с службы автообнаружения.</summary>
+    <summary>Определяет коды ошибок, которые могут возвращаться службой автообнаружения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Произошла ошибка внутреннего сервера.</summary>
+        <summary>Внутренняя ошибка сервера.</summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidDomain">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Запрошенный домен не является допустимым.</summary>
+        <summary>Запрошенный домен не является допустимым доменом.</summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidRequest">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Указанный параметр является недопустимым.</summary>
+        <summary>Указан недопустимый параметр.</summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidUser">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Пользователь, который был передан в запросе является недопустимым.</summary>
+        <summary>Недопустимый пользователь, переданный в запросе.</summary>
       </Docs>
     </Member>
     <Member MemberName="NoError">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Ошибок не было.</summary>
+        <summary>Ошибка не обнаружена.</summary>
       </Docs>
     </Member>
     <Member MemberName="NotFederated">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Указанный организации не подключенных к данной организации.</summary>
+        <summary>Указанная организация не является Федеративной с этой организацией.</summary>
       </Docs>
     </Member>
     <Member MemberName="RedirectAddress">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Необходимо выполнить перенаправление адреса электронной почты, возвращаемые службой автообнаружения, вызывающего абонента.</summary>
+        <summary>Вызывающий абонент должен следовать перенаправлению адресов электронной почты, которое было возвращено службой автообнаружения.</summary>
       </Docs>
     </Member>
     <Member MemberName="RedirectUrl">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Необходимо выполнить перенаправление URL-адреса, возвращаемые службой автообнаружения, вызывающего абонента.</summary>
+        <summary>Вызывающий абонент должен следовать перенаправлению URL-адреса, возвращенному службой автообнаружения.</summary>
       </Docs>
     </Member>
     <Member MemberName="ServerBusy">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Сервер занят обработать запрос.</summary>
+        <summary>Сервер перегружен и не может обработать запрос.</summary>
       </Docs>
     </Member>
     <Member MemberName="SettingIsNotAvailable">

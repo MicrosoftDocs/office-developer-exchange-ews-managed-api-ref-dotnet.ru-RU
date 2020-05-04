@@ -1,13 +1,5 @@
 <Type Name="FolderChange" FullName="Microsoft.Exchange.WebServices.Data.FolderChange">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9d79f971348ac2d6c7b329dc767443f129243b5c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626529" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FolderChange : Microsoft.Exchange.WebServices.Data.Change" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9d79f971348ac2d6c7b329dc767443f129243b5c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626529" /></Metadata><TypeSignature Language="C#" Value="public sealed class FolderChange : Microsoft.Exchange.WebServices.Data.Change" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderChange extends Microsoft.Exchange.WebServices.Data.Change" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderChange" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderChange&#xA;Inherits Change" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет изменение папки, который возвращается с помощью операции синхронизации.</summary>
+    <summary>Представляет изменение папки, которая возвращается операцией синхронизации.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,12 +32,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает папку, которая применяется к.</summary>
-        <value>Папка, которая применяется к.</value>
-        <remarks>
-          <para>Свойства папки — это пустая ссылка (Nothing в Visual Basic) при <see cref="P:Microsoft.Exchange.WebServices.Data.Change.ChangeType" /> свойство имеет значение <b>ChangeType.Delete</b>. В этом случае используйте <see cref="P:Microsoft.Exchange.WebServices.Data.FolderChange.FolderId" /> свойства, чтобы получить идентификатор папки, который был удален.</para>
-          <para />
-        </remarks>
+        <summary>Получает папку, к которой применяется изменение.</summary>
+        <value>Папка, к которой применяется изменение.</value>
+        <remarks><para>Свойство Folder является пустой ссылкой (Nothing в Visual Basic), <see cref="P:Microsoft.Exchange.WebServices.Data.Change.ChangeType" /> если свойство имеет значение <b>ChangeType. Delete</b>. В этом случае используйте <see cref="P:Microsoft.Exchange.WebServices.Data.FolderChange.FolderId" /> свойство, чтобы получить идентификатор удаленной папки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FolderId">
@@ -63,8 +53,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор папки, которая применяется к.</summary>
-        <value>Идентификатор папки, которая применяется к.</value>
+        <summary>Получает идентификатор папки, к которой применяется изменение.</summary>
+        <value>Идентификатор папки, к которой применяется изменение.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

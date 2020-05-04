@@ -1,13 +1,5 @@
 <Type Name="ChangeCollection&lt;TChange&gt;" FullName="Microsoft.Exchange.WebServices.Data.ChangeCollection&lt;TChange&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="abff391f8761727d6a671f748ca0e731c6455de0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627360" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ChangeCollection&lt;TChange&gt; : System.Collections.Generic.IEnumerable&lt;TChange&gt; where TChange : Change" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="abff391f8761727d6a671f748ca0e731c6455de0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627360" /></Metadata><TypeSignature Language="C#" Value="public sealed class ChangeCollection&lt;TChange&gt; : System.Collections.Generic.IEnumerable&lt;TChange&gt; where TChange : Change" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ChangeCollection`1&lt;(class Microsoft.Exchange.WebServices.Data.Change) TChange&gt; extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;!TChange&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ChangeCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ChangeCollection(Of TChange)&#xA;Implements IEnumerable(Of TChange)" />
@@ -32,8 +24,8 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <typeparam name="TChange">Тип изменения, связанные с события синхронизации (то есть, <see cref="T:Microsoft.Exchange.WebServices.Data.FolderChange" /> или <see cref="T:Microsoft.Exchange.WebServices.Data.ItemChange" />).</typeparam>
-    <summary>Содержит свойства и методы, возвращающие коллекцию изменений и сведения о синхронизации в ответ на события синхронизации.</summary>
+    <typeparam name="TChange">Тип изменения, полученного в результате события синхронизации (то есть <see cref="T:Microsoft.Exchange.WebServices.Data.FolderChange" /> или <see cref="T:Microsoft.Exchange.WebServices.Data.ItemChange" />).</typeparam>
+    <summary>Содержит свойства и методы, возвращающие коллекцию изменений и сведений о синхронизации в ответ на событие синхронизации.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,8 +44,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает число изменений в коллекции.</summary>
-        <value>Количество изменений в коллекции.</value>
+        <summary>Получает количество изменений в коллекции.</summary>
+        <value>Число изменений в коллекции.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -76,8 +68,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -99,9 +91,9 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс изменений для получения из коллекции изменений.</param>
-        <summary>Возвращает отдельные изменения из коллекции изменений.</summary>
-        <value>Изменение одного из коллекции изменений.</value>
+        <param name="index">Отсчитываемый от нуля индекс изменения, которое требуется получить из коллекции изменений.</param>
+        <summary>Получает отдельное изменение из коллекции изменений.</summary>
+        <value>Одно изменение из коллекции изменений.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,9 +112,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли больше изменений для синхронизации с сервера.</summary>
-        <value>
-          <b>значение true,</b> Если существует несколько изменений для синхронизации с сервера. в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, есть ли дополнительные изменения, которые необходимо синхронизировать с сервером.</summary>
+        <value><b>значение true</b> , если для синхронизации с сервером больше изменений; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -141,8 +132,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение состояния синхронизации, который возвращается с помощью операции синхронизации.</summary>
-        <value>Значение состояния синхронизации, который возвращается с помощью операции синхронизации.</value>
+        <summary>Получает значение состояния синхронизации, которое возвращается операцией синхронизации.</summary>
+        <value>Значение состояния синхронизации, которое возвращается операцией синхронизации.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -165,8 +156,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции. <see cref="M:Microsoft.Exchange.WebServices.Data.ChangeCollection`1.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.ChangeCollection`1.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

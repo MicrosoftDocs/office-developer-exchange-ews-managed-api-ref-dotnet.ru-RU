@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverResponse" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9880010e3d472226f65317ac24f0e811d9e51678" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627362" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class AutodiscoverResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9880010e3d472226f65317ac24f0e811d9e51678" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627362" /></Metadata><TypeSignature Language="C#" Value="public abstract class AutodiscoverResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AutodiscoverResponse extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class AutodiscoverResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет базовый класс для всех ответов, возвращаемые службой автообнаружения.</summary>
+    <summary>Представляет базовый класс для всех ответов, возвращаемых службой автообнаружения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает код ошибки, возвращенный службой.</summary>
+        <summary>Получает код ошибки, возвращенный службой.</summary>
         <value>Код ошибки, возвращенный службой.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -60,7 +52,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сообщение об ошибке, возвращенный службой.</summary>
+        <summary>Получает сообщение об ошибке, возвращенное службой.</summary>
         <value>Сообщение об ошибке.</value>
         <remarks>To be added.</remarks>
       </Docs>

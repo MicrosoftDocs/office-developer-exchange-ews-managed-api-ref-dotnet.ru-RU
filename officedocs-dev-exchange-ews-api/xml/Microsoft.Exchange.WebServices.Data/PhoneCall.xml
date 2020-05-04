@@ -1,13 +1,5 @@
 <Type Name="PhoneCall" FullName="Microsoft.Exchange.WebServices.Data.PhoneCall">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c7d3cfb62082dddbe1e4296c2cc23f6155f7658b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627179" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PhoneCall : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c7d3cfb62082dddbe1e4296c2cc23f6155f7658b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627179" /></Metadata><TypeSignature Language="C#" Value="public sealed class PhoneCall : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhoneCall extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneCall" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhoneCall&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет телефонного звонка.</summary>
+    <summary>Представляет телефонный звонок.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectionFailureCause</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, которое указывает причину сбоя подключения телефонного звонка.</summary>
+        <summary>Получает значение, указывающее причину сбоя подключения телефонного вызова.</summary>
         <value>Причина сбоя подключения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -61,11 +53,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отключение этого телефонного звонка.</summary>
-        <remarks>
-          <para>Этот метод приводит к вызову для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Отключает этот телефонный звонок.</summary>
+        <remarks><para>Этот метод приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Refresh">
@@ -85,10 +75,8 @@
       <Parameters />
       <Docs>
         <summary>Обновление состояния этого телефонного звонка.</summary>
-        <remarks>
-          <para>Этот метод приводит к вызову для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Этот метод приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SIPResponseCode">
@@ -106,7 +94,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает код ответа SIP этого телефонного звонка.</summary>
+        <summary>Получает код ответа SIP для этого телефонного звонка.</summary>
         <value>Код ответа SIP.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -126,7 +114,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает текст ответа SIP этого телефонного звонка.</summary>
+        <summary>Получает текст ответа SIP для этого телефонного звонка.</summary>
         <value>Текст ответа SIP.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,8 +134,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, последнее состояние из этого телефонного звонка.</summary>
-        <value>Значение перечисления PhoneCallState.</value>
+        <summary>Получает значение, указывающее Последнее известное состояние звонка.</summary>
+        <value>Значение перечисления Фонекаллстате.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

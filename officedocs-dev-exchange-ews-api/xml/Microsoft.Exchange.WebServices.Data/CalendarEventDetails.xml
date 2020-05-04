@@ -1,13 +1,5 @@
 <Type Name="CalendarEventDetails" FullName="Microsoft.Exchange.WebServices.Data.CalendarEventDetails">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="27478c57b8a3f831c78a7103fef84c92bfb30a88" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626863" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class CalendarEventDetails : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="27478c57b8a3f831c78a7103fef84c92bfb30a88" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626863" /></Metadata><TypeSignature Language="C#" Value="public sealed class CalendarEventDetails : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarEventDetails extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarEventDetails" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarEventDetails&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет сведения о события календаря, который возвращается запросом доступности.</summary>
+    <summary>Представляет сведения о событии календаря, которое возвращается запросом о доступности.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли событие календаря исключения для повторяющихся последовательность событий.</summary>
-        <value>
-          <b>значение true,</b> Если событие календаря исключения для повторяющихся последовательность событий; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли событие календаря исключением из повторяющейся серии событий.</summary>
+        <value><b>значение true</b> , если событие Calendar является исключением повторяющейся серии событий; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,9 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли событие календаря собрания.</summary>
-        <value>
-          <b>значение true,</b> Если событие календаря собрания; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли событие календаря собранием.</summary>
+        <value><b>значение true</b> , если событие Calendar является собранием; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -82,9 +72,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли событие календаря закрытый.</summary>
-        <value>
-          <b>значение true,</b> Если событие календаря private; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли событие календаря частным.</summary>
+        <value><b>значение true</b> , если событие Calendar является частным; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -103,9 +92,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли событие календаря повторяющегося события.</summary>
-        <value>
-          <b>значение true,</b> Если событие календаря повторяющегося события; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли событие Calendar повторяющимся.</summary>
+        <value><b>значение true</b> , если событие Calendar является повторяющимся; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,9 +112,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, имеет ли событие календаря оповещение.</summary>
-        <value>
-          <b>значение true,</b> Если событие календаря напоминание; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, задано ли для события календаря заданное напоминание.</summary>
+        <value><b>значение true</b> , если для события Calendar задано напоминание; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -165,8 +152,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор хранилища данных события календаря.</summary>
-        <value>Идентификатор события календаря, хранилище данных.</value>
+        <summary>Получает идентификатор хранилища данных для события календаря.</summary>
+        <value>Идентификатор хранилища данных для события календаря.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

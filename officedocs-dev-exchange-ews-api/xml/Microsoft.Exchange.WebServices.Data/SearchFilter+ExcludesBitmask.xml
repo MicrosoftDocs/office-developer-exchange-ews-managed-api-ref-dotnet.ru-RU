@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+ExcludesBitmask" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+ExcludesBitmask">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e94e88511ff1192ce62e35aafc1595f8217b8d6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627176" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.ExcludesBitmask : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e94e88511ff1192ce62e35aafc1595f8217b8d6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627176" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.ExcludesBitmask : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/ExcludesBitmask extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.ExcludesBitmask&#xA;Inherits SearchFilter.PropertyBasedFilter" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет фильтр поиска исключения битовую маску.</summary>
+    <summary>Представляет фильтр поиска для исключаемых битовых масок.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.ExcludesBitmask.</summary>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. Ексклудесбитмаск.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,9 +50,9 @@
         <Parameter Name="bitmask" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">Определение свойств, который сравнивается.</param>
-        <param name="bitmask">Битовая маска, чтобы сравнить с.</param>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.ExcludesBitmask определения указанного свойства и битовую маску.</summary>
+        <param name="propertyDefinition">Определение сравниваемого свойства.</param>
+        <param name="bitmask">Битовая маска для сравнения с.</param>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. Ексклудесбитмаск, используя заданное определение свойства и битовую маску.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,8 +71,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает битовую маску для сравнения свойства с.</summary>
-        <value>Точечный рисунок для сравнения свойства с.</value>
+        <summary>Получает или задает битовую маску для сравнения свойства.</summary>
+        <value>Растровое изображение, с которым сравнивается свойство.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

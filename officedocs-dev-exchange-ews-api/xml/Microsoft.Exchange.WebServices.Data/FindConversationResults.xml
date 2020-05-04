@@ -1,13 +1,5 @@
 <Type Name="FindConversationResults" FullName="Microsoft.Exchange.WebServices.Data.FindConversationResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9fcdbd02816ebfcc8a32b13a9a1f32bdcb99c391" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627322" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FindConversationResults" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9fcdbd02816ebfcc8a32b13a9a1f32bdcb99c391" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627322" /></Metadata><TypeSignature Language="C#" Value="public sealed class FindConversationResults" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindConversationResults extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindConversationResults" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит результаты при попытке выполнить поиск бесед в папке.             <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит результаты попытки поиска бесед в папке.             <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conversation&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает бесед, найти, операции поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Бесед, найти, операции поиска.</value>
+        <summary>Возвращает беседы, обнаруженные в ходе операции поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Беседы, обнаруженные операцией поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает выделенный термины, возвращенные операцией поиска.  <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Выделенный условия, возвращенные операцией поиска.</value>
+        <summary>Получает выделенные термины, возвращенные операцией поиска.  <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Выделенные термины, возвращенные операцией поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает индексированный смещение первого беседы, возвращенные операцией поиска.       <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Индексированные смещение первого беседы, возвращенные операцией поиска.</value>
+        <summary>Получает индексированное смещение первой беседы, возвращенной операцией поиска.       <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Индексированное смещение первого диалога, возвращенного операцией поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,7 +92,7 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество бесед, возвращенные операцией поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает количество бесед, возвращенных операцией поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Общее количество бесед в представлении.</value>
         <remarks>To be added.</remarks>
       </Docs>

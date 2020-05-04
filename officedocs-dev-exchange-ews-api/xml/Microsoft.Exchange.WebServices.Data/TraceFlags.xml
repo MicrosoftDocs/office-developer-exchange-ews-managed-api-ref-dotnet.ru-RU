@@ -1,13 +1,5 @@
 <Type Name="TraceFlags" FullName="Microsoft.Exchange.WebServices.Data.TraceFlags">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0afef0f9fef08534440cc2b12bf13e8851438ea4" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627402" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum TraceFlags" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0afef0f9fef08534440cc2b12bf13e8851438ea4" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627402" /></Metadata><TypeSignature Language="C#" Value="public enum TraceFlags" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TraceFlags extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TraceFlags" />
   <TypeSignature Language="VB.NET" Value="Public Enum TraceFlags" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Определяет флаги для управления Подробности трассировки.</summary>
+    <summary>Определяет флаги для управления сведениями трассировки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>9223372036854775807</MemberValue>
       <Docs>
-        <summary>Включаются все типы трассировки.</summary>
+        <summary>Включены все типы трассировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="AutodiscoverConfiguration">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>Трассировка логику конфигурации службы автообнаружения.</summary>
+        <summary>Логика конфигурации службы автообнаружения для трассировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="AutodiscoverRequest">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Трассировка сообщений запроса службы автообнаружения.</summary>
+        <summary>Трассировка сообщений с запросом на автообнаружение.</summary>
       </Docs>
     </Member>
     <Member MemberName="AutodiscoverRequestHttpHeaders">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>512</MemberValue>
       <Docs>
-        <summary>Трассировки заголовков HTTP, отправленных с сообщениями запроса службы автообнаружения.</summary>
+        <summary>Трассировка HTTP-заголовков, отправленных с сообщениями запроса автообнаружения.</summary>
       </Docs>
     </Member>
     <Member MemberName="AutodiscoverResponse">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Трассировка сообщений ответа службы автообнаружения.</summary>
+        <summary>Отслеживание сообщений ответов автообнаружения.</summary>
       </Docs>
     </Member>
     <Member MemberName="AutodiscoverResponseHttpHeaders">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Трассировки заголовков ответов HTTP службы автообнаружения.</summary>
+        <summary>Трассировка HTTP-заголовков отклика автообнаружения.</summary>
       </Docs>
     </Member>
     <Member MemberName="DebugMessage">
@@ -159,7 +151,7 @@
       </ReturnValue>
       <MemberValue>128</MemberValue>
       <Docs>
-        <summary>Включить отладку сообщений в выходных данных трассировки.</summary>
+        <summary>Включить отладку сообщений в выходные данные трассировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="EwsRequest">
@@ -178,7 +170,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Трассировка сообщений запроса веб-служб Exchange (EWS).</summary>
+        <summary>Прослеживание сообщений запроса веб-служб Exchange (EWS).</summary>
       </Docs>
     </Member>
     <Member MemberName="EwsRequestHttpHeaders">
@@ -197,7 +189,7 @@
       </ReturnValue>
       <MemberValue>256</MemberValue>
       <Docs>
-        <summary>Трассировки заголовков HTTP, отправленных с сообщениями запроса веб-служб Exchange.</summary>
+        <summary>Прослеживание HTTP-заголовков, отправляемых с сообщениями запроса EWS.</summary>
       </Docs>
     </Member>
     <Member MemberName="EwsResponse">
@@ -216,7 +208,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Трассировка сообщений ответа веб-служб Exchange.</summary>
+        <summary>Отслеживайте ответные сообщения EWS.</summary>
       </Docs>
     </Member>
     <Member MemberName="EwsResponseHttpHeaders">
@@ -235,7 +227,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Трассировки заголовков ответов HTTP веб-служб Exchange.</summary>
+        <summary>Трассировка HTTP-заголовков отклика EWS.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -254,7 +246,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Нет трассировки.</summary>
+        <summary>Трассировка отсутствует.</summary>
       </Docs>
     </Member>
   </Members>

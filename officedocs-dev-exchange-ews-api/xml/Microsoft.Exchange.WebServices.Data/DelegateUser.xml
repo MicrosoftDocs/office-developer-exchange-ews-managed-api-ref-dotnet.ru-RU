@@ -1,13 +1,5 @@
 <Type Name="DelegateUser" FullName="Microsoft.Exchange.WebServices.Data.DelegateUser">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8ccf70eccaab42ff8bdfdc57bd4d579c686adcc7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626542" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DelegateUser : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8ccf70eccaab42ff8bdfdc57bd4d579c686adcc7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626542" /></Metadata><TypeSignature Language="C#" Value="public sealed class DelegateUser : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegateUser extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegateUser" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegateUser&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет пользователя-делегата.</summary>
+    <summary>Представляет пользователя делегата.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса DelegateUser.</summary>
+        <summary>Инициализирует новый экземпляр класса Делегатеусер.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -56,8 +48,8 @@
         <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
       </Parameters>
       <Docs>
-        <param name="standardUser">Стандартный делегированного пользователя.</param>
-        <summary>Инициализирует новый экземпляр класса DelegateUser.</summary>
+        <param name="standardUser">Стандартный делегированный пользователь.</param>
+        <summary>Инициализирует новый экземпляр класса Делегатеусер.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -76,8 +68,8 @@
         <Parameter Name="primarySmtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="primarySmtpAddress">Основной адрес электронной почты SMTP пользователя-делегата.</param>
-        <summary>Инициализирует новый экземпляр класса DelegateUser.</summary>
+        <param name="primarySmtpAddress">Основной SMTP-адрес электронной почты делегированного пользователя.</param>
+        <summary>Инициализирует новый экземпляр класса Делегатеусер.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,8 +88,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DelegatePermissions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список делегат разрешения пользователя.</summary>
-        <value>Делегирование разрешений для папок участника.</value>
+        <summary>Получает список разрешений делегированного пользователя.</summary>
+        <value>Разрешения представителя для папок субъекта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,9 +108,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должно ли делегата получать копии приглашений на собрания.</summary>
-        <value>
-          <b>значение true,</b> Если делегат должны получать копии приглашений на собрания для субъекта; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, должен ли представитель, чтобы пользователь получал копии приглашений на собрание.</summary>
+        <value><b>имеет значение true</b> , если делегат должен получать копии приглашений на собрание для субъекта; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,8 +128,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.UserId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор пользователя-делегата.</summary>
-        <value>Объект, который содержит идентификационные сведения о делегата.</value>
+        <summary>Получает идентификатор пользователя делегата.</summary>
+        <value>Объект, который содержит идентификационные сведения о пользователе делегата.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,9 +148,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли делегата могут просматривать личные элементы участника.</summary>
-        <value>
-          <b>значение true,</b> Если делегат можно просмотреть элементы, которые субъекта отметил private; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, должна ли представитель пользователя иметь возможность просматривать частные элементы субъекта.</summary>
+        <value><b>имеет значение true</b> , если делегат может просматривать элементы, помеченные участником как частные; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

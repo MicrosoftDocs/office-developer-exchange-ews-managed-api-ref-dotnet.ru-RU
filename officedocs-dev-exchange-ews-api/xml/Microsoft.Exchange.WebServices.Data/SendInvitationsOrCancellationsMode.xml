@@ -1,13 +1,5 @@
 <Type Name="SendInvitationsOrCancellationsMode" FullName="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e8dc661359af3015b2e1b7731c0616cef24fe6b2" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627299" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SendInvitationsOrCancellationsMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e8dc661359af3015b2e1b7731c0616cef24fe6b2" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627299" /></Metadata><TypeSignature Language="C#" Value="public enum SendInvitationsOrCancellationsMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendInvitationsOrCancellationsMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum SendInvitationsOrCancellationsMode" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет константы, которые определяют, приглашения на собрания или отмены обработки при обновлении собрания.</summary>
+    <summary>Задает константы, определяющие, как будут обрабатываться приглашения на собрания или отмены при обновлении собрания.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Отправка приглашения на собрания и отмены всех участников; не сохранять копию приглашение или отмены собрания в папке "Отправленные" организатора.</summary>
+        <summary>Отправлять приглашения на собрания и их отмены всем участникам; не сохраняйте копию приглашения на собрание или отмены в папке "Отправленные" организатора.</summary>
       </Docs>
     </Member>
     <Member MemberName="SendOnlyToChanged">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Отправка приглашений на собрания и отмены только участникам, которые были добавлены или изменены; не сохранять копию приглашение или отмены собрания в папке "Отправленные" организатора.</summary>
+        <summary>Отправлять приглашения на собрания и отмены только участникам, которые были добавлены или изменены; не сохраняйте копию приглашения на собрание или отмены в папке "Отправленные" организатора.</summary>
       </Docs>
     </Member>
     <Member MemberName="SendToAllAndSaveCopy">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Отправка приглашения на собрания и отмены всех участников и сохранить копию приглашение или отмены собрания в папке "Отправленные" организатора.</summary>
+        <summary>Отправлять приглашения на собрания и отмены всем участникам и сохранять копию приглашения на собрание или отмены в папке "Отправленные" организатора.</summary>
       </Docs>
     </Member>
     <Member MemberName="SendToChangedAndSaveCopy">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Отправка приглашений на собрания и отмены только участникам, которые были добавлены или изменены и сохранить копию приглашение на собрание и отмене в папке "Отправленные" Организатор.</summary>
+        <summary>Отправлять приглашения на собрания или отмены только участникам, которые были добавлены или изменены, а также сохранены в папке "Отправленные" организатора.</summary>
       </Docs>
     </Member>
     <Member MemberName="SendToNone">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Не отправлять приглашения на собрания и отмены.</summary>
+        <summary>Не отправляйте приглашения на собрания и их отмену.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="SearchFolderParameters" FullName="Microsoft.Exchange.WebServices.Data.SearchFolderParameters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f14ad3595fc45cd2bbb7bb7e94b82f2066782002" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626923" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFolderParameters : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f14ad3595fc45cd2bbb7bb7e94b82f2066782002" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626923" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFolderParameters : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchFolderParameters extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFolderParameters" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFolderParameters&#xA;Inherits ComplexProperty" />
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderIdCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список папок корневого для поиска.</summary>
-        <value>Коллекция корневые папки для поиска.</value>
+        <summary>Получает или задает список корневых папок для поиска.</summary>
+        <value>Коллекция корневых папок для поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,10 +52,9 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает фильтр поиска, который связан с папкой поиска.</summary>
-        <value>Поисковый фильтр, который связан с папкой поиска.</value>
-        <remarks>
-          <para>Ниже приведены классы фильтра поиска.</para>
+        <summary>Получает или задает фильтр поиска, связанный с папкой поиска.</summary>
+        <value>Фильтр поиска, связанный с папкой поиска.</value>
+        <remarks><para>Доступны следующие классы фильтра поиска:</para>
           <list type="bullet">
             <item>
               <description>
@@ -126,8 +117,7 @@
               </description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Traversal">
@@ -146,7 +136,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает режим обхода для папки поиска.</summary>
-        <value>Одно из значений SearchFolderTraversalenumeration.</value>
+        <value>Одно из значений Сеарчфолдертраверсаленумератион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

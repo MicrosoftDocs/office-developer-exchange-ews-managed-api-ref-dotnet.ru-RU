@@ -1,13 +1,5 @@
 <Type Name="AttachmentCollection" FullName="Microsoft.Exchange.WebServices.Data.AttachmentCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="99b4cb0d83e11922d5457d02b89f84ea23ee48c3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626582" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AttachmentCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="99b4cb0d83e11922d5457d02b89f84ea23ee48c3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626582" /></Metadata><TypeSignature Language="C#" Value="public sealed class AttachmentCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttachmentCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttachmentCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttachmentCollection&#xA;Inherits ComplexPropertyCollection(Of Attachment)" />
@@ -51,8 +43,8 @@
         <Parameter Name="fileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="fileName">Путь к файлу для добавления в коллекцию.</param>
-        <summary>Добавляет вложение файла в коллекцию.</summary>
+        <param name="fileName">Путь к файлу, который необходимо добавить в коллекцию.</param>
+        <summary>Добавляет вложенный файл в коллекцию.</summary>
         <returns>Вложенный файл.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -76,9 +68,9 @@
         <Parameter Name="content" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="name">Отображаемое имя файла вложения.</param>
-        <param name="content">Массив байтов, который представляет содержимое файла вложения.</param>
-        <summary>Добавляет вложение файла в коллекцию, содержащую файл.</summary>
+        <param name="name">Отображаемое имя вложенного файла.</param>
+        <param name="content">Массив байтов, представляющий содержимое вложенного файла.</param>
+        <summary>Добавляет вложенный файл в коллекцию, содержащую файл.</summary>
         <returns>Вложенный файл.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -102,9 +94,9 @@
         <Parameter Name="contentStream" Type="System.IO.Stream" />
       </Parameters>
       <Docs>
-        <param name="name">Отображаемое имя файла вложения.</param>
-        <param name="contentStream">Поток данных, содержащую файл, который присоединяется к коллекции.</param>
-        <summary>Добавляет подключение файла к коллекции с помощью поток данных, содержащую файл.</summary>
+        <param name="name">Отображаемое имя вложенного файла.</param>
+        <param name="contentStream">Поток данных, содержащий файл, который необходимо вложить в коллекцию.</param>
+        <summary>Добавляет вложенный файл в коллекцию с помощью потока данных, который содержит файл.</summary>
         <returns>Вложенный файл.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -128,9 +120,9 @@
         <Parameter Name="fileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">Отображаемое имя файла вложения.</param>
-        <param name="fileName">Имя файла вложения файла.</param>
-        <summary>Добавляет вложение файла в коллекцию.</summary>
+        <param name="name">Отображаемое имя вложенного файла.</param>
+        <param name="fileName">Имя файла вложения.</param>
+        <summary>Добавляет вложенный файл в коллекцию.</summary>
         <returns>Вложенный файл.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,8 +150,8 @@
       </TypeParameters>
       <Parameters />
       <Docs>
-        <typeparam name="TItem">Тип элемента присоединяется к коллекции.</typeparam>
-        <summary>Добавление вложения элемента в коллекции.</summary>
+        <typeparam name="TItem">Тип элемента, который необходимо присоединить к коллекции.</typeparam>
+        <summary>Добавляет вложение элемента в коллекцию.</summary>
         <returns>Вложение элемента.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -201,10 +193,9 @@
         <Parameter Name="attachment" Type="Microsoft.Exchange.WebServices.Data.Attachment" />
       </Parameters>
       <Docs>
-        <param name="attachment">Вложения для удаления из коллекции.</param>
+        <param name="attachment">Вложение, которое необходимо удалить из коллекции.</param>
         <summary>Удаляет указанное вложение из коллекции.</summary>
-        <returns>
-          <b>значение true,</b> Если указанное вложение успешно удалена из коллекции. в противном случае — <b>false</b>.</returns>
+        <returns><b>значение true</b> , если указанное вложение было успешно удалено из коллекции; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -226,8 +217,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Индекс вложения для удаления из коллекции.</param>
-        <summary>Удаляет вложения по указанному индексу (расположение) в коллекции.</summary>
+        <param name="index">Индекс вложения, которое необходимо удалить из коллекции.</param>
+        <summary>Удаляет вложение по указанному индексу (расположению) в коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

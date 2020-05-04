@@ -1,13 +1,5 @@
 <Type Name="ComparisonMode" FullName="Microsoft.Exchange.WebServices.Data.ComparisonMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="65afa651bddfe0bb092b9b4b59a89c7db5e58b53" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626886" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ComparisonMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="65afa651bddfe0bb092b9b4b59a89c7db5e58b53" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626886" /></Metadata><TypeSignature Language="C#" Value="public enum ComparisonMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ComparisonMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ComparisonMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum ComparisonMode" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет способ сравнение значений в поисковых фильтров.</summary>
+    <summary>Определяет способ сравнения значений в фильтрах поиска.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Сравнение точной.</summary>
+        <summary>Сравнение выполняется точно.</summary>
       </Docs>
     </Member>
     <Member MemberName="IgnoreCase">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Сравнение не учитывает регистр.</summary>
+        <summary>При сравнении регистр игнорируется.</summary>
       </Docs>
     </Member>
     <Member MemberName="IgnoreCaseAndNonSpacingCharacters">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Сравнение игнорирует регистра и отступы символов.</summary>
+        <summary>При сравнении игнорируются символы регистра и пробелов.</summary>
       </Docs>
     </Member>
     <Member MemberName="IgnoreNonSpacingCharacters">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Сравнение игнорирует символы интервалов.</summary>
+        <summary>При сравнении пробелы игнорируются.</summary>
       </Docs>
     </Member>
   </Members>

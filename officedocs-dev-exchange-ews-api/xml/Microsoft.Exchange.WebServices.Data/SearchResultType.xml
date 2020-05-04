@@ -1,13 +1,5 @@
 <Type Name="SearchResultType" FullName="Microsoft.Exchange.WebServices.Data.SearchResultType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3ee277660de007c7992ff9b260bc572115b42e9a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627090" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SearchResultType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3ee277660de007c7992ff9b260bc572115b42e9a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627090" /></Metadata><TypeSignature Language="C#" Value="public enum SearchResultType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchResultType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchResultType" />
   <TypeSignature Language="VB.NET" Value="Public Enum SearchResultType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает тип результата поиска.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchResultType" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет тип результатов поиска.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchResultType" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Предварительный просмотр результатов поиска только.             <see cref="F:Microsoft.Exchange.WebServices.Data.SearchResultType.PreviewOnly" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Предварительный просмотр только результатов поиска.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.SearchResultType.PreviewOnly" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="StatisticsOnly">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Статистика ключевое слово только результатов поиска.             <see cref="F:Microsoft.Exchange.WebServices.Data.SearchResultType.StatisticsOnly" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Статистика по ключевым словам только для результатов поиска.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.SearchResultType.StatisticsOnly" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

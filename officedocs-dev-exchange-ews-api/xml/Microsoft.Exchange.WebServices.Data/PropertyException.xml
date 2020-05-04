@@ -1,13 +1,5 @@
 <Type Name="PropertyException" FullName="Microsoft.Exchange.WebServices.Data.PropertyException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c225f229f07d136911aa88014b0e92195ffcc0eb" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626908" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class PropertyException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c225f229f07d136911aa88014b0e92195ffcc0eb" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626908" /></Metadata><TypeSignature Language="C#" Value="public class PropertyException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PropertyException extends Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertyException" />
   <TypeSignature Language="VB.NET" Value="Public Class PropertyException&#xA;Inherits ServiceLocalException" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ошибку, которая возникает, когда происходит сбой операции на свойстве.</summary>
+    <summary>Представляет ошибку, которая возникает при сбое операции со свойством.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">Имя свойства, который вызвал исключение.</param>
-        <summary>Инициализирует новый экземпляр класса PropertyException со свойством, вызвавшего исключение.</summary>
+        <param name="name">Имя свойства, вызвавшего исключение.</param>
+        <summary>Инициализирует новый экземпляр класса Пропертексцептион, используя свойство, вызвавшее исключение.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -62,8 +54,8 @@
       </Parameters>
       <Docs>
         <param name="message">Текст сообщения об ошибке.</param>
-        <param name="name">Имя свойства, который вызвал исключение.</param>
-        <summary>Инициализирует новый экземпляр класса PropertyException со свойством, вызвавшего исключение и текст сообщения об ошибке.</summary>
+        <param name="name">Имя свойства, вызвавшего исключение.</param>
+        <summary>Инициализирует новый экземпляр класса Пропертексцептион со свойством, которое вызвало исключение и текст сообщения об ошибке.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,9 +77,9 @@
       </Parameters>
       <Docs>
         <param name="message">Текст сообщения об ошибке.</param>
-        <param name="name">Имя свойства, который вызвал исключение.</param>
+        <param name="name">Имя свойства, вызвавшего исключение.</param>
         <param name="innerException">Внутреннее исключение.</param>
-        <summary>Инициализирует новый экземпляр класса PropertyException со свойством, вызвавшего исключение, текст сообщения об ошибке и внутреннее исключение.</summary>
+        <summary>Инициализирует новый экземпляр класса Пропертексцептион со свойством, которое вызвало исключение, текст сообщения об ошибке и внутреннее исключение.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -107,7 +99,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает имя свойства, вызвавшего исключение.</summary>
-        <value>Имя свойства, который вызвал исключение.</value>
+        <value>Имя свойства, вызвавшего исключение.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

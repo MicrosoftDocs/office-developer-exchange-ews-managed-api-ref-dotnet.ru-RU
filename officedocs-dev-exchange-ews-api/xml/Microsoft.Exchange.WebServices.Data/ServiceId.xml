@@ -1,13 +1,5 @@
 <Type Name="ServiceId" FullName="Microsoft.Exchange.WebServices.Data.ServiceId">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9f78c5b828f97271afd242bc6144bb1b5373d6f7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627182" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ServiceId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9f78c5b828f97271afd242bc6144bb1b5373d6f7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627182" /></Metadata><TypeSignature Language="C#" Value="public abstract class ServiceId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceId extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceId" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceId&#xA;Inherits ComplexProperty" />
@@ -40,12 +32,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает изменить ключ, связанный с объектом Exchange.</summary>
+        <summary>Получает ключ изменения, связанный с объектом Exchange.</summary>
         <value>Строковое значение</value>
-        <remarks>
-          <para>Изменить ключ представляет версию связанный элемент или папку.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ключ Change представляет версию связанного элемента или папки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -66,15 +56,12 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">System.Object для сравнения с текущей System.Object.</param>
-        <summary>Определяет, является ли указанный текущему.</summary>
-        <returns>Значение true, если указанный System.Object равное текущей System.Object; в противном случае — false.</returns>
-        <remarks>
-          <para>Мы не рекомендуется использовать ChangeKey для ServiceId.Equals.</para>
-          <para />
-        </remarks>
-        <exception cref="T:System.NullReferenceException">
-          <paramref name="obj" />Параметр имеет значение null.</exception>
+        <param name="obj">System. Object для сравнения с текущим System. Object.</param>
+        <summary>Определяет, равно ли указанное значение текущему.</summary>
+        <returns>Значение true, если указанный System. Object равен текущему System. Object; в противном случае — false.</returns>
+        <remarks><para>Мы не рекомендуем Чанжекэй для ServiceId. Equals.</para>
+          <para /></remarks>
+        <exception cref="T:System.NullReferenceException"><paramref name="obj" />Параметр имеет значение null.</exception>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -94,11 +81,9 @@
       <Parameters />
       <Docs>
         <summary>Служит в качестве хэш-функции для определенного типа.</summary>
-        <returns>Хэш-код для текущей System.Object.</returns>
-        <remarks>
-          <para>Мы не рассмотрите возможность изменить ключ при вычислении хэш-функции кода.</para>
-          <para />
-        </remarks>
+        <returns>Хэш-код для текущего System. Object.</returns>
+        <remarks><para>Мы не будем рассматривать ключ изменения в вычислении хэш-кода.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SameIdAndChangeKey">
@@ -119,9 +104,9 @@
         <Parameter Name="other" Type="Microsoft.Exchange.WebServices.Data.ServiceId" />
       </Parameters>
       <Docs>
-        <param name="other">ServiceId для сравнения с текущей ServiceId.</param>
-        <summary>Определяет, будет ли ServiceId они равны (включая ChangeKeys)</summary>
-        <returns>Значение true, если они равны; в противном случае — false.</returns>
+        <param name="other">ServiceId для сравнения с текущим ServiceId.</param>
+        <summary>Определяет, равны ли два экземпляра ServiceId (в том числе Чанжекэйс).</summary>
+        <returns>Значение true, если два экземпляра равны; в противном случае — false.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -141,8 +126,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает System.String, который представляет текущего System.Object.</summary>
-        <returns>System.String, который представляет текущего System.Object.</returns>
+        <summary>Возвращает System. String, представляющий текущий System. Object.</summary>
+        <returns>System. String, представляющий текущий System. Object.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

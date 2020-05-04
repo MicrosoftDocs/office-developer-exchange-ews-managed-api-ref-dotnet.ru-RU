@@ -1,13 +1,5 @@
 <Type Name="ExtendedPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02c5b5ea716a26f84fef6fd1d95894a2a6f39535" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626985" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ExtendedPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02c5b5ea716a26f84fef6fd1d95894a2a6f39535" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626985" /></Metadata><TypeSignature Language="C#" Value="public sealed class ExtendedPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExtendedPropertyDefinition extends Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExtendedPropertyDefinition&#xA;Inherits PropertyDefinitionBase" />
@@ -41,9 +33,9 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="tag">Тег расширенные свойства.</param>
-        <param name="mapiType">Тип MAPI расширенные свойства.</param>
-        <summary>Инициализирует новый экземпляр класса ExtendedPropertyDefinition, который содержит тег, указанного идентификатором <paramref name="tag" /> и тип MAPI, указанный в <paramref name="mapiType" />.</summary>
+        <param name="tag">Тег расширенного свойства.</param>
+        <param name="mapiType">Тип MAPI расширенного свойства.</param>
+        <summary>Инициализирует новый экземпляр класса Екстендедпропертидефинитион, в котором указан тег <paramref name="tag" /> и тип MAPI, заданный параметром. <paramref name="mapiType" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -64,10 +56,10 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="propertySet">Набор свойств, расширенные свойства.</param>
-        <param name="id">Идентификатор расширенные свойства.</param>
-        <param name="mapiType">Тип MAPI расширенные свойства.</param>
-        <summary>Инициализирует новый экземпляр класса ExtendedPropertyDefinition, свойство имеет значение определяется <paramref name="propertySet" />, идентификатор, указанный с <paramref name="id" />и тип MAPI, указанный в <paramref name="mapiType" />.</summary>
+        <param name="propertySet">Набор свойств расширенного свойства.</param>
+        <param name="id">Идентификатор расширенного свойства.</param>
+        <param name="mapiType">Тип MAPI расширенного свойства.</param>
+        <summary>Инициализирует новый экземпляр класса Екстендедпропертидефинитион, в котором заданы свойства <paramref name="propertySet" />, идентификаторы <paramref name="id" />и типы MAPI, заданные в параметре. <paramref name="mapiType" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,10 +80,10 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="propertySet">Расширенные свойства набора расширенных свойств.</param>
-        <param name="name">Имя расширенные свойства.</param>
-        <param name="mapiType">Тип MAPI расширенные свойства.</param>
-        <summary>Инициализирует новый экземпляр класса ExtendedPropertyDefinition, свойство имеет значение определяется <paramref name="propertySet" />, указанного в параметре <paramref name="name" />и тип MAPI, указанный в <paramref name="mapiType" />.</summary>
+        <param name="propertySet">Набор расширенных свойств расширенного свойства.</param>
+        <param name="name">Имя расширенного свойства.</param>
+        <param name="mapiType">Тип MAPI расширенного свойства.</param>
+        <summary>Инициализирует новый экземпляр класса Екстендедпропертидефинитион, в котором заданы заданные свойства <paramref name="propertySet" />, имя <paramref name="name" />и тип MAPI, заданные параметром. <paramref name="mapiType" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -112,10 +104,10 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="propertySetId">Идентификатор расширенного свойства набора свойств.</param>
-        <param name="id">Идентификатор расширенные свойства.</param>
-        <param name="mapiType">Тип MAPI расширенные свойства.</param>
-        <summary>Инициализирует новый экземпляр класса ExtendedPropertyDefinition, который имеет свойство задания идентификатор, указанный с <paramref name="propertySetId" />, идентификатор, указанный с <paramref name="id" />и тип MAPI, указанный в <paramref name="mapiType" />.</summary>
+        <param name="propertySetId">Идентификатор набора свойств расширенного свойства.</param>
+        <param name="id">Идентификатор расширенного свойства.</param>
+        <param name="mapiType">Тип MAPI расширенного свойства.</param>
+        <summary>Инициализирует новый экземпляр класса Екстендедпропертидефинитион, который содержит заданный идентификатор набора свойств <paramref name="propertySetId" />, идентификатор <paramref name="id" />, указанный в параметре, и тип MAPI, заданный параметром. <paramref name="mapiType" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -136,10 +128,10 @@
         <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
       </Parameters>
       <Docs>
-        <param name="propertySetId">Идентификатор расширенного свойства набора свойств.</param>
-        <param name="name">Имя расширенные свойства.</param>
-        <param name="mapiType">Тип MAPI расширенные свойства.</param>
-        <summary>Инициализирует новый экземпляр класса ExtendedPropertyDefinition, который имеет свойство задания идентификатор, указанный с <paramref name="propertySetId" />, указанного в параметре <paramref name="name" />и тип MAPI, указанный в <paramref name="mapiType" />.</summary>
+        <param name="propertySetId">Идентификатор набора свойств расширенного свойства.</param>
+        <param name="name">Имя расширенного свойства.</param>
+        <param name="mapiType">Тип MAPI расширенного свойства.</param>
+        <summary>Инициализирует новый экземпляр класса Екстендедпропертидефинитион, который содержит заданный идентификатор набора свойств <paramref name="propertySetId" />, имя <paramref name="name" />, указанное в параметре, и тип MAPI, заданный параметром. <paramref name="mapiType" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -162,9 +154,8 @@
       </Parameters>
       <Docs>
         <param name="obj">Объект для проверки на равенство.</param>
-        <summary>Определяет, является ли определение данного расширенные свойства равно определение расширенных свойств.</summary>
-        <returns>
-          <b>значение true,</b> Если свойство в определениях же расширенные свойства; в противном случае — <b>false</b>.</returns>
+        <summary>Определяет, совпадает ли заданное расширенное свойство с определением этого расширенного свойства.</summary>
+        <returns><b>значение true</b> , если определения свойств определяют одно и то же расширенное свойство; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -184,8 +175,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает хэш-код для объекта ExtendedPropertyDefinition.</summary>
-        <returns>Хэш-код для объекта ExtendedPropertyDefinition.</returns>
+        <summary>Возвращает хэш-код для объекта Екстендедпропертидефинитион.</summary>
+        <returns>Хэш-код для объекта Екстендедпропертидефинитион.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,9 +216,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор расширенные свойства.</summary>
-        <value>
-          <b>Допускает значение NULL</b> значение, содержащее идентификатор расширенные свойства.</value>
+        <summary>Получает идентификатор расширенного свойства.</summary>
+        <value>Значение <b>Nullable</b> , которое содержит идентификатор расширенного свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -246,8 +236,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MapiPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип MAPI расширенные свойства.</summary>
-        <value>MapiPropertyType, который является типом расширенные свойства.</value>
+        <summary>Возвращает тип MAPI расширенного свойства.</summary>
+        <value>Объект Мапипропертитипе, который является типом расширенного свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -266,8 +256,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя расширенные свойства.</summary>
-        <value>Имя расширенные свойства.</value>
+        <summary>Получает имя расширенного свойства.</summary>
+        <value>Имя расширенного свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -290,11 +280,10 @@
         <Parameter Name="extPropDef2" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="extPropDef1">Первое определение расширенных свойств.</param>
-        <param name="extPropDef2">Второе определение расширенных свойств.</param>
-        <summary>Определяет, равны ли два указанных экземпляра ExtendedPropertyDefinition.</summary>
-        <returns>
-          <b>значение true,</b> Если определения расширенных свойств равны; в противном случае — <b>false</b>.</returns>
+        <param name="extPropDef1">Первое определение расширенного свойства.</param>
+        <param name="extPropDef2">Второе определение расширенного свойства.</param>
+        <summary>Определяет, равны ли два указанных экземпляра Екстендедпропертидефинитион.</summary>
+        <returns><b>значение true</b> , если определения расширенных свойств равны; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -317,11 +306,10 @@
         <Parameter Name="extPropDef2" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="extPropDef1">Первое определение расширенных свойств.</param>
-        <param name="extPropDef2">Второе определение расширенных свойств.</param>
-        <summary>Определяет, будет ли два указанных экземпляра ExtendedPropertyDefinition не равны.</summary>
-        <returns>
-          <b>значение true,</b> Если определения расширенных свойств не равны; в противном случае — <b>false</b>.</returns>
+        <param name="extPropDef1">Первое определение расширенного свойства.</param>
+        <param name="extPropDef2">Второе определение расширенного свойства.</param>
+        <summary>Определяет, являются ли два указанных экземпляра Екстендедпропертидефинитион неравными.</summary>
+        <returns><b>значение true</b> , если определения расширенных свойств не равны; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -340,9 +328,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор свойств расширенные свойства.</summary>
-        <value>
-          <b>Допускает значение NULL</b> значение, содержащее набор свойств расширенные свойства.</value>
+        <summary>Возвращает набор свойств расширенного свойства.</summary>
+        <value>Значение <b>Nullable</b> , которое содержит набор свойств расширенного свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -361,9 +348,8 @@
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает свойство задать идентификатор для расширенного свойства.</summary>
-        <value>
-          <b>Допускает значение NULL</b> значение, содержащее свойство задать идентификатор расширенные свойства.</value>
+        <summary>Возвращает идентификатор набора свойств для расширенного свойства.</summary>
+        <value>Значение <b>Nullable</b> , которое содержит идентификатор набора свойств расширенного свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -383,8 +369,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает тег для расширенного свойства.</summary>
-        <value>
-          <b>Допускает значение NULL</b> значение, которое содержит тег расширенные свойства.</value>
+        <value>Значение <b>Nullable</b> , содержащее тег расширенного свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -423,8 +408,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает Минимальная версия Exchange, которая поддерживает этого расширенные свойства.</summary>
-        <value>Значение перечисления ExchangeVersion.</value>
+        <summary>Возвращает минимальную версию Exchange, поддерживающую это расширенное свойство.</summary>
+        <value>Значение перечисления Ексчанжеверсион.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

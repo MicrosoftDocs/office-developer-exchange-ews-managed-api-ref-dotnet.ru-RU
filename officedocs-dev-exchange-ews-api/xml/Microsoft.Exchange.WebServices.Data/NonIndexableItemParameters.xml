@@ -1,13 +1,5 @@
 <Type Name="NonIndexableItemParameters" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="77df6f0a00ac58804240f4bc4a40d7d05c1c5f53" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627241" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class NonIndexableItemParameters" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="77df6f0a00ac58804240f4bc4a40d7d05c1c5f53" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627241" /></Metadata><TypeSignature Language="C#" Value="public abstract class NonIndexableItemParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit NonIndexableItemParameters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class NonIndexableItemParameters" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Объект, содержащий параметры, используемые в запроса сведений об элементах в папках, которые не могут быть индексированы. <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Объект, содержащий параметры, используемые при запросе сведений о элементах в папках, которые не удается индексировать. <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Создает экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Создает экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,7 +49,7 @@
         <ReturnType>System.String[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список почтовых ящиков (в формате устаревшее различающееся имя).            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает список почтовых ящиков (в формате традиционного различающегося имени).            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Список почтовых ящиков.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,9 +69,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает, следует ли выполнять поиск только папки архива.            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> если только архивные папки поиска; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, следует ли выполнять поиск только в архивных папках.            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если выполняется поиск только архивных папок; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

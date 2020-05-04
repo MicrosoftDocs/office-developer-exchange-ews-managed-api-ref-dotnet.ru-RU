@@ -1,13 +1,5 @@
 <Type Name="EmailAddressDictionary" FullName="Microsoft.Exchange.WebServices.Data.EmailAddressDictionary">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3ba1e5e11959330cd31e40d7cf4f6e60c8c834d6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626857" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class EmailAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.EmailAddressKey,Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3ba1e5e11959330cd31e40d7cf4f6e60c8c834d6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626857" /></Metadata><TypeSignature Language="C#" Value="public sealed class EmailAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.EmailAddressKey,Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailAddressDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey, class Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailAddressDictionary&#xA;Inherits DictionaryProperty(Of EmailAddressKey, EmailAddressEntry)" />
@@ -47,7 +39,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса EmailAddressDictionary.</summary>
+        <summary>Инициализирует новый экземпляр класса Емаиладдрессдиктионари.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,9 +61,9 @@
         <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ, связанный с адресом электронной почты, чтобы получить или задать.</param>
-        <summary>Получает или задает адрес электронной почты, соответствующий указанный ключ.</summary>
-        <value>Адрес электронной почты, соответствующий указанный ключ.</value>
+        <param name="key">Ключ, связанный с адресом электронной почты, который требуется получить или задать.</param>
+        <summary>Получает или задает адрес электронной почты, соответствующий заданному ключу.</summary>
+        <value>Адрес электронной почты, соответствующий указанному ключу.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -95,10 +87,9 @@
       </Parameters>
       <Docs>
         <param name="key">Ключ, связанный с адресом электронной почты.</param>
-        <param name="emailAddress">Если указанный ключ найден, содержащий адрес электронной почты, связанного с указанным ключом; в противном случае — значение NULL (Nothing в Visual Basic). Этот параметр передается неинициализированную переменную.</param>
-        <summary>Пытается получить адрес электронной почты, связанного с указанным ключом.</summary>
-        <returns>
-          <b>значение true,</b> Если словарь содержит адрес электронной почты, связанного с указанным ключом; в противном случае — <b>false</b>.</returns>
+        <param name="emailAddress">Если указанный ключ найден, содержит адрес электронной почты, связанный с указанным ключом; в противном случае — пустая ссылка (Nothing в Visual Basic). Этот параметр передается неинициализированным.</param>
+        <summary>Пытается получить адрес электронной почты, связанный с указанным ключом.</summary>
+        <returns><b>значение true</b> , если словарь содержит адрес электронной почты, связанный с указанным ключом; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

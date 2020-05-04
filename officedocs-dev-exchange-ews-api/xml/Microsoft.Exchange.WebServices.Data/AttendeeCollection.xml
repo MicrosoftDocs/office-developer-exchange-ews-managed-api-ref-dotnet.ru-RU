@@ -1,13 +1,5 @@
 <Type Name="AttendeeCollection" FullName="Microsoft.Exchange.WebServices.Data.AttendeeCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="170217c47aa4c92a6bd410bbba294ff977d1c0e9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626723" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AttendeeCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attendee&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="170217c47aa4c92a6bd410bbba294ff977d1c0e9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626723" /></Metadata><TypeSignature Language="C#" Value="public sealed class AttendeeCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attendee&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttendeeCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Attendee&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttendeeCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttendeeCollection&#xA;Inherits ComplexPropertyCollection(Of Attendee)" />
@@ -50,7 +42,7 @@
         <Parameter Name="attendee" Type="Microsoft.Exchange.WebServices.Data.Attendee" />
       </Parameters>
       <Docs>
-        <param name="attendee">Участника для добавления в коллекцию.</param>
+        <param name="attendee">Участник, добавляемый в коллекцию.</param>
         <summary>Добавляет участника в коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,9 +65,9 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">SMTP-адрес участника для добавления в коллекцию.</param>
+        <param name="smtpAddress">SMTP-адрес участника, добавляемого в коллекцию.</param>
         <summary>Добавляет участника в коллекцию.</summary>
-        <returns>Экземпляр класса Attendee, инициализированный отмеченными SMTP-адрес.</returns>
+        <returns>Экземпляр класса участника, инициализируемый с помощью предоставленного SMTP-адреса.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -98,10 +90,10 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">Имя участника для добавления в коллекцию.</param>
-        <param name="smtpAddress">SMTP-адрес участника для добавления в коллекцию.</param>
+        <param name="name">Имя участника, добавляемого в коллекцию.</param>
+        <param name="smtpAddress">SMTP-адрес участника, добавляемого в коллекцию.</param>
         <summary>Добавляет участника в коллекцию.</summary>
-        <returns>Экземпляр класса Attendee, инициализирован с указанным именем и SMTP-адрес.</returns>
+        <returns>Экземпляр класса участника, который инициализируется с указанным именем и SMTP-адресом.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,7 +113,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет из коллекции всех участников.</summary>
+        <summary>Удаляет всех участников из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -142,10 +134,9 @@
         <Parameter Name="attendee" Type="Microsoft.Exchange.WebServices.Data.Attendee" />
       </Parameters>
       <Docs>
-        <param name="attendee">Участника, чтобы удалить из коллекции.</param>
-        <summary>Удаление участника из коллекции.</summary>
-        <returns>
-          <b>значение true,</b> Если участник успешно удалена из коллекции. в противном случае — <b>false</b>.</returns>
+        <param name="attendee">Участник, который необходимо удалить из коллекции.</param>
+        <summary>Удаляет участника из коллекции.</summary>
+        <returns><b>значение true</b> , если участник успешно удален из коллекции; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -167,8 +158,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Индекс attendee, чтобы удалить из коллекции.</param>
-        <summary>Удаление участника из коллекции.</summary>
+        <param name="index">Индекс участника, который необходимо удалить из коллекции.</param>
+        <summary>Удаляет участника из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

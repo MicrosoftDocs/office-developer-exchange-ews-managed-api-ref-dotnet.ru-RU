@@ -1,13 +1,5 @@
 <Type Name="EntityExtractionResult" FullName="Microsoft.Exchange.WebServices.Data.EntityExtractionResult">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e2fba76651261e9fbe9fe2a5cd06ad97f06271f1" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626751" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class EntityExtractionResult : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e2fba76651261e9fbe9fe2a5cd06ad97f06271f1" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626751" /></Metadata><TypeSignature Language="C#" Value="public sealed class EntityExtractionResult : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EntityExtractionResult extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EntityExtractionResult&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения, извлеченные из сообщений, задаче или собрания.             <see cref="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения, извлеченные из сообщения, задачи или собрания.             <see cref="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AddressEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор адресов, возвращенных.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Возвращает набор возвращаемых адресов.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Извлеченные адреса.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -60,7 +52,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ContactEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор возвращаемых контакты.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Возвращает набор возвращенных контактов.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Извлеченные контакты.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,8 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор возвращаемых адреса электронной почты.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Адреса извлеченные электронной почты.</value>
+        <summary>Возвращает набор возвращаемых адресов электронной почты.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Извлеченные адреса электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,8 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор возвращаемых предложения о собраниях.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Предложения извлеченные собрания.</value>
+        <summary>Получает или задает значение, заданное в списке.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Извлеченные предложения о собрании.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,8 +112,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор возвращаемых номеров телефонов.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Извлеченные телефонных номеров.</value>
+        <summary>Возвращает набор возвращаемых номеров телефона.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Извлеченные номера телефонов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -140,8 +132,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор возвращаемых предложений задач.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Предложения извлеченные задач.</value>
+        <summary>Возвращает набор возвращаемых предложений задачи.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Извлеченные предложения для задач.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -160,7 +152,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.UrlEntityCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор возвращаемых URL-адреса.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Возвращает набор возвращаемых URL-адресов.             <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Извлеченные URL-адреса.</value>
         <remarks>To be added.</remarks>
       </Docs>

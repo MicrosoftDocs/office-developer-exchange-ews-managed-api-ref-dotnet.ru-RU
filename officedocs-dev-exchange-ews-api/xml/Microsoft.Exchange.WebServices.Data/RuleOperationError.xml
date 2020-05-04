@@ -1,13 +1,5 @@
 <Type Name="RuleOperationError" FullName="Microsoft.Exchange.WebServices.Data.RuleOperationError">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="faa4e17c357f96ec75ef167d3b7e1c88d39909e4" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626547" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class RuleOperationError : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.RuleError&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="faa4e17c357f96ec75ef167d3b7e1c88d39909e4" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626547" /></Metadata><TypeSignature Language="C#" Value="public sealed class RuleOperationError : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.RuleError&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleOperationError extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.RuleError&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleOperationError" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleOperationError&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of RuleError)" />
@@ -25,7 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Представляет ошибки, возникшей во время обработки правила операции.</summary>
+    <summary>Представляет ошибку, возникшую при обработке операции правила.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,8 +36,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает число ошибок правила в списке.</summary>
-        <value>Число объектов RuleError в коллекции RuleOperationError.</value>
+        <summary>Получает количество ошибок правил в списке.</summary>
+        <value>Число объектов Рулиррор в коллекции Рулеоператионеррор.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,7 +60,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции.</summary>
+        <summary>Возвращает перечислитель, который позволяет перебирать объекты в коллекции.</summary>
         <returns>Перечислитель, который можно использовать для итерации по коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -91,14 +83,11 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс Ошибка правила для получения.</param>
-        <summary>Возвращает ошибку правила по указанному индексу.</summary>
-        <value>Ошибка правил по указанному индексу в коллекции.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleOperationError.Item(System.Int32)" /> Свойство позволяет получить определенный <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperationError" /> объектов в коллекции. Если вы хотите перечисления коллекции, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.GetEnumerator" /> свойство обычным способом.</para>
-          <para />
-        </remarks>
+        <param name="index">Отсчитываемый от нуля индекс ошибки правила, который требуется получить.</param>
+        <summary>Получает ошибку правила по указанному индексу.</summary>
+        <value>Ошибка правила по указанному индексу в коллекции.</value>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.RuleOperationError.Item(System.Int32)" /> Свойство позволяет получить определенный <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperationError" /> объект в коллекции. Если вы хотите перечислить коллекцию, вы можете использовать <see cref="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.GetEnumerator" /> свойство стандартным способом.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Operation">
@@ -116,8 +105,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RuleOperation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает правило операцию, которая привела к ошибке.</summary>
-        <value>Операция правила, который вызвал ошибку.</value>
+        <summary>Возвращает операцию правила, которая привела к ошибке.</summary>
+        <value>Операция правила, которая привела к ошибке.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -140,8 +129,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.             <see cref="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

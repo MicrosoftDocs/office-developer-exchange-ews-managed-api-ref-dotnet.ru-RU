@@ -1,13 +1,5 @@
 <Type Name="EmailMessage" FullName="Microsoft.Exchange.WebServices.Data.EmailMessage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f5f255dace8d8fb4c59ed05dd9659c3387df2716" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626607" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class EmailMessage : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f5f255dace8d8fb4c59ed05dd9659c3387df2716" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626607" /></Metadata><TypeSignature Language="C#" Value="public class EmailMessage : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailMessage extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailMessage" />
   <TypeSignature Language="VB.NET" Value="Public Class EmailMessage&#xA;Inherits Item" />
@@ -22,10 +14,8 @@
   <Interfaces />
   <Docs>
     <summary>Представляет сообщение электронной почты.</summary>
-    <remarks>
-      <para>Определенные свойства, доступные на сообщения электронной почты в <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" /> класса.</para>
-      <para />
-    </remarks>
+    <remarks><para>Свойства, доступные в сообщениях электронной почты, определяются <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" /> в классе.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -43,12 +33,10 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">Объект службы Exchange, на который можно привязать сообщения электронной почты.</param>
-        <summary>Инициализирует локальный экземпляр класса EmailMessage с помощью объекта службы Exchange.</summary>
-        <remarks>
-          <para>Использование <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> метод привязки в сообщение электронной почты на сервере Exchange.</para>
-          <para />
-        </remarks>
+        <param name="service">Объект службы Exchange, к которому может быть привязано сообщение электронной почты.</param>
+        <summary>Инициализирует локальный экземпляр класса EmailMessage с объектом службы Exchange.</summary>
+        <remarks><para>Используйте <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> метод, чтобы выполнить присоединение к существующему сообщению электронной почты на сервере Exchange.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ApprovalRequestData">
@@ -68,11 +56,9 @@
       <Docs>
         <summary>Получает сведения о запросе утверждения для сообщения запроса на утверждение.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>В порядке для этого свойства для хранения данных, <see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ApprovalRequestData" /> значение должно присутствовать в набор свойств, переданной в <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> метод.</para>
-          <para>Утверждения запроса получают сообщения модератору как часть поток сообщений для управляемой получателей. Для получения дополнительных сведений см <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Проходят контроль транспорта</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Чтобы свойство было содержать данные, <see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ApprovalRequestData" /> значение должно присутствовать в наборе свойств, переданном <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> методу.</para> 
+          <para>Сообщения запроса утверждения отправляются модератору в составе последовательности сообщений для управляемых получателей. Дополнительные сведения см в разделе <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">управляемый транспорт</a> </para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="BccRecipients">
@@ -91,7 +77,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает список получателей скрытой копии сообщения электронной почты.</summary>
-        <value>Коллекции адрес электронной почты.</value>
+        <value>Коллекция адресов электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,14 +100,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к сообщению электронной почты.</param>
-        <param name="id">Идентификатор сообщения электронной почты для привязки.</param>
-        <summary>Выполняет привязку к существующее сообщение электронной почты и загружает его свойства первого класса.</summary>
-        <returns>Сообщения электронной почты.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="service">Служба, используемая для связывания с сообщением электронной почты.</param>
+        <param name="id">Идентификатор сообщения электронной почты, к которому необходимо присоединиться.</param>
+        <summary>Применяет к существующему сообщению электронной почты и загружает его свойства первого класса.</summary>
+        <returns>Сообщение электронной почты.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -143,15 +127,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Идентификатор сообщения электронной почты для привязки.</param>
-        <param name="id">Служба должна использовать для привязки к сообщению электронной почты.</param>
+        <param name="service">Идентификатор сообщения электронной почты, к которому необходимо присоединиться.</param>
+        <param name="id">Служба, используемая для связывания с сообщением электронной почты.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующее сообщение электронной почты и загружает указанный набор свойств.</summary>
-        <returns>Сообщения электронной почты.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в вызов веб-службы Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Выполняет присоединение к существующему сообщению электронной почты и загружает указанный набор свойств.</summary>
+        <returns>Сообщение электронной почты.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="CcRecipients">
@@ -170,7 +152,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает список получателей копии сообщения электронной почты.</summary>
-        <value>Коллекции адрес электронной почты.</value>
+        <value>Коллекция адресов электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,12 +171,10 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает индекс беседы сообщения электронной почты.</summary>
+        <summary>Получает индекс сообщения электронной почты.</summary>
         <value>Индекс беседы.</value>
-        <remarks>
-          <para>Несмотря на то, что свойство ConversationIndex доступен только для чтения, ConversationIndex можно задать с помощью расширенных свойств. В разделе Свойства ConversationIndex <a href=" HYPERLINK &quot;http://go.microsoft.com/fwlink/?LinkId=186176&quot; http://go.microsoft.com/fwlink/?LinkId=186176">Отслеживания бесед</a>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Несмотря на то, что свойство ConversationIndex доступно только для чтения, вы можете задать ConversationIndex с помощью расширенных свойств. В разделе <a href=" HYPERLINK &quot;http://go.microsoft.com/fwlink/?LinkId=186176&quot; http://go.microsoft.com/fwlink/?LinkId=186176">Отслеживание бесед</a>ConversationIndex свойство.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationTopic">
@@ -212,8 +192,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает предметам сообщения электронной почты.</summary>
-        <value>Тема беседы.</value>
+        <summary>Возвращает раздел "Беседа" сообщения электронной почты.</summary>
+        <value>Раздел "Беседа".</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,8 +213,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Создает прямого ответа на сообщение.</summary>
-        <returns>Прямого ответа, впоследствии можно изменить и отправлено.</returns>
+        <summary>Создает ответ вперед на сообщение.</summary>
+        <returns>Ответ переадресации, который впоследствии может быть изменен и отправлен.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -256,10 +236,9 @@
         <Parameter Name="replyAll" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="replyAll">
-          <b>значение true,</b> указывает, будет ли ответ должен приходить ко всем исходным получателям сообщений; в противном случае — <b>false</b>.</param>
-        <summary>Создает ответ ответ на сообщение.</summary>
-        <returns>Ответ ответ, впоследствии можно изменить и отправлено.</returns>
+        <param name="replyAll"><b>значение true</b> , чтобы указать, следует ли отправлять ответ всем исходным получателям сообщения; в противном случае — <b>false</b>.</param>
+        <summary>Создает ответ ответа на сообщение.</summary>
+        <returns>Ответ на ответ, который впоследствии может быть изменен и отправлен.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -288,13 +267,11 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Префикс для вставки в начале исходного текста сообщения.</param>
-        <param name="toRecipients">Получатели, которые получают переадресованных сообщений.</param>
-        <summary>Переадресует сообщение.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="bodyPrefix">Префикс для добавления к исходному тексту сообщения.</param>
+        <param name="toRecipients">Получатели, которые получают переадресованное сообщение.</param>
+        <summary>Пересылка сообщения.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -316,13 +293,11 @@
         <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Префикс для вставки в начале исходного текста сообщения.</param>
-        <param name="toRecipients">Получатели, которые получают переадресованных сообщений.</param>
-        <summary>Переадресует сообщение.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="bodyPrefix">Префикс для добавления к исходному тексту сообщения.</param>
+        <param name="toRecipients">Получатели, которые получают переадресованное сообщение.</param>
+        <summary>Пересылка сообщения.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="From">
@@ -340,7 +315,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает, откуда получена сообщения электронной почты.</summary>
+        <summary>Получает или задает значение, указывающее, откуда поступило сообщение электронной почты.</summary>
         <value>Адрес электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -360,7 +335,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор сообщения Интернета сообщения электронной почты.</summary>
+        <summary>Получает идентификатор Интернет сообщения электронной почты.</summary>
         <value>Идентификатор сообщения Интернета.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -380,9 +355,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли соответствующее сообщение.</summary>
-        <value>
-          <b>значение true,</b> Если это сообщение связан; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли данное сообщение связанным.</summary>
+        <value><b>значение true</b> , если это сообщение связано; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -402,8 +376,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее, запрашивается ли уведомление о доставке для сообщения электронной почты.</summary>
-        <value>
-          <b>значение true,</b> Если запрашивается уведомление о доставке; в противном случае — <b>false</b>.</value>
+        <value><b>значение true</b> , если уведомление о доставке запрошено; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -422,9 +395,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, имеет ли чтение сообщения электронной почты.</summary>
-        <value>
-          <b>значение true,</b> Если сообщение электронной почты было прочитано; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, было ли Прочитано сообщение электронной почты.</summary>
+        <value><b>значение true</b> , если сообщение электронной почты было прочитано; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -443,9 +415,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, запрашивается ли прочтении для сообщения электронной почты.</summary>
-        <value>
-          <b>значение true,</b> Если прочтении инициатор запроса; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, запрашивается ли уведомление о прочтении сообщения электронной почты.</summary>
+        <value><b>значение true</b> , если уведомление о прочтении является инициатором запроса; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -465,8 +436,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее, запрашивается ли ответ для сообщения электронной почты.</summary>
-        <value>
-          <b>значение true,</b> Если ответ необходим для сообщения электронной почты; в противном случае — <b>false</b>.</value>
+        <value><b>имеет значение true</b> , если для сообщения электронной почты запрашивается ответ; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -485,29 +455,27 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает делегата, принявшего сообщения электронной почты.</summary>
+        <summary>Возвращает делегат, получивший сообщение электронной почты.</summary>
         <value>Адрес электронной почты.</value>
-        <remarks>
-          <para>Свойство получил используется вместе с <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" /> свойства в сценарии доступа делегата. В следующей таблице перечислены объекты, которые представляют эти свойства в сценарии доступа делегата.</para>
+        <remarks><para>Свойство Рецеиведби используется вместе со свойствами <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" /> в сценарии доступа делегата. В следующей таблице перечислены сущности, которые представляют эти свойства в сценарии доступа делегата.</para> 
           <list type="table">
-            <item>
-              <term>
-                <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />
-              </term>Сторонних
-            </item>
-            <item>
-              <term>получил</term>
-              <description>делегат</description>
-            </item>
-            <item>
+            <item>Участник делегата
               <term>
                 <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" />
-              </term>участника
+              </term>
+            </item>ThirdParty
+            <item>
+              <term>рецеиведби</term>
+              <description>Delegate</description>
+            </item>в сценарии доступа представителя, если ThirdParty отправляет приглашение на собрание участнику с представителем, он увидит новое приглашение на собрание. 
+            <item> 
+              <term>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />
+              </term>
             </item>
           </list>
-          <para>В сценарии доступа делегата, если в сторонних отправляет запрос на участника, имеющий делегата, делегат появится нового приглашения на собрание. Эти свойства позволяют делегатов, которые будут различать сообщения, отправленные непосредственно к ним и сообщения, отправляемые в них из-за правило переадресации делегата.</para>
-          <para />
-        </remarks>
+          <para> Эти свойства позволяют представителям различать сообщения, отправленные непосредственно в них, и сообщения, отправленные им из-за правила пересылки делегата.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedRepresenting">
@@ -525,12 +493,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает главный сообщения электронной почты.</summary>
+        <summary>Получает субъект сообщения электронной почты.</summary>
         <value>Адрес электронной почты.</value>
-        <remarks>
-          <para>Свойство ReceivedRepresenting используется вместе с <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" /> свойства в сценарии доступа делегата.</para>
-          <para />
-        </remarks>
+        <remarks><para>Свойство Рецеиведрепресентинг используется вместе со свойствами <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> и <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" /> в сценарии доступа делегата.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="References">
@@ -548,7 +514,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ссылки на сообщения электронной почты.</summary>
+        <summary>Получает или задает ссылки на сообщение электронной почты.</summary>
         <value>Набор ссылок.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -572,14 +538,11 @@
         <Parameter Name="replyAll" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Префикс для вставки в начале исходного текста сообщения.</param>
-        <param name="replyAll">
-          <b>значение true,</b> указывает, будет ли ответ должен приходить ко всем исходным получателям сообщений; в противном случае — <b>false</b>.</param>
-        <summary>Ответы на сообщение.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="bodyPrefix">Префикс для добавления к исходному тексту сообщения.</param>
+        <param name="replyAll"><b>значение true</b> , чтобы указать, следует ли отправлять ответ всем исходным получателям сообщения; в противном случае — <b>false</b>.</param>
+        <summary>Ответ на сообщение.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyTo">
@@ -597,7 +560,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список адресов электронной почты, к которым следует рассмотреть ответов.</summary>
+        <summary>Получает список адресов электронной почты, на которые следует адресовать ответы.</summary>
         <value>Список адресов электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -618,11 +581,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отправляет сообщения электронной почты.</summary>
-        <remarks>
-          <para>При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Отправляет это сообщение электронной почты.</summary>
+        <remarks><para>Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendAndSaveCopy">
@@ -641,11 +602,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отправляет сообщения электронной почты и сохраняет его копию в папке «Отправленные».</summary>
-        <remarks>
-          <para>Этот метод не работает, если сообщение имеет несохраненные вложения. В этом случае сообщение сначала должен быть сохранен и отправки. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Отправляет это сообщение электронной почты и сохраняет его копию в папке "Отправленные".</summary>
+        <remarks><para>Этот метод не работает, если сообщение содержит несохраненные вложения. В этом случае сообщение сначала необходимо сохранить, а затем отправить. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendAndSaveCopy">
@@ -666,12 +625,10 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папку, в которой требуется сохранить копию.</param>
-        <summary>Отправляет сообщения электронной почты и сохраняет его копию в указанной папке.</summary>
-        <remarks>
-          <para>Этот метод не работает, если сообщение имеет несохраненные вложения. В этом случае сообщение сначала должен быть сохранен и отправки. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="destinationFolderId">Идентификатор папки, в которой необходимо сохранить копию.</param>
+        <summary>Отправляет это сообщение электронной почты и сохраняет его копию в указанной папке.</summary>
+        <remarks><para>Этот метод не работает, если сообщение содержит несохраненные вложения. В этом случае сообщение сначала необходимо сохранить, а затем отправить. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendAndSaveCopy">
@@ -692,12 +649,10 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, в котором следует сохранить копию.</param>
-        <summary>Отправляет сообщения электронной почты и сохраняет его копию в указанной папке.</summary>
-        <remarks>
-          <para>Этот метод не работает, если сообщение имеет несохраненные вложения. В этом случае сообщение сначала должен быть сохранен и отправки. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="destinationFolderName">Имя папки, в которой необходимо сохранить копию.</param>
+        <summary>Отправляет это сообщение электронной почты и сохраняет его копию в указанной папке.</summary>
+        <remarks><para>Этот метод не работает, если сообщение содержит несохраненные вложения. В этом случае сообщение сначала необходимо сохранить, а затем отправить. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sender">
@@ -736,11 +691,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Подавляет уведомления в окне сообщения.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Подавляет уведомление о прочтении сообщения.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToRecipients">
@@ -759,7 +712,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает список получателей сообщения электронной почты.</summary>
-        <value>Коллекции адрес электронной почты.</value>
+        <value>Коллекция адресов электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -778,12 +731,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.VotingInformation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сведения о голосование в сообщения с кнопками голосования, ответ на голосование или сообщение запроса утверждения.</summary>
+        <summary>Получает сведения о голосовании на сообщение с кнопками голосования, ответом на голосование или запросом на утверждение.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтобы это свойство для хранения данных <see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.VotingInformation" /> значение должно присутствовать в набор свойств, переданной в <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> метод.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтобы свойство было содержать данные, <see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.VotingInformation" /> значение должно присутствовать в наборе свойств, переданном <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> методу.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

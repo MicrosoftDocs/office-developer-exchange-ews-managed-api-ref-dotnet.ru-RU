@@ -1,13 +1,5 @@
 <Type Name="Suggestion" FullName="Microsoft.Exchange.WebServices.Data.Suggestion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="67ff01b1690f959f23dbcafcd068800a1c340edd" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626737" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Suggestion : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="67ff01b1690f959f23dbcafcd068800a1c340edd" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626737" /></Metadata><TypeSignature Language="C#" Value="public sealed class Suggestion : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Suggestion extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Suggestion" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Suggestion&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет предложений о собрании для определенной даты.</summary>
+    <summary>Представляет предложения собрания для определенной даты.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -41,7 +33,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает дату для предложений о собрании для определенной даты.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.Date" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></value>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.Date" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает качество даты предложенного собрания.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.Quality" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> объект, представляющий качества даты предложенного собрания.</value>
+        <summary>Получает качество предполагаемой даты собрания.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.Quality" /> свойства — это <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> объект, представляющий качество предполагаемой даты собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.TimeSuggestion&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию раз предложенного собрания для даты предложенного собрания.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.TimeSuggestions" /> — это свойство <a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collection.ObjectMode.Collection&lt;T&gt; </a><see cref="T:Microsoft.Exchange.WebServices.Data.TimeSuggestion" /> объекты, которые представляют предложенного собрания.</value>
+        <summary>Получает коллекцию предложенных времени проведения собрания для предложенной даты собрания.</summary>
+        <value>Значением <see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.TimeSuggestions" /> свойства является объект <a href="http://go.microsoft.com/fwlink/?LinkId=164020">т:систем.коллектион.обжектмоде.коллектион&lt;T&gt; </a> <see cref="T:Microsoft.Exchange.WebServices.Data.TimeSuggestion" /> , каждый из которых представляет предполагаемое время проведения собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

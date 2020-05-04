@@ -1,13 +1,5 @@
 <Type Name="ItemTraversal" FullName="Microsoft.Exchange.WebServices.Data.ItemTraversal">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="486a431df87197f1ad4444096b0a7c8af5885c58" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626505" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ItemTraversal" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="486a431df87197f1ad4444096b0a7c8af5885c58" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626505" /></Metadata><TypeSignature Language="C#" Value="public enum ItemTraversal" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemTraversal extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemTraversal" />
   <TypeSignature Language="VB.NET" Value="Public Enum ItemTraversal" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет область <b>FindItems</b> операций.</summary>
+    <summary>Определяет область действия <b>FindItems</b> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Извлекаются все не удаленные элементы в указанной папке.</summary>
+        <summary>Извлекаются все элементы из указанной папки, которые не были удалены.</summary>
       </Docs>
     </Member>
     <Member MemberName="SoftDeleted">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Извлекаются только удаленные элементы.</summary>
+        <summary>Извлекаются только обратимо удаленные элементы.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="FolderId" FullName="Microsoft.Exchange.WebServices.Data.FolderId">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8ab5db187cd522e45470a443353a0dfbbcd8ff89" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627116" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FolderId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8ab5db187cd522e45470a443353a0dfbbcd8ff89" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627116" /></Metadata><TypeSignature Language="C#" Value="public sealed class FolderId : Microsoft.Exchange.WebServices.Data.ServiceId" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderId" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderId&#xA;Inherits ServiceId" />
@@ -40,12 +32,10 @@
         <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="folderName">Имя папки, который используется для инициализации класса FolderId.</param>
-        <summary>Инициализирует новый экземпляр класса FolderId с именем известных папки.</summary>
-        <remarks>
-          <para>Используйте этот конструктор, чтобы связать этот идентификатор папки известных папку (например, папки "Входящие", календаря или контакты).</para>
-          <para />
-        </remarks>
+        <param name="folderName">Имя папки, используемое для инициализации класса FolderId.</param>
+        <summary>Инициализирует новый экземпляр класса FolderId, используя известное имя папки.</summary>
+        <remarks><para>Используйте этот конструктор, чтобы связать идентификатор папки с известной папкой (например, папкой "Входящие", "Календарь" или "Контакты").</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -63,12 +53,10 @@
         <Parameter Name="uniqueId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="uniqueId">Уникальный идентификатор, который используется для инициализации класса FolderId.</param>
+        <param name="uniqueId">Уникальный идентификатор, используемый для инициализации класса FolderId.</param>
         <summary>Инициализирует новый экземпляр класса FolderId.</summary>
-        <remarks>
-          <para>Используйте этот конструктор, чтобы связать этот класс FolderId в существующей папке.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте этот конструктор для связывания этого класса FolderId с существующей папкой.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -86,13 +74,11 @@
         <Parameter Name="mailbox" Type="Microsoft.Exchange.WebServices.Data.Mailbox" />
       </Parameters>
       <Docs>
-        <param name="folderName">Имя папки, который используется для инициализации класса FolderId.</param>
-        <param name="mailbox">Почтовый ящик, который используется для инициализации класса FolderId.</param>
-        <summary>Инициализирует новый экземпляр класса FolderID имя указанной папки и почтового ящика.</summary>
-        <remarks>
-          <para>Используйте этот конструктор, чтобы связать этот идентификатор папки в известном папку (например, папки «Входящие», календарь или контакты) определенного почтового ящика.</para>
-          <para />
-        </remarks>
+        <param name="folderName">Имя папки, используемое для инициализации класса FolderId.</param>
+        <param name="mailbox">Почтовый ящик, используемый для инициализации класса FolderId.</param>
+        <summary>Инициализирует новый экземпляр класса FolderID с указанным именем папки и почтовым ящиком.</summary>
+        <remarks><para>С помощью этого конструктора можно связать идентификатор папки с известной папкой (например, папкой "Входящие", "Календарь" или "Контакты") в определенном почтовом ящике.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -113,13 +99,11 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">Папка для сравнения с текущей папки.</param>
-        <summary>Определяет, является ли указанная папка равное текущей папки.</summary>
-        <returns>
-          <b>значение true,</b> Если указанная папка является равное текущей папки; в противном случае — <b>false</b>.</returns>
+        <param name="obj">Папка для сравнения с текущей папкой.</param>
+        <summary>Определяет, совпадает ли указанная папка с текущей папкой.</summary>
+        <returns><b>значение true</b> , если указанная папка равна текущей папке; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.NullReferenceException">
-          <paramref name="obj" /> Параметр — это пустая ссылка (Nothing в Visual Basic).</exception>
+        <exception cref="T:System.NullReferenceException"><paramref name="obj" /> Параметр является пустой ссылкой (Nothing в Visual Basic).</exception>
       </Docs>
     </Member>
     <Member MemberName="FolderName">
@@ -137,13 +121,10 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя папки, который связан с идентификатором папки.</summary>
-        <value>
-          <b>Допускает значение NULL</b> имя известных папки, который связан с идентификатором папки.</value>
-        <remarks>
-          <para>Имя папки известных и идентификатор папки являются взаимоисключающими; Если один задано, другое — пустая ссылка (Nothing в Visual Basic).</para>
-          <para />
-        </remarks>
+        <summary>Получает имя папки, связанной с ИДЕНТИФИКАТОРом папки.</summary>
+        <value>Имя известной папки, <b>которая является допуском и связана</b> с идентификатором папки.</value>
+        <remarks><para>Хорошо известное имя папки и идентификатор папки являются взаимоисключающими; Если он задан, то другой является пустой ссылкой (Nothing в Visual Basic).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -182,8 +163,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Mailbox</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает папки почтового ящика. Почтовый ящик устанавливается только в том случае, если установлено имя папки.</summary>
-        <value>Папки почтового ящика.</value>
+        <summary>Получает почтовый ящик папки. Почтовые ящики задаются только при установке параметра имя_папки.</summary>
+        <value>Почтовый ящик папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -205,9 +186,9 @@
         <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="folderName">Имя папки, чтобы преобразовать идентификатор папки.</param>
-        <summary>Определяет неявное преобразование между имя известных папки и идентификатором папки.</summary>
-        <returns>Идентификатор папки, инициализирован с именем указанной папки.</returns>
+        <param name="folderName">Имя папки, которая будет преобразована в идентификатор папки.</param>
+        <summary>Определяет неявное преобразование между известным именем папки и ИДЕНТИФИКАТОРом папки.</summary>
+        <returns>Идентификатор папки, инициализируемый именем указанной папки.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -229,9 +210,9 @@
         <Parameter Name="uniqueId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="uniqueId">Уникальный идентификатор для преобразования в идентификатором папки.</param>
-        <summary>Определяет неявное преобразование между строку и идентификатором папки.</summary>
-        <returns>Идентификатор папки, который инициализируется с указанным уникальным идентификатором.</returns>
+        <param name="uniqueId">Уникальный идентификатор для преобразования в идентификатор папки.</param>
+        <summary>Определяет неявное преобразование между строкой и ИДЕНТИФИКАТОРом папки.</summary>
+        <returns>Идентификатор папки, которая инициализируется с указанным уникальным ИДЕНТИФИКАТОРом.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -251,7 +232,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает строку, представляющую текущей папки.</summary>
+        <summary>Возвращает строку, представляющую текущую папку.</summary>
         <returns>Имя текущей папки.</returns>
         <remarks>To be added.</remarks>
       </Docs>

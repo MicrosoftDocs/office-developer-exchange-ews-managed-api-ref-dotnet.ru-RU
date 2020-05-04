@@ -1,13 +1,5 @@
 <Type Name="ComplexPropertyCollection&lt;TComplexProperty&gt;" FullName="Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;TComplexProperty&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="da975912edfea8574acf7deb8cf5b57e10da26b7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626884" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ComplexPropertyCollection&lt;TComplexProperty&gt; : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;TComplexProperty&gt; where TComplexProperty : ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="da975912edfea8574acf7deb8cf5b57e10da26b7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626884" /></Metadata><TypeSignature Language="C#" Value="public abstract class ComplexPropertyCollection&lt;TComplexProperty&gt; : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;TComplexProperty&gt; where TComplexProperty : ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ComplexPropertyCollection`1&lt;(class Microsoft.Exchange.WebServices.Data.ComplexProperty) TComplexProperty&gt; extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;!TComplexProperty&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ComplexPropertyCollection(Of TComplexProperty)&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of TComplexProperty)" />
@@ -37,8 +29,8 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <typeparam name="TComplexProperty">Тип ComplexProperty.</typeparam>
-    <summary>Представляет коллекцию свойств, которые отправляются и извлекается из веб-служб Exchange (EWS).</summary>
+    <typeparam name="TComplexProperty">Тип Комплекспроперти.</typeparam>
+    <summary>Представляет коллекцию свойств, которые могут отправляться и извлекаться из веб-служб Exchange (EWS).</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,9 +52,9 @@
         <Parameter Name="complexProperty" Type="TComplexProperty" />
       </Parameters>
       <Docs>
-        <param name="complexProperty">Свойство, позволяющее найти в коллекции.</param>
-        <summary>Определяет, является ли определенное свойство в коллекции.</summary>
-        <returns>Значение true, если свойство найдено в коллекции, значение false в противном случае.</returns>
+        <param name="complexProperty">Свойство, которое требуется определить в коллекции.</param>
+        <summary>Определяет, находится ли определенное свойство в коллекции.</summary>
+        <returns>Значение true, если свойство было найдено в коллекции; в противном случае — значение false.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,8 +73,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число свойств в коллекции.</summary>
-        <value>Число свойств, как целое число.</value>
+        <summary>Получает общее число свойств в коллекции.</summary>
+        <value>Число свойств в виде целого числа.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,8 +97,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.</summary>
-        <returns>Объект IEnumerator для семейства сайтов.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.</summary>
+        <returns>IEnumerator для коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,8 +120,8 @@
         <Parameter Name="complexProperty" Type="TComplexProperty" />
       </Parameters>
       <Docs>
-        <param name="complexProperty">Свойство, позволяющее найти в коллекции.</param>
-        <summary>Выполняет поиск определенное свойство и вернуть его с отсчетом от нуля индекс в коллекции.</summary>
+        <param name="complexProperty">Свойство, которое требуется определить в коллекции.</param>
+        <summary>Выполняет поиск определенного свойства и возвращает его Отсчитываемый от нуля индекс в коллекции.</summary>
         <returns>Отсчитываемый от нуля индекс свойства в коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,8 +144,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс свойство, позволяющее получить.</param>
-        <summary>Возвращает свойство по указанному индексу.</summary>
+        <param name="index">Отсчитываемый от нуля индекс свойства, которое требуется получить.</param>
+        <summary>Получает свойство по указанному индексу.</summary>
         <value>Свойство по указанному индексу.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,8 +169,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель, который выполняет элемента в коллекции.             <see cref="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Получает перечислитель, который выполняет итерацию элементов коллекции.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

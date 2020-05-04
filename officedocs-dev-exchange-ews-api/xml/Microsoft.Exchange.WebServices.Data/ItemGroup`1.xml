@@ -1,13 +1,5 @@
 <Type Name="ItemGroup&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.ItemGroup&lt;TItem&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e174c20d4f6f9e427016eee5098ad7cccecce71e" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627467" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ItemGroup&lt;TItem&gt; where TItem : Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e174c20d4f6f9e427016eee5098ad7cccecce71e" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627467" /></Metadata><TypeSignature Language="C#" Value="public sealed class ItemGroup&lt;TItem&gt; where TItem : Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemGroup`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemGroup`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemGroup(Of TItem)" />
@@ -29,7 +21,7 @@
   <Interfaces />
   <Docs>
     <typeparam name="TItem">Тип элемента в группе.</typeparam>
-    <summary>Представляет группу элементов, возвращенное операции поиска сгруппированных элементов.</summary>
+    <summary>Представляет группу элементов, возвращенных операциями поиска сгруппированных элементов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,8 +40,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает индекс, который определяет группу.</summary>
-        <value>Индекс с отсчетом от нуля семейства сайтов группы.</value>
+        <summary>Получает индекс, определяющий группу.</summary>
+        <value>Отсчитываемый от нуля индекс коллекции для группы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,8 +60,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;TItem&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию элементов в эту группу.</summary>
-        <value>Коллекция, содержащая элементы, обнаруженные в эту группу.</value>
+        <summary>Возвращает коллекцию элементов в этой группе.</summary>
+        <value>Коллекция, содержащая элементы, обнаруженные в этой группе.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

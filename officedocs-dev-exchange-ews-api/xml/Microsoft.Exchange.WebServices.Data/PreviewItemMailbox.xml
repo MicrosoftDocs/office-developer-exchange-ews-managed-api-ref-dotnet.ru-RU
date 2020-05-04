@@ -1,13 +1,5 @@
 <Type Name="PreviewItemMailbox" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemMailbox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9fb32ff65bd48a33d452e2a3a9a96d3a27718419" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626905" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PreviewItemMailbox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9fb32ff65bd48a33d452e2a3a9a96d3a27718419" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626905" /></Metadata><TypeSignature Language="C#" Value="public sealed class PreviewItemMailbox" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreviewItemMailbox extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewItemMailbox" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения о почтовых ящиках в предварительной версии элемента.             <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения о почтовом ящике в предварительной версии элемента.             <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,7 +52,7 @@
       <Docs>
         <param name="mailboxId">Идентификатор почтового ящика.</param>
         <param name="primarySmtpAddress">Основной SMTP-адрес.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> класс идентификатор почтового ящика и основной адрес Simple Mail Transfer Protocol (SMTP).             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> класса с идентификатором почтового ящика и основным SMTP-адресом.             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,7 +71,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор почтового ящика предварительной версии элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор почтового ящика элемента предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор почтового ящика.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -99,7 +91,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает основной адрес Simple Mail Transfer Protocol (SMTP) предварительного просмотра элемента почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает основной SMTP-адрес почтового ящика элемента предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Основной SMTP-адрес.</value>
         <remarks>To be added.</remarks>
       </Docs>

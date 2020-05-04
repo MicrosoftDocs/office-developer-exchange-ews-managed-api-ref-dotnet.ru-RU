@@ -1,13 +1,5 @@
 <Type Name="SearchMailboxesResult" FullName="Microsoft.Exchange.WebServices.Data.SearchMailboxesResult">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5e0f7c185ddcd14f166ffcbfdcc1374145c058d9" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626975" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchMailboxesResult" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5e0f7c185ddcd14f166ffcbfdcc1374145c058d9" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626975" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchMailboxesResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchMailboxesResult extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchMailboxesResult" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит результаты поиска и статистики в ответ на запрос поиска обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит результаты поиска и статистику в ответ на поисковый запрос обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает коллекцию почтовые ящики которых не удалось выполнить запрос поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.FailedMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Почтовые ящики, где не удалось выполнить запрос поиска.</value>
+        <summary>Получает или задает коллекцию почтовых ящиков, для которых не удалось выполнить поисковый запрос.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.FailedMailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Почтовые ящики, для которых не удалось выполнить запрос поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает общее число элементов в результатах поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ItemCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Число элементов.</value>
+        <summary>Получает или задает общее количество элементов в результатах поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ItemCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Количество элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,8 +89,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает статистику по ключевым словам в результатах поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.KeywordStats" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Результат поиска статистику по ключевым словам.</value>
+        <summary>Возвращает или задает статистику ключевых слов в результатах поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.KeywordStats" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Результат поиска статистики по ключевым словам.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,7 +109,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает коллекцию <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> объекты, связанные с результатами поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.MailboxStats" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает коллекцию <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> объектов, связанных с результатом поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.MailboxStats" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Статистика почтового ящика.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,7 +129,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает число страниц, возвращаемых в разбиение на страницы результатов поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает количество страниц, возвращаемых при разбивке результатов поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Число элементов страницы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -162,8 +154,8 @@
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает число элементов, возвращаемых в разбиение на страницы результатов поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemSize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Общий элемент размер страницы.</value>
+        <summary>Получает или задает количество элементов, возвращаемых при разбивке результатов поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemSize" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Общий размер элемента страницы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,8 +174,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPreviewItem[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает коллекцию элементов, доступных для предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PreviewItems" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Просмотр элементов поиска.</value>
+        <summary>Получает или задает коллекцию элементов, доступных для предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PreviewItems" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Элементы предварительного просмотра поиска.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -202,7 +194,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchRefinerItem[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает набор уточнения запросов.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Refiners" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает набор уточнений запроса.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Refiners" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Уточнения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -222,7 +214,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchResultType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, определяющее, была ли поиск статистические или поиска предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ResultType" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает значение, определяющее, был ли поиск статистическим или предварительным поиском.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ResultType" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Тип результата.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -242,8 +234,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxQuery[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает поисковых запросов.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.SearchQueries" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Запросы поиска.</value>
+        <summary>Получает или задает поисковые запросы.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.SearchQueries" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Поисковые запросы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -267,7 +259,7 @@
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает размер, в байтах, элемента.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Size" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает размер элемента (в байтах).             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Size" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Общий размер.</value>
         <remarks>To be added.</remarks>
       </Docs>

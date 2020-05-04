@@ -1,13 +1,5 @@
 <Type Name="ViewFilter" FullName="Microsoft.Exchange.WebServices.Data.ViewFilter">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="808de5e5260554162c6566eec47b02999dfaafbd" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626938" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ViewFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="808de5e5260554162c6566eec47b02999dfaafbd" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626938" /></Metadata><TypeSignature Language="C#" Value="public enum ViewFilter" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ViewFilter extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ViewFilter" />
   <TypeSignature Language="VB.NET" Value="Public Enum ViewFilter" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Отфильтровывает результаты запросов поиска с целью выявления и возвращает только элементы указанного типа.            <see cref="T:Microsoft.Exchange.WebServices.Data.ViewFilter" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Фильтрует результаты поискового запроса при попытке определить и вернуть только элементы указанного типа.            <see cref="T:Microsoft.Exchange.WebServices.Data.ViewFilter" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Без фильтра.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.All" /> Член используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Без фильтра.             Этот <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.All" /> член применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Flagged">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Элементы, отмеченные.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Flagged" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Помеченные элементы.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Flagged" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="HasAttachment">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Элементы, имеющие вложения.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.HasAttachment" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Элементы с вложениями.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.HasAttachment" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Suggestions">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Типов, определяемую средством модуль вывод всех элементов.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Suggestions" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Все типы элементов, определяемые ядром вывода.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Suggestions" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SuggestionsDelete">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Элементы для удаления.            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsDelete" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Элементы, которые требуется удалить.            Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsDelete" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="SuggestionsRespond">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Элементы, чтобы ответить на.            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsRespond" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Элементы, на которые нужно ответить.            Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsRespond" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TaskActive">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Активных задач.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskActive" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Активные задачи.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskActive" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TaskCompleted">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>По завершении задачи.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskCompleted" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Завершенные задачи.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskCompleted" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TaskOverdue">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Просроченных элементов задачи.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskOverdue" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Элементы просроченных задач.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskOverdue" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="ToOrCcMe">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Элементы, адресованное владельцу почтового ящика в поле Кому или копия.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.ToOrCcMe" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Элементы, адресованные владельцу почтового ящика в строке "Кому" или "копия".             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.ToOrCcMe" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Unread">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Непрочитанные элементы.             <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Unread" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Непрочтенные элементы.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Unread" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

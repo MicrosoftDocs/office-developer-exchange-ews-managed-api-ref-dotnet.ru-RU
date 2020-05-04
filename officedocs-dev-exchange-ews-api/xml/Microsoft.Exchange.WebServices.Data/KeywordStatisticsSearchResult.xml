@@ -1,13 +1,5 @@
 <Type Name="KeywordStatisticsSearchResult" FullName="Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9059a58824cff0ea5a21080c4644cae40d02a585" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626694" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class KeywordStatisticsSearchResult" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9059a58824cff0ea5a21080c4644cae40d02a585" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626694" /></Metadata><TypeSignature Language="C#" Value="public sealed class KeywordStatisticsSearchResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit KeywordStatisticsSearchResult extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class KeywordStatisticsSearchResult" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит статистические данные, связанные с поиска методом электронного обнаружения.             <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит статистику, связанную с поиском электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Создает новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Создает новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает общее количество раз, которое отображается значение для поиска в сообщениях, содержащихся в наборе почтовых ящиков.             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.ItemHits" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Число попаданий элемента.</value>
+        <summary>Получает или задает общее число появлений искомого значения в сообщениях, хранящихся в наборе почтовых ящиков.             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.ItemHits" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Количество совпадений элементов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение поиска для поиска обнаружения электронных данных.             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Keyword" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Значение ключевого слова поиска.</value>
+        <summary>Возвращает или задает значение поиска для обнаружения электронных данных.             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Keyword" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение поиска по ключевому слову.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,7 +94,7 @@
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает число элементов в наборе почтовых ящиков, которые содержат значение поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Size" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает количество элементов в наборе почтовых ящиков, которые содержат искомое значение.             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Size" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Общий размер.</value>
         <remarks>To be added.</remarks>
       </Docs>

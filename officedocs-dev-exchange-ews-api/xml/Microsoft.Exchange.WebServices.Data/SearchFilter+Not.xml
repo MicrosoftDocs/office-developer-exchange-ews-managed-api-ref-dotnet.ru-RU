@@ -1,13 +1,5 @@
 <Type Name="SearchFilter+Not" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+Not">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a6b71a78146fa6e44700e8ce8236965526d25dee" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626767" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchFilter.Not : Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a6b71a78146fa6e44700e8ce8236965526d25dee" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626767" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchFilter.Not : Microsoft.Exchange.WebServices.Data.SearchFilter" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/Not extends Microsoft.Exchange.WebServices.Data.SearchFilter" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.Not&#xA;Inherits SearchFilter" />
@@ -21,10 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет фильтр поиска, которое Boolean <b>не</b> применяется к другой фильтр поиска.</summary>
-    <remarks>
-      <para>Приложения могут использовать <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> класса, чтобы определить условия, такие как <b>не</b>(другие фильтр).</para>
-      <para>Являются следующие классы фильтра поиска, которые можно использовать с <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> класс:</para>
+    <summary>Представляет фильтр поиска, который применяет логическое значение, а <b>не</b> другой фильтр поиска.</summary>
+    <remarks><para>Приложения могут использовать <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> класс для определения таких условий, как <b>Not</b>(другой фильтр).</para> 
+      <para>Ниже приведены классы фильтра поиска, которые можно использовать с <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> классом:</para>
       <list type="bullet">
         <item>
           <description>
@@ -87,8 +78,7 @@
           </description>
         </item>
       </list>
-      <para />
-    </remarks>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -104,7 +94,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.Not.</summary>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. not.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -122,8 +112,8 @@
         <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
       </Parameters>
       <Docs>
-        <param name="searchFilter">Поисковый фильтр для устранения.</param>
-        <summary>Инициализирует новый экземпляр класса SearchFilter.Not с фильтром поиска.</summary>
+        <param name="searchFilter">Фильтр поиска, который должен инвертироваться.</param>
+        <summary>Инициализирует новый экземпляр класса SearchFilter. not с указанным фильтром поиска.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -142,8 +132,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает фильтр поиска для устранения.</summary>
-        <value>Поисковый фильтр для устранения.</value>
+        <summary>Получает или задает фильтр поиска, который требуется инвертировать.</summary>
+        <value>Фильтр поиска, который должен инвертироваться.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

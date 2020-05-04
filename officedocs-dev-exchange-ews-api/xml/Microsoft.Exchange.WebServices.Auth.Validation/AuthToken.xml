@@ -1,13 +1,5 @@
 <Type Name="AuthToken" FullName="Microsoft.Exchange.WebServices.Auth.Validation.AuthToken">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dc8af01bd1214d1e6ebf6ccf1c970e88abd1a5de" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627338" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class AuthToken" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dc8af01bd1214d1e6ebf6ccf1c970e88abd1a5de" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627338" /></Metadata><TypeSignature Language="C#" Value="public abstract class AuthToken" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AuthToken extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class AuthToken" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет базовый класс для проверки подлинности маркеров. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-    <remarks>
-      <para>Этот класс можно использовать в веб-службы для <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">проверки подлинности почтового приложения с помощью маркеров удостоверения Exchange</a></para>
-      <para />
-    </remarks>
+    <summary>Определяет базовый класс для маркеров проверки подлинности. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks><para>Этот класс можно использовать в веб-службе для <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">проверки подлинности почтового приложения с помощью маркеров удостоверений Exchange</a></para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -41,7 +31,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,13 +53,11 @@
         <Parameter Name="token" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="token">Маркер string, форматированный.</param>
-        <summary>Анализирует маркера идентификации string, форматированный в отдельных утверждения, в маркер. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Маркер проанализированного авторизации.</returns>
-        <remarks>
-          <para>Строка, передаваемая <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> метод должен иметь формат, если это требуется потомка класса <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> класса. Например <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> метод <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> класса требуется зашифрованный маркер base-64, как определено в <a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">Проект Интернет JSON-маркер (JWT)</a></para>
-          <para />
-        </remarks>
+        <param name="token">Маркер в формате строки.</param>
+        <summary>Анализирует маркер идентификации в формате строки в отдельные утверждения, присутствующие в маркере. Этот <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Проанализированный маркер авторизации.</returns>
+        <remarks><para>Строка, передаваемая в <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> метод, должна быть отформатирована в соответствии с дочерним классом <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> класса. Например, для <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> метода в <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> классе требуется маркер с кодировкой Base-64, как определено в <a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">черном веб-маркере JSON (JWT)</a> .</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

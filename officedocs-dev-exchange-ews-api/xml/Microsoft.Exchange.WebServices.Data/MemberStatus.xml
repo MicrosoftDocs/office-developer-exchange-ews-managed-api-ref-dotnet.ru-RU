@@ -1,13 +1,5 @@
 <Type Name="MemberStatus" FullName="Microsoft.Exchange.WebServices.Data.MemberStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dc0cbc7d4de7ca2b36542ee95254e7e67dfd8f12" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626515" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MemberStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dc0cbc7d4de7ca2b36542ee95254e7e67dfd8f12" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626515" /></Metadata><TypeSignature Language="C#" Value="public enum MemberStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MemberStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MemberStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum MemberStatus" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет значения допустимые состояния для членов списка рассылки.</summary>
+    <summary>Определяет допустимые значения состояния для участников списка рассылки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Элемент списка был понижен.</summary>
+        <summary>Понизить роль члена списка.</summary>
       </Docs>
     </Member>
     <Member MemberName="Normal">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Состояние элемента списка — normal.</summary>
+        <summary>Состояние участника списка — Normal.</summary>
       </Docs>
     </Member>
     <Member MemberName="Unrecognized">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Элемент списка не распознается.</summary>
+        <summary>Член списка не распознается.</summary>
       </Docs>
     </Member>
   </Members>

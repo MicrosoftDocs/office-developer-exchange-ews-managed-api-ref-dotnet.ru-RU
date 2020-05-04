@@ -1,13 +1,5 @@
 <Type Name="EffectiveRights" FullName="Microsoft.Exchange.WebServices.Data.EffectiveRights">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b7a44aba44dd0f64bf304e8c7956b4bf1372598f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627152" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum EffectiveRights" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b7a44aba44dd0f64bf304e8c7956b4bf1372598f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627152" /></Metadata><TypeSignature Language="C#" Value="public enum EffectiveRights" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EffectiveRights extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EffectiveRights" />
   <TypeSignature Language="VB.NET" Value="Public Enum EffectiveRights" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Определяет действующих прав пользователя, связанные с элемента или папки.</summary>
+    <summary>Определяет действующие права пользователя, связанные с элементом или папкой.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Пользователь может создавать элементы папки связанный (FAIs).</summary>
+        <summary>Пользователь может создавать элементы, связанные с папками (Фаис).</summary>
       </Docs>
     </Member>
     <Member MemberName="CreateContents">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Пользователь может изменить свойства элементов и/или папки.</summary>
+        <summary>Пользователь может изменять свойства элементов и папок.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Пользователь не имеет доступа к прав на элемент или папку.</summary>
+        <summary>У пользователя нет прав на доступ к элементу или папке.</summary>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -178,7 +170,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>Пользователь может просматривать элементов, помеченных закрытый.</summary>
+        <summary>Пользователь может просматривать элементы, помеченные как частные.</summary>
       </Docs>
     </Member>
   </Members>

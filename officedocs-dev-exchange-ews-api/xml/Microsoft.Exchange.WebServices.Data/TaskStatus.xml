@@ -1,13 +1,5 @@
 <Type Name="TaskStatus" FullName="Microsoft.Exchange.WebServices.Data.TaskStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="46520b876626a78af6789bf51ee712b81e256a57" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626807" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum TaskStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="46520b876626a78af6789bf51ee712b81e256a57" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626807" /></Metadata><TypeSignature Language="C#" Value="public enum TaskStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TaskStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TaskStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum TaskStatus" />
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Выполнение задач находится в стадии разработки.</summary>
+        <summary>Выполнение задачи выполняется.</summary>
       </Docs>
     </Member>
     <Member MemberName="NotStarted">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Выполнение задачи не запущены.</summary>
+        <summary>Выполнение задачи не запущено.</summary>
       </Docs>
     </Member>
     <Member MemberName="WaitingOnOthers">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Выполнение задачи ожидает другим пользователям.</summary>
+        <summary>Выполнение задачи ожидает других пользователей.</summary>
       </Docs>
     </Member>
   </Members>

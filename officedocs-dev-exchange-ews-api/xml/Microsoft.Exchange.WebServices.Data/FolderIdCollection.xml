@@ -1,13 +1,5 @@
 <Type Name="FolderIdCollection" FullName="Microsoft.Exchange.WebServices.Data.FolderIdCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="94f520fa0d5bb491cc199a46e9afb1f90eb5fb4a" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627157" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FolderIdCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.FolderId&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="94f520fa0d5bb491cc199a46e9afb1f90eb5fb4a" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627157" /></Metadata><TypeSignature Language="C#" Value="public sealed class FolderIdCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.FolderId&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderIdCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.FolderId&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderIdCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderIdCollection&#xA;Inherits ComplexPropertyCollection(Of FolderId)" />
@@ -29,7 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию папок идентификаторы.</summary>
+    <summary>Представляет коллекцию идентификаторов папок.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,8 +42,8 @@
         <Parameter Name="folderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="folderId">Идентификатор папки для добавления.</param>
-        <summary>Добавляет в коллекцию идентификатор папки.</summary>
+        <param name="folderId">ИДЕНТИФИКАТОР добавляемой папки.</param>
+        <summary>Добавляет идентификатор папки в коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -73,8 +65,8 @@
         <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="folderName">Хорошо известные папки для добавления.</param>
-        <summary>Добавляет в коллекцию известных папки.</summary>
+        <param name="folderName">Хорошо известная папка для добавления.</param>
+        <summary>Добавляет хорошо известную папку в коллекцию.</summary>
         <returns>Указанный идентификатор.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,10 +108,9 @@
         <Parameter Name="folderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="folderId">Идентификатор папки для удаления из коллекции.</param>
-        <summary>Удаляет указанную папку ID из коллекции.</summary>
-        <returns>
-          <b>значение true,</b> Если идентификатор папки был успешно удален из коллекции. в противном случае — <b>false</b>.</returns>
+        <param name="folderId">Идентификатор папки, который необходимо удалить из коллекции.</param>
+        <summary>Удаляет указанный идентификатор папки из коллекции.</summary>
+        <returns><b>значение true</b> , если идентификатор папки был успешно удален из коллекции; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -141,10 +132,9 @@
         <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="folderName">Хорошо известные папки для удаления из коллекции.</param>
-        <summary>Удаляет указанную папку известных из коллекции.</summary>
-        <returns>
-          <b>значение true,</b> Если хорошо известных папок успешно удалена из коллекции. в противном случае — <b>false</b>.</returns>
+        <param name="folderName">Хорошо известная папка, которую необходимо удалить из коллекции.</param>
+        <summary>Удаляет указанную известную папку из коллекции.</summary>
+        <returns><b>значение true</b> , если хорошо известная папка успешно удалена из коллекции; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -166,7 +156,7 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс идентификатор папки для удаления.</param>
+        <param name="index">Отсчитываемый от нуля индекс удаляемого идентификатора папки.</param>
         <summary>Удаляет идентификатор папки по указанному индексу.</summary>
         <remarks>To be added.</remarks>
       </Docs>

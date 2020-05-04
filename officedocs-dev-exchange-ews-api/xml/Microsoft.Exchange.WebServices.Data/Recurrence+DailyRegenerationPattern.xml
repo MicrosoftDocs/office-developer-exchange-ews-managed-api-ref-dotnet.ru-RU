@@ -1,13 +1,5 @@
 <Type Name="Recurrence+DailyRegenerationPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+DailyRegenerationPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e22554659729767d0836a1921440aaf116ca12ee" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626564" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Recurrence.DailyRegenerationPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e22554659729767d0836a1921440aaf116ca12ee" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626564" /></Metadata><TypeSignature Language="C#" Value="public sealed class Recurrence.DailyRegenerationPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/DailyRegenerationPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyRegenerationPattern" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.DailyRegenerationPattern&#xA;Inherits Recurrence.IntervalPattern" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет шаблон повторного создания, как использовать совместно с повторяющихся задач, где происходит определенное количество дней после выполнения предыдущего каждого повтора.</summary>
+    <summary>Представляет шаблон восстановления, который используется с повторяющимися задачами, где каждое из них выполняется через заданное количество дней после завершения предыдущего.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.DailyRegenerationPattern.</summary>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Даилиреженератионпаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,8 +51,8 @@
       </Parameters>
       <Docs>
         <param name="startDate">Дата и время начала повторения.</param>
-        <param name="interval">Число дней между текущее вхождение и Далее, после завершения текущего экземпляра.</param>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.DailyRegenerationPattern.</summary>
+        <param name="interval">Количество дней между текущим повторением и следующим после завершения текущего экземпляра.</param>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Даилиреженератионпаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

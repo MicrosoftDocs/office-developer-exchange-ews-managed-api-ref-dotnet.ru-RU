@@ -1,13 +1,5 @@
 <Type Name="SearchMailboxesParameters" FullName="Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="439519d59da37509c7901c8cd790b4e03f20778c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626565" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class SearchMailboxesParameters" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="439519d59da37509c7901c8cd790b4e03f20778c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626565" /></Metadata><TypeSignature Language="C#" Value="public sealed class SearchMailboxesParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchMailboxesParameters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchMailboxesParameters" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит параметры, необходимые для поиска почтовых ящиков обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит параметры, необходимые для поиска в почтовом ящике обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает язык, используемый в <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" /> свойство. <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.Language" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает язык, используемый в <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" /> свойстве. <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.Language" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,8 +69,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPageDirection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, которое определяет, следует ли выполнять поиск вперед или назад.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageDirection" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Направление страницы поиска.</value>
+        <summary>Получает или задает значение, определяющее, будет ли осуществляться поиск вперед или назад.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageDirection" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Направление поиска на странице.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,7 +89,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ссылку, используемая для реализации разбиение на страницы.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageItemReference" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает ссылку, используемую внутренним образом для реализации разбиения на страницы.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageItemReference" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Ссылка на элемент страницы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,7 +109,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, определяющее число элементов, отображаемых на странице предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageSize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает значение, определяющее количество элементов, отображаемых на странице предварительного просмотра.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageSize" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Размер страницы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,9 +129,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает необходимость удаления дубликатов из результатов поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PerformDeduplication" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> чтобы deduplicate результатов поиска; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, следует ли удалить дубликаты из результатов поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PerformDeduplication" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , чтобы отдублировать результаты поиска; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,8 +149,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значения, используемые для предварительного просмотра элементов, возвращаемых в запросе поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PreviewItemResponseShape" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Фигура ответа предварительной версии элемента.</value>
+        <summary>Получает или задает значения, используемые для предварительного просмотра элементов, возвращаемых поисковым запросом.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PreviewItemResponseShape" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Фигура ответа на предварительную версию элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -178,7 +169,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SearchResultType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает, является ли поиск статистику или Предварительный просмотр поиска.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.ResultType" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает значение, указывающее, является ли поиск статистикой или предварительным поиском.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.ResultType" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Тип результата.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -198,8 +189,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxQuery[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает поисковых запросов.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Запросы поиска.</value>
+        <summary>Получает или задает поисковые запросы.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Поисковые запросы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -218,8 +209,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает строку, используемый для сортировки.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortBy" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Строка, используемый для сортировки.</value>
+        <summary>Получает или задает строку, по которой выполняется сортировка.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortBy" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Строка, по которой выполняется сортировка.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -238,7 +229,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.SortDirection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает направление сортировки.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortOrder" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает направление сортировки.             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortOrder" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Направление сортировки.</value>
         <remarks>To be added.</remarks>
       </Docs>

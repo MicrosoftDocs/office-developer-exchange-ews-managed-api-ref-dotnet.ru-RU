@@ -1,13 +1,5 @@
 <Type Name="RuleCollection" FullName="Microsoft.Exchange.WebServices.Data.RuleCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1f5ac4bbf1e731d05a4ec8ea012a92827fc57c47" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626581" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class RuleCollection : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Rule&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1f5ac4bbf1e731d05a4ec8ea012a92827fc57c47" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626581" /></Metadata><TypeSignature Language="C#" Value="public sealed class RuleCollection : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.Rule&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleCollection extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.Rule&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleCollection&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of Rule)" />
@@ -44,8 +36,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число правил в коллекцию правил.</summary>
-        <value>Число правил в коллекцию правил.</value>
+        <summary>Получает количество правил в коллекции правил.</summary>
+        <value>Число правил в коллекции правил.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,7 +60,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, позволяющий выполнять итерацию по объектов в коллекции.</summary>
+        <summary>Возвращает перечислитель, который позволяет перебирать объекты в коллекции.</summary>
         <returns>Перечислитель, который можно использовать для итерации по коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -91,14 +83,11 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Отсчитываемый от нуля индекс правило, которое требуется получить.</param>
-        <summary>Получает правила по указанному индексу в коллекции.</summary>
-        <value>Правила по указанному индексу в коллекции.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Item(System.Int32)" /> Свойство позволяет получить определенный <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объектов в коллекции. Если вы хотите перечисления коллекции, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.GetEnumerator" /> метод обычным способом.</para>
-          <para />
-        </remarks>
+        <param name="index">Отсчитываемый от нуля индекс правила, которое требуется получить.</param>
+        <summary>Получает правило по указанному индексу в коллекции.</summary>
+        <value>Правило по указанному индексу в коллекции.</value>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.Item(System.Int32)" /> Свойство позволяет получить определенный <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект в коллекции. Если вы хотите перечислить коллекцию, можно использовать <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.GetEnumerator" /> метод стандартным способом.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="OutlookRuleBlobExists">
@@ -116,14 +105,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, существует ли правило большого двоичного объекта Microsoft Outlook в почтовом ящике пользователя.</summary>
-        <value>
-          <b>значение true,</b> Если существует правило blob Outlook; в противном случае — <b>false</b>.</value>
-        <remarks>
-          <para>Можно использовать <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.OutlookRuleBlobExists" /> свойство, чтобы определить, нужно ли запрашивать у пользователя перед отправкой <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метод.</para>
-          <para>Для изменения правил при больших двоичных объектов Outlook правило существует, вызовите <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метод, передав <b>значение true,</b> в качестве значения <paramref name="removeOutlookRuleBlob" /> параметр.</para>
-          <para />
-        </remarks>
+        <summary>Получает значение, указывающее, существует ли большой двоичный объект правила Microsoft Outlook в почтовом ящике пользователя.</summary>
+        <value><b>значение true</b> , если большой двоичный объект правила Outlook существует; в противном случае — <b>false</b>.</value>
+        <remarks><para>Вы можете использовать <see cref="P:Microsoft.Exchange.WebServices.Data.RuleCollection.OutlookRuleBlobExists" /> свойство, чтобы определить, следует ли запрашивать пользователя перед отправкой <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метода.</para> 
+          <para>Чтобы обновить правила при наличии BLOB-объекта правила Outlook, вызовите <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> метод, передав <b>true</b> в качестве значения <paramref name="removeOutlookRuleBlob" /> параметра.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
@@ -145,8 +131,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Получает перечислитель для итерации по элементам коллекции.             <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для итерации по элементам коллекции.</returns>
+        <summary>Получает перечислитель для итерации элементов коллекции.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.RuleCollection.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель для итерации элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

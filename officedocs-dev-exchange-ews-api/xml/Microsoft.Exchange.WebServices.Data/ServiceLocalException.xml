@@ -1,13 +1,5 @@
 <Type Name="ServiceLocalException" FullName="Microsoft.Exchange.WebServices.Data.ServiceLocalException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="61477d00f52b4084ae2513ede991370553ed7f59" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626712" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ServiceLocalException : Exception" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="61477d00f52b4084ae2513ede991370553ed7f59" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626712" /></Metadata><TypeSignature Language="C#" Value="public class ServiceLocalException : Exception" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServiceLocalException extends System.Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
   <TypeSignature Language="VB.NET" Value="Public Class ServiceLocalException&#xA;Inherits Exception" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ошибку, которая возникает, когда происходит сбой операции службы.</summary>
+    <summary>Представляет ошибку, которая возникает при сбое операции службы.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceLocalException" /> класса.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceLocalException" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -58,7 +50,7 @@
       </Parameters>
       <Docs>
         <param name="message">Сообщение с описанием ошибки.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceLocalException" /> класс указанного появляется сообщение об ошибке.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceLocalException" /> класса с указанным сообщением об ошибке.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,8 +71,8 @@
       </Parameters>
       <Docs>
         <param name="message">Сообщение с описанием ошибки.</param>
-        <param name="innerException">Исключение, которое является причиной текущее исключение, или пустая ссылка (Nothing в Visual Basic), если не указан внутреннее исключение.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceLocalException" /> класс с заданным сообщением и ссылку на внутреннее исключение, которое является причиной данного исключения.</summary>
+        <param name="innerException">Исключение, вызвавшее текущее исключение, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не задано.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceLocalException" /> класса с указанным сообщением и ссылкой на внутреннее исключение, которое является причиной этого исключения.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

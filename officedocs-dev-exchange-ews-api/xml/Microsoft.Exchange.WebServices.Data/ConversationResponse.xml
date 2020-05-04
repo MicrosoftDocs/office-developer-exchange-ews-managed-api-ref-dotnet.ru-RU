@@ -1,13 +1,5 @@
 <Type Name="ConversationResponse" FullName="Microsoft.Exchange.WebServices.Data.ConversationResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b6931dda087ef33c1e7989ad482f255c01dde40e" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627098" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ConversationResponse : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b6931dda087ef33c1e7989ad482f255c01dde40e" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627098" /></Metadata><TypeSignature Language="C#" Value="public sealed class ConversationResponse : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationResponse extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationResponse&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Ответ беседы, состоящий из идентификатора беседы, состояние синхронизации и массив узлов беседы. <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Ответ на беседу, состоящий из идентификатора диалога, состояния синхронизации и массива узлов беседы. <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Идентификатор беседы.</value>
+        <summary>Получает идентификатор беседы.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>ИДЕНТИФИКАТОР беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,7 +52,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationNodeCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" /> объектов.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Возвращает коллекцию <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" /> объектов.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Узлы беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +72,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает состояние синхронизации.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает состояние синхронизации.             <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Состояние синхронизации.</value>
         <remarks>To be added.</remarks>
       </Docs>

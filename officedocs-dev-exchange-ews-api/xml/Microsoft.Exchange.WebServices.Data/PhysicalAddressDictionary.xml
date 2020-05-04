@@ -1,13 +1,5 @@
 <Type Name="PhysicalAddressDictionary" FullName="Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ca42ae0f517b5a7845485af1b0fdf577e924189c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626992" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PhysicalAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressKey,Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ca42ae0f517b5a7845485af1b0fdf577e924189c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626992" /></Metadata><TypeSignature Language="C#" Value="public sealed class PhysicalAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressKey,Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhysicalAddressDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressKey, class Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhysicalAddressDictionary&#xA;Inherits DictionaryProperty(Of PhysicalAddressKey, PhysicalAddressEntry)" />
@@ -47,7 +39,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса PhysicalAddressDictionary.</summary>
+        <summary>Инициализирует новый экземпляр класса Фисикаладдрессдиктионари.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,9 +61,9 @@
         <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.PhysicalAddressKey" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ, который связан с физических адресов для получения или задания.</param>
-        <summary>Получает или задает физический адрес, соответствующий заданным ключом.</summary>
-        <value>Физический адрес, соответствующий заданным ключом.</value>
+        <param name="key">Ключ, связанный с получаемым или заданным физическим адресом.</param>
+        <summary>Получает или задает физический адрес, соответствующий заданному ключу.</summary>
+        <value>Физический адрес, соответствующий заданному ключу.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,11 +86,10 @@
         <Parameter Name="physicalAddress" Type="Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ, который связан с физических адресов.</param>
-        <param name="physicalAddress">Если указанный ключ найден, содержит физический адрес, связанный с указанным ключом; в противном случае — значение NULL (Nothing в Visual Basic). Этот параметр передается неинициализированную переменную.</param>
-        <summary>Пытается получить физический адрес, связанный с указанным ключом.</summary>
-        <returns>
-          <b>значение true,</b> Если словарь содержит физический адрес, связанный с указанным ключом; в противном случае — <b>false</b>.</returns>
+        <param name="key">Ключ, связанный с физическим адресом.</param>
+        <param name="physicalAddress">Если указанный ключ найден, содержит физический адрес, связанный с указанным ключом; в противном случае — пустая ссылка (Nothing в Visual Basic). Этот параметр передается неинициализированным.</param>
+        <summary>Пытается получить физический адрес, связанный с заданным ключом.</summary>
+        <returns><b>значение true</b> , если словарь содержит физический адрес, связанный с указанным ключом; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

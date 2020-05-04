@@ -1,13 +1,5 @@
 <Type Name="RetentionPolicyTag" FullName="Microsoft.Exchange.WebServices.Data.RetentionPolicyTag">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="68516c957f2caf0b6685cc8fc426f21f25c12a1d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627319" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class RetentionPolicyTag" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="68516c957f2caf0b6685cc8fc426f21f25c12a1d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627319" /></Metadata><TypeSignature Language="C#" Value="public sealed class RetentionPolicyTag" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RetentionPolicyTag extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RetentionPolicyTag" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения политики хранения, связанные с папкой, почтовых ящиков или элемента.             <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения о политике хранения, связанные с папкой, почтовым ящиком или элементом.             <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает описание тега политики хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Описание тег политики хранения.</value>
+        <summary>Получает или задает описание тега политики хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Описание тега политики хранения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает описательное название элемента политики хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Имя отображения тега политики хранения.</value>
+        <summary>Получает или задает описательное имя элемента политики хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Отображаемое имя тега политики хранения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,9 +89,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тега содержит сведения о политике архив для объекта message.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если маркер тег архив; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, содержит ли тег сведения о политике архивации для объекта Message.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если тег является архивным тегом; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,9 +109,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ли пользователи могут просматривать тега.            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если тег отображается; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, может ли пользователь просматривать тег.            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если тег является видимым; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -139,9 +129,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ли этот тег политики хранения было задано пользователем.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если пользователь задать этот тег; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, был ли этот тег политики хранения задан пользователем.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если пользователь задает этот тег; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -160,7 +149,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает действие, которое будет выполнено в соответствии с политикой хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает действие, выполняемое в соответствии с политикой хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Действие хранения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -180,7 +169,7 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор для элемента политики хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор элемента политики хранения.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор хранения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -200,8 +189,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает продолжительность времени, прежде чем произойдет на элемент.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Период хранения в промежуток времени.</value>
+        <summary>Получает или задает интервал времени до выполнения действия над элементом.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Срок хранения в интервале времени.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -220,7 +209,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает объект с тегами архивации или удаления.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает значение, указывающее, является ли объект с тегами заархивированным или удаленным.             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Тип хранения.</value>
         <remarks>To be added.</remarks>
       </Docs>

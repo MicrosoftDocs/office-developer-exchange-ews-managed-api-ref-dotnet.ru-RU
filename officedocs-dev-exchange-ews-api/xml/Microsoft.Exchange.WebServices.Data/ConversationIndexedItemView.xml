@@ -1,13 +1,5 @@
 <Type Name="ConversationIndexedItemView" FullName="Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e62f76a1dfa4fbcc011fd11ed8c40a44b66613ee" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626876" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ConversationIndexedItemView : Microsoft.Exchange.WebServices.Data.PagedView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e62f76a1dfa4fbcc011fd11ed8c40a44b66613ee" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626876" /></Metadata><TypeSignature Language="C#" Value="public sealed class ConversationIndexedItemView : Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationIndexedItemView extends Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationIndexedItemView&#xA;Inherits PagedView" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит параметры представления беседы в папке операции поиска.</summary>
+    <summary>Содержит параметры представления беседы в операции поиска папки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="pageSize" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное количество бесед, которые должен возвращать операции поиска.</param>
-        <summary>Инициализирует новый экземпляр класса ConversationIndexedItemView с помощью размер заданный страницы.</summary>
+        <param name="pageSize">Максимальное количество бесед, возвращаемых операцией поиска.</param>
+        <summary>Инициализирует новый экземпляр класса Конверсатиониндекседитемвиев, используя предоставленный размер страницы.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,13 +53,11 @@
         <Parameter Name="offset" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное количество бесед, которые должен возвращать операции поиска.</param>
-        <param name="offset">Смещение от первого беседы. Идентифицирует начала страницы возвращаемых бесед.</param>
-        <summary>Инициализирует новый экземпляр класса ConversationIndexedItemView, используя заданный размер и смещение.</summary>
-        <remarks>
-          <para>Этот конструктор предполагает, что базовой точки начинается в начале набора бесед.</para>
-          <para />
-        </remarks>
+        <param name="pageSize">Максимальное количество бесед, возвращаемых операцией поиска.</param>
+        <param name="offset">Смещение от первой беседы. Определяет, где будет начинаться страница возвращаемой беседы.</param>
+        <summary>Инициализирует новый экземпляр класса Конверсатиониндекседитемвиев, используя предоставленный размер страницы и смещение.</summary>
+        <remarks><para>В этом конструкторе предполагается, что базовая точка начинается с начала набора бесед.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -86,10 +76,10 @@
         <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное количество бесед, которые должен возвращать операции поиска.</param>
-        <param name="offset">Смещение от базовой точки. Идентифицирует начала страницы возвращаемых бесед.</param>
-        <param name="offsetBasePoint">Базовый точка смещение.</param>
-        <summary>Инициализирует новый экземпляр класса ConversationIndexedItemView с помощью заданный размер, смещение и базовой точки.</summary>
+        <param name="pageSize">Максимальное количество бесед, возвращаемых операцией поиска.</param>
+        <param name="offset">Смещение от базовой точки. Определяет, где будет начинаться страница возвращаемой беседы.</param>
+        <param name="offsetBasePoint">Базовая точка смещения.</param>
+        <summary>Инициализирует новый экземпляр класса Конверсатиониндекседитемвиев, используя предоставленный размер страницы, смещение и базовую точку.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -108,12 +98,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает свойства, от которых должны быть упорядочены возвращаемых элементов.</summary>
-        <value>Упорядоченный набор из определения свойств.</value>
-        <remarks>
-          <para>Единственный параметр, который поддерживается для сортировки, <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastDeliveryTime" />.</para>
-          <para />
-        </remarks>
+        <summary>Получает свойства, по которым должны упорядочиваться возвращенные элементы.</summary>
+        <value>Упорядоченная коллекция определений свойств.</value>
+        <remarks><para>Единственным свойством, которое поддерживает сортировка, является <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastDeliveryTime" />.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Traversal">
@@ -131,8 +119,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает режим обхода запроса беседы.              <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.Traversal" /> Свойство используется для клиентов, относящихся к Exchange Online и версий Exchange startingwith Exchange Server 2013.</summary>
-        <value>Режим обхода запроса беседы.</value>
+        <summary>Получает или задает режим обхода запроса "Беседа".              <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.Traversal" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange Стартингвис exchange Server 2013.</summary>
+        <value>Режим обхода запроса "Беседа".</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,7 +139,7 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ViewFilter&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает фильтр представления, определяющее тип возвращаемых элементов.              <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.ViewFilter" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает фильтр представления, указывающий тип возвращаемых элементов.              <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.ViewFilter" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Фильтр представления.</value>
         <remarks>To be added.</remarks>
       </Docs>

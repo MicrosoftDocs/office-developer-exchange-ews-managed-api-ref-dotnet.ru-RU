@@ -1,13 +1,5 @@
 <Type Name="HoldStatus" FullName="Microsoft.Exchange.WebServices.Data.HoldStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="828cf675039ffdca5c4b25544382eefa2356383d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627160" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum HoldStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="828cf675039ffdca5c4b25544382eefa2356383d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627160" /></Metadata><TypeSignature Language="C#" Value="public enum HoldStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed HoldStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.HoldStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum HoldStatus" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет состояние удержания почтового ящика для обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.HoldStatus" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет состояние хранения почтового ящика в целях обнаружения электронных данных.             <see cref="T:Microsoft.Exchange.WebServices.Data.HoldStatus" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Операция неудачных удержания для целевого почтового ящика.             Не удалось выполнить поле используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Сбой операции удержания для целевого почтового ящика.             Поле "ошибка" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="NotOnHold">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Нет удержание электронных данных.             В поле NotOnHold используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Нет удержания для обнаружения электронных данных.             Поле Нотонхолд применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="OnHold">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Удержание электронных данных на целевой почтовый ящик.             В поле удержании используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Удержание обнаружения электронных данных в целевом почтовом ящике.             Поле "в удержание" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="PartialHold">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Некоторые почтовые ящики на хранение.             В поле PartialHold используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Некоторые почтовые ящики на удержании.             Поле Партиалхолд применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Pending">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Размещение или удаление удержание электронных данных в процессе выполнения.             Ожидающие поле используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Идет помещение или удаление удержания обнаружения электронных данных.             Поле "ожидается" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="ContactGroup" FullName="Microsoft.Exchange.WebServices.Data.ContactGroup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="24ba485449f70a9c5e544c7f50df60efd4c32fe3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626584" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ContactGroup : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="24ba485449f70a9c5e544c7f50df60efd4c32fe3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626584" /></Metadata><TypeSignature Language="C#" Value="public class ContactGroup : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactGroup extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactGroup" />
   <TypeSignature Language="VB.NET" Value="Public Class ContactGroup&#xA;Inherits Item" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет группу контактов. Свойства, доступные в группы контактов определяются <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroupSchema" /> класса.</summary>
+    <summary>Представляет группу контактов. Свойства, доступные в группах контактов, определяются <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroupSchema" /> классом.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" /> Объект, в котором будет связанные группы контактов.</param>
-        <summary>Инициализирует несохраненные локальный экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> класса.</summary>
+        <param name="service"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" /> Объект, к которому будет привязана группа контактов.</param>
+        <summary>Инициализирует несохраненный локальный экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -65,12 +56,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" /> Объект, в котором будет связанные группы контактов.</param>
-        <param name="id">Идентификатор группы контактов для привязки.</param>
-        <summary>Выполняет привязку <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> объектов классов для определенного существующего контакта групповой и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>
-          <see cref="M:Microsoft.Exchange.WebServices.Data.ContactGroup.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> Возвращает <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> экземпляр, который привязан к указанной группы контактов.</returns>
+        <param name="service"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" /> Объект, к которому будет привязана группа контактов.</param>
+        <param name="id">Идентификатор группы контактов, к которой требуется присоединиться.</param>
+        <summary>Привязывают объект <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> класса к определенной существующей группе контактов и загружает ее свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="M:Microsoft.Exchange.WebServices.Data.ContactGroup.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> Метод возвращает <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> экземпляр, привязанный к указанной группе контактов.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,13 +82,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" /> Объект, в котором будет связанные группы контактов.</param>
+        <param name="service"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" /> Объект, к которому будет привязана группа контактов.</param>
         <param name="id">Идентификатор группы контактов.</param>
         <param name="propertySet">Набор свойств группы контактов для загрузки.</param>
-        <summary>Выполняет привязку <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> объекта для конкретных существующей группы контактов и загружает указанные свойства. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>
-          <see cref="M:Microsoft.Exchange.WebServices.Data.ContactGroup.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> Возвращает <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> экземпляр, который привязан к указанной группы контактов.</returns>
+        <summary>Привязывают <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> объект к определенной существующей группе контактов и загружает указанные свойства. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="M:Microsoft.Exchange.WebServices.Data.ContactGroup.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> Метод возвращает <see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" /> экземпляр, привязанный к указанной группе контактов.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,7 +106,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает отображаемое имя группы контактов.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.DisplayName" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
+        <value><see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.DisplayName" /> Свойство имеет значение <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,8 +125,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя, под которым оформлена этой группы контактов.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.FileAs" /> свойства — это <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
+        <summary>Получает имя, под которым будет храниться эта группа контактов.</summary>
+        <value><see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.FileAs" /> Свойство имеет значение <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,8 +145,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.GroupMemberCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает члены группы контактов.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.Members" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" /> объект класса.</value>
+        <summary>Получает список членов группы контактов.</summary>
+        <value>Значением <see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.Members" /> свойства является объект <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" /> Class.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

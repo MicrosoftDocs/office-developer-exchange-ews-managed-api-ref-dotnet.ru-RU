@@ -1,13 +1,5 @@
 <Type Name="PostItem" FullName="Microsoft.Exchange.WebServices.Data.PostItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b1a505e670e7ed91348136b8afef29d7f41cad7b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627247" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PostItem : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b1a505e670e7ed91348136b8afef29d7f41cad7b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627247" /></Metadata><TypeSignature Language="C#" Value="public sealed class PostItem : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PostItem extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PostItem" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PostItem&#xA;Inherits Item" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет элемент post.</summary>
-    <remarks>
-      <para>Свойства, доступные в элементы определены в <see cref="T:Microsoft.Exchange.WebServices.Data.PostItemSchema" /> класса.</para>
-      <para />
-    </remarks>
+    <summary>Представляет элемент POST.</summary>
+    <remarks><para>Свойства, доступные для элементов POST, определяются в <see cref="T:Microsoft.Exchange.WebServices.Data.PostItemSchema" /> классе.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -43,12 +33,10 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">Объект ExchangeService, к которому будет привязан элемента записи.</param>
-        <summary>Инициализирует новый экземпляр класса PostItem.</summary>
-        <remarks>
-          <para>Чтобы привязать существующий элемент post, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.PostItem.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> вместо этого.</para>
-          <para />
-        </remarks>
+        <param name="service">Объект ExchangeService, к которому будет привязан элемент POST.</param>
+        <summary>Инициализирует новый экземпляр класса "i Item".</summary>
+        <remarks><para>Чтобы присоединиться к существующему элементу <see cref="M:Microsoft.Exchange.WebServices.Data.PostItem.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> POST, используйте вместо него.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -70,14 +58,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использоваться для привязки элемента записи.</param>
-        <param name="id">Идентификатор элемента записи для привязки.</param>
-        <summary>Выполняет привязку к существующему элементу post и загружает его свойства первого класса.</summary>
-        <returns>Элемент post.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="service">Служба, используемая для связывания с элементом POST.</param>
+        <param name="id">Идентификатор элемента POST, к которому необходимо присоединиться.</param>
+        <summary>Выполняет присоединение к существующему элементу POST и загружает его свойства первого класса.</summary>
+        <returns>Элемент POST.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -99,15 +85,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использоваться для привязки элемента записи.</param>
-        <param name="id">Идентификатор элемента записи для привязки.</param>
+        <param name="service">Служба, используемая для связывания с элементом POST.</param>
+        <param name="id">Идентификатор элемента POST, к которому необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующему элементу post и загружает указанным набором свойств.</summary>
-        <returns>Элемент post.</returns>
-        <remarks>
-          <para>Этот метод результаты вызова в вызове для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Выполняет присоединение к существующему элементу POST и загружает заданный набор свойств.</summary>
+        <returns>Элемент POST.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -125,7 +109,7 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает индекс беседы элемента записи.</summary>
+        <summary>Получает индекс диалога для элемента POST.</summary>
         <value>Индекс беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,8 +129,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает предметам элемента записи.</summary>
-        <value>Предметам.</value>
+        <summary>Возвращает раздел "Беседа" элемента POST.</summary>
+        <value>Тема беседы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -166,8 +150,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Создает прямого ответа для элемента записи.</summary>
-        <returns>Ответ, который представляет элемент для пересылки.</returns>
+        <summary>Создает ответ вперед для элемента POST.</summary>
+        <returns>Ответ, представляющий перенаправляемый элемент.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -187,8 +171,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Создает поместить ответ для этого элемента записи.</summary>
-        <returns>Поместить ответ.</returns>
+        <summary>Создает ответ POST для элемента POST.</summary>
+        <returns>Ответ POST.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,9 +194,9 @@
         <Parameter Name="replyAll" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="replyAll">Указывает, будет ли ответ должен приходить для всех участников в потоке.</param>
-        <summary>Создает ответ ответ элемента записи электронной почты.</summary>
-        <returns>Ответ, который представляет ответ электронной почты.</returns>
+        <param name="replyAll">Указывает, следует ли отправлять ответ всем участвующим в потоке.</param>
+        <summary>Создает ответ на ответ электронной почты для элемента POST.</summary>
+        <returns>Ответ, представляющий ответ на электронную почту.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -241,13 +225,11 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Новый основной текст вперед, которая вставляется в исходный текст элемента записи.</param>
-        <param name="toRecipients">Получатели элемента переадресованных записи.</param>
-        <summary>Переадресует элемента записи.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="bodyPrefix">Новый основной текст перенаправленного содержимого, добавляемого к исходному телу элемента POST.</param>
+        <param name="toRecipients">Получатели переадресованного элемента POST.</param>
+        <summary>Пересылает элемент POST.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -269,13 +251,11 @@
         <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Новый основной текст вперед, которая вставляется в исходный текст элемента записи.</param>
-        <param name="toRecipients">Получатели элемента переадресованных записи.</param>
-        <summary>Переадресует элемента записи.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="bodyPrefix">Новый основной текст перенаправленного содержимого, добавляемого к исходному телу элемента POST.</param>
+        <param name="toRecipients">Получатели переадресованного элемента POST.</param>
+        <summary>Пересылает элемент POST.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="From">
@@ -293,7 +273,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает плакат представитель элемента записи.</summary>
+        <summary>Получает или задает афишу представителя элемента POST.</summary>
         <value>Адрес электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -313,7 +293,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор сообщения Интернета элемента записи.</summary>
+        <summary>Получает идентификатор сообщения Интернета для элемента POST.</summary>
         <value>Идентификатор сообщения Интернета.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -333,9 +313,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, имеет ли чтение элемента записи.</summary>
-        <value>
-          <b>значение true,</b> Если считывания элемента записи; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, прочитан ли элемент POST.</summary>
+        <value><b>значение true</b> , если элемент POST был прочитан; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -354,7 +333,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время, когда была учтена элемента записи.</summary>
+        <summary>Получает дату и время отправки элемента POST.</summary>
         <value>За счет поддержки даты и времени в FQL над их значениями можно выполнять те же числовые операции, что и над другими числовыми значениями.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -377,12 +356,10 @@
         <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Новый основной текст ответа, которая вставляется в исходный текст элемента записи.</param>
-        <summary>Создает и отправляет ответ для этого элемента записи.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="bodyPrefix">Новый основной текст ответа, добавляемый к исходному телу элемента POST.</param>
+        <summary>Создает и отправляет ответ на этот элемент POST.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="References">
@@ -400,8 +377,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ссылки элемента записи.</summary>
-        <value>Строка ссылки.</value>
+        <summary>Получает или задает ссылки элемента POST.</summary>
+        <value>Строка ссылок.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -424,13 +401,11 @@
         <Parameter Name="replyAll" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Новый основной текст ответа, которая вставляется в исходный текст элемента записи.</param>
-        <param name="replyAll">Указывает, будет ли ответ должен приходить для всех участников в потоке.</param>
-        <summary>Создает и отправляет ответ для этого элемента записи.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="bodyPrefix">Новый основной текст ответа, добавляемый к исходному телу элемента POST.</param>
+        <param name="replyAll">Указывает, следует ли отправлять ответ всем участвующим в потоке.</param>
+        <summary>Создает и отправляет ответ на этот элемент POST.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sender">
@@ -448,7 +423,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает плакат отправителя элемента записи.</summary>
+        <summary>Получает или задает плакат отправителя элемента POST.</summary>
         <value>Адрес электронной почты.</value>
         <remarks>To be added.</remarks>
       </Docs>

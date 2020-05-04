@@ -1,13 +1,5 @@
 <Type Name="RuleErrorCode" FullName="Microsoft.Exchange.WebServices.Data.RuleErrorCode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="227af534b997d9037ffedb75417c665179266c01" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626962" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum RuleErrorCode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="227af534b997d9037ffedb75417c665179266c01" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626962" /></Metadata><TypeSignature Language="C#" Value="public enum RuleErrorCode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RuleErrorCode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleErrorCode" />
   <TypeSignature Language="VB.NET" Value="Public Enum RuleErrorCode" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет коды ошибок, определить причину сбоя проверки правила не удалось.</summary>
+    <summary>Определяет коды ошибок, указывающие, почему правило не прошло проверку.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Учетная запись электронной почты, указанных в свойстве FromConnectedAccounts не найден.</summary>
+        <summary>Учетная запись электронной почты, указанная в свойстве Фромконнектедаккаунтс, не найдена.</summary>
       </Docs>
     </Member>
     <Member MemberName="CreateWithRuleId">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Предпринята попытка создать правило с идентификатором. Идентификаторы новые правила, созданные со стороны сервера и не должно быть предоставлено клиентом.</summary>
+        <summary>Предпринята попытка создать правило с ИДЕНТИФИКАТОРом. Идентификаторы новых правил создаются на стороне сервера и не должны предоставляться клиентом.</summary>
       </Docs>
     </Member>
     <Member MemberName="DuplicatedOperationOnTheSameRule">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Существует несколько операций с того же правила. Допускается только одна операция для каждого правила.</summary>
+        <summary>Для одного и того же правила существует несколько операций. Разрешена только одна операция для каждого правила.</summary>
       </Docs>
     </Member>
     <Member MemberName="DuplicatedPriority">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Существует несколько правил с одинаковым приоритетом. Приоритет может иметь только одно правило.</summary>
+        <summary>Существует несколько правил с одинаковым приоритетом. У приоритета может быть только одно правило.</summary>
       </Docs>
     </Member>
     <Member MemberName="EmptyValueFound">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Свойство Value будет пустым. Пустые свойства Value не допускается.</summary>
+        <summary>Свойство Value имеет пустое значение. Свойство пустое значение не разрешено.</summary>
       </Docs>
     </Member>
     <Member MemberName="FolderDoesNotExist">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Указан недопустимый адрес электронной почты.</summary>
+        <summary>Недопустимый адрес электронной почты.</summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidDateRange">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Диапазон дат является недопустимым.</summary>
+        <summary>Недопустимый диапазон дат.</summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidFolderId">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Размер диапазона является недопустимым.</summary>
+        <summary>Недопустимый диапазон размера.</summary>
       </Docs>
     </Member>
     <Member MemberName="InvalidValue">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Классификация сообщений не найден.</summary>
+        <summary>Классификация сообщений не найдена.</summary>
       </Docs>
     </Member>
     <Member MemberName="MissingAction">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Указан никаких действий. Действие по крайней мере один правила должен быть указан для проверки.</summary>
+        <summary>Действие не было указано. Для проверки необходимо указать по крайней мере одно действие Rule.</summary>
       </Docs>
     </Member>
     <Member MemberName="MissingParameter">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Отсутствует значение диапазона.</summary>
+        <summary>Отсутствует значение Range.</summary>
       </Docs>
     </Member>
     <Member MemberName="NotSettable">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Правило не найден. Правила не найдено, соответствующие критериям.</summary>
+        <summary>Правило не найдено. Не найдены правила, которые удовлетворяют условиям.</summary>
       </Docs>
     </Member>
     <Member MemberName="SizeLessThanZero">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Строковое значение слишком велик.</summary>
+        <summary>Строковое значение слишком велико.</summary>
       </Docs>
     </Member>
     <Member MemberName="UnexpectedError">

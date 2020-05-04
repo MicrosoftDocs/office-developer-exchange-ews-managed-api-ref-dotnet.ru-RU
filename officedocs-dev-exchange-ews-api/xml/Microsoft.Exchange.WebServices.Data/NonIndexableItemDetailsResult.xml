@@ -1,13 +1,5 @@
 <Type Name="NonIndexableItemDetailsResult" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8d65a0c4205e656b0419f30405ebf04e03714539" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626548" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class NonIndexableItemDetailsResult" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8d65a0c4205e656b0419f30405ebf04e03714539" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626548" /></Metadata><TypeSignature Language="C#" Value="public sealed class NonIndexableItemDetailsResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItemDetailsResult extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItemDetailsResult" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Получает сведения об элементах в целевой почтовые ящики, которые не удалось проиндексировать.            <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Получает сведения о элементах в целевых почтовых ящиках, которые не удалось индексировать.            <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult" /> объекта. <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult" /> объект. <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает набор почтовые ящики которых не удалось выполнить операцию индекса. <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.FailedMailboxes" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Набор почтовые ящики которых не удалось выполнить операцию индекса.</value>
+        <summary>Получает или задает набор почтовых ящиков, для которых не удалось выполнить операцию индексирования. <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.FailedMailboxes" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Набор почтовых ящиков, для которых не удалось выполнить операцию индексирования.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.NonIndexableItem[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает набор элементов, которые не удалось проиндексировать.    <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.Items" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Набор элементов, которые не удалось проиндексировать.</value>
+        <summary>Получает или задает набор элементов, которые не удалось индексировать.    <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.Items" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Набор элементов, которые не удалось индексировать.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

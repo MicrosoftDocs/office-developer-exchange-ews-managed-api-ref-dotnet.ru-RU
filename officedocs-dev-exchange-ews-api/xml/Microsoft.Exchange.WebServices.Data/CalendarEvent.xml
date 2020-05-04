@@ -1,13 +1,5 @@
 <Type Name="CalendarEvent" FullName="Microsoft.Exchange.WebServices.Data.CalendarEvent">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fd17fbbd64db56bc1759618674b70ff9ad93d08f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626526" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class CalendarEvent : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fd17fbbd64db56bc1759618674b70ff9ad93d08f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626526" /></Metadata><TypeSignature Language="C#" Value="public sealed class CalendarEvent : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarEvent extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarEvent" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarEvent&#xA;Inherits ComplexProperty" />
@@ -41,7 +33,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает сведения о событии календаря.</summary>
-        <value>Объект класса CalendarEventDetails, который содержит сведения о событии календаря. Свойство сведений является пустая ссылка (Nothing в Visual Basic), если пользователя, отправившего запрос не имеет достаточных прав.</value>
+        <value>Объект класса Календаревентдетаилс, который содержит сведения о событии календаря. Свойство Details содержит пустую ссылку (Nothing в Visual Basic), если пользователь, выполняющий запрос, не имеет соответствующих прав.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,7 +52,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время события.</summary>
+        <summary>Получает дату и время окончания события.</summary>
         <value>Дата и время окончания события.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,8 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает состояние сведений о доступности, связанный с событием.</summary>
-        <value>Состояние сведений о доступности, связанный с событием.</value>
+        <summary>Получает сведения о занятости, связанные с событием.</summary>
+        <value>Состояние занятости, связанное с событием.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,8 +92,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время события.</summary>
-        <value>Дата начала и время события.</value>
+        <summary>Получает дату и время начала события.</summary>
+        <value>Дата и время начала события.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

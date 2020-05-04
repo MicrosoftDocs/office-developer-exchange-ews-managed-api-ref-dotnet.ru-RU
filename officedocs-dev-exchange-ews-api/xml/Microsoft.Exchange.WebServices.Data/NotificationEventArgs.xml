@@ -1,13 +1,5 @@
 <Type Name="NotificationEventArgs" FullName="Microsoft.Exchange.WebServices.Data.NotificationEventArgs">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="12c84edbc229f471cfde3221af9108d3588ef820" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626510" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class NotificationEventArgs : EventArgs" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="12c84edbc229f471cfde3221af9108d3588ef820" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626510" /></Metadata><TypeSignature Language="C#" Value="public class NotificationEventArgs : EventArgs" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NotificationEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NotificationEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class NotificationEventArgs&#xA;Inherits EventArgs" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Предоставляет данные для события OnNotificationEvent объекта StreamingSubscriptionConnection.</summary>
+    <summary>Предоставляет данные для события Оннотификатионевент объекта StreamingSubscriptionConnection.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.NotificationEvent&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает события, которые были получены.</summary>
-        <value>Коллекция событий как объект IEnumerable.</value>
+        <summary>Получает полученные события.</summary>
+        <value>Коллекция событий в виде объекта IEnumerable.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает подписки, для которого получены уведомлений.</summary>
-        <value>Объект StreamingSubscription.</value>
+        <summary>Возвращает подписку, для которой были получены уведомления.</summary>
+        <value>Объект метод streamingsubscription.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

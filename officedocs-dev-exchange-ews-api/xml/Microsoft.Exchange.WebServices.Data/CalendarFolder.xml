@@ -1,13 +1,5 @@
 <Type Name="CalendarFolder" FullName="Microsoft.Exchange.WebServices.Data.CalendarFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="98a14ce66be6f0811ade9e9ef383937c628e7ea3" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627214" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class CalendarFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="98a14ce66be6f0811ade9e9ef383937c628e7ea3" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627214" /></Metadata><TypeSignature Language="C#" Value="public class CalendarFolder : Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CalendarFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarFolder" />
   <TypeSignature Language="VB.NET" Value="Public Class CalendarFolder&#xA;Inherits Folder" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет папку, содержащую встреч.</summary>
+    <summary>Представляет папку, которая содержит встречи.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">Объект класса ExchangeService, к которому будет привязан к папке календаря.</param>
-        <summary>Инициализирует несохраненные локальный экземпляр класса CalendarFolder. Для привязки к существующей папке календаря, используйте метод привязки.</summary>
+        <param name="service">Объект класса ExchangeService, к которому будет привязана папка календаря.</param>
+        <summary>Инициализирует несохраненный локальный экземпляр класса Календарфолдер. Чтобы выполнить присоединение к существующей папке календаря, используйте метод Bind.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -64,10 +56,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке календаря.</param>
-        <param name="id">Идентификатор папки календаря для привязки.</param>
-        <summary>Выполняет привязку к существующей папке календаря и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр класса CalendarFolder, который представляет в папке календаря, соответствующий указанным идентификатором.</returns>
+        <param name="service">Служба, используемая для связывания с папкой календаря.</param>
+        <param name="id">Идентификатор папки календаря, к которой требуется присоединиться.</param>
+        <summary>Выполняет присоединение к существующей папке календаря и загружает ее свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр класса Календарфолдер, представляющий папку календаря, соответствующую указанному ИДЕНТИФИКАТОРу.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,10 +82,10 @@
         <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке календаря.</param>
-        <param name="name">Имя папки календаря для привязки.</param>
-        <summary>Выполняет привязку к существующей папке календаря и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр класса CalendarFolder, который представляет папки календаря с указанным именем.</returns>
+        <param name="service">Служба, используемая для связывания с папкой календаря.</param>
+        <param name="name">Имя папки календаря, к которой необходимо присоединиться.</param>
+        <summary>Выполняет присоединение к существующей папке календаря и загружает ее свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр класса Календарфолдер, представляющий папку календаря с указанным именем.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,11 +108,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке календаря.</param>
-        <param name="id">Идентификатор папки календаря для привязки.</param>
+        <param name="service">Служба, используемая для связывания с папкой календаря.</param>
+        <param name="id">Идентификатор папки календаря, к которой требуется присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей папке календаря и загружает указанный набор свойств. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр CalendarFolder, который представляет в папке календаря, соответствующий указанным идентификатором.</returns>
+        <summary>Выполняет присоединение к существующей папке календаря и загружает заданный набор свойств. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр Календарфолдер, представляющий папку календаря, соответствующую указанному ИДЕНТИФИКАТОРу.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,11 +135,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке календаря.</param>
-        <param name="name">Имя папки календаря для привязки.</param>
+        <param name="service">Служба, используемая для связывания с папкой календаря.</param>
+        <param name="name">Имя папки календаря, к которой необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей папке календаря и загружает указанный набор свойств. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Экземпляр класса CalendarFolder, который представляет папки календаря с указанным именем.</returns>
+        <summary>Выполняет присоединение к существующей папке календаря и загружает заданный набор свойств. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр класса Календарфолдер, представляющий папку календаря с указанным именем.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -169,9 +161,9 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.CalendarView" />
       </Parameters>
       <Docs>
-        <param name="view">Представление, определяющее диапазон встречи, которые возвращаются.</param>
-        <summary>Получает список встреч, поиск содержимого папки и для выполнения повторения расширения для повторяющихся встреч. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Объект, который представляет результаты операции поиска.</returns>
+        <param name="view">Представление, управляющее диапазоном возвращаемых встреч.</param>
+        <summary>Получает список встреч, выполняя поиск по содержимому этой папки и выполняет расширение повторений для повторяющихся встреч. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Объект, представляющий результаты операции поиска.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="ConversationFlagStatus" FullName="Microsoft.Exchange.WebServices.Data.ConversationFlagStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cf2ca6609314ea52483209207e090aa0d501e956" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627145" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ConversationFlagStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cf2ca6609314ea52483209207e090aa0d501e956" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627145" /></Metadata><TypeSignature Language="C#" Value="public enum ConversationFlagStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationFlagStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationFlagStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationFlagStatus" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Представляет состояние завершения флаг.</summary>
+        <summary>Представляет полное состояние флага.</summary>
       </Docs>
     </Member>
     <Member MemberName="Flagged">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Представляет состояние отмеченного флаг.</summary>
+        <summary>Представляет состояние флага с флагом.</summary>
       </Docs>
     </Member>
     <Member MemberName="NotFlagged">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Представляет состояние флага не отмеченные.</summary>
+        <summary>Представляет состояние флага без флагов.</summary>
       </Docs>
     </Member>
   </Members>

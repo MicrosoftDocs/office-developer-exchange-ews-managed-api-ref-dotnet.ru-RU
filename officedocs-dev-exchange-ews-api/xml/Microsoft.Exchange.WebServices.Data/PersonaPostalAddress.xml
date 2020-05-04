@@ -1,13 +1,5 @@
 <Type Name="PersonaPostalAddress" FullName="Microsoft.Exchange.WebServices.Data.PersonaPostalAddress">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="08e648eb11e3ae569db5f4e7de6d02d06934081b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626621" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PersonaPostalAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="08e648eb11e3ae569db5f4e7de6d02d06934081b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626621" /></Metadata><TypeSignature Language="C#" Value="public sealed class PersonaPostalAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PersonaPostalAddress extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PersonaPostalAddress&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения контакта почтовый адрес, связанный с пользователя. <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения о почтовом адресе контакта, связанном с пользователем. <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,21 +44,21 @@
         <Parameter Name="altitudeAccuracy" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="street">Почтовый адрес.</param>
-        <param name="city">Значение города.</param>
+        <param name="street">Адрес в почтовом ящике.</param>
+        <param name="city">Значение City.</param>
         <param name="state">Значение состояния.</param>
         <param name="country">Значение страны или региона.</param>
-        <param name="postalCode">Значение почтовый индекс.</param>
-        <param name="postOfficeBox">Почтовый ящик.</param>
-        <param name="locationSource">Расположение источника.</param>
-        <param name="locationUri">Расположение универсальный код ресурса (URI).</param>
-        <param name="formattedAddress">Почтовый адрес для отображения.</param>
-        <param name="latitude">Широта расположения.</param>
+        <param name="postalCode">Значение почтовых индексов.</param>
+        <param name="postOfficeBox">Почтовые ящики.</param>
+        <param name="locationSource">Источник расположения.</param>
+        <param name="locationUri">Универсальный код ресурса (URI) расположения.</param>
+        <param name="formattedAddress">Отображаемый почтовый адрес.</param>
+        <param name="latitude">Местоположение в широте.</param>
         <param name="longitude">Долгота расположения.</param>
         <param name="accuracy">Точность расположения.</param>
-        <param name="altitude">Высота местоположения.</param>
-        <param name="altitudeAccuracy">Точность высота расположения.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="altitude">Высота расположения.</param>
+        <param name="altitudeAccuracy">Точность высоты расположения.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> класса.             <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,7 +77,7 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее степень точности Широта и долгота.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает значение, задающее степень точности широты и долготы.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Точность расположения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,8 +97,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расположение высота.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Высота местоположения.</value>
+        <summary>Получает или задает высоту расположения.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Высота расположения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,8 +117,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее степень точности высота.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Точность высота расположения.</value>
+        <summary>Получает или задает значение, задающее степень точности высоты.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Точность высоты расположения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -145,7 +137,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает название города.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает город.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Название города.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -165,8 +157,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает страну или регион.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Название страны/региона.</value>
+        <summary>Получает или задает страну или регион.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Название страны или региона.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -185,8 +177,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает почтовый адрес для отображения.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Почтовый адрес для отображения.</value>
+        <summary>Получает или задает отображаемый адрес.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Отображаемый почтовый адрес.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -205,8 +197,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, Широта расположения. <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Значение, указывающее, Широта расположения.</value>
+        <summary>Получает или задает значение, указывающее расположение широты. <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение, указывающее расположение широты.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,8 +217,8 @@
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, Долгота расположения.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Значение, указывающее, Долгота расположения.</value>
+        <summary>Получает или задает значение, указывающее долготу расположения.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение, указывающее долготу расположения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -245,7 +237,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает почтовый индекс.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает почтовый индекс.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Почтовый индекс.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -265,8 +257,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает номер абонентского ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Номер абонентского ящика.</value>
+        <summary>Получает или задает номер почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Номер почтового ящика в почтовом ящике.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -285,8 +277,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает источник почтовый адрес пользователя.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Исходный почтовый адрес пользователя.</value>
+        <summary>Получает или задает источник почтового адреса пользователя.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Источник почтового адреса пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -305,7 +297,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает состояние.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает состояние.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Имя состояния.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -325,7 +317,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает название улицы.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает название улицы.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Название улицы.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -345,8 +337,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тип почтовый адрес. Например дома или на работе.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Тип почтовый адрес.</value>
+        <summary>Получает или задает тип почтового адреса. Например, "домашний" или "Бизнес".             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Тип почтового адреса.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -365,7 +357,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расположение универсальный код ресурса (URI).             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор URI.             <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>URI расположения.</value>
         <remarks>To be added.</remarks>
       </Docs>

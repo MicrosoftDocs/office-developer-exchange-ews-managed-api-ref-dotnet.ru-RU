@@ -1,13 +1,5 @@
 <Type Name="OnlineMeetingSettings" FullName="Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cc620f0dca0ccbefb0a57c13a37955c71ba2226f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626507" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class OnlineMeetingSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cc620f0dca0ccbefb0a57c13a37955c71ba2226f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626507" /></Metadata><TypeSignature Language="C#" Value="public class OnlineMeetingSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnlineMeetingSettings extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" />
   <TypeSignature Language="VB.NET" Value="Public Class OnlineMeetingSettings&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет параметры собрания по сети.             <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Представляет параметры собраний по сети.             <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает параметры собрания по сети, с описанием разрешение на доступ к собранию.             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.AccessLevel" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Параметр, который описывает разрешение на доступ к собранию.</value>
+        <summary>Получает или задает параметр собрания по сети, который описывает разрешение на доступ к собранию.             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.AccessLevel" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Параметр, описывающий разрешение на доступ к собранию.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.LobbyBypass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает параметры собрания по сети, с описанием ли пользователи, подключающиеся по телефону будете ожидать в области сети ожидания перед присоединением к собранию.             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.LobbyBypass" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Параметр, описывающий, имеют ли пользователи, подключающиеся по телефону ожидания в области сети ожидания.</value>
+        <summary>Получает или задает параметр собрания по сети, который определяет, должны ли пользователи, подключающиеся по телефону, ждать в области ожидания в сети перед присоединением к собранию.             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.LobbyBypass" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Параметр, который указывает, должны ли пользователи, подключающиеся по телефону, ждать в области ожидания в сети.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,8 +89,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Presenters</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает параметры собрания по сети, который определяет лидеров собрания.             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.Presenters" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Параметр, определяющий лидеров собрания.</value>
+        <summary>Получает или задает параметр собраний по сети, определяющий руководителей собраний.             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.Presenters" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Параметр, определяющий руководителей собраний.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

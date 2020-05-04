@@ -1,13 +1,5 @@
 <Type Name="UserId" FullName="Microsoft.Exchange.WebServices.Data.UserId">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a3382687c018cce1a80c2d9614acd1049b990987" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626942" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class UserId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a3382687c018cce1a80c2d9614acd1049b990987" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626942" /></Metadata><TypeSignature Language="C#" Value="public sealed class UserId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UserId extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserId" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UserId&#xA;Inherits ComplexProperty" />
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса идентификатор пользователя.</summary>
+        <summary>Инициализирует новый экземпляр класса UserId.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -56,8 +48,8 @@
         <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
       </Parameters>
       <Docs>
-        <param name="standardUser">Одно из значений перечисления StandardUser, используется для инициализации нового экземпляра.</param>
-        <summary>Инициализирует новый экземпляр класса идентификатор пользователя для указанного обычного пользователя.</summary>
+        <param name="standardUser">Одно из значений перечисления Стандардусер, используемое для инициализации нового экземпляра.</param>
+        <summary>Инициализирует новый экземпляр класса UserId для указанного стандартного пользователя.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,7 +69,7 @@
       </Parameters>
       <Docs>
         <param name="primarySmtpAddress">Адрес электронной почты пользователя.</param>
-        <summary>Инициализирует новый экземпляр класса идентификатор пользователя с адресом электронной почты пользователя.</summary>
+        <summary>Инициализирует новый экземпляр класса UserId с адресом электронной почты пользователя.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -118,9 +110,9 @@
         <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
       </Parameters>
       <Docs>
-        <param name="standardUser">Обычного пользователя, который используется для инициализации с идентификатором пользователя.</param>
-        <summary>Реализует неявное преобразование между обычного пользователя и идентификатор пользователя экземпляра.</summary>
-        <returns>Экземпляр идентификатор пользователя, который инициализируется значением указанного обычного пользователя.</returns>
+        <param name="standardUser">Стандартный пользователь, который используется для инициализации идентификатора пользователя.</param>
+        <summary>Реализует неявное преобразование между стандартным пользователем и экземпляром UserId.</summary>
+        <returns>Экземпляр UserId, инициализируемый с указанным стандартным значением пользователя.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,8 +135,8 @@
       </Parameters>
       <Docs>
         <param name="primarySmtpAddress">Адрес электронной почты пользователя.</param>
-        <summary>Реализует неявное преобразование между строку, представляющую основной SMTP-адрес и идентификатор пользователя экземпляра.</summary>
-        <returns>Экземпляр идентификатор пользователя, который инициализируется с указанной основной SMTP-адрес.</returns>
+        <summary>Реализует неявное преобразование между строкой, представляющей основной SMTP-адрес и экземпляр UserId.</summary>
+        <returns>Экземпляр UserId, инициализируемый с указанным основным SMTP-адресом.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -164,7 +156,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает основной SMTP-адрес пользователя.</summary>
-        <value>Строка, содержащая основной адрес электронной почты SMTP пользователя.</value>
+        <value>Строка, содержащая основной SMTP-адрес электронной почты пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,8 +175,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ИД безопасности пользователя.</summary>
-        <value>Строка, содержащая идентификатор безопасности пользователя.</value>
+        <summary>Получает или задает идентификатор безопасности пользователя.</summary>
+        <value>Строка, содержащая идентификатор SID пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -203,8 +195,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.StandardUser&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, какие обычного пользователя, представляющий пользователя.</summary>
-        <value>Обычного пользователя, который представляет пользователя. Это свойство может быть пустая ссылка (Nothing в Visual Basic).</value>
+        <summary>Получает или задает значение, которое указывает, какой Стандартный пользователь представляет пользователь.</summary>
+        <value>Стандартный пользователь, который представляет пользователь. Это свойство может быть пустой ссылкой (Nothing в Visual Basic).</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="GroupMemberCollection" FullName="Microsoft.Exchange.WebServices.Data.GroupMemberCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e3351b749e7ca206b210187630362c674c783e01" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627381" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GroupMemberCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e3351b749e7ca206b210187630362c674c783e01" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627381" /></Metadata><TypeSignature Language="C#" Value="public sealed class GroupMemberCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GroupMemberCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GroupMemberCollection&#xA;Inherits ComplexPropertyCollection(Of GroupMember)" />
@@ -41,7 +33,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" /> класса.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,7 +55,7 @@
         <Parameter Name="member" Type="Microsoft.Exchange.WebServices.Data.GroupMember" />
       </Parameters>
       <Docs>
-        <param name="member">Участник, чтобы добавить в группу.</param>
+        <param name="member">Член, добавляемый в группу.</param>
         <summary>Добавляет участника в группу.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -86,9 +78,9 @@
         <Parameter Name="emailAddressKey" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
       </Parameters>
       <Docs>
-        <param name="contact">Контакт для связи с.</param>
-        <param name="emailAddressKey">Адрес электронной почты для связи.</param>
-        <summary>Добавляет члена группы, связанного с адресом электронной почты контакта.</summary>
+        <param name="contact">Контакт для ссылки.</param>
+        <param name="emailAddressKey">Адрес электронной почты, на который требуется создать ссылку.</param>
+        <summary>Добавляет участника группы, связанного с определенным адресом электронной почты для контакта.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,7 +103,7 @@
       </Parameters>
       <Docs>
         <param name="contactGroupId">Идентификатор группы контактов.</param>
-        <summary>Добавляет участника в группу связанных контактов.</summary>
+        <summary>Добавляет участника в связанную группу контактов.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -133,8 +125,8 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">Адрес электронной почты SMTP контакта Active Directory.</param>
-        <summary>Добавляет участника, связанного с контактом Active Directory, который идентифицируется с указанным адресом электронной почты.</summary>
+        <param name="smtpAddress">SMTP-адрес электронной почты контакта Active Directory.</param>
+        <summary>Добавляет элемент, связанный с контактом Active Directory, который идентифицируется по указанному адресу электронной почты.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,7 +151,7 @@
       <Docs>
         <param name="address">Адрес электронной почты контакта Active Directory.</param>
         <param name="routingType">Тип маршрутизации для контакта Active Directory.</param>
-        <summary>Добавляет участника, связанного с контактом Active Directory, который идентифицируется с указанным адресом электронной почты и типа маршрутизации.</summary>
+        <summary>Добавляет элемент, связанный с контактом Active Directory, который идентифицируется указанным адресом электронной почты и типом маршрутизации.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -181,8 +173,8 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">Адрес электронной почты SMTP общей папки с включенной поддержкой почты.</param>
-        <summary>Добавляет участника, связанного с общей папки с включенной поддержкой почты.</summary>
+        <param name="smtpAddress">SMTP-адрес электронной почты общедоступной папки с включенной поддержкой почты.</param>
+        <summary>Добавляет участника, связанного с общедоступной папкой, поддерживающей почту.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -204,8 +196,8 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">SMTP-адрес элемента.</param>
-        <summary>Добавляет участника, связанного с пользователя Active Directory, который указан с SMTP-адрес.</summary>
+        <param name="smtpAddress">SMTP-адрес члена.</param>
+        <summary>Добавляет участника, связанного с пользователем Active Directory, указанным SMTP-адресом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -229,8 +221,8 @@
       </Parameters>
       <Docs>
         <param name="address">Адрес электронной почты пользователя.</param>
-        <param name="routingType">Тип маршрутизации адреса.</param>
-        <summary>Добавляет участника, связанного с пользователя Active Directory, который указан с адреса электронной почты и типа маршрутизации.</summary>
+        <param name="routingType">Тип маршрутизации для адреса.</param>
+        <summary>Добавляет участника, связанного с пользователем Active Directory и указанным адресом электронной почты и типом маршрутизации.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -254,8 +246,8 @@
       </Parameters>
       <Docs>
         <param name="displayName">Отображаемое имя участника.</param>
-        <param name="smtpAddress">Член SMTP-адреса электронной почты.</param>
-        <summary>Добавляет одноразовых участника в группу с указанным отображаемое имя и адрес электронной почты SMTP.</summary>
+        <param name="smtpAddress">SMTP-адрес электронной почты участника.</param>
+        <summary>Добавляет одного участника в группу с указанным отображаемым именем и SMTP-адресом электронной почты.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -281,8 +273,8 @@
       <Docs>
         <param name="displayName">Отображаемое имя участника.</param>
         <param name="address">Адрес электронной почты участника.</param>
-        <param name="routingType">Тип маршрутизации адреса.</param>
-        <summary>Добавляет одноразовых участника в группу с указанным отображаемое имя, адрес электронной почты и типа маршрутизации.</summary>
+        <param name="routingType">Тип маршрутизации для адреса.</param>
+        <summary>Добавляет одного участника в группу с указанным отображаемым именем, адресом электронной почты и типом маршрутизации.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -304,8 +296,8 @@
         <Parameter Name="contactId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="contactId">Идентификатор контакта, чтобы добавить.</param>
-        <summary>Добавляет участника, связанного с определенным личный контакт.</summary>
+        <param name="contactId">Идентификатор добавляемого контакта.</param>
+        <summary>Добавляет участника, связанного с определенным личным контактом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -328,9 +320,9 @@
         <Parameter Name="addressToLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contactId">Идентификатор контакта, чтобы добавить.</param>
-        <param name="addressToLink">Адрес электронной почты для использования.</param>
-        <summary>Добавляет участника, связанного с определенным контактом личные и адрес электронной почты.</summary>
+        <param name="contactId">Идентификатор добавляемого контакта.</param>
+        <param name="addressToLink">Адрес электронной почты, который будет использоваться.</param>
+        <summary>Добавляет участника, связанного с определенным личным контактом и адресом электронной почты.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -352,8 +344,8 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">Адрес электронной почты SMTP общей группы.</param>
-        <summary>Добавляет участника, связанного с общей группы.</summary>
+        <param name="smtpAddress">Адрес электронной почты SMTP общедоступной группы.</param>
+        <summary>Добавляет участника, связанного с общедоступной группой.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -375,8 +367,8 @@
         <Parameter Name="members" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
       </Parameters>
       <Docs>
-        <param name="members">Чтобы добавить элементы.</param>
-        <summary>Добавляет несколько членов группы.</summary>
+        <param name="members">Элементы, которые требуется добавить.</param>
+        <summary>Добавляет несколько участников в группу.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -418,14 +410,11 @@
         <Parameter Name="key" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="key">Ключ элемента для поиска.</param>
-        <summary>Поиск элемента в коллекции, имеющий указанный ключ.</summary>
-        <returns>
-          <see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Find(System.String)" /> Возвращает <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> объект, который содержит элемент, имеющий указанный ключ.</returns>
-        <remarks>
-          <para>Члены, которые не были сохранены не ключа.</para>
-          <para />
-        </remarks>
+        <param name="key">Ключ члена, который требуется найти.</param>
+        <summary>Находит элемент в коллекции с указанным ключом.</summary>
+        <returns><see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Find(System.String)" /> Метод возвращает <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> объект, содержащий элемент с указанным ключом.</returns>
+        <remarks><para>У элементов, которые не были сохранены, отсутствует ключ.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -446,10 +435,9 @@
         <Parameter Name="member" Type="Microsoft.Exchange.WebServices.Data.GroupMember" />
       </Parameters>
       <Docs>
-        <param name="member">Удалить элемент.</param>
-        <summary>Удаляет указанный элемент из коллекции.</summary>
-        <returns>
-          <see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Remove(Microsoft.Exchange.WebServices.Data.GroupMember)" /> Метод возвращает <b>значение true,</b> Если член группы был удален из коллекции. в противном случае метод возвращает <b>значение false</b>.</returns>
+        <param name="member">Член, который требуется удалить.</param>
+        <summary>Удаляет указанного элемента из коллекции.</summary>
+        <returns><see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Remove(Microsoft.Exchange.WebServices.Data.GroupMember)" /> Метод возвращает <b>значение true</b> , если член группы удален из коллекции; в противном случае метод возвращает <b>значение false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -471,7 +459,7 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Индекс члена группы для удаления.</param>
+        <param name="index">Индекс члена группы, который требуется удалить.</param>
         <summary>Удаляет члена группы по указанному индексу.</summary>
         <remarks>To be added.</remarks>
       </Docs>

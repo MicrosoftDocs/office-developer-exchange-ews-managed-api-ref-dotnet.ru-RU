@@ -1,13 +1,5 @@
 <Type Name="ApprovalRequestData" FullName="Microsoft.Exchange.WebServices.Data.ApprovalRequestData">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="55200fe16e93878a1af4bbca705655f781471e11" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626880" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ApprovalRequestData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="55200fe16e93878a1af4bbca705655f781471e11" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626880" /></Metadata><TypeSignature Language="C#" Value="public sealed class ApprovalRequestData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ApprovalRequestData extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ApprovalRequestData&#xA;Inherits ComplexProperty" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет состояние утверждения сообщение запроса утверждения. <see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-    <remarks>
-      <para>Утверждение запроса сообщения отправляются модератору как часть поток сообщений для управляемой получателей. Для получения дополнительных сведений см <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Проходят контроль транспорта</a></para>
-      <para />
-    </remarks>
+    <summary>Представляет состояние утверждения сообщения с запросом на утверждение. <see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <remarks><para>Сообщения запроса утверждения отправляются модератору в составе последовательности сообщений для управляемых получателей. Дополнительные сведения см в разделе <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">управляемый транспорт</a></para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="ApprovalDecision">
@@ -43,26 +33,24 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получение утверждения решение сообщения запроса на утверждение.</summary>
+        <summary>Получает решение об утверждении для запроса на утверждение.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойство показывает принял решение в модератору на запрос утверждения. Свойство может иметь одно из значений в таблице ниже.</para>
-          <list type="table">
-            <item>
+        <remarks><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства указывает решение, принятое модератором в запросе на утверждение. Свойство может иметь одно из значений в приведенной ниже таблице.</para> 
+          <list type="table"> 
+            <item> 
               <term>0</term>
-              <description>решение не было сделано.</description>
-            </item>
-            <item>
+              <description>решение не</description> 
+            </item> было принято. 
+            <item> 
               <term>1</term>
-              <description>запрос был утвержден.</description>
-            </item>
-            <item>
+              <description>запрос был утвержден.</description> 
+            </item> 
+            <item> 
               <term>2</term>
-              <description>Запрос отклонен.</description>
-            </item>
+              <description>запрос отклонен.</description> 
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ApprovalDecisionMaker">
@@ -80,12 +68,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает отображаемое имя управляющий, который утверждения или отклонения запроса.</summary>
+        <summary>Получает отображаемое имя модератора, который утвердил или отклонил запрос.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства имеет значение 0, указывающего на то, что решение имеет еще не сделано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" /> свойства будет пустая ссылка (Nothing в Visual Basic).</para>
-          <para />
-        </remarks>
+        <remarks><para>Если значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства равно 0, что означает, что решение еще не было создано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" /> свойства будет пустой ссылкой (Nothing в Visual Basic).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ApprovalDecisionTime">
@@ -103,12 +89,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время, в которой модератор утверждения или отклонения запроса.</summary>
+        <summary>Возвращает время, в течение которого модератор утверждает или отклонил запрос.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства имеет значение 0, указывающего на то, что решение имеет еще не сделано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" /> свойства будет <see cref="F:System.DateTime.MinValue" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> свойства равно 0, что означает, что решение еще не было создано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" /> свойства будет иметь <see cref="F:System.DateTime.MinValue" />значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsUndecidedApprovalRequest">
@@ -126,7 +110,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли этот запрос на утверждение ожидает модератор утвердить или отклонить запрос.</summary>
+        <summary>Получает значение, указывающее, ожидает ли этот запрос утверждения модератору для утверждения или отклонения запроса.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

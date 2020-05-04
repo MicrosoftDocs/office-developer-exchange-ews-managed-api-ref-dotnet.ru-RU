@@ -1,13 +1,5 @@
 <Type Name="ConflictResolutionMode" FullName="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="86fe83e0bc760e3e56d388ee3e7ad361f5e5e10e" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626557" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ConflictResolutionMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="86fe83e0bc760e3e56d388ee3e7ad361f5e5e10e" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626557" /></Metadata><TypeSignature Language="C#" Value="public enum ConflictResolutionMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConflictResolutionMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConflictResolutionMode" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет порядок обработки разрешение конфликтов при выполнении операций обновления.</summary>
+    <summary>Определяет, как разрешения конфликтов обрабатываются в операциях обновления.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Изменения свойств локального перезаписать изменения на сервере.</summary>
+        <summary>Изменения локального свойства перезапишут изменения на стороне сервера.</summary>
       </Docs>
     </Member>
     <Member MemberName="AutoResolve">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Локальное свойство изменения применяются к серверу пока копии на сервере в течение последних локальной копии.</summary>
+        <summary>Изменения, внесенные в локальные свойства, применяются к серверу, если его копия не является более поздней, чем локальная копия.</summary>
       </Docs>
     </Member>
     <Member MemberName="NeverOverwrite">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Локальное свойство изменения будут удалены.</summary>
+        <summary>Изменения локальных свойств отбрасываются.</summary>
       </Docs>
     </Member>
   </Members>

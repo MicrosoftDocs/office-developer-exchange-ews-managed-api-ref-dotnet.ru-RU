@@ -1,13 +1,5 @@
 <Type Name="ContainmentMode" FullName="Microsoft.Exchange.WebServices.Data.ContainmentMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0c9fd99a60a0ef9b6fe59616c20755632e946f26" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627264" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ContainmentMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0c9fd99a60a0ef9b6fe59616c20755632e946f26" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627264" /></Metadata><TypeSignature Language="C#" Value="public enum ContainmentMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContainmentMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContainmentMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContainmentMode" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет режим вложенности для фильтров поиска Contains.</summary>
+    <summary>Определяет режим включения для фильтров поиска.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Точной фразы в строке сравнивается константу.</summary>
+        <summary>Точная фраза в строке и константа сравнивается.</summary>
       </Docs>
     </Member>
     <Member MemberName="FullString">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Полной строки сравнивается константу. Значение свойства и указанная константа идентичны.</summary>
+        <summary>Между полной строкой и константой выполняется сравнение. Значение свойства и заданная константа в точности совпадают.</summary>
       </Docs>
     </Member>
     <Member MemberName="Prefixed">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Префикс строки сравнивается константу.</summary>
+        <summary>Сравнение между префиксом строки и константой.</summary>
       </Docs>
     </Member>
     <Member MemberName="PrefixOnWords">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Префикс на отдельные слова в строке сравнивается константу.</summary>
+        <summary>В качестве префикса для отдельных слов в строке и константы используется сравнение.</summary>
       </Docs>
     </Member>
     <Member MemberName="Substring">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Подстрока строки сравнивается константу.</summary>
+        <summary>Сравнение между подстрокой строки и константой.</summary>
       </Docs>
     </Member>
   </Members>

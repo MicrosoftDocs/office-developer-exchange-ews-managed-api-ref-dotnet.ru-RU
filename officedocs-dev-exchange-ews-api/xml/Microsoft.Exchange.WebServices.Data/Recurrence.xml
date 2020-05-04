@@ -1,13 +1,5 @@
 <Type Name="Recurrence" FullName="Microsoft.Exchange.WebServices.Data.Recurrence">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b7707c6e0ecfadb96c5309e565c5412b4f559d42" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626708" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class Recurrence : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b7707c6e0ecfadb96c5309e565c5412b4f559d42" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626708" /></Metadata><TypeSignature Language="C#" Value="public abstract class Recurrence : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Recurrence extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Recurrence&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет шаблон повторения, используемые элементы встреч и задач.</summary>
+    <summary>Представляет шаблон повторения, используемый элементами встречи и задач.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату, после которого завершается повторения. Параметр EndDate сбрасывает NumberOfOccurrences.</summary>
-        <value>Значение даты и времени, или значение null.</value>
+        <summary>Получает или задает дату, после которой заканчивается повторение. При настройке EndDate сбрасывается Нумберофоккурренцес.</summary>
+        <value>Значение DateTime или null.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, будет ли шаблон имеет заданное количество вхождений или дату окончания.</summary>
-        <value>Значение true, если шаблон имеет заданное количество вхождений или дату окончания; в противном случае — false.</value>
+        <summary>Получает значение, указывающее, является ли шаблон фиксированным числом повторений или датой окончания.</summary>
+        <value>Значение true, если шаблон имеет фиксированное число повторений или конечную дату; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,10 +75,9 @@
         <Parameter Name="otherRecurrence" Type="Microsoft.Exchange.WebServices.Data.Recurrence" />
       </Parameters>
       <Docs>
-        <param name="otherRecurrence">Объект повторения календаря, с которым будет сравниваться.</param>
-        <summary>Сравнивает два, преобразование их в JavaScript Object Notation (JSON) и сравнения их строковые значения.              <see cref="M:Microsoft.Exchange.WebServices.Data.Recurrence.IsSame(Microsoft.Exchange.WebServices.Data.Recurrence)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>
-          <b>значение true,</b> Если JSON преобразовать объекты равны; в противном случае — <b>false</b>.</returns>
+        <param name="otherRecurrence">Объект повторения календаря для сравнения.</param>
+        <summary>Сравнивает два объекта, преобразовав их в формат JSON (JSON) и сравнив их строковые значения.              Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Recurrence.IsSame(Microsoft.Exchange.WebServices.Data.Recurrence)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns><b>значение true</b> , если преобразованные объекты JSON равны; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -106,11 +97,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Выполняет настройку повторение, чтобы он никогда не завершается.</summary>
-        <remarks>
-          <para>Вызов NeverEnds эквивалентен параметру NumberOfOccurrences и EndDate значения NULL.</para>
-          <para />
-        </remarks>
+        <summary>Настраивает это повторение, чтобы оно никогда не закончится.</summary>
+        <remarks><para>Вызов Неверендс равнозначен заданию значения NULL для обоих параметров Нумберофоккурренцес и EndDate.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfOccurrences">
@@ -128,8 +117,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает число вхождений, после которого завершается повторения. Установка NumberOfOccurrences сбрасывает EndDate.</summary>
-        <value>Целое значение, или значение null.</value>
+        <summary>Получает или задает количество повторений, после которых заканчивается повторение. При настройке Нумберофоккурренцес сбрасывается Дата EndDate.</summary>
+        <value>Целое значение или null.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

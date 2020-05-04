@@ -1,13 +1,5 @@
 <Type Name="DeleteRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.DeleteRuleOperation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4849cf7491586006e5275c9ef6a0a8c876a82551" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627124" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DeleteRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4849cf7491586006e5275c9ef6a0a8c876a82551" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627124" /></Metadata><TypeSignature Language="C#" Value="public sealed class DeleteRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeleteRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeleteRuleOperation&#xA;Inherits RuleOperation" />
@@ -21,14 +13,11 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет операцию для удаления правила папки «Входящие».</summary>
-    <remarks>
-      <para>Можно удалить существующий <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект класса с помощью этого класса.</para>
+    <summary>Представляет операцию удаления правила для папки "Входящие".</summary>
+    <remarks><para>С помощью этого класса можно <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> удалить существующий объект Class.</para> 
       <para>Этот класс является производным от <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> класса.</para>
-      <para />
-    </remarks>
-    <example>
-      <para>В следующем примере выполняется поиск <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> класс для поиска существующего <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект с именем «MoveInterestingToJunk» из почтового ящика пользователя. Если <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> существует, <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> при удалении службы. Строка UpdateInboxRules (new RuleOperation [] {setRuleOperation} значение true) выполняется.</para>
+      <para /></remarks>
+    <example><para>В следующем примере в <see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" /> классе выполняется поиск существующего <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объекта с именем "мовеинтерестингтожунк" в почтовом ящике пользователя. Если параметр <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> существует, то <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> он удаляется при наличии службы. Выполняется строка UpdateInboxRules (New Рулеоператион [] {Сетрулеоператион}, true).</para>
       <code>// Create the DeleteRuleOperation.
 // Delete the rule "MoveInterestingToJunk", if it exists.
 // Get the RuleCollection.
@@ -40,8 +29,7 @@ foreach (Rule ruleinCollection in ruleCollection)
         DeleteRuleOperation deleteRuleOperation = new DeleteRuleOperation(ruleinCollection.Id);
         service.UpdateInboxRules(new RuleOperation[] { deleteRuleOperation }, true);
     }
-}</code>
-    </example>
+}</code></example>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -57,11 +45,9 @@ foreach (Rule ruleinCollection in ruleCollection)
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса DeleteRuleOperation.</summary>
-        <remarks>
-          <para>Этот метод удаляет <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект класса в определенного почтового ящика.</para>
-          <para />
-        </remarks>
+        <summary>Инициализирует новый экземпляр класса Делетерулеоператион.</summary>
+        <remarks><para>Этот метод удаляет объект <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> Class в определенном почтовом ящике.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -79,8 +65,8 @@ foreach (Rule ruleinCollection in ruleCollection)
         <Parameter Name="ruleId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ruleId">Идентификатор правила для удаления и отправляются на сервер обмена сообщениями.</param>
-        <summary>Инициализирует новый экземпляр класса DeleteRuleOperation с идентификатором указанного правила.</summary>
+        <param name="ruleId">Идентификатор правила, которое необходимо удалить и отправить на сервер обмена сообщениями.</param>
+        <summary>Инициализирует новый экземпляр класса Делетерулеоператион с указанным идентификатором правила.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -99,13 +85,10 @@ foreach (Rule ruleinCollection in ruleCollection)
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает уникальный идентификатор правила для удаления.</summary>
+        <summary>Получает или задает уникальный идентификатор удаляемого правила.</summary>
         <value>Идентификатор правила.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" /> Свойство имеет уникальный идентификатор для <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> объект класса, который требуется удалить.</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" /> Свойство является уникальным идентификатором объекта <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> класса, который требуется удалить.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

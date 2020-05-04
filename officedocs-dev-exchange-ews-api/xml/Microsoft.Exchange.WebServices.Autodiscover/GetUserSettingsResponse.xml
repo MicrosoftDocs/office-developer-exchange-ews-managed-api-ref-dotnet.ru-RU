@@ -1,13 +1,5 @@
 <Type Name="GetUserSettingsResponse" FullName="Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a92f5f1e90e82f308cc16cd05d38684c91ab07fd" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626830" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetUserSettingsResponse : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a92f5f1e90e82f308cc16cd05d38684c91ab07fd" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626830" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetUserSettingsResponse : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetUserSettingsResponse extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetUserSettingsResponse&#xA;Inherits AutodiscoverResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ответ на звонок GetUsersSettings для отдельного пользователя.</summary>
+    <summary>Представляет ответ на вызов Жетусерссеттингс для отдельного пользователя.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса GetUserSettingsResponse.</summary>
+        <summary>Инициализирует новый экземпляр класса Жетусерсеттингсреспонсе.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает целевой в режиме одобрения администратором (URL-адрес или адрес электронной почты).</summary>
-        <value>В режиме одобрения администратором конечного URL-адрес или адрес электронной почты.</value>
+        <summary>Получает целевой объект перенаправления (URL-адрес или адрес электронной почты).</summary>
+        <value>Целевой URL-адрес или адрес электронной почты перенаправления.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,7 +70,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает запрошенные параметры для пользователя.</summary>
-        <value>Параметры запрошенного пользователя.</value>
+        <value>Запрошенные параметры пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,8 +89,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает адрес электронной почты SMTP, к которому применяется этот ответ.</summary>
-        <value>SMTP-адрес, к которому применяется этот ответ.</value>
+        <summary>Получает адрес электронной почты SMTP, к которому применяется этот отклик.</summary>
+        <value>SMTP-адрес, к которому применяется этот отклик.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,9 +119,8 @@
         <typeparam name="T">Тип параметра пользователя.</typeparam>
         <param name="setting">Тип параметра пользователя.</param>
         <param name="value">Значение параметра.</param>
-        <summary>Пытается получить значение параметра пользователя.</summary>
-        <returns>
-          <b>значение true,</b> Если параметр был доступен; в противном случае — <b>false</b>.</returns>
+        <summary>Пытается получить значение параметра User.</summary>
+        <returns><b>значение true</b> , если параметр доступен; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,8 +139,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingError&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию ошибок для параметров, которые не будут получены.</summary>
-        <value>Коллекция объектов UserSettingError.</value>
+        <summary>Возвращает коллекцию ошибок для параметров, которые не удалось вернуть.</summary>
+        <value>Коллекция объектов Усерсеттинжеррор.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="Folder" FullName="Microsoft.Exchange.WebServices.Data.Folder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8f7ee894ed9b06eab788afe3a41dd63b6a30d3ba" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626904" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Folder : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8f7ee894ed9b06eab788afe3a41dd63b6a30d3ba" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626904" /></Metadata><TypeSignature Language="C#" Value="public class Folder : Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Folder extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Folder" />
   <TypeSignature Language="VB.NET" Value="Public Class Folder&#xA;Inherits ServiceObject" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет общей папки.</summary>
+    <summary>Представляет общую папку.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,12 +32,10 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">Служба веб-служб Exchange (EWS), к которому принадлежит этот объект.</param>
-        <summary>Инициализирует несохраненные локальный экземпляр класса папки.</summary>
-        <remarks>
-          <para>Чтобы привязать к существующей папке, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" /> метод вместо этого.</para>
-          <para />
-        </remarks>
+        <param name="service">Служба веб-служб Exchange (EWS), к которой принадлежит этот объект.</param>
+        <summary>Инициализирует несохраненный локальный экземпляр класса Folder.</summary>
+        <remarks><para>Чтобы выполнить присоединение к существующей папке, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" /> вместо этого метод.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ArchiveTag">
@@ -63,8 +53,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тег архива.             <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Тег папку архива.</value>
+        <summary>Получает или задает Тег архива.             <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Архивный тег папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -87,14 +77,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке.</param>
-        <param name="id">Идентификатор папки для привязки.</param>
-        <summary>Выполняет привязку к существующей папке, независимо от его фактический тип и загружает его свойства первого класса.</summary>
-        <returns>Папка, соответствующий указанным идентификатором.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="service">Служба, используемая для связывания с папкой.</param>
+        <param name="id">Идентификатор папки, к которой необходимо выполнить присоединение.</param>
+        <summary>Выполняет присоединение к существующей папке, любой ее фактический тип и загружает ее свойства первого класса.</summary>
+        <returns>Папка, соответствующая указанному ИДЕНТИФИКАТОРу.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -116,14 +104,12 @@
         <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке.</param>
-        <param name="name">Имя папки для привязки.</param>
-        <summary>Выполняет привязку к существующей папке, независимо от его фактический тип и загружает его свойства первого класса.</summary>
-        <returns>Папка с указанным <paramref name="name" />.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="service">Служба, используемая для связывания с папкой.</param>
+        <param name="name">Имя папки, к которой требуется присоединиться.</param>
+        <summary>Выполняет присоединение к существующей папке, любой ее фактический тип и загружает ее свойства первого класса.</summary>
+        <returns>Папка с указанным <paramref name="name" />параметром.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -145,15 +131,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке.</param>
-        <param name="id">Идентификатор папки для привязки.</param>
+        <param name="service">Служба, используемая для связывания с папкой.</param>
+        <param name="id">Идентификатор папки, к которой необходимо выполнить присоединение.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей папке, независимо от его фактический тип и загружает указанный набор свойств.</summary>
-        <returns>Папка, соответствующий указанным идентификатором.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Выполняет присоединение к существующей папке, любой ее фактический тип и загружает указанный набор свойств.</summary>
+        <returns>Папка, соответствующая указанному ИДЕНТИФИКАТОРу.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -175,15 +159,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к папке.</param>
-        <param name="name">Имя папки для привязки.</param>
+        <param name="service">Служба, используемая для связывания с папкой.</param>
+        <param name="name">Имя папки, к которой требуется присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей папке, независимо от его фактический тип и загружает указанный набор свойств.</summary>
-        <returns>Папка с указанным <paramref name="name" />.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Выполняет присоединение к существующей папке, любой ее фактический тип и загружает указанный набор свойств.</summary>
+        <returns>Папка с указанным <paramref name="name" />параметром.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ChildFolderCount">
@@ -201,8 +183,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество дочерних папок в этом этой папки.</summary>
-        <value>Число дочерних папок.</value>
+        <summary>Получает количество дочерних папок в этой папке.</summary>
+        <value>Количество дочерних папок.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,12 +207,10 @@
       </Parameters>
       <Docs>
         <param name="destinationFolderId">Идентификатор папки, в которую следует скопировать эту папку.</param>
-        <summary>Копирует эту папку в указанной папки.</summary>
-        <returns>Папка, копия исходной папки.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Копирует эту папку в определенную папку.</summary>
+        <returns>Папка, которая является копией исходной папки.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Copy">
@@ -252,12 +232,10 @@
       </Parameters>
       <Docs>
         <param name="destinationFolderName">Имя папки, в которую следует скопировать эту папку.</param>
-        <summary>Копирует эту папку в указанной папке.</summary>
-        <returns>Папка, копия исходной папки.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Копирует эту папку в указанную папку.</summary>
+        <returns>Папка, которая является копией исходной папки.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -279,10 +257,8 @@
       <Docs>
         <param name="deleteMode">Режим удаления.</param>
         <summary>Удаляет папку.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -320,8 +296,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, действующих прав, для которых есть текущего прошедшего проверку подлинности пользователя в общей папке.</summary>
-        <value>Значение перечисления, указывающее, действующих прав.</value>
+        <summary>Получает значение, которое указывает действующие права, которые текущий пользователь, прошедший проверку подлинности, находится в папке.</summary>
+        <value>Значение перечисления, задающее действующие права.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -344,9 +320,8 @@
       </Parameters>
       <Docs>
         <param name="deleteMode">Режим удаления.</param>
-        <param name="deleteSubFolders">
-          <b>значение true,</b> чтобы указать, что следует также удалить вложенные папки; в противном случае — <b>false</b>.</param>
-        <summary>Очищает папку. Кроме того позволяет пустой вложенных папок.</summary>
+        <param name="deleteSubFolders"><b>значение true</b> указывает, что необходимо также удалить вложенные папки; в противном случае — <b>false</b>.</param>
+        <summary>Очищает папку. При необходимости можно выбрать пустые подпапки.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -365,8 +340,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список расширенные свойства, связанные с папкой.</summary>
-        <value>Объект коллекции с расширенные свойства.</value>
+        <summary>Получает список расширенных свойств, связанных с папкой.</summary>
+        <value>Объект Collection с расширенными свойствами.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -388,13 +363,11 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.FolderView" />
       </Parameters>
       <Docs>
-        <param name="view">Представление, определяющее число папок, которые будут возвращены.</param>
-        <summary>Получает список папок, поиск по ключевым словам вложенных папок из этой папки.</summary>
+        <param name="view">Представление, управляющее количеством возвращаемых папок.</param>
+        <summary>Получает список папок, выполняя поиск по вложенным папкам этой папки.</summary>
         <returns>Результаты операции поиска.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindFolders">
@@ -416,13 +389,11 @@
       </Parameters>
       <Docs>
         <param name="searchFilter">Фильтр поиска.</param>
-        <param name="view">Представление, определяющее число папок, которые будут возвращены.</param>
-        <summary>Возвращает список папок, поиск по ключевым словам вложенных папок в указанном представлении, соответствующие заданным условиям фильтра поиска.</summary>
+        <param name="view">Представление, управляющее количеством возвращаемых папок.</param>
+        <summary>Возвращает список папок, выполняя поиск в подпапках указанного представления, удовлетворяющих заданным условиям фильтра поиска.</summary>
         <returns>Результаты поиска.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -443,13 +414,11 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
       </Parameters>
       <Docs>
-        <param name="view">Представление, определяющее число элементов, которые возвращаются.</param>
-        <summary>Получает список элементов, поиск по ключевым словам содержимое этой папки.</summary>
+        <param name="view">Представление, управляющее числом возвращаемых элементов.</param>
+        <summary>Получение списка элементов путем поиска содержимого этой папки.</summary>
         <returns>Результаты операции поиска.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -471,14 +440,12 @@
         <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
       </Parameters>
       <Docs>
-        <param name="view">Представление, определяющее число элементов, которые возвращаются.</param>
-        <param name="groupBy">Критерии группировки.</param>
-        <summary>Получает список элементов, поиск по ключевым словам содержимое этой папки в указанном представлении, сгруппированные по указанного свойства.</summary>
+        <param name="view">Представление, управляющее числом возвращаемых элементов.</param>
+        <param name="groupBy">Критерии группирования.</param>
+        <summary>Получает список элементов путем поиска содержимого этой папки в указанном представлении и группировки по заданному свойству.</summary>
         <returns>Результаты поиска.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -500,13 +467,11 @@
       </Parameters>
       <Docs>
         <param name="searchFilter">Фильтр поиска.</param>
-        <param name="view">Представление, определяющее число элементов, которые возвращаются.</param>
-        <summary>Получает список элементов, поиск по ключевым словам содержимое этой папки.</summary>
+        <param name="view">Представление, управляющее числом возвращаемых элементов.</param>
+        <summary>Получение списка элементов путем поиска содержимого этой папки.</summary>
         <returns>Результаты поиска.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -528,14 +493,12 @@
         <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
       </Parameters>
       <Docs>
-        <param name="queryString">Строка запроса, который определяет элементов для возврата.</param>
-        <param name="view">Представление, определяющее число элементов, которые возвращаются.</param>
-        <summary>Возвращает список элементов, поиск по ключевым словам содержимое этой папки с указанной строкой запроса.</summary>
+        <param name="queryString">Строка запроса, указывающая возвращаемые элементы.</param>
+        <param name="view">Представление, управляющее числом возвращаемых элементов.</param>
+        <summary>Возвращает список элементов, выполняя поиск по содержимому этой папки с указанной строкой запроса.</summary>
         <returns>Результаты поиска.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -558,14 +521,12 @@
       </Parameters>
       <Docs>
         <param name="searchFilter">Фильтр поиска.</param>
-        <param name="view">Представление, определяющее число элементов, которые возвращаются.</param>
-        <param name="groupBy">Критерии группировки.</param>
-        <summary>Возвращает список элементов, поиск по ключевым словам содержимое этой папки, используя указанный фильтр поиска.</summary>
+        <param name="view">Представление, управляющее числом возвращаемых элементов.</param>
+        <param name="groupBy">Критерии группирования.</param>
+        <summary>Возвращает список элементов, выполняя поиск по содержимому этой папки с использованием указанного фильтра поиска.</summary>
         <returns>Результаты поиска.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindItems">
@@ -588,15 +549,13 @@
         <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
       </Parameters>
       <Docs>
-        <param name="queryString">Строка запроса, который определяет поисковый фильтр.</param>
-        <param name="view">Представление, определяющее число элементов, которые возвращаются.</param>
-        <param name="groupBy">Критерии группировки.</param>
-        <summary>Возвращает список элементов, поиск по ключевым словам содержимое этой папки.</summary>
+        <param name="queryString">Строка запроса, указывающая фильтр поиска.</param>
+        <param name="view">Представление, управляющее числом возвращаемых элементов.</param>
+        <param name="groupBy">Критерии группирования.</param>
+        <summary>Возвращает список элементов, выполняя поиск по содержимому этой папки.</summary>
         <returns>Результаты поиска.</returns>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FolderClass">
@@ -614,7 +573,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя настраиваемого класса этой папки.</summary>
+        <summary>Получает или задает имя настраиваемого класса для этой папки.</summary>
         <value>Имя класса папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -654,8 +613,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ManagedFolderInformation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сведения о управления записями обмена сообщениями (MRM), который связан с папкой.</summary>
-        <value>Сведения о управления записями сообщений.</value>
+        <summary>Получает сведения об управлении записями обмена сообщениями (управления ЗАПИСЯМИ сообщений), связанные с папкой.</summary>
+        <value>Сведения о управления ЗАПИСЯМИ сообщений.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -677,13 +636,10 @@
         <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="suppressReadReceipts">
-          <b>значение true,</b> чтобы запретить отправку уведомления о прочтении для элементов; в противном случае — <b>false</b>.</param>
-        <summary>Помечает все элементы в папке как прочтенные.             <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="suppressReadReceipts"><b>значение true</b> , чтобы запретить отправку уведомлений о прочтении для элементов; в противном случае — <b>false</b>.</param>
+        <summary>Помечает все элементы в папке как прочтенные.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAllItemsAsUnread">
@@ -704,13 +660,10 @@
         <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="suppressReadReceipts">
-          <b>значение true,</b> чтобы запретить отправку уведомления о прочтении для элементов; в противном случае — <b>false</b>.</param>
-        <summary>Помечает все элементы в папке как непрочтенные.             <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="suppressReadReceipts"><b>значение true</b> , чтобы запретить отправку уведомлений о прочтении для элементов; в противном случае — <b>false</b>.</param>
+        <summary>Помечает все элементы в папке как непрочтенные.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -731,14 +684,12 @@
         <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки, в которой хотите переместить эту папку.</param>
-        <summary>Перемещает эту папку в указанную папку.</summary>
-        <returns>Новую папку, представляющий эту папку в новом месте.</returns>
-        <remarks>
-          <para>Вызова этого метода приводит к вызову для веб-служб Exchange (EWS).</para>
-          <para>После <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" /> завершается, исходные папка не существует.</para>
-          <para />
-        </remarks>
+        <param name="destinationFolderId">Идентификатор папки, в которую необходимо переместить эту папку.</param>
+        <summary>Перемещает эту папку в определенную папку.</summary>
+        <returns>Новая папка, представляющая эту папку в новом расположении.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para> 
+          <para>По <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" /> завершении исходная папка не существует.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -759,14 +710,12 @@
         <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, в которой хотите переместить эту папку.</param>
+        <param name="destinationFolderName">Имя папки, в которую необходимо переместить эту папку.</param>
         <summary>Перемещает эту папку в указанную папку.</summary>
-        <returns>Новую папку, представляющий эту папку в новом месте.</returns>
-        <remarks>
-          <para>Вызова этого метода приводит к вызову для веб-служб Exchange (EWS).</para>
-          <para>После <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" /> завершается, исходные папка не существует.</para>
-          <para />
-        </remarks>
+        <returns>Новая папка, представляющая эту папку в новом расположении.</returns>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para> 
+          <para>По <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" /> завершении исходная папка не существует.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ParentFolderId">
@@ -784,7 +733,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор родительской папки.</summary>
+        <summary>Получает идентификатор родительской папки данной папки.</summary>
         <value>Значение идентификатора родительской папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -805,11 +754,9 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает список разрешений для папки.</summary>
-        <value>Коллекция, которая содержит список разрешений.</value>
-        <remarks>
-          <para>При настройке Exchange Online, Exchange Online как часть Office 365 и локальной версии Exchange, начиная с Exchange 2013 разрешения папок не возвращаются в <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> набором свойств. Для получения разрешений для папки, добавить <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> свойство, чтобы свойство при привязке к папке.</para>
-          <para />
-        </remarks>
+        <value>Коллекция, включающая список разрешений.</value>
+        <remarks><para>При использовании Exchange Online, Exchange Online в составе Office 365 и локальных версиях Exchange, начиная с Exchange 2013, разрешения для папок не возвращаются в наборе <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> свойств. Чтобы получить разрешения для папки, добавьте <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> свойство к набору свойств при привязке к папке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="PolicyTag">
@@ -827,7 +774,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тег политики.             <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает тег политики.             <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Тег политики папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -849,10 +796,9 @@
         <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
       </Parameters>
       <Docs>
-        <param name="extendedPropertyDefinition">Определение расширенные свойства.</param>
-        <summary>Удаляет расширенному свойству из папки.</summary>
-        <returns>
-          <b>значение true,</b> Если свойство был удален; в противном случае — <b>false</b>.</returns>
+        <param name="extendedPropertyDefinition">Определение расширенного свойства.</param>
+        <summary>Удаляет расширенное свойство из папки.</summary>
+        <returns><b>значение true</b> , если свойство было удалено; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -874,12 +820,10 @@
         <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
       </Parameters>
       <Docs>
-        <param name="parentFolderId">Идентификатор папки, в которой следует сохранить эту папку.</param>
-        <summary>Сохраняет эту папку в указанной папки.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="parentFolderId">Идентификатор папки, в которой необходимо сохранить эту папку.</param>
+        <summary>Сохраняет эту папку в определенной папке.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -900,12 +844,10 @@
         <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
       </Parameters>
       <Docs>
-        <param name="parentFolderName">Имя папки, в которой следует сохранить эту папку.</param>
-        <summary>Сохраняет эту папку в указанной папки.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <param name="parentFolderName">Имя папки, в которой необходимо сохранить эту папку.</param>
+        <summary>Сохраняет эту папку в определенной папке.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetExtendedProperty">
@@ -926,9 +868,9 @@
         <Parameter Name="value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="extendedPropertyDefinition">Определение расширенные свойства.</param>
-        <param name="value">Значение, для которого необходимо задать к расширенному свойству.</param>
-        <summary>Устанавливает для указанного расширенные свойства.</summary>
+        <param name="extendedPropertyDefinition">Определение расширенного свойства.</param>
+        <param name="value">Значение, для которого задается расширенное свойство.</param>
+        <summary>Задает указанное расширенное свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -947,8 +889,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает общее число элементов, содержащихся в папке.</summary>
-        <value>Количество элементов в папке.</value>
+        <summary>Получает общее количество элементов, которые находятся в папке.</summary>
+        <value>Число элементов в папке.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -967,8 +909,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество непрочитанных элементов в папке.</summary>
-        <value>Целочисленное значение, представляющее количество непрочитанных элементов в папке.</value>
+        <summary>Получает число непрочтенных элементов в папке.</summary>
+        <value>Целое значение, представляющее число непрочтенных элементов в папке.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -988,11 +930,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Применяет локальные изменения, внесенные в эту папку.</summary>
-        <remarks>
-          <para>Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</para>
-          <para />
-        </remarks>
+        <summary>Применение локальных изменений, внесенных в эту папку.</summary>
+        <remarks><para>Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="WellKnownFolderName">
@@ -1010,8 +950,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает одно общие имена папок, перечисленных в <see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" /> перечисления.             <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Значение перечисления имя известных папки для этой папки.</value>
+        <summary>Получает одно из имен общих папок, перечисленных в <see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" /> перечислении.             <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение перечисления известных папок для этой папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

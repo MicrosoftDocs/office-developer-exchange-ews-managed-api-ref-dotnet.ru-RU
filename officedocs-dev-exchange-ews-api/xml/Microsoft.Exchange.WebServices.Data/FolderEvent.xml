@@ -1,13 +1,5 @@
 <Type Name="FolderEvent" FullName="Microsoft.Exchange.WebServices.Data.FolderEvent">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d4bea49952eae4173cc461686ae1f0aaf1b4cf75" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626536" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class FolderEvent : Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d4bea49952eae4173cc461686ae1f0aaf1b4cf75" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626536" /></Metadata><TypeSignature Language="C#" Value="public class FolderEvent : Microsoft.Exchange.WebServices.Data.NotificationEvent" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FolderEvent extends Microsoft.Exchange.WebServices.Data.NotificationEvent" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderEvent" />
   <TypeSignature Language="VB.NET" Value="Public Class FolderEvent&#xA;Inherits NotificationEvent" />
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор к папке, которая применяется это событие.</summary>
-        <value>FolderId object, содержащий идентификатор задействованных базах папки.</value>
+        <summary>Получает идентификатор папки, к которой применяется это событие.</summary>
+        <value>Объект FolderId, содержащий идентификатор измененной папки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,12 +52,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор папки, который был перемещен или скопирован.</summary>
-        <value>Объект FolderId, который содержит идентификатор папки, который был перемещен или скопирован.</value>
-        <remarks>
-          <para>OldFolderId имеет смысл, только если EventType равно EventType.Moved или EventType.Copied. Для всех остальных типов событий OldFolderId имеет значение null.</para>
-          <para />
-        </remarks>
+        <summary>Получает идентификатор папки, которая была перемещена или скопирована.</summary>
+        <value>Объект FolderId, содержащий идентификатор папки, которая была перемещена или скопирована.</value>
+        <remarks><para>Олдфолдерид имеет смысл только в том случае, если EventType равен значению EventType. Move или EventType. скопировано. Для всех остальных типов событий Олдфолдерид имеет значение null.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnreadCount">
@@ -83,12 +73,10 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает новый количество непрочитанных сообщений.</summary>
-        <value>Количество непрочитанных элементов в папке как целое число. Свойство может иметь значение null.</value>
-        <remarks>
-          <para>Это имеет смысл только при EventType равен EventType.Modified. Для всех остальных типов событий UnreadCount имеет значение null.</para>
-          <para />
-        </remarks>
+        <summary>Получает новое число непрочитанных сообщений.</summary>
+        <value>Количество непрочтенных элементов в папке в виде целого числа. Свойство может иметь значение null.</value>
+        <remarks><para>Это имеет смысл, только если EventType равен EventType. Modified. Для всех остальных типов событий Унреадкаунт имеет значение null.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

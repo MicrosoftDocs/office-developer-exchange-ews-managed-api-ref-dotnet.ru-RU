@@ -1,13 +1,5 @@
 <Type Name="CalendarResponseMessage&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;TMessage&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="924940ce507f06cc1ba7a5dee215d0fbfdf5538d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626858" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class CalendarResponseMessage&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;TMessage&gt; where TMessage : EmailMessage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="924940ce507f06cc1ba7a5dee215d0fbfdf5538d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626858" /></Metadata><TypeSignature Language="C#" Value="public abstract class CalendarResponseMessage&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;TMessage&gt; where TMessage : EmailMessage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CalendarResponseMessage`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1&lt;!TMessage&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class CalendarResponseMessage(Of TMessage)&#xA;Inherits CalendarResponseMessageBase(Of TMessage)" />
@@ -36,8 +28,8 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <typeparam name="TMessage">Тип сообщения, созданный при сохранении в этом ответное сообщение.</typeparam>
-    <summary>Представляет базовый класс для всех сообщений, связанные с календарем ответа.</summary>
+    <typeparam name="TMessage">Тип сообщения, создаваемого при сохранении ответного сообщения.</typeparam>
+    <summary>Представляет базовый класс для всех ответных сообщений, относящихся к календарю.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,7 +49,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает список вложений для этого ответа.</summary>
-        <value>Список вложений в ответ.</value>
+        <value>Список вложений для ответа.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -76,8 +68,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список получателей, которые этот будет отправлен ответ, в качестве скрытой копии.</summary>
-        <value>Список получателей, которым будет отправлен ответ как скрытой копии.</value>
+        <summary>Получает список получателей, которым будет отправлен этот ответ в качестве скрытой копии.</summary>
+        <value>Список получателей, которым отправляются ответы в скрытом списке получателей.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,8 +88,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает текст в этом ответа.</summary>
-        <value>Основного текста ответа.</value>
+        <summary>Получает или задает основной текст этого ответа.</summary>
+        <value>Текст отклика.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,8 +108,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список получателей, которые этот будет отправлен ответ как «копия».</summary>
-        <value>Список получателей, которым будет отправлен ответ как «копия».</value>
+        <summary>Получает список получателей, которым будет отправлен этот ответ в качестве CC.</summary>
+        <value>Список получателей, которым будет отправлен ответ в качестве CC.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -136,8 +128,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает отправителя этот ответ.</summary>
-        <value>Отправитель ответа.</value>
+        <summary>Получает или задает отправителя этого ответа.</summary>
+        <value>Отправитель отклика.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -156,8 +148,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает уровень конфиденциальности сообщения в этом ответа.</summary>
-        <value>Уровень конфиденциальности сообщения ответа.</value>
+        <summary>Получает или задает чувствительность этого отклика.</summary>
+        <value>Чувствительность отклика.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -176,8 +168,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список получателей, которые будут отправляться в этом ответа.</summary>
-        <value>Список получателей, которым будет отправлен ответ.</value>
+        <summary>Получает список получателей, на который будет отправлен этот ответ.</summary>
+        <value>Список получателей, на который будет отправлен ответ.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

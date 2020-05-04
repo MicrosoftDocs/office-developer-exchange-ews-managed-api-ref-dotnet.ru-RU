@@ -1,13 +1,5 @@
 <Type Name="DelegatePermissions" FullName="Microsoft.Exchange.WebServices.Data.DelegatePermissions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a5cd2fb85bfad7c9345a55f7f4fab914e66dd2f7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627307" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DelegatePermissions : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a5cd2fb85bfad7c9345a55f7f4fab914e66dd2f7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627307" /></Metadata><TypeSignature Language="C#" Value="public sealed class DelegatePermissions : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegatePermissions extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegatePermissions" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegatePermissions&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет разрешения пользователя-делегата.</summary>
+    <summary>Представляет разрешения делегированного пользователя.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает делегат разрешения пользователя в календаре участника.</summary>
-        <value>Одно из значений перечисления DelegateFolderPermissionLevel, которые указывают делегата уровень разрешений для папки календаря участника.</value>
+        <summary>Получает или задает разрешение делегированного пользователя в календаре субъекта.</summary>
+        <value>Одно из значений перечисления Делегатефолдерпермиссионлевел, указывающее уровень разрешений представителя в папке "Календарь" основного приложения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает делегат разрешения пользователя на участника папки «Контакты».</summary>
-        <value>Одно из значений перечисления DelegateFolderPermissionLevel, которые указывают делегата уровня разрешений на папку Контакты участника.</value>
+        <summary>Получает или задает разрешение делегированного пользователя в папку "Контакты" субъекта.</summary>
+        <value>Одно из значений перечисления Делегатефолдерпермиссионлевел, указывающее уровень разрешений представителя в папке "Контакты" субъекта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает делегат разрешения пользователя на участника папки «Входящие».</summary>
-        <value>Одно из значений перечисления DelegateFolderPermissionLevel, которые указывают уровень разрешений делегата участника папки «Входящие».</value>
+        <summary>Получает или задает разрешение делегированного пользователя в папке "Входящие" участника.</summary>
+        <value>Одно из значений перечисления Делегатефолдерпермиссионлевел, указывающее уровень разрешений делегата в папке "Входящие" участника.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,8 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает делегат разрешения пользователя на папку журнала участника.</summary>
-        <value>Одно из значений перечисления DelegateFolderPermissionLevel, которые указывают делегата уровень разрешений для папки журнала участника.</value>
+        <summary>Получает или задает разрешение делегированного пользователя в папке журнала субъекта.</summary>
+        <value>Одно из значений перечисления Делегатефолдерпермиссионлевел, указывающее уровень разрешений представителя в папке журнала субъекта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,8 +112,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает делегат разрешения пользователя на участника папка «заметки».</summary>
-        <value>Одно из значений перечисления DelegateFolderPermissionLevel, которые указывают делегата уровень разрешений для папки заметки участника.</value>
+        <summary>Получает или задает разрешение делегированного пользователя в папку заметок субъекта.</summary>
+        <value>Одно из значений перечисления Делегатефолдерпермиссионлевел, указывающее уровень разрешений представителя в папке заметок субъекта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -140,8 +132,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает делегат разрешения пользователя на папку задач участника.</summary>
-        <value>Одно из значений перечисления DelegateFolderPermissionLevel, которые указывают делегата уровень разрешений для папки задач участника.</value>
+        <summary>Получает или задает разрешение делегированного пользователя в папке "задачи" основного приложения.</summary>
+        <value>Одно из значений перечисления Делегатефолдерпермиссионлевел, указывающее уровень разрешений делегата в папке "задачи" основного приложения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

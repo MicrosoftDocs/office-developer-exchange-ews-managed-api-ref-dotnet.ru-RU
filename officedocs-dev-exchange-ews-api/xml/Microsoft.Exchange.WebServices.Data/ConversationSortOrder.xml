@@ -1,13 +1,5 @@
 <Type Name="ConversationSortOrder" FullName="Microsoft.Exchange.WebServices.Data.ConversationSortOrder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f4edc4124fe2cb829f8cd3b5bc6e3e7f7b357026" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626742" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ConversationSortOrder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f4edc4124fe2cb829f8cd3b5bc6e3e7f7b357026" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626742" /></Metadata><TypeSignature Language="C#" Value="public enum ConversationSortOrder" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationSortOrder extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationSortOrder" />
   <TypeSignature Language="VB.NET" Value="Public Enum ConversationSortOrder" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет порядок, в какую беседу узлов должны возвращаться <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetConversationItems(Microsoft.Exchange.WebServices.Data.ConversationId,Microsoft.Exchange.WebServices.Data.PropertySet,System.String,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.FolderId},System.Nullable{Microsoft.Exchange.WebServices.Data.ConversationSortOrder})" /> метод. <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSortOrder" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет порядок, в котором этот <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetConversationItems(Microsoft.Exchange.WebServices.Data.ConversationId,Microsoft.Exchange.WebServices.Data.PropertySet,System.String,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.FolderId},System.Nullable{Microsoft.Exchange.WebServices.Data.ConversationSortOrder})" /> метод должен возвратить узлы беседы. <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSortOrder" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Порядке на основе последней даты в дереве узлов.             В поле DateOrderAscending используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Хронологический порядок, основанный на последней дате в дереве узлов.             Поле Датеордерасцендинг применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="DateOrderDescending">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Обратном порядке на основе последней даты в дереве узлов.             В поле DateOrderDescending используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Обратный хронологический порядок на основе последней даты в дереве узлов.             Поле Датеордердесцендинг применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TreeOrderAscending">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Дерево происходит по возрастанию основанным на расположение в дереве узлов.             В поле TreeOrderAscending используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Порядок дерева располагается по возрастанию на основе положения в дереве узлов.             Поле Триордерасцендинг применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="TreeOrderDescending">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Дерево по убыванию основанным на расположение в дереве узлов.             В поле TreeOrderDescending используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Порядок дерева располагается по убыванию в зависимости от положения в дереве узлов.             Поле Триордердесцендинг применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

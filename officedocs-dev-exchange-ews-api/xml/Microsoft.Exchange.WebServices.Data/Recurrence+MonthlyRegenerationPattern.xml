@@ -1,13 +1,5 @@
 <Type Name="Recurrence+MonthlyRegenerationPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+MonthlyRegenerationPattern">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="00cf759e5d4a49a2a83e20f80bffc7426b72bb50" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626906" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Recurrence.MonthlyRegenerationPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="00cf759e5d4a49a2a83e20f80bffc7426b72bb50" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626906" /></Metadata><TypeSignature Language="C#" Value="public sealed class Recurrence.MonthlyRegenerationPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/MonthlyRegenerationPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.MonthlyRegenerationPattern&#xA;Inherits Recurrence.IntervalPattern" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет шаблон повторного создания, как использовать совместно с повторяющихся задач, где происходит указанное число месяцев после выполнения предыдущего каждого повтора.</summary>
+    <summary>Представляет шаблон восстановления, используемый с повторяющимися задачами, где каждое из них выполняется через заданное число месяцев после завершения предыдущего.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern.</summary>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Монслиреженератионпаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -59,8 +51,8 @@
       </Parameters>
       <Docs>
         <param name="startDate">Дата и время начала повторения.</param>
-        <param name="interval">Число месяцев между предыдущей и следующей вхождений.</param>
-        <summary>Инициализирует новый экземпляр класса Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern.</summary>
+        <param name="interval">Число месяцев между предыдущим и следующим повторениями.</param>
+        <summary>Инициализирует новый экземпляр класса Microsoft. Exchange. WebServices. Data. повторяющуюся. Монслиреженератионпаттерн.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

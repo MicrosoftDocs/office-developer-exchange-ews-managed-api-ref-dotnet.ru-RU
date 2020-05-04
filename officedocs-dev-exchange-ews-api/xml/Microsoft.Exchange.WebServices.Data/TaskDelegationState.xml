@@ -1,13 +1,5 @@
 <Type Name="TaskDelegationState" FullName="Microsoft.Exchange.WebServices.Data.TaskDelegationState">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8906d1a2852c2f14ed23d132179452d319b7a627" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627324" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum TaskDelegationState" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8906d1a2852c2f14ed23d132179452d319b7a627" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627324" /></Metadata><TypeSignature Language="C#" Value="public enum TaskDelegationState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TaskDelegationState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TaskDelegationState" />
   <TypeSignature Language="VB.NET" Value="Public Enum TaskDelegationState" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет состояние делегирование задачи.</summary>
+    <summary>Определяет состояние делегирования задачи.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Делегирование задачи и делегирование был принят.</summary>
+        <summary>Задача была делегирована, а делегирование было принято.</summary>
       </Docs>
     </Member>
     <Member MemberName="Declined">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Делегирование задачи, но было отклонено делегирование.</summary>
+        <summary>Задача была делегирована, но делегирование было отклонено.</summary>
       </Docs>
     </Member>
     <Member MemberName="NoDelegation">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Задачи не делегированы</summary>
+        <summary>Задача не делегирована</summary>
       </Docs>
     </Member>
     <Member MemberName="Unknown">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Делегирование задач состояние неизвестно.</summary>
+        <summary>Неизвестное состояние делегирования задачи.</summary>
       </Docs>
     </Member>
   </Members>

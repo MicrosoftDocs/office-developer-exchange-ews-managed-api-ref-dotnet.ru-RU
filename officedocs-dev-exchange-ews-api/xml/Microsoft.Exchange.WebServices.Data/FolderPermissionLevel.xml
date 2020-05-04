@@ -1,13 +1,5 @@
 <Type Name="FolderPermissionLevel" FullName="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="68457723349c04d90f4627f07024a3ac1596241d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626779" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FolderPermissionLevel" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="68457723349c04d90f4627f07024a3ac1596241d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626779" /></Metadata><TypeSignature Language="C#" Value="public enum FolderPermissionLevel" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FolderPermissionLevel extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
   <TypeSignature Language="VB.NET" Value="Public Enum FolderPermissionLevel" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает уровни разрешений для папки календаря.</summary>
+    <summary>Определяет уровни разрешений для папок календаря.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Уровень участника.</summary>
+        <summary>Уровень корреспондента.</summary>
       </Docs>
     </Member>
     <Member MemberName="Custom">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Другой.</summary>
+        <summary>Настраиваемый уровень.</summary>
       </Docs>
     </Member>
     <Member MemberName="Editor">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Уровень редактор.</summary>
+        <summary>Уровень редактора.</summary>
       </Docs>
     </Member>
     <Member MemberName="FreeBusyTimeAndSubjectAndLocation">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Уровень доступности время, тему и местоположение. (Может применяться только к папкам календаря).</summary>
+        <summary>Сведения о времени занятости, теме и местоположении. (Можно применять только к папкам календаря).</summary>
       </Docs>
     </Member>
     <Member MemberName="FreeBusyTimeOnly">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Уровень доступности только время. (Может применяться только к папкам календаря).</summary>
+        <summary>Уровень доступности "только время и время занятости". (Можно применять только к папкам календаря).</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Разрешения не предоставлены.</summary>
+        <summary>Разрешение не предоставляется.</summary>
       </Docs>
     </Member>
     <Member MemberName="NoneditingAuthor">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Уровень редактирования не автора.</summary>
+        <summary>Уровень создателя, не относящийся к редактированию.</summary>
       </Docs>
     </Member>
     <Member MemberName="Owner">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Уровень публикации автора.</summary>
+        <summary>Уровень автора публикации.</summary>
       </Docs>
     </Member>
     <Member MemberName="PublishingEditor">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Уровень публикации редактора.</summary>
+        <summary>Уровень редактора публикации.</summary>
       </Docs>
     </Member>
     <Member MemberName="Reviewer">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Уровень редактор.</summary>
+        <summary>Уровень проверяющего.</summary>
       </Docs>
     </Member>
   </Members>

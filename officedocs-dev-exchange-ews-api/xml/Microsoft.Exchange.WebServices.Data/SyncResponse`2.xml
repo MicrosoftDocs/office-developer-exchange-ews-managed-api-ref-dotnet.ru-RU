@@ -1,13 +1,5 @@
 <Type Name="SyncResponse&lt;TServiceObject,TChange&gt;" FullName="Microsoft.Exchange.WebServices.Data.SyncResponse&lt;TServiceObject,TChange&gt;">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f00cc59acc2ce63d588af76028da362e3b3a3611" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626946" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class SyncResponse&lt;TServiceObject,TChange&gt; : Microsoft.Exchange.WebServices.Data.ServiceResponse where TServiceObject : ServiceObject where TChange : Change" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f00cc59acc2ce63d588af76028da362e3b3a3611" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626946" /></Metadata><TypeSignature Language="C#" Value="public abstract class SyncResponse&lt;TServiceObject,TChange&gt; : Microsoft.Exchange.WebServices.Data.ServiceResponse where TServiceObject : ServiceObject where TChange : Change" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit SyncResponse`2&lt;(class Microsoft.Exchange.WebServices.Data.ServiceObject) TServiceObject, (class Microsoft.Exchange.WebServices.Data.Change) TChange&gt; extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SyncResponse`2" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class SyncResponse(Of TServiceObject, TChange)&#xA;Inherits ServiceResponse" />
@@ -40,7 +32,7 @@
   <Docs>
     <typeparam name="TServiceObject">Тип объекта службы.</typeparam>
     <typeparam name="TChange">Тип изменения.</typeparam>
-    <summary>Представляет ответа базовый класс для операции синхронизации.</summary>
+    <summary>Представляет базовый класс ответа для операций синхронизации.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,8 +51,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ChangeCollection&lt;TChange&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список изменения, которые произошли на папку синхронизированной.</summary>
-        <value>Коллекция изменения, которые произошли на папку синхронизированной.</value>
+        <summary>Получает список изменений, произошедших в папке SYNCHRONIZED.</summary>
+        <value>Коллекция изменений, произошедших в синхронизированной папке.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

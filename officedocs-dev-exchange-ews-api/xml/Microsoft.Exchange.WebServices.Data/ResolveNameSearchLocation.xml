@@ -1,13 +1,5 @@
 <Type Name="ResolveNameSearchLocation" FullName="Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="20acc441207dc382e268e47a22a29df6705866f0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626562" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ResolveNameSearchLocation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="20acc441207dc382e268e47a22a29df6705866f0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626562" /></Metadata><TypeSignature Language="C#" Value="public enum ResolveNameSearchLocation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResolveNameSearchLocation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation" />
   <TypeSignature Language="VB.NET" Value="Public Enum ResolveNameSearchLocation" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет константы, которые определяют расположение, где операции решение неоднозначное имя выполняет поиск контактов.</summary>
+    <summary>Задает константы, определяющие расположение, в котором операция разрешения неоднозначных имен ищет контакты.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Имя указывается относительно элементов контактов в папке «Контакты».</summary>
+        <summary>Имя разрешается для элементов контактов в папке "Контакты".</summary>
       </Docs>
     </Member>
     <Member MemberName="ContactsThenDirectory">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Имя разрешить с элементами контактов в папке «Контакты», а затем от глобального списка адресов, если не найден.</summary>
+        <summary>Имя разрешается для элементов контактов в папке "Контакты", а затем в глобальном списке адресов, если совпадения не найдены.</summary>
       </Docs>
     </Member>
     <Member MemberName="DirectoryOnly">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Имя разрешения от глобального списка адресов (GAL).</summary>
+        <summary>Имя разрешается в глобальном списке адресов (GAL).</summary>
       </Docs>
     </Member>
     <Member MemberName="DirectoryThenContacts">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Имя разрешения от глобального списка адресов, а затем к папке «Контакты», если не найден.</summary>
+        <summary>Имя разрешается в глобальном списке адресов, а затем в папке "Контакты", если соответствие не найдено.</summary>
       </Docs>
     </Member>
   </Members>

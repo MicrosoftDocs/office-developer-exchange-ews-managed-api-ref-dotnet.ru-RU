@@ -1,13 +1,5 @@
 <Type Name="TokenExpiredException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.TokenExpiredException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1a15e206def66f1ef7d9a3e626daaa6601758355" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627342" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class TokenExpiredException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1a15e206def66f1ef7d9a3e626daaa6601758355" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627342" /></Metadata><TypeSignature Language="C#" Value="public class TokenExpiredException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TokenExpiredException extends Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenExpiredException" />
   <TypeSignature Language="VB.NET" Value="Public Class TokenExpiredException&#xA;Inherits TokenValidationException" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит исключение, порождаемое, если истек срок действия маркера удостоверения клиента. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenExpiredException" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит исключение, которое выдается при истечении срока действия маркера удостоверения клиента. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenExpiredException" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">Сообщение с описанием исключения.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenExpiredException" /> класс с заданным сообщением об ошибке. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenExpiredException.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="message">Сообщение, описывающее исключение.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenExpiredException" /> класса с указанным сообщением с описанием ошибки. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenExpiredException.#ctor(System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

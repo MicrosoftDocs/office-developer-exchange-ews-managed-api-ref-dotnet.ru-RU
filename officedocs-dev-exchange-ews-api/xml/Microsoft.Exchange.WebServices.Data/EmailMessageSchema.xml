@@ -1,13 +1,5 @@
 <Type Name="EmailMessageSchema" FullName="Microsoft.Exchange.WebServices.Data.EmailMessageSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fc25aec52cfe0ba8c659efe4413893b920299bab" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627118" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class EmailMessageSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fc25aec52cfe0ba8c659efe4413893b920299bab" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627118" /></Metadata><TypeSignature Language="C#" Value="public class EmailMessageSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailMessageSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" />
   <TypeSignature Language="VB.NET" Value="Public Class EmailMessageSchema&#xA;Inherits ItemSchema" />
@@ -21,11 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет схему для сообщений электронной почты.</summary>
-    <remarks>
-      <para>Это перечисление содержит список свойств, которые можно использовать в <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessage" /> объекта.</para>
-      <para />
-    </remarks>
+    <summary>Представляет схему сообщений электронной почты.</summary>
+    <remarks><para>Это перечисление содержит список свойств, доступных для <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessage" /> объекта.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="ApprovalRequestData">
@@ -43,7 +33,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ApprovalRequestData" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ApprovalRequestData" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -62,7 +52,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.BccRecipients" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.BccRecipients" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,7 +71,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.CcRecipients" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.CcRecipients" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,7 +90,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationIndex" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationIndex" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,7 +109,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationTopic" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationTopic" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -138,7 +128,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,7 +147,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.InternetMessageId" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.InternetMessageId" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -176,7 +166,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsDeliveryReceiptRequested" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsDeliveryReceiptRequested" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -195,7 +185,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsRead" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsRead" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -214,7 +204,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsReadReceiptRequested" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsReadReceiptRequested" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,7 +223,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsResponseRequested" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsResponseRequested" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -252,7 +242,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -271,7 +261,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -290,7 +280,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.References" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.References" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -309,7 +299,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReplyTo" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReplyTo" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -328,7 +318,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.Sender" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.Sender" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -347,7 +337,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ToRecipients" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ToRecipients" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -366,7 +356,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Идентифицирует <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.VotingInformation" /> свойство.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.VotingInformation" /> свойство.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

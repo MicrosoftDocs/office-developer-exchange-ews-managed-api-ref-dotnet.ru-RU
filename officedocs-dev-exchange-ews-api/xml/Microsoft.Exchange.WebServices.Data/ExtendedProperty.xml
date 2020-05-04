@@ -1,13 +1,5 @@
 <Type Name="ExtendedProperty" FullName="Microsoft.Exchange.WebServices.Data.ExtendedProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="44ff95dce44d2b4d952850891e06e82d2ec90ffa" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627297" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ExtendedProperty : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="44ff95dce44d2b4d952850891e06e82d2ec90ffa" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627297" /></Metadata><TypeSignature Language="C#" Value="public sealed class ExtendedProperty : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExtendedProperty extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtendedProperty" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExtendedProperty&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет расширенные свойства.</summary>
+    <summary>Представляет расширенное свойство.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,10 +35,9 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">Объект для сравнения с к расширенному свойству.</param>
-        <summary>Указывает, является ли расширенные свойства указанного объекта.</summary>
-        <returns>
-          <b>значение true,</b> Если указанный объект равен расширенные свойства; в противном случае — <b>false</b>.</returns>
+        <param name="obj">Объект, сравниваемый с расширенным свойством.</param>
+        <summary>Указывает, равно ли расширенное свойство указанному объекту.</summary>
+        <returns><b>значение true</b> , если указанный объект равен расширенному свойству; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,11 +58,9 @@
       <Parameters />
       <Docs>
         <summary>Возвращает хэш-код для объекта ExtendedProperty.</summary>
-        <returns>Значение, указывающее, хэш-код для значения расширенные свойства.</returns>
-        <remarks>
-          <para>Хэш-код — это числовое значение, используемое для идентификации объекта во время проверки равенства. Он также могут работать как индекса для объекта в коллекцию.</para>
-          <para />
-        </remarks>
+        <returns>Значение, которое указывает хэш-код для значения расширенного свойства.</returns>
+        <remarks><para>Хэш-код это числовое значение, используемое для идентификации объекта во время проверки на равенство. Он также может служить в качестве индекса для объекта в коллекции.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyDefinition">
@@ -90,7 +79,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает определение расширенного свойства.</summary>
-        <value>Определение расширенные свойства.</value>
+        <value>Определение расширенного свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -109,7 +98,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение расширенные свойства.</summary>
+        <summary>Получает или задает значение расширенного свойства.</summary>
         <value>Значение расширенного свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>

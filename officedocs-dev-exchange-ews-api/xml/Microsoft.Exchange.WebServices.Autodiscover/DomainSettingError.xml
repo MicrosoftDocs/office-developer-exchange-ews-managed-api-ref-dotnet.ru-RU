@@ -1,13 +1,5 @@
 <Type Name="DomainSettingError" FullName="Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="06371306bd3a29cf40d17dc2ea1ed97f58a09d29" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627146" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class DomainSettingError" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06371306bd3a29cf40d17dc2ea1ed97f58a09d29" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627146" /></Metadata><TypeSignature Language="C#" Value="public sealed class DomainSettingError" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DomainSettingError extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DomainSettingError" />
@@ -21,12 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ошибку из GetDomainSettings запроса.</summary>
-    <remarks>
-      <para>
-        <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError" /> Класс содержит сведения об ошибках, возвращаемые <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings(System.String,System.Nullable{Microsoft.Exchange.WebServices.Data.ExchangeVersion},Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[])" /> метод.</para>
-      <para />
-    </remarks>
+    <summary>Представляет ошибку в запросе Жетдомаинсеттингс.</summary>
+    <remarks><para><see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError" /> Класс содержит сведения об ошибках, возвращаемых <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings(System.String,System.Nullable{Microsoft.Exchange.WebServices.Data.ExchangeVersion},Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[])" /> методом.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="ErrorCode">
@@ -44,8 +33,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает код ошибки, который возвращается в запросе.</summary>
-        <value>Одно из значений перечисления, определяющее ошибка запроса.</value>
+        <summary>Получает код ошибки, возвращенный запросом.</summary>
+        <value>Одно из значений перечисления, задающее ошибку запроса.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -64,7 +53,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сообщение об ошибке, связанный с доменом, задав ошибку.</summary>
+        <summary>Получает сообщение об ошибке, связанное с ошибкой параметра домена.</summary>
         <value>Сообщение об ошибке.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,8 +73,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя параметра домена, вызвавшей ошибку.</summary>
-        <value>Имя удаляемого параметра домена, вызвавшей ошибку.</value>
+        <summary>Получает имя параметра домена, вызвавшего ошибку.</summary>
+        <value>Имя параметра домена, вызвавшего ошибку.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

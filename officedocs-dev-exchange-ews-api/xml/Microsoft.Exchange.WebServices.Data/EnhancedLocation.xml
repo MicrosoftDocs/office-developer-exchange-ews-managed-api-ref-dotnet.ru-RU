@@ -1,13 +1,5 @@
 <Type Name="EnhancedLocation" FullName="Microsoft.Exchange.WebServices.Data.EnhancedLocation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a528f95fe26d1d44daf95c5a2f033dd34824d958" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626731" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class EnhancedLocation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a528f95fe26d1d44daf95c5a2f033dd34824d958" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626731" /></Metadata><TypeSignature Language="C#" Value="public sealed class EnhancedLocation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EnhancedLocation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EnhancedLocation&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения о расположении расширенные для элемента календаря.             <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит расширенные сведения о расположении элемента календаря.             <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -41,7 +33,7 @@
       </Parameters>
       <Docs>
         <param name="displayName">Отображаемое имя расположения.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> класс с помощью отображаемого имени.             <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> класса с помощью предоставленного отображаемого имени.             <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -62,8 +54,8 @@
       </Parameters>
       <Docs>
         <param name="displayName">Отображаемое имя расположения.</param>
-        <param name="annotation">Заметка на расположение.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> класс с помощью элемента Примечание отображаемого имени и календаря. <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="annotation">Заметка в расположении.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> класса с помощью предоставленного отображаемого имени и заметки элемента календаря. <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,9 +76,9 @@
       </Parameters>
       <Docs>
         <param name="displayName">Отображаемое имя расположения.</param>
-        <param name="annotation">Заметка на расположение.</param>
+        <param name="annotation">Заметка в расположении.</param>
         <param name="personaPostalAddress">Почтовый адрес пользователя.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> класс с помощью отображаемого имени, элемента календаря, записи и почтовый адрес пользователя.  <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String,Microsoft.Exchange.WebServices.Data.PersonaPostalAddress)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> класса с помощью предоставленного отображаемого имени, заметки элемента календаря и почтового адреса персонажа.  <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String,Microsoft.Exchange.WebServices.Data.PersonaPostalAddress)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,7 +97,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает примечание, связанный с элементом календарь.             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.Annotation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает заметку, связанную с элементом календаря.             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.Annotation" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Заметка расположения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -125,7 +117,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает отображаемое имя, связанное с элементом календарь.             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.DisplayName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает отображаемое имя, связанное с элементом календаря.             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.DisplayName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Отображаемое имя расположения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,7 +137,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PersonaPostalAddress</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает почтовый адрес для связанного пользователя.             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.PersonaPostalAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает почтовый адрес связанного пользователя.             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.PersonaPostalAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Почтовый адрес пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>

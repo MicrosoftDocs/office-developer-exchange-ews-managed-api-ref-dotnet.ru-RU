@@ -1,13 +1,5 @@
 <Type Name="AutodiscoverResponseException" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8ee886a808712a6c1415b8094b9475ba6f3d375f" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627206" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class AutodiscoverResponseException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8ee886a808712a6c1415b8094b9475ba6f3d375f" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627206" /></Metadata><TypeSignature Language="C#" Value="public class AutodiscoverResponseException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AutodiscoverResponseException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseException" />
   <TypeSignature Language="VB.NET" Value="Public Class AutodiscoverResponseException&#xA;Inherits ServiceRemoteException" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет исключение, порождаемое ответа об ошибках, службы автообнаружения.</summary>
+    <summary>Представляет исключение, возникающее при отклике службы автообнаружения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,12 +32,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает код ошибки для исключения.</summary>
-        <value>Одно из значений перечисления, которые представляют код ошибки.</value>
-        <remarks>
-          <para>Код ошибки представляет ошибку, который возвращается службой автообнаружения.</para>
-          <para />
-        </remarks>
+        <summary>Получает код ошибки для исключения.</summary>
+        <value>Одно из значений перечисления, представляющее код ошибки.</value>
+        <remarks><para>Код ошибки представляет ошибку, возвращаемую службой автообнаружения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="GetNonIndexableItemDetailsParameters" FullName="Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1c0d67a194fd14157b033934df3c737e487a83af" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627224" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemDetailsParameters : Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1c0d67a194fd14157b033934df3c737e487a83af" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627224" /></Metadata><TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemDetailsParameters : Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetNonIndexableItemDetailsParameters extends Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetNonIndexableItemDetailsParameters&#xA;Inherits NonIndexableItemParameters" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Получает или задает параметры для передачи в <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> запроса.    <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Получает набор параметров, передаваемых в <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> запросе.    <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Создает экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Создает экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.SearchPageDirection&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает направление поиска для страницы представления (вперед или назад). <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageDirection" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Значение, указывающее, направления разбиения по страницам.</value>
+        <summary>Получает или задает направление поиска для представления страницы (вперед или назад). <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageDirection" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение, указывающее направление разбиения на страницы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,7 +69,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор ссылку на просмотр страницы.          <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageItemReference" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор ссылки для представления страницы.          <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageItemReference" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор ссылки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -97,8 +89,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает размер страницы представления.         <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageSize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Размер страницы представления.</value>
+        <summary>Получает или задает размер представления страницы.         <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageSize" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Размер представления страницы.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

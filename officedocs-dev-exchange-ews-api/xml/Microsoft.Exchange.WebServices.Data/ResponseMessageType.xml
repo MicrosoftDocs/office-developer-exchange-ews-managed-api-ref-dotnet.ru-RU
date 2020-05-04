@@ -1,13 +1,5 @@
 <Type Name="ResponseMessageType" FullName="Microsoft.Exchange.WebServices.Data.ResponseMessageType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3c94456005196969dd7a1ca895f770ae9dd40b80" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626585" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ResponseMessageType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3c94456005196969dd7a1ca895f770ae9dd40b80" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626585" /></Metadata><TypeSignature Language="C#" Value="public enum ResponseMessageType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResponseMessageType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseMessageType" />
   <TypeSignature Language="VB.NET" Value="Public Enum ResponseMessageType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает тип объекта ResponseMessage.</summary>
+    <summary>Определяет тип объекта Респонсемессаже.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>ResponseMessage — это прямого.</summary>
+        <summary>Респонсемессаже является переадресованным.</summary>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>ResponseMessage — это ответ на отправителя сообщения.</summary>
+        <summary>Респонсемессаже — ответ отправителю сообщения.</summary>
       </Docs>
     </Member>
     <Member MemberName="ReplyAll">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>ResponseMessage — это ответ на отправителя и всех получателей сообщения.</summary>
+        <summary>Респонсемессаже — ответ отправителю и всем получателям сообщения.</summary>
       </Docs>
     </Member>
   </Members>

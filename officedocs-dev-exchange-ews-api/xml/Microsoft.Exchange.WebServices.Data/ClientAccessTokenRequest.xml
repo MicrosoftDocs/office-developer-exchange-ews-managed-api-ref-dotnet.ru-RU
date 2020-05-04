@@ -1,13 +1,5 @@
 <Type Name="ClientAccessTokenRequest" FullName="Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d6a9c75d2376c2efff9b0b153a9e3a59168f5afa" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627128" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ClientAccessTokenRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6a9c75d2376c2efff9b0b153a9e3a59168f5afa" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627128" /></Metadata><TypeSignature Language="C#" Value="public class ClientAccessTokenRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClientAccessTokenRequest extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" />
   <TypeSignature Language="VB.NET" Value="Public Class ClientAccessTokenRequest&#xA;Inherits ComplexProperty" />
@@ -21,12 +13,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет запрос маркера доступа клиента для почтового приложения для Outlook.The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-    <remarks>
-      <para>
-        <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> Класс используется с <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetClientAccessToken(Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest[])" /> метод для запроса маркеров доступа клиента для почтовых приложений для Outlook.</para>
-      <para />
-    </remarks>
+    <summary>Представляет запрос на доступ маркера клиента для почтового приложения для Outlook. <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> этот класс применяется для клиентов, обращающихся к Exchange Online и версиям Exchange, начиная с exchange Server 2013.</summary>
+    <remarks><para><see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> Класс используется с <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetClientAccessToken(Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest[])" /> методом для запроса маркеров клиентского доступа для почтовых приложений для Outlook.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -45,9 +34,9 @@
         <Parameter Name="tokenType" Type="Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" />
       </Parameters>
       <Docs>
-        <param name="id">Идентификатор приложения для приложения, запрашивающего маркера доступа клиента.</param>
+        <param name="id">Идентификатор приложения, запрашивающего маркер клиентского доступа.</param>
         <param name="tokenType">Запрошенный тип маркера.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класс с идентификатором приложения и тип маркера.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класса с идентификатором приложения и типом токена.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,10 +57,10 @@
         <Parameter Name="scope" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="id">Идентификатор приложения для приложения, запрашивающего маркера доступа клиента.</param>
+        <param name="id">Идентификатор приложения, запрашивающего маркер клиентского доступа.</param>
         <param name="tokenType">Запрошенный тип маркера.</param>
-        <param name="scope">Область действия маркера доступа запрошенного клиента. Этот параметр применяется, только если значение <paramref name="tokenType" /><b>ClientAccessTokenType.ScopedToken</b>— это параметр.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класс с идентификатором приложения, тип маркера и области.</summary>
+        <param name="scope">Область запрошенного маркера клиентского доступа. Этот параметр применяется только в том случае, если для <paramref name="tokenType" /> параметра задано значение <b>клиентакцесстокентипе. скопедтокен</b>.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> класса с идентификатором приложения, типом токена и областью.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,7 +79,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор приложения, связанные с запрос маркера доступа клиентов.</summary>
+        <summary>Получает идентификатор приложения, связанный с запросом маркера клиентского доступа.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,7 +99,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает запрошенные маркеров область, связанные с запрос маркера доступа клиентов.</summary>
+        <summary>Получает запрошенную область токенов, связанную с запросом маркера клиентского доступа.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,7 +119,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип запрошенного маркеров, связанных с запрос маркера доступа клиентов.</summary>
+        <summary>Получает запрошенный тип маркера, связанный с запросом маркера клиентского доступа.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

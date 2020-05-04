@@ -1,13 +1,5 @@
 <Type Name="AttendeeAvailability" FullName="Microsoft.Exchange.WebServices.Data.AttendeeAvailability">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="65b4c6115a40a5e1faa1cf1c528295d8fa88b122" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626878" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AttendeeAvailability : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="65b4c6115a40a5e1faa1cf1c528295d8fa88b122" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626878" /></Metadata><TypeSignature Language="C#" Value="public sealed class AttendeeAvailability : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttendeeAvailability extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttendeeAvailability" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttendeeAvailability&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Доступность отдельных участников.</summary>
+    <summary>Доступность отдельного участника.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.CalendarEvent&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию событий календаря для участника.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.CalendarEvents" /> — это свойство <a href="http://go.microsoft.com/fwlink/?LinkId=162659">T:System.Collections.ObjectModel.Collection "1</a></value>
+        <summary>Возвращает коллекцию событий календаря для участника.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.CalendarEvents" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkId=162659">т:систем.коллектионс.обжектмодел.коллектион ' 1</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию элементов состояния занятости для участника.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.MergedFreeBusyStatus" /> — это свойство <a href="http://go.microsoft.com/fwlink/?LinkId=162659">T:System.Collections.ObjectModel.Collection "1</a></value>
+        <summary>Получает коллекцию элементов состояния занятости участника.</summary>
+        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.MergedFreeBusyStatus" /> свойства — <a href="http://go.microsoft.com/fwlink/?LinkId=162659">т:систем.коллектионс.обжектмодел.коллектион ' 1</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип представления сведений о доступности, полученной для участника.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.ViewType" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> объекта.</value>
+        <summary>Получает тип представления сведений о занятости, который извлекается для участника.</summary>
+        <value>Значением <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.ViewType" /> свойства является <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> объект.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,8 +92,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.WorkingHours</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает рабочие часы для участника.</summary>
-        <value>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.WorkingHours" /> — это свойство <see cref="T:Microsoft.Exchange.WebServices.Data.WorkingHours" /> объекта.</value>
+        <summary>Получает рабочие часы участника.</summary>
+        <value>Значением <see cref="P:Microsoft.Exchange.WebServices.Data.AttendeeAvailability.WorkingHours" /> свойства является <see cref="T:Microsoft.Exchange.WebServices.Data.WorkingHours" /> объект.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

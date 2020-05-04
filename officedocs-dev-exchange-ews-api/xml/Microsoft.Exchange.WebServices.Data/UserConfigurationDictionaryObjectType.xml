@@ -1,13 +1,5 @@
 <Type Name="UserConfigurationDictionaryObjectType" FullName="Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f78993777954b6726d5070bfe71247ac7ad1d1b5" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627429" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum UserConfigurationDictionaryObjectType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f78993777954b6726d5070bfe71247ac7ad1d1b5" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627429" /></Metadata><TypeSignature Language="C#" Value="public enum UserConfigurationDictionaryObjectType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UserConfigurationDictionaryObjectType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType" />
   <TypeSignature Language="VB.NET" Value="Public Enum UserConfigurationDictionaryObjectType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет конфигурацию словаря ключей и значений введенных пользователем.</summary>
+    <summary>Определяет ключ и типы значений словаря конфигурации пользователя.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Тип byte.</summary>
+        <summary>Тип Byte.</summary>
       </Docs>
     </Member>
     <Member MemberName="ByteArray">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Тип даты и времени.</summary>
+        <summary>Тип DateTime.</summary>
       </Docs>
     </Member>
     <Member MemberName="Integer32">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>32-разрядное целое число типа.</summary>
+        <summary>32 — разрядный тип целого числа.</summary>
       </Docs>
     </Member>
     <Member MemberName="Integer64">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>64-разрядное целое число типа.</summary>
+        <summary>64 — разрядный тип целого числа.</summary>
       </Docs>
     </Member>
     <Member MemberName="String">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Тип данных string.</summary>
+        <summary>Строковый тип.</summary>
       </Docs>
     </Member>
     <Member MemberName="StringArray">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Строковый тип массива.</summary>
+        <summary>Тип массива строк.</summary>
       </Docs>
     </Member>
     <Member MemberName="UnsignedInteger32">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>32-разрядное целое число типа.</summary>
+        <summary>32 — разрядный целочисленный тип без знака.</summary>
       </Docs>
     </Member>
     <Member MemberName="UnsignedInteger64">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>64-разрядное целое число типа.</summary>
+        <summary>64 — разрядный целочисленный тип без знака.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="ExchangeServiceBase" FullName="Microsoft.Exchange.WebServices.Data.ExchangeServiceBase">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="63d0d68023245176fa907a3b57644b570a105ebe" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626892" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ExchangeServiceBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="63d0d68023245176fa907a3b57644b570a105ebe" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626892" /></Metadata><TypeSignature Language="C#" Value="public abstract class ExchangeServiceBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExchangeServiceBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExchangeServiceBase" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет абстрактный привязку к службе Exchange.</summary>
+    <summary>Представляет абстрактную привязку к службе Exchange.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,13 +32,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, должны быть приняты кодирования сжатия GZip.</summary>
-        <value>
-          <b>значение true,</b> Если кодирования сжатия GZip должны приниматься; в противном случае — <b>false</b>.</value>
-        <remarks>
-          <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" /> значение свойства указывает на сервер ли клиент может обрабатывать кодирования сжатия GZip. Сервер будет отправлять сжатия GZip контент только в том случае, если он был настроен для этого.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает значение, указывающее, следует ли принимать кодирование сжатия GZip.</summary>
+        <value><b>значение true</b> , если кодировка сжатия Gzip должна быть принята; в противном случае — <b>false</b>.</value>
+        <remarks><para>Задание значения <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" /> свойства указывает серверу, может ли клиент обрабатывать кодирование сжатия Gzip. Сервер будет отправлять только сжатое содержимое GZip, если оно было настроено.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClientRequestId">
@@ -64,8 +53,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает код запроса.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Код запроса.</value>
+        <summary>Получает или задает идентификатор запроса.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор запроса.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,8 +73,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя группы подключения для запроса.              <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Имя группы подключений.</value>
+        <summary>Получает или задает имя группы подключения для запроса.              <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Имя группы подключения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,8 +93,8 @@
         <ReturnType>System.Net.CookieContainer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает контейнер файл cookie.</summary>
-        <value>A <see cref="T:System.Net.CookieContainer" /> объекта.</value>
+        <summary>Получает или задает контейнер файлов cookie.</summary>
+        <value>Объект <see cref="T:System.Net.CookieContainer" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,13 +114,11 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает учетные данные, используемые для проверки подлинности с помощью веб-служб Exchange (EWS).</summary>
-        <value>Учетные данные, используемые для проверки подлинности для веб-служб Exchange.</value>
-        <remarks>
-          <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> автоматически устанавливает свойство <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> значение <b>false</b>.</para>
-          <para>
-            <b>Осторожность</b>: не следует изменять <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство после <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект привязан к веб-службе. Изменение учетных данных приводят к сбою последующих операций веб-службы. Чтобы изменить <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство на <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объектов, необходимо создать новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта с использованием учетных данных, которые будут. Нельзя использовать учетные данные пользователя, вошедшего в систему, если почтовый ящик пользователя размещается в Exchange Online или Exchange Online в составе Office 365. Учетные данные пользователя должен быть в пользовательской формы имя участника (UPN) для Exchange Online.</para>
-          <para />
-        </remarks>
+        <value>Учетные данные, используемые для проверки подлинности с помощью EWS.</value>
+        <remarks><para>При установке <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойства для <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> свойства автоматически задается <b>значение false</b>.</para> 
+          <para> 
+            <b>Внимание!</b>Будьте внимательны: не изменяйте <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> после привязки объекта к веб-службе. Изменение учетных данных приведет к сбою последующих операций веб-службы. Чтобы изменить <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта, необходимо создать новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта с нужными учетными данными. Вы не можете использовать учетные данные пользователя, выполнившего вход в систему, если почтовый ящик пользователя размещен в Exchange Online или Exchange Online в составе Office 365. Учетные данные пользователя должны быть указаны в форме имени участника-пользователя (UPN) для Exchange Online.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="HttpHeaders">
@@ -149,8 +136,8 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список заголовки HTTP, связанные с запросами для веб-служб Exchange (EWS).</summary>
-        <value>Список HTTP-заголовков, связанные с запросами, организованы в виде пар "ключ значение".</value>
+        <summary>Получает список заголовков HTTP, связанных с запросами к веб-службам Exchange (EWS).</summary>
+        <value>Список HTTP-заголовков, связанных с запросами, организованных в виде пар "ключ-значение".</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -169,8 +156,8 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию заголовки HTTP от последнего ответа.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Коллекция заголовки HTTP.</value>
+        <summary>Возвращает коллекцию заголовков HTTP из последнего ответа.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Коллекция заголовков HTTP.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,9 +176,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ли запрос должен содержать активности заголовка.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если запрос должен содержать активности заголовок; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, должен ли запрос содержать заголовок Keep — Alive.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если запрос должен содержать заголовок Keep — Alive; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,7 +196,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Вызовы <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" /> обработчик.             <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" /> Событий можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Вызывает <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" /> обработчик.             Это <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" /> событие применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -229,7 +215,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Представляет событие, вызываемое Включение приложений для создания пользовательских заголовков SOAP в запросах, отправленных в Microsoft Exchange Server.</summary>
+        <summary>Представляет событие, которое вызывается, чтобы позволить приложениям создавать настраиваемые заголовки SOAP в запросах, которые отправляются в Microsoft Exchange Server.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -249,8 +235,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее, следует ли выполнять предварительную проверку подлинности HTTP.</summary>
-        <value>
-          <b>значение true,</b> если следует выполнять предварительную проверку подлинности HTTP; в противном случае — <b>false</b>.</value>
+        <value><b>значение true</b> , если необходимо выполнить предварительную проверку подлинности HTTP; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -269,9 +254,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает версию запрошенный сервер.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Перечисление объектов.</value>
+        <summary>Получает запрошенную версию сервера.</summary>
+        <value>Объект <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> перечисления.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -290,9 +274,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает флаг, указывающий, что клиент требуется ответы для включения код запроса.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если клиент требует ответов для включения код запроса; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает флаг, указывающий, что клиенту требуются ответы для включения идентификатора запроса.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если клиенту требуются ответы для включения идентификатора запроса; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -311,9 +294,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает сведения о задержке клиента необходимо отправленный клиентом.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если сведения о клиенте задержка не требуется; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, следует ли отправлять клиенту сведения о задержке клиента.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если требуются сведения о задержке клиента; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -332,13 +314,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeServerInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сведения, связанные с сервером, на обработку запроса на последнюю.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" /> Объекта.</value>
-        <remarks>
-          <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" /> свойства — это пустая ссылка (Nothing в Visual Basic), если запросы не были обработаны.</para>
-          <para />
-        </remarks>
+        <summary>Получает сведения, связанные с сервером, который обработал самый последний запрос.</summary>
+        <value><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" /> Объект.</value>
+        <remarks><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" /> свойства — пустая ссылка (Nothing в Visual Basic), если запросы не были обработаны.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Timeout">
@@ -356,12 +335,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает время ожидания, используемый при запросе отправляющим HTTP и при получении ответов HTTP, в миллисекундах.</summary>
-        <value>Время для HTTP-запросов и ответов на них, в миллисекундах.</value>
-        <remarks>
-          <para>Значение по умолчанию <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" /> свойство является 100000.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает значение времени ожидания, используемое при отправке запросов HTTP и при получении HTTP-ответов (в миллисекундах).</summary>
+        <value>Время для HTTP-запросов и ответов (в миллисекундах).</value>
+        <remarks><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" /> свойства по умолчанию — 100000.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="TraceEnabled">
@@ -380,8 +357,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее, включена ли трассировка.</summary>
-        <value>
-          <b>значение true,</b> Если трассировка включена; в противном случае — <b>false</b>.</value>
+        <value><b>значение true</b> , если трассировка включена; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -401,7 +377,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает флаги трассировки.</summary>
-        <value>Один из <see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" /> значения.</value>
+        <value>Одно из <see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" /> значений.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -421,8 +397,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает прослушиватель трассировки.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" /> Объекта.</value>
+        <value><see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" /> Объект.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -441,12 +416,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли использовать учетные данные пользователя, который выполнил вход в систему в Windows для проверки подлинности с помощью веб-служб Exchange (EWS).</summary>
-        <value>
-          <b>значение true,</b> Если необходимо использовать учетные данные текущего пользователя; в противном случае — <b>false</b>.</value>
-        <remarks>
-          <para>Установка <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> значение <b>true</b> автоматически устанавливает <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство пустая ссылка (Nothing в Visual Basic).</para> Если почтовый ящик пользователя нельзя использовать учетные данные пользователя, выполнившего вход 
-          <para>размещаются в Exchange Online или Exchange Online в составе Office 365. Используйте <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство, чтобы задать учетные данные пользователя. Учетные данные пользователя должен быть в пользовательской формы имя участника (UPN) для Exchange Online.</para><para /></remarks>
+        <summary>Получает или задает значение, указывающее, следует ли использовать для проверки подлинности учетные данные пользователя, вошедшего в систему Windows, в веб-службах Exchange (EWS).</summary>
+        <value><b>значение true</b> , если необходимо использовать учетные данные пользователя, выполнившего вход в систему; в противном случае — <b>false</b>.</value>
+        <remarks><para>Если задать <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" /> для свойства <b>значение true</b> , <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойству будет автоматически присвоена пустая ссылка (Nothing в Visual Basic).</para> 
+          <para>Вы не можете использовать учетные данные пользователя, выполнившего вход в систему, если почтовый ящик пользователя размещен в Exchange Online или Exchange Online в составе Office 365. Вместо этого используйте <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" /> свойство, чтобы задать учетные данные пользователя. Учетные данные пользователя должны быть указаны в форме имени участника-пользователя (UPN) для Exchange Online.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserAgent">
@@ -464,8 +438,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает агент пользователя.</summary>
-        <value>A <see cref="T:System.String" /> объект, который представляет агент пользователя.</value>
+        <summary>Получает или задает агента пользователя.</summary>
+        <value><see cref="T:System.String" /> Объект, представляющий агент пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -484,8 +458,8 @@
         <ReturnType>System.Net.IWebProxy</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает прокси-сервера веб-сервере, который обрабатывает запросы.</summary>
-        <value>Веб-прокси-сервер, который обрабатывает запросы, отправленные на сервере Exchange.</value>
+        <summary>Получает или задает сервер веб-прокси, который обрабатывает запросы.</summary>
+        <value>Сервер веб-прокси, который обрабатывает запросы, отправляемые на сервер Exchange.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

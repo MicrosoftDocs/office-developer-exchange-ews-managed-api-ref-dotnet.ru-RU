@@ -1,13 +1,5 @@
 <Type Name="FileAttachment" FullName="Microsoft.Exchange.WebServices.Data.FileAttachment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f47388fb91f29c380d97e33fb21ec32be7a91afe" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627106" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class FileAttachment : Microsoft.Exchange.WebServices.Data.Attachment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f47388fb91f29c380d97e33fb21ec32be7a91afe" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627106" /></Metadata><TypeSignature Language="C#" Value="public sealed class FileAttachment : Microsoft.Exchange.WebServices.Data.Attachment" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FileAttachment extends Microsoft.Exchange.WebServices.Data.Attachment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FileAttachment" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FileAttachment&#xA;Inherits Attachment" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет вложение файла.</summary>
+    <summary>Представляет вложенный файл.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает содержимое вложения в памяти. Содержимое имеет значение только в том случае, когда вызывается метод нагрузки.</summary>
-        <value>Вложение как массив байтов.</value>
+        <summary>Получает содержимое вложения в памяти. Содержимое задается только при вызове метода Load.</summary>
+        <value>Вложение в виде массива байтов.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя файла, связанного с вложением.</summary>
-        <value>Имя файла, связанного с вложением.</value>
+        <summary>Получает имя файла, с которым связано вложение.</summary>
+        <value>Имя файла, с которым связано вложение.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,9 +72,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли вложение фотографии контакта.</summary>
-        <value>
-          <b>значение true,</b> Если вложение фотографии контакта; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли вложение фото контакта.</summary>
+        <value><b>значение true</b> , если вложение является фото контакта; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -103,8 +94,8 @@
         <Parameter Name="stream" Type="System.IO.Stream" />
       </Parameters>
       <Docs>
-        <param name="stream">Поток для загрузки содержимого вложения в.</param>
-        <summary>Загружает содержимое файла вложения в указанном потоке. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="stream">Поток, в который загружается содержимое вложения.</param>
+        <summary>Загружает содержимое вложенного файла в указанный поток. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,8 +117,8 @@
         <Parameter Name="fileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="fileName">Имя файла для загрузки содержимого вложения в. Если файл уже существует, он будет перезаписан.</param>
-        <summary>Загружает содержимое файла вложения в указанный файл. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="fileName">Имя файла, в который загружается содержимое вложения. Если файл уже существует, он перезаписывается.</param>
+        <summary>Загружает содержимое вложенного файла в указанный файл. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

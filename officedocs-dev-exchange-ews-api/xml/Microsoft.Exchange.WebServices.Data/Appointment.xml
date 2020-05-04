@@ -1,13 +1,5 @@
 <Type Name="Appointment" FullName="Microsoft.Exchange.WebServices.Data.Appointment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1e6e9d3d21281c21633fc0ea57a2916568b32bcf" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626750" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Appointment : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1e6e9d3d21281c21633fc0ea57a2916568b32bcf" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626750" /></Metadata><TypeSignature Language="C#" Value="public class Appointment : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Appointment extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Appointment" />
   <TypeSignature Language="VB.NET" Value="Public Class Appointment&#xA;Inherits Item" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит свойства и методы, используемые для определения встречи или собрания. Определенные свойства, доступные для встреч в <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> класса.</summary>
+    <summary>Содержит свойства и методы, используемые для определения встречи или собрания. Свойства, доступные в встречах, определяются в <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> классе.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">
-          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляра, к которому привязан этой встречи.</param>
-        <summary>Инициализирует несохраненные локальный экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> класса. Чтобы выполнить привязку к существующую встречу, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> метод вместо этого.</summary>
+        <param name="service"><see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> Экземпляр, с которым связана эта встреча.</param>
+        <summary>Инициализирует несохраненный локальный экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> класса. Чтобы выполнить присоединение к существующей встрече, используйте <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> вместо этого метод.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,10 +58,9 @@
         <Parameter Name="sendResponse" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="sendResponse">
-          <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</param>
-        <summary>Принимает приглашение на собрание. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</returns>
+        <param name="sendResponse"><b>имеет значение true</b> , если отправку ответа организатору; в противном случае — <b>false</b>.</param>
+        <summary>Принимает приглашение на собрание. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -95,10 +85,9 @@
         <Parameter Name="sendResponse" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="sendResponse">
-          <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</param>
-        <summary>Предварительно принимает приглашение на собрание. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</returns>
+        <param name="sendResponse"><b>имеет значение true</b> , если отправку ответа организатору; в противном случае — <b>false</b>.</param>
+        <summary>Принятие приглашения на собрание под вопросом. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,8 +106,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число записей календаря, которые располагаются вплотную к встрече.</summary>
-        <value>Количество записей календаря, которые располагаются вплотную к встрече.</value>
+        <summary>Получает число записей календаря, смежных с встречей.</summary>
+        <value>Число записей календаря, смежных с встречей.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,8 +126,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список собрания, которые располагаются вплотную к встрече.</summary>
-        <value>Коллекция собрания, которые располагаются вплотную к встрече.</value>
+        <summary>Получает список собраний, смежных с встречей.</summary>
+        <value>Коллекция собраний, смежных с встречей.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,9 +146,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает участников может предложить новое время собрания.</summary>
-        <value>
-          <b>значение true,</b> Если участники могут предложить новое время для собраний; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, могут ли участники предложить новое время собрания.</summary>
+        <value><b>true</b> , если участники могут предложить другое время для собрания; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -178,8 +166,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время участником дан ответ на запрос на собрание.</summary>
-        <value>Время, участником дан ответ на запрос на собрание.</value>
+        <summary>Получает время ответа участника на приглашение на собрание.</summary>
+        <value>Время ответа участника на приглашение на собрание.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -198,7 +186,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, номер версии измененных встречи.</summary>
+        <summary>Получает значение, указывающее номер версии измененной встречи.</summary>
         <value>Номер версии встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -218,7 +206,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли связанный объект встречу, собрание, ответ на собрании или отмены собрания.</summary>
+        <summary>Получает значение, указывающее, является ли связанный объект встречей, собранием, ответом на собрание или отмененным собранием.</summary>
         <value>Состояние встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -238,8 +226,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AppointmentType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее тип вхождение встречи; Например собрания, экземпляр повторяющееся собрание, исключение, повторяющееся собрание или элемент шаблона, который содержит собрания single шаблона повторения.</summary>
-        <value>Один из <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> значений перечисления, определяющее тип повторения встречи.</value>
+        <summary>Получает значение, указывающее тип вхождения встречи; Например, одно собрание, экземпляр повторяющегося собрания, исключение из повторяющегося собрания или главный элемент, содержащий шаблон повторения собрания...</summary>
+        <value>Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> перечисления, указывающее тип повторения встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -262,13 +250,12 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к встрече.</param>
-        <param name="id">Идентификатор элемента встречи для привязки.</param>
-        <summary>Выполняет привязку к существующую встречу и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляра, который представляет встречи, соответствующий указанным идентификатором.</returns>
+        <param name="service">Служба, используемая для связывания с встречей.</param>
+        <param name="id">Идентификатор встречи, к которой требуется присоединиться.</param>
+        <summary>Выполняет присоединение к существующей встрече и загружает ее свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляр, представляющий встречу, которая соответствует УКАЗАНному идентификатору.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">В определенных сценариях, этот метод можно создать исключение, аналогичную following:System.ArgumentNullException: не может иметь значение null. Имя параметра: идентификатор в System.TimeZoneInfo.FindSystemTimeZoneById(String id)... Это может произойти, если выполняются все следующие условия: <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> переданного объекта <paramref name="service" /> параметр был создан со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> в <paramref name="requestedServerVersion" /> параметр. Атрибут<b>TimeZoneName</b><a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">MeetingTimeZone</a>. Если возникнет исключение, вы можете проверить отсутствие атрибута <b>TimeZoneName</b> , <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">Включение трассировки запросов и ответов</a>, чтобы обойти эту проблему, выполните одно из следующих действий: создание <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> или выше в <paramref name="requestedServerVersion" /> параметр. Укажите <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> объект, который не включает <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> или <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /> свойства.</exception>
+        <exception cref="T:System.ArgumentNullException">В определенных сценариях этот метод может создать исключение, аналогичное следующему: System. ArgumentNullException: value не может иметь значение null. Имя параметра: ID в System. Тимезонеинфо. Финдсистемтимезонебид (String ID)... Это может произойти, если выполняются все из следующих условий <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> : объект, переданный в <paramref name="service" /> параметре, был создан со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> в <paramref name="requestedServerVersion" /> параметре. Атрибут <a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">митингтимезоне</a><b>тимезоненаме</b> . Если вы столкнулись с этим исключением, вы можете проверить отсутствие атрибута <b>тимезоненаме</b> , <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">разрешив обработку запросов и ответов трассировки</a>, чтобы обойти эту проблему, выполните одно из следующих действий <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> : Создайте объект со значением <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> или более высоким значением <paramref name="requestedServerVersion" /> в параметре. Укажите <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> объект, не включающий свойства <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> или. <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /></exception>
       </Docs>
     </Member>
     <Member MemberName="Bind">
@@ -290,14 +277,13 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к встрече.</param>
-        <param name="id">Идентификатор элемента встречи для привязки.</param>
+        <param name="service">Служба, используемая для связывания с встречей.</param>
+        <param name="id">Идентификатор встречи, к которой требуется присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующую встречу и загружает указанный набор свойств. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляра, который представляет встречи, соответствующий указанным идентификатором.</returns>
+        <summary>Выполняет присоединение к существующей встрече и загружает заданный набор свойств. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> Экземпляр, представляющий встречу, которая соответствует УКАЗАНному идентификатору.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">Для получения дополнительных сведений о этого исключения см <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</exception>
+        <exception cref="T:System.ArgumentNullException">Подробнее об этом исключении можно узнать <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />в статье.</exception>
       </Docs>
     </Member>
     <Member MemberName="BindToOccurrence">
@@ -320,11 +306,11 @@
         <Parameter Name="occurenceIndex" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к встрече.</param>
-        <param name="recurringMasterId">Идентификатор повторяющегося главных, представляющий индекс вхождения.</param>
+        <param name="service">Служба, используемая для связывания с встречей.</param>
+        <param name="recurringMasterId">Идентификатор повторяющейся основной реплики, который представляет экземпляр индекса.</param>
         <param name="occurenceIndex">Индекс экземпляра.</param>
-        <summary>Выполняет привязку к существующей встречу и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Копия встречи, соответствующий индекс указанного вхождения.</returns>
+        <summary>Выполняет присоединение к экземпляру существующей встречи и загружает ее свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр встречи, соответствующий указанному индексу вхождения.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -348,12 +334,12 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к встрече.</param>
-        <param name="recurringMasterId">Идентификатор повторяющегося главных, представляющий индекс вхождения.</param>
+        <param name="service">Служба, используемая для связывания с встречей.</param>
+        <param name="recurringMasterId">Идентификатор повторяющейся основной реплики, который представляет экземпляр индекса.</param>
         <param name="occurenceIndex">Индекс экземпляра.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей встречу и загружает указанный набор свойств. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Копия встречи, соответствующий индекс указанного вхождения.</returns>
+        <summary>Выполняет присоединение к экземпляру существующей встречи и загружает заданный набор свойств. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Экземпляр встречи, соответствующий указанному индексу вхождения.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -376,10 +362,10 @@
         <Parameter Name="occurrenceId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к встрече.</param>
-        <param name="occurrenceId">Идентификатор одного из них в серии.</param>
-        <summary>Выполняет привязку Главная встреча ряда повторяющейся и загружает его свойства первого класса. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Главная встреча ряда повторяющейся, к которой принадлежит указанный вхождение.</returns>
+        <param name="service">Служба, используемая для связывания с встречей.</param>
+        <param name="occurrenceId">Идентификатор одного из вхождений в ряду.</param>
+        <summary>Выполняет присоединение к главной встрече повторяющейся серии и загружает ее свойства первого класса. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Главная встреча из повторяющейся серии, к которой относится указанное вхождение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -402,11 +388,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к встрече.</param>
-        <param name="occurrenceId">Идентификатор одного из них в серии.</param>
+        <param name="service">Служба, используемая для связывания с встречей.</param>
+        <param name="occurrenceId">Идентификатор одного из вхождений в ряду.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку Главная встреча ряда повторяющейся и загружает указанный набор свойств. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>Главная встреча ряда повторяющейся, к которой принадлежит указанный вхождение.</returns>
+        <summary>Выполняет присоединение к главной встрече повторяющейся серии и загружает заданный набор свойств. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns>Главная встреча из повторяющейся серии, к которой относится указанное вхождение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -426,8 +412,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Показано, как отменить собрание и отправляет сообщения отмены всех участников. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</returns>
+        <summary>Отменяет собрание и отправляет сообщения об отмене всем участникам. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -449,9 +435,9 @@
         <Parameter Name="cancellationMessageText" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="cancellationMessageText">Отмена текст сообщения отправляются всем участникам.</param>
-        <summary>Показано, как отменить собрание и отправляет сообщения отмены всех участников с помощью связанного текста. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</returns>
+        <param name="cancellationMessageText">Текст сообщения об отмене отправки всем участникам.</param>
+        <summary>Отменяет собрание и отправляет сообщения об отмене всем участникам с помощью связанного текста. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -470,7 +456,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тип конференц-связи, который будет использоваться во время собрания; Например видеоконференции, презентации или сеанс беседы.</summary>
+        <summary>Получает или задает тип конференц-связи, который будет использоваться во время собрания; Например, видеоконференции, презентация или сеанс чата.</summary>
         <value>Тип конференц-связи, который будет использоваться во время собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -490,8 +476,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число записей календаря, конфликтующие с встречи.</summary>
-        <value>Число записей календаря, конфликтующие с встречи.</value>
+        <summary>Получает количество записей календаря, которые конфликтуют с встречей.</summary>
+        <value>Количество записей календаря, которые конфликтуют с встречей.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -510,8 +496,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список собраний, конфликтующие с встречи.</summary>
-        <value>Коллекция собраний, конфликтующие с встречи.</value>
+        <summary>Получает список собраний, которые конфликтуют с встречей.</summary>
+        <value>Коллекция собраний, которые конфликтуют с встречей.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -536,10 +522,9 @@
         <Parameter Name="tentative" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="tentative">
-          <b>значение true,</b> Если собрание будет принято под вопросом; в противном случае — <b>false</b>.</param>
-        <summary>Создает локальный сообщение о принятии, могут быть настроены и отправляются на собрания.</summary>
-        <returns>Собрания сообщение о принятии.</returns>
+        <param name="tentative"><b>значение true</b> , если собрание будет принято под вопросом; в противном случае — <b>false</b>.</param>
+        <summary>Создает локальное сообщение о принятии приглашения на собрание, которое может быть изменено и отправлено.</summary>
+        <returns>Сообщение о принятии приглашения на собрание.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -559,8 +544,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Создает локальный отмены сообщение, могут быть настроены и отправляются на собрания.</summary>
-        <returns>Собрания отмены сообщения.</returns>
+        <summary>Создает локальное сообщение об отмене собрания, которое может быть изменено и отправлено.</summary>
+        <returns>Сообщение об отмене собрания.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -583,8 +568,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Создает локальный сообщение отказ, могут быть настроены и отправляются на собрания.</summary>
-        <returns>Собрания отказ сообщения.</returns>
+        <summary>Создает локальное сообщение об отклонении собрания, которое можно изменить и отправить.</summary>
+        <returns>Сообщение об отклонении собрания.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -604,8 +589,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Создает переслать сообщение из этой встречи.</summary>
-        <returns>Прямого ответа, впоследствии можно изменить и отправлено.</returns>
+        <summary>Создает сообщение переадресации из этой встречи.</summary>
+        <returns>Ответ переадресации, который впоследствии может быть изменен и отправлен.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -627,10 +612,9 @@
         <Parameter Name="replyAll" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="replyAll">
-          <b>значение true,</b> чтобы указать отправку ответа для всех участников; <b>значение false,</b> чтобы указать отправку ответа организатору только.</param>
-        <summary>Создает ответа ответ для организатора и/или список участников собрания.</summary>
-        <returns>Ответ ответ, впоследствии можно изменить и отправлено.</returns>
+        <param name="replyAll"><b>значение true</b> , чтобы указать, что ответ должен отправляться всем участникам; <b>значение false</b> , чтобы указать, что ответ должен отправляться только организатору.</param>
+        <summary>Создает ответ на ответ организатору и/или участникам собрания.</summary>
+        <returns>Ответ на ответ, который впоследствии может быть изменен и отправлен.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -655,10 +639,9 @@
         <Parameter Name="sendResponse" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="sendResponse">
-          <b>значение true,</b> Если ответ, который требуется отправлять Организатор; в противном случае — <b>false</b>.</param>
-        <summary>Из участников отклоняет приглашение на собрание. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
-        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> объект, который содержит различные элементы, которые были созданы или изменены в результате этой операции.</returns>
+        <param name="sendResponse"><b>имеет значение true</b> , если отправку ответа организатору; в противном случае — <b>false</b>.</param>
+        <summary>Отклоняет приглашение на собрание. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
+        <returns><see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> Объект, который содержит различные элементы, созданные или измененные в результате выполнения этой операции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -680,9 +663,9 @@
         <Parameter Name="sendCancellationsMode" Type="Microsoft.Exchange.WebServices.Data.SendCancellationsMode" />
       </Parameters>
       <Docs>
-        <param name="deleteMode">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> значений перечисления, определяющее режим удаления.</param>
-        <param name="sendCancellationsMode">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> значений перечисления, указывающее определить, каким образом будут отправляться уведомления об отмене при этом встреча является собранием.</param>
-        <summary>Удаление этой встречи. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="deleteMode">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> перечисления, указывающее режим удаления.</param>
+        <param name="sendCancellationsMode">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> перечисления, указывающее, следует ли отправлять уведомления об отмене, если эта встреча встречается.</param>
+        <summary>Удаление этой встречи. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -701,7 +684,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает список удаленных вхождений для повторяющиеся собрания или встречи.</summary>
+        <summary>Получает список удаленных повторений для повторяющегося собрания или встречи.</summary>
         <value>Коллекция удаленных вхождений.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -721,8 +704,8 @@
         <ReturnType>System.TimeSpan</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает время встречи.</summary>
-        <value>Промежуток времени встречи.</value>
+        <summary>Возвращает длительность встречи.</summary>
+        <value>Интервал времени для встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -761,8 +744,8 @@
         <ReturnType>System.TimeZoneInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает часовой пояс свойства окончания встречи.</summary>
-        <value>Часовой пояс свойство окончания встречи.</value>
+        <summary>Получает или задает часовой пояс для свойства End встречи.</summary>
+        <value>Часовой пояс для свойства End встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -781,8 +764,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дополнительные сведения о собрании или встрече расположении. <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Объект усовершенствованные location.</value>
+        <summary>Получает или задает дополнительные сведения о собрании или о расположении встречи. <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Объект расширенного расположения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -801,8 +784,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает первого появления повторяющееся собрание или встречи.</summary>
-        <value>Первого появления повторяющееся собрание или встречи.</value>
+        <summary>Получает первое вхождение повторяющегося собрания или встречи.</summary>
+        <value>Первое повторение повторяющегося собрания или встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -831,9 +814,9 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Префикс для вставки в начале исходного текста сообщения.</param>
-        <param name="toRecipients">Получатели переадресация встречи.</param>
-        <summary>Переадресует встречи в связанной массив получателей с сообщением, добавляемое перед исходный запрос на собрание. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="bodyPrefix">Префикс для добавления к исходному тексту сообщения.</param>
+        <param name="toRecipients">Получатели, на которые необходимо переадресовать встречу.</param>
+        <summary>Перенаправляет встречу на связанный массив получателей с сообщением, добавленным к исходному приглашению на собрание. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -856,9 +839,9 @@
         <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Префикс для вставки в начале исходного текста сообщения.</param>
-        <param name="toRecipients">Получатели переадресация встречи.</param>
-        <summary>Переадресует встречи в соответствующую коллекцию получателей с сообщением, добавляемое перед исходный запрос на собрание. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="bodyPrefix">Префикс для добавления к исходному тексту сообщения.</param>
+        <param name="toRecipients">Получатели, на которые необходимо переадресовать встречу.</param>
+        <summary>Пересылка встречи в связанную коллекцию получателей с сообщением, добавленным к исходному приглашению на собрание. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -877,8 +860,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает iCalendar DateTimeStamp.</summary>
-        <value>ICalendar DateTimeStamp.</value>
+        <summary>Возвращает Датетиместамп iCalendar.</summary>
+        <value>Датетиместамп iCalendar.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -897,8 +880,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает iCalendar RecurrenceId.</summary>
-        <value>ICalendar RecurrenceId.</value>
+        <summary>Возвращает Рекурренцеид iCalendar.</summary>
+        <value>Рекурренцеид iCalendar.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -917,8 +900,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ИД пользователя iCalendar.</summary>
-        <value>ICalendar ИД пользователя.</value>
+        <summary>Получает или задает идентификатор iCalendar.</summary>
+        <value>Идентификатор iCalendar.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -938,8 +921,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее, является ли встреча событием на целый день.</summary>
-        <value>
-          <b>значение true,</b> Если встреча является событием на целый день; в противном случае — <b>false</b>.</value>
+        <value><b>значение true</b> , если встреча является событием на целый день; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -958,9 +940,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли отменена встречи.</summary>
-        <value>
-          <b>значение true,</b> Если встречи было отменено; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, была ли отменена встреча.</summary>
+        <value><b>значение true</b> , если встреча отменена; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -979,9 +960,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли встреча является собранием.</summary>
-        <value>
-          <b>значение true,</b> Если встреча является собранием; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли встреча собранием.</summary>
+        <value><b>значение true</b> , если встреча является собранием; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1000,9 +980,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает, является ли собрания собрания по сети.</summary>
-        <value>
-          <b>значение true,</b> Если собрание собрания по сети; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли собрание онлайн-собранием.</summary>
+        <value><b>значение true</b> , если собрание является собранием по сети; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1021,9 +1000,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли является частью серии повторяющихся встречи.</summary>
-        <value>
-          <b>значение true,</b> Если для повторяющейся встречи; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, является ли встреча частью повторяющейся серии.</summary>
+        <value><b>значение true</b> , если встреча повторяется; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1042,9 +1020,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ответы запрашиваются при отправке приглашения на собрания.</summary>
-        <value>
-          <b>значение true,</b> Если запрашиваются ответов; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, запрашиваются ли ответы при отправке приглашений на собрание.</summary>
+        <value><b>значение true</b> , если ответы запрашиваются; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1063,7 +1040,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает URL-адрес для присоединения к собранию по сети.             <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает URL-адрес для присоединения к собранию по сети.             <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>URL-адрес для присоединения к собранию по сети.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1083,8 +1060,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает последнего вхождения серии повторяющихся.</summary>
-        <value>Последнего вхождения повторяющееся собрание или встречи.</value>
+        <summary>Получает последнее вхождение повторяющегося ряда.</summary>
+        <value>Последнее повторение повторяющегося собрания или встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1104,7 +1081,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее состояние занятости владельца встречи.</summary>
-        <value>Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> значений перечисления, указывающее состояние занятости владельца встречи.</value>
+        <value>Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> перечисления, указывающее состояние занятости владельца встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1143,9 +1120,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает ли запрос на собрание было отправлено.</summary>
-        <value>
-          <b>значение true,</b> Если запрос на собрание было отправлено; в противном случае — <b>false</b>.</value>
+        <summary>Получает значение, указывающее, было ли отправлено приглашение на собрание.</summary>
+        <value><b>имеет значение true</b> , если приглашение на собрание было отправлено; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1164,7 +1140,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает URL-адрес рабочей области для собраний. Рабочая область для собраний — это общий веб-узел для планирования собраний и отслеживания результатов.</summary>
+        <summary>Получает или задает URL-адрес рабочей области для собраний. Рабочая область для собраний — это общий веб-сайт для планирования собраний и отслеживания результатов.</summary>
         <value>URL-адрес рабочей области для собраний.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1184,8 +1160,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список собрания или встречи в ряду, которые были изменены.</summary>
-        <value>Коллекция изменен собрания.</value>
+        <summary>Получает список собраний и встреч, которые были изменены в повторяющихся рядах.</summary>
+        <value>Коллекция измененных собраний.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1204,8 +1180,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponseType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает пользователя последний ответ на запрос собрания; Например принять или отклонить.</summary>
-        <value>Один из <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> значений перечисления, указывающее, ответа пользователя на собрание.</value>
+        <summary>Получает последний ответ пользователя на приглашение на собрание; Например, "принять" или "отклонить".</summary>
+        <value>Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> перечисления, указывающее ответ пользователя на приглашение на собрание.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1224,8 +1200,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает URL-адрес собрания по сети Microsoft NetShow.</summary>
-        <value>URL-адрес собрания по сети Microsoft NetShow.</value>
+        <summary>Возвращает или задает URL-адрес собрания Microsoft NetShow.</summary>
+        <value>URL-адрес собрания Microsoft NetShow Online.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1244,8 +1220,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает набор параметров участников доступа для собрания по сети.             <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Параметры собрания по сети.</value>
+        <summary>Получает набор параметров доступа участников для собрания по сети.             <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Параметры собраний по сети.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1265,7 +1241,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает список необязательных участников собрания.</summary>
-        <value>Участникам собрания, которые не являются обязательными для собрания.</value>
+        <value>Участники, которые являются необязательными для собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1324,7 +1300,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает шаблон повторения для встречи. Классы шаблонов доступные повторения включают <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />, и <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</summary>
+        <summary>Получает или задает шаблон повторения для встречи. Доступные классы шаблона повторения включают <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />и <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</summary>
         <value>Шаблон повторения встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1348,10 +1324,9 @@
         <Parameter Name="replyAll" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="bodyPrefix">Префикс, следует добавлять к основному тексту встречи.</param>
-        <param name="replyAll">
-          <b>значение true,</b> чтобы указать отправку ответа для всех участников; <b>значение false,</b> чтобы указать отправку ответа организатору только.</param>
-        <summary>Ответы, которые организатора и/или список участников собрания. Вызывает этот метод результаты в звонка для веб-служб Exchange (EWS).</summary>
+        <param name="bodyPrefix">Префикс для добавления к тексту собрания.</param>
+        <param name="replyAll"><b>значение true</b> , чтобы указать, что ответ должен отправляться всем участникам; <b>значение false</b> , чтобы указать, что ответ должен отправляться только организатору.</param>
+        <summary>Ответы организатору или участникам собрания. Вызов этого метода приводит к вызову веб-служб Exchange (EWS).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1371,7 +1346,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает список обязательных участников собрания.</summary>
-        <value>Участникам собрания, которые необходимы для собрания.</value>
+        <value>Участники, которые необходимы для собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1390,7 +1365,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает список ресурсов для собраний, такие как аудиовизуальной оборудования.</summary>
+        <summary>Получает список ресурсов собрания, таких как звуковое оборудование.</summary>
         <value>Ресурсы для собрания.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1412,8 +1387,8 @@
         <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
       </Parameters>
       <Docs>
-        <param name="sendInvitationsMode">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, указывающее определить, каким образом следует отправлены приглашения, при этом встреча является собранием.</param>
-        <summary>Сохраняет эту встречу в папке календаря. При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS). Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</summary>
+        <param name="sendInvitationsMode">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> перечисления, которое указывает, следует ли отправлять приглашения и как они должны отправляться в случае собрания.</param>
+        <summary>Сохранение этой встречи в папке "Календарь". Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS). Если добавлено вложение, можно выполнить несколько вызовов EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1435,9 +1410,9 @@
         <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderId">Идентификатор папки для сохранения этой встречи.</param>
-        <param name="sendInvitationsMode">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, которое указывает, если и как следует отправлены приглашения, при этом встреча является собранием.</param>
-        <summary>Сохраняет эту встречу в указанной папке. При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS). Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</summary>
+        <param name="destinationFolderId">Идентификатор папки, в которой нужно сохранить эту встречу.</param>
+        <param name="sendInvitationsMode">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> перечисления, указывающее, следует ли отправлять приглашения и как они должны отправляться в случае собрания.</param>
+        <summary>Сохранение встречи в указанной папке. Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS). Если добавлено вложение, можно выполнить несколько вызовов EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1459,9 +1434,9 @@
         <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
       </Parameters>
       <Docs>
-        <param name="destinationFolderName">Имя папки, в которой для сохранения этой встречи.</param>
-        <param name="sendInvitationsMode">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> значений перечисления, указывающее определить, каким образом следует отправлены приглашения, при этом встреча является собранием.</param>
-        <summary>Сохраняет эту встречу в указанной папке. При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS). Несколько вызовы веб-служб Exchange может выполнить при добавлении вложения.</summary>
+        <param name="destinationFolderName">Имя папки, в которой нужно сохранить эту встречу.</param>
+        <param name="sendInvitationsMode">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> перечисления, которое указывает, следует ли отправлять приглашения и как они должны отправляться в случае собрания.</param>
+        <summary>Сохранение встречи в указанной папке. Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS). Если добавлено вложение, можно выполнить несколько вызовов EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1500,8 +1475,8 @@
         <ReturnType>System.TimeZoneInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает часовой пояс <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойства встречи.</summary>
-        <value>Часовой пояс, <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойство.</value>
+        <summary>Получает или задает часовой пояс для <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойства встречи.</summary>
+        <value>Часовой пояс <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> свойства.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1520,8 +1495,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает часовой пояс, который указан для встречи.</summary>
-        <value>Часовой пояс, который указан для встречи.</value>
+        <summary>Получает часовой пояс, заданный для встречи.</summary>
+        <value>Часовой пояс, заданный для встречи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1543,9 +1518,9 @@
         <Parameter Name="sendInvitationsOrCancellationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
       </Parameters>
       <Docs>
-        <param name="conflictResolutionMode">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> значений перечисления, определяющее, как следует разрешать конфликты.</param>
-        <param name="sendInvitationsOrCancellationsMode">Один из <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> значений перечисления, которое указывает, если и способ отправки приглашения и отмены при этом встреча является собранием.</param>
-        <summary>Применяет локальные изменения, внесенные в этом встречи. При вызове этого метода приводит к по крайней мере один вызов для веб-служб Exchange (EWS). Несколько вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</summary>
+        <param name="conflictResolutionMode">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> перечисления, которое указывает, как следует разрешить конфликты.</param>
+        <param name="sendInvitationsOrCancellationsMode">Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> перечисления, указывающее, следует ли отправлять приглашения или отмены, если эта встреча является собранием.</param>
+        <summary>Применение локальных изменений, внесенных в эту встречу. Вызов этого метода приводит к по крайней мере один вызов веб-служб Exchange (EWS). Несколько вызовов EWS можно выполнить при добавлении или удалении вложений.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1564,8 +1539,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает текстовое значение, которое указывает, когда происходит встречи. Текстовое значение локализуется с помощью языка и региональных параметров Exchange Server или с помощью языка и региональных параметров, указанных в <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> свойства <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объект, связанный с этой встречи.</summary>
-        <value>Текстовое значение, которое указывает, когда происходит встречи.</value>
+        <summary>Получает текстовое значение, указывающее, когда встречается встреча. Текстовое значение локализуется с использованием языка и региональных параметров Exchange Server или с использованием языка и региональных параметров, <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> указанных в свойстве <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> объекта, с которым связана эта встреча.</summary>
+        <value>Текстовое значение, указывающее, когда встречается встреча.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="InvalidTokenSignatureException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e5a85a1b879773596c3ad29791f66c28fd880615" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627340" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class InvalidTokenSignatureException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e5a85a1b879773596c3ad29791f66c28fd880615" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627340" /></Metadata><TypeSignature Language="C#" Value="public class InvalidTokenSignatureException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InvalidTokenSignatureException extends Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" />
   <TypeSignature Language="VB.NET" Value="Public Class InvalidTokenSignatureException&#xA;Inherits TokenValidationException" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит исключение, порождаемое, если не удается обработать маркера удостоверения клиента. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит исключение, которое выдается, когда не удается обработать маркер удостоверения клиента. <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">Сообщение с описанием исключения.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> класс с заданным сообщением. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor(System.String)" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="message">Сообщение, описывающее исключение.</param>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> класса с указанным сообщением. <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor(System.String)" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

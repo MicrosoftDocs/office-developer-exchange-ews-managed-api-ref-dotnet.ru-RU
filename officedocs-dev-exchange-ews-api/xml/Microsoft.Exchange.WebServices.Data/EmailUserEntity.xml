@@ -1,13 +1,5 @@
 <Type Name="EmailUserEntity" FullName="Microsoft.Exchange.WebServices.Data.EmailUserEntity">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bfd18b985994fe0b1a11c86b2cbeee66d9327c85" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626888" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class EmailUserEntity : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bfd18b985994fe0b1a11c86b2cbeee66d9327c85" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626888" /></Metadata><TypeSignature Language="C#" Value="public sealed class EmailUserEntity : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailUserEntity extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailUserEntity" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailUserEntity&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет извлеченные сообщения сущности, представляющий электронной почты пользователя.             <see cref="T:Microsoft.Exchange.WebServices.Data.EmailUserEntity" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет извлеченный объект сообщения, представляющий пользователя электронной почты.             <see cref="T:Microsoft.Exchange.WebServices.Data.EmailUserEntity" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя пользователя, связанное с объектом извлеченные сообщения.             <see cref="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.Name" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Имя сущности EmailUser.</value>
+        <summary>Получает имя пользователя, связанное с объектом извлеченного сообщения.             <see cref="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.Name" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Имя объекта свойства emailuser.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор пользователя, связанного с объектом извлеченные сообщения.             <see cref="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.UserId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Идентификатор EmailUser сущности пользователя.</value>
+        <summary>Получает идентификатор пользователя, связанный с извлеченным объектом Message.             <see cref="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.UserId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор пользователя сущности свойства emailuser.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

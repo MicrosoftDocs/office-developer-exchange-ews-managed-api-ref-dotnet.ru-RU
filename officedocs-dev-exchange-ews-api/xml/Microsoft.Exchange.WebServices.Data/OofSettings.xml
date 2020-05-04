@@ -1,13 +1,5 @@
 <Type Name="OofSettings" FullName="Microsoft.Exchange.WebServices.Data.OofSettings">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b111544ae6572d97fd3dc97e5ef0367b2a1ea24e" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626709" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class OofSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b111544ae6572d97fd3dc97e5ef0367b2a1ea24e" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626709" /></Metadata><TypeSignature Language="C#" Value="public sealed class OofSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OofSettings extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OofSettings" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OofSettings&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет на работе (OOF) параметры пользователя.</summary>
+    <summary>Представляет параметры заместителя пользователя (отсутствие на работе).</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса OofSettings.</summary>
+        <summary>Инициализирует новый экземпляр класса Уфсеттингс.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,8 +49,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofExternalAudience</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, внешние корреспонденты, которые можно получить из сообщений, сообщения об отсутствии.</summary>
-        <value>Одно из значений перечисления OofExternalAudience.</value>
+        <summary>Получает значение, указывающее внешних корреспондентов, которые могут получать сообщения об отсутствии на работе (отсутствие на работе).</summary>
+        <value>Одно из значений перечисления Уфекстерналаудиенце.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,8 +69,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TimeWindow</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает длительность ожидания состояние сообщения об отсутствии, когда пользователь выполняет планирование сообщений об отсутствии на работе.</summary>
-        <value>Период времени, в котором об отсутствии на работе будут отправляться сообщения.</value>
+        <summary>Получает или задает значение, указывающее время отсутствия на работе (отсутствие на работе) при запланированных сообщениях о незавершении работы.</summary>
+        <value>Период времени, в течение которого отправляются сообщения об отсутствии на работе.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,8 +89,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofExternalAudience</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, которое указывает, кто должен получить внешние сообщения об отсутствии сообщений об отсутствии.</summary>
-        <value>Одно из значений перечисления OofExternalAudience, которые указывают, какие внешних корреспонденты будут получать сообщения об отсутствии на работе.</value>
+        <summary>Получает или задает значение, указывающее, кто должен получить внешние сообщения об отсутствии на работе (отсутствие на работе).</summary>
+        <value>Одно из значений перечисления Уфекстерналаудиенце, указывающее, какие внешние корреспонденты будут получать сообщения об отсутствии на работе.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,8 +109,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofReply</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ожидания сообщения об отсутствии на сообщения, отправленные на внешние адреса.</summary>
-        <value>Содержимое сообщения об отсутствии на работе, которое отправляется другим пользователям за пределами домена пользователя.</value>
+        <summary>Получает или задает сообщение об отсутствии на рабочем месте, которое отправляется на внешние адреса электронной почты.</summary>
+        <value>Содержимое сообщения об отсутствии на работе, которое отправляется другим пользователям вне домена пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,8 +129,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofReply</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ожидания сообщения об отсутствии на сообщение, которое отправляется пользователям в домене или доверенном домене пользователя.</summary>
-        <value>Содержимое сообщения об отсутствии на работе, которое отправляется пользователям в домене пользователя.</value>
+        <summary>Получает или задает сообщение об отсутствии на работе (отсутствие на работе), которое отправляется другим пользователям в домене пользователя или доверенном домене.</summary>
+        <value>Содержимое сообщения об отсутствии на работе, которое отправляется другим пользователям в домене пользователя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,8 +149,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OofState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает пользователя из состояния сообщения об отсутствии.</summary>
-        <value>Одно из значений перечисления OofState, которые указывают, является ли пользователь отправляет сообщения об отсутствии на работе.</value>
+        <summary>Получает или задает состояние отсутствия на рабочем месте пользователя.</summary>
+        <value>Одно из значений перечисления Уфстате, указывающее, отправляет ли пользователь сообщения об отсутствии на работе.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

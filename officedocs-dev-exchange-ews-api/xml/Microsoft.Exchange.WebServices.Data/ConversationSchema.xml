@@ -1,13 +1,5 @@
 <Type Name="ConversationSchema" FullName="Microsoft.Exchange.WebServices.Data.ConversationSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fff13e5b25b4d009332f89f54fceeb183d9e8252" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626593" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ConversationSchema : Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fff13e5b25b4d009332f89f54fceeb183d9e8252" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626593" /></Metadata><TypeSignature Language="C#" Value="public class ConversationSchema : Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationSchema extends Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" />
   <TypeSignature Language="VB.NET" Value="Public Class ConversationSchema&#xA;Inherits ServiceObjectSchema" />
@@ -21,15 +13,13 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определение схемы для свойств беседы.</summary>
-    <remarks>
-      <para>
-        <b>Предупреждение</b>: </para>
-      <para>содержит список свойств, доступных на <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> объектов. Свойства, которые начинаются с «Global» указывает, что список свойств агрегируются по всему почтовому ящику не только определенной папки. Например, рассмотрим следующие беседы:</para>
-      <para>сообщение 1 – из Ken Circeo в folderMessage отправленные 2 — от Владимир ли в папке "Входящие" folderMessage 3 — от Jaka Stele в folderMessage папки "Входящие" 4 — от Jon Morris — в папке тестового</para>
-      <para>A запрос <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" /> возвращает свойство в окне беседы в папке "Входящие" «Владимир Петров, Jaka Stele». Сравнение полученных результатов с запросом к <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" /> свойство, которое будет возвращать «Кен Circeo, Владимир Иванов, Jaka Stele, Jon Morris». Дублированные записи не будут получены.</para>
-      <para />
-    </remarks>
+    <summary>Определяет схему свойств беседы.</summary>
+    <remarks><para>
+        <b>Внимание</b>: </para> 
+      <para>содержит список свойств, доступных <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> в объектах. Свойства с префиксом "Global" указывают на то, что список свойств составляется во всем почтовом ящике, а не только в определенной папке. Например, рассмотрим следующую беседу:</para>
+      <para>сообщение 1 от Ken Цирцео, в папке "Отправленные" фолдермессаже 2 – from Оливер Иванов, в папке "Входящие" фолдермессаже 3 – from Жака стеле, в папке "Входящие", в папке "Входящие", в папке "Входящие</para>", в папке "Входящие"
+      <para>. запрос <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.UniqueSenders" /> свойства диалога из папки "Входящие" возвратит "фолдермессаже Иванов, Morris Оливер". Сравните результаты с запросом для <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalUniqueSenders" /> свойства, который будет возвращать значение "Кен Цирцео, Оливер Иванов, Жака стеле, Jon Morris". Повторяющиеся записи не будут возвращены.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Categories">
@@ -180,7 +170,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> свойство. <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> свойство. Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.GlobalIconIndex" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -427,7 +417,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> свойство. <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> свойство. Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.IconIndex" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -484,7 +474,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.InstanceKey" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -560,7 +550,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> свойство.             <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> свойство.             Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastModifiedTime" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -598,7 +588,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> свойство. <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" /> Поля можно применять для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Определяет <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> свойство. Это <see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.Preview" /> поле подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

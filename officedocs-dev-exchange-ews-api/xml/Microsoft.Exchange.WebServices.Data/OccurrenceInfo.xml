@@ -1,13 +1,5 @@
 <Type Name="OccurrenceInfo" FullName="Microsoft.Exchange.WebServices.Data.OccurrenceInfo">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0a67034b9bddc991b94b34d006b6116ae1870e35" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626567" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class OccurrenceInfo : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0a67034b9bddc991b94b34d006b6116ae1870e35" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626567" /></Metadata><TypeSignature Language="C#" Value="public sealed class OccurrenceInfo : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OccurrenceInfo extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OccurrenceInfo" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OccurrenceInfo&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Инкапсулирует сведения на этот экземпляр повторяющейся встречи.</summary>
+    <summary>Инкапсулирует сведения о повторении повторяющейся встречи.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время появления.</summary>
+        <summary>Получает дату и время окончания для экземпляра.</summary>
         <value>Значение даты и времени.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +72,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает исходное Дата начала и время появления.</summary>
+        <summary>Получает исходное значение даты и времени начала экземпляра.</summary>
         <value>Значение даты и времени.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -100,7 +92,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время начала появления.</summary>
+        <summary>Получает дату и время начала экземпляра.</summary>
         <value>Значение даты и времени.</value>
         <remarks>To be added.</remarks>
       </Docs>

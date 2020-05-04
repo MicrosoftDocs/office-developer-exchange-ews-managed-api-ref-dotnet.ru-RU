@@ -1,13 +1,5 @@
 <Type Name="ServiceResult" FullName="Microsoft.Exchange.WebServices.Data.ServiceResult">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4b8421c846f24124557502ac17ace39e250a0c5" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626978" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ServiceResult" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4b8421c846f24124557502ac17ace39e250a0c5" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626978" /></Metadata><TypeSignature Language="C#" Value="public enum ServiceResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceResult extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceResult" />
   <TypeSignature Language="VB.NET" Value="Public Enum ServiceResult" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет результат вызова метода веб-служб Exchange (EWS). Значения в это перечисление имеет в порядке от низшего к высшему уровень серьезности.</summary>
+    <summary>Определяет результат вызова метода веб-служб Exchange (EWS). Значения в этом перечислении должны быть упорядочены от самого низкого до самого высокого уровня серьезности.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает, что вызов запущен по крайней мере одна ошибка.</summary>
+        <summary>Указывает, что вызов инициировал по крайней мере одну ошибку.</summary>
       </Docs>
     </Member>
     <Member MemberName="Success">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Указывает, что вызов прошла успешно.</summary>
+        <summary>Указывает, что вызов выполнен успешно.</summary>
       </Docs>
     </Member>
     <Member MemberName="Warning">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Указывает, что вызов запущен по крайней мере один предупреждения.</summary>
+        <summary>Указывает, что вызов вызывал по крайней мере одно предупреждение.</summary>
       </Docs>
     </Member>
   </Members>

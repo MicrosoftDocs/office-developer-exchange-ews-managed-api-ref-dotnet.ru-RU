@@ -1,13 +1,5 @@
 <Type Name="OofExternalAudience" FullName="Microsoft.Exchange.WebServices.Data.OofExternalAudience">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="df9e0c3e1aed5c9d071f2acedce00175c1e85ba6" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627309" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OofExternalAudience" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="df9e0c3e1aed5c9d071f2acedce00175c1e85ba6" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627309" /></Metadata><TypeSignature Language="C#" Value="public enum OofExternalAudience" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OofExternalAudience extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OofExternalAudience" />
   <TypeSignature Language="VB.NET" Value="Public Enum OofExternalAudience" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет внешний аудитории для из него уведомления о работе (OOF).</summary>
+    <summary>Определяет внешнюю аудиторию для уведомлений об отсутствии на работе (отсутствие на работе).</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Все корреспонденты должны получать уведомления об отсутствии на работе.</summary>
+        <summary>Все корреспонденты должны получать уведомления об отсутствии на месте.</summary>
       </Docs>
     </Member>
     <Member MemberName="Known">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Только корреспонденты, которые находятся в папке контактов пользователя должны получать уведомления об отсутствии на работе.</summary>
+        <summary>Получать уведомления об отсутствии на месте могут только те корреспонденты, которые находятся в папке "Контакты" пользователя.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Нет внешних корреспонденты должны получать уведомления об отсутствии на работе.</summary>
+        <summary>Никакие внешние корреспонденты не должны получать уведомления об отсутствии на месте.</summary>
       </Docs>
     </Member>
   </Members>

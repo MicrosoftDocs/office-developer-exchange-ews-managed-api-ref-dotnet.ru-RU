@@ -1,13 +1,5 @@
 <Type Name="PhoneNumberKey" FullName="Microsoft.Exchange.WebServices.Data.PhoneNumberKey">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="500e701b39677ad22d8a87b5ff2bd955b99eb2f0" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626572" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum PhoneNumberKey" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="500e701b39677ad22d8a87b5ff2bd955b99eb2f0" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626572" /></Metadata><TypeSignature Language="C#" Value="public enum PhoneNumberKey" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PhoneNumberKey extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneNumberKey" />
   <TypeSignature Language="VB.NET" Value="Public Enum PhoneNumberKey" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает записи номеров телефона контакта.</summary>
+    <summary>Указывает записи телефонных номеров для контакта.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Номер факса бизнеса.</summary>
+        <summary>Номер рабочего факса.</summary>
       </Docs>
     </Member>
     <Member MemberName="BusinessPhone">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Рабочий телефон.</summary>
+        <summary>Номер рабочего телефона.</summary>
       </Docs>
     </Member>
     <Member MemberName="BusinessPhone2">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Второй рабочий телефон.</summary>
+        <summary>Второй номер рабочего телефона.</summary>
       </Docs>
     </Member>
     <Member MemberName="Callback">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Номер телефона автомобиля.</summary>
+        <summary>Номер телефона в автомобиле.</summary>
       </Docs>
     </Member>
     <Member MemberName="CompanyMainPhone">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Компании основной номер телефона.</summary>
+        <summary>Основной номер телефона компании.</summary>
       </Docs>
     </Member>
     <Member MemberName="HomeFax">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Альтернативные факс.</summary>
+        <summary>Альтернативный номер факса.</summary>
       </Docs>
     </Member>
     <Member MemberName="OtherTelephone">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>На дополнительный номер телефона.</summary>
+        <summary>Альтернативный номер телефона.</summary>
       </Docs>
     </Member>
     <Member MemberName="Pager">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Телефонный номер, радио.</summary>
+        <summary>Номер телефона радио.</summary>
       </Docs>
     </Member>
     <Member MemberName="Telex">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Этот номер.</summary>
+        <summary>Номер телекса.</summary>
       </Docs>
     </Member>
     <Member MemberName="TtyTddPhone">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Номер телефона TTY/TTD.</summary>
+        <summary>Телефонный номер TTY/ТТД.</summary>
       </Docs>
     </Member>
   </Members>

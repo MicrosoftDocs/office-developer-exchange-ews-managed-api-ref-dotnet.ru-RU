@@ -1,13 +1,5 @@
 <Type Name="FlaggedForAction" FullName="Microsoft.Exchange.WebServices.Data.FlaggedForAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a15662eab7e58bbf14f8b110172917e8d4903a3d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626986" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum FlaggedForAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a15662eab7e58bbf14f8b110172917e8d4903a3d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626986" /></Metadata><TypeSignature Language="C#" Value="public enum FlaggedForAction" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlaggedForAction extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FlaggedForAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum FlaggedForAction" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет звонящему действия, которые могут быть отметка на сообщение.</summary>
+    <summary>Определяет дальнейшие действия, которые могут быть помечены для сообщения.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Сообщение имеет флаг с каких-либо действий.</summary>
+        <summary>Сообщение помечено любым действием.</summary>
       </Docs>
     </Member>
     <Member MemberName="Call">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Получатель запрашивается для вызова отправитель.</summary>
+        <summary>Получатель запрашивается позвонить отправителю.</summary>
       </Docs>
     </Member>
     <Member MemberName="DoNotForward">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Получатель запрашивается не необходимо переслать сообщение.</summary>
+        <summary>Получатель запрашивается не пересылать сообщение.</summary>
       </Docs>
     </Member>
     <Member MemberName="FollowUp">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Получатель запрашивается к исполнению в окне сообщения.</summary>
+        <summary>Получатель запрашивает дальнейшие действия с сообщением.</summary>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Получатель запрашивается необходимо переслать сообщение.</summary>
+        <summary>Получатель запрашивает пересылка сообщения.</summary>
       </Docs>
     </Member>
     <Member MemberName="FYI">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Получатель сообщения сведения.</summary>
+        <summary>Получатель получил сообщение об ошибке.</summary>
       </Docs>
     </Member>
     <Member MemberName="NoResponseNecessary">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Получатель уведомляется о том, что ответ на сообщение не является обязательным.</summary>
+        <summary>Получатель уведомляет о том, что ответ на сообщение не требуется.</summary>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Получатель запрашивается для чтения сообщения.</summary>
+        <summary>Получатель запрашивает разрешение на чтение сообщения.</summary>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Получатель запрашивается ответ на отправителя сообщения.</summary>
+        <summary>Получатель запрашивает ответ отправителю сообщения.</summary>
       </Docs>
     </Member>
     <Member MemberName="ReplyToAll">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Получатель запрашивается отвечать всем пользователям было отправлено сообщение.</summary>
+        <summary>Получатель запрашивается ответить всем, кому было отправлено сообщение.</summary>
       </Docs>
     </Member>
     <Member MemberName="Review">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Получатель запрашивается сообщения для просмотра.</summary>
+        <summary>Получателю запрашивается Просмотр сообщения.</summary>
       </Docs>
     </Member>
   </Members>

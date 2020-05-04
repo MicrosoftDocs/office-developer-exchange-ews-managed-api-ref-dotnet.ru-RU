@@ -1,13 +1,5 @@
 <Type Name="SendInvitationsMode" FullName="Microsoft.Exchange.WebServices.Data.SendInvitationsMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="490e09cf1f81b1dedb8d4a805b8eba8dd673fc17" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626974" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SendInvitationsMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="490e09cf1f81b1dedb8d4a805b8eba8dd673fc17" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626974" /></Metadata><TypeSignature Language="C#" Value="public enum SendInvitationsMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendInvitationsMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum SendInvitationsMode" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет константы, определяющие порядок обработки приглашения на собрания.</summary>
+    <summary>Определяет константы, определяющие порядок обработки приглашений на собрания.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Отправка приглашения на собрание для всех участников, но не сохранить копию приглашения на собрание в папке "Отправленные" организатора.</summary>
+        <summary>Отправлять приглашения на собрания всем участникам, но не сохранять копию приглашения на собрание в папке "Отправленные" организатора.</summary>
       </Docs>
     </Member>
     <Member MemberName="SendToAllAndSaveCopy">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Отправка приглашения на собрание для всех участников и сохранить копию приглашения на собрание в папке "Отправленные" организатора.</summary>
+        <summary>Отправьте приглашения на собрания всем участникам и сохраните копию приглашения на собрание в папке "Отправленные" организатора.</summary>
       </Docs>
     </Member>
     <Member MemberName="SendToNone">

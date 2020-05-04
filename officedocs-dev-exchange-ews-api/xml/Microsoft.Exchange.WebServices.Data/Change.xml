@@ -1,13 +1,5 @@
 <Type Name="Change" FullName="Microsoft.Exchange.WebServices.Data.Change">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="624b66579a57aee94264670e429288bf2c09553b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627132" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class Change" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="624b66579a57aee94264670e429288bf2c09553b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627132" /></Metadata><TypeSignature Language="C#" Value="public abstract class Change" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Change extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Change" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Change" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет изменение в виде, возвращаемом с помощью операции синхронизации.</summary>
+    <summary>Представляет изменение, возвращенное операцией синхронизации.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ChangeType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает тип изменения события синхронизации.</summary>
+        <summary>Получает тип изменения события синхронизации.</summary>
         <value>Одно из значений перечисления, задающее тип изменения события синхронизации.</value>
         <remarks>To be added.</remarks>
       </Docs>

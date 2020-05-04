@@ -1,13 +1,5 @@
 <Type Name="UpdateItemResponse" FullName="Microsoft.Exchange.WebServices.Data.UpdateItemResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f72712ee4165f37c93e5d883a5c004c8872fda83" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627015" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class UpdateItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f72712ee4165f37c93e5d883a5c004c8872fda83" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627015" /></Metadata><TypeSignature Language="C#" Value="public sealed class UpdateItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UpdateItemResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UpdateItemResponse" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UpdateItemResponse&#xA;Inherits ServiceResponse" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет ответ на операцию обновления отдельного элемента.</summary>
+    <summary>Представляет ответ на операцию обновления отдельных элементов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число конфликтов свойств, которые были разрешены во время операции обновления.</summary>
-        <value>Значение типа integer, содержащее число конфликтов свойств.</value>
+        <summary>Получает число конфликтов свойств, разрешенных во время операции обновления.</summary>
+        <value>Целое значение, содержащее количество конфликтов свойств.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,12 +52,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает элемент, который был возвращен операцию обновления.</summary>
+        <summary>Получает элемент, возвращенный операцией обновления.</summary>
         <value>Объект Item.</value>
-        <remarks>
-          <para>ReturnedItem имеет значение только в том случае, когда повторяющейся задачи помечается как завершенные или при изменении повторять.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ретурнедитем задается только в том случае, если повторяющаяся задача помечена как завершенная или когда ее шаблон повторения изменяется.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="AlternateMailbox" FullName="Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="23e070683a8d43935cc2fbd90e53a87effb84747" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627190" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class AlternateMailbox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="23e070683a8d43935cc2fbd90e53a87effb84747" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627190" /></Metadata><TypeSignature Language="C#" Value="public sealed class AlternateMailbox" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AlternateMailbox extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AlternateMailbox" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения об альтернативного к одной из почтовых ящиков пользователей; Например архив для папки "Входящие" пользователя.</summary>
+    <summary>Содержит сведения о альтернативе одному из почтовых ящиков пользователя; Например, архив папки "Входящие" пользователя.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя домена прежних версий альтернативного почтового ящика.</summary>
-        <value>Устаревшие доменное имя альтернативного почтового ящика.</value>
+        <summary>Получает устаревшее доменное имя альтернативного почтового ящика.</summary>
+        <value>Устаревшее доменное имя альтернативного почтового ящика.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,7 +72,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает SMTP-адрес альтернативного почтового ящика владельца. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.OwnerSmtpAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
+        <summary>Получает SMTP-адрес владельца альтернативного почтового ящика. <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.OwnerSmtpAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -100,8 +92,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя сервера, на котором альтернативного почтового ящика.</summary>
-        <value>Имя сервера альтернативного почтового ящика.</value>
+        <summary>Получает имя сервера, на котором размещается альтернативный почтовый ящик.</summary>
+        <value>Имя альтернативного сервера почтовых ящиков.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,8 +112,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает альтернативного почтового ящика адрес Simple Mail Transfer Protocol (SMTP), если <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" /> и <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" /> свойства — это пустая ссылка (Nothing в Visual Basic). <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.SmtpAddress" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Адрес SMTP альтернативного почтового ящика, если <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" /> и <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" /> свойства — это пустая ссылка (Nothing в Visual Basic). В противном случае — значение NULL (Nothing в Visual Basic).</value>
+        <summary>Получает SMTP-адрес дополнительного почтового ящика, если свойства <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" /> и <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" /> не являются пустыми ссылками (Nothing в Visual Basic). <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.SmtpAddress" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Альтернативный адрес SMTP для почтового <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" /> ящика, если свойства и <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" /> имеют пустую ссылку (Nothing в Visual Basic). В противном случае — пустая ссылка (Nothing в Visual Basic).</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -140,7 +132,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип альтернативного почтового ящика; Например архивируйте.</summary>
+        <summary>Получает тип альтернативного почтового ящика; Например, Archive.</summary>
         <value>Тип альтернативного почтового ящика.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="ItemView" FullName="Microsoft.Exchange.WebServices.Data.ItemView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="61d981f03da5d7869a6b7e26fcc5ec4e1abfebaf" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627038" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ItemView : Microsoft.Exchange.WebServices.Data.PagedView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="61d981f03da5d7869a6b7e26fcc5ec4e1abfebaf" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627038" /></Metadata><TypeSignature Language="C#" Value="public sealed class ItemView : Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemView extends Microsoft.Exchange.WebServices.Data.PagedView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemView" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemView&#xA;Inherits PagedView" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет параметры представления в операцию поиска папок.</summary>
+    <summary>Представляет параметры представления в операции поиска папки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="pageSize" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное число элементов, которое возвращает операции поиска.</param>
-        <summary>Инициализирует новый экземпляр класса ItemView с помощью размер заданный страницы.</summary>
+        <param name="pageSize">Максимальное количество элементов, возвращаемых операцией поиска.</param>
+        <summary>Инициализирует новый экземпляр класса Итемвиев, используя предоставленный размер страницы.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,9 +53,9 @@
         <Parameter Name="offset" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное число элементов, которое возвращает операции поиска.</param>
-        <param name="offset">Смещение представления от базовой точки. Идентифицирует начала страницы возвращаемых элементов.</param>
-        <summary>Инициализирует новый экземпляр класса ItemView, используя заданный размер и смещение.</summary>
+        <param name="pageSize">Максимальное количество элементов, возвращаемых операцией поиска.</param>
+        <param name="offset">Смещение представления от базовой точки. Определяет, где будут начинаться страницы возвращаемых элементов.</param>
+        <summary>Инициализирует новый экземпляр класса Итемвиев, используя предоставленный размер страницы и смещение.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,10 +75,10 @@
         <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
       </Parameters>
       <Docs>
-        <param name="pageSize">Максимальное число элементов, которое возвращает операции поиска.</param>
-        <param name="offset">Смещение представления от базовой точки. Идентифицирует начала страницы возвращаемых элементов.</param>
-        <param name="offsetBasePoint">Базовый точка смещение.</param>
-        <summary>Инициализирует новый экземпляр класса ItemView с помощью заданный размер, смещение и базовой точки.</summary>
+        <param name="pageSize">Максимальное количество элементов, возвращаемых операцией поиска.</param>
+        <param name="offset">Смещение представления от базовой точки. Определяет, где будут начинаться страницы возвращаемых элементов.</param>
+        <param name="offsetBasePoint">Базовая точка смещения.</param>
+        <summary>Инициализирует новый экземпляр класса Итемвиев, используя предоставленный размер страницы, смещение и базовую точку.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,8 +97,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает свойства, от которых должны быть упорядочены возвращаемых элементов.</summary>
-        <value>Упорядоченный набор из определения свойств дополнены направление сортировки.</value>
+        <summary>Получает свойства, по которым должны упорядочиваться возвращенные элементы.</summary>
+        <value>Упорядоченная коллекция определений свойств, которые определены в соответствии с направлением сортировки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,10 +119,8 @@
       <Docs>
         <summary>Получает или задает режим обхода поиска.</summary>
         <value>Значение, указывающее, как выполняется поиск.</value>
-        <remarks>
-          <para>По умолчанию используется свойство обхода <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>По умолчанию свойству "обход <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />" присвоено значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="EmailAddress" FullName="Microsoft.Exchange.WebServices.Data.EmailAddress">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c19082b6933e779737526c3c806ef57295d05b08" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627134" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class EmailAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty, Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c19082b6933e779737526c3c806ef57295d05b08" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627134" /></Metadata><TypeSignature Language="C#" Value="public class EmailAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty, Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailAddress extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />
   <TypeSignature Language="VB.NET" Value="Public Class EmailAddress&#xA;Inherits ComplexProperty&#xA;Implements ISearchStringProvider" />
@@ -42,7 +34,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> класса.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> класса.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -62,7 +54,7 @@
       </Parameters>
       <Docs>
         <param name="smtpAddress">SMTP-адрес.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> класс с адресом Simple Mail Transfer Protocol (SMTP).</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> класса с SMTP-адресом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,7 +76,7 @@
       <Docs>
         <param name="name">Имя пользователя почтового ящика.</param>
         <param name="smtpAddress">SMTP-адрес.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> класса с именем пользователя и адрес Simple Mail Transfer Protocol (SMTP).</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> класса с именем пользователя и SMTP-адресом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -108,7 +100,7 @@
         <param name="name">Имя пользователя почтового ящика.</param>
         <param name="address">SMTP-адрес.</param>
         <param name="routingType">Тип маршрутизации.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> класса с именем пользователя, типа маршрутизации и адрес Simple Mail Transfer Protocol (SMTP).</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> класса с именем пользователя, типом МАРШРУТИЗАЦИИ и SMTP-адресом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,11 +120,11 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает адрес электронной почты.</summary>
-        <value>Адрес электронной почты.</value>
-        <remarks>
-          <para>Тип <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> свойство должно соответствовать указанного типа маршрутизации. Если <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" /> свойство не задано, значение <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> предполагается, что свойство является адрес Simple Mail Transfer Protocol (SMTP).</para>
-          <para />
-        </remarks>
+        <value>
+                Параметр NotifyUser
+               указывает действие правила защиты от потери данных, которое уведомляет указанных пользователей, если выполняются условия правила. Допускаются следующие значения:</value>
+        <remarks><para>Тип <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> свойства должен быть соответствующим указанному типу маршрутизации. Если <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" /> свойство не задано, то предполагается, что <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> значение свойства является SMTP-адресом.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -152,11 +144,8 @@
       <Docs>
         <summary>Получает или задает идентификатор контакта, который представляет адрес электронной почты.</summary>
         <value>Идентификатор контакта.</value>
-        <remarks>
-          <para>
-            <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> Свойство должно иметь значение пустая ссылка (Nothing в Visual Basic) при <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Id" /> используется свойство.</para>
-          <para />
-        </remarks>
+        <remarks><para><see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> Свойству необходимо присвоить пустую ссылку (Nothing в Visual Basic) при использовании <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Id" /> свойства.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="MailboxType">
@@ -198,8 +187,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает строковое представление данного экземпляра для использования в поисковый фильтр. <see cref="M:Microsoft.Exchange.WebServices.Data.EmailAddress.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Строковое представление объекта <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> экземпляра.</returns>
+        <summary>Возвращает строковое представление этого экземпляра для использования в фильтре поиска. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.EmailAddress.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Строковое представление этого <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> экземпляра.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -241,10 +230,9 @@
         <Parameter Name="smtpAddress" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="smtpAddress">SMTP-адрес для преобразования в <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> типа.</param>
-        <summary>Определяет неявное преобразование между строку, представляющую адрес Simple Mail Transfer Protocol (SMTP) и <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> объекта.</summary>
-        <returns>
-          <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> Инициализируется данного SMTP-адреса.</returns>
+        <param name="smtpAddress">Адрес SMTP, который необходимо преобразовать в <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> тип.</param>
+        <summary>Определяет неявное преобразование между строкой, представляющей SMTP-адрес и <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> объект.</summary>
+        <returns>Объект <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> , который инициализируется с указанным SMTP-адресом.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -265,10 +253,8 @@
       <Docs>
         <summary>Получает или задает тип маршрутизации, связанный с адресом электронной почты.</summary>
         <value>Тип маршрутизации.</value>
-        <remarks>
-          <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" /> свойство не задано, используется значение по умолчанию «SMTP».</para>
-          <para />
-        </remarks>
+        <remarks><para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" /> свойство не задано, используется значение по умолчанию "SMTP".</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -287,8 +273,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает строку, представляющую <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> объекта.</summary>
-        <returns>Текст адреса электронной почты. Например «user1@contoso.com».</returns>
+        <summary>Возвращает строку, представляющую этот <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> объект.</summary>
+        <returns>Текст адреса электронной почты. Например, "user1@contoso.com".</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

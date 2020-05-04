@@ -1,13 +1,5 @@
 <Type Name="ExtractedEntity" FullName="Microsoft.Exchange.WebServices.Data.ExtractedEntity">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9de1dac9c9e0a068e73c2d6097789be5eaa6ff3d" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627112" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public abstract class ExtractedEntity : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9de1dac9c9e0a068e73c2d6097789be5eaa6ff3d" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627112" /></Metadata><TypeSignature Language="C#" Value="public abstract class ExtractedEntity : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExtractedEntity extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExtractedEntity&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения, извлеченные из сообщения.             <see cref="T:Microsoft.Exchange.WebServices.Data.ExtractedEntity" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения, извлеченные из сообщения.             <see cref="T:Microsoft.Exchange.WebServices.Data.ExtractedEntity" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.EmailPosition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает позицию в сообщение из которой было извлечено сущность.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExtractedEntity.Position" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Позиция в сообщение, из которой было извлечено сущность.</value>
+        <summary>Получает положение в сообщении, из которого была извлечена сущность.             <see cref="P:Microsoft.Exchange.WebServices.Data.ExtractedEntity.Position" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Позиция в сообщении, с которого была извлечена сущность.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

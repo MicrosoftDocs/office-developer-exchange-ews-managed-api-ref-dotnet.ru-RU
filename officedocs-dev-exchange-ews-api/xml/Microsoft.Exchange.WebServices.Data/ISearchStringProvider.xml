@@ -1,13 +1,5 @@
 <Type Name="ISearchStringProvider" FullName="Microsoft.Exchange.WebServices.Data.ISearchStringProvider">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3ef3ecdaf28d778bc4eb0e2c9761512a40ef7572" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626764" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ISearchStringProvider" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3ef3ecdaf28d778bc4eb0e2c9761512a40ef7572" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626764" /></Metadata><TypeSignature Language="C#" Value="public interface ISearchStringProvider" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISearchStringProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISearchStringProvider" />
@@ -18,7 +10,7 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>Создает строковое представление объекта для использования в поисковых фильтров.</summary>
+    <summary>Создает строковое представление объекта для использования в фильтрах поиска.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,8 +30,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает строковое представление объекта для использования в поисковый фильтр.</summary>
-        <returns>Представление объекта, которые можно использовать в поисковый фильтр.</returns>
+        <summary>Возвращает строковое представление этого объекта для использования в фильтре поиска.</summary>
+        <returns>Представление этого объекта, которое можно использовать в фильтре поиска.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

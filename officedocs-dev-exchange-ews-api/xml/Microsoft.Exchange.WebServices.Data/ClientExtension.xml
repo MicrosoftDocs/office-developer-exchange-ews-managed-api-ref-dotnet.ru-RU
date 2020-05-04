@@ -1,13 +1,5 @@
 <Type Name="ClientExtension" FullName="Microsoft.Exchange.WebServices.Data.ClientExtension">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="206a1bb75a365473bd19cf7621c3d5b30082368b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627123" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class ClientExtension : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="206a1bb75a365473bd19cf7621c3d5b30082368b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627123" /></Metadata><TypeSignature Language="C#" Value="public sealed class ClientExtension : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientExtension extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientExtension&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Определяет ссылку на объект расширения клиента.             <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет ссылку на объект расширения клиента.             <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,21 +44,18 @@
       </Parameters>
       <Docs>
         <param name="type">Тип расширения.</param>
-        <param name="scope">Расширение установки области действия.</param>
+        <param name="scope">Область установки расширения.</param>
         <param name="manifestStream">Поток манифеста; может иметь значение null.</param>
-        <param name="marketplaceAssetID">Идентификатор средства Office Marketplace.</param>
+        <param name="marketplaceAssetID">Идентификатор актива для Office Marketplace.</param>
         <param name="marketplaceContentMarket">Рынок контента для Office Marketplace.</param>
-        <param name="isAvailable">
-          <b>значение true,</b> Если данное расширение имени файла; в противном случае — <b>false</b>.</param>
-        <param name="isMandatory">
-          <b>значение true,</b> Если расширение не является обязательным. в противном случае — <b>false</b>.</param>
-        <param name="isEnabledByDefault">
-          <b>значение true,</b> Если этот параметр включен данное расширение имени файла по умолчанию; в противном случае — <b>false</b>.</param>
-        <param name="providedTo">Членство в группе организации.</param>
-        <param name="specificUsers">Список пользователей расширение предоставляется может иметь значение null.</param>
+        <param name="isAvailable"><b>значение true</b> , если расширение доступно; в противном случае — <b>false</b>.</param>
+        <param name="isMandatory"><b>значение true</b> , если расширение является обязательным; в противном случае — <b>false</b>.</param>
+        <param name="isEnabledByDefault"><b>значение true</b> , если расширение включено по умолчанию; в противном случае — <b>false</b>.</param>
+        <param name="providedTo">Членство в организационной группе.</param>
+        <param name="specificUsers">Предоставляется список расширений пользователей; может иметь значение null.</param>
         <param name="appStatus">Состояние приложения.</param>
         <param name="etoken">Маркер обслуживания для приложения.</param>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> класса. <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> класса. Этот <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,7 +74,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает состояние приложения. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
+        <summary>Получает или задает состояние приложения. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,7 +94,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает маркер обслуживания для приложения. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
+        <summary>Получает или задает маркер обслуживания для приложения. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с 15.00.0847.032.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -125,9 +114,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, доступно ли данное расширение имени файла. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если данное расширение имени файла; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, доступно ли расширение. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если расширение доступно; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -146,9 +134,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, включена ли данное расширение имени файла по умолчанию.  <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если этот параметр включен данное расширение имени файла по умолчанию; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, включено ли расширение по умолчанию.  <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если расширение включено по умолчанию; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -167,9 +154,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли данное расширение имени файла является обязательным.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если расширение не является обязательным. в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли расширение обязательным.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если расширение является обязательным; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -188,8 +174,8 @@
         <ReturnType>System.IO.Stream</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расширение манифеста поток.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Расширение манифеста поток.</value>
+        <summary>Получает или задает поток манифеста расширения.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Поток манифеста расширения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -208,8 +194,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или устанавливает код актива для Office Marketplace.        <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Идентификатор средства Office Marketplace.</value>
+        <summary>Получает или задает идентификатор актива для Office Marketplace.        <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Идентификатор актива для Office Marketplace.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -228,8 +214,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает содержимое marketplace. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Содержимое marketplace.</value>
+        <summary>Возвращает или задает контент из Marketplace. <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Контент Marketplace.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -248,8 +234,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает членство в группе организации, можно получить доступ данное расширение имени файла.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Расширение значение ProvidedTo.</value>
+        <summary>Получает или задает принадлежность к организационной группе, которая может получать доступ к расширению.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение расширения ProvidedTo.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -268,8 +254,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionInstallScope</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расширение области.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Расширение области.</value>
+        <summary>Получает или задает область расширения.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Область расширения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -288,8 +274,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список пользователей, которые этот модуль.     <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Список пользователей, к которым предоставляется это расширение.</value>
+        <summary>Получает или задает список пользователей, для которых предоставляется расширение.     <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Список пользователей, которым предоставлено это расширение.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -308,7 +294,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тип расширения.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает тип расширения.             <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Тип расширения.</value>
         <remarks>To be added.</remarks>
       </Docs>

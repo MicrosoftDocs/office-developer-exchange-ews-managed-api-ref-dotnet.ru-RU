@@ -1,13 +1,5 @@
 <Type Name="Conflict" FullName="Microsoft.Exchange.WebServices.Data.Conflict">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b2924a6aaca27b01b1a495410e1c6c400956209b" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626980" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class Conflict : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b2924a6aaca27b01b1a495410e1c6c400956209b" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626980" /></Metadata><TypeSignature Language="C#" Value="public sealed class Conflict : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Conflict extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Conflict" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Conflict&#xA;Inherits ComplexProperty" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет конфликта на собрании время предложения.</summary>
+    <summary>Представляет конфликт в предложении по времени проведения собрания.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип конфликта, который отображается.</summary>
-        <value>Один из <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictType" /> значений перечисления, указывающее тип конфликта.</value>
+        <summary>Возвращает тип конфликтующего сообщения.</summary>
+        <value>Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictType" /> перечисления, указывающее тип конфликта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,12 +52,10 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает состояние занятости конфликтующие attendee.</summary>
-        <value>Один из <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> значений перечисления, указывающее состояние сведений о доступности.</value>
-        <remarks>
-          <para>Значение этого свойства применяется только тогда, когда <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> свойству <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.IndividualAttendeeConflict" />.</para>
-          <para />
-        </remarks>
+        <summary>Получает сведения о занятости конфликтующего участника.</summary>
+        <value>Одно из значений <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> перечисления, указывающее состояние занятости.</value>
+        <remarks><para>Значение этого свойства имеет смысл только в том случае, <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> если для <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.IndividualAttendeeConflict" />свойства задано значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfMembers">
@@ -83,14 +73,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество пользователей, ресурсов и комнат конфликтующие группы.</summary>
-        <value>
-          <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a>
-        </value>
-        <remarks>
-          <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembers" /> свойство применяется только тогда, когда <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> свойству <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />.</para>
-          <para />
-        </remarks>
+        <summary>Получает количество пользователей, ресурсов и комнат в конфликтующей группе.</summary>
+        <value>Объект <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a></value>
+        <remarks><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembers" /> свойства имеет смысл только в том случае, <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> если для <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />свойства задано значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfMembersAvailable">
@@ -108,14 +94,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число участников, которые доступны (, состояние которого является бесплатными) в группе конфликтующие.</summary>
-        <value>
-          <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a>
-        </value>
-        <remarks>
-          <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersAvailable" /> свойство применяется только тогда, когда <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> свойству <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />.</para>
-          <para />
-        </remarks>
+        <summary>Получает количество доступных участников (состояние которых свободно) в конфликтующей группе.</summary>
+        <value>Объект <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a></value>
+        <remarks><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersAvailable" /> свойства имеет смысл только в том случае, <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> если для <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />свойства задано значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfMembersWithConflict">
@@ -133,14 +115,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число участников, имеющих конфликта (которого имеет состояние «занят», об отсутствии на работе или под вопросом) в группе конфликтующие.</summary>
-        <value>
-          <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a>
-        </value>
-        <remarks>
-          <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithConflict" /> свойство применяется только тогда, когда <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> свойству <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />.</para>
-          <para />
-        </remarks>
+        <summary>Получает количество участников, у которых есть конфликт (состояние "занято", "нет на месте" или "под вопросом") в конфликтующей группе.</summary>
+        <value>Объект <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a></value>
+        <remarks><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithConflict" /> свойства имеет смысл только в том случае, <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> если для <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />свойства задано значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfMembersWithNoData">
@@ -158,14 +136,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число участников, у которых нет опубликованных данных о доступности в группе конфликтующие.</summary>
-        <value>
-          <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a>
-        </value>
-        <remarks>
-          <para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithNoData" /> свойство применяется только тогда, когда <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> свойству <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />.</para>
-          <para />
-        </remarks>
+        <summary>Получает число участников, у которых нет опубликованных сведений о занятости в конфликтующей группе.</summary>
+        <value>Объект <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a></value>
+        <remarks><para>Значение <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithNoData" /> свойства имеет смысл только в том случае, <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> если для <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />свойства задано значение.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

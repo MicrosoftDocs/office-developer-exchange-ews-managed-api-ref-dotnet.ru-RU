@@ -1,13 +1,5 @@
 <Type Name="ExtensionInstallScope" FullName="Microsoft.Exchange.WebServices.Data.ExtensionInstallScope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="355081a47485d86a28af82eb5e10942c88e5a87c" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626575" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ExtensionInstallScope" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="355081a47485d86a28af82eb5e10942c88e5a87c" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626575" /></Metadata><TypeSignature Language="C#" Value="public enum ExtensionInstallScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExtensionInstallScope extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" />
   <TypeSignature Language="VB.NET" Value="Public Enum ExtensionInstallScope" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет область управления доступом на основе ролей для расширения.             <see cref="T:Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" /> Перечисление используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Определяет область управления доступом на основе ролей для расширения.             <see cref="T:Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" /> Перечисление применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Настройки по умолчанию.             Поля по умолчанию используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Настроенное значение по умолчанию.             Поле по умолчанию применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Нет доступа к соответствующей задачи.             Нет поля используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Нет доступа для связанной задачи.             Поле "нет" подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="Organization">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Группа «все» в связанной организации.             Поля «организация» используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Группа "все" в связанной организации.             Поле Organization (организация) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
     <Member MemberName="User">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Связанный пользователь.             Поля пользователя используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Связанный пользователь.             Поле User (пользователь) подходит для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Task" FullName="Microsoft.Exchange.WebServices.Data.Task">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="34e75740d4da8773702891d7b056b9fd673a8d76" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627018" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Task : Microsoft.Exchange.WebServices.Data.Item" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="34e75740d4da8773702891d7b056b9fd673a8d76" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627018" /></Metadata><TypeSignature Language="C#" Value="public class Task : Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Task extends Microsoft.Exchange.WebServices.Data.Item" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Task" />
   <TypeSignature Language="VB.NET" Value="Public Class Task&#xA;Inherits Item" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Представляет элемент задачи. Свойства, доступные на задачи определяются в классе TaskSchema.</summary>
+    <summary>Представляет элемент задачи. Свойства, доступные в задачах, определяются в классе Тасксчема.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
       </Parameters>
       <Docs>
-        <param name="service">Экземпляр ExchangeService, к которому привязывается этой задачи.</param>
-        <summary>Инициализирует несохраненные локальный экземпляр. Чтобы выполнить привязку к существующей задачи, используйте Task.Bind().</summary>
+        <param name="service">Экземпляр ExchangeService, к которому привязана эта задача.</param>
+        <summary>Инициализирует несохраненный локальный экземпляр. Чтобы выполнить присоединение к существующей задаче, используйте вместо нее Task. bind ().</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает фактическое время, затрачиваемое на задачи.</summary>
-        <value>Целочисленное значение; или значение null.</value>
+        <summary>Получает или задает фактическое количество времени, затраченное на выполнение задачи.</summary>
+        <value>Целое значение; или null.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату и время, назначенных задаче.</summary>
-        <value>Значение даты и времени; или значение null.</value>
+        <summary>Получает дату и время назначения задачи.</summary>
+        <value>Значение даты и времени; или null.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,7 +92,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает сведения об оплате задачи.</summary>
+        <summary>Получает или задает сведения о выставлении счетов для задачи.</summary>
         <value>Строковое значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -124,10 +116,10 @@
         <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к задаче.</param>
-        <param name="id">Идентификатор задачи для привязки.</param>
-        <summary>Выполняет привязку к существующей задачи и загружает его свойства первого класса.            Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
-        <returns>Экземпляр задачи, представляющее задач, в соответствии с указанным идентификатором.</returns>
+        <param name="service">Служба, используемая для выполнения связывания с задачей.</param>
+        <param name="id">Идентификатор задачи, к которой необходимо присоединиться.</param>
+        <summary>Выполняет присоединение к существующей задаче и загружает ее свойства первого класса.            Вызов этого метода приводит к вызову EWS.</summary>
+        <returns>Экземпляр задачи, представляющий задачу, соответствующую указанному идентификатору.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -150,11 +142,11 @@
         <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
       </Parameters>
       <Docs>
-        <param name="service">Служба должна использовать для привязки к задаче.</param>
-        <param name="id">Идентификатор задачи для привязки.</param>
+        <param name="service">Служба, используемая для выполнения связывания с задачей.</param>
+        <param name="id">Идентификатор задачи, к которой необходимо присоединиться.</param>
         <param name="propertySet">Набор свойств для загрузки.</param>
-        <summary>Выполняет привязку к существующей задачи и загружает указанный набор свойств.            Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
-        <returns>Экземпляр задачи, представляющее задач, в соответствии с указанным идентификатором.</returns>
+        <summary>Выполняет присоединение к существующей задаче и загружает заданный набор свойств.            Вызов этого метода приводит к вызову EWS.</summary>
+        <returns>Экземпляр задачи, представляющий задачу, соответствующую указанному идентификатору.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -173,8 +165,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество отправок задачи был изменен с момента его создания.</summary>
-        <value>Целое значение, содержащее число попыток задачи, была изменена.</value>
+        <summary>Получает количество изменений, произошедших с момента создания задачи.</summary>
+        <value>Целое значение, содержащее количество изменений в задаче.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -193,8 +185,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает список компаний, связанные с задачей.</summary>
-        <value>Объект основная система.</value>
+        <summary>Получает или задает список компаний, связанных с задачей.</summary>
+        <value>Объект Стринглист.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -214,7 +206,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает дату и время завершения задачи.</summary>
-        <value>Значение даты и времени; или значение null.</value>
+        <value>Значение даты и времени; или null.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -234,7 +226,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает список контактов, связанных с задачей.</summary>
-        <value>Объект основная система.</value>
+        <value>Объект Стринглист.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -253,8 +245,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TaskDelegationState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает текущее состояние делегирование задачи.</summary>
-        <value>Одно из значений перечисления TaskDelegationState.</value>
+        <summary>Получает текущее состояние делегирования задачи.</summary>
+        <value>Одно из значений перечисления Таскделегатионстате.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -273,8 +265,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя сотрудника этой задачи.</summary>
-        <value>Значение типа string, содержащая имя сотрудника.</value>
+        <summary>Получает имя представителя этой задачи.</summary>
+        <value>Строковое значение, содержащее имя представителя.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -296,7 +288,7 @@
       </Parameters>
       <Docs>
         <param name="deleteMode">Режим удаления.</param>
-        <summary>Удаляет текущий экземпляр повторяющейся задачи. После текущей isdeleted вхождение задача представляет следующее вхождение. Разработчики должны вызывать нагрузку так, чтобы получить новые значения свойств задачи. Вызывает этот метод результаты в вызов веб-служб Exchange.</summary>
+        <summary>Удаляет текущее вхождение повторяющейся задачи. После удаления текущего вхождения задача представляет следующий экземпляр. Разработчики должны вызвать загрузку, чтобы получить новые значения свойств задачи. Вызов этого метода приводит к вызову EWS.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -315,8 +307,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату и время, на котором срок выполнения задачи.</summary>
-        <value>Значение даты и времени; или значение null.</value>
+        <summary>Получает или задает дату и время выполнения задачи.</summary>
+        <value>Значение даты и времени; или null.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -335,7 +327,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли задача завершена.</summary>
+        <summary>Получает значение, указывающее, завершена ли задача.</summary>
         <value>Значение true, если задача завершена; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -355,8 +347,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли Повторяющаяся задача.</summary>
-        <value>Значение true, если для повторяющейся задачи; в противном случае — false.</value>
+        <summary>Получает значение, указывающее, является ли задача повторяющейся.</summary>
+        <value>Значение true, если задача повторяется; в противном случае — false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -395,7 +387,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расстояние задачи.</summary>
+        <summary>Получает или задает расстояние от задачи.</summary>
         <value>Строковое значение, содержащее расстояние задачи.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -415,8 +407,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее режим задачи.</summary>
-        <value>Одно из значений перечисления TaskMode.</value>
+        <summary>Получает значение, указывающее режим выполнения задачи.</summary>
+        <value>Одно из значений перечисления Таскмоде.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -455,8 +447,8 @@
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает completeion процент выполнения задачи. PercentComplete должен быть между 0 и 100.</summary>
-        <value>Значение типа Double, указывающее процент выполнения задачи.</value>
+        <summary>Получает или задает процент завершения задачи. Значение PercentComplete должно находиться в пределах от 0 до 100.</summary>
+        <value>Двойное значение, указывающее процент выполнения для задачи.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -475,8 +467,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает шаблон повторения для этой задачи. Классы шаблонов доступные повторения относятся Recurrence.DailyPattern, Recurrence.MonthlyPattern и Recurrence.YearlyPattern.</summary>
-        <value>Объект рекурсии.</value>
+        <summary>Получает или задает шаблон повторения для этой задачи. Доступные классы шаблонов повторения включают повторения. Даилипаттерн, повторения. Монслипаттерн и повторения. Еарлипаттерн.</summary>
+        <value>Объект повторения.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -495,8 +487,8 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дату и время, на котором запускается задание.</summary>
-        <value>Значение даты и времени; или значение null.</value>
+        <summary>Получает или задает дату и время начала задачи.</summary>
+        <value>Значение даты и времени; или null.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -516,7 +508,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает состояние задачи.</summary>
-        <value>Одно из значений перечисления статус этогозадания.</value>
+        <value>Одно из значений перечисления Таскстатус.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -535,7 +527,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает строку, представляющую состояние задачи, локализованное по свойству PreferredCulture объекта ExchangeService, с которым связано задание.</summary>
+        <summary>Получает строку, представляющую состояние задачи, локализованное в соответствии со свойством Преферредкултуре объекта ExchangeService, к которому привязана задача.</summary>
         <value>Строковое значение, содержащее описание состояния.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -555,8 +547,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает общий объем работы, затраченное на выполнение задачи.</summary>
-        <value>Целочисленное значение; или значение null.</value>
+        <summary>Получает или задает общий объем работы, затраченной на задачу.</summary>
+        <value>Целое значение; или null.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -577,9 +569,9 @@
         <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
       </Parameters>
       <Docs>
-        <param name="conflictResolutionMode">Указывает, разрешению конфликтов.</param>
-        <summary>Применяет локальные изменения, внесенные в этой задаче. При вызове этого метода приводит к по крайней мере один вызов веб-служб Exchange.            Множественные вызовы веб-служб Exchange может выполнить при добавлении или удалении вложения.</summary>
-        <returns>Объект задач, представляющий завершенный вхождение повторяющейся задачи и обновление помечается как выполненное; или задачи, представляющий текущее вхождение Если повторяющейся задачи и обновление изменено повторять; или значение null, во всех других случаях.</returns>
+        <param name="conflictResolutionMode">Определяет способ разрешения конфликтов.</param>
+        <summary>Применяет локальные изменения, внесенные в эту задачу. Вызов этого метода приводит к по крайней мере один вызов EWS.            Вызовы мутлипле в EWS могут быть сделаны при добавлении или удалении вложений.</summary>
+        <returns>Объект Task, представляющий завершенный экземпляр, если задача повторяется, а обновление помечает как завершенное. или объект Task, представляющий текущее событие, если задача повторяется, а обновление изменяет шаблон повторения; или NULL в любом другом случае.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

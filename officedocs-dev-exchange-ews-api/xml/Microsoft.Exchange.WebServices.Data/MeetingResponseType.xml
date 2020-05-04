@@ -1,13 +1,5 @@
 <Type Name="MeetingResponseType" FullName="Microsoft.Exchange.WebServices.Data.MeetingResponseType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f41eb0d64eb8ad03f377fb908ebbd301700545d2" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20627281" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MeetingResponseType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f41eb0d64eb8ad03f377fb908ebbd301700545d2" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20627281" /></Metadata><TypeSignature Language="C#" Value="public enum MeetingResponseType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MeetingResponseType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MeetingResponseType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет константы, которые определяют тип ответа, присвоенное приглашения на собрание.</summary>
+    <summary>Задает константы, определяющие тип ответа, выданного приглашению на собрание.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Ответом accept.</summary>
+        <summary>Ответ на принятие.</summary>
       </Docs>
     </Member>
     <Member MemberName="Decline">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Отклонить ответа.</summary>
+        <summary>Отклик отклонения.</summary>
       </Docs>
     </Member>
     <Member MemberName="NoResponseReceived">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Ответ не был получен.</summary>
+        <summary>Отклик не получен.</summary>
       </Docs>
     </Member>
     <Member MemberName="Organizer">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Нет ответа; прошедший проверку подлинности пользователь является организатором собрания.</summary>
+        <summary>Нет отклика; прошедший проверку подлинности пользователь является организатором собрания.</summary>
       </Docs>
     </Member>
     <Member MemberName="Tentative">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>A принять под вопросом ответа.</summary>
+        <summary>Ответ с предварительным принятием.</summary>
       </Docs>
     </Member>
     <Member MemberName="Unknown">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Неизвестный ответа.</summary>
+        <summary>Неизвестный ответ.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OrderByCollection" FullName="Microsoft.Exchange.WebServices.Data.OrderByCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a08b639bc5e26e58d1790b0cd1674b6536d18342" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626911" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class OrderByCollection : System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.SortDirection&gt;&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a08b639bc5e26e58d1790b0cd1674b6536d18342" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626911" /></Metadata><TypeSignature Language="C#" Value="public sealed class OrderByCollection : System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.SortDirection&gt;&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OrderByCollection extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase, valuetype Microsoft.Exchange.WebServices.Data.SortDirection&gt;&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OrderByCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OrderByCollection&#xA;Implements IEnumerable(Of KeyValuePair(Of PropertyDefinitionBase, SortDirection))" />
@@ -25,7 +17,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Представляет упорядоченную коллекцию определений свойств, которые указаны с направление сортировки.</summary>
+    <summary>Представляет упорядоченную коллекцию определений свойств, которые определены в соответствии с направлением сортировки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,8 +40,8 @@
       </Parameters>
       <Docs>
         <param name="propertyDefinition">Определение свойства.</param>
-        <param name="sortDirection">Порядок сортировки по возрастанию или убыванию.</param>
-        <summary>Добавляет в коллекцию пару направление определения/сортировки указанного свойства.</summary>
+        <param name="sortDirection">Порядок сортировки: по возрастанию или по убыванию.</param>
+        <summary>Добавляет указанную комбинацию определения и сортировки свойств в коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -89,7 +81,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает число элементов в коллекции.</summary>
-        <value>Количество элементов в коллекции.</value>
+        <value>Число элементов в коллекции.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -135,9 +127,9 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Индекс определения свойства, которое требуется вернуть.</param>
+        <param name="index">Индекс возвращаемого определения свойства.</param>
         <summary>Получает определение свойства по указанному индексу в коллекции.</summary>
-        <value>Свойство определения и порядок сортировки по указанному индексу в коллекции.</value>
+        <value>Определение свойства и порядок сортировки по указанному индексу в коллекции.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,10 +151,9 @@
         <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">В определении свойств.</param>
-        <summary>Удаляет определение указанное свойство из коллекции.</summary>
-        <returns>
-          <b>значение true,</b> Если был удален в определении свойств; в противном случае — <b>false</b>.</returns>
+        <param name="propertyDefinition">Определение свойства, которое требуется удалить.</param>
+        <summary>Удаляет указанное определение свойства из коллекции.</summary>
+        <returns><b>значение true</b> , если определение свойства удалено; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -208,8 +199,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.             <see cref="M:Microsoft.Exchange.WebServices.Data.OrderByCollection.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для итерации по коллекции.</returns>
+        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.             Этот <see cref="M:Microsoft.Exchange.WebServices.Data.OrderByCollection.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию по коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -232,10 +223,10 @@
         <Parameter Name="sortDirection" Type="Microsoft.Exchange.WebServices.Data.SortDirection&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="propertyDefinition">Определение свойства для получения.</param>
-        <param name="sortDirection">Направление сортировки для свойства. Если в определении свойств не найден, этот параметр является пустая ссылка (Nothing в Visual Basic). Это свойство передается неинициализированную переменную.</param>
-        <summary>Возвращает определение указанное свойство из коллекции.</summary>
-        <returns>возвращается <b>значение true,</b> Если порядок сортировки в определении свойств; в противном случае — <b>false</b>.</returns>
+        <param name="propertyDefinition">Определение свойства, которое требуется получить.</param>
+        <param name="sortDirection">Направление сортировки для свойства. Если определение свойства не найдено, этот параметр является пустой ссылкой (Nothing в Visual Basic). Это свойство передается неинициализированным.</param>
+        <summary>Возвращает определение указанного свойства из коллекции.</summary>
+        <returns><b>значение true</b> , если возвращается порядок сортировки определения свойства; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

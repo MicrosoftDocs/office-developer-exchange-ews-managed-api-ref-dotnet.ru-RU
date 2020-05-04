@@ -1,13 +1,5 @@
 <Type Name="PhoneEntity" FullName="Microsoft.Exchange.WebServices.Data.PhoneEntity">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="577bb940b9e70aa774bfaf6c255b5dcf749c40ee" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626577" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PhoneEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="577bb940b9e70aa774bfaf6c255b5dcf749c40ee" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626577" /></Metadata><TypeSignature Language="C#" Value="public sealed class PhoneEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhoneEntity extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhoneEntity&#xA;Inherits ExtractedEntity" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит номер телефона, извлеченные из части сообщения.             <see cref="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит номер телефона, извлеченный из части сообщения.             <see cref="T:Microsoft.Exchange.WebServices.Data.PhoneEntity" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение номер телефона, как и в части исходного сообщения.             <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.OriginalPhoneString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Телефон сущности телефона строка.</value>
+        <summary>Возвращает значение номера телефона, в котором она находилась в исходной части сообщения.             <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.OriginalPhoneString" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Исходная телефонная строка телефонного объекта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,8 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает извлеченные телефонный номер.             <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.PhoneString" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Строка, содержащая телефон сущности телефона.</value>
+        <summary>Получает извлеченный номер телефона.             <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.PhoneString" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Телефонная строка телефонного объекта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,8 +72,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип извлеченные телефона. Например бизнеса или дома.             <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.Type" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Тип сущности телефона.</value>
+        <summary>Получает извлеченный тип телефона. Например, "предприятие" или "Главная".             <see cref="P:Microsoft.Exchange.WebServices.Data.PhoneEntity.Type" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Тип телефонного объекта.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

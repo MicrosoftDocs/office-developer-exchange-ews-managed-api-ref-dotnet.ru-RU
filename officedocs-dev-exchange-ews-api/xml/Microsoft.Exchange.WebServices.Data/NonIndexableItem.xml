@@ -1,13 +1,5 @@
 <Type Name="NonIndexableItem" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="889e417283e485dbbf8dbec12b3b5262d0d76a37" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626590" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class NonIndexableItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="889e417283e485dbbf8dbec12b3b5262d0d76a37" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626590" /></Metadata><TypeSignature Language="C#" Value="public sealed class NonIndexableItem" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItem extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItem" />
@@ -21,7 +13,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Содержит сведения об элементе в почтовом ящике, в котором произошел сбой при попытке индекса.             <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> Класс используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+    <summary>Содержит сведения об элементе в почтовом ящике, для которого не удалось выполнить попытку индексирования.             <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> Класс применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -38,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр объекта <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> класса. <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> Конструктор используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Инициализирует новый экземпляр <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> класса. <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> Конструктор применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дополнительные сведения о почтовом ящике, на котором ошибка при попытке индекса.           <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает дополнительные сведения о почтовом ящике, для которого не удалось выполнить попытку индексирования.           <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Дополнительные сведения.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,8 +69,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает количество попыток для индексации в целевой почтовый ящик.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Число попыток.</value>
+        <summary>Получает или задает число попыток индексирования целевого почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Количество попыток.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,7 +89,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIndexError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает код ошибки, индекса неудачной попытки.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает код ошибки попытки неудачного индекса.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Код ошибки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,7 +109,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает описание ошибки, индекса неудачной попытки.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает описание ошибки попытки неудачного индекса.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Описание ошибки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,9 +129,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает, является ли элемент в почтовом ящике, где частично успешно при попытке индекса.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если частично индексируются; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, находится ли элемент в почтовом ящике, если попытка выполнить операцию с индексом была выполнена частично.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>имеет значение true</b> , если частичный индексированный; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,9 +149,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает, является ли постоянный сбой при попытке индекса на целевой почтовый ящик.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если это постоянный сбой; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, является ли попытка индекса в целевом почтовом ящике постоянным сбоем.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если это постоянная ошибка; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -179,7 +169,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор элемента в почтовом ящике, где была предпринята попытка индекса.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает идентификатор элемента почтового ящика, в котором была сделана попытка выполнить индексирование.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Идентификатор элемента.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,7 +189,7 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает время, когда была предпринята попытка последнего для индексации в целевой почтовый ящик.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <summary>Получает или задает время последней попытки индексирования конечного почтового ящика.             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Время последней попытки.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -219,8 +209,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, используемое для сортировки элементов с целью индекс элемента.            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Значение параметра сортировки.</value>
+        <summary>Получает или задает значение, используемое при попытке сортировки элементов в индексе элемента.            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Значение сортировки.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

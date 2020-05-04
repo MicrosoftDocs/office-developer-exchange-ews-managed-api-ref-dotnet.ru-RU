@@ -1,13 +1,5 @@
 <Type Name="PropertySet" FullName="Microsoft.Exchange.WebServices.Data.PropertySet">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a66eac0127ccc25e96b2f298bdaf6b5b1bac5dc7" />
-    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20626965" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public sealed class PropertySet : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a66eac0127ccc25e96b2f298bdaf6b5b1bac5dc7" /><Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20626965" /></Metadata><TypeSignature Language="C#" Value="public sealed class PropertySet : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PropertySet extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertySet" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PropertySet&#xA;Implements IEnumerable(Of PropertyDefinitionBase)" />
@@ -25,11 +17,9 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Представляет набор свойств, элемента или папки.</summary>
-    <remarks>
-      <para>Наборы свойств используются для указания того, какие свойства элемента или папки, которые должны быть загружены при привязке к существующего элемента или папки или при загрузке элемента или свойств папки.</para>
-      <para />
-    </remarks>
+    <summary>Представляет набор свойств элемента или папки.</summary>
+    <remarks><para>Наборы свойств используются, чтобы указать, какие свойства элемента или папки должны загружаться при привязке к существующему элементу или папке или при загрузке свойств элемента или папки.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -45,7 +35,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Инициализирует новый экземпляр класса PropertySet, используя идентификатор.</summary>
+        <summary>Инициализирует новый экземпляр класса набора свойств на основе идентификатора.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,8 +53,8 @@
         <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
       </Parameters>
       <Docs>
-        <param name="basePropertySet">Базовый свойство будет создана свойство.</param>
-        <summary>Инициализирует новый экземпляр класса PropertySet, на основе указанного свойства базового набора.</summary>
+        <param name="basePropertySet">Базовое свойство, для которого задается свойство Base.</param>
+        <summary>Инициализирует новый экземпляр класса набора свойств на основе указанного базового набора свойств.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -89,8 +79,8 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="additionalProperties">Дополнительные свойства необходимо включить в набор свойств. Определения свойств доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.).</param>
-        <summary>Инициализирует новый экземпляр класса PropertySet, на основе идентификатора и определенные дополнительные свойства.</summary>
+        <param name="additionalProperties">Дополнительные свойства, которые необходимо включить в набор свойств. Определения свойств доступны в виде статических элементов из классов схемы (например, Емаилмессажесчема. subject, Аппоинтментсчема. Start, Контактсчема. GivenName и т. д.).</param>
+        <summary>Инициализирует новый экземпляр класса набора свойств на основе идентификатора и заданных дополнительных свойств.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -109,8 +99,8 @@
         <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
       </Parameters>
       <Docs>
-        <param name="additionalProperties">Дополнительные свойства необходимо включить в набор свойств. Определения свойств доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.).</param>
-        <summary>Инициализирует новый экземпляр класса PropertySet, на основе идентификатора и указанной коллекции дополнительные свойства.</summary>
+        <param name="additionalProperties">Дополнительные свойства, которые необходимо включить в набор свойств. Определения свойств доступны в виде статических элементов из классов схемы (например, Емаилмессажесчема. subject, Аппоинтментсчема. Start, Контактсчема. GivenName и т. д.).</param>
+        <summary>Инициализирует новый экземпляр класса набора свойств на основе идентификатора и указанной коллекции дополнительных свойств.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -135,13 +125,11 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="basePropertySet">Базовый свойство будет создана свойство.</param>
-        <param name="additionalProperties">Дополнительные свойства необходимо включить в набор свойств.</param>
-        <summary>Инициализирует новый экземпляр класса PropertySet с указанным набором базового и дополнительные свойства.</summary>
-        <remarks>
-          <para>Свойство определения доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject, AppointmentSchema.Start, ContactSchema.GivenName и т.д.)</para>
-          <para />
-        </remarks>
+        <param name="basePropertySet">Базовое свойство, для которого задается свойство Base.</param>
+        <param name="additionalProperties">Дополнительные свойства, включаемые в набор свойств.</param>
+        <summary>Инициализирует новый экземпляр класса набора свойств с указанным базовым набором свойств и дополнительными свойствами.</summary>
+        <remarks><para>Определения свойств доступны в виде статических элементов из классов схемы (например, Емаилмессажесчема. subject, Аппоинтментсчема. Start, Контактсчема. GivenName и т. д.)</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -159,9 +147,9 @@
         <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
       </Parameters>
       <Docs>
-        <param name="basePropertySet">Базовый свойство будет создана свойство.</param>
-        <param name="additionalProperties">Дополнительные свойства необходимо включить в набор свойств. Свойство определения доступны как статические члены из классов схемы (например, EmailMessageSchema.Subject AppointmentSchema.Start, ContactSchema.GivenName и т. д.)</param>
-        <summary>Инициализирует новый экземпляр класса PropertySet с указанным набором базового и набор дополнительных свойств.</summary>
+        <param name="basePropertySet">Базовое свойство, для которого задается свойство Base.</param>
+        <param name="additionalProperties">Дополнительные свойства, включаемые в набор свойств. Определения свойств доступны в виде статических элементов из классов схемы (например, Емаилмессажесчема. subject, Аппоинтментсчема. Start, Контактсчема. GivenName и т. д.).</param>
+        <summary>Инициализирует новый экземпляр класса набора свойств с указанным базовым набором свойств и коллекцией дополнительных свойств.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,8 +171,8 @@
         <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="property">Чтобы добавить свойство.</param>
-        <summary>Добавляет указанное свойство набором свойств.</summary>
+        <param name="property">Свойство, которое требуется добавить.</param>
+        <summary>Добавляет указанное свойство в набор свойств.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -203,9 +191,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, добавьте атрибут пустой целевой ссылки привязки.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true</b> для добавления пустой целевой атрибут для привязки ссылок; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, следует ли добавить пустой целевой атрибут для ссылок на привязки.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , чтобы добавить пустой целевой атрибут для ссылок на привязки; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -227,8 +214,8 @@
         <Parameter Name="properties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
       </Parameters>
       <Docs>
-        <param name="properties">Свойства, которые нужно добавить.</param>
-        <summary>Добавляет указанного свойства в набор свойств.</summary>
+        <param name="properties">Свойства, которые требуется добавить.</param>
+        <summary>Добавляет указанные свойства в набор свойств.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -247,8 +234,8 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.BasePropertySet</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает набор базовых свойств на основе набора свойств.</summary>
-        <value>Набор базового свойства на основе набора свойств.</value>
+        <summary>Получает или задает базовый набор свойств, на котором основан набор свойств.</summary>
+        <value>Базовый набор свойств, на котором основано свойство Set.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -267,9 +254,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли преобразовать URL-адресов, которые указывают на файлы изображений, встроенных изображений.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>
-          <b>значение true,</b> Если URL-адресов, которые указывают на файлы изображений должны быть преобразованы в встроенных изображений; в противном случае — <b>false</b>.</value>
+        <summary>Получает или задает значение, указывающее, следует ли преобразовать URL-адреса, указывающие на файлы изображений, в встроенные изображения.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value><b>значение true</b> , если URL-адреса, указывающие на файлы изображений, должны быть преобразованы в встроенные изображения; в противном случае — <b>false</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -289,7 +275,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет все явно добавлена свойства из набора свойств.</summary>
+        <summary>Удаляет все явно добавленные свойства из набора свойств.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -312,9 +298,8 @@
       </Parameters>
       <Docs>
         <param name="property">Свойство.</param>
-        <summary>Определяет, является ли указанное свойство явно добавлена с этим свойством, задание с помощью методов Add или AddRange.</summary>
-        <returns>
-          <b>значение true,</b> Если значение этого свойства, содержащий указанное свойство; в противном случае — <b>false</b>.</returns>
+        <summary>Определяет, было ли указанное свойство явно добавлено к этому свойству с помощью методов Add и AddRange.</summary>
+        <returns><b>значение true</b> , если набор свойств содержит указанное свойство; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -333,9 +318,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли сервер преобразование кода HTML-страницу для кодировки UTF8.</summary>
-        <value>
-          <b>значение true,</b> Если сервер следует преобразовать код HTML-страницу UTF9; в противном случае — <b>false</b>. Это свойство может быть пустая ссылка (Nothing в Visual Basic).</value>
+        <summary>Получает или задает значение, указывающее, должен ли сервер преобразовать HTML-код в кодировку UTF8.</summary>
+        <value><b>имеет значение true</b> , если сервер должен преобразовать кодовую страницу HTML в UTF9; в противном случае — <b>false</b>. Это свойство может быть пустой ссылкой (Nothing в Visual Basic).</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -354,8 +338,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает число свойств, явно добавлена в этот набор.</summary>
-        <value>Число свойств явно добавлена в указанным набором свойств.</value>
+        <summary>Получает число явно добавленных свойств в этом наборе.</summary>
+        <value>Число явно добавленных свойств в заданном наборе свойств.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -374,9 +358,8 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли потенциально небезопасных HTML-фильтра содержимого из текстов сообщений.</summary>
-        <value>
-          <b>значение true,</b> чтобы отфильтровать потенциально небезопасных HTML-контента; в противном случае — <b>false</b>. Это свойство может быть пустая ссылка (Nothing в Visual Basic).</value>
+        <summary>Получает или задает значение, указывающее, следует ли фильтровать потенциально небезопасное содержимое HTML из тела сообщения.</summary>
+        <value><b>значение true</b> , чтобы фильтровать потенциально небезопасное содержимое HTML; в противном случае — <b>false</b>. Это свойство может быть пустой ссылкой (Nothing в Visual Basic).</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -395,7 +378,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Набор предварительно заданных свойств, который включает в себя первого класса свойства элемента или папки.</summary>
+        <summary>Предопределенный набор свойств, включающий свойства первого класса элемента или папки.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -438,7 +421,7 @@
         <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Набор предварительно заданных свойств, содержащий только свойства ID.</summary>
+        <summary>Предопределенный набор свойств, включающий только свойство ID.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -457,8 +440,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает URL-адрес шаблона, используемого для встроенных изображений.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>URL-адрес шаблона для встроенных изображений.</value>
+        <summary>Получает или задает URL-адрес шаблона, который будет использоваться для встроенных изображений.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>URL-адрес шаблона, используемый для встроенных изображений.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -480,8 +463,8 @@
         <Parameter Name="index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="index">Индекс запрошенного свойства в набор свойств.</param>
-        <summary>Получает элемент по указанному индексу.            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <param name="index">Индекс запрошенного свойства в наборе свойств.</param>
+        <summary>Получает элемент по указанному индексу.            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
         <value>Элемент по указанному индексу.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -501,8 +484,8 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает максимальный размер текста нужно вернуть.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> Свойство используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <value>Максимальный размер текста нужно вернуть.</value>
+        <summary>Получает или задает максимальный размер извлекаемого текста.             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" /> Свойство применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <value>Максимальный размер извлекаемого текста.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -523,9 +506,9 @@
         <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
       </Parameters>
       <Docs>
-        <param name="basePropertySet">Значение BasePropertySet для преобразования.</param>
-        <summary>Реализует неявное преобразование между PropertySet и BasePropertySet.</summary>
-        <returns>Экземпляр PropertySet, основанный на указанным базового набором свойств.</returns>
+        <param name="basePropertySet">Значение Басепропертисет, из которого необходимо выполнить преобразование.</param>
+        <summary>Реализует неявное преобразование между классом свойства и классом Басепропертисет.</summary>
+        <returns>Экземпляр набора свойств, основанный на указанном базовом наборе свойств.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -547,10 +530,9 @@
         <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
       </Parameters>
       <Docs>
-        <param name="property">Свойство для удаления.</param>
+        <param name="property">Свойство, которое требуется удалить.</param>
         <summary>Удаляет указанное свойство из набора.</summary>
-        <returns>
-          <b>значение true,</b> Если свойство успешно удалено; в противном случае — <b>false</b>.</returns>
+        <returns><b>значение true</b> , если свойство было успешно удалено; в противном случае — <b>false</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -569,12 +551,10 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тип текст, который следует загрузить на элементы.</summary>
-        <value>Одно из значений перечисления типа текста сообщения. Это свойство может быть пустая ссылка (Nothing в Visual Basic).</value>
-        <remarks>
-          <para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> свойство является пустая ссылка (Nothing в Visual Basic), основной текст элемента возвращается в виде HTML-код, если он доступен; в противном случае тексте запроса возвращаются в виде обычного текста.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает тип основного текста, который должен загружаться в элементах.</summary>
+        <value>Одно из значений перечисления BodyType. Это свойство может быть пустой ссылкой (Nothing в Visual Basic).</value>
+        <remarks><para>Если <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" /> свойство является пустой ссылкой (Nothing в Visual Basic), текст элемента возвращается в виде HTML, если он доступен; в противном случае текст возвращается в виде обычного текста.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="RequestedNormalizedBodyType">
@@ -592,12 +572,10 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тип текст, который должен быть загружен для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойств элементов.</summary>
+        <summary>Получает или задает тип основного текста, который должен загружаться для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойства элементов.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если значение null, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> свойство будет иметь совпадает с типом <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> свойство.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если значение равно NULL <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> , свойство будет иметь тот же тип, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> что и свойство.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="RequestedUniqueBodyType">
@@ -615,12 +593,10 @@
         <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает тип текст, который должен быть загружен для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> свойств элементов.</summary>
+        <summary>Получает или задает тип основного текста, который должен загружаться для <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> свойства элементов.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если значение null, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> свойство будет иметь совпадает с типом <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> свойство.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если значение равно NULL <see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" /> , свойство будет иметь тот же тип, <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> что и свойство.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
@@ -642,8 +618,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.            <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> Метод используется для клиентов, относящихся к Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
-        <returns>Перечислитель для просмотра элементов из коллекции.</returns>
+        <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.            Этот <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" /> метод применяется для клиентов, которые ориентированы на Exchange Online и версии Exchange, начиная с Exchange Server 2013.</summary>
+        <returns>Перечислитель, который выполняет итерацию элементов коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
